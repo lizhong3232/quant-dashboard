@@ -1,0 +1,202 @@
+{
+  "timestamp": "2026-09-07 00:05:12.950629",
+  "benchmark": "510300.SS",
+  "evaluation_metrics": {
+    "total_days": 482,
+    "total_return_portfolio_pct": 67.41,
+    "total_return_benchmark_pct": 40.76,
+    "total_alpha_pct": 26.65,
+    "annualized_return_portfolio_pct": 30.92,
+    "annualized_return_benchmark_pct": 19.57,
+    "annualized_alpha_pct": 11.35,
+    "annualized_volatility_portfolio_pct": 20.58,
+    "annualized_volatility_benchmark_pct": 17.17,
+    "tracking_error_pct": 10.87,
+    "information_ratio": 1.044,
+    "sharpe_ratio": 1.405,
+    "sortino_ratio": 1.506,
+    "treynor_ratio": 28.358,
+    "beta": 1.02,
+    "max_drawdown_pct": 15.77,
+    "calmar_ratio": 1.961,
+    "daily_win_rate_pct": 53.1,
+    "gain_to_pain_ratio": 1.162
+  },
+  "brinson_attribution": {
+    "summary": {
+      "total_allocation_effect_pct": 11.01,
+      "total_selection_effect_pct": 2.89,
+      "total_interaction_effect_pct": -0.17,
+      "selection_dominance_ratio": 0.208
+    },
+    "industry_breakdown": [
+      {
+        "industry": "公用事业",
+        "weight_portfolio_pct": 6.408365922858675,
+        "weight_benchmark_pct": 7.407407407407374,
+        "active_weight_pct": -0.9990414845486989,
+        "return_portfolio_pct": -2.5332896359711135,
+        "return_benchmark_pct": -3.581619603971953,
+        "allocation_effect_pct": 0.4429852343799825,
+        "selection_effect_pct": 0.07765407170376551,
+        "interaction_effect_pct": -0.010473251275284484,
+        "total_excess_pct": 0.5101660548084634
+      },
+      {
+        "industry": "医药生物",
+        "weight_portfolio_pct": 7.281803542673107,
+        "weight_benchmark_pct": 11.111111111111061,
+        "active_weight_pct": -3.8293075684379536,
+        "return_portfolio_pct": -15.797942788682015,
+        "return_benchmark_pct": -20.244618162873234,
+        "allocation_effect_pct": 2.3360316910235404,
+        "selection_effect_pct": 0.4940750415768,
+        "interaction_effect_pct": -0.17027687664777105,
+        "total_excess_pct": 2.659829855952569
+      },
+      {
+        "industry": "家用电器",
+        "weight_portfolio_pct": 8.119546047082277,
+        "weight_benchmark_pct": 7.407407407407374,
+        "active_weight_pct": 0.7121386396749043,
+        "return_portfolio_pct": 33.86453846743234,
+        "return_benchmark_pct": 26.507365999682815,
+        "allocation_effect_pct": -0.10149427945160955,
+        "selection_effect_pct": 0.544975738351814,
+        "interaction_effect_pct": 0.05239326793036804,
+        "total_excess_pct": 0.4958747268305725
+      },
+      {
+        "industry": "机械装备",
+        "weight_portfolio_pct": 6.113334866958055,
+        "weight_benchmark_pct": 7.407407407407374,
+        "active_weight_pct": -1.294072540449319,
+        "return_portfolio_pct": 20.553860873486727,
+        "return_benchmark_pct": 16.89529342821704,
+        "allocation_effect_pct": 0.30881891994036326,
+        "selection_effect_pct": 0.2710049959459015,
+        "interaction_effect_pct": -0.04734451668305318,
+        "total_excess_pct": 0.5324793992032116
+      },
+      {
+        "industry": "汽车制造",
+        "weight_portfolio_pct": 4.618510850394908,
+        "weight_benchmark_pct": 7.407407407407374,
+        "active_weight_pct": -2.7888965570124657,
+        "return_portfolio_pct": -12.852634381720907,
+        "return_benchmark_pct": -13.654355749693325,
+        "allocation_effect_pct": 1.517543511010826,
+        "selection_effect_pct": 0.05938676799795669,
+        "interaction_effect_pct": -0.02235917962821603,
+        "total_excess_pct": 1.5545710993805666
+      },
+      {
+        "industry": "煤炭能源",
+        "weight_portfolio_pct": 8.119546047082277,
+        "weight_benchmark_pct": 7.407407407407374,
+        "active_weight_pct": 0.7121386396749043,
+        "return_portfolio_pct": 31.942351816629422,
+        "return_benchmark_pct": 31.492726858644804,
+        "allocation_effect_pct": -0.0659915984477125,
+        "selection_effect_pct": 0.033305552443304874,
+        "interaction_effect_pct": 0.003201953059430518,
+        "total_excess_pct": -0.029484092944977114
+      },
+      {
+        "industry": "电力设备",
+        "weight_portfolio_pct": 4.07944176060118,
+        "weight_benchmark_pct": 3.703703703703687,
+        "active_weight_pct": 0.3757380568974934,
+        "return_portfolio_pct": 97.41384354641967,
+        "return_benchmark_pct": 97.41384354641967,
+        "allocation_effect_pct": 0.21287228506906986,
+        "selection_effect_pct": 4.111937128241302e-16,
+        "interaction_effect_pct": 4.171530419955143e-17,
+        "total_excess_pct": 0.21287228506907033
+      },
+      {
+        "industry": "电子科技",
+        "weight_portfolio_pct": 22.069051453109424,
+        "weight_benchmark_pct": 18.518518518518434,
+        "active_weight_pct": 3.5505329345909886,
+        "return_portfolio_pct": 192.0690666664156,
+        "return_benchmark_pct": 187.42396319373913,
+        "allocation_effect_pct": 5.207373428136793,
+        "selection_effect_pct": 0.8602043467919371,
+        "interaction_effect_pct": 0.1649259286432082,
+        "total_excess_pct": 6.232503703571938
+      },
+      {
+        "industry": "石油石化",
+        "weight_portfolio_pct": 3.5483858599800633,
+        "weight_benchmark_pct": 3.703703703703687,
+        "active_weight_pct": -0.15531784372362356,
+        "return_portfolio_pct": -8.474443648126462,
+        "return_benchmark_pct": -8.474443648126462,
+        "allocation_effect_pct": 0.07646895271066431,
+        "selection_effect_pct": 0.0,
+        "interaction_effect_pct": -0.0,
+        "total_excess_pct": 0.07646895271066431
+      },
+      {
+        "industry": "银行金融",
+        "weight_portfolio_pct": 8.807951844183727,
+        "weight_benchmark_pct": 7.407407407407374,
+        "active_weight_pct": 1.4005444367763533,
+        "return_portfolio_pct": 37.63285275517868,
+        "return_benchmark_pct": 37.55138785655375,
+        "allocation_effect_pct": -0.044929711118055465,
+        "selection_effect_pct": 0.006034436935179808,
+        "interaction_effect_pct": 0.001140952105616922,
+        "total_excess_pct": -0.037754322077258734
+      },
+      {
+        "industry": "非银金融",
+        "weight_portfolio_pct": 7.5294839352810365,
+        "weight_benchmark_pct": 7.407407407407374,
+        "active_weight_pct": 0.12207652787366297,
+        "return_portfolio_pct": 48.6949463866981,
+        "return_benchmark_pct": 48.76833172606123,
+        "allocation_effect_pct": 0.00977701918905615,
+        "selection_effect_pct": -0.005435951063935125,
+        "interaction_effect_pct": -8.958627426280687e-05,
+        "total_excess_pct": 0.004251481850858219
+      },
+      {
+        "industry": "食品饮料",
+        "weight_portfolio_pct": 8.30457786979526,
+        "weight_benchmark_pct": 11.111111111111061,
+        "active_weight_pct": -2.8065332413158006,
+        "return_portfolio_pct": 6.0334846969927955,
+        "return_benchmark_pct": 1.0913445221858398,
+        "allocation_effect_pct": 1.1132973144858054,
+        "selection_effect_pct": 0.5491266860896593,
+        "interaction_effect_pct": -0.13870280683838002,
+        "total_excess_pct": 1.5237211937370847
+      }
+    ]
+  },
+  "barra_factor_pnl_summary": {
+    "total_active_return": 67.08,
+    "specific_alpha": -31.46,
+    "factor_Size": -3.17,
+    "factor_Beta": -2.35,
+    "factor_Momentum": 74.62,
+    "factor_Volatility": -9.13,
+    "factor_Value": 43.23,
+    "factor_Liquidity": -3.92
+  },
+  "live_portfolio_audit": {
+    "account_nav": 0.9865,
+    "stock_weight_pct": 32.92,
+    "cash_weight_pct": 67.08,
+    "industry_exposure_pct": {
+      "医药生物": 5.15,
+      "食品饮料": 5.93,
+      "非银金融": 5.71,
+      "煤炭能源": 6.07,
+      "电子科技": 5.89,
+      "银行金融": 4.16
+    }
+  }
+}

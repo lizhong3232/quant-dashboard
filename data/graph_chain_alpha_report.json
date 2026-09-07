@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-09-06 21:40:17.471273",
+  "edges_count": 16,
+  "factor_evaluations": {
+    "graph_upstream_shock": {
+      "mean_rank_ic": 0.0023,
+      "ic_std": 0.2708,
+      "icir": 0.06,
+      "t_stat": 0.18,
+      "win_rate_pct": 48.1,
+      "n_samples": 418
+    },
+    "graph_peer_lead": {
+      "mean_rank_ic": 0.0026,
+      "ic_std": 0.1774,
+      "icir": 0.1,
+      "t_stat": 0.3,
+      "win_rate_pct": 50.2,
+      "n_samples": 418
+    },
+    "graph_catchup_potential": {
+      "mean_rank_ic": 0.0007,
+      "ic_std": 0.2248,
+      "icir": 0.02,
+      "t_stat": 0.06,
+      "win_rate_pct": 52.9,
+      "n_samples": 418
+    }
+  },
+  "latest_signals": {
+    "002594.SZ": {
+      "name": "比亚迪",
+      "upstream_shock_pct": 0.07,
+      "peer_lead_pct": 0.0,
+      "catchup_potential_pct": -1.96
+    },
+    "601633.SS": {
+      "name": "长城汽车",
+      "upstream_shock_pct": 0.07,
+      "peer_lead_pct": 0.0,
+      "catchup_potential_pct": -1.89
+    },
+    "601138.SS": {
+      "name": "工业富联",
+      "upstream_shock_pct": 0.89,
+      "peer_lead_pct": 0.0,
+      "catchup_potential_pct": -5.18
+    },
+    "002463.SZ": {
+      "name": "沪电股份",
+      "upstream_shock_pct": 3.44,
+      "peer_lead_pct": 0.0,
+      "catchup_potential_pct": 1.17
+    },
+    "600900.SS": {
+      "name": "长江电力",
+      "upstream_shock_pct": -4.15,
+      "peer_lead_pct": 0.0,
+      "catchup_potential_pct": -6.65
+    },
+    "000858.SZ": {
+      "name": "五粮液",
+      "upstream_shock_pct": 0.0,
+      "peer_lead_pct": -0.76,
+      "catchup_potential_pct": 1.7
+    },
+    "601166.SS": {
+      "name": "兴业银行",
+      "upstream_shock_pct": 0.0,
+      "peer_lead_pct": -1.25,
+      "catchup_potential_pct": -0.46
+    },
+    "300760.SZ": {
+      "name": "迈瑞医疗",
+      "upstream_shock_pct": 0.0,
+      "peer_lead_pct": 0.04,
+      "catchup_potential_pct": -1.94
+    }
+  }
+}

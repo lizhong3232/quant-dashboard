@@ -1,0 +1,133 @@
+{
+  "timestamp": "2026-09-06 23:47:43",
+  "initial_capital": 100000.0,
+  "final_capital": 193917.1,
+  "total_trading_days": 452,
+  "metrics": {
+    "total_return_pct": 93.92,
+    "benchmark_return_pct": 22.51,
+    "alpha_excess_pct": 71.41,
+    "annualized_return_pct": 44.66,
+    "annualized_volatility_pct": 30.27,
+    "sharpe_ratio": 1.409,
+    "max_drawdown_pct": 17.49,
+    "calmar_ratio": 2.554,
+    "win_rate_pct": 35.2,
+    "profit_loss_ratio": 2.96,
+    "total_trades": 165,
+    "avg_win_trade_pct": 8.26,
+    "avg_loss_trade_pct": 2.79
+  },
+  "recent_trades": [
+    {
+      "ticker": "300033.SZ",
+      "entry_price": 249.39999389648438,
+      "exit_price": 242.42,
+      "shares": 300,
+      "pnl_amount": -2145.87,
+      "pnl_pct": -2.89,
+      "reason": "硬止损触发 (-2.8%)",
+      "entry_date": "2026-06-24",
+      "exit_date": "2026-06-25"
+    },
+    {
+      "ticker": "300033.SZ",
+      "entry_price": 259.0,
+      "exit_price": 251.75,
+      "shares": 300,
+      "pnl_amount": -2228.47,
+      "pnl_pct": -2.89,
+      "reason": "硬止损触发 (-2.8%)",
+      "entry_date": "2026-06-26",
+      "exit_date": "2026-06-29"
+    },
+    {
+      "ticker": "300059.SZ",
+      "entry_price": 21.110000610351562,
+      "exit_price": 20.52,
+      "shares": 4400,
+      "pnl_amount": -2663.95,
+      "pnl_pct": -2.89,
+      "reason": "硬止损触发 (-2.8%)",
+      "entry_date": "2026-06-26",
+      "exit_date": "2026-06-29"
+    },
+    {
+      "ticker": "300474.SZ",
+      "entry_price": 60.47999954223633,
+      "exit_price": 58.79,
+      "shares": 1500,
+      "pnl_amount": -2601.89,
+      "pnl_pct": -2.89,
+      "reason": "硬止损触发 (-2.8%)",
+      "entry_date": "2026-07-01",
+      "exit_date": "2026-07-02"
+    },
+    {
+      "ticker": "688981.SS",
+      "entry_price": 158.82000732421875,
+      "exit_price": 154.37,
+      "shares": 500,
+      "pnl_amount": -2277.51,
+      "pnl_pct": -2.89,
+      "reason": "硬止损触发 (-2.8%)",
+      "entry_date": "2026-07-01",
+      "exit_date": "2026-07-02"
+    },
+    {
+      "ticker": "688036.SS",
+      "entry_price": 59.42072296142578,
+      "exit_price": 62.89,
+      "shares": 1500,
+      "pnl_amount": 5140.42,
+      "pnl_pct": 5.75,
+      "reason": "追踪移动止盈 (锁定主升浪)",
+      "entry_date": "2026-07-06",
+      "exit_date": "2026-07-08"
+    },
+    {
+      "ticker": "688111.SS",
+      "entry_price": 274.45001220703125,
+      "exit_price": 267.1,
+      "shares": 300,
+      "pnl_amount": -2261.09,
+      "pnl_pct": -2.77,
+      "reason": "跌破MA5短期均线止盈",
+      "entry_date": "2026-08-05",
+      "exit_date": "2026-08-07"
+    },
+    {
+      "ticker": "301236.SZ",
+      "entry_price": 42.18000030517578,
+      "exit_price": 41.0,
+      "shares": 2100,
+      "pnl_amount": -2540.45,
+      "pnl_pct": -2.89,
+      "reason": "硬止损触发 (-2.8%)",
+      "entry_date": "2026-08-07",
+      "exit_date": "2026-08-10"
+    },
+    {
+      "ticker": "601138.SS",
+      "entry_price": 68.2699966430664,
+      "exit_price": 66.36,
+      "shares": 1300,
+      "pnl_amount": -2545.41,
+      "pnl_pct": -2.89,
+      "reason": "硬止损触发 (-2.8%)",
+      "entry_date": "2026-08-07",
+      "exit_date": "2026-08-12"
+    },
+    {
+      "ticker": "300442.SZ",
+      "entry_price": 72.58999633789062,
+      "exit_price": 70.56,
+      "shares": 1200,
+      "pnl_amount": -2498.29,
+      "pnl_pct": -2.89,
+      "reason": "硬止损触发 (-2.8%)",
+      "entry_date": "2026-08-18",
+      "exit_date": "2026-08-19"
+    }
+  ]
+}

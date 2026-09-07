@@ -1,0 +1,102 @@
+{
+  "side": "BUY",
+  "total_shares": 5000,
+  "arrival_price": 56.4,
+  "immediate_px": 56.438,
+  "twap_avg_px": 56.429,
+  "rl_avg_px": 56.422,
+  "slippage_immediate_bps": 6.76,
+  "slippage_twap_bps": 5.13,
+  "slippage_rl_bps": 3.92,
+  "improvement_vs_twap_bps": 1.21,
+  "cost_saved_cny": 33.99,
+  "action_trace": [
+    {
+      "step": 1,
+      "ofi": 0.371,
+      "action": "Passive_Limit",
+      "shares": 500,
+      "price": 56.393,
+      "mid_price": 56.392
+    },
+    {
+      "step": 2,
+      "ofi": -0.533,
+      "action": "Aggressive_Market",
+      "shares": 800,
+      "price": 56.381,
+      "mid_price": 56.371
+    },
+    {
+      "step": 3,
+      "ofi": 1.0,
+      "action": "Passive_Limit",
+      "shares": 500,
+      "price": 56.402,
+      "mid_price": 56.402
+    },
+    {
+      "step": 4,
+      "ofi": -0.176,
+      "action": "Neutral_TWAP",
+      "shares": 500,
+      "price": 56.421,
+      "mid_price": 56.416
+    },
+    {
+      "step": 5,
+      "ofi": 0.129,
+      "action": "Neutral_TWAP",
+      "shares": 500,
+      "price": 56.433,
+      "mid_price": 56.427
+    },
+    {
+      "step": 6,
+      "ofi": -0.093,
+      "action": "Neutral_TWAP",
+      "shares": 500,
+      "price": 56.442,
+      "mid_price": 56.437
+    },
+    {
+      "step": 7,
+      "ofi": 0.036,
+      "action": "Neutral_TWAP",
+      "shares": 500,
+      "price": 56.448,
+      "mid_price": 56.443
+    },
+    {
+      "step": 8,
+      "ofi": -0.241,
+      "action": "Neutral_TWAP",
+      "shares": 500,
+      "price": 56.441,
+      "mid_price": 56.436
+    },
+    {
+      "step": 9,
+      "ofi": 0.093,
+      "action": "Neutral_TWAP",
+      "shares": 500,
+      "price": 56.447,
+      "mid_price": 56.442
+    },
+    {
+      "step": 10,
+      "ofi": 0.261,
+      "action": "Aggressive_Market",
+      "shares": 200,
+      "price": 56.465,
+      "mid_price": 56.46
+    }
+  ],
+  "monte_carlo_stats": {
+    "mean_immediate_bps": 6.76,
+    "mean_twap_bps": 1.7648,
+    "mean_rl_bps": 1.5172000000000003,
+    "improvement_vs_twap_bps": 0.2475999999999996,
+    "improvement_vs_immediate_bps": 5.242799999999999
+  }
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "alpha_id": "gp_alpha_1",
+    "formula": "ts_delay(ts_corr(vwap, low, 40), 10)",
+    "mean_ic": 0.0622,
+    "icir": 0.254,
+    "fitness": 6.199
+  },
+  {
+    "alpha_id": "gp_alpha_2",
+    "formula": "ts_corr(ts_min(high, 10), ts_corr(vwap, volume, 5), 20)",
+    "mean_ic": -0.0575,
+    "icir": -0.276,
+    "fitness": 5.715
+  },
+  {
+    "alpha_id": "gp_alpha_3",
+    "formula": "ts_mean(ts_corr(vwap, low, 40), 10)",
+    "mean_ic": 0.0562,
+    "icir": 0.234,
+    "fitness": 5.598
+  }
+]

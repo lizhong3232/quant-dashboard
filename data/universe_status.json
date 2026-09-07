@@ -1,0 +1,283 @@
+{
+  "last_updated": "2026-09-06 22:44:32",
+  "total_candidates": 33,
+  "active_universe_count": 26,
+  "promoted_candidates_count": 5,
+  "quarantine_count": 2,
+  "active_universe": [
+    {
+      "ticker": "601138.SS",
+      "name": "工业富联",
+      "sector": "硬核科技",
+      "sub_industry": "AI算力服务器",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "sector": "硬核科技",
+      "sub_industry": "半导体代工",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
+      "sector": "硬核科技",
+      "sub_industry": "AI算力高多层PCB",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "002415.SZ",
+      "name": "海康威视",
+      "sector": "硬核科技",
+      "sub_industry": "计算机视觉物联",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600584.SS",
+      "name": "长电科技",
+      "sector": "硬核科技",
+      "sub_industry": "半导体先进封装",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "sector": "核心消费",
+      "sub_industry": "高端白酒/极致ROE",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "000858.SZ",
+      "name": "五粮液",
+      "sector": "核心消费",
+      "sub_industry": "白酒龙头",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600887.SS",
+      "name": "伊利股份",
+      "sector": "核心消费",
+      "sub_industry": "乳制品快消",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "000333.SZ",
+      "name": "美的集团",
+      "sector": "核心消费",
+      "sub_industry": "智能家电出海",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600690.SS",
+      "name": "海尔智家",
+      "sector": "核心消费",
+      "sub_industry": "全球白电品牌",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "sector": "先进制造",
+      "sub_industry": "新能源汽车与电池全球龙头",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "sector": "先进制造",
+      "sub_industry": "动力与储能电池",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600031.SS",
+      "name": "三一重工",
+      "sector": "先进制造",
+      "sub_industry": "工程机械出海",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "601633.SS",
+      "name": "长城汽车",
+      "sector": "先进制造",
+      "sub_industry": "整车制造出海",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600900.SS",
+      "name": "长江电力",
+      "sector": "公用事业",
+      "sub_industry": "水电特许垄断",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "601088.SS",
+      "name": "中国神华",
+      "sector": "周期资源",
+      "sub_industry": "煤炭能源/高分红",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "601225.SS",
+      "name": "陕西煤业",
+      "sector": "周期资源",
+      "sub_industry": "煤炭高ROE",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "sector": "周期资源",
+      "sub_industry": "石化特许央企",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "601985.SS",
+      "name": "中国核电",
+      "sector": "公用事业",
+      "sub_industry": "核电清洁能源",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "601766.SS",
+      "name": "中国中车",
+      "sector": "先进制造",
+      "sub_industry": "轨交装备特许央企",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600036.SS",
+      "name": "招商银行",
+      "sector": "核心金融",
+      "sub_industry": "商业银行之王",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "601318.SS",
+      "name": "中国平安",
+      "sector": "核心金融",
+      "sub_industry": "综合金融保险",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600030.SS",
+      "name": "中信证券",
+      "sector": "核心金融",
+      "sub_industry": "头部券商龙头",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "601166.SS",
+      "name": "兴业银行",
+      "sector": "核心金融",
+      "sub_industry": "股份制商业银行",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "600276.SS",
+      "name": "恒瑞医药",
+      "sector": "医药生物",
+      "sub_industry": "创新药研发龙头",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    },
+    {
+      "ticker": "300760.SZ",
+      "name": "迈瑞医疗",
+      "sector": "医药生物",
+      "sub_industry": "高端医疗器械出海",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "通过流动性、基本面ROE及行业龙头地位初筛"
+    }
+  ],
+  "promoted_candidates": [
+    {
+      "ticker": "300308.SZ",
+      "name": "中际旭创",
+      "sector": "硬核科技",
+      "sub_industry": "800G/1.6T光模块",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "AI高算力/出海高景气动量突破，触发晋升提名"
+    },
+    {
+      "ticker": "300502.SZ",
+      "name": "新易盛",
+      "sector": "硬核科技",
+      "sub_industry": "高速光器件出海",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "AI高算力/出海高景气动量突破，触发晋升提名"
+    },
+    {
+      "ticker": "688256.SS",
+      "name": "寒武纪",
+      "sector": "硬核科技",
+      "sub_industry": "AI大模型加速芯片",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "AI高算力/出海高景气动量突破，触发晋升提名"
+    },
+    {
+      "ticker": "002371.SZ",
+      "name": "北方华创",
+      "sector": "硬核科技",
+      "sub_industry": "半导体刻蚀设备",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "AI高算力/出海高景气动量突破，触发晋升提名"
+    },
+    {
+      "ticker": "601899.SS",
+      "name": "紫金矿业",
+      "sector": "周期资源",
+      "sub_industry": "铜金稀缺矿产全球运营",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "AI高算力/出海高景气动量突破，触发晋升提名"
+    }
+  ],
+  "quarantine_pool": [
+    {
+      "ticker": "600436.SS",
+      "name": "片仔癀",
+      "sector": "医药生物",
+      "sub_industry": "中药特许品牌",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "外部地缘或估值周期承压，进入隔离冷冻观察池 (30日禁入)"
+    },
+    {
+      "ticker": "603259.SS",
+      "name": "药明康德",
+      "sector": "医药生物",
+      "sub_industry": "CXO研发服务/地缘博弈",
+      "last_evaluated": "2026-09-06 22:44:32",
+      "reason": "外部地缘或估值周期承压，进入隔离冷冻观察池 (30日禁入)"
+    }
+  ],
+  "lifecycle_rules": {
+    "liquidity_gate": "日均成交额 > 2.0 亿元，近 60 日未触及退市/ST风险",
+    "promotion_criteria": "多因子合成 Rank IC 前 15%，且近 20 日动量超越行业基准",
+    "demotion_criteria": "连续 60 日多因子综合评分处于后 15% 或 跌破 200 日长期均线且回撤超 20%",
+    "quarantine_period_days": 20
+  }
+}

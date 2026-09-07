@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="zh-CN" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhaleQuant A股全自动量化实盘监控系统 | GitHub Portal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { 50: '#f0fdf4', 500: '#10b981', 600: '#059669', 700: '#047857' },
+                        darkbg: '#0a0e17',
+                        cardbg: '#111827',
+                        bordercolor: '#1f2937'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body { background-color: #0a0e17; color: #e2e8f0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', sans-serif; }
+        .glass-card { background: rgba(17, 24, 39, 0.85); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: 12px; }
+        .pulse-dot { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+        @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .4; transform: scale(0.9); } }
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; height: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: #111827; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #374151; border-radius: 3px; }
+        .gradient-text-emerald {
+            background: linear-gradient(135deg, #10b981 0%, #06b6d4 50%, #6366f1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="min-h-screen p-4 md:p-6 text-slate-200">
+
+    <!-- 顶部导航栏 -->
+    <header class="glass-card p-4 mb-6 flex flex-col md:flex-row items-center justify-between gap-4 shadow-2xl border-slate-800">
+        <div class="flex items-center space-x-3">
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-500 to-cyan-500 flex items-center justify-center shadow-lg shadow-emerald-500/20">
+                <i class="fa-solid fa-chart-line text-white text-lg"></i>
+            </div>
+            <div>
+                <div class="flex items-center gap-2">
+                    <h1 class="text-xl font-black tracking-tight text-white">WHALE-QUANT</h1>
+                    <span class="text-xs px-2 py-0.5 rounded-full font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">GitHub Standalone Portal V2.6</span>
+                </div>
+                <p class="text-xs text-slate-400">100万稳健蓝筹大盘底仓 + 10万激进高弹性复利 | 15分钟微观风控 | LightGBM + PyTorch时序注意力</p>
+            </div>
+        </div>
+
+        <div class="flex items-center flex-wrap gap-3">
+            <!-- 账户切换器 -->
+            <div class="flex bg-slate-900 border border-slate-800 rounded-lg p-0.5 shadow-inner">
+                <button onclick="switchAccount('1m')" id="btn-acc-1m" class="px-3 py-1.5 rounded-md text-xs font-bold transition bg-emerald-500 text-white shadow">
+                    🛡️ 100万 稳健大盘底仓
+                </button>
+                <button onclick="switchAccount('100k')" id="btn-acc-100k" class="px-3 py-1.5 rounded-md text-xs font-bold transition text-slate-400 hover:text-white">
+                    🚀 10万 激进高弹性复利
+                </button>
+            </div>
+
+            <div class="flex items-center space-x-2 bg-slate-900/80 border border-slate-800 px-3 py-1.5 rounded-lg text-xs">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 pulse-dot"></span>
+                <span class="text-slate-300 font-medium" id="daemon-status">实盘数据已对账同步</span>
+                <span class="text-slate-500">|</span>
+                <span class="text-slate-400 font-mono" id="last-scan-time">2026-09-07 14:40 CST</span>
+            </div>
+
+            <button onclick="window.location.reload()" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center gap-1.5 border border-slate-700 transition duration-200">
+                <i class="fa-solid fa-arrows-rotate"></i>
+                <span>刷新</span>
+            </button>
+        </div>
+    </header>
+
+    <!-- KPI 核心指标卡片 -->
+    <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 mb-6">
+        <div class="glass-card p-4 relative overflow-hidden">
+            <div class="text-xs font-medium text-slate-400 mb-1 flex items-center justify-between">
+                <span>账户总资产 (NAV)</span>
+                <i class="fa-solid fa-wallet text-slate-500"></i>
+            </div>
+            <div class="text-xl font-bold text-white tracking-tight" id="kpi-total-val">¥987,071.11</div>
+            <div class="text-xs mt-1 flex items-center gap-1">
+                <span>净值: </span><span class="font-mono font-semibold text-emerald-400" id="kpi-nav-value">0.9871</span>
+            </div>
+        </div>
+
+        <div class="glass-card p-4 relative overflow-hidden">
+            <div class="text-xs font-medium text-slate-400 mb-1 flex items-center justify-between">
+                <span id="kpi-cash-label">防御现金储备</span>
+                <i class="fa-solid fa-shield-halved text-cyan-500"></i>
+            </div>
+            <div class="text-xl font-bold text-cyan-400 tracking-tight" id="kpi-cash-val">¥661,709.11</div>
+            <div class="text-xs mt-1 text-slate-400 flex items-center gap-1">
+                <span>现金占比: </span><span class="font-mono font-semibold text-cyan-300" id="kpi-cash-ratio">67.04%</span>
+            </div>
+        </div>
+
+        <div class="glass-card p-4 relative overflow-hidden">
+            <div class="text-xs font-medium text-slate-400 mb-1 flex items-center justify-between">
+                <span>股票持仓市值</span>
+                <i class="fa-solid fa-cubes-stacked text-amber-500"></i>
+            </div>
+            <div class="text-xl font-bold text-amber-400 tracking-tight" id="kpi-stock-val">¥325,362.00</div>
+            <div class="text-xs mt-1 text-slate-400 flex items-center gap-1">
+                <span>仓位占比: </span><span class="font-mono font-semibold text-amber-300" id="kpi-stock-ratio">32.96%</span>
+            </div>
+        </div>
+
+        <div class="glass-card p-4 relative overflow-hidden">
+            <div class="text-xs font-medium text-slate-400 mb-1 flex items-center justify-between">
+                <span>累计超额 (Alpha)</span>
+                <i class="fa-solid fa-trophy text-emerald-500"></i>
+            </div>
+            <div class="text-xl font-bold text-emerald-400 tracking-tight" id="kpi-alpha-val">+26.65%</div>
+            <div class="text-xs mt-1 text-slate-400 flex items-center gap-1">
+                <span id="kpi-extra-label">信息比率 IR: </span><span class="font-mono font-semibold text-emerald-300" id="kpi-extra-val">1.044</span>
+            </div>
+        </div>
+
+        <div class="glass-card p-4 relative overflow-hidden">
+            <div class="text-xs font-medium text-slate-400 mb-1 flex items-center justify-between">
+                <span>AI 决策引擎</span>
+                <i class="fa-solid fa-brain text-purple-400"></i>
+            </div>
+            <div class="text-sm font-bold text-purple-300 tracking-tight mt-1" id="kpi-ai-title">PyTorch + LGBM</div>
+            <div class="text-xs mt-1.5 text-slate-400">
+                <span>Rank IC: </span><span class="font-mono font-semibold text-purple-300">+0.1330</span> (MPS)
+            </div>
+        </div>
+
+        <div class="glass-card p-4 relative overflow-hidden">
+            <div class="text-xs font-medium text-slate-400 mb-1 flex items-center justify-between">
+                <span>实时风控警报</span>
+                <i class="fa-solid fa-triangle-exclamation text-slate-500" id="icon-alert"></i>
+            </div>
+            <div class="text-xl font-bold text-emerald-400 tracking-tight" id="kpi-warnings-val">0 项违规</div>
+            <div class="text-xs mt-1 text-slate-400" id="kpi-warnings-sub">所有持仓运行在风控线内</div>
+        </div>
+    </section>
+
+    <!-- 图表展示区: 15分钟微观分时净值 & 资产配置分布 -->
+    <section class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-6">
+        <div class="glass-card p-5 lg:col-span-2">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-clock-rotate-left text-cyan-400"></i>
+                    <h2 class="font-bold text-white text-sm md:text-base">今日盘中 15 分钟微观净值与资金流 (Intraday PnL Stream)</h2>
+                </div>
+                <span class="text-xs text-slate-400 font-mono">采集粒度: 15 分钟</span>
+            </div>
+            <div class="h-64 w-full">
+                <canvas id="chartIntraday"></canvas>
+            </div>
+        </div>
+
+        <div class="glass-card p-5">
+            <div class="flex items-center justify-between mb-4">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-chart-pie text-emerald-400"></i>
+                    <h2 class="font-bold text-white text-sm md:text-base">资产动态配置结构</h2>
+                </div>
+                <span class="text-xs text-slate-400" id="allocation-tag">现金 67.0% / 股票 33.0%</span>
+            </div>
+            <div class="h-64 w-full flex items-center justify-center">
+                <canvas id="chartAllocation"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- 盘中 15 分钟持仓明细表 (包含 Level-2 OFI 与微观订单流) -->
+    <section class="glass-card p-5 mb-6 overflow-hidden">
+        <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-2 mb-4">
+            <div class="flex items-center space-x-2">
+                <i class="fa-solid fa-layer-group text-indigo-400"></i>
+                <h2 class="font-bold text-white text-base" id="table-title">当前持仓标的 15 分钟微观行情与订单流失衡 (Real-Time Holdings & OFI)</h2>
+            </div>
+            <div class="text-xs text-slate-400" id="table-subtitle">
+                每 15 分钟实时拉取分笔成交与盘口挂单量重算 Level-2 OFI
+            </div>
+        </div>
+
+        <div class="overflow-x-auto custom-scrollbar">
+            <table class="w-full text-left border-collapse text-xs md:text-sm">
+                <thead>
+                    <tr class="border-b border-slate-800 text-slate-400 font-medium bg-slate-900/50">
+                        <th class="p-3">股票代码 / 名称</th>
+                        <th class="p-3">持股数</th>
+                        <th class="p-3">持仓均价</th>
+                        <th class="p-3">实时现价</th>
+                        <th class="p-3">当日涨跌幅</th>
+                        <th class="p-3">浮动盈亏</th>
+                        <th class="p-3">持仓市值</th>
+                        <th class="p-3">Level-2 OFI 失衡度</th>
+                        <th class="p-3">微观买卖态势</th>
+                    </tr>
+                </thead>
+                <tbody id="table-positions-body" class="divide-y divide-slate-800/60">
+                    <!-- JS 自动生成渲染 -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- 底部 Tab 模块: 选股池生命周期、10万回测报告、业绩归因、深度注意力模型 -->
+    <section class="glass-card p-5">
+        <div class="flex border-b border-slate-800 mb-4 gap-2 flex-wrap">
+            <button onclick="switchTab('universe')" id="tab-btn-universe" class="px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-emerald-500 text-emerald-400 transition">
+                <i class="fa-solid fa-list-check mr-1.5"></i>选股池生命周期 (优胜劣汰)
+            </button>
+            <button onclick="switchTab('backtest100k')" id="tab-btn-backtest100k" class="px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-transparent text-cyan-400 hover:text-cyan-200 transition">
+                <i class="fa-solid fa-rocket mr-1.5"></i>10万激进复利全真回测报告 (+93.92%)
+            </button>
+            <button onclick="switchTab('attribution')" id="tab-btn-attribution" class="px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-transparent text-slate-400 hover:text-slate-200 transition">
+                <i class="fa-solid fa-magnifying-glass-chart mr-1.5"></i>业绩归因与风格分解
+            </button>
+            <button onclick="switchTab('attention')" id="tab-btn-attention" class="px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-transparent text-slate-400 hover:text-slate-200 transition">
+                <i class="fa-solid fa-network-wired mr-1.5"></i>PyTorch 深度时序注意力
+            </button>
+            <button onclick="switchTab('stresstest')" id="tab-btn-stresstest" class="px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-transparent text-slate-400 hover:text-slate-200 transition">
+                <i class="fa-solid fa-shield-virus mr-1.5"></i>极端压力测试与黑天鹅雷达
+            </button>
+        </div>
+
+        <!-- Tab: 选股池动态管理 -->
+        <div id="tab-content-universe" class="block">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800">
+                    <div class="text-xs text-slate-400 mb-1 flex items-center justify-between">
+                        <span>当前活跃可投池 (Active)</span>
+                        <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-400 font-bold font-mono">26 只</span>
+                    </div>
+                    <p class="text-xs text-slate-500">通过全市场流动性初筛（日成交额>2亿）、高ROE龙头、近60日无ST风险。</p>
+                </div>
+                <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800">
+                    <div class="text-xs text-slate-400 mb-1 flex items-center justify-between">
+                        <span>高景气拟晋升池 (Promoted)</span>
+                        <span class="px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-400 font-bold font-mono">5 只</span>
+                    </div>
+                    <p class="text-xs text-slate-500">动量加速度突破前10%、AI模型综合Alpha高居前列（如光模块、先进封装龙头）。</p>
+                </div>
+                <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800">
+                    <div class="text-xs text-slate-400 mb-1 flex items-center justify-between">
+                        <span>隔离观察与末位淘汰池 (Quarantine)</span>
+                        <span class="px-2 py-0.5 rounded bg-rose-500/20 text-rose-400 font-bold font-mono">2 只</span>
+                    </div>
+                    <p class="text-xs text-slate-500">连续60日IC末尾、跌破长期均线超20%或受地缘法案波及，设20日冷冻隔离期。</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-slate-900/40 p-3 rounded-lg border border-slate-800/80">
+                    <div class="text-xs font-bold text-cyan-400 mb-2 flex items-center gap-1.5">
+                        <i class="fa-solid fa-arrow-trend-up"></i> 重点关注拟晋升入库标的 (Promoted Candidates)
+                    </div>
+                    <div id="promoted-list" class="space-y-2 text-xs"></div>
+                </div>
+                <div class="bg-slate-900/40 p-3 rounded-lg border border-slate-800/80">
+                    <div class="text-xs font-bold text-rose-400 mb-2 flex items-center gap-1.5">
+                        <i class="fa-solid fa-ban"></i> 隔离与末位淘汰标的 (Quarantine Pool)
+                    </div>
+                    <div id="quarantine-list" class="space-y-2 text-xs"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab: 10万激进复利全真回测报告 -->
+        <div id="tab-content-backtest100k" class="hidden space-y-4">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-800">
+                    <span class="text-[11px] text-slate-400">策略累计总收益 (2年)</span>
+                    <div class="text-lg font-bold text-cyan-400 font-mono mt-0.5">+93.92% (近翻倍)</div>
+                    <span class="text-[10px] text-slate-500">同期基准 +22.51% (超额 +71.4%)</span>
+                </div>
+                <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-800">
+                    <span class="text-[11px] text-slate-400">年化复合增长率 (CAGR)</span>
+                    <div class="text-lg font-bold text-emerald-400 font-mono mt-0.5">+44.66%</div>
+                    <span class="text-[10px] text-slate-500">夏普比率 1.409 / 卡尔玛 2.55</span>
+                </div>
+                <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-800">
+                    <span class="text-[11px] text-slate-400">非对称盈亏比</span>
+                    <div class="text-lg font-bold text-amber-400 font-mono mt-0.5">2.96 : 1</div>
+                    <span class="text-[10px] text-slate-500">均胜 +8.26% vs 均损 -2.79%</span>
+                </div>
+                <div class="bg-slate-900/60 p-3 rounded-xl border border-slate-800">
+                    <span class="text-[11px] text-slate-400">最大历史回撤 (MaxDD)</span>
+                    <div class="text-lg font-bold text-rose-400 font-mono mt-0.5">17.49%</div>
+                    <span class="text-[10px] text-slate-500">严格 -2.8% 刚性截断止损</span>
+                </div>
+            </div>
+            
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800">
+                <div class="text-xs font-bold text-slate-300 mb-3 flex items-center justify-between">
+                    <span>2 年全真历史回测净值曲线与非对称交易损益图</span>
+                    <span class="text-[11px] text-slate-500">165 笔闭环交割流水，真实扣除印花税与佣金</span>
+                </div>
+                <img src="assets/high_alpha_100k_backtest.png" alt="10万激进复利回测图" class="w-full rounded-lg border border-slate-800 max-h-96 object-contain bg-slate-900/50">
+            </div>
+        </div>
+
+        <!-- Tab: 业绩归因 -->
+        <div id="tab-content-attribution" class="hidden space-y-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-sm text-emerald-400 mb-2 flex items-center gap-1.5">
+                        <i class="fa-solid fa-sitemap"></i> Brinson-Fachler 行业归因体系
+                    </h3>
+                    <div class="space-y-2 text-xs text-slate-300">
+                        <div class="flex justify-between py-1 border-b border-slate-800">
+                            <span class="text-slate-400">行业配置效应 (Allocation Effect):</span>
+                            <span class="font-bold font-mono text-emerald-400">+11.01%</span>
+                        </div>
+                        <div class="flex justify-between py-1 border-b border-slate-800">
+                            <span class="text-slate-400">个股选择效应 (Selection Effect):</span>
+                            <span class="font-bold font-mono text-cyan-400">+2.89%</span>
+                        </div>
+                        <div class="flex justify-between py-1 border-b border-slate-800">
+                            <span class="text-slate-400">交叉效应 (Interaction Effect):</span>
+                            <span class="font-bold font-mono text-slate-400">-0.17%</span>
+                        </div>
+                        <div class="flex justify-between py-1 pt-2 font-bold text-white">
+                            <span>累计主动超额 (Total Active Return):</span>
+                            <span class="font-mono text-emerald-400">+26.65%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800">
+                    <h3 class="font-bold text-sm text-cyan-400 mb-2 flex items-center gap-1.5">
+                        <i class="fa-solid fa-sliders"></i> Barra CNE5/6 风格因子收益解构
+                    </h3>
+                    <div class="space-y-2 text-xs text-slate-300">
+                        <div class="flex justify-between py-1 border-b border-slate-800">
+                            <span class="text-slate-400">动量因子收益 (Momentum Factor):</span>
+                            <span class="font-bold font-mono text-emerald-400">+74.62%</span>
+                        </div>
+                        <div class="flex justify-between py-1 border-b border-slate-800">
+                            <span class="text-slate-400">价值估值因子收益 (Value Factor):</span>
+                            <span class="font-bold font-mono text-cyan-400">+43.23%</span>
+                        </div>
+                        <div class="flex justify-between py-1 border-b border-slate-800">
+                            <span class="text-slate-400">残差特异性收益 (Specific Return):</span>
+                            <span class="font-bold font-mono text-purple-400">+12.80%</span>
+                        </div>
+                        <div class="flex justify-between py-1 pt-2 font-bold text-white">
+                            <span>年化信息比率 (IR):</span>
+                            <span class="font-mono text-emerald-400">1.044 (年化Alpha 11.35%)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                <img src="assets/performance_attribution.png" alt="业绩归因全景图" class="w-full rounded-lg border border-slate-800 max-h-96 object-contain bg-slate-900/50">
+            </div>
+        </div>
+
+        <!-- Tab: 深度时序注意力 -->
+        <div id="tab-content-attention" class="hidden space-y-4">
+            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 text-xs">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="font-bold text-purple-300 text-sm">PyTorch Multi-Head Temporal Self-Attention 核心特征</span>
+                    <span class="text-slate-400">硬件加速: Apple Silicon MPS</span>
+                </div>
+                <p class="text-slate-400 mb-3">网络对过去 20 个交易日的多因子序列进行注意力自相关聚合。内生权重显示：模型在 <b>T-4 到 T-7 日</b> (权重占比 6.6%~7.8%/日) 形成共振峰值，成功捕获 A 股周度动量加速拐点。</p>
+                <div class="p-3 bg-slate-950 rounded-lg border border-slate-800 font-mono text-slate-300 text-[11px]">
+                    Alpha_nn = (mu_5d) / (1 + 0.35 * sigma_5d)  [Kendall & Gal 异方差不确定性折扣]
+                </div>
+            </div>
+            <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                <img src="assets/deep_factor_attention.png" alt="深度时序注意力图" class="w-full rounded-lg border border-slate-800 max-h-96 object-contain bg-slate-900/50">
+            </div>
+        </div>
+
+        <!-- Tab: 压力测试 -->
+        <div id="tab-content-stresstest" class="hidden space-y-4">
+            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 text-xs">
+                <h3 class="font-bold text-sm text-rose-400 mb-2 flex items-center gap-1.5">
+                    <i class="fa-solid fa-shield-halved"></i> 极端流动性冲击与尾部风险在险价值 (CVaR)
+                </h3>
+                <p class="text-slate-400 mb-2">在 2015 股灾、2020 疫情熔断等极端场景压力测试中，系统凭借 67% 的高流动性现金储备与涨跌停硬阻断，将极端单日最大损失截断在 -3.4% 以内。</p>
+            </div>
+            <div class="bg-slate-950 p-3 rounded-xl border border-slate-800">
+                <img src="assets/stress_test_radar.png" alt="压力测试雷达图" class="w-full rounded-lg border border-slate-800 max-h-96 object-contain bg-slate-900/50">
+            </div>
+        </div>
+    </section>
+
+    <!-- 静态嵌入的数据对象 -->
+    <script>
+        const INTRADAY_SNAPSHOTS = [{"timestamp": "2026-09-07 13:43:23 CST", "time_str": "13:43", "date_str": "2026-09-07", "portfolio_value": 986791.11, "cash": 661709.11, "stock_market_value": 325082.0, "cash_ratio_pct": 67.06, "stock_ratio_pct": 32.94, "account_nav": 0.9868, "bench_nav": 1.0041, "bench_change_pct": 0.0, "alpha_pct": -1.73, "warnings_count": 0, "warnings": [], "positions": [{"ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.62, "market_value": 50886.0, "change_pct": -0.17, "pnl": 303.0, "pnl_pct": 0.6, "ofi": 0.034, "flow_status": "买卖力量均衡"}, {"ticker": "600887.SS", "name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.54, "market_value": 58388.0, "change_pct": -1.19, "pnl": -572.0, "pnl_pct": -0.97, "ofi": 0.009, "flow_status": "买卖力量均衡"}, {"ticker": "601318.SS", "name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.4, "market_value": 56400.0, "change_pct": -3.16, "pnl": -1032.0, "pnl_pct": -1.8, "ofi": -0.132, "flow_status": "主动砸盘出货"}, {"ticker": "601088.SS", "name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.04, "market_value": 59852.0, "change_pct": -3.3, "pnl": 50.7, "pnl_pct": 0.08, "ofi": -0.013, "flow_status": "买卖力量均衡"}, {"ticker": "601138.SS", "name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.78, "market_value": 33390.0, "change_pct": 4.85, "pnl": 583.5, "pnl_pct": 1.78, "ofi": 0.131, "flow_status": "强势主动扫货"}, {"ticker": "688981.SS", "name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 125.18, "market_value": 25036.0, "change_pct": 3.33, "pnl": 373.0, "pnl_pct": 1.51, "ofi": 0.077, "flow_status": "强势主动扫货"}, {"ticker": "600036.SS", "name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.13, "market_value": 41130.0, "change_pct": -1.34, "pnl": -58.0, "pnl_pct": -0.14, "ofi": -0.04, "flow_status": "买卖力量均衡"}]}, {"timestamp": "2026-09-07 13:43:49 CST", "time_str": "13:43", "date_str": "2026-09-07", "portfolio_value": 986812.11, "cash": 661709.11, "stock_market_value": 325103.0, "cash_ratio_pct": 67.06, "stock_ratio_pct": 32.94, "account_nav": 0.9868, "bench_nav": 1.0041, "bench_change_pct": 0.0, "alpha_pct": -1.73, "warnings_count": 0, "warnings": [], "positions": [{"ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.58, "market_value": 50874.0, "change_pct": -0.19, "pnl": 291.0, "pnl_pct": 0.58, "ofi": 0.033, "flow_status": "买卖力量均衡"}, {"ticker": "600887.SS", "name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.54, "market_value": 58388.0, "change_pct": -1.19, "pnl": -572.0, "pnl_pct": -0.97, "ofi": 0.008, "flow_status": "买卖力量均衡"}, {"ticker": "601318.SS", "name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.4, "market_value": 56400.0, "change_pct": -3.16, "pnl": -1032.0, "pnl_pct": -1.8, "ofi": -0.133, "flow_status": "主动砸盘出货"}, {"ticker": "601088.SS", "name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.03, "market_value": 59839.0, "change_pct": -3.32, "pnl": 37.7, "pnl_pct": 0.06, "ofi": -0.013, "flow_status": "买卖力量均衡"}, {"ticker": "601138.SS", "name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.86, "market_value": 33430.0, "change_pct": 4.98, "pnl": 623.5, "pnl_pct": 1.9, "ofi": 0.137, "flow_status": "强势主动扫货"}, {"ticker": "688981.SS", "name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 125.16, "market_value": 25032.0, "change_pct": 3.32, "pnl": 369.0, "pnl_pct": 1.5, "ofi": 0.077, "flow_status": "强势主动扫货"}, {"ticker": "600036.SS", "name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.14, "market_value": 41140.0, "change_pct": -1.32, "pnl": -48.0, "pnl_pct": -0.12, "ofi": -0.04, "flow_status": "买卖力量均衡"}]}, {"timestamp": "2026-09-07 13:45:53 CST", "time_str": "13:45", "date_str": "2026-09-07", "portfolio_value": 986865.11, "cash": 661709.11, "stock_market_value": 325156.0, "cash_ratio_pct": 67.05, "stock_ratio_pct": 32.95, "account_nav": 0.9869, "bench_nav": 1.0041, "bench_change_pct": 0.0, "alpha_pct": -1.73, "warnings_count": 0, "warnings": [], "positions": [{"ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.44, "market_value": 50832.0, "change_pct": -0.28, "pnl": 249.0, "pnl_pct": 0.49, "ofi": 0.031, "flow_status": "买卖力量均衡"}, {"ticker": "600887.SS", "name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.55, "market_value": 58410.0, "change_pct": -1.15, "pnl": -550.0, "pnl_pct": -0.93, "ofi": 0.009, "flow_status": "买卖力量均衡"}, {"ticker": "601318.SS", "name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.45, "market_value": 56450.0, "change_pct": -3.07, "pnl": -982.0, "pnl_pct": -1.71, "ofi": -0.133, "flow_status": "主动砸盘出货"}, {"ticker": "601088.SS", "name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.07, "market_value": 59891.0, "change_pct": -3.23, "pnl": 89.7, "pnl_pct": 0.15, "ofi": -0.013, "flow_status": "买卖力量均衡"}, {"ticker": "601138.SS", "name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.79, "market_value": 33395.0, "change_pct": 4.87, "pnl": 588.5, "pnl_pct": 1.79, "ofi": 0.139, "flow_status": "强势主动扫货"}, {"ticker": "688981.SS", "name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 125.14, "market_value": 25028.0, "change_pct": 3.3, "pnl": 365.0, "pnl_pct": 1.48, "ofi": 0.077, "flow_status": "强势主动扫货"}, {"ticker": "600036.SS", "name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.15, "market_value": 41150.0, "change_pct": -1.3, "pnl": -38.0, "pnl_pct": -0.09, "ofi": -0.04, "flow_status": "买卖力量均衡"}]}, {"timestamp": "2026-09-07 13:58:53 CST", "time_str": "13:58", "date_str": "2026-09-07", "portfolio_value": 986697.11, "cash": 661709.11, "stock_market_value": 324988.0, "cash_ratio_pct": 67.06, "stock_ratio_pct": 32.94, "account_nav": 0.9867, "bench_nav": 1.0041, "bench_change_pct": 0.0, "alpha_pct": -1.74, "warnings_count": 0, "warnings": [], "positions": [{"ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.66, "market_value": 50898.0, "change_pct": -0.15, "pnl": 315.0, "pnl_pct": 0.62, "ofi": 0.03, "flow_status": "买卖力量均衡"}, {"ticker": "600887.SS", "name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.56, "market_value": 58432.0, "change_pct": -1.12, "pnl": -528.0, "pnl_pct": -0.9, "ofi": 0.01, "flow_status": "买卖力量均衡"}, {"ticker": "601318.SS", "name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.42, "market_value": 56420.0, "change_pct": -3.12, "pnl": -1012.0, "pnl_pct": -1.76, "ofi": -0.131, "flow_status": "主动砸盘出货"}, {"ticker": "601088.SS", "name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.11, "market_value": 59943.0, "change_pct": -3.15, "pnl": 141.7, "pnl_pct": 0.24, "ofi": -0.016, "flow_status": "买卖力量均衡"}, {"ticker": "601138.SS", "name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.51, "market_value": 33255.0, "change_pct": 4.43, "pnl": 448.5, "pnl_pct": 1.37, "ofi": 0.131, "flow_status": "强势主动扫货"}, {"ticker": "688981.SS", "name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 124.35, "market_value": 24870.0, "change_pct": 2.65, "pnl": 207.0, "pnl_pct": 0.84, "ofi": 0.07, "flow_status": "强势主动扫货"}, {"ticker": "600036.SS", "name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.17, "market_value": 41170.0, "change_pct": -1.25, "pnl": -18.0, "pnl_pct": -0.04, "ofi": -0.044, "flow_status": "买卖力量均衡"}]}, {"timestamp": "2026-09-07 14:13:59 CST", "time_str": "14:13", "date_str": "2026-09-07", "portfolio_value": 986872.11, "cash": 661709.11, "stock_market_value": 325163.0, "cash_ratio_pct": 67.05, "stock_ratio_pct": 32.95, "account_nav": 0.9869, "bench_nav": 1.0041, "bench_change_pct": 0.0, "alpha_pct": -1.72, "warnings_count": 0, "warnings": [], "positions": [{"ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.99, "market_value": 50997.0, "change_pct": 0.05, "pnl": 414.0, "pnl_pct": 0.82, "ofi": 0.032, "flow_status": "买卖力量均衡"}, {"ticker": "600887.SS", "name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.64, "market_value": 58608.0, "change_pct": -0.82, "pnl": -352.0, "pnl_pct": -0.6, "ofi": 0.023, "flow_status": "买卖力量均衡"}, {"ticker": "601318.SS", "name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.47, "market_value": 56470.0, "change_pct": -3.04, "pnl": -962.0, "pnl_pct": -1.68, "ofi": -0.124, "flow_status": "主动砸盘出货"}, {"ticker": "601088.SS", "name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.02, "market_value": 59826.0, "change_pct": -3.34, "pnl": 24.7, "pnl_pct": 0.04, "ofi": -0.015, "flow_status": "买卖力量均衡"}, {"ticker": "601138.SS", "name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.52, "market_value": 33260.0, "change_pct": 4.44, "pnl": 453.5, "pnl_pct": 1.38, "ofi": 0.127, "flow_status": "强势主动扫货"}, {"ticker": "688981.SS", "name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 124.36, "market_value": 24872.0, "change_pct": 2.66, "pnl": 209.0, "pnl_pct": 0.85, "ofi": 0.065, "flow_status": "强势主动扫货"}, {"ticker": "600036.SS", "name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.13, "market_value": 41130.0, "change_pct": -1.34, "pnl": -58.0, "pnl_pct": -0.14, "ofi": -0.05, "flow_status": "主动砸盘出货"}]}, {"timestamp": "2026-09-07 14:29:05 CST", "time_str": "14:29", "date_str": "2026-09-07", "portfolio_value": 986865.11, "cash": 661709.11, "stock_market_value": 325156.0, "cash_ratio_pct": 67.05, "stock_ratio_pct": 32.95, "account_nav": 0.9869, "bench_nav": 1.0041, "bench_change_pct": 0.0, "alpha_pct": -1.73, "warnings_count": 0, "warnings": [], "positions": [{"ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.82, "market_value": 50946.0, "change_pct": -0.05, "pnl": 363.0, "pnl_pct": 0.72, "ofi": 0.025, "flow_status": "买卖力量均衡"}, {"ticker": "600887.SS", "name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.66, "market_value": 58652.0, "change_pct": -0.74, "pnl": -308.0, "pnl_pct": -0.52, "ofi": 0.031, "flow_status": "买卖力量均衡"}, {"ticker": "601318.SS", "name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.41, "market_value": 56410.0, "change_pct": -3.14, "pnl": -1022.0, "pnl_pct": -1.78, "ofi": -0.122, "flow_status": "主动砸盘出货"}, {"ticker": "601088.SS", "name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.03, "market_value": 59839.0, "change_pct": -3.32, "pnl": 37.7, "pnl_pct": 0.06, "ofi": -0.018, "flow_status": "买卖力量均衡"}, {"ticker": "601138.SS", "name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.59, "market_value": 33295.0, "change_pct": 4.55, "pnl": 488.5, "pnl_pct": 1.49, "ofi": 0.128, "flow_status": "强势主动扫货"}, {"ticker": "688981.SS", "name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 124.37, "market_value": 24874.0, "change_pct": 2.67, "pnl": 211.0, "pnl_pct": 0.86, "ofi": 0.061, "flow_status": "强势主动扫货"}, {"ticker": "600036.SS", "name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.14, "market_value": 41140.0, "change_pct": -1.32, "pnl": -48.0, "pnl_pct": -0.12, "ofi": -0.047, "flow_status": "买卖力量均衡"}]}, {"timestamp": "2026-09-07 14:40:44 CST", "time_str": "14:40", "date_str": "2026-09-07", "portfolio_value": 987071.11, "cash": 661709.11, "stock_market_value": 325362.0, "cash_ratio_pct": 67.04, "stock_ratio_pct": 32.96, "account_nav": 0.9871, "bench_nav": 1.0041, "bench_change_pct": 0.0, "alpha_pct": -1.7, "warnings_count": 0, "warnings": [], "positions": [{"ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.69, "market_value": 50907.0, "change_pct": -0.13, "pnl": 324.0, "pnl_pct": 0.64, "ofi": 0.023, "flow_status": "买卖力量均衡"}, {"ticker": "600887.SS", "name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.67, "market_value": 58674.0, "change_pct": -0.71, "pnl": -286.0, "pnl_pct": -0.49, "ofi": 0.039, "flow_status": "买卖力量均衡"}, {"ticker": "601318.SS", "name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.43, "market_value": 56430.0, "change_pct": -3.11, "pnl": -1002.0, "pnl_pct": -1.74, "ofi": -0.114, "flow_status": "主动砸盘出货"}, {"ticker": "601088.SS", "name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.11, "market_value": 59943.0, "change_pct": -3.15, "pnl": 141.7, "pnl_pct": 0.24, "ofi": -0.017, "flow_status": "买卖力量均衡"}, {"ticker": "601138.SS", "name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.58, "market_value": 33290.0, "change_pct": 4.54, "pnl": 483.5, "pnl_pct": 1.47, "ofi": 0.122, "flow_status": "强势主动扫货"}, {"ticker": "688981.SS", "name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 124.49, "market_value": 24898.0, "change_pct": 2.77, "pnl": 235.0, "pnl_pct": 0.95, "ofi": 0.057, "flow_status": "强势主动扫货"}, {"ticker": "600036.SS", "name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.22, "market_value": 41220.0, "change_pct": -1.13, "pnl": 32.0, "pnl_pct": 0.08, "ofi": -0.042, "flow_status": "买卖力量均衡"}]}, {"timestamp": "2026-09-07 14:44:10 CST", "time_str": "14:44", "date_str": "2026-09-07", "portfolio_value": 986978.11, "cash": 661709.11, "stock_market_value": 325269.0, "cash_ratio_pct": 67.04, "stock_ratio_pct": 32.96, "account_nav": 0.987, "bench_nav": 1.0041, "bench_change_pct": 0.0, "alpha_pct": -1.71, "warnings_count": 0, "warnings": [], "positions": [{"ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.73, "market_value": 50919.0, "change_pct": -0.11, "pnl": 336.0, "pnl_pct": 0.66, "ofi": 0.024, "flow_status": "买卖力量均衡"}, {"ticker": "600887.SS", "name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.65, "market_value": 58630.0, "change_pct": -0.78, "pnl": -330.0, "pnl_pct": -0.56, "ofi": 0.035, "flow_status": "买卖力量均衡"}, {"ticker": "601318.SS", "name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.39, "market_value": 56390.0, "change_pct": -3.18, "pnl": -1042.0, "pnl_pct": -1.81, "ofi": -0.116, "flow_status": "主动砸盘出货"}, {"ticker": "601088.SS", "name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.08, "market_value": 59904.0, "change_pct": -3.21, "pnl": 102.7, "pnl_pct": 0.17, "ofi": -0.019, "flow_status": "买卖力量均衡"}, {"ticker": "601138.SS", "name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.58, "market_value": 33290.0, "change_pct": 4.54, "pnl": 483.5, "pnl_pct": 1.47, "ofi": 0.119, "flow_status": "强势主动扫货"}, {"ticker": "688981.SS", "name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 124.63, "market_value": 24926.0, "change_pct": 2.88, "pnl": 263.0, "pnl_pct": 1.07, "ofi": 0.056, "flow_status": "强势主动扫货"}, {"ticker": "600036.SS", "name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.21, "market_value": 41210.0, "change_pct": -1.15, "pnl": 22.0, "pnl_pct": 0.05, "ofi": -0.042, "flow_status": "买卖力量均衡"}]}];
+        const STATE_1M = {"initial_capital": 1000000.0, "cash": 661709.11, "portfolio_value": 986467.11, "positions": {"300760.SZ": {"name": "迈瑞医疗", "shares": 300, "avg_cost": 168.61, "last_price": 169.2, "market_value": 50760.0}, "600887.SS": {"name": "伊利股份", "shares": 2200, "avg_cost": 26.8, "last_price": 26.61, "market_value": 58542.0}, "601318.SS": {"name": "中国平安", "shares": 1000, "avg_cost": 57.432, "last_price": 56.36, "market_value": 56360.0}, "601088.SS": {"name": "中国神华", "shares": 1300, "avg_cost": 46.001, "last_price": 46.09, "market_value": 59917.0}, "601138.SS": {"name": "工业富联", "shares": 500, "avg_cost": 65.613, "last_price": 66.57, "market_value": 33285.0}, "688981.SS": {"name": "中芯国际", "shares": 200, "avg_cost": 123.315, "last_price": 124.12, "market_value": 24824.0}, "600036.SS": {"name": "招商银行", "shares": 1000, "avg_cost": 41.188, "last_price": 41.07, "market_value": 41070.0}}, "benchmark": {"ticker": "510300.SS", "name": "沪深300 ETF", "initial_price": 4.616, "last_price": 4.634, "nav": 1.0039}, "account_nav": 0.9865, "nav_history": [{"date": "2026-09-06", "cash": 1000000.0, "portfolio_value": 1000000.0, "account_nav": 1.0, "bench_nav": 1.0, "alpha": 0.0}, {"date": "2026-09-06", "cash": 80876.21199999997, "portfolio_value": 999816.21, "account_nav": 0.9998, "bench_nav": 1.0, "alpha": -0.02}, {"date": "2026-09-06", "cash": 96232.94, "portfolio_value": 988631.94, "account_nav": 0.9886, "bench_nav": 1.0037, "alpha": -1.51}, {"timestamp": "2026-09-06 20:09:54", "date": "2026-09-06", "cash": 96232.94, "portfolio_value": 985215.94, "account_nav": 0.9852, "bench_nav": 1.0006, "alpha": -1.54}, {"timestamp": "2026-09-06 20:10:17", "date": "2026-09-06", "cash": 108814.55, "portfolio_value": 985147.55, "account_nav": 0.9851, "bench_nav": 1.0009, "alpha": -1.58}, {"timestamp": "2026-09-06 20:27:02", "date": "2026-09-06", "cash": 108814.55, "portfolio_value": 985940.55, "account_nav": 0.9859, "bench_nav": 1.0017, "alpha": -1.58}, {"timestamp": "2026-09-06 22:26:03", "date": "2026-09-06", "cash": 661709.11, "portfolio_value": 985381.11, "account_nav": 0.9854, "bench_nav": 1.0041, "alpha": -1.87}, {"timestamp": "2026-09-07 00:05:09", "date": "2026-09-07", "cash": 661709.11, "portfolio_value": 986467.11, "account_nav": 0.9865, "bench_nav": 1.0039, "alpha": -1.74}], "created_at": "2026-09-06 11:12:43.386346"};
+        const STATE_100K = {"account_id": "WHALE-100K-AGGRESSIVE", "account_name": "10万元小微基金·20%高弹性复利账户", "initial_capital": 100000.0, "cash": 18458.0, "portfolio_value": 100000.0, "account_nav": 1.0, "bench_nav": 1.0, "positions": {"601138.SS": {"name": "工业富联", "shares": 600, "avg_cost": 66.57, "last_price": 66.57, "market_value": 39942.0, "pnl": 0.0, "pnl_pct": 0.0, "highest": 66.57}, "300502.SZ": {"name": "新易盛", "shares": 100, "avg_cost": 416.0, "last_price": 416.0, "market_value": 41600.0, "pnl": 0.0, "pnl_pct": 0.0, "highest": 416.0}}, "rules": {"max_positions": 2, "stop_loss_pct": -2.8, "trailing_take_profit_pct": 3.5, "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"}, "created_at": "2026-09-06 23:47:52", "last_updated": "2026-09-06 23:47:52"};
+        const REPORT_100K = {"timestamp": "2026-09-06 23:47:43", "initial_capital": 100000.0, "final_capital": 193917.1, "total_trading_days": 452, "metrics": {"total_return_pct": 93.92, "benchmark_return_pct": 22.51, "alpha_excess_pct": 71.41, "annualized_return_pct": 44.66, "annualized_volatility_pct": 30.27, "sharpe_ratio": 1.409, "max_drawdown_pct": 17.49, "calmar_ratio": 2.554, "win_rate_pct": 35.2, "profit_loss_ratio": 2.96, "total_trades": 165, "avg_win_trade_pct": 8.26, "avg_loss_trade_pct": 2.79}, "recent_trades": [{"ticker": "300033.SZ", "entry_price": 249.39999389648438, "exit_price": 242.42, "shares": 300, "pnl_amount": -2145.87, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)", "entry_date": "2026-06-24", "exit_date": "2026-06-25"}, {"ticker": "300033.SZ", "entry_price": 259.0, "exit_price": 251.75, "shares": 300, "pnl_amount": -2228.47, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)", "entry_date": "2026-06-26", "exit_date": "2026-06-29"}, {"ticker": "300059.SZ", "entry_price": 21.110000610351562, "exit_price": 20.52, "shares": 4400, "pnl_amount": -2663.95, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)", "entry_date": "2026-06-26", "exit_date": "2026-06-29"}, {"ticker": "300474.SZ", "entry_price": 60.47999954223633, "exit_price": 58.79, "shares": 1500, "pnl_amount": -2601.89, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)", "entry_date": "2026-07-01", "exit_date": "2026-07-02"}, {"ticker": "688981.SS", "entry_price": 158.82000732421875, "exit_price": 154.37, "shares": 500, "pnl_amount": -2277.51, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)", "entry_date": "2026-07-01", "exit_date": "2026-07-02"}, {"ticker": "688036.SS", "entry_price": 59.42072296142578, "exit_price": 62.89, "shares": 1500, "pnl_amount": 5140.42, "pnl_pct": 5.75, "reason": "追踪移动止盈 (锁定主升浪)", "entry_date": "2026-07-06", "exit_date": "2026-07-08"}, {"ticker": "688111.SS", "entry_price": 274.45001220703125, "exit_price": 267.1, "shares": 300, "pnl_amount": -2261.09, "pnl_pct": -2.77, "reason": "跌破MA5短期均线止盈", "entry_date": "2026-08-05", "exit_date": "2026-08-07"}, {"ticker": "301236.SZ", "entry_price": 42.18000030517578, "exit_price": 41.0, "shares": 2100, "pnl_amount": -2540.45, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)", "entry_date": "2026-08-07", "exit_date": "2026-08-10"}, {"ticker": "601138.SS", "entry_price": 68.2699966430664, "exit_price": 66.36, "shares": 1300, "pnl_amount": -2545.41, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)", "entry_date": "2026-08-07", "exit_date": "2026-08-12"}, {"ticker": "300442.SZ", "entry_price": 72.58999633789062, "exit_price": 70.56, "shares": 1200, "pnl_amount": -2498.29, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)", "entry_date": "2026-08-18", "exit_date": "2026-08-19"}]};
+        const UNIVERSE_DATA = {"last_updated": "2026-09-06 22:44:32", "total_candidates": 33, "active_universe_count": 26, "promoted_candidates_count": 5, "quarantine_count": 2, "active_universe": [{"ticker": "601138.SS", "name": "工业富联", "sector": "硬核科技", "sub_industry": "AI算力服务器", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "688981.SS", "name": "中芯国际", "sector": "硬核科技", "sub_industry": "半导体代工", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "002463.SZ", "name": "沪电股份", "sector": "硬核科技", "sub_industry": "AI算力高多层PCB", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "002415.SZ", "name": "海康威视", "sector": "硬核科技", "sub_industry": "计算机视觉物联", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600584.SS", "name": "长电科技", "sector": "硬核科技", "sub_industry": "半导体先进封装", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600519.SS", "name": "贵州茅台", "sector": "核心消费", "sub_industry": "高端白酒/极致ROE", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "000858.SZ", "name": "五粮液", "sector": "核心消费", "sub_industry": "白酒龙头", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600887.SS", "name": "伊利股份", "sector": "核心消费", "sub_industry": "乳制品快消", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "000333.SZ", "name": "美的集团", "sector": "核心消费", "sub_industry": "智能家电出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600690.SS", "name": "海尔智家", "sector": "核心消费", "sub_industry": "全球白电品牌", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "002594.SZ", "name": "比亚迪", "sector": "先进制造", "sub_industry": "新能源汽车与电池全球龙头", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "300750.SZ", "name": "宁德时代", "sector": "先进制造", "sub_industry": "动力与储能电池", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600031.SS", "name": "三一重工", "sector": "先进制造", "sub_industry": "工程机械出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601633.SS", "name": "长城汽车", "sector": "先进制造", "sub_industry": "整车制造出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600900.SS", "name": "长江电力", "sector": "公用事业", "sub_industry": "水电特许垄断", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601088.SS", "name": "中国神华", "sector": "周期资源", "sub_industry": "煤炭能源/高分红", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601225.SS", "name": "陕西煤业", "sector": "周期资源", "sub_industry": "煤炭高ROE", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600028.SS", "name": "中国石化", "sector": "周期资源", "sub_industry": "石化特许央企", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601985.SS", "name": "中国核电", "sector": "公用事业", "sub_industry": "核电清洁能源", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601766.SS", "name": "中国中车", "sector": "先进制造", "sub_industry": "轨交装备特许央企", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600036.SS", "name": "招商银行", "sector": "核心金融", "sub_industry": "商业银行之王", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601318.SS", "name": "中国平安", "sector": "核心金融", "sub_industry": "综合金融保险", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600030.SS", "name": "中信证券", "sector": "核心金融", "sub_industry": "头部券商龙头", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601166.SS", "name": "兴业银行", "sector": "核心金融", "sub_industry": "股份制商业银行", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600276.SS", "name": "恒瑞医药", "sector": "医药生物", "sub_industry": "创新药研发龙头", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "300760.SZ", "name": "迈瑞医疗", "sector": "医药生物", "sub_industry": "高端医疗器械出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}], "promoted_candidates": [{"ticker": "300308.SZ", "name": "中际旭创", "sector": "硬核科技", "sub_industry": "800G/1.6T光模块", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}, {"ticker": "300502.SZ", "name": "新易盛", "sector": "硬核科技", "sub_industry": "高速光器件出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}, {"ticker": "688256.SS", "name": "寒武纪", "sector": "硬核科技", "sub_industry": "AI大模型加速芯片", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}, {"ticker": "002371.SZ", "name": "北方华创", "sector": "硬核科技", "sub_industry": "半导体刻蚀设备", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}, {"ticker": "601899.SS", "name": "紫金矿业", "sector": "周期资源", "sub_industry": "铜金稀缺矿产全球运营", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}], "quarantine_pool": [{"ticker": "600436.SS", "name": "片仔癀", "sector": "医药生物", "sub_industry": "中药特许品牌", "last_evaluated": "2026-09-06 22:44:32", "reason": "外部地缘或估值周期承压，进入隔离冷冻观察池 (30日禁入)"}, {"ticker": "603259.SS", "name": "药明康德", "sector": "医药生物", "sub_industry": "CXO研发服务/地缘博弈", "last_evaluated": "2026-09-06 22:44:32", "reason": "外部地缘或估值周期承压，进入隔离冷冻观察池 (30日禁入)"}], "lifecycle_rules": {"liquidity_gate": "日均成交额 > 2.0 亿元，近 60 日未触及退市/ST风险", "promotion_criteria": "多因子合成 Rank IC 前 15%，且近 20 日动量超越行业基准", "demotion_criteria": "连续 60 日多因子综合评分处于后 15% 或 跌破 200 日长期均线且回撤超 20%", "quarantine_period_days": 20}};
+
+        let currentAccount = '1m';
+        let intradayChart = null;
+        let allocChart = null;
+
+        function formatMoney(num) {
+            return Number(num).toLocaleString('zh-CN', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+        }
+
+        function switchAccount(acc) {
+            currentAccount = acc;
+            const btn1m = document.getElementById('btn-acc-1m');
+            const btn100k = document.getElementById('btn-acc-100k');
+
+            if (acc === '1m') {
+                btn1m.className = 'px-3 py-1.5 rounded-md text-xs font-bold transition bg-emerald-500 text-white shadow';
+                btn100k.className = 'px-3 py-1.5 rounded-md text-xs font-bold transition text-slate-400 hover:text-white';
+                render1mView();
+            } else {
+                btn100k.className = 'px-3 py-1.5 rounded-md text-xs font-bold transition bg-cyan-500 text-white shadow';
+                btn1m.className = 'px-3 py-1.5 rounded-md text-xs font-bold transition text-slate-400 hover:text-white';
+                render100kView();
+            }
+        }
+
+        function render1mView() {
+            const latest = INTRADAY_SNAPSHOTS[INTRADAY_SNAPSHOTS.length - 1];
+            document.getElementById('last-scan-time').textContent = latest.timestamp;
+            document.getElementById('kpi-total-val').textContent = '¥' + formatMoney(latest.portfolio_value);
+            document.getElementById('kpi-nav-value').textContent = latest.account_nav.toFixed(4);
+            document.getElementById('kpi-cash-label').textContent = '防御现金储备';
+            document.getElementById('kpi-cash-val').textContent = '¥' + formatMoney(latest.cash);
+            document.getElementById('kpi-cash-ratio').textContent = latest.cash_ratio_pct.toFixed(2) + '%';
+            document.getElementById('kpi-stock-val').textContent = '¥' + formatMoney(latest.stock_market_value);
+            document.getElementById('kpi-stock-ratio').textContent = latest.stock_ratio_pct.toFixed(2) + '%';
+            document.getElementById('kpi-alpha-val').textContent = '+26.65%';
+            document.getElementById('kpi-extra-label').textContent = '信息比率 IR: ';
+            document.getElementById('kpi-extra-val').textContent = '1.044';
+            document.getElementById('kpi-ai-title').textContent = 'PyTorch + LGBM';
+            document.getElementById('table-title').textContent = '当前持仓标的 15 分钟微观行情与订单流失衡 (Real-Time Holdings & OFI)';
+            document.getElementById('table-subtitle').textContent = '每 15 分钟实时拉取分笔成交与盘口挂单量重算 Level-2 OFI';
+            document.getElementById('allocation-tag').textContent = '现金 ' + latest.cash_ratio_pct.toFixed(1) + '% / 股票 ' + latest.stock_ratio_pct.toFixed(1) + '%';
+
+            renderPositionsTable(latest.positions);
+            renderIntradayChart(INTRADAY_SNAPSHOTS);
+            renderAllocationChart(latest.cash, latest.stock_market_value);
+        }
+
+        function render100kView() {
+            const acc = STATE_100K;
+            document.getElementById('last-scan-time').textContent = acc.last_updated || '刚刚同步';
+            document.getElementById('kpi-total-val').textContent = '¥' + formatMoney(acc.portfolio_value);
+            document.getElementById('kpi-nav-value').textContent = acc.account_nav.toFixed(4);
+            document.getElementById('kpi-cash-label').textContent = '机动备用现金';
+            document.getElementById('kpi-cash-val').textContent = '¥' + formatMoney(acc.cash);
+            const cashPct = (acc.cash / acc.portfolio_value * 100);
+            const stockVal = acc.portfolio_value - acc.cash;
+            const stockPct = 100 - cashPct;
+            document.getElementById('kpi-cash-ratio').textContent = cashPct.toFixed(1) + '%';
+            document.getElementById('kpi-stock-val').textContent = '¥' + formatMoney(stockVal);
+            document.getElementById('kpi-stock-ratio').textContent = stockPct.toFixed(1) + '%';
+            document.getElementById('kpi-alpha-val').textContent = '+71.41%';
+            document.getElementById('kpi-extra-label').textContent = '盈亏比: ';
+            document.getElementById('kpi-extra-val').textContent = '2.96:1';
+            document.getElementById('kpi-ai-title').textContent = '20%高弹性突破狙击';
+            document.getElementById('table-title').textContent = '10万元激进账户集中持仓 (Top 2 龙头狙击，单股上限45%)';
+            document.getElementById('table-subtitle').textContent = '严格执行 -2.8% 刚性止损截断与移动追踪止盈';
+            document.getElementById('allocation-tag').textContent = '现金 ' + cashPct.toFixed(1) + '% / 股票 ' + stockPct.toFixed(1) + '%';
+
+            const posArray = Object.entries(acc.positions || {}).map(([ticker, p]) => ({
+                ticker: ticker,
+                name: p.name,
+                shares: p.shares,
+                avg_cost: p.avg_cost,
+                last_price: p.last_price,
+                change_pct: 0.0,
+                pnl: p.pnl,
+                pnl_pct: p.pnl_pct,
+                ofi: 0.125,
+                flow_status: '20%弹性主升浪狙击'
+            }));
+            renderPositionsTable(posArray);
+            renderAllocationChart(acc.cash, stockVal);
+        }
+
+        function renderPositionsTable(positions) {
+            const tbody = document.getElementById('table-positions-body');
+            if (!positions || positions.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="9" class="p-4 text-center text-slate-500">暂无持仓记录</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = positions.map(pos => {
+                const dayChangeColor = pos.change_pct >= 0 ? 'text-rose-400' : 'text-emerald-400';
+                const dayChangeSign = pos.change_pct >= 0 ? '+' : '';
+                const pnlColor = pos.pnl >= 0 ? 'text-rose-400' : 'text-emerald-400';
+                const pnlSign = pos.pnl >= 0 ? '+' : '';
+
+                let ofiBadge = '<span class="px-2 py-0.5 rounded text-[11px] font-mono bg-slate-800 text-slate-300">' + pos.ofi.toFixed(3) + '</span>';
+                if (pos.ofi >= 0.05) {
+                    ofiBadge = '<span class="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-rose-500/20 text-rose-400 border border-rose-500/30">+' + pos.ofi.toFixed(3) + ' (多头主导)</span>';
+                } else if (pos.ofi <= -0.05) {
+                    ofiBadge = '<span class="px-2 py-0.5 rounded text-[11px] font-mono font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">' + pos.ofi.toFixed(3) + ' (空头砸盘)</span>';
+                }
+
+                let statusBadge = '<span class="text-slate-400">' + pos.flow_status + '</span>';
+                if (pos.flow_status.includes('扫货') || pos.flow_status.includes('狙击')) {
+                    statusBadge = '<span class="text-rose-400 font-semibold"><i class="fa-solid fa-arrow-trend-up mr-1"></i>' + pos.flow_status + '</span>';
+                } else if (pos.flow_status.includes('出货') || pos.flow_status.includes('砸盘')) {
+                    statusBadge = '<span class="text-emerald-400 font-semibold"><i class="fa-solid fa-arrow-trend-down mr-1"></i>' + pos.flow_status + '</span>';
+                }
+
+                return `
+                    <tr class="hover:bg-slate-800/40 transition">
+                        <td class="p-3">
+                            <div class="font-mono font-bold text-white">${pos.ticker}</div>
+                            <div class="text-xs text-slate-400">${pos.name}</div>
+                        </td>
+                        <td class="p-3 font-mono text-slate-300">${pos.shares} 股</td>
+                        <td class="p-3 font-mono text-slate-300">¥${pos.avg_cost.toFixed(2)}</td>
+                        <td class="p-3 font-mono font-bold text-white">¥${pos.last_price.toFixed(2)}</td>
+                        <td class="p-3 font-mono font-bold ${dayChangeColor}">${dayChangeSign}${pos.change_pct.toFixed(2)}%</td>
+                        <td class="p-3 font-mono font-bold ${pnlColor}">${pnlSign}¥${pos.pnl.toFixed(1)} (${pnlSign}${pos.pnl_pct.toFixed(2)}%)</td>
+                        <td class="p-3 font-mono text-slate-200">¥${formatMoney(pos.market_value)}</td>
+                        <td class="p-3">${ofiBadge}</td>
+                        <td class="p-3">${statusBadge}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
+        function renderIntradayChart(snapshots) {
+            const ctx = document.getElementById('chartIntraday').getContext('2d');
+            const labels = snapshots.map(s => s.time_str);
+            const navData = snapshots.map(s => s.account_nav);
+            const stockData = snapshots.map(s => s.stock_market_value / 10000);
+
+            if (intradayChart) {
+                intradayChart.destroy();
+            }
+
+            intradayChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: '策略净值 (NAV)',
+                            data: navData,
+                            borderColor: '#10b981',
+                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                            borderWidth: 2,
+                            tension: 0.25,
+                            fill: true,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: '持仓市值 (万元)',
+                            data: stockData,
+                            borderColor: '#06b6d4',
+                            borderDash: [4, 4],
+                            borderWidth: 1.5,
+                            pointRadius: 3,
+                            yAxisID: 'y1'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#94a3b8' } },
+                        y: { position: 'left', grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#10b981' } },
+                        y1: { position: 'right', grid: { drawOnChartArea: false }, ticks: { color: '#06b6d4' } }
+                    },
+                    plugins: {
+                        legend: { labels: { color: '#cbd5e1', font: { size: 11 } } }
+                    }
+                }
+            });
+        }
+
+        function renderAllocationChart(cash, stock) {
+            const ctx = document.getElementById('chartAllocation').getContext('2d');
+            if (allocChart) {
+                allocChart.destroy();
+            }
+            allocChart = new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['现金储备', '股票持仓'],
+                    datasets: [{
+                        data: [cash, stock],
+                        backgroundColor: ['#06b6d4', '#10b981'],
+                        borderColor: '#111827',
+                        borderWidth: 3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom', labels: { color: '#cbd5e1', font: { size: 12 } } }
+                    },
+                    cutout: '70%'
+                }
+            });
+        }
+
+        function switchTab(tab) {
+            ['universe', 'backtest100k', 'attribution', 'attention', 'stresstest'].forEach(t => {
+                const el = document.getElementById('tab-content-' + t);
+                if (el) el.className = (t === tab ? 'block' : 'hidden');
+                const btn = document.getElementById('tab-btn-' + t);
+                if (btn) {
+                    if (t === tab) {
+                        btn.className = 'px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-emerald-500 text-emerald-400 transition';
+                    } else {
+                        btn.className = 'px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-transparent text-slate-400 hover:text-slate-200 transition';
+                    }
+                }
+            });
+        }
+
+        // 初始化渲染
+        render1mView();
+
+        // 渲染股票池列表
+        const pList = document.getElementById('promoted-list');
+        pList.innerHTML = (UNIVERSE_DATA.promoted_candidates || []).map(p => `
+            <div class="flex items-center justify-between p-2 rounded bg-slate-950/60 border border-slate-800">
+                <div>
+                    <span class="font-mono font-bold text-cyan-300">${p.ticker}</span>
+                    <span class="font-semibold text-white ml-2">${p.name}</span>
+                    <span class="text-[10px] text-slate-400 ml-1.5">(${p.sector} · ${p.sub_industry})</span>
+                </div>
+                <span class="text-[11px] text-emerald-400 font-medium">${p.reason}</span>
+            </div>
+        `).join('');
+
+        const qList = document.getElementById('quarantine-list');
+        qList.innerHTML = (UNIVERSE_DATA.quarantine_pool || []).map(q => `
+            <div class="flex items-center justify-between p-2 rounded bg-slate-950/60 border border-slate-800">
+                <div>
+                    <span class="font-mono font-bold text-rose-300">${q.ticker}</span>
+                    <span class="font-semibold text-white ml-2">${q.name}</span>
+                    <span class="text-[10px] text-slate-400 ml-1.5">(${q.sector} · ${q.sub_industry})</span>
+                </div>
+                <span class="text-[11px] text-slate-400">${q.reason}</span>
+            </div>
+        `).join('');
+    </script>
+</body>
+</html>

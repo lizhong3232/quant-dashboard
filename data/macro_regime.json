@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-09-06 21:11:35",
+  "benchmark": "510300.SS",
+  "bench_price": 4.621,
+  "bench_ma20": 4.681,
+  "bench_ma60": 4.77,
+  "trend_score": 0.0,
+  "volume_ratio": 0.75,
+  "market_breadth_pct": 55.6,
+  "total_score": 1.11,
+  "regime": "BEAR",
+  "regime_description": "空头避险防守态 (破位下跌/流动性收缩)",
+  "target_equity_ratio": 0.35,
+  "target_cash_ratio": 0.65
+}
