@@ -44,22 +44,11 @@ PYTHONPATH=projects/whale-quant/paper_trading projects/whale-quant/.venv/bin/pyt
 
 ---
 
-## 🌐 关于部署在 GitHub 网站 (GitHub Pages) 的说明
+## 🌐 线上独立 Public 仓库与 GitHub Pages 部署状态
 
-本仓库 `lizhong3232/Gemini-Life-Planner` 是一个**私有仓库 (Private Repository)**：
-- **GitHub 官方规则**：在 GitHub 基础计划下，私有仓库的 GitHub Pages 托管功能默认受限（仅向 GitHub Pro / Team / Enterprise 用户开放）；公有仓库则 100% 永久免费提供 GitHub Pages。
+本项目已作为独立 Public 仓库正式上线 GitHub，并启用原生 GitHub Pages：
 
-如果您希望在公网随时通过手机或任何电脑访问此网页，有以下三种推荐方案：
+- 📦 **GitHub 独立开源仓库**: [https://github.com/lizhong3232/quant-dashboard](https://github.com/lizhong3232/quant-dashboard)
+- 🚀 **GitHub Pages 全球访问门户**: [https://lizhong3232.github.io/quant-dashboard/](https://lizhong3232.github.io/quant-dashboard/)
+- 🔄 **自动同步脚本**: 本地运行 `./sync_to_github.sh` 即可在 2 秒内将最新的实盘对账快照与图表推送到 GitHub Pages。
 
-1. **方案 A (同 domain_knowledge 模式，当前已完成)**：
-   - 静态代码直接随本仓库提交并推送到 GitHub。
-   - 可以在任何克隆了本仓库的设备上通过 `open projects/quant_dashboard/index.html` 打开，数据安全保密，不泄露财务与策略逻辑。
-
-2. **方案 B (一键独立公有仓库部署 GitHub Pages)**：
-   - 将本文件夹 `projects/quant_dashboard/` 单独推送到一个新的公有仓库（如 `github.com/lizhong3232/quant-dashboard`）。
-   - GitHub Pages 会立即生效，公网永久免费访问地址为：
-     `https://lizhong3232.github.io/quant-dashboard/`
-
-3. **方案 C (Cloudflare Pages / Vercel 免费绑定私有仓库)**：
-   - Cloudflare Pages 或 Vercel 原生支持**免费**绑定私有 GitHub 仓库。
-   - 绑定后，只需将发布目录设置为 `projects/quant_dashboard`，每次 `git push` 会自动触发静态构建，生成类似 `https://whale-quant.pages.dev` 的专属公网访问链接，且支持设置访问密码保护隐私！
