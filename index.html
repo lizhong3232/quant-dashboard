@@ -682,6 +682,82 @@
                     </div>
                 </div>
             </div>
+
+            <!-- 第六章: 硬件算力与运行拓扑 -->
+            <div class="glass-card p-5 border-slate-800">
+                <div class="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
+                    <div class="flex items-center gap-2">
+                        <span class="w-6 h-6 rounded-md bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-xs">06</span>
+                        <h4 class="text-sm font-bold text-white">硬件算力与运行拓扑：机器学习与 Transformer 算法到底在哪里跑的？</h4>
+                    </div>
+                    <span class="text-[11px] text-indigo-300 font-mono font-bold">本地端侧加速 + 云端只读镜像</span>
+                </div>
+                
+                <div class="p-3.5 rounded-xl bg-gradient-to-r from-indigo-950/40 via-slate-900 to-purple-950/40 border border-indigo-500/30 text-xs mb-4">
+                    <div class="font-bold text-white mb-1 flex items-center gap-2">
+                        <i class="fa-solid fa-server text-cyan-400"></i>
+                        核心解答：所有 AI 算法与高频微观回测 100% 运行在老板本地专属工作站上，云端仅作静态镜像！
+                    </div>
+                    <p class="text-slate-300 text-[11px] leading-relaxed">
+                        量化对冲基金最核心的壁垒是<strong>“持仓绝密性”</strong>与<strong>“毫秒级行情低延迟”</strong>。如果把交易逻辑和持仓放在公有云，不仅面临账号被黑与资金泄漏风险，还会受到公有云跨国网络延迟抖动的拖累。因此 WhaleQuant 采用业界顶级的<strong>“边缘计算 + 无服务器云端发布 (Edge-Compute + Cloud-Publish)”</strong>分层解耦拓扑：
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-xs mb-4">
+                    <!-- 1. Transformer 算力引擎 -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="font-bold text-purple-400 flex items-center gap-1.5">
+                                <i class="fa-solid fa-brain"></i> PyTorch 时序 Transformer
+                            </span>
+                            <span class="px-1.5 py-0.5 rounded bg-purple-500/20 text-purple-300 font-mono text-[10px]">Metal GPU</span>
+                        </div>
+                        <ul class="space-y-1.5 text-slate-400 text-[11px] leading-relaxed">
+                            <li><strong>硬件载体：</strong> 本地 Apple Silicon 芯片 (M系列高性能 GPU)。</li>
+                            <li><strong>加速后端：</strong> 深度适配 Apple Metal Performance Shaders (<code>DEVICE = mps</code>)，统一内存架构零总线搬运。</li>
+                            <li><strong>职责：</strong> 20日多周期多头自注意力权重拟合、时序注意力热力图矩阵渲染。</li>
+                        </ul>
+                    </div>
+
+                    <!-- 2. LightGBM 算力引擎 -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="font-bold text-emerald-400 flex items-center gap-1.5">
+                                <i class="fa-solid fa-tree"></i> LightGBM 梯度提升树
+                            </span>
+                            <span class="px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-mono text-[10px]">Multi-Core CPU</span>
+                        </div>
+                        <ul class="space-y-1.5 text-slate-400 text-[11px] leading-relaxed">
+                            <li><strong>硬件载体：</strong> 本地 ARM64 高性能性能核 (P-Cores)。</li>
+                            <li><strong>加速后端：</strong> OpenMP 高速多线程并行，纳秒级直方图决策树分裂。</li>
+                            <li><strong>职责：</strong> 16维微观因子非线性交叉组合、概念漂移 (Concept Drift) 自适应拟合。</li>
+                        </ul>
+                    </div>
+
+                    <!-- 3. 本地调度与云端分发 -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-slate-800">
+                        <div class="flex items-center justify-between mb-2">
+                            <span class="font-bold text-cyan-400 flex items-center gap-1.5">
+                                <i class="fa-solid fa-cloud-arrow-up"></i> 云端 GitHub Pages 门户
+                            </span>
+                            <span class="px-1.5 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-mono text-[10px]">Global CDN</span>
+                        </div>
+                        <ul class="space-y-1.5 text-slate-400 text-[11px] leading-relaxed">
+                            <li><strong>载体：</strong> 微软全球边缘 CDN (GitHub Pages 独立仓库)。</li>
+                            <li><strong>机制：</strong> 本地每日 15:05 收盘结算后，仅将生成的静态 JSON 快照与图表推送到云端。</li>
+                            <li><strong>优势：</strong> 零服务器运维成本、全球秒开、手机 iPad 跨平台随时查阅，而私钥与真实交易密码永远锁在本地 Mac。</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="p-3 rounded-lg bg-slate-950/60 border border-slate-800 text-[11px] text-slate-400 flex flex-col sm:flex-row items-center justify-between gap-2">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-lock text-emerald-400"></i>
+                        <span>安全审计结论：<strong>纯本地离线模型训练 + 零云端隐私上传 + 极速本地券商直连</strong>，兼顾极致算力与最高安全级别。</span>
+                    </div>
+                    <span class="text-slate-500 font-mono">架构代号: WhaleQuant-Edge-V2</span>
+                </div>
+            </div>
         </div>
     </section>
 
