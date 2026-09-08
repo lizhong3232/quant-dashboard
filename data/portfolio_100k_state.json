@@ -2,9 +2,9 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 18458.0,
-  "portfolio_value": 100340.0,
-  "account_nav": 1.0034,
+  "cash": 20204.47,
+  "portfolio_value": 100310.47,
+  "account_nav": 1.0031,
   "bench_nav": 1.0,
   "positions": {
     "601138.SS": {
@@ -17,15 +17,15 @@
       "pnl_pct": -1.22,
       "highest": 66.57
     },
-    "300502.SZ": {
-      "name": "新易盛",
-      "shares": 100,
-      "avg_cost": 416.0,
-      "last_price": 424.26,
-      "market_value": 42426.0,
-      "pnl": 826.0,
-      "pnl_pct": 1.99,
-      "highest": 428.93
+    "688017.SS": {
+      "name": "绿的谐波",
+      "shares": 300,
+      "avg_cost": 135.5,
+      "last_price": 135.5,
+      "market_value": 40650.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "highest": 135.5
     }
   },
   "rules": {
@@ -35,5 +35,5 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-09-07 20:41:23"
+  "last_updated": "2026-09-07 20:56:27"
 }
