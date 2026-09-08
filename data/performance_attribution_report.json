@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07 00:57:21.345305",
+  "timestamp": "2026-09-08 00:05:04.780293",
   "benchmark": "510300.SS",
   "evaluation_metrics": {
     "total_days": 482,
@@ -187,16 +187,14 @@
     "factor_Liquidity": -3.92
   },
   "live_portfolio_audit": {
-    "account_nav": 0.9865,
-    "stock_weight_pct": 32.92,
-    "cash_weight_pct": 67.08,
+    "account_nav": 0.9827,
+    "stock_weight_pct": 82.65,
+    "cash_weight_pct": 17.35,
     "industry_exposure_pct": {
-      "医药生物": 5.15,
-      "食品饮料": 5.93,
-      "非银金融": 5.71,
-      "煤炭能源": 6.07,
-      "电子科技": 5.89,
-      "银行金融": 4.16
+      "煤炭能源": 19.06,
+      "电子科技": 43.7,
+      "非银金融": 9.74,
+      "机械装备": 10.16
     }
   }
 }
