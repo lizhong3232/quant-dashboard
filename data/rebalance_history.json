@@ -5,7 +5,7 @@
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-07 09:30:00 CST (周一开盘建仓，周内坚决锁仓)",
-    "last_rebalance_time_100k": "2026-09-08 09:30:00 CST (周二开盘 15% 防火墙优胜劣汰换仓)"
+    "last_rebalance_time_100k": "2026-09-08 09:30:00 CST (周二开盘 15% 防火墙优胜劣汰换仓, 绿的谐波 100股@294.21)"
   },
   "trades_1m": [
     {
@@ -126,7 +126,7 @@
       "shares": 100,
       "price": 424.26,
       "amount": 42426.0,
-      "fee": 25.46,
+      "fee": 29.7,
       "saved_bps": 1.9,
       "pnl": 826.0,
       "pnl_pct": 1.99,
@@ -140,12 +140,12 @@
       "action": "BUY",
       "ticker": "688017.SS",
       "name": "绿的谐波",
-      "shares": 300,
-      "price": 135.5,
-      "amount": 40650.0,
-      "fee": 8.13,
+      "shares": 100,
+      "price": 294.21,
+      "amount": 29420.999999999996,
+      "fee": 5.88,
       "saved_bps": 2.1,
-      "reason": "15% 滞后防火墙触发买入: 正交化 Alpha 评分 +0.2700，领先持仓劣势标的 +16.8%"
+      "reason": "15% 滞后防火墙触发买入: 正交化 Alpha 评分 +0.2761，科创板谐波减速器人形机器人核心 (盘口实价 294.21 元, 1 手 100 股)"
     },
     {
       "account": "100k",
