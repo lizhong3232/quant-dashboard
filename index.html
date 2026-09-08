@@ -559,61 +559,176 @@
                 </div>
             </div>
 
-            <!-- 第二章: 16 维微观因子与 AI 大脑 -->
+            <!-- 第二章: 22 维全景时序特征图谱与双 AI 决策大脑 -->
             <div class="glass-card p-5 border-slate-800">
                 <div class="flex items-center justify-between mb-3 border-b border-slate-800 pb-2">
                     <div class="flex items-center gap-2">
                         <span class="w-6 h-6 rounded-md bg-purple-500/20 text-purple-400 flex items-center justify-center font-bold text-xs">02</span>
-                        <h4 class="text-sm font-bold text-white">16 维微观因子图谱与双 AI 决策引擎</h4>
+                        <h4 class="text-sm font-bold text-white">22 维全景时序特征面板与双 AI 决策大脑 (Deep Factor & Dual-AI Engine)</h4>
                     </div>
-                    <span class="text-[11px] text-slate-500 font-mono">LightGBM 树集成 + PyTorch 时序注意力</span>
+                    <span class="text-[11px] text-slate-500 font-mono">Tensor: (Batch, 20天, 22维) · LightGBM + PyTorch Transformer</span>
                 </div>
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs mb-4">
-                    <div class="p-3 rounded-lg bg-slate-900/60 border border-slate-800">
-                        <div class="font-bold text-amber-400 mb-1 flex items-center gap-1">
-                            <i class="fa-solid fa-chart-line"></i> 1. 动量与趋势因子
+
+                <!-- 通识引言 -->
+                <p class="text-xs text-slate-300 leading-relaxed mb-4">
+                    传统量化往往只盯单一均线或静态财务指标，而本系统将每只股票过去 <strong>20 个交易日</strong> 的微观量价、非线性衍生与产业链拓扑提炼为 <strong>22 维时序张量特征</strong>，输入至 <strong>PyTorch 深度时序网络与 LightGBM 树模型</strong> 双脑联动，实现从“短线冲量”到“中线 Alpha”的高维立体研判。
+                </p>
+
+                <!-- 22 维特征 6 大核心板块详细解密 -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs mb-5">
+                    <!-- 板块 1: 多周期量价动量与跨期趋势 (4维) -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-amber-500/30">
+                        <div class="font-bold text-amber-400 mb-2 flex items-center justify-between">
+                            <span class="flex items-center gap-1.5"><i class="fa-solid fa-chart-line"></i> 一、多周期动量与趋势跨期</span>
+                            <span class="text-[10px] px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-300 font-mono">4 维度</span>
                         </div>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">
-                            唐奇安 20 日最高价突破、20/60 日动量加速度。<strong>“顺大势、逆小势”</strong>，绝不在熊市阴跌中盲目抄底，只在板块形成主升共振时入场。
-                        </p>
+                        <ul class="space-y-2 text-[11px] text-slate-300">
+                            <li>
+                                <span class="font-mono text-amber-300 font-bold">mom5 (5日短期动量)</span>: 过去 5 个交易日区间涨幅，捕捉短线爆发力、游资合力与题材热点共振。
+                            </li>
+                            <li>
+                                <span class="font-mono text-amber-300 font-bold">mom20 (20日月度动量)</span>: 过去 20 个交易日收益率，捕捉月度主升浪波段，锁定资金趋势中枢。
+                            </li>
+                            <li>
+                                <span class="font-mono text-amber-300 font-bold">mom60 (60日季度动量)</span>: 过去 1 个季度收益率，识别公募机构中线建仓调仓与基本面业绩驱动趋势。
+                            </li>
+                            <li>
+                                <span class="font-mono text-amber-300 font-bold">mom120 (120日半年动量)</span>: 半年长期涨幅，判断个股是否运行在长期牛熊分水岭上方，杜绝逆势做多。
+                            </li>
+                        </ul>
                     </div>
-                    <div class="p-3 rounded-lg bg-slate-900/60 border border-slate-800">
-                        <div class="font-bold text-cyan-400 mb-1 flex items-center gap-1">
-                            <i class="fa-solid fa-water"></i> 2. 微观 Level-2 订单流 (OFI)
+
+                    <!-- 板块 2: 波动率结构与非对称下行风险 (4维) -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-rose-500/30">
+                        <div class="font-bold text-rose-400 mb-2 flex items-center justify-between">
+                            <span class="flex items-center gap-1.5"><i class="fa-solid fa-shield-virus"></i> 二、波动率结构与非对称风险</span>
+                            <span class="text-[10px] px-1.5 py-0.5 rounded bg-rose-500/10 text-rose-300 font-mono">4 维度</span>
                         </div>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">
-                            穿透盘口买一至买五、卖一至卖五挂单增减，计算 <strong>Order Flow Imbalance (OFI)</strong>。透过盘口撤单与微观成交，精准洞察主力资金的主动扫货态势。
-                        </p>
+                        <ul class="space-y-2 text-[11px] text-slate-300">
+                            <li>
+                                <span class="font-mono text-rose-300 font-bold">vol20 (20日历史波动率)</span>: 短期收益率标准差，度量短线博弈剧烈程度与多空分歧度。
+                            </li>
+                            <li>
+                                <span class="font-mono text-rose-300 font-bold">vol60 (60日中期波动率)</span>: 季度年化波动率，作为全系统动态风险预算（Risk Budgeting）的底层基准。
+                            </li>
+                            <li>
+                                <span class="font-mono text-rose-300 font-bold">downside_vol (下行下半方差)</span>: 仅统计下跌日的波动率，精准惩罚真正的“亏钱风险”，不误伤暴涨带来的向上波动。
+                            </li>
+                            <li>
+                                <span class="font-mono text-rose-300 font-bold">skewness (收益率偏度 / 偏斜)</span>: 衡量收益分布的不对称性。正偏代表易出连续涨停板（肥右尾），负偏警惕阴跌爆雷。
+                            </li>
+                        </ul>
                     </div>
-                    <div class="p-3 rounded-lg bg-slate-900/60 border border-slate-800">
-                        <div class="font-bold text-emerald-400 mb-1 flex items-center gap-1">
-                            <i class="fa-solid fa-gem"></i> 3. 基本面护城河 (ROE/FCF)
+
+                    <!-- 板块 3: 盘口微观结构与流动性冲击 (5维) -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-cyan-500/30">
+                        <div class="font-bold text-cyan-400 mb-2 flex items-center justify-between">
+                            <span class="flex items-center gap-1.5"><i class="fa-solid fa-water"></i> 三、量价微观结构与流动性</span>
+                            <span class="text-[10px] px-1.5 py-0.5 rounded bg-cyan-500/10 text-cyan-300 font-mono">5 维度</span>
                         </div>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">
-                            扣非 ROE > 12%、自由现金流充沛、近 60 日 0 违规 ST 风险。用最严苛的财务质地防线，将垃圾股、财务造假股、空壳仙股一票否决。
-                        </p>
+                        <ul class="space-y-2 text-[11px] text-slate-300">
+                            <li>
+                                <span class="font-mono text-cyan-300 font-bold">vwap_div (VWAP 均价偏离度)</span>: 收盘价偏离全天成交均价的比例，识别主力是盘中真吸筹还是尾盘诱多。
+                            </li>
+                            <li>
+                                <span class="font-mono text-cyan-300 font-bold">volume_surge (成交量爆发放量比)</span>: 5日日均量除以20日均量，捕捉机构游资放量点火突变信号。
+                            </li>
+                            <li>
+                                <span class="font-mono text-cyan-300 font-bold">ma60_bias (60日均线乖离率)</span>: 股价偏离 60 日牛熊中枢的幅度，衡量估值拉伸与均值回归修复空间。
+                            </li>
+                            <li>
+                                <span class="font-mono text-cyan-300 font-bold">residual_mom (特质残差动量)</span>: 剥离沪深 300 贝塔后个股纯特异收益动量，过滤指数假涨，挑选真正领涨龙头。
+                            </li>
+                            <li>
+                                <span class="font-mono text-cyan-300 font-bold">amihud_illiq (Amihud 非流动性溢价)</span>: 单位成交金额引起的价格位移，度量资金进出冲击成本。
+                            </li>
+                        </ul>
                     </div>
-                    <div class="p-3 rounded-lg bg-slate-900/60 border border-slate-800">
-                        <div class="font-bold text-rose-400 mb-1 flex items-center gap-1">
-                            <i class="fa-solid fa-traffic-light"></i> 4. 宏观对冲门禁 (Regime Gate)
+
+                    <!-- 板块 4: 筹码分布与极端肥尾倾向 (3维) -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-emerald-500/30">
+                        <div class="font-bold text-emerald-400 mb-2 flex items-center justify-between">
+                            <span class="flex items-center gap-1.5"><i class="fa-solid fa-layer-group"></i> 四、筹码分布与极端肥尾倾向</span>
+                            <span class="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/10 text-emerald-300 font-mono">3 维度</span>
                         </div>
-                        <p class="text-slate-400 text-[11px] leading-relaxed">
-                            沪深 300 处于 MA20 均线下方或全市场成交跌破 6000 亿冰点时，系统强制启动防御门禁，拒绝激进开仓，绝不逆大盘而动。
-                        </p>
+                        <ul class="space-y-2 text-[11px] text-slate-300">
+                            <li>
+                                <span class="font-mono text-emerald-300 font-bold">turnover_stability (换手率稳定性)</span>: 20日换手率变异系数，区分主力高换手锁仓洗盘与散户无序跟风。
+                            </li>
+                            <li>
+                                <span class="font-mono text-emerald-300 font-bold">tail_kurtosis (尾部峰度 / 极值体质)</span>: 收益率概率密度陡峭度，评估个股出现涨跌停极端黑天鹅的倾向性。
+                            </li>
+                            <li>
+                                <span class="font-mono text-emerald-300 font-bold">vpt_mom (量价趋势动量 VPT)</span>: 结合成交量权重的真实能量潮动量，有效识别“无量空涨”与“缩量洗盘”。
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 板块 5: 遗传规划符号因子 (3维) -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-purple-500/30">
+                        <div class="font-bold text-purple-400 mb-2 flex items-center justify-between">
+                            <span class="flex items-center gap-1.5"><i class="fa-solid fa-dna"></i> 五、遗传规划非线性符号挖掘</span>
+                            <span class="text-[10px] px-1.5 py-0.5 rounded bg-purple-500/10 text-purple-300 font-mono">3 维度</span>
+                        </div>
+                        <ul class="space-y-2 text-[11px] text-slate-300">
+                            <li>
+                                <span class="font-mono text-purple-300 font-bold">gp_alpha_1 (非线性价量极值比)</span>: 遗传算法自动交叉变异生成的复杂树结构公式，捕捉人脑难以穷举的极值共振。
+                            </li>
+                            <li>
+                                <span class="font-mono text-purple-300 font-bold">gp_alpha_2 (振幅压缩与变盘蓄势)</span>: 衡量日内高低价差与多日流动性收缩的耦合，识别横盘变盘前夜的爆发点。
+                            </li>
+                            <li>
+                                <span class="font-mono text-purple-300 font-bold">gp_alpha_3 (盘口多空博弈积分)</span>: 结合收盘价在日内振幅中相对位置的时间积分，反推尾盘主力真实净控盘意图。
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- 板块 6: 产业链拓扑时滞传导因子 (3维) -->
+                    <div class="p-3.5 rounded-xl bg-slate-900/80 border border-indigo-500/30">
+                        <div class="font-bold text-indigo-400 mb-2 flex items-center justify-between">
+                            <span class="flex items-center gap-1.5"><i class="fa-solid fa-diagram-project"></i> 六、产业链图谱拓扑时滞传导</span>
+                            <span class="text-[10px] px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-300 font-mono">3 维度</span>
+                        </div>
+                        <ul class="space-y-2 text-[11px] text-slate-300">
+                            <li>
+                                <span class="font-mono text-indigo-300 font-bold">graph_upstream_shock (上游成本冲击)</span>: 基于 A 股产业链图网络，跟踪上游关键原材料价格异动向中下游企业的传导压力。
+                            </li>
+                            <li>
+                                <span class="font-mono text-indigo-300 font-bold">graph_peer_lead (同链龙头领涨传导)</span>: 监控中军带头大哥（如工业富联、中际旭创）异动，作为二线启动的先行指标（先行 1~2 天）。
+                            </li>
+                            <li>
+                                <span class="font-mono text-indigo-300 font-bold">graph_catchup_potential (产业链补涨弹性)</span>: 测算龙头涨升后，同产业链中估值未充分反映的配套核心标的的补涨电位差。
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
-                <!-- 双 AI 架构说明 -->
-                <div class="p-3.5 rounded-lg bg-purple-950/20 border border-purple-800/40 text-xs">
-                    <div class="flex items-center gap-2 mb-1.5 font-bold text-purple-300">
-                        <i class="fa-solid fa-microchip"></i> 为什么采用“LightGBM + PyTorch Transformer”混合双脑？
+                <!-- 双 AI 架构深度协同机理 -->
+                <div class="p-4 rounded-xl bg-purple-950/20 border border-purple-800/40 text-xs">
+                    <div class="flex items-center justify-between mb-2">
+                        <span class="font-bold text-purple-300 flex items-center gap-1.5">
+                            <i class="fa-solid fa-microchip"></i> 22 维时序张量与混合双脑联动决策机理 (LightGBM + PyTorch Transformer)
+                        </span>
+                        <span class="px-2 py-0.5 rounded bg-purple-500/20 text-purple-300 font-mono text-[10px]">双视界在线微调</span>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-slate-300 text-[11px] leading-relaxed">
-                        <div>
-                            <strong class="text-white">LightGBM (纳秒级非线性决策)：</strong> 擅长在海量高维财务数据与技术特征中寻找“因子间非线性交叉交互”，比如当“换手率异动”与“OFI 扫货”同时触发时，赋予几何级加权。
+                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-slate-300 text-[11px] leading-relaxed">
+                        <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800">
+                            <strong class="text-amber-300">① 时序张量输入 (Tensor Input):</strong>
+                            <p class="text-slate-400 mt-1">
+                                每只候选标的将过去 20 个交易日的 22 维因子整合成 <code>(Batch, 20, 22)</code> 张量，既包含单日因子截面，又包含 20 天动量加速度轨迹。
+                            </p>
                         </div>
-                        <div>
-                            <strong class="text-white">PyTorch 深度时序注意力：</strong> 引入 Multi-Head Attention 自注意力层，自动捕捉过去 20 个交易日中哪些时间段对今日收益具有决定性影响，动态调节记忆衰减权重。
+                        <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800">
+                            <strong class="text-purple-300">② PyTorch Transformer 自注意力:</strong>
+                            <p class="text-slate-400 mt-1">
+                                4 个自注意力头动态给 T-19 到 T 日分配权重，智能发现“T-15 到 T-12 周期拐点”，并输出 1D 短期收益、5D 收益期望与认知不确定性 σ。
+                            </p>
+                        </div>
+                        <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800">
+                            <strong class="text-cyan-300">③ LightGBM 树模型与 PSI 漂移响应:</strong>
+                            <p class="text-slate-400 mt-1">
+                                树模型负责高维非线性交叉筛选；当 PSI 判定概念漂移时，系统动态将 65% 权重切给敏捷深度网络，35% 留给压舱石树模型，兼顾进攻与防守。
+                            </p>
                         </div>
                     </div>
                 </div>
