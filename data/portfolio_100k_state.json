@@ -20,11 +20,11 @@
     "688017.SS": {
       "name": "绿的谐波",
       "shares": 100,
-      "avg_cost": 294.269,
+      "avg_cost": 294.21,
       "last_price": 294.21,
       "market_value": 29421.0,
-      "pnl": -5.88,
-      "pnl_pct": -0.02,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
       "highest": 294.21
     }
   },
