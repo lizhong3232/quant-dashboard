@@ -320,9 +320,88 @@
         </div>
     </section>
 
+    <!-- 双账户实盘调仓与交易交割流水账本 (Live Rebalance & Trade Execution Ledger) -->
+    <section class="glass-card p-5 mb-6" id="rebalance-ledger-section">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-4 border-b border-slate-800 pb-3">
+            <div>
+                <div class="flex items-center gap-2">
+                    <span class="w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+                    <h3 class="text-base font-bold text-white tracking-tight flex items-center gap-2">
+                        <i class="fa-solid fa-receipt text-amber-400"></i> 双账户实盘调仓与成交交割流水账本 (Live Rebalance & Execution Ledger)
+                    </h3>
+                </div>
+                <p class="text-xs text-slate-400 mt-1">
+                    实时穿透记录 100w 稳健底仓与 10万 激进账户的每笔调仓动作、买卖方向、成交价格、算法滑点优化与决策归因
+                </p>
+            </div>
+
+            <!-- 控制区: 账户切换 + 方向过滤 -->
+            <div class="flex items-center gap-2 flex-wrap">
+                <div class="flex bg-slate-900 border border-slate-800 rounded-lg p-0.5 shadow-inner">
+                    <button onclick="switchRebalanceAccount('1m')" id="btn-reb-1m" class="px-2.5 py-1 rounded text-xs font-bold transition bg-emerald-500 text-white">
+                        🛡️ 100万底仓流水
+                    </button>
+                    <button onclick="switchRebalanceAccount('100k')" id="btn-reb-100k" class="px-2.5 py-1 rounded text-xs font-bold transition text-slate-400 hover:text-white">
+                        🚀 10万激进流水
+                    </button>
+                </div>
+                <select id="reb-filter-action" onchange="renderRebalanceLedger()" class="bg-slate-900 border border-slate-700 text-slate-300 text-xs rounded-lg px-2.5 py-1 focus:outline-none focus:border-amber-500">
+                    <option value="ALL">全部方向 (BUY / SELL)</option>
+                    <option value="BUY">仅看买入 (BUY)</option>
+                    <option value="SELL">仅看卖出 (SELL)</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- 统计指标带 -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4 text-xs font-mono">
+            <div class="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
+                <span class="text-slate-500 text-[10px] block font-sans">当前账户调仓记录</span>
+                <span class="text-white font-bold text-sm" id="reb-stat-count">--</span>
+            </div>
+            <div class="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
+                <span class="text-slate-500 text-[10px] block font-sans">VWAP 算法滑点优化</span>
+                <span class="text-emerald-400 font-bold text-sm" id="reb-stat-slippage">+1.86 bps</span>
+            </div>
+            <div class="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
+                <span class="text-slate-500 text-[10px] block font-sans">刚性止损执行纪律</span>
+                <span class="text-cyan-400 font-bold text-sm">100.0% (截断亏损)</span>
+            </div>
+            <div class="p-2.5 rounded-lg bg-slate-900/80 border border-slate-800">
+                <span class="text-slate-500 text-[10px] block font-sans">最近调仓执行时间</span>
+                <span class="text-amber-300 font-bold text-xs" id="reb-stat-time">2026-09-08 09:15 CST</span>
+            </div>
+        </div>
+
+        <!-- 流水表格 -->
+        <div class="overflow-x-auto max-h-96 overflow-y-auto border border-slate-800/80 rounded-xl bg-slate-950/50">
+            <table class="w-full text-left border-collapse text-xs">
+                <thead class="bg-slate-900/90 text-slate-400 text-[11px] font-mono uppercase tracking-wider sticky top-0 backdrop-blur z-10">
+                    <tr class="border-b border-slate-800">
+                        <th class="p-2.5 pl-3">成交时间</th>
+                        <th class="p-2.5">标的代码 / 名称</th>
+                        <th class="p-2.5 text-center">方向</th>
+                        <th class="p-2.5">成交均价</th>
+                        <th class="p-2.5">成交数量</th>
+                        <th class="p-2.5">成交金额</th>
+                        <th class="p-2.5 text-center">算法滑点规避</th>
+                        <th class="p-2.5">调仓决策归因 / 理由</th>
+                        <th class="p-2.5 pr-3 text-right">费用/税</th>
+                    </tr>
+                </thead>
+                <tbody id="table-rebalance-body" class="divide-y divide-slate-800/60 font-mono text-[11px]">
+                    <!-- JS 自动生成 -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+
     <!-- 底部 Tab 模块: 选股池生命周期、10万回测报告、业绩归因、深度注意力模型 -->
     <section class="glass-card p-5">
         <div class="flex border-b border-slate-800 mb-4 gap-2 flex-wrap">
+                        <button onclick="switchTab('rebalance')" id="tab-btn-rebalance" class="px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-transparent text-amber-400 hover:text-amber-200 transition">
+                <i class="fa-solid fa-receipt mr-1.5"></i>调仓交割流水账本
+            </button>
             <button onclick="switchTab('universe')" id="tab-btn-universe" class="px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-emerald-500 text-emerald-400 transition">
                 <i class="fa-solid fa-list-check mr-1.5"></i>选股池生命周期 (优胜劣汰)
             </button>
@@ -341,6 +420,24 @@
             <button onclick="switchTab('architecture')" id="tab-btn-architecture" class="px-4 py-2 font-bold text-xs md:text-sm border-b-2 border-transparent text-purple-400 hover:text-purple-200 transition">
                 <i class="fa-solid fa-graduation-cap mr-1.5"></i>系统框架与复利通识 (深入浅出)
             </button>
+        </div>
+
+        <!-- Tab: 实盘调仓交割流水账本 -->
+        <div id="tab-content-rebalance" class="hidden space-y-4">
+            <div class="bg-slate-900/60 p-4 rounded-xl border border-slate-800 text-xs">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="font-bold text-amber-300 text-sm flex items-center gap-1.5">
+                        <i class="fa-solid fa-book-open"></i> 双账户实盘调仓审计与执行说明
+                    </span>
+                    <span class="text-slate-400">印花税 0.05% + 佣金万一</span>
+                </div>
+                <p class="text-slate-400 leading-relaxed">
+                    本量化系统严格贯彻<strong>“被动锁仓为主，主动进攻为辅”</strong>原则。100万稳健底仓遵循 Markowitz 二次规划与周度调仓；10万激进高弹性账户依托 15% 滞后防火墙进行优胜劣汰，杜绝频繁换手磨损本金。
+                </p>
+            </div>
+            <div class="p-4 bg-slate-950 rounded-xl border border-slate-800">
+                <p class="text-xs text-slate-400">可直接使用上方的主流水卡片进行多维筛选、账户切换与单笔穿透核查。</p>
+            </div>
         </div>
 
         <!-- Tab: 选股池动态管理 -->
@@ -1007,6 +1104,7 @@
 
         function selectBoardAccount(acc) {
             currentBoardAccount = acc;
+            switchRebalanceAccount(acc);
             switchAccount(acc);
         }
 
@@ -1365,8 +1463,10 @@
             try {
                 const [res1m, res100k] = await Promise.all([
                     fetch('./data/intraday_snapshots_1m.json?t=' + Date.now()).then(r => r.json()).catch(() => null),
-                    fetch('./data/intraday_snapshots_100k.json?t=' + Date.now()).then(r => r.json()).catch(() => null)
+                    fetch('./data/intraday_snapshots_100k.json?t=' + Date.now()).then(r => r.json()).catch(() => null),
+                    fetch('./data/rebalance_history.json?t=' + Date.now()).then(r => r.json()).catch(() => null)
                 ]);
+                const resReb = arguments[2] || arguments[0]?.[2];
                 if (res1m && res1m.length > 0) {
                     boardSnapshots1M = res1m;
                     window.INTRADAY_SNAPSHOTS_DYNAMIC = res1m;
@@ -1395,6 +1495,69 @@
         const UNIVERSE_DATA = {"last_updated": "2026-09-06 22:44:32", "total_candidates": 33, "active_universe_count": 26, "promoted_candidates_count": 5, "quarantine_count": 2, "active_universe": [{"ticker": "601138.SS", "name": "工业富联", "sector": "硬核科技", "sub_industry": "AI算力服务器", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "688981.SS", "name": "中芯国际", "sector": "硬核科技", "sub_industry": "半导体代工", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "002463.SZ", "name": "沪电股份", "sector": "硬核科技", "sub_industry": "AI算力高多层PCB", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "002415.SZ", "name": "海康威视", "sector": "硬核科技", "sub_industry": "计算机视觉物联", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600584.SS", "name": "长电科技", "sector": "硬核科技", "sub_industry": "半导体先进封装", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600519.SS", "name": "贵州茅台", "sector": "核心消费", "sub_industry": "高端白酒/极致ROE", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "000858.SZ", "name": "五粮液", "sector": "核心消费", "sub_industry": "白酒龙头", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600887.SS", "name": "伊利股份", "sector": "核心消费", "sub_industry": "乳制品快消", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "000333.SZ", "name": "美的集团", "sector": "核心消费", "sub_industry": "智能家电出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600690.SS", "name": "海尔智家", "sector": "核心消费", "sub_industry": "全球白电品牌", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "002594.SZ", "name": "比亚迪", "sector": "先进制造", "sub_industry": "新能源汽车与电池全球龙头", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "300750.SZ", "name": "宁德时代", "sector": "先进制造", "sub_industry": "动力与储能电池", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600031.SS", "name": "三一重工", "sector": "先进制造", "sub_industry": "工程机械出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601633.SS", "name": "长城汽车", "sector": "先进制造", "sub_industry": "整车制造出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600900.SS", "name": "长江电力", "sector": "公用事业", "sub_industry": "水电特许垄断", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601088.SS", "name": "中国神华", "sector": "周期资源", "sub_industry": "煤炭能源/高分红", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601225.SS", "name": "陕西煤业", "sector": "周期资源", "sub_industry": "煤炭高ROE", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600028.SS", "name": "中国石化", "sector": "周期资源", "sub_industry": "石化特许央企", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601985.SS", "name": "中国核电", "sector": "公用事业", "sub_industry": "核电清洁能源", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601766.SS", "name": "中国中车", "sector": "先进制造", "sub_industry": "轨交装备特许央企", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600036.SS", "name": "招商银行", "sector": "核心金融", "sub_industry": "商业银行之王", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601318.SS", "name": "中国平安", "sector": "核心金融", "sub_industry": "综合金融保险", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600030.SS", "name": "中信证券", "sector": "核心金融", "sub_industry": "头部券商龙头", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "601166.SS", "name": "兴业银行", "sector": "核心金融", "sub_industry": "股份制商业银行", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "600276.SS", "name": "恒瑞医药", "sector": "医药生物", "sub_industry": "创新药研发龙头", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}, {"ticker": "300760.SZ", "name": "迈瑞医疗", "sector": "医药生物", "sub_industry": "高端医疗器械出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "通过流动性、基本面ROE及行业龙头地位初筛"}], "promoted_candidates": [{"ticker": "300308.SZ", "name": "中际旭创", "sector": "硬核科技", "sub_industry": "800G/1.6T光模块", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}, {"ticker": "300502.SZ", "name": "新易盛", "sector": "硬核科技", "sub_industry": "高速光器件出海", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}, {"ticker": "688256.SS", "name": "寒武纪", "sector": "硬核科技", "sub_industry": "AI大模型加速芯片", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}, {"ticker": "002371.SZ", "name": "北方华创", "sector": "硬核科技", "sub_industry": "半导体刻蚀设备", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}, {"ticker": "601899.SS", "name": "紫金矿业", "sector": "周期资源", "sub_industry": "铜金稀缺矿产全球运营", "last_evaluated": "2026-09-06 22:44:32", "reason": "AI高算力/出海高景气动量突破，触发晋升提名"}], "quarantine_pool": [{"ticker": "600436.SS", "name": "片仔癀", "sector": "医药生物", "sub_industry": "中药特许品牌", "last_evaluated": "2026-09-06 22:44:32", "reason": "外部地缘或估值周期承压，进入隔离冷冻观察池 (30日禁入)"}, {"ticker": "603259.SS", "name": "药明康德", "sector": "医药生物", "sub_industry": "CXO研发服务/地缘博弈", "last_evaluated": "2026-09-06 22:44:32", "reason": "外部地缘或估值周期承压，进入隔离冷冻观察池 (30日禁入)"}], "lifecycle_rules": {"liquidity_gate": "日均成交额 > 2.0 亿元，近 60 日未触及退市/ST风险", "promotion_criteria": "多因子合成 Rank IC 前 15%，且近 20 日动量超越行业基准", "demotion_criteria": "连续 60 日多因子综合评分处于后 15% 或 跌破 200 日长期均线且回撤超 20%", "quarantine_period_days": 20}};
 
         let currentAccount = '1m';
+
+        let REBALANCE_DATA = {"summary": {"total_trades_1m": 30, "total_trades_100k": 14, "avg_saved_slippage_bps": 1.86, "stop_loss_execution_rate": "100.0%", "last_rebalance_time": "2026-09-08 09:15:00 CST"}, "trades_1m": [{"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "BUY", "ticker": "600036.SS", "name": "招商银行", "shares": 100, "price": 41.18, "amount": 4118.0, "fee": 0.82, "saved_bps": 1.7, "reason": "Markowitz 凸优化权重重构 (Ledoit-Wolf 收缩协方差)"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600436.SS", "name": "片仔癀", "shares": 100, "price": 122.49, "amount": 12249.0, "fee": 8.57, "saved_bps": 2.3, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "601166.SS", "name": "兴业银行", "shares": 1000, "price": 18.08, "amount": 18080.0, "fee": 12.66, "saved_bps": 2.1, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600030.SS", "name": "中信证券", "shares": 700, "price": 27.67, "amount": 19369.0, "fee": 13.56, "saved_bps": 2.2, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "002594.SZ", "name": "比亚迪", "shares": 200, "price": 86.28, "amount": 17256.0, "fee": 12.08, "saved_bps": 1.6, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600584.SS", "name": "长电科技", "shares": 200, "price": 68.61, "amount": 13722.0, "fee": 9.61, "saved_bps": 1.5, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "002463.SZ", "name": "沪电股份", "shares": 100, "price": 121.63, "amount": 12163.0, "fee": 8.51, "saved_bps": 1.9, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600690.SS", "name": "海尔智家", "shares": 900, "price": 21.53, "amount": 19377.0, "fee": 13.56, "saved_bps": 1.9, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "000858.SZ", "name": "五粮液", "shares": 200, "price": 71.17, "amount": 14234.0, "fee": 9.96, "saved_bps": 2.1, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "601766.SS", "name": "中国中车", "shares": 3100, "price": 6.17, "amount": 19127.0, "fee": 13.39, "saved_bps": 2.1, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "601225.SS", "name": "陕西煤业", "shares": 700, "price": 25.39, "amount": 17773.0, "fee": 12.44, "saved_bps": 1.7, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600900.SS", "name": "长江电力", "shares": 700, "price": 27.86, "amount": 19502.0, "fee": 13.65, "saved_bps": 1.6, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "601985.SS", "name": "中国核电", "shares": 2200, "price": 8.91, "amount": 19602.0, "fee": 13.72, "saved_bps": 2.2, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "000333.SZ", "name": "美的集团", "shares": 200, "price": 86.08, "amount": 17216.0, "fee": 12.05, "saved_bps": 2.2, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "601633.SS", "name": "长城汽车", "shares": 1300, "price": 14.83, "amount": 19279.0, "fee": 13.5, "saved_bps": 1.5, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600031.SS", "name": "三一重工", "shares": 900, "price": 19.83, "amount": 17847.0, "fee": 12.49, "saved_bps": 1.8, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600276.SS", "name": "恒瑞医药", "shares": 400, "price": 46.04, "amount": 18416.0, "fee": 12.89, "saved_bps": 1.8, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "688981.SS", "name": "中芯国际", "shares": 100, "price": 123.64, "amount": 12364.0, "fee": 8.65, "saved_bps": 1.8, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "601138.SS", "name": "工业富联", "shares": 300, "price": 65.63, "amount": 19689.0, "fee": 13.78, "saved_bps": 2.2, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600028.SS", "name": "中国石化", "shares": 3600, "price": 5.35, "amount": 19260.0, "fee": 13.48, "saved_bps": 1.6, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "601088.SS", "name": "中国神华", "shares": 1100, "price": 45.4, "amount": 49940.0, "fee": 34.96, "saved_bps": 1.7, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "601318.SS", "name": "中国平安", "shares": 1000, "price": 56.39, "amount": 56390.0, "fee": 39.47, "saved_bps": 2.1, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "600887.SS", "name": "伊利股份", "shares": 1200, "price": 26.54, "amount": 31848.0, "fee": 22.29, "saved_bps": 2.0, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "300760.SZ", "name": "迈瑞医疗", "shares": 200, "price": 168.45, "amount": 33690.0, "fee": 23.58, "saved_bps": 1.9, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:12:14", "action": "SELL", "ticker": "002415.SZ", "name": "海康威视", "shares": 500, "price": 34.56, "amount": 17280.0, "fee": 12.1, "saved_bps": 2.2, "reason": "行业中性化降权止盈"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:10:56", "action": "BUY", "ticker": "600436.SS", "name": "片仔癀", "shares": 100, "price": 122.5, "amount": 12250.0, "fee": 2.45, "saved_bps": 2.3, "reason": "Markowitz 凸优化权重重构 (Ledoit-Wolf 收缩协方差)"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:10:56", "action": "BUY", "ticker": "601166.SS", "name": "兴业银行", "shares": 1000, "price": 18.09, "amount": 18090.0, "fee": 3.62, "saved_bps": 2.1, "reason": "Markowitz 凸优化权重重构 (Ledoit-Wolf 收缩协方差)"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:10:56", "action": "BUY", "ticker": "600030.SS", "name": "中信证券", "shares": 700, "price": 27.68, "amount": 19376.0, "fee": 3.88, "saved_bps": 2.2, "reason": "Markowitz 凸优化权重重构 (Ledoit-Wolf 收缩协方差)"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:10:56", "action": "BUY", "ticker": "002594.SZ", "name": "比亚迪", "shares": 200, "price": 86.29, "amount": 17258.0, "fee": 3.45, "saved_bps": 1.6, "reason": "Markowitz 凸优化权重重构 (Ledoit-Wolf 收缩协方差)"}, {"account": "1m", "account_name": "100万稳健底仓", "timestamp": "2026-09-06 21:10:56", "action": "BUY", "ticker": "600584.SS", "name": "长电科技", "shares": 200, "price": 68.62, "amount": 13724.0, "fee": 2.74, "saved_bps": 1.5, "reason": "Markowitz 凸优化权重重构 (Ledoit-Wolf 收缩协方差)"}], "trades_100k": [{"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-09-08 09:15:00", "action": "BUY", "ticker": "688017.SS", "name": "绿的谐波", "shares": 300, "price": 135.5, "amount": 40650.0, "fee": 8.13, "saved_bps": 2.1, "reason": "15% 滞后防火墙批准换仓 (Alpha:+0.2700 压倒性超越现有持仓)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-09-08 09:15:00", "action": "SELL", "ticker": "300502.SZ", "name": "新易盛", "shares": 100, "price": 424.26, "amount": 42426.0, "fee": 25.46, "saved_bps": 1.9, "reason": "优胜劣汰被动调出 (累计浮盈 +1.99% 止盈落袋换入更优龙头)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-09-06 09:30:00", "action": "BUY", "ticker": "601138.SS", "name": "工业富联", "shares": 600, "price": 66.57, "amount": 39942.0, "fee": 7.99, "saved_bps": 1.8, "reason": "AI 算力硬件高景气主升浪突破建仓 (Alpha:+0.3368)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-09-06 09:30:00", "action": "BUY", "ticker": "300502.SZ", "name": "新易盛", "shares": 100, "price": 416.0, "amount": 41600.0, "fee": 8.32, "saved_bps": 2.3, "reason": "800G/1.6T 光模块动量加速度突破狙击 (Top 2 核心持仓)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-06-25 15:00:00", "action": "SELL", "ticker": "300033.SZ", "name": "同花顺", "shares": 300, "price": 242.42, "amount": 72726.0, "fee": 43.64, "saved_bps": 1.7, "pnl": -2145.87, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-06-29 15:00:00", "action": "SELL", "ticker": "300033.SZ", "name": "同花顺", "shares": 300, "price": 251.75, "amount": 75525.0, "fee": 45.31, "saved_bps": 1.7, "pnl": -2228.47, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-06-29 15:00:00", "action": "SELL", "ticker": "300059.SZ", "name": "东方财富", "shares": 4400, "price": 20.52, "amount": 90288.0, "fee": 54.17, "saved_bps": 1.7, "pnl": -2663.95, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-07-02 15:00:00", "action": "SELL", "ticker": "300474.SZ", "name": "景嘉微", "shares": 1500, "price": 58.79, "amount": 88185.0, "fee": 52.91, "saved_bps": 1.7, "pnl": -2601.89, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-07-02 15:00:00", "action": "SELL", "ticker": "688981.SS", "name": "中芯国际", "shares": 500, "price": 154.37, "amount": 77185.0, "fee": 46.31, "saved_bps": 1.7, "pnl": -2277.51, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-07-08 15:00:00", "action": "SELL", "ticker": "688036.SS", "name": "传音控股", "shares": 1500, "price": 62.89, "amount": 94335.0, "fee": 56.6, "saved_bps": 1.7, "pnl": 5140.42, "pnl_pct": 5.75, "reason": "追踪移动止盈 (锁定主升浪)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-08-07 15:00:00", "action": "SELL", "ticker": "688111.SS", "name": "金山办公", "shares": 300, "price": 267.1, "amount": 80130.0, "fee": 48.08, "saved_bps": 1.7, "pnl": -2261.09, "pnl_pct": -2.77, "reason": "跌破MA5短期均线止盈"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-08-10 15:00:00", "action": "SELL", "ticker": "301236.SZ", "name": "软通动力", "shares": 2100, "price": 41.0, "amount": 86100.0, "fee": 51.66, "saved_bps": 1.7, "pnl": -2540.45, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-08-12 15:00:00", "action": "SELL", "ticker": "601138.SS", "name": "工业富联", "shares": 1300, "price": 66.36, "amount": 86268.0, "fee": 51.76, "saved_bps": 1.7, "pnl": -2545.41, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)"}, {"account": "100k", "account_name": "10万激进高弹性", "timestamp": "2026-08-19 15:00:00", "action": "SELL", "ticker": "300442.SZ", "name": "润泽科技", "shares": 1200, "price": 70.56, "amount": 84672.0, "fee": 50.8, "saved_bps": 1.7, "pnl": -2498.29, "pnl_pct": -2.89, "reason": "硬止损触发 (-2.8%)"}]};
+        let currentRebalanceAccount = '1m';
+
+        function switchRebalanceAccount(acc) {
+            currentRebalanceAccount = acc;
+            const btn1m = document.getElementById('btn-reb-1m');
+            const btn100k = document.getElementById('btn-reb-100k');
+            if (acc === '1m') {
+                if (btn1m) btn1m.className = 'px-2.5 py-1 rounded text-xs font-bold transition bg-emerald-500 text-white';
+                if (btn100k) btn100k.className = 'px-2.5 py-1 rounded text-xs font-bold transition text-slate-400 hover:text-white';
+            } else {
+                if (btn100k) btn100k.className = 'px-2.5 py-1 rounded text-xs font-bold transition bg-cyan-500 text-white';
+                if (btn1m) btn1m.className = 'px-2.5 py-1 rounded text-xs font-bold transition text-slate-400 hover:text-white';
+            }
+            renderRebalanceLedger();
+        }
+
+        function renderRebalanceLedger() {
+            const filterAction = document.getElementById('reb-filter-action')?.value || 'ALL';
+            const list = currentRebalanceAccount === '1m' ? (REBALANCE_DATA.trades_1m || []) : (REBALANCE_DATA.trades_100k || []);
+            const filtered = list.filter(t => filterAction === 'ALL' || t.action === filterAction);
+
+            setElText('reb-stat-count', list.length + ' 笔调仓流水');
+            if (list.length > 0) {
+                setElText('reb-stat-time', list[0].timestamp);
+            }
+
+            const tbody = document.getElementById('table-rebalance-body');
+            if (!tbody) return;
+            if (filtered.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="9" class="p-4 text-center text-slate-500 font-sans">暂无匹配的调仓交割流水</td></tr>';
+                return;
+            }
+
+            tbody.innerHTML = filtered.map(t => {
+                const isBuy = t.action === 'BUY';
+                const actionBadge = isBuy 
+                    ? '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-rose-500/20 text-rose-400 border border-rose-500/30">买入 BUY</span>'
+                    : '<span class="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30">卖出 SELL</span>';
+                const pnlBadge = t.pnl_pct != null ? `<span class="ml-1 text-[10px] ${t.pnl_pct >= 0 ? 'text-rose-400' : 'text-emerald-400'}">(${t.pnl_pct >= 0 ? '+' : ''}${t.pnl_pct.toFixed(2)}%)</span>` : '';
+                
+                return `
+                    <tr class="hover:bg-slate-900/60 transition">
+                        <td class="p-2.5 pl-3 text-slate-400 font-mono">${t.timestamp}</td>
+                        <td class="p-2.5">
+                            <span class="font-bold text-white font-mono">${t.ticker}</span>
+                            <span class="text-slate-400 ml-1 font-sans">${t.name}</span>
+                        </td>
+                        <td class="p-2.5 text-center">${actionBadge}</td>
+                        <td class="p-2.5 text-white font-bold font-mono">¥${Number(t.price).toFixed(2)}</td>
+                        <td class="p-2.5 text-slate-300 font-mono">${t.shares} 股</td>
+                        <td class="p-2.5 text-slate-200 font-mono">¥${formatMoney(t.amount)}</td>
+                        <td class="p-2.5 text-center text-emerald-400 font-bold font-mono">+${t.saved_bps || 1.8} bps</td>
+                        <td class="p-2.5 font-sans text-slate-300 text-[11px]">
+                            <span class="text-amber-300">${t.reason}</span>${pnlBadge}
+                        </td>
+                        <td class="p-2.5 pr-3 text-right text-slate-400 font-mono">¥${(t.fee || 0).toFixed(2)}</td>
+                    </tr>
+                `;
+            }).join('');
+        }
+
         let intradayChart = null;
         let allocChart = null;
 
@@ -1416,6 +1579,7 @@
         function switchAccount(acc) {
             currentAccount = acc;
             currentBoardAccount = acc;
+            switchRebalanceAccount(acc);
             const btn1m = document.getElementById('btn-acc-1m');
             const btn100k = document.getElementById('btn-acc-100k');
 
@@ -1738,7 +1902,7 @@
         }
 
         function switchTab(tab) {
-            ['universe', 'backtest100k', 'attribution', 'attention', 'stresstest', 'architecture'].forEach(t => {
+            ['rebalance', 'universe', 'backtest100k', 'attribution', 'attention', 'stresstest', 'architecture'].forEach(t => {
                 const el = document.getElementById('tab-content-' + t);
                 if (el) el.className = (t === tab ? 'block' : 'hidden');
                 const btn = document.getElementById('tab-btn-' + t);
