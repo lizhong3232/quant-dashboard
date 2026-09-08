@@ -593,12 +593,12 @@
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 text-xs">
                     <div class="p-3 rounded-lg bg-slate-900/60 border border-slate-800">
                         <div class="font-bold text-purple-400 mb-1 flex items-center justify-between">
-                            <span>周一 09:10 CST</span>
+                            <span>交易日 09:10 CST</span>
                             <i class="fa-solid fa-rotate text-[11px]"></i>
                         </div>
-                        <div class="text-white font-medium mb-1">因子重训与调仓指令</div>
+                        <div class="text-white font-medium mb-1">滚动1个月微调与15%滞后调仓</div>
                         <p class="text-slate-400 text-[11px] leading-relaxed">
-                            开盘前 20 分钟自动调度 LightGBM 重新拟合 16 维因子打分，计算目标权重，生成本周最新调仓与晋升清单。
+                            开盘前 20 分钟自动滑动 20 交易日窗口增量微调 Transformer 与 LightGBM。通过 15% 滞后门限压制无谓微小换仓，仅在龙头显著碾压或触及止损时才下达调仓单。
                         </p>
                     </div>
                     <div class="p-3 rounded-lg bg-slate-900/60 border border-slate-800">
@@ -715,7 +715,7 @@
                         <ul class="space-y-1.5 text-slate-400 text-[11px] leading-relaxed">
                             <li><strong>硬件载体：</strong> 本地 Apple Silicon 芯片 (M系列高性能 GPU)。</li>
                             <li><strong>加速后端：</strong> 深度适配 Apple Metal Performance Shaders (<code>DEVICE = mps</code>)，统一内存架构零总线搬运。</li>
-                            <li><strong>职责：</strong> 20日多周期多头自注意力权重拟合、时序注意力热力图矩阵渲染。</li>
+                            <li><strong>更新机制：</strong> 每日 09:10 基于过去 20 交易日滑窗进行 Warm-Start 步进微调 (&lt; 1秒)，毫秒级输出多任务注意力权重。</li>
                         </ul>
                     </div>
 
@@ -730,7 +730,7 @@
                         <ul class="space-y-1.5 text-slate-400 text-[11px] leading-relaxed">
                             <li><strong>硬件载体：</strong> 本地 ARM64 高性能性能核 (P-Cores)。</li>
                             <li><strong>加速后端：</strong> OpenMP 高速多线程并行，纳秒级直方图决策树分裂。</li>
-                            <li><strong>职责：</strong> 16维微观因子非线性交叉组合、概念漂移 (Concept Drift) 自适应拟合。</li>
+                            <li><strong>风控防火墙：</strong> 配合 15% 滞后换仓门限 (Hysteresis Band)，有效压制日内噪音，杜绝无效高频交易磨损。</li>
                         </ul>
                     </div>
 
