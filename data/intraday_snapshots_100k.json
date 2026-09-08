@@ -1522,5 +1522,132 @@
       "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
       "decision_rationale": "当前龙头持仓（工业富联 Alpha +0.1795 | 新易盛 Alpha +0.1689）稳居第一梯队；外部最强候选（阳光电源 +0.1591）未超越现有持仓 15% 门限（需 > +0.1942）；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
     }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-08 11:45:40 CST",
+    "time_str": "11:45",
+    "date_str": "2026-09-08",
+    "portfolio_value": 100528.0,
+    "cash": 18458.0,
+    "stock_market_value": 82070.0,
+    "cash_ratio_pct": 18.36,
+    "stock_ratio_pct": 81.64,
+    "account_nav": 1.0053,
+    "bench_nav": 1.0058,
+    "bench_change_pct": 0.19,
+    "alpha_pct": -0.05,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "601138.SS",
+        "name": "工业富联",
+        "shares": 600,
+        "avg_cost": 66.57,
+        "last_price": 65.95,
+        "market_value": 39570.0,
+        "change_pct": -0.93,
+        "pnl": -372.0,
+        "pnl_pct": -0.93,
+        "ofi": -0.024,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 39.36
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 416.0,
+        "last_price": 425.0,
+        "market_value": 42500.0,
+        "change_pct": 1.87,
+        "pnl": 900.0,
+        "pnl_pct": 2.16,
+        "ofi": 0.066,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 42.28
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 100528.0,
+      "cash": 18458.0,
+      "stock_market_value": 82070.0,
+      "cash_ratio_pct": 18.36,
+      "stock_ratio_pct": 81.64,
+      "account_nav": 1.0053,
+      "bench_nav": 1.0058,
+      "alpha_pct": -0.05,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "601138.SS",
+          "name": "工业富联",
+          "shares": 600,
+          "avg_cost": 66.57,
+          "last_price": 65.95,
+          "market_value": 39570.0,
+          "change_pct": -0.93,
+          "pnl": -372.0,
+          "pnl_pct": -0.93,
+          "ofi": -0.024,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 39.36
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 416.0,
+          "last_price": 425.0,
+          "market_value": 42500.0,
+          "change_pct": 1.87,
+          "pnl": 900.0,
+          "pnl_pct": 2.16,
+          "ofi": 0.066,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 42.28
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，海外AI基础设施 Capex 驱动力强劲",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，新易盛 800G 光模块出海与工业富联 AI 服务器高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "601138.SS",
+          "name": "工业富联",
+          "time": "今日研判",
+          "title": "全球 AI 服务器供应链出货饱满，GB200/B200 机柜算力第三季度加速放量",
+          "source": "海通证券 / 产业供应链跟踪",
+          "sentiment": "积极偏多",
+          "score": 0.65,
+          "summary": "工业富联在高密度 AI 服务器、液冷机柜及高速以太网/InfiniBand 交换机制造领域全球份额领先，算力客户资本开支持续加码。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓（工业富联 Alpha +0.1795 | 新易盛 Alpha +0.1689）稳居第一梯队；外部最强候选（阳光电源 +0.1591）未超越现有持仓 15% 门限（需 > +0.1942）；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
   }
 ]
