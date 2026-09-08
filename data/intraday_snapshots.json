@@ -1645,5 +1645,114 @@
         "flow_status": "强势主动扫货"
       }
     ]
+  },
+  {
+    "timestamp": "2026-09-08 09:57:48 CST",
+    "time_str": "09:57",
+    "date_str": "2026-09-08",
+    "portfolio_value": 985966.11,
+    "cash": 661709.11,
+    "stock_market_value": 324257.0,
+    "cash_ratio_pct": 67.11,
+    "stock_ratio_pct": 32.89,
+    "account_nav": 0.986,
+    "bench_nav": 1.0039,
+    "bench_change_pct": 0.0,
+    "alpha_pct": -1.79,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "300760.SZ",
+        "name": "迈瑞医疗",
+        "shares": 300,
+        "avg_cost": 168.61,
+        "last_price": 168.14,
+        "market_value": 50442.0,
+        "change_pct": 0.16,
+        "pnl": -141.0,
+        "pnl_pct": -0.28,
+        "ofi": -0.035,
+        "flow_status": "买卖力量均衡"
+      },
+      {
+        "ticker": "600887.SS",
+        "name": "伊利股份",
+        "shares": 2200,
+        "avg_cost": 26.8,
+        "last_price": 26.76,
+        "market_value": 58872.0,
+        "change_pct": 0.56,
+        "pnl": -88.0,
+        "pnl_pct": -0.15,
+        "ofi": 0.066,
+        "flow_status": "强势主动扫货"
+      },
+      {
+        "ticker": "601318.SS",
+        "name": "中国平安",
+        "shares": 1000,
+        "avg_cost": 57.432,
+        "last_price": 56.58,
+        "market_value": 56580.0,
+        "change_pct": 0.39,
+        "pnl": -852.0,
+        "pnl_pct": -1.48,
+        "ofi": -0.084,
+        "flow_status": "主动砸盘出货"
+      },
+      {
+        "ticker": "601088.SS",
+        "name": "中国神华",
+        "shares": 1300,
+        "avg_cost": 46.001,
+        "last_price": 46.24,
+        "market_value": 60112.0,
+        "change_pct": 0.33,
+        "pnl": 310.7,
+        "pnl_pct": 0.52,
+        "ofi": -0.026,
+        "flow_status": "买卖力量均衡"
+      },
+      {
+        "ticker": "601138.SS",
+        "name": "工业富联",
+        "shares": 500,
+        "avg_cost": 65.613,
+        "last_price": 65.27,
+        "market_value": 32635.0,
+        "change_pct": -1.95,
+        "pnl": -171.5,
+        "pnl_pct": -0.52,
+        "ofi": -0.125,
+        "flow_status": "主动砸盘出货"
+      },
+      {
+        "ticker": "688981.SS",
+        "name": "中芯国际",
+        "shares": 200,
+        "avg_cost": 123.315,
+        "last_price": 121.88,
+        "market_value": 24376.0,
+        "change_pct": -1.8,
+        "pnl": -287.0,
+        "pnl_pct": -1.16,
+        "ofi": -0.184,
+        "flow_status": "主动砸盘出货"
+      },
+      {
+        "ticker": "600036.SS",
+        "name": "招商银行",
+        "shares": 1000,
+        "avg_cost": 41.188,
+        "last_price": 41.24,
+        "market_value": 41240.0,
+        "change_pct": 0.41,
+        "pnl": 52.0,
+        "pnl_pct": 0.13,
+        "ofi": 0.102,
+        "flow_status": "强势主动扫货"
+      }
+    ]
   }
 ]
