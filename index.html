@@ -175,7 +175,7 @@
             <div class="flex items-center justify-between mb-4">
                 <div class="flex items-center space-x-2">
                     <i class="fa-solid fa-clock-rotate-left text-cyan-400"></i>
-                    <h2 class="font-bold text-white text-sm md:text-base">今日盘中 15 分钟微观净值与资金流 (Intraday PnL Stream)</h2>
+                    <h2 class="font-bold text-white text-sm md:text-base" id="chart-intraday-title">今日盘中 15 分钟微观净值与资金流 (Intraday PnL Stream)</h2>
                 </div>
                 <span class="text-xs text-slate-400 font-mono">采集粒度: 15 分钟</span>
             </div>
@@ -1350,7 +1350,7 @@
             document.getElementById('allocation-tag').textContent = '现金 ' + latest.cash_ratio_pct.toFixed(1) + '% / 股票 ' + latest.stock_ratio_pct.toFixed(1) + '%';
 
             renderPositionsTable(latest.positions);
-            renderIntradayChart(snaps);
+            renderIntradayChart(snaps, '1m');
             renderAllocationChart(latest.cash, latest.stock_market_value);
             renderPatrolLogs(snaps);
         }
@@ -1395,7 +1395,7 @@
             renderPositionsTable(posArray);
             renderAllocationChart(acc.cash, stockVal);
             if (snaps && snaps.length > 0) {
-                renderIntradayChart(snaps);
+                renderIntradayChart(snaps, '100k');
             }
         }
 
@@ -1445,15 +1445,41 @@
             }).join('');
         }
 
-        function renderIntradayChart(snapshots) {
+        function renderIntradayChart(snapshots, accType = '1m') {
             const ctx = document.getElementById('chartIntraday').getContext('2d');
             const labels = snapshots.map(s => s.time_str);
             const navData = snapshots.map(s => s.account_nav);
-            const stockData = snapshots.map(s => s.stock_market_value / 10000);
+            const stockData = snapshots.map(s => (s.stock_market_value || s.portfolio_value) / 10000);
+            const benchData = snapshots.map(s => s.bench_nav || 1.0039);
+
+            const titleEl = document.getElementById('chart-intraday-title');
+            if (titleEl) {
+                if (accType === '100k') {
+                    titleEl.innerHTML = '今日 15 分钟微观净值与资金流 <span class="text-xs px-2 py-0.5 rounded bg-cyan-500/20 text-cyan-300 font-normal border border-cyan-500/30 ml-2 font-mono">10万高弹性主升浪攻坚 (81.8% 股票仓位)</span>';
+                } else {
+                    titleEl.innerHTML = '今日 15 分钟微观净值与资金流 <span class="text-xs px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 font-normal border border-emerald-500/30 ml-2 font-mono">100w 稳健复利底仓 (32.9% 股票仓位)</span>';
+                }
+            }
 
             if (intradayChart) {
                 intradayChart.destroy();
             }
+
+            const is100k = (accType === '100k');
+            const mainColor = is100k ? '#38bdf8' : '#10b981';
+            const mainBg = is100k ? 'rgba(56, 189, 248, 0.15)' : 'rgba(16, 185, 129, 0.15)';
+            const stockColor = is100k ? '#f43f5e' : '#06b6d4';
+            const labelMain = is100k ? '10万弹性策略净值 (NAV)' : '100万稳健策略净值 (NAV)';
+            const labelStock = is100k ? '股票市值 (约 8.2 万元)' : '股票市值 (约 32.4 万元)';
+
+            const allNav = [...navData, ...benchData];
+            const minNav = Math.min(...allNav);
+            const maxNav = Math.max(...allNav);
+            const navPadding = Math.max((maxNav - minNav) * 0.25, 0.003);
+
+            const minStock = Math.min(...stockData);
+            const maxStock = Math.max(...stockData);
+            const stockPadding = Math.max((maxStock - minStock) * 0.25, 0.15);
 
             intradayChart = new Chart(ctx, {
                 type: 'line',
@@ -1461,22 +1487,34 @@
                     labels: labels,
                     datasets: [
                         {
-                            label: '策略净值 (NAV)',
+                            label: labelMain,
                             data: navData,
-                            borderColor: '#10b981',
-                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
-                            borderWidth: 2,
+                            borderColor: mainColor,
+                            backgroundColor: mainBg,
+                            borderWidth: 2.5,
                             tension: 0.25,
                             fill: true,
+                            pointRadius: 3,
                             yAxisID: 'y'
                         },
                         {
-                            label: '持仓市值 (万元)',
-                            data: stockData,
-                            borderColor: '#06b6d4',
+                            label: '基准沪深300 (510300)',
+                            data: benchData,
+                            borderColor: '#94a3b8',
                             borderDash: [4, 4],
                             borderWidth: 1.5,
-                            pointRadius: 3,
+                            tension: 0.2,
+                            fill: false,
+                            pointRadius: 0,
+                            yAxisID: 'y'
+                        },
+                        {
+                            label: labelStock,
+                            data: stockData,
+                            borderColor: stockColor,
+                            borderDash: [3, 3],
+                            borderWidth: 1.5,
+                            pointRadius: 2.5,
                             yAxisID: 'y1'
                         }
                     ]
@@ -1484,13 +1522,52 @@
                 options: {
                     responsive: true,
                     maintainAspectRatio: false,
+                    interaction: {
+                        mode: 'index',
+                        intersect: false
+                    },
                     scales: {
-                        x: { grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#94a3b8' } },
-                        y: { position: 'left', grid: { color: 'rgba(255, 255, 255, 0.05)' }, ticks: { color: '#10b981' } },
-                        y1: { position: 'right', grid: { drawOnChartArea: false }, ticks: { color: '#06b6d4' } }
+                        x: { 
+                            grid: { color: 'rgba(255, 255, 255, 0.05)' }, 
+                            ticks: { color: '#94a3b8', font: { size: 11 } } 
+                        },
+                        y: { 
+                            position: 'left', 
+                            grid: { color: 'rgba(255, 255, 255, 0.05)' }, 
+                            ticks: { 
+                                color: mainColor,
+                                font: { size: 11 },
+                                callback: (val) => val.toFixed(4)
+                            },
+                            min: Number((minNav - navPadding).toFixed(4)),
+                            max: Number((maxNav + navPadding).toFixed(4))
+                        },
+                        y1: { 
+                            position: 'right', 
+                            grid: { drawOnChartArea: false }, 
+                            ticks: { 
+                                color: stockColor,
+                                font: { size: 11 },
+                                callback: (val) => val.toFixed(1) + '万'
+                            },
+                            min: Number((minStock - stockPadding).toFixed(2)),
+                            max: Number((maxStock + stockPadding).toFixed(2))
+                        }
                     },
                     plugins: {
-                        legend: { labels: { color: '#cbd5e1', font: { size: 11 } } }
+                        legend: { 
+                            labels: { color: '#cbd5e1', font: { size: 11 } } 
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    if (context.datasetIndex === 2) {
+                                        return context.dataset.label + ': ¥' + (context.parsed.y * 10000).toLocaleString('zh-CN', {maximumFractionDigits: 0});
+                                    }
+                                    return context.dataset.label + ': ' + context.parsed.y.toFixed(4);
+                                }
+                            }
+                        }
                     }
                 }
             });
