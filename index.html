@@ -703,32 +703,58 @@
                     </div>
                 </div>
 
-                <!-- 双 AI 架构深度协同机理 -->
+                <!-- 双 AI 架构深度协同机理 (前沿实盘级 4 大技术迭代) -->
                 <div class="p-4 rounded-xl bg-purple-950/20 border border-purple-800/40 text-xs">
-                    <div class="flex items-center justify-between mb-2">
-                        <span class="font-bold text-purple-300 flex items-center gap-1.5">
-                            <i class="fa-solid fa-microchip"></i> 22 维时序张量与混合双脑联动决策机理 (LightGBM + PyTorch Transformer)
+                    <div class="flex items-center justify-between mb-3">
+                        <span class="font-bold text-purple-300 flex items-center gap-1.5 text-sm">
+                            <i class="fa-solid fa-network-wired"></i> 机构级实盘双流深度时序网络与前置正交化架构 (Two-Stream Neural Net & Quant Engine)
                         </span>
-                        <span class="px-2 py-0.5 rounded bg-purple-500/20 text-purple-300 font-mono text-[10px]">双视界在线微调</span>
+                        <span class="px-2 py-0.5 rounded bg-purple-500/20 text-purple-300 font-mono text-[10px]">双视界·截面正交·认知不确定性</span>
                     </div>
-                    <div class="grid grid-cols-1 md:grid-cols-3 gap-3 text-slate-300 text-[11px] leading-relaxed">
-                        <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800">
-                            <strong class="text-amber-300">① 时序张量输入 (Tensor Input):</strong>
-                            <p class="text-slate-400 mt-1">
-                                每只候选标的将过去 20 个交易日的 22 维因子整合成 <code>(Batch, 20, 22)</code> 张量，既包含单日因子截面，又包含 20 天动量加速度轨迹。
-                            </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 text-slate-300 text-[11px] leading-relaxed">
+                        <div class="p-3 rounded-lg bg-slate-900/80 border border-purple-500/30 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-1.5">
+                                    <strong class="text-amber-300 flex items-center gap-1"><i class="fa-solid fa-code-fork"></i> ① 时序与截面网络分离</strong>
+                                    <span class="text-[9px] px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 font-mono">Two-Stream</span>
+                                </div>
+                                <p class="text-slate-400 mt-1">
+                                    <strong>13维微观时序流</strong> <code class="text-purple-300 text-[10px]">(Batch, 20, 13)</code> 喂入 4头 Multi-Head Attention 与双向 Bi-GRU 提取 64维短线动能；<strong>9维宏观状态截面流</strong> <code class="text-cyan-300 text-[10px]">(Batch, 9)</code> 直通两层 Dense MLP，在网络末端 Concat 拼接为 96维全融合表征，彻底解耦“高频微观扰动”与“低频周期趋势”。
+                                </p>
+                            </div>
                         </div>
-                        <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800">
-                            <strong class="text-purple-300">② PyTorch Transformer 自注意力:</strong>
-                            <p class="text-slate-400 mt-1">
-                                4 个自注意力头动态给 T-19 到 T 日分配权重，智能发现“T-15 到 T-12 周期拐点”，并输出 1D 短期收益、5D 收益期望与认知不确定性 σ。
-                            </p>
+                        <div class="p-3 rounded-lg bg-slate-900/80 border border-purple-500/30 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-1.5">
+                                    <strong class="text-emerald-300 flex items-center gap-1"><i class="fa-solid fa-shield-halved"></i> ② 特征前置正交化与缩尾</strong>
+                                    <span class="text-[9px] px-1.5 py-0.2 rounded bg-emerald-500/20 text-emerald-300 font-mono">Neutralization</span>
+                                </div>
+                                <p class="text-slate-400 mt-1">
+                                    因子入模前强制执行<strong>行业截面去均值 (Industry Neutralization)</strong> 与 <strong>3-Sigma 缩尾去极值 (Winsorization)</strong>，彻底剥离板块抱团与市值规模暴露。强制模型在零行业偏见的纯特质超额空间中学习，杜绝模型退化为盲目的“小盘股轮动器”或“追涨跟风机”。
+                                </p>
+                            </div>
                         </div>
-                        <div class="p-2.5 rounded-lg bg-slate-900/60 border border-slate-800">
-                            <strong class="text-cyan-300">③ LightGBM 树模型与 PSI 漂移响应:</strong>
-                            <p class="text-slate-400 mt-1">
-                                树模型负责高维非线性交叉筛选；当 PSI 判定概念漂移时，系统动态将 65% 权重切给敏捷深度网络，35% 留给压舱石树模型，兼顾进攻与防守。
-                            </p>
+                        <div class="p-3 rounded-lg bg-slate-900/80 border border-purple-500/30 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-1.5">
+                                    <strong class="text-cyan-300 flex items-center gap-1"><i class="fa-solid fa-filter"></i> ③ GP 因子白盒衰减约束</strong>
+                                    <span class="text-[9px] px-1.5 py-0.2 rounded bg-cyan-500/20 text-cyan-300 font-mono">IC Half-Life</span>
+                                </div>
+                                <p class="text-slate-400 mt-1">
+                                    遗传算法挖掘公式必须通过<strong>多视界符号一致性</strong> (<code class="text-[10px]">IC_1d, IC_2d, IC_5d</code> 必须同号) 与<strong>半衰期衰减硬约束</strong> (<code class="text-[10px]">|IC_5d| ≥ 0.35 × |IC_1d|</code>)，剔除隔日即死诱多假突破噪音，并打上突破类、量价背离或波动率挤压经济学逻辑白盒徽章。
+                                </p>
+                            </div>
+                        </div>
+                        <div class="p-3 rounded-lg bg-slate-900/80 border border-purple-500/30 flex flex-col justify-between">
+                            <div>
+                                <div class="flex items-center justify-between mb-1.5">
+                                    <strong class="text-purple-300 flex items-center gap-1"><i class="fa-solid fa-bullseye"></i> ④ 截面分位数秩化 Target</strong>
+                                    <span class="text-[9px] px-1.5 py-0.2 rounded bg-purple-500/20 text-purple-300 font-mono">Rank Quantile</span>
+                                </div>
+                                <p class="text-slate-400 mt-1">
+                                    超额收益目标在每个截面映射为归一化秩 <code class="text-purple-300 text-[10px]">y_rank ∈ [-1.0, 1.0]</code>，使神经网络的多任务损失函数与截面 Rank IC 形成严格数学闭环，彻底消除大盘系统性牛熊单边暴跌对神经元权重的剧烈非对称扰动。
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -3,28 +3,28 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 18458.0,
-  "portfolio_value": 101131.0,
-  "account_nav": 1.0113,
+  "portfolio_value": 100340.0,
+  "account_nav": 1.0034,
   "bench_nav": 1.0,
   "positions": {
     "601138.SS": {
       "name": "工业富联",
       "shares": 600,
       "avg_cost": 66.57,
-      "last_price": 66.3,
-      "market_value": 39780.0,
-      "pnl": -162.0,
-      "pnl_pct": -0.41,
+      "last_price": 65.76,
+      "market_value": 39456.0,
+      "pnl": -486.0,
+      "pnl_pct": -1.22,
       "highest": 66.57
     },
     "300502.SZ": {
       "name": "新易盛",
       "shares": 100,
       "avg_cost": 416.0,
-      "last_price": 428.93,
-      "market_value": 42893.0,
-      "pnl": 1293.0,
-      "pnl_pct": 3.11,
+      "last_price": 424.26,
+      "market_value": 42426.0,
+      "pnl": 826.0,
+      "pnl_pct": 1.99,
       "highest": 428.93
     }
   },
@@ -35,5 +35,5 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-09-07 19:54:33"
+  "last_updated": "2026-09-07 20:41:23"
 }

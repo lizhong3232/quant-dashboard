@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07 19:54:32.203685",
+  "timestamp": "2026-09-07 20:41:22.906444",
   "model": "LightGBM GBDT Regressor (16 Microstructure Factors)",
   "features": [
     "mom5",
@@ -54,134 +54,134 @@
       "ticker": "600031.SS",
       "name": "三一重工",
       "industry": "机械装备",
-      "last_price": 19.92,
-      "pure_ai_alpha": 1.4618442380817116,
+      "last_price": 19.98,
+      "pure_ai_alpha": 2.205785423371434,
       "opt_weight_pct": 12.0,
       "shares": 6000
-    },
-    {
-      "ticker": "601088.SS",
-      "name": "中国神华",
-      "industry": "煤炭能源",
-      "last_price": 46.06,
-      "pure_ai_alpha": 1.4463417889563523,
-      "opt_weight_pct": 12.0,
-      "shares": 2600
-    },
-    {
-      "ticker": "600584.SS",
-      "name": "长电科技",
-      "industry": "电子科技",
-      "last_price": 69.57,
-      "pure_ai_alpha": 1.3945345635630155,
-      "opt_weight_pct": 12.0,
-      "shares": 1700
-    },
-    {
-      "ticker": "601138.SS",
-      "name": "工业富联",
-      "industry": "电子科技",
-      "last_price": 66.11,
-      "pure_ai_alpha": 1.2103831967555652,
-      "opt_weight_pct": 12.0,
-      "shares": 1800
-    },
-    {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "industry": "汽车制造",
-      "last_price": 86.31,
-      "pure_ai_alpha": 1.0554094010105706,
-      "opt_weight_pct": 12.0,
-      "shares": 1300
-    },
-    {
-      "ticker": "002415.SZ",
-      "name": "海康威视",
-      "industry": "电子科技",
-      "last_price": 33.12,
-      "pure_ai_alpha": 0.9756006657896698,
-      "opt_weight_pct": 12.0,
-      "shares": 3600
-    },
-    {
-      "ticker": "600276.SS",
-      "name": "恒瑞医药",
-      "industry": "医药生物",
-      "last_price": 45.66,
-      "pure_ai_alpha": 0.8930771539929148,
-      "opt_weight_pct": 3.14,
-      "shares": 600
-    },
-    {
-      "ticker": "600028.SS",
-      "name": "中国石化",
-      "industry": "石油石化",
-      "last_price": 5.48,
-      "pure_ai_alpha": 0.8481542491283058,
-      "opt_weight_pct": 5.86,
-      "shares": 10600
-    },
-    {
-      "ticker": "601318.SS",
-      "name": "中国平安",
-      "industry": "非银金融",
-      "last_price": 56.14,
-      "pure_ai_alpha": 0.37342703593076143,
-      "opt_weight_pct": 2.0,
-      "shares": 300
     },
     {
       "ticker": "601166.SS",
       "name": "兴业银行",
       "industry": "银行金融",
-      "last_price": 18.26,
-      "pure_ai_alpha": 0.2795493747181158,
-      "opt_weight_pct": 2.0,
-      "shares": 1000
+      "last_price": 18.22,
+      "pure_ai_alpha": 1.3312264815707235,
+      "opt_weight_pct": 12.0,
+      "shares": 6500
     },
     {
       "ticker": "600690.SS",
       "name": "海尔智家",
       "industry": "家用电器",
-      "last_price": 21.49,
-      "pure_ai_alpha": 0.2691652223074685,
-      "opt_weight_pct": 2.0,
-      "shares": 900
+      "last_price": 21.46,
+      "pure_ai_alpha": 1.2038831737499618,
+      "opt_weight_pct": 12.0,
+      "shares": 5500
     },
     {
-      "ticker": "000333.SZ",
-      "name": "美的集团",
-      "industry": "家用电器",
-      "last_price": 85.06,
-      "pure_ai_alpha": 0.10630029629164542,
-      "opt_weight_pct": 2.0,
-      "shares": 200
+      "ticker": "601138.SS",
+      "name": "工业富联",
+      "industry": "电子科技",
+      "last_price": 65.95,
+      "pure_ai_alpha": 1.1472608855972324,
+      "opt_weight_pct": 12.0,
+      "shares": 1800
+    },
+    {
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "industry": "石油石化",
+      "last_price": 5.5,
+      "pure_ai_alpha": 1.0327798083317077,
+      "opt_weight_pct": 12.0,
+      "shares": 21800
     },
     {
       "ticker": "600030.SS",
       "name": "中信证券",
       "industry": "非银金融",
-      "last_price": 27.55,
-      "pure_ai_alpha": 0.10608197966811923,
-      "opt_weight_pct": 2.0,
-      "shares": 700
+      "last_price": 27.49,
+      "pure_ai_alpha": 0.9320277013997292,
+      "opt_weight_pct": 11.1,
+      "shares": 4000
     },
     {
-      "ticker": "600436.SS",
-      "name": "片仔癀",
+      "ticker": "601225.SS",
+      "name": "陕西煤业",
+      "industry": "煤炭能源",
+      "last_price": 25.61,
+      "pure_ai_alpha": 0.9294483495177094,
+      "opt_weight_pct": 7.9,
+      "shares": 3000
+    },
+    {
+      "ticker": "600276.SS",
+      "name": "恒瑞医药",
       "industry": "医药生物",
-      "last_price": 122.78,
-      "pure_ai_alpha": 0.0983743352802286,
+      "last_price": 45.69,
+      "pure_ai_alpha": 0.8945536230223434,
       "opt_weight_pct": 2.0,
-      "shares": 100
+      "shares": 400
     },
     {
-      "ticker": "600887.SS",
-      "name": "伊利股份",
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "industry": "汽车制造",
+      "last_price": 86.4,
+      "pure_ai_alpha": 0.7262119878707936,
+      "opt_weight_pct": 2.0,
+      "shares": 200
+    },
+    {
+      "ticker": "002415.SZ",
+      "name": "海康威视",
+      "industry": "电子科技",
+      "last_price": 32.77,
+      "pure_ai_alpha": 0.3102570438367843,
+      "opt_weight_pct": 2.0,
+      "shares": 600
+    },
+    {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
       "industry": "食品饮料",
-      "last_price": 26.57,
-      "pure_ai_alpha": 0.016384364402003974,
+      "last_price": 1312.0,
+      "pure_ai_alpha": 0.2240854204727111,
+      "opt_weight_pct": 2.0,
+      "shares": 0
+    },
+    {
+      "ticker": "600584.SS",
+      "name": "长电科技",
+      "industry": "电子科技",
+      "last_price": 69.28,
+      "pure_ai_alpha": 0.1499929943705357,
+      "opt_weight_pct": 2.0,
+      "shares": 200
+    },
+    {
+      "ticker": "601088.SS",
+      "name": "中国神华",
+      "industry": "煤炭能源",
+      "last_price": 46.09,
+      "pure_ai_alpha": 0.034416091164887655,
+      "opt_weight_pct": 2.0,
+      "shares": 400
+    },
+    {
+      "ticker": "601318.SS",
+      "name": "中国平安",
+      "industry": "非银金融",
+      "last_price": 56.03,
+      "pure_ai_alpha": 0.028201579559526953,
+      "opt_weight_pct": 2.0,
+      "shares": 300
+    },
+    {
+      "ticker": "600900.SS",
+      "name": "长江电力",
+      "industry": "公用事业",
+      "last_price": 27.73,
+      "pure_ai_alpha": 0.010109442445606232,
       "opt_weight_pct": 2.0,
       "shares": 700
     }
