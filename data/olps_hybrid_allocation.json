@@ -1,79 +1,79 @@
 {
-  "timestamp": "2026-09-07 22:15:09",
+  "timestamp": "2026-09-07 22:15:30",
   "strategy": "Hybrid_LightGBM_OLPS_Adaptive",
   "barra_risk_profile": {
-    "total_equity_ratio": 0.8501,
-    "annualized_volatility_pct": 10.68,
-    "factor_risk_vol_pct": 5.62,
-    "specific_risk_vol_pct": 9.08,
-    "factor_risk_ratio_pct": 27.7,
-    "specific_risk_ratio_pct": 72.3,
+    "total_equity_ratio": 0.8499,
+    "annualized_volatility_pct": 11.27,
+    "factor_risk_vol_pct": 6.16,
+    "specific_risk_vol_pct": 9.44,
+    "factor_risk_ratio_pct": 29.8,
+    "specific_risk_ratio_pct": 70.2,
     "active_tracking_error_pct": null,
     "style_exposures": {
-      "Size": 0.309,
-      "Beta": -0.114,
-      "Momentum": 0.58,
-      "Volatility": -0.215,
-      "Value": -0.398,
-      "Liquidity": -0.032
+      "Size": 0.373,
+      "Beta": -0.119,
+      "Momentum": 0.548,
+      "Volatility": -0.042,
+      "Value": -0.575,
+      "Liquidity": -0.085
     }
   },
   "allocation": [
     {
       "ticker": "601318.SS",
-      "target_weight": 0.1368,
+      "target_weight": 0.1385,
       "lgbm_weight": 0.02,
       "olps_weight": 0.2831,
       "prev_weight": 0.0571
     },
     {
       "ticker": "601088.SS",
-      "target_weight": 0.1246,
+      "target_weight": 0.1263,
       "lgbm_weight": 0.02,
       "olps_weight": 0.2527,
       "prev_weight": 0.0607
     },
     {
       "ticker": "600028.SS",
-      "target_weight": 0.1079,
+      "target_weight": 0.1096,
       "lgbm_weight": 0.12,
       "olps_weight": 0.061,
       "prev_weight": 0.0
     },
     {
       "ticker": "600690.SS",
-      "target_weight": 0.1073,
+      "target_weight": 0.109,
       "lgbm_weight": 0.12,
       "olps_weight": 0.0594,
       "prev_weight": 0.0
     },
     {
-      "ticker": "600887.SS",
-      "target_weight": 0.098,
-      "lgbm_weight": 0.0,
-      "olps_weight": 0.2161,
-      "prev_weight": 0.0593
-    },
-    {
       "ticker": "600030.SS",
-      "target_weight": 0.0939,
+      "target_weight": 0.0956,
       "lgbm_weight": 0.12,
       "olps_weight": 0.026,
       "prev_weight": 0.0
     },
     {
       "ticker": "600031.SS",
-      "target_weight": 0.092,
+      "target_weight": 0.0937,
       "lgbm_weight": 0.12,
       "olps_weight": 0.0213,
       "prev_weight": 0.0
     },
     {
       "ticker": "601138.SS",
-      "target_weight": 0.0896,
+      "target_weight": 0.0913,
       "lgbm_weight": 0.12,
       "olps_weight": 0.0151,
       "prev_weight": 0.0337
+    },
+    {
+      "ticker": "601225.SS",
+      "target_weight": 0.0859,
+      "lgbm_weight": 0.07,
+      "olps_weight": 0.0768,
+      "prev_weight": 0.0
     }
   ]
 }
