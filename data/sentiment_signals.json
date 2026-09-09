@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-08 22:15:15",
+  "audit_time": "2026-09-08 22:45:20",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -175,30 +175,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 11:54:17",
-      "text": "【文件：海底捞股东减持价格定在每股10.62港元 较周二收盘价低6.7%】根据媒体看到的交易文件，海底捞的股东SP NP通过出售2.59亿股股票筹集了27.5亿港元（3.508亿美元）资金。股票出售价格定为每股10.62港元，较周二收盘价折让6.7%。瑞银担任单一账簿管理人。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "常规股东减持",
-        "sentiment_score": -0.45,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 11:53:04",
-      "text": "【阳光电源：目前已向客户交付几台 SST，预计四季度投运】阳光电源9月9日在互动平台表示，公司目前已向客户交付几台 SST，预计四季度投运，有望率先实现SST 800V直流供电方案在真实算力场景中的带载运行。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
