@@ -1920,6 +1920,40 @@
             return null;
         }
 
+        
+        // 自动清除潜在的陈旧 Service Worker 缓存
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(registrations => {
+                for (const reg of registrations) reg.unregister();
+            }).catch(() => {});
+        }
+
+        function showToastNotification(msg) {
+            let toast = document.getElementById('floating-toast-msg');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'floating-toast-msg';
+                toast.className = 'fixed bottom-6 right-6 z-50 px-4 py-3 rounded-xl bg-slate-900 border border-emerald-500/60 text-emerald-300 shadow-2xl flex items-center gap-2 text-xs font-bold transition-opacity duration-300 opacity-0 pointer-events-none';
+                document.body.appendChild(toast);
+            }
+            toast.innerHTML = `<i class="fa-solid fa-circle-check text-emerald-400 text-sm"></i><span>${msg}</span>`;
+            toast.classList.remove('opacity-0');
+            toast.classList.add('opacity-100');
+            setTimeout(() => {
+                toast.classList.remove('opacity-100');
+                toast.classList.add('opacity-0');
+            }, 3000);
+        }
+
+        async function fetchSafeJson(url) {
+            try {
+                const bust = '?_t=' + Date.now();
+                const resp = await fetch(url + bust, { cache: 'no-store' });
+                if (resp.ok) return await resp.json();
+            } catch (e) {}
+            return null;
+        }
+
         // =========================================================================
         // 动态数据远端拉取与 15 分钟倒计时
         // =========================================================================
