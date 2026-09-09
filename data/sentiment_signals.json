@@ -1,14 +1,14 @@
 {
-  "audit_time": "2026-09-08 23:15:24",
+  "audit_time": "2026-09-08 23:30:26",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 8,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "600036.SS": {
-      "ticker": "600036.SS",
-      "name": "招商银行",
+    "600030.SS": {
+      "ticker": "600030.SS",
+      "name": "中信证券",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -17,6 +17,46 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-09 14:26:04",
+      "text": "【9月9日：“农产品批发价格200指数”比昨天上升0.04个点】据农业农村部监测，9月9日“农产品批发价格200指数”为116.87，比昨天上升0.04个点，“菜篮子”产品批发价格指数为117.64，比昨天上升0.05个点。截至今日14:00时，全国农产品批发市场猪肉平均价格为16.27元/公斤，比昨天下降0.4%；牛肉70.20元/公斤，比昨天下降0.2%；羊肉65.80元/公斤，比昨天下降0.7%；鸡蛋10.90元/公斤，比昨天上升0.2%；白条鸡17.25元/公斤，比昨天下降0.2%。重点监测的28种蔬菜平均价格为4.70元/公斤，比昨天上升0.2%；重点监测的6种水果平均价格为6.61元/公斤，比昨天下降0.6%。鲫鱼20.03元/公斤，比昨天下降0.4%；鲤鱼13.82元/公斤，比昨天下降1.4%；白鲢鱼10.24元/公斤，比昨天上升0.7%；大带鱼40.93元/公斤，比昨天下降2.1%。今日，国内鲜活农产品批发市场重点监测的46个品种中，与昨天相比价格升幅前五名的是西瓜、平菇、菠菜、菜花和油菜，幅度分别为3.1%、2.1%、1.1%、1.0%和1.0%；价格降幅前五名的是大带鱼、花鲢鱼、菠萝、冬瓜和茄子，幅度分别为2.1%、1.8%、1.6%、1.6%和1.4%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-09 14:26:01",
+      "text": "【通用磨坊等食品巨头起诉糖业寡头操纵价格】通用磨坊、玛氏和麦基食品近日加入美国食品行业反垄断诉讼阵营，指控美国顶级食糖生产商串通抬高糖价。在向芝加哥联邦法院提起的诉讼中，这些公司指控美国制糖公司(ASR)以及United Sugar Producers & Refiners通过向独立市场分析机构Commodity Information Inc.报告“具有竞争敏感性的”定价和销售数据，随后该机构将这些信息发布给订阅的制糖公司，实质上进行了协调操作。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-09 14:21:48",
+      "text": "市场消息：DeepSeek委托中信证券筹备科创板IPO。",
+      "analysis": {
+        "matched_tickers": [
+          "600030.SS"
+        ],
+        "matched_names": [
+          "中信证券"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-09-09 14:14:18",
       "text": "OpenAI产品负责人Tibo表示，对Astra的需求真的是史无前例的。我们正在动用一切可能的杠杆来维持这种需求，但到目前为止，我还从未见过这样的情况，而我们此前已经经历过非常迅猛的增长。优先事项始终是为现有用户保持优质服务，但如果这种情况持续下去，我们可能不得不暂时暂停新的Pro订阅。",
@@ -75,106 +115,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 13:04:59",
-      "text": "【龙建股份：现金流波动是行业共性压力所致】9月9日，龙建股份(600853)在2026年半年度业绩说明会上表示，公司近三年经营性现金流量的波动，主要受行业周期与宏观经济环境变化的影响，是行业共性压力所致。近年来建筑施工行业投资规模整体收缩，全国建筑业增加值同比下降，叠加行业竞争持续加剧，建筑企业收现能力普遍承压。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 13:02:10",
-      "text": "【优必选1.5亿元中标乐山商用服务人形机器人产业项目】近日，据四川省乐山市公共资源交易信息网披露信息，优必选中标四川乐山商用服务人形机器人产业项目，中标金额1.5亿元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重磅业务突破",
-        "sentiment_score": 0.8,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 13:01:33",
-      "text": "【第二十六届投洽会产供链国际合作对话会成功举办】9月8日，在第二十六届中国国际投资贸易洽谈会期间，商务部副部长兼国际贸易谈判副代表凌激出席首次产供链国际合作对话会并致辞。凌激表示，在共建“一带一路”引领下，中国积极推进对外投资合作，引导产供链合理有序跨境布局，成为全球贸易投资的“动力源”和产供链的“稳定锚”，为东道国工业化转型升级和民生福祉作出了积极贡献，为推动全球产供链开放合作和安全稳定贡献力量。当前百年变局加速演进，地缘政治紧张、贸易保护主义抬头，全球产供链安全稳定问题日益突出。中方倡议各方构建全球产供链伙伴关系网络，愿与各方携手推动产供链向稳定、畅通、韧性的方向发展，为世界经济的复苏增长注入动力。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:57:43",
-      "text": "中通快递-W(02057)发布公告，于2026年9月8日，该公司斥资950.66万美元回购45.51万股股份，每股回购价20.72-20.94美元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "真金白银回购增持",
-        "sentiment_score": 0.85,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:57:08",
-      "text": "【格科微：2亿像素产品与部分客户达成初步合作意向，临港工厂上半年维持满产运行】在今日举行的格科微2026年半年度业绩说明会上，该公司董事长赵立新表示，公司7月收到国际知名手机品牌客户订单，为其供应0.64微米规格5000万像素图像传感器产品，首批订单金额约合人民币5700万元；2亿像素产品开发顺利，并与部分客户达成初步合作意向。另据董秘兼财务总监郭修贇表示，临港工厂产能为2万片/月，已基本实现向5000万像素产品切换，上半年维持满产运行，工厂效益正进一步改善，2026年上半年临港工厂已实现盈利。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:50:48",
-      "text": "泰国央行行长：2026年国内生产总值增长2.3%的预测过低。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:48:50",
-      "text": "【越南推迟 670 亿美元高铁项目开工时间】据报道，越南将 670 亿美元的南北高速铁路工程开工时间推迟至 2027 年底，较原定计划延后一年。该项目是越南标志性基建工程之一，本次延期幅度较大。越南建设部部长陈宏明（Tran Hong Minh）在部门官网发文称：“项目推进速度不及预期，主要受客观因素影响。” 报道称，陈宏明要求制定细化实施方案，设置明确时间节点，针对场地清迁、咨询、勘测及施工工作落实专人负责制，以此加快项目推进。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:43:46",
-      "text": "【招商银行深圳分行换帅，东莞分行行长占京平接棒王兴海】9月8日，记者获悉，现任招商银行东莞分行行长占京平调任深圳分行行长，接棒刚刚辞任的王兴海，执掌这家资产规模超6000亿元的“特等分行”。多个独立信源向记者确认了上述消息。知情人士表示，占京平已于本周抵达深圳，目前正与王兴海进行工作交接。（21世纪经济报道）",
-      "analysis": {
-        "matched_tickers": [
-          "600036.SS"
-        ],
-        "matched_names": [
-          "招商银行"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
