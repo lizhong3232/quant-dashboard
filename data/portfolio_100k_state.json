@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 6284.09,
-  "portfolio_value": 99368.09,
-  "account_nav": 0.9937,
+  "portfolio_value": 99988.09,
+  "account_nav": 0.9999,
   "bench_nav": 1.0017,
   "positions": {
     "601138.SS": {
       "name": "工业富联",
       "shares": 600,
       "avg_cost": 66.57,
-      "last_price": 64.75,
-      "market_value": 38850.0,
+      "last_price": 65.24,
+      "market_value": 39144.0,
       "pnl": -1092.0,
       "pnl_pct": -2.73,
       "highest": 66.57
@@ -21,8 +21,8 @@
       "name": "绿的谐波",
       "shares": 100,
       "avg_cost": 294.21,
-      "last_price": 292.54,
-      "market_value": 29254.0,
+      "last_price": 290.5,
+      "market_value": 29050.0,
       "pnl": -167.0,
       "pnl_pct": -0.57,
       "highest": 294.21
@@ -31,8 +31,8 @@
       "name": "沪电股份",
       "shares": 200,
       "avg_cost": 125.61,
-      "last_price": 124.9,
-      "market_value": 24980.0,
+      "last_price": 127.55,
+      "market_value": 25510.0,
       "pnl": -142.0,
       "pnl_pct": -0.57,
       "highest": 125.61
@@ -45,10 +45,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-09-08 18:10:26",
+  "last_updated": "2026-09-09 00:05:04",
   "benchmark": {
-    "last_price": 4.624,
-    "nav": 1.0017
+    "last_price": 4.637,
+    "nav": 1.0045
   },
   "nav_history": [
     {
@@ -59,6 +59,15 @@
       "account_nav": 0.9937,
       "bench_nav": 1.0017,
       "alpha": -0.8
+    },
+    {
+      "timestamp": "2026-09-09 00:05:04",
+      "date": "2026-09-09",
+      "cash": 6284.09,
+      "portfolio_value": 99988.09,
+      "account_nav": 0.9999,
+      "bench_nav": 1.0045,
+      "alpha": -0.46
     }
   ]
 }
