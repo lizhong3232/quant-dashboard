@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07 22:15:02.276304",
+  "timestamp": "2026-09-08 18:10:25.957400",
   "model": "LightGBM GBDT Regressor (16 Microstructure Factors)",
   "features": [
     "mom5",
@@ -54,107 +54,89 @@
       "ticker": "600031.SS",
       "name": "三一重工",
       "industry": "机械装备",
-      "last_price": 19.96,
-      "pure_ai_alpha": 2.2112361268891454,
+      "last_price": 19.97,
+      "pure_ai_alpha": 2.2389191532201393,
       "opt_weight_pct": 12.0,
       "shares": 6000
-    },
-    {
-      "ticker": "601166.SS",
-      "name": "兴业银行",
-      "industry": "银行金融",
-      "last_price": 18.19,
-      "pure_ai_alpha": 1.3539628748546542,
-      "opt_weight_pct": 12.0,
-      "shares": 6500
     },
     {
       "ticker": "600690.SS",
       "name": "海尔智家",
       "industry": "家用电器",
-      "last_price": 21.43,
-      "pure_ai_alpha": 1.3075525867888746,
+      "last_price": 21.42,
+      "pure_ai_alpha": 1.7566520263892347,
       "opt_weight_pct": 12.0,
-      "shares": 5500
-    },
-    {
-      "ticker": "601138.SS",
-      "name": "工业富联",
-      "industry": "电子科技",
-      "last_price": 65.43,
-      "pure_ai_alpha": 1.0776209196615634,
-      "opt_weight_pct": 12.0,
-      "shares": 1800
-    },
-    {
-      "ticker": "600028.SS",
-      "name": "中国石化",
-      "industry": "石油石化",
-      "last_price": 5.52,
-      "pure_ai_alpha": 1.0413564671125393,
-      "opt_weight_pct": 12.0,
-      "shares": 21700
-    },
-    {
-      "ticker": "600030.SS",
-      "name": "中信证券",
-      "industry": "非银金融",
-      "last_price": 27.4,
-      "pure_ai_alpha": 1.0250836825451306,
-      "opt_weight_pct": 12.0,
-      "shares": 4300
-    },
-    {
-      "ticker": "601225.SS",
-      "name": "陕西煤业",
-      "industry": "煤炭能源",
-      "last_price": 25.53,
-      "pure_ai_alpha": 0.9330931952950144,
-      "opt_weight_pct": 7.0,
-      "shares": 2700
-    },
-    {
-      "ticker": "600276.SS",
-      "name": "恒瑞医药",
-      "industry": "医药生物",
-      "last_price": 45.74,
-      "pure_ai_alpha": 0.8932199128907594,
-      "opt_weight_pct": 2.0,
-      "shares": 400
+      "shares": 5600
     },
     {
       "ticker": "002594.SZ",
       "name": "比亚迪",
       "industry": "汽车制造",
-      "last_price": 86.43,
-      "pure_ai_alpha": 0.7380669871640874,
-      "opt_weight_pct": 2.0,
-      "shares": 200
+      "last_price": 86.57,
+      "pure_ai_alpha": 1.1994922159910686,
+      "opt_weight_pct": 12.0,
+      "shares": 1300
     },
     {
-      "ticker": "600519.SS",
-      "name": "贵州茅台",
-      "industry": "食品饮料",
-      "last_price": 1309.84,
-      "pure_ai_alpha": 0.23004695087385146,
-      "opt_weight_pct": 2.0,
-      "shares": 0
+      "ticker": "601166.SS",
+      "name": "兴业银行",
+      "industry": "银行金融",
+      "last_price": 18.17,
+      "pure_ai_alpha": 1.177941139682992,
+      "opt_weight_pct": 12.0,
+      "shares": 6600
     },
     {
-      "ticker": "002415.SZ",
-      "name": "海康威视",
+      "ticker": "601138.SS",
+      "name": "工业富联",
       "industry": "电子科技",
-      "last_price": 33.36,
-      "pure_ai_alpha": 0.2183829187628562,
-      "opt_weight_pct": 2.0,
-      "shares": 500
+      "last_price": 64.75,
+      "pure_ai_alpha": 1.1537321969136298,
+      "opt_weight_pct": 12.0,
+      "shares": 1800
     },
     {
-      "ticker": "600900.SS",
-      "name": "长江电力",
-      "industry": "公用事业",
-      "last_price": 27.73,
-      "pure_ai_alpha": 0.11087761774943337,
+      "ticker": "601225.SS",
+      "name": "陕西煤业",
+      "industry": "煤炭能源",
+      "last_price": 25.71,
+      "pure_ai_alpha": 1.0757988652945225,
+      "opt_weight_pct": 12.0,
+      "shares": 4600
+    },
+    {
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "industry": "石油石化",
+      "last_price": 5.59,
+      "pure_ai_alpha": 0.8439343456373344,
+      "opt_weight_pct": 7.0,
+      "shares": 12500
+    },
+    {
+      "ticker": "600276.SS",
+      "name": "恒瑞医药",
+      "industry": "医药生物",
+      "last_price": 45.71,
+      "pure_ai_alpha": 0.7109177432114759,
+      "opt_weight_pct": 2.0,
+      "shares": 400
+    },
+    {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "industry": "电子科技",
+      "last_price": 121.52,
+      "pure_ai_alpha": 0.5626293103632164,
+      "opt_weight_pct": 2.0,
+      "shares": 100
+    },
+    {
+      "ticker": "600030.SS",
+      "name": "中信证券",
+      "industry": "非银金融",
+      "last_price": 27.34,
+      "pure_ai_alpha": 0.3402983949740264,
       "opt_weight_pct": 2.0,
       "shares": 700
     },
@@ -162,8 +144,8 @@
       "ticker": "601088.SS",
       "name": "中国神华",
       "industry": "煤炭能源",
-      "last_price": 46.12,
-      "pure_ai_alpha": 0.038367221578444556,
+      "last_price": 46.32,
+      "pure_ai_alpha": 0.05328393435205136,
       "opt_weight_pct": 2.0,
       "shares": 400
     },
@@ -171,19 +153,37 @@
       "ticker": "600584.SS",
       "name": "长电科技",
       "industry": "电子科技",
-      "last_price": 68.85,
-      "pure_ai_alpha": 0.030630321854958436,
+      "last_price": 68.6,
+      "pure_ai_alpha": 0.046544506984488754,
       "opt_weight_pct": 2.0,
       "shares": 200
+    },
+    {
+      "ticker": "600900.SS",
+      "name": "长江电力",
+      "industry": "公用事业",
+      "last_price": 27.87,
+      "pure_ai_alpha": 0.036090635557106406,
+      "opt_weight_pct": 2.0,
+      "shares": 700
     },
     {
       "ticker": "601318.SS",
       "name": "中国平安",
       "industry": "非银金融",
-      "last_price": 55.92,
-      "pure_ai_alpha": -0.06761219197205515,
+      "last_price": 55.7,
+      "pure_ai_alpha": -0.26463690235430615,
       "opt_weight_pct": 2.0,
       "shares": 300
+    },
+    {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "industry": "食品饮料",
+      "last_price": 1309.3,
+      "pure_ai_alpha": -0.2819161603173933,
+      "opt_weight_pct": 2.0,
+      "shares": 0
     }
   ]
 }
