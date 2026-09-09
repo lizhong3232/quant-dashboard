@@ -6729,5 +6729,170 @@
       "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
       "decision_rationale": "当前龙头持仓 (工业富联 (601138.SS) | 绿的谐波 (688017.SS) | 沪电股份 (002463.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
     }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-09 11:00:24 CST",
+    "time_str": "11:00",
+    "date_str": "2026-09-09",
+    "portfolio_value": 100104.09,
+    "cash": 6284.09,
+    "stock_market_value": 93820.0,
+    "cash_ratio_pct": 6.28,
+    "stock_ratio_pct": 93.72,
+    "account_nav": 1.001,
+    "bench_nav": 1.0039,
+    "bench_change_pct": 0.22,
+    "alpha_pct": -0.29,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "601138.SS",
+        "name": "工业富联",
+        "shares": 600,
+        "avg_cost": 66.57,
+        "last_price": 65.41,
+        "market_value": 39246.0,
+        "change_pct": 1.02,
+        "pnl": -696.0,
+        "pnl_pct": -1.74,
+        "ofi": 0.071,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 39.21
+      },
+      {
+        "ticker": "688017.SS",
+        "name": "绿的谐波",
+        "shares": 100,
+        "avg_cost": 294.21,
+        "last_price": 289.34,
+        "market_value": 28934.0,
+        "change_pct": -1.09,
+        "pnl": -487.0,
+        "pnl_pct": -1.66,
+        "ofi": -0.062,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 28.9
+      },
+      {
+        "ticker": "002463.SZ",
+        "name": "沪电股份",
+        "shares": 200,
+        "avg_cost": 125.61,
+        "last_price": 128.2,
+        "market_value": 25640.0,
+        "change_pct": 2.64,
+        "pnl": 518.0,
+        "pnl_pct": 2.06,
+        "ofi": 0.145,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 25.61
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 100104.09,
+      "cash": 6284.09,
+      "stock_market_value": 93820.0,
+      "cash_ratio_pct": 6.28,
+      "stock_ratio_pct": 93.72,
+      "account_nav": 1.001,
+      "bench_nav": 1.0039,
+      "alpha_pct": -0.29,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "601138.SS",
+          "name": "工业富联",
+          "shares": 600,
+          "avg_cost": 66.57,
+          "last_price": 65.41,
+          "market_value": 39246.0,
+          "change_pct": 1.02,
+          "pnl": -696.0,
+          "pnl_pct": -1.74,
+          "ofi": 0.071,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 39.21
+        },
+        {
+          "ticker": "688017.SS",
+          "name": "绿的谐波",
+          "shares": 100,
+          "avg_cost": 294.21,
+          "last_price": 289.34,
+          "market_value": 28934.0,
+          "change_pct": -1.09,
+          "pnl": -487.0,
+          "pnl_pct": -1.66,
+          "ofi": -0.062,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 28.9
+        },
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "shares": 200,
+          "avg_cost": 125.61,
+          "last_price": 128.2,
+          "market_value": 25640.0,
+          "change_pct": 2.64,
+          "pnl": 518.0,
+          "pnl_pct": 2.06,
+          "ofi": 0.145,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 25.61
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，工业富联、绿的谐波、沪电股份高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 工业富联 (601138.SS) | 绿的谐波 (688017.SS) | 沪电股份 (002463.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "601138.SS",
+          "name": "工业富联",
+          "time": "今日研判",
+          "title": "全球 AI 服务器供应链出货饱满，GB200/B200 机柜算力第三季度加速放量",
+          "source": "海通证券 / 产业供应链跟踪",
+          "sentiment": "积极偏多",
+          "score": 0.65,
+          "summary": "工业富联在高密度 AI 服务器、液冷机柜及高速以太网/InfiniBand 交换机制造领域全球份额领先，算力客户资本开支持续加码。"
+        },
+        {
+          "ticker": "688017.SS",
+          "name": "绿的谐波",
+          "time": "今日研判",
+          "title": "人形机器人谐波减速器核心龙头，特斯拉 Optimus 量产预期驱动订单放量",
+          "source": "华安证券 / 机器人产业链快报",
+          "sentiment": "积极偏多",
+          "score": 0.6,
+          "summary": "绿的谐波是国产谐波减速器绝对龙头，深度绑定人形机器人与工业协作机器人赛道；特斯拉 Optimus Gen-3 量产爬坡带动上游核心零部件放量，公司在精度、寿命与量产一致性上具备国际竞争力。"
+        },
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "time": "今日研判",
+          "title": "AI 算力高多层 PCB 景气度持续攀升，服务器与交换机订单饱满",
+          "source": "国信证券 / 电子行业",
+          "sentiment": "积极偏多",
+          "score": 0.55,
+          "summary": "沪电股份受益于全球 AI 算力基础设施建设浪潮，高多层 PCB 产品在 GPU 服务器与高速交换机市场份额持续提升，产能利用率维持高位。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (工业富联 (601138.SS) | 绿的谐波 (688017.SS) | 沪电股份 (002463.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
   }
 ]

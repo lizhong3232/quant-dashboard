@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-08 19:45:24",
+  "audit_time": "2026-09-08 20:00:27",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 7,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -89,42 +89,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 09:51:29",
-      "text": "【潍柴动力：看好天然气发电产品在离网发电市场的竞争力】潍柴动力(000338)近期在接待调研时表示，目前电力市场缺口大，且客户更偏好快速交付且供应稳定的技术方案，天然气发电产品充分契合客户需求，未来发展空间广阔、增长强劲。公司看好天然气发电产品在离网发电市场中长期的市场竞争力，并可凭借快速交付、稳定供货能力满足增量市场需求。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 09:48:30",
-      "text": "【中指研究院：8月京沪新房、二手房成交均保持一定活跃度】8月，京沪楼市政策相继优化。中指研究院统计，8月北京二手商品住宅成交1.4万套，同比增长3.9%；上海二手商品房成交规模保持高位，同比增长16.3%；新房方面，8月北京新建商品住宅成交面积与去年同期基本持平，上海同比增长16.0%。中指研究院指数研究部总经理曹晶晶认为，京沪楼市更多体现为成交保持活跃、供需关系边际改善下的修复，价格仍处调整通道，新房库存规模仍处相对高位，市场修复的持续性仍有待观察。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 09:37:22",
-      "text": "【国家统计局：8月份用电用煤需求季节性增加，带动煤炭开采和洗选业价格上涨2.8%】国家统计局表示，从环比看，部分行业价格走势呈季节性特点。8月份用电用煤需求季节性增加，带动煤炭开采和洗选业价格上涨2.8%，电力供应价格上涨1.4%；高温雨水天气影响建筑项目施工，黑色金属冶炼和压延加工业、非金属矿物制品业价格分别下降0.9%和0.2%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
