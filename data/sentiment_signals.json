@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-08 23:00:23",
+  "audit_time": "2026-09-08 23:15:24",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-09 14:14:18",
+      "text": "OpenAI产品负责人Tibo表示，对Astra的需求真的是史无前例的。我们正在动用一切可能的杠杆来维持这种需求，但到目前为止，我还从未见过这样的情况，而我们此前已经经历过非常迅猛的增长。优先事项始终是为现有用户保持优质服务，但如果这种情况持续下去，我们可能不得不暂时暂停新的Pro订阅。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-09 14:10:45",
+      "text": "【吉祥航空：预计三季度毛利率将较二季度明显改善】吉祥航空在9月9日召开的2026年半年度业绩说明会上表示，公司二季度毛利率为负，主要因航油价格超预期冲高所致。进入三季度，国内航油综合采购均价自年内高位回落，叠加暑运旺季需求释放、客座率同比提升，公司预计三季度毛利率将较二季度明显改善。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-09 14:09:34",
+      "text": "【染料价格加速上涨 活性艳蓝再上调50000元/吨 分散黑月初提价10%】采访相关上市公司获悉，染料主要产品9月继续涨价，其中活性艳蓝主流品种报价从25万元/吨涨至30万元/吨，7月份报价约20万元/吨；分散黑报价在9月初从3万元/吨提升至3.3万元/吨。“活性艳蓝新的报价体系明天执行，实际成交价不会涨这么快。”一家染料企业相关负责人表示，当前，分散染料价格处于历史中等偏高的位置，活性染料价格处于历史高位。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "产品景气提价",
+        "sentiment_score": 0.7,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
     {
       "timestamp": "2026-09-09 13:59:26",
       "text": "【OpenAI称正与三星合作开发下一代芯片，并深化合作】OpenAI表示正深化与三星电子的合作，在半导体和企业级AI服务等领域拓展与这家韩国科技巨头的联系。OpenAI韩国区总经理Harrison Kim周三在首尔举行的新闻发布会上表示：“在与三星电子的合作中，我们进展最显著且获得认可最多的领域之一，就是针对我们正在研发的下一代芯片所开展的联合生产与研究。”但他未透露更多细节。Kim还表示，三星电子是“全球范围内应用 ChatGPT 规模最大的企业之一”，并指出该公司在韩国及海外的员工都在研发、市场营销和销售等工作中使用了 ChatGPT。Kim 表示，随着实现更快速、更复杂计算所需的芯片技术不断升级，存储芯片的需求也将持续增长，这使得与韩国半导体供应商的合作成为 OpenAI 当地办事处的优先事项。",
@@ -139,54 +175,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:28:55",
-      "text": "【和顺石油：未来将持续加大在半导体领域的投入】和顺石油在9月9日召开的2026年半年度网上业绩说明会上表示，公司的成品油零售和批发业务所处行业整体进入结构调整与转型升级的关键时期。公司转型发展的半导体行业正处于下游端需求急速增长、国产替代的发展关键期，具有广阔的市场空间。公司已收购奎芯科技，系公司向半导体行业转型的重要起点，未来公司将持续加大在半导体领域的投入，逐步实现多元化发展，对冲传统主业周期性风险。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:26:50",
-      "text": "【我国研发投入前1000家民企持续加强创新 】全国工商联9月9日发布的《2026研发投入前1000家民营企业创新状况报告》显示，2025年我国研发投入前1000家民营企业研发投入与研发强度持续增长。报告显示，2025年入围企业研发投入呈增长态势，研发投入总额达到1.59万亿元，同比增长10.72%，平均研发强度3.73%。“高技术、高价值、高成长”属性凸显，入围企业中有640家企业为“高技术、高价值、高成长”企业。入围企业整体规模稳中有进，利润总额持续增长，从业人员量质齐升，并积极开展乡村振兴与公益慈善工作。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:26:24",
-      "text": "【IDC：第二季度全球智能手表市场出货量3708万台，同比下滑4.2%】9月9日，根据国际数据公司（IDC）最新发布的《全球可穿戴设备市场季度跟踪报告》，2026年第二季度全球腕戴设备市场出货量为4801万台，同比下滑4.3%。腕戴设备市场包含智能手表和手环产品。其中，全球智能手表市场出货量3708万台，同比下滑4.2%。手环市场出货量1092万台，同比下滑4.7%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-09 12:17:03",
-      "text": "【哈萨克斯坦拟向卡沙甘油田运营方追索 50 亿美元罚款】国际文传电讯社援引哈萨克斯坦司法部消息称，哈萨克斯坦将继续向卡沙甘（Kashagan）油田运营商 NCOC 追索 2.3 万亿坚戈（合 50.7 亿美元）罚款；尽管在NCOC对法警的行动提出上诉后，强制执行程序目前已暂停。阿特劳地区行政法院已调取该执行案件卷宗；诉讼程序暂停，直至材料归还。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
