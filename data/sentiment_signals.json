@@ -1,12 +1,99 @@
 {
-  "audit_time": "2026-09-09 19:00:14",
+  "audit_time": "2026-09-09 19:30:19",
   "total_news_scanned": 100,
-  "relevant_events_found": 2,
+  "relevant_events_found": 7,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "688981.SS": {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "002415.SZ": {
+      "ticker": "002415.SZ",
+      "name": "海康威视",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-10 10:27:05",
+      "text": "【大秦铁路：短期煤炭运输需求承压】大秦铁路9月10日在2026年半年度业绩说明会上表示，近期下游发电集团库存偏高，山西地区煤炭产量有所减少，短期煤炭运输需求承压。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 10:24:28",
+      "text": "【ST海王等成立营养智算公司，含AI业务】企查查APP显示，近日，深圳市海王营养智算有限公司成立，经营范围包含：互联网数据服务；人工智能应用软件开发；人工智能行业应用系统集成服务；货物进出口等。企查查股权穿透显示，该公司由ST海王等共同持股。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 10:24:23",
+      "text": "【集邦科技：台积电的晶圆代工市占率达到创纪录的72.5%】市场研究机构集邦科技(TrendForce)的数据显示，台积电进一步巩固了在全球晶圆代工市场的领先优势，第二季度市占率升至创纪录的72.5%，高于第一季度的72.3%。三星电子第二季度以5.9%的市占率排名第二，中芯国际以5.4%位居第三。",
+      "analysis": {
+        "matched_tickers": [
+          "688981.SS"
+        ],
+        "matched_names": [
+          "中芯国际"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 10:14:36",
+      "text": "【大摩：李宁股价受海底捞主要股东减持事件拖累 市场或有误读】摩根士丹利称，注意到李宁周三股价受到海底捞主要股东减持事件的负面联想影响，但非凡领越(Viva)在信托新规后一直在持续增持李宁股份而不是卖出，因此认为市场误读了其中的动态变化。摩根士丹利分析师Dustin Wei等在报告中指出，中国离岸信托税务规则早在今年7月24日已经更新。如果创始人的流动性需求是问题所在，那么Viva动用集团现金和借款能力去购买更多李宁股票，看起来违反直觉。公司基本面在7月受到多变天气的拖累，但预计8月份环比改善，料公司2026年的利润率可能好于市场担忧。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 10:00:30",
+      "text": "【中科复兴与海康威视签署战略合作协议】中科复兴与海康威视近日签署战略合作协议。双方将持续加强技术共研与方案共建，打造可复制、可推广的城市安全数智化解决方案。",
+      "analysis": {
+        "matched_tickers": [
+          "002415.SZ"
+        ],
+        "matched_names": [
+          "海康威视"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-09-10 09:58:38",
       "text": "【丁薛祥出席2026年全球服务贸易峰会并会见与会外国政要】2026年9月10日，全球服务贸易峰会在北京举行，中共中央政治局常委、国务院副总理丁薛祥出席并作主旨讲话。丁薛祥指出，服务贸易是国际贸易的重要组成部分，在促进世界经济增长和产业升级中的作用越来越大。习近平主席多次在全球服务贸易峰会上发表重要视频致辞或向服贸会致贺信，宣布深化服务领域开放合作的务实举措，充分展现了中国扩大高水平对外开放的坚定决心、促进全球服务业和服务贸易发展的主动担当。中国积极推动服务贸易发展，服务领域开放深化拓展，服务贸易规模不断扩大、结构持续优化，为世界各国和企业带来更多新机遇。丁薛祥表示，当前国际经贸格局加速重构，大力发展服务贸易、推动服务业开放合作，不仅是中国的选择，更是世界的需要。他提出3点建议：一是以服务业高质量发展促进服务贸易迈上新台阶。提高服务业质量效率和创新能力，推动服务业与服务贸易互促共进，更好支持各国经济社会发展。二是以包容共进拓展服务贸易发展新空间。坚持开放引领，减少要素跨境流动壁垒，持续提升服务贸易自由化便利化水平，推动服务贸易在公平普惠的道路上行稳致远。三是以数智赋能打造服务贸易发展新引擎。加强人工智能等数智技术与服务共享，推进数字基础设施互联互通，为服务贸易发展注入强劲动力。(外交部)",
