@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-09 19:30:19",
+  "audit_time": "2026-09-09 19:45:22",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-10 10:44:39",
+      "text": "【Omdia：第二季度美国PC出货量同比增长1.0%】Omdia最新研究显示，2026年第二季度，美国PC出货量（不含平板电脑）同比增长1.0%，达到1880万台，此前2026年第一季度同比下降7.0%。本季度市场恢复增长，主要得益于零售商和渠道合作伙伴在存储器和存储产品供应受限导致价格上涨之前提前备货，从而带动部分需求提前释放。美国PC平均渠道出货价格首次突破1000美元，同比增长12.0%。不过，这一增长预计难以持续，Omdia预测美国PC市场全年出货量将下降10.7%，2026年下半年则将下降18.4%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 10:43:00",
+      "text": "【明阳智能：风机招标价格企稳回升 行业告别非理性价格战】明阳智能9月10日在2026年半年度业绩说明会上表示，在政策引导与行业自律共同作用下，风机招标价格企稳回升，产业链压力得到有效缓解，行业告别非理性价格战，深远海海上风电、海外市场成为产业增长的核心引擎，行业平均毛利率有望持续得到改善。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-10 10:27:05",
       "text": "【大秦铁路：短期煤炭运输需求承压】大秦铁路9月10日在2026年半年度业绩说明会上表示，近期下游发电集团库存偏高，山西地区煤炭产量有所减少，短期煤炭运输需求承压。",
