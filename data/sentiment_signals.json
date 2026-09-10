@@ -1,12 +1,36 @@
 {
-  "audit_time": "2026-09-09 22:41:40",
+  "audit_time": "2026-09-09 22:56:43",
   "total_news_scanned": 100,
-  "relevant_events_found": 18,
+  "relevant_events_found": 19,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-10 13:55:40",
+      "text": "国际能源署（IEA）：由于中东冲突，预计2026年全球煤炭需求将增长1.2%，达到创纪录的89.4亿吨。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 13:54:10",
+      "text": "【蚂蚁集团CEO韩歆毅：智能体供需两端尚未形成正循环 将推出开发者激励政策】2026Inclusion·外滩大会主论坛期间，蚂蚁集团CEO韩歆毅表示，过去半年与商家的交流中，感受到商家侧对AI时代新增长机会的需求非常强烈。许多商家希望参与智能体经济，但仍在探索如何把自身服务转化为可被智能体调用和完成的能力，目前整个智能体供需两端尚未形成正循环。韩歆毅透露，支付宝“阿宝”将推出发布智能体激励政策，支持开发者开发可用、好用的智能体，同时为用户表达新需求提供对应的激励入口，通过这种方式，把用户真实需求与开发者、商家服务供给连接起来。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-10 13:33:44",
       "text": "越南1-8月对美出口同比增长23.2%，达到1220.2亿美元；从美国进口额同比增长26.8%，达到153.9亿美元。",
@@ -161,30 +185,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 12:24:37",
-      "text": "【2026亚运会今天开赛 中国男篮明日迎首场比赛】第二十届亚洲运动会将于19日在日本爱知县名古屋市拉开帷幕，而篮球、足球、现代五项、排球、板球、曲棍球等多个项目的比赛将在开幕式前提前开赛，其中篮球比赛于10日打响。根据组委会公布的竞赛日程，篮球、足球、现代五项、排球、板球、台克球、曲棍球和软式网球8个大项将在开幕式前率先展开。先行赛事主要为小组赛和预赛，首批金牌将于20日产生。部分项目还将在爱知县外进行，其中静冈县承办部分女足比赛，曲棍球赛场则设在岐阜县。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 12:23:46",
-      "text": "【苹果新机全面涨价带动二手交易，转转平台iPhone 17交易量环比增长700%】苹果2026年秋季新品发布后，二手消费电子市场苹果机型热度同步升温。转转平台数据显示，发布会后，转转平台苹果手机搜索量环比增长270%，苹果手机回收估价量环比增长311%。新机价格门槛整体抬升，在售旧款涨价，推高了上代产品在二手市场的关注度。转转数据显示，截止早上八点，发布会后iPhone 17系列搜索量环比增长470%，交易量环比上涨280%，其中iPhone17标准版交易量增长突破700%。转转方面分析，在今年苹果新品只推出折叠屏iPhone Duo与iPhone 18 Pro系列，标准版缺席，上调在售iPhone17官网定价背景下，iPhone 17系列作为去年9月发布的次新旗舰，其二手性价比进一步凸显，预计将成为今年下半年二手市场最受追捧的机型。（界面新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
