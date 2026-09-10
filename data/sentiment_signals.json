@@ -1,46 +1,63 @@
 {
-  "audit_time": "2026-09-09 20:15:28",
+  "audit_time": "2026-09-09 22:00:11",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 19,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "688981.SS": {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "002415.SZ": {
-      "ticker": "002415.SZ",
-      "name": "海康威视",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
     {
-      "timestamp": "2026-09-10 11:03:23",
-      "text": "【山东：首批88座大功率充电示范站已全部建设完成】9月10日，山东省新闻办举行新闻发布会。据了解，今年4月，山东省委、省人民政府聚焦电动重卡规模化应用，研究出台《山东省重点公路运输通道布局建设电动重卡大功率充电示范站实施方案（2026—2027）》和《关于支持电动重卡规模化应用的若干措施》，全面构建完善政策体系，统筹推进示范站建设、财政金融支持、补能服务提升和电网配套保障等重点工作。5个月来，山东全面建成首批88座大功率充电示范站，并陆续配套制定27项政策实施细则，补能网络和政策集成效应初步显现，电动重卡推广应用全面提速。",
+      "timestamp": "2026-09-10 12:48:28",
+      "text": "【HD现代重工将投资8336亿韩元建设新发动机工厂】9月10日消息，HD现代重工将投资8336亿韩元，用于建设一座新的专用工厂及高功率发电发动机生产设施。该项目旨在扩大高功率发电机组产能，以满足全球电力需求增长。根据设计和施工进度安排，项目投资期为9月10日至2028年5月31日。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 12:46:18",
+      "text": "【沐曦股份陈维良：从需求侧来说，现在还有极大的算力短缺】在今日的2026中国联通合作伙伴大会上，沐曦股份创始人陈维良发表演讲。他表示，AI在数据、算力、算法的飞轮推动下，正在飞速的发展。他同时指出，算力行业也面临着双重困境，从需求侧来说，现在还有极大的算力短缺。大模型的参数已经迈向万亿甚至十万亿级，训练与推理的算力消耗呈现指数级的增长。AI的应用从实验室走向规模化的商用，Token的用量呈现爆发式的增长，算力供给出现持续的缺口。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 12:44:08",
+      "text": "【积水化学拟以3.35亿澳元收购Ausbuild 51%股权】9月10日消息，积水化学将以约3.35亿澳元收购澳大利亚Ausbuild集团51%的股权，该集团是一家总部位于昆士兰州的住宅开发与建筑公司。积水化学计划通过未来增持股份，将其持股比例提高至90%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 12:39:16",
+      "text": "中通快递-W(02057)发布公告，于2026年9月9日，该公司斥资933.75万美元回购45.04万股股份，每股回购价20.66-20.85美元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "真金白银回购增持",
+        "sentiment_score": 0.85,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
       }
     },
     {
-      "timestamp": "2026-09-10 11:03:05",
-      "text": "韩国央行政策委员Kim Jong-hwa：经济增长将保持强劲，通胀将在相当长的一段时间内高于目标水平。中东冲突带来的价格压力和出口繁荣是最重要的因素。",
+      "timestamp": "2026-09-10 12:31:23",
+      "text": "马来西亚棕榈油局（MPOB）：马来西亚8月棕榈油产量为181.7万吨，环比增长1.39%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
@@ -51,20 +68,8 @@
       }
     },
     {
-      "timestamp": "2026-09-10 10:51:15",
-      "text": "【OPPO、华为、佳能、索尼共同加入全球最大的影像专利许可项目】9月10日，欧洲专利运营机构Tulip Licensing Ltd 宣布推出一项新的影像与图像信息处理专利许可项目Tulip Imaging，OPPO是首批4家许可方之一，另外3家分别是华为、佳能、索尼。该许可项目涵盖四家公司数十年研发与创新积累的超过 12.5 万件专利，是迄今为止规模最大、最具影响力的数字影像与信息处理专利许可项目。OPPO和华为首批加入中国许可方企业，正在加速全球影像产业主导权向中国的转移。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 10:50:51",
-      "text": "【山东：今年前8月累计新增电动重卡1.36万辆，渗透率达到33%】9月10日，山东省新闻办举行新闻发布会，今年1月—8月，全省累计新增电动重卡1.36万辆，同比增长212%，渗透率达到33%，同比提升20个百分点，较去年底提升16.1个百分点；其中，8月份全省新增电动重卡3245辆，单月渗透率达57.3%，较7月份提升10.5个百分点。",
+      "timestamp": "2026-09-10 12:31:09",
+      "text": "马来西亚棕榈油局（MPOB）数据显示，8月份马来西亚棕榈油库存为282.4万吨，环比增长7.48%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
@@ -75,72 +80,32 @@
       }
     },
     {
-      "timestamp": "2026-09-10 10:44:39",
-      "text": "【Omdia：第二季度美国PC出货量同比增长1.0%】Omdia最新研究显示，2026年第二季度，美国PC出货量（不含平板电脑）同比增长1.0%，达到1880万台，此前2026年第一季度同比下降7.0%。本季度市场恢复增长，主要得益于零售商和渠道合作伙伴在存储器和存储产品供应受限导致价格上涨之前提前备货，从而带动部分需求提前释放。美国PC平均渠道出货价格首次突破1000美元，同比增长12.0%。不过，这一增长预计难以持续，Omdia预测美国PC市场全年出货量将下降10.7%，2026年下半年则将下降18.4%。",
+      "timestamp": "2026-09-10 12:26:44",
+      "text": "【Jefferies基金在新加坡获得针对Radiant World的资产冻结令】知情人士称，Jefferies Financial Group Inc.管理的一只基金已在新加坡争取到针对Radiant World及其创始人Pinkesh Nahar的一项资产冻结令。这项裁决周三在新加坡举行的一次闭门听证会上做出，此前Jefferies的这只基金已在伦敦高等法院针对同一批被告获得了一项全球资产冻结令。据媒体此前报道，该基金在伦敦法院提起5亿美元诉讼，指控Radiant World在一项“欺诈计划”中伪造铁矿石发票。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 10:43:00",
-      "text": "【明阳智能：风机招标价格企稳回升 行业告别非理性价格战】明阳智能9月10日在2026年半年度业绩说明会上表示，在政策引导与行业自律共同作用下，风机招标价格企稳回升，产业链压力得到有效缓解，行业告别非理性价格战，深远海海上风电、海外市场成为产业增长的核心引擎，行业平均毛利率有望持续得到改善。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 10:27:05",
-      "text": "【大秦铁路：短期煤炭运输需求承压】大秦铁路9月10日在2026年半年度业绩说明会上表示，近期下游发电集团库存偏高，山西地区煤炭产量有所减少，短期煤炭运输需求承压。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
       }
     },
     {
-      "timestamp": "2026-09-10 10:24:28",
-      "text": "【ST海王等成立营养智算公司，含AI业务】企查查APP显示，近日，深圳市海王营养智算有限公司成立，经营范围包含：互联网数据服务；人工智能应用软件开发；人工智能行业应用系统集成服务；货物进出口等。企查查股权穿透显示，该公司由ST海王等共同持股。",
+      "timestamp": "2026-09-10 12:24:37",
+      "text": "【2026亚运会今天开赛 中国男篮明日迎首场比赛】第二十届亚洲运动会将于19日在日本爱知县名古屋市拉开帷幕，而篮球、足球、现代五项、排球、板球、曲棍球等多个项目的比赛将在开幕式前提前开赛，其中篮球比赛于10日打响。根据组委会公布的竞赛日程，篮球、足球、现代五项、排球、板球、台克球、曲棍球和软式网球8个大项将在开幕式前率先展开。先行赛事主要为小组赛和预赛，首批金牌将于20日产生。部分项目还将在爱知县外进行，其中静冈县承办部分女足比赛，曲棍球赛场则设在岐阜县。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 10:24:23",
-      "text": "【集邦科技：台积电的晶圆代工市占率达到创纪录的72.5%】市场研究机构集邦科技(TrendForce)的数据显示，台积电进一步巩固了在全球晶圆代工市场的领先优势，第二季度市占率升至创纪录的72.5%，高于第一季度的72.3%。三星电子第二季度以5.9%的市占率排名第二，中芯国际以5.4%位居第三。",
-      "analysis": {
-        "matched_tickers": [
-          "688981.SS"
-        ],
-        "matched_names": [
-          "中芯国际"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
         "is_black_swan": false,
-        "action_signal": "NEUTRAL"
+        "action_signal": "STRONG_ACCUMULATE"
       }
     },
     {
-      "timestamp": "2026-09-10 10:14:36",
-      "text": "【大摩：李宁股价受海底捞主要股东减持事件拖累 市场或有误读】摩根士丹利称，注意到李宁周三股价受到海底捞主要股东减持事件的负面联想影响，但非凡领越(Viva)在信托新规后一直在持续增持李宁股份而不是卖出，因此认为市场误读了其中的动态变化。摩根士丹利分析师Dustin Wei等在报告中指出，中国离岸信托税务规则早在今年7月24日已经更新。如果创始人的流动性需求是问题所在，那么Viva动用集团现金和借款能力去购买更多李宁股票，看起来违反直觉。公司基本面在7月受到多变天气的拖累，但预计8月份环比改善，料公司2026年的利润率可能好于市场担忧。",
+      "timestamp": "2026-09-10 12:23:46",
+      "text": "【苹果新机全面涨价带动二手交易，转转平台iPhone 17交易量环比增长700%】苹果2026年秋季新品发布后，二手消费电子市场苹果机型热度同步升温。转转平台数据显示，发布会后，转转平台苹果手机搜索量环比增长270%，苹果手机回收估价量环比增长311%。新机价格门槛整体抬升，在售旧款涨价，推高了上代产品在二手市场的关注度。转转数据显示，截止早上八点，发布会后iPhone 17系列搜索量环比增长470%，交易量环比上涨280%，其中iPhone17标准版交易量增长突破700%。转转方面分析，在今年苹果新品只推出折叠屏iPhone Duo与iPhone 18 Pro系列，标准版缺席，上调在售iPhone17官网定价背景下，iPhone 17系列作为去年9月发布的次新旗舰，其二手性价比进一步凸显，预计将成为今年下半年二手市场最受追捧的机型。（界面新闻）",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
@@ -151,19 +116,75 @@
       }
     },
     {
-      "timestamp": "2026-09-10 10:00:30",
-      "text": "【中科复兴与海康威视签署战略合作协议】中科复兴与海康威视近日签署战略合作协议。双方将持续加强技术共研与方案共建，打造可复制、可推广的城市安全数智化解决方案。",
+      "timestamp": "2026-09-10 12:22:43",
+      "text": "【固德威：中长期盈利增长取决于工商储、大储及AIDC配储出海进展】9月10日上午，固德威(688390)在2026年半年度业绩说明会上表示，公司未来的盈利增长，短期取决于全球户储市场渗透率的持续提升与需求落地，中长期则取决于工商储、大储及AIDC配储等业务能否顺利出海、形成多元化布局，从而接力户储、成为新的增长极。",
       "analysis": {
-        "matched_tickers": [
-          "002415.SZ"
-        ],
-        "matched_names": [
-          "海康威视"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
         "is_black_swan": false,
-        "action_signal": "NEUTRAL"
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 12:19:35",
+      "text": "惠誉主权分析师表示，惠誉将审查日本下一份预算案，研判其能否在促进增长支出与财政约束之间实现平衡。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 12:16:16",
+      "text": "【普京：将深化同越南的全面战略伙伴关系】俄罗斯总统普京9日同到访的越共中央总书记、国家主席苏林举行会谈，表示将进一步加强俄越全面战略伙伴关系。据克里姆林宫网站发布的消息，普京与苏林就当前国际和地区热点问题交换意见，主张应坚定维护国际法，共同倡导维护亚太稳定和可持续发展。普京表示，俄罗斯与越南双边贸易额不断增长，文化、教育和安全等领域的合作日益扩大。双方根据今年3月签署的政府间协议，将合作建设越南首座核电站。（新华社）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 11:59:38",
+      "text": "【西南证券：8月挖机总量提速、出口高增超预期 装载机内外销同步正增长】西南证券发布研报称，2026年8月，工程机械景气度在传统淡季尾声与“金九银十”衔接窗口下总量增速回升，内外销继续同步正增长，“更新周期+出口主导+涨价扩散”主线延续兑现。行业竞争格局由价格内卷向利润修复切换加速，龙头对挖机等产品提价已落地，涨价由挖机向起重机等品类扩散;叠加26Q3汇兑压力有望边际减轻(去年下半年汇兑负贡献形成低基数)，龙头业绩弹性有望释放。建议继续关注“高份额、出海强、利润有韧性”的龙头主机厂与核心零部件企业，重点把握“涨价落地+排产兑现+汇兑改善”的盈利弹性催化窗口。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 11:59:18",
+      "text": "【浙商证券：PDH周期拐点已至 利润中枢有望上行】浙商证券发布研报称，6月以来，国内PDH工艺实现扭亏。PDH工艺盈利已实现扭亏，长期利润中枢有望上行。长期丙烷价格中枢有望下行。丙烯当量消费预计继续稳步增长，预计年复合增速在3%左右。供给端来看，副产丙烯量减少，长期供应结构性收缩;行业供给增速明显放缓，供需格局有望改善。关注具备PDH产能且一体化程度较高、成本优势显著的龙头企业。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 11:55:08",
+      "text": "【冰轮环境：启动“中国烟台+马来西亚+北美”三地产能协同扩产布局】冰轮环境在投资者关系活动中表示，在订单交付重压下，公司已启动“中国烟台+马来西亚+北美”三地产能协同的系统性扩产布局；在北美采用租赁厂房模式，在马来西亚采取新建工厂模式。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
