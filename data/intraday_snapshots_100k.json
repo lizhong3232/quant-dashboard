@@ -11563,5 +11563,136 @@
       "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
       "decision_rationale": "当前龙头持仓 (工业富联 (601138.SS) | 沪电股份 (002463.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
     }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-10 11:00:22 CST",
+    "time_str": "11:00",
+    "date_str": "2026-09-10",
+    "portfolio_value": 99601.76,
+    "cash": 35303.76,
+    "stock_market_value": 64298.0,
+    "cash_ratio_pct": 35.44,
+    "stock_ratio_pct": 64.56,
+    "account_nav": 0.996,
+    "bench_nav": 1.0019,
+    "bench_change_pct": -0.26,
+    "alpha_pct": -0.59,
+    "warnings_count": 1,
+    "warnings": [
+      "[🚨硬性止损预警] 工业富联 (601138.SS) 浮亏 -3.59% 跌破 -2.8% 止损保护红线！"
+    ],
+    "positions": [
+      {
+        "ticker": "601138.SS",
+        "name": "工业富联",
+        "shares": 600,
+        "avg_cost": 66.57,
+        "last_price": 64.18,
+        "market_value": 38508.0,
+        "change_pct": -1.62,
+        "pnl": -1434.0,
+        "pnl_pct": -3.59,
+        "ofi": -0.045,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 38.66
+      },
+      {
+        "ticker": "002463.SZ",
+        "name": "沪电股份",
+        "shares": 200,
+        "avg_cost": 125.61,
+        "last_price": 128.95,
+        "market_value": 25790.0,
+        "change_pct": 1.1,
+        "pnl": 668.0,
+        "pnl_pct": 2.66,
+        "ofi": 0.074,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 25.89
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 99601.76,
+      "cash": 35303.76,
+      "stock_market_value": 64298.0,
+      "cash_ratio_pct": 35.44,
+      "stock_ratio_pct": 64.56,
+      "account_nav": 0.996,
+      "bench_nav": 1.0019,
+      "alpha_pct": -0.59,
+      "warnings_count": 1,
+      "warnings": [
+        "[🚨硬性止损预警] 工业富联 (601138.SS) 浮亏 -3.59% 跌破 -2.8% 止损保护红线！"
+      ],
+      "positions": [
+        {
+          "ticker": "601138.SS",
+          "name": "工业富联",
+          "shares": 600,
+          "avg_cost": 66.57,
+          "last_price": 64.18,
+          "market_value": 38508.0,
+          "change_pct": -1.62,
+          "pnl": -1434.0,
+          "pnl_pct": -3.59,
+          "ofi": -0.045,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 38.66
+        },
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "shares": 200,
+          "avg_cost": 125.61,
+          "last_price": 128.95,
+          "market_value": 25790.0,
+          "change_pct": 1.1,
+          "pnl": 668.0,
+          "pnl_pct": 2.66,
+          "ofi": 0.074,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 25.89
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，工业富联、沪电股份高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 工业富联 (601138.SS) | 沪电股份 (002463.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "601138.SS",
+          "name": "工业富联",
+          "time": "今日研判",
+          "title": "全球 AI 服务器供应链出货饱满，GB200/B200 机柜算力第三季度加速放量",
+          "source": "海通证券 / 产业供应链跟踪",
+          "sentiment": "积极偏多",
+          "score": 0.65,
+          "summary": "工业富联在高密度 AI 服务器、液冷机柜及高速以太网/InfiniBand 交换机制造领域全球份额领先，算力客户资本开支持续加码。"
+        },
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "time": "今日研判",
+          "title": "AI 算力高多层 PCB 景气度持续攀升，服务器与交换机订单饱满",
+          "source": "国信证券 / 电子行业",
+          "sentiment": "积极偏多",
+          "score": 0.55,
+          "summary": "沪电股份受益于全球 AI 算力基础设施建设浪潮，高多层 PCB 产品在 GPU 服务器与高速交换机市场份额持续提升，产能利用率维持高位。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (工业富联 (601138.SS) | 沪电股份 (002463.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
   }
 ]
