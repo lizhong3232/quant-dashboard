@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08 18:10:03",
+  "timestamp": "2026-09-09 18:10:01",
   "benchmark": "510300.SS",
   "bench_price": 4.621,
   "bench_ma20": 4.681,
@@ -8,8 +8,8 @@
   "volume_ratio": 0.75,
   "market_breadth_pct": 55.6,
   "total_score": 1.11,
-  "regime": "BEAR",
-  "regime_description": "空头避险防守态 (破位下跌/流动性收缩)",
-  "target_equity_ratio": 0.35,
-  "target_cash_ratio": 0.65
+  "regime": "STRUCTURAL_BULL",
+  "regime_description": "结构性成长进攻态 (主线高景气/赚钱效应扩散)",
+  "target_equity_ratio": 0.85,
+  "target_cash_ratio": 0.15
 }

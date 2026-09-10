@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 5,
+    "total_trades_100k": 6,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-09-08 09:30:00 CST (消灭现金拖累，建仓沪电股份，权益升至93.8%)"
+    "last_rebalance_time_100k": "2026-09-09 18:10:25"
   },
   "trades_1m": [
     {
@@ -379,6 +379,23 @@
       "fee": 5.02,
       "saved_bps": 2.1,
       "reason": "消灭现金拖累·动用闲置资金建仓强Alpha龙头 (AI服务器与PCB高多层突破, Alpha +0.2277)"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-09 18:10:25",
+      "contract_id": "WT-20260909-0026",
+      "action": "SELL",
+      "ticker": "688017.SS",
+      "name": "绿的谐波",
+      "shares": 100,
+      "price": 290.4,
+      "amount": 29040.0,
+      "fee": 20.33,
+      "saved_bps": 1.9,
+      "pnl": -381.0,
+      "pnl_pct": -1.29,
+      "reason": "HYSTERESIS_REPLACE"
     }
   ]
 }

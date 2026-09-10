@@ -2,9 +2,9 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 6284.09,
-  "portfolio_value": 99988.09,
-  "account_nav": 0.9999,
+  "cash": 35303.76,
+  "portfolio_value": 99957.76,
+  "account_nav": 0.9996,
   "bench_nav": 1.0017,
   "positions": {
     "601138.SS": {
@@ -13,19 +13,9 @@
       "avg_cost": 66.57,
       "last_price": 65.24,
       "market_value": 39144.0,
-      "pnl": -1092.0,
-      "pnl_pct": -2.73,
+      "pnl": -798.0,
+      "pnl_pct": -2.0,
       "highest": 66.57
-    },
-    "688017.SS": {
-      "name": "绿的谐波",
-      "shares": 100,
-      "avg_cost": 294.21,
-      "last_price": 290.5,
-      "market_value": 29050.0,
-      "pnl": -167.0,
-      "pnl_pct": -0.57,
-      "highest": 294.21
     },
     "002463.SZ": {
       "name": "沪电股份",
@@ -33,9 +23,9 @@
       "avg_cost": 125.61,
       "last_price": 127.55,
       "market_value": 25510.0,
-      "pnl": -142.0,
-      "pnl_pct": -0.57,
-      "highest": 125.61
+      "pnl": 388.0,
+      "pnl_pct": 1.54,
+      "highest": 127.55
     }
   },
   "rules": {
@@ -45,7 +35,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-09-09 00:05:04",
+  "last_updated": "2026-09-09 18:10:25",
   "benchmark": {
     "last_price": 4.637,
     "nav": 1.0045
@@ -61,7 +51,7 @@
       "alpha": -0.8
     },
     {
-      "timestamp": "2026-09-09 00:05:04",
+      "timestamp": "2026-09-09 00:05:22",
       "date": "2026-09-09",
       "cash": 6284.09,
       "portfolio_value": 99988.09,
