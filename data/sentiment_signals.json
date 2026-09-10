@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-09-09 22:00:11",
+  "audit_time": "2026-09-09 22:15:14",
   "total_news_scanned": 100,
   "relevant_events_found": 19,
   "black_swan_count": 0,
@@ -7,6 +7,30 @@
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-10 13:11:29",
+      "text": "【机构：预计下半年中国面板厂商将占全球车载显示出货量的65.2%】Omdia的最新研究，预计2026年下半年，中国面板厂商将占全球车载显示出货量的65.2%，高于2026年上半年的59%。这一增长延续了车载显示生产格局长期以来显著的结构性转变：中国面板厂商的市场份额已从2019年的28.1%翻倍以上，提升至2025年的56.6%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 13:08:16",
+      "text": "【通源石油：进入三季度以来公司订单较为饱满】对于“高油价环境下，海外油服新增订单是否有所增长？”的问题，通源石油(300164)9月10日在互动平台回复称，进入三季度以来，公司订单较为饱满。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-10 12:48:28",
       "text": "【HD现代重工将投资8336亿韩元建设新发动机工厂】9月10日消息，HD现代重工将投资8336亿韩元，用于建设一座新的专用工厂及高功率发电发动机生产设施。该项目旨在扩大高功率发电机组产能，以满足全球电力需求增长。根据设计和施工进度安排，项目投资期为9月10日至2028年5月31日。",
@@ -161,30 +185,6 @@
         "sentiment_score": 0.95,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 11:59:18",
-      "text": "【浙商证券：PDH周期拐点已至 利润中枢有望上行】浙商证券发布研报称，6月以来，国内PDH工艺实现扭亏。PDH工艺盈利已实现扭亏，长期利润中枢有望上行。长期丙烷价格中枢有望下行。丙烯当量消费预计继续稳步增长，预计年复合增速在3%左右。供给端来看，副产丙烯量减少，长期供应结构性收缩;行业供给增速明显放缓，供需格局有望改善。关注具备PDH产能且一体化程度较高、成本优势显著的龙头企业。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 11:55:08",
-      "text": "【冰轮环境：启动“中国烟台+马来西亚+北美”三地产能协同扩产布局】冰轮环境在投资者关系活动中表示，在订单交付重压下，公司已启动“中国烟台+马来西亚+北美”三地产能协同的系统性扩产布局；在北美采用租赁厂房模式，在马来西亚采取新建工厂模式。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
