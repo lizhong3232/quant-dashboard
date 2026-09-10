@@ -1,12 +1,60 @@
 {
-  "audit_time": "2026-09-09 22:15:14",
+  "audit_time": "2026-09-09 22:41:40",
   "total_news_scanned": 100,
-  "relevant_events_found": 19,
+  "relevant_events_found": 18,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-10 13:33:44",
+      "text": "越南1-8月对美出口同比增长23.2%，达到1220.2亿美元；从美国进口额同比增长26.8%，达到153.9亿美元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 13:33:06",
+      "text": "越南海关数据显示，8月份越南对美出口额同比增长24.7%，达到173.5亿美元。从美国的进口额同比增长29.7%，达到20.7亿美元。对美贸易顺差从前月的163.3亿美元收窄至152.8亿美元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 13:31:09",
+      "text": "台积前八月累计销售额3.39万亿元台币，同比增长39.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-10 13:30:27",
+      "text": "台积电8月销售额5,148.0亿元台币，同比增长53.3％。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-10 13:11:29",
       "text": "【机构：预计下半年中国面板厂商将占全球车载显示出货量的65.2%】Omdia的最新研究，预计2026年下半年，中国面板厂商将占全球车载显示出货量的65.2%，高于2026年上半年的59%。这一增长延续了车载显示生产格局长期以来显著的结构性转变：中国面板厂商的市场份额已从2019年的28.1%翻倍以上，提升至2025年的56.6%。",
@@ -137,54 +185,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 12:22:43",
-      "text": "【固德威：中长期盈利增长取决于工商储、大储及AIDC配储出海进展】9月10日上午，固德威(688390)在2026年半年度业绩说明会上表示，公司未来的盈利增长，短期取决于全球户储市场渗透率的持续提升与需求落地，中长期则取决于工商储、大储及AIDC配储等业务能否顺利出海、形成多元化布局，从而接力户储、成为新的增长极。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 12:19:35",
-      "text": "惠誉主权分析师表示，惠誉将审查日本下一份预算案，研判其能否在促进增长支出与财政约束之间实现平衡。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 12:16:16",
-      "text": "【普京：将深化同越南的全面战略伙伴关系】俄罗斯总统普京9日同到访的越共中央总书记、国家主席苏林举行会谈，表示将进一步加强俄越全面战略伙伴关系。据克里姆林宫网站发布的消息，普京与苏林就当前国际和地区热点问题交换意见，主张应坚定维护国际法，共同倡导维护亚太稳定和可持续发展。普京表示，俄罗斯与越南双边贸易额不断增长，文化、教育和安全等领域的合作日益扩大。双方根据今年3月签署的政府间协议，将合作建设越南首座核电站。（新华社）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-10 11:59:38",
-      "text": "【西南证券：8月挖机总量提速、出口高增超预期 装载机内外销同步正增长】西南证券发布研报称，2026年8月，工程机械景气度在传统淡季尾声与“金九银十”衔接窗口下总量增速回升，内外销继续同步正增长，“更新周期+出口主导+涨价扩散”主线延续兑现。行业竞争格局由价格内卷向利润修复切换加速，龙头对挖机等产品提价已落地，涨价由挖机向起重机等品类扩散;叠加26Q3汇兑压力有望边际减轻(去年下半年汇兑负贡献形成低基数)，龙头业绩弹性有望释放。建议继续关注“高份额、出海强、利润有韧性”的龙头主机厂与核心零部件企业，重点把握“涨价落地+排产兑现+汇兑改善”的盈利弹性催化窗口。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
