@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-10 23:15:22",
+  "audit_time": "2026-09-10 23:30:24",
   "total_news_scanned": 100,
-  "relevant_events_found": 4,
+  "relevant_events_found": 6,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-11 14:19:46",
+      "text": "法国央行官员穆兰：热浪导致法国经济增速下降0.1个百分点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-11 14:15:52",
+      "text": "欧洲央行管理委员会成员KAASIK：尽管遭受这些冲击，欧元区经济增长仍可能继续。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-11 14:14:00",
       "text": "【小摩：维持宁德时代“增持”评级，相信市场地位未受损】摩根大通发表报告指，相信2027年不会重演2023至2024年产能过剩的周期，维持宁德时代“增持”评级，目标价725港元，指出其在中国电动车电池市占率由去年的44%，进一步提升至今年上半年的48%，相信其市场地位未受损，维持今明两年净利润预测为950亿及1,160亿元。",
