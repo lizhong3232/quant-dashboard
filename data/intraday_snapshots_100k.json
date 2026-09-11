@@ -16461,5 +16461,640 @@
       "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
       "decision_rationale": "当前龙头持仓 (沪电股份 (002463.SZ) | 新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
     }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-11 13:30:12 CST",
+    "time_str": "13:30",
+    "date_str": "2026-09-11",
+    "portfolio_value": 99442.7,
+    "cash": 32524.7,
+    "stock_market_value": 66918.0,
+    "cash_ratio_pct": 32.71,
+    "stock_ratio_pct": 67.29,
+    "account_nav": 0.9944,
+    "bench_nav": 0.9877,
+    "bench_change_pct": -1.26,
+    "alpha_pct": 0.67,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "002463.SZ",
+        "name": "沪电股份",
+        "shares": 200,
+        "avg_cost": 125.61,
+        "last_price": 126.3,
+        "market_value": 25260.0,
+        "change_pct": -1.27,
+        "pnl": 138.0,
+        "pnl_pct": 0.55,
+        "ofi": -0.047,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 25.4
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 410.9,
+        "last_price": 416.58,
+        "market_value": 41658.0,
+        "change_pct": 1.38,
+        "pnl": 568.0,
+        "pnl_pct": 1.38,
+        "ofi": 0.03,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 41.89
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 99442.7,
+      "cash": 32524.7,
+      "stock_market_value": 66918.0,
+      "cash_ratio_pct": 32.71,
+      "stock_ratio_pct": 67.29,
+      "account_nav": 0.9944,
+      "bench_nav": 0.9877,
+      "alpha_pct": 0.67,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "shares": 200,
+          "avg_cost": 125.61,
+          "last_price": 126.3,
+          "market_value": 25260.0,
+          "change_pct": -1.27,
+          "pnl": 138.0,
+          "pnl_pct": 0.55,
+          "ofi": -0.047,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 25.4
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 410.9,
+          "last_price": 416.58,
+          "market_value": 41658.0,
+          "change_pct": 1.38,
+          "pnl": 568.0,
+          "pnl_pct": 1.38,
+          "ofi": 0.03,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 41.89
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，沪电股份、新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 沪电股份 (002463.SZ) | 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "time": "今日研判",
+          "title": "AI 算力高多层 PCB 景气度持续攀升，服务器与交换机订单饱满",
+          "source": "国信证券 / 电子行业",
+          "sentiment": "积极偏多",
+          "score": 0.55,
+          "summary": "沪电股份受益于全球 AI 算力基础设施建设浪潮，高多层 PCB 产品在 GPU 服务器与高速交换机市场份额持续提升，产能利用率维持高位。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (沪电股份 (002463.SZ) | 新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-11 13:45:12 CST",
+    "time_str": "13:45",
+    "date_str": "2026-09-11",
+    "portfolio_value": 100541.7,
+    "cash": 32524.7,
+    "stock_market_value": 68017.0,
+    "cash_ratio_pct": 32.35,
+    "stock_ratio_pct": 67.65,
+    "account_nav": 1.0054,
+    "bench_nav": 0.9909,
+    "bench_change_pct": -0.93,
+    "alpha_pct": 1.45,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "002463.SZ",
+        "name": "沪电股份",
+        "shares": 200,
+        "avg_cost": 125.61,
+        "last_price": 128.3,
+        "market_value": 25660.0,
+        "change_pct": 0.3,
+        "pnl": 538.0,
+        "pnl_pct": 2.14,
+        "ofi": -0.028,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 25.52
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 410.9,
+        "last_price": 423.57,
+        "market_value": 42357.0,
+        "change_pct": 3.08,
+        "pnl": 1267.0,
+        "pnl_pct": 3.08,
+        "ofi": 0.05,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 42.13
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 100541.7,
+      "cash": 32524.7,
+      "stock_market_value": 68017.0,
+      "cash_ratio_pct": 32.35,
+      "stock_ratio_pct": 67.65,
+      "account_nav": 1.0054,
+      "bench_nav": 0.9909,
+      "alpha_pct": 1.45,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "shares": 200,
+          "avg_cost": 125.61,
+          "last_price": 128.3,
+          "market_value": 25660.0,
+          "change_pct": 0.3,
+          "pnl": 538.0,
+          "pnl_pct": 2.14,
+          "ofi": -0.028,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 25.52
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 410.9,
+          "last_price": 423.57,
+          "market_value": 42357.0,
+          "change_pct": 3.08,
+          "pnl": 1267.0,
+          "pnl_pct": 3.08,
+          "ofi": 0.05,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 42.13
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，沪电股份、新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 沪电股份 (002463.SZ) | 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "time": "今日研判",
+          "title": "AI 算力高多层 PCB 景气度持续攀升，服务器与交换机订单饱满",
+          "source": "国信证券 / 电子行业",
+          "sentiment": "积极偏多",
+          "score": 0.55,
+          "summary": "沪电股份受益于全球 AI 算力基础设施建设浪潮，高多层 PCB 产品在 GPU 服务器与高速交换机市场份额持续提升，产能利用率维持高位。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (沪电股份 (002463.SZ) | 新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-11 13:45:12 CST",
+    "time_str": "13:45",
+    "date_str": "2026-09-11",
+    "portfolio_value": 100541.7,
+    "cash": 32524.7,
+    "stock_market_value": 68017.0,
+    "cash_ratio_pct": 32.35,
+    "stock_ratio_pct": 67.65,
+    "account_nav": 1.0054,
+    "bench_nav": 0.9909,
+    "bench_change_pct": -0.93,
+    "alpha_pct": 1.45,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "002463.SZ",
+        "name": "沪电股份",
+        "shares": 200,
+        "avg_cost": 125.61,
+        "last_price": 128.3,
+        "market_value": 25660.0,
+        "change_pct": 0.3,
+        "pnl": 538.0,
+        "pnl_pct": 2.14,
+        "ofi": -0.028,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 25.52
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 410.9,
+        "last_price": 423.57,
+        "market_value": 42357.0,
+        "change_pct": 3.08,
+        "pnl": 1267.0,
+        "pnl_pct": 3.08,
+        "ofi": 0.05,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 42.13
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 100541.7,
+      "cash": 32524.7,
+      "stock_market_value": 68017.0,
+      "cash_ratio_pct": 32.35,
+      "stock_ratio_pct": 67.65,
+      "account_nav": 1.0054,
+      "bench_nav": 0.9909,
+      "alpha_pct": 1.45,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "shares": 200,
+          "avg_cost": 125.61,
+          "last_price": 128.3,
+          "market_value": 25660.0,
+          "change_pct": 0.3,
+          "pnl": 538.0,
+          "pnl_pct": 2.14,
+          "ofi": -0.028,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 25.52
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 410.9,
+          "last_price": 423.57,
+          "market_value": 42357.0,
+          "change_pct": 3.08,
+          "pnl": 1267.0,
+          "pnl_pct": 3.08,
+          "ofi": 0.05,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 42.13
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，沪电股份、新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 沪电股份 (002463.SZ) | 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "time": "今日研判",
+          "title": "AI 算力高多层 PCB 景气度持续攀升，服务器与交换机订单饱满",
+          "source": "国信证券 / 电子行业",
+          "sentiment": "积极偏多",
+          "score": 0.55,
+          "summary": "沪电股份受益于全球 AI 算力基础设施建设浪潮，高多层 PCB 产品在 GPU 服务器与高速交换机市场份额持续提升，产能利用率维持高位。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (沪电股份 (002463.SZ) | 新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-11 14:00:12 CST",
+    "time_str": "14:00",
+    "date_str": "2026-09-11",
+    "portfolio_value": 100132.7,
+    "cash": 32524.7,
+    "stock_market_value": 67608.0,
+    "cash_ratio_pct": 32.48,
+    "stock_ratio_pct": 67.52,
+    "account_nav": 1.0013,
+    "bench_nav": 0.9918,
+    "bench_change_pct": -0.84,
+    "alpha_pct": 0.95,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "002463.SZ",
+        "name": "沪电股份",
+        "shares": 200,
+        "avg_cost": 125.61,
+        "last_price": 127.86,
+        "market_value": 25572.0,
+        "change_pct": -0.05,
+        "pnl": 450.0,
+        "pnl_pct": 1.79,
+        "ofi": -0.005,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 25.54
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 410.9,
+        "last_price": 420.36,
+        "market_value": 42036.0,
+        "change_pct": 2.3,
+        "pnl": 946.0,
+        "pnl_pct": 2.3,
+        "ofi": 0.061,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 41.98
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 100132.7,
+      "cash": 32524.7,
+      "stock_market_value": 67608.0,
+      "cash_ratio_pct": 32.48,
+      "stock_ratio_pct": 67.52,
+      "account_nav": 1.0013,
+      "bench_nav": 0.9918,
+      "alpha_pct": 0.95,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "shares": 200,
+          "avg_cost": 125.61,
+          "last_price": 127.86,
+          "market_value": 25572.0,
+          "change_pct": -0.05,
+          "pnl": 450.0,
+          "pnl_pct": 1.79,
+          "ofi": -0.005,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 25.54
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 410.9,
+          "last_price": 420.36,
+          "market_value": 42036.0,
+          "change_pct": 2.3,
+          "pnl": 946.0,
+          "pnl_pct": 2.3,
+          "ofi": 0.061,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 41.98
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，沪电股份、新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 沪电股份 (002463.SZ) | 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "time": "今日研判",
+          "title": "AI 算力高多层 PCB 景气度持续攀升，服务器与交换机订单饱满",
+          "source": "国信证券 / 电子行业",
+          "sentiment": "积极偏多",
+          "score": 0.55,
+          "summary": "沪电股份受益于全球 AI 算力基础设施建设浪潮，高多层 PCB 产品在 GPU 服务器与高速交换机市场份额持续提升，产能利用率维持高位。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (沪电股份 (002463.SZ) | 新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-11 14:00:16 CST",
+    "time_str": "14:00",
+    "date_str": "2026-09-11",
+    "portfolio_value": 100131.7,
+    "cash": 32524.7,
+    "stock_market_value": 67607.0,
+    "cash_ratio_pct": 32.48,
+    "stock_ratio_pct": 67.52,
+    "account_nav": 1.0013,
+    "bench_nav": 0.992,
+    "bench_change_pct": -0.82,
+    "alpha_pct": 0.93,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "002463.SZ",
+        "name": "沪电股份",
+        "shares": 200,
+        "avg_cost": 125.61,
+        "last_price": 127.85,
+        "market_value": 25570.0,
+        "change_pct": -0.05,
+        "pnl": 448.0,
+        "pnl_pct": 1.78,
+        "ofi": -0.005,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 25.54
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 410.9,
+        "last_price": 420.37,
+        "market_value": 42037.0,
+        "change_pct": 2.3,
+        "pnl": 947.0,
+        "pnl_pct": 2.3,
+        "ofi": 0.061,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 41.98
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 100131.7,
+      "cash": 32524.7,
+      "stock_market_value": 67607.0,
+      "cash_ratio_pct": 32.48,
+      "stock_ratio_pct": 67.52,
+      "account_nav": 1.0013,
+      "bench_nav": 0.992,
+      "alpha_pct": 0.93,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "shares": 200,
+          "avg_cost": 125.61,
+          "last_price": 127.85,
+          "market_value": 25570.0,
+          "change_pct": -0.05,
+          "pnl": 448.0,
+          "pnl_pct": 1.78,
+          "ofi": -0.005,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 25.54
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 410.9,
+          "last_price": 420.37,
+          "market_value": 42037.0,
+          "change_pct": 2.3,
+          "pnl": 947.0,
+          "pnl_pct": 2.3,
+          "ofi": 0.061,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 41.98
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，沪电股份、新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 沪电股份 (002463.SZ) | 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "002463.SZ",
+          "name": "沪电股份",
+          "time": "今日研判",
+          "title": "AI 算力高多层 PCB 景气度持续攀升，服务器与交换机订单饱满",
+          "source": "国信证券 / 电子行业",
+          "sentiment": "积极偏多",
+          "score": 0.55,
+          "summary": "沪电股份受益于全球 AI 算力基础设施建设浪潮，高多层 PCB 产品在 GPU 服务器与高速交换机市场份额持续提升，产能利用率维持高位。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (沪电股份 (002463.SZ) | 新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
   }
 ]
