@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-14 22:30:15",
+  "audit_time": "2026-09-14 22:45:14",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-15 13:44:27",
+      "text": "【分析显示当前经由霍尔木兹海峡的原油日流量约为800万桶】据船舶经纪公司 Clarksons 的分析部门 Clarksons Research 的分析显示，当前每天约有 800 万桶石油通过霍尔木兹海峡，使中东原油总流出量达到每天约 1350 万桶。克拉克森研究公司董事总经理史蒂夫·戈登在一份报告中指出，中东地区的原油输送量包括来自富查伊拉/阿曼管道的250万桶/日，以及来自延布管道的约300万桶/日。战前，每天约有1500万桶原油经霍尔木兹海峡运输，而中东原油外流量为每天1800万桶。戈登表示：“尽管受到重大干扰，但在航运市场提供的物流灵活性支持下，能源市场继续展现出将石油运往市场的韧性。”巴西等其他生产国每日约75万桶的出口增长也增加了全球供应。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-15 13:40:32",
+      "text": "安盛（AXA）首席执行官：人工智能是巨大的增长驱动器。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-15 12:43:42",
       "text": "【国投证券：8月社融增速再度放缓 关注财政发力对后续贷款托举效果】国投证券发布研报称，8月社融同比增速7.2%，环比-0.2pct，当月社融增量1.66万亿元，同比少增9083亿元，低于市场预期;全口径人民币贷款同比增长4.9%，新增人民币贷款600亿元，同比大幅少增5300亿元。当前银行利润表改善正在向资产负债表修复传导，保险资负新规落地带来确定性红利资产配置需求，大行26年中期分红比例突破性提升，该行看好后续板块的绝对和超额收益。",
@@ -127,18 +151,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-15 11:53:36",
-      "text": "【国家统计局：前八个月与“六张网”相关的互联网和相关服务业投资同比增长42%】9月15日，国家统计局新闻发言人、国民经济综合统计司副司长王冠华在国新办新闻发布会上表示，前八个月，与“六张网”相关的互联网和相关服务业投资同比增长42%，航空运输业、水上运输业投资分别增长16.7%和14.7%，电力供应业投资增长12.7%，部门数据显示，截至6月末，我国已经围绕算力枢纽建成70余条算力大通道。王冠华表示，今年是“十五五”开局之年，包括“六张网”在内的一批重大工程项目陆续开工建设，跨区域交通干线、能源水利重大工程、新型基础设施、城市更新等项目有序推进，对高质量发展的支撑作用有望进一步凸显。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
