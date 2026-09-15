@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-14 22:15:17",
+  "audit_time": "2026-09-14 22:30:12",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -132,18 +132,6 @@
     {
       "timestamp": "2026-09-15 11:53:36",
       "text": "【国家统计局：前八个月与“六张网”相关的互联网和相关服务业投资同比增长42%】9月15日，国家统计局新闻发言人、国民经济综合统计司副司长王冠华在国新办新闻发布会上表示，前八个月，与“六张网”相关的互联网和相关服务业投资同比增长42%，航空运输业、水上运输业投资分别增长16.7%和14.7%，电力供应业投资增长12.7%，部门数据显示，截至6月末，我国已经围绕算力枢纽建成70余条算力大通道。王冠华表示，今年是“十五五”开局之年，包括“六张网”在内的一批重大工程项目陆续开工建设，跨区域交通干线、能源水利重大工程、新型基础设施、城市更新等项目有序推进，对高质量发展的支撑作用有望进一步凸显。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-15 11:22:07",
-      "text": "香港旅游发展局数据显示，8月份访港游客人数为546万人次，同比增长6%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
