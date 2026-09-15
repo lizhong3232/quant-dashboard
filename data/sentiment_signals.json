@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-14 23:15:18",
+  "audit_time": "2026-09-14 23:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,13 +10,102 @@
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 3,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-15 14:26:54",
+      "text": "【宁德时代跌超6%创1年以来新低 A+H股总市值跌破1.5万亿】午后锂电池龙头宁德时代扩大跌幅至超6%，股价创1年以来新低，从2026年5月7日创出的历史高点累计下跌超32%，A+H股总市值跌破1.5万亿元。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-15 14:22:00",
+      "text": "比亚迪：比亚迪辅助驾驶车型保有量超372万辆，天神之眼每天生成数据超2.3亿公里。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-15 14:20:52",
+      "text": "【英国就业市场疲软 雇主裁员超预期】英国疲软的就业市场上月导致雇主裁员更多，这些数据在英国央行周四最新利率决定前公布。英国国家统计局周二表示，8月公司工资单上的雇员人数减少2.6万，此前一个月下修后为减少1.9万。这比经济学家预期的减少5000人更糟。劳动力需求依然疲软，职位空缺减少8000个，降至70.2万个的五年新低。截至7月的三个月失业率稳定在4.9%，不过国家统计局警告称，该估计仍受数据收集质量问题影响。这些数据表明，英国仍陷于贝利所称的“低招聘、低裁员”经济。英国雇主面临来自美国-伊朗冲突以及首相伯纳姆定于10月28日公布的首份预算案带来的更大不确定性。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-15 14:18:22",
+      "text": "挪威统计局：挪威2027年石油投资预计下降4.0%，与6月预估一致。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-15 14:17:52",
+      "text": "【8月访港旅客初步统计达546万人次】香港旅游发展局15日公布，今年8月访港旅客初步统计数据达546万人次，同比增长6%，创2019年以来单月新高。旅发局表示，今年前8个月共录得约3667万访港旅客人次，同比增长11%。（央视新闻）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-15 14:17:19",
+      "text": "【浙商证券：维持徐工机械“买入”评级，迈向全球工程机械龙头】浙商证券研报指出，徐工机械2026H1经营性净利润同比增长41%；迈向全球工程机械龙头。上半年归母净利润39.6亿元，同比下降9%；Q2归母净利润19.1亿元，同比下降18%，环比下降7%。2026H1公司轮履市占率稳居行业第一，欧美澳高端区域业绩翻倍增长。矿业机械占比8%，同比增长2%。2026H1公司矿机事业部新能源收入增长43%，智能化产品收入增长406%。海外业务和矿山机械业务是未来增长亮点，公司与必和必拓、力拓、淡水河谷、澳大利亚FMG等海外大客户深化合作，矿山露天挖运设备进位全球第四。维持“买入”评级。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
     {
       "timestamp": "2026-09-15 14:10:04",
       "text": "【主力资金：融资融券板块净流出超88亿】截至目前，今日主力资金净流出124.53亿；净流入半导体产业、PCB概念、存储概念等板块，其中半导体产业板块净流入64.44亿；净流出融资融券、转融券标的、MSCI中国等板块，其中融资融券板块净流出88.89亿。\n  \n个股方面，通鼎互联净买入18.91亿元位居首位，诺德股份、中国巨石、生益科技主力资金净流入居前；宁德时代净卖出20.08亿元位居首位，中际旭创、新易盛、远东股份净流出额居前。",
@@ -95,54 +184,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-15 12:43:42",
-      "text": "【国投证券：8月社融增速再度放缓 关注财政发力对后续贷款托举效果】国投证券发布研报称，8月社融同比增速7.2%，环比-0.2pct，当月社融增量1.66万亿元，同比少增9083亿元，低于市场预期;全口径人民币贷款同比增长4.9%，新增人民币贷款600亿元，同比大幅少增5300亿元。当前银行利润表改善正在向资产负债表修复传导，保险资负新规落地带来确定性红利资产配置需求，大行26年中期分红比例突破性提升，该行看好后续板块的绝对和超额收益。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-15 12:42:36",
-      "text": "【国盛证券：7月家用空调出口量额双增 亚洲地区撑起增长】国盛证券发布研报称，产业在线数据显示，2026年7月中国家用空调出口532.1万台，同比增长1.4%。分洲别看，7月家用空调在亚洲、欧洲、拉丁美洲、北美洲、非洲、大洋洲出口增速分别为13.7%、-18.4%、-0.1%、-50.1%、+9.1%、-29%，亚洲撑起外销增长大盘，欧美出口走弱。当前海外不同区域需求轮动节奏较快，日本政策前置备货、东南亚阶段性补库带来了短期增量，但多数传统主力市场需求疲软、库存调整进度缓慢，没有出现全面、持续的复苏态势，后续各区域行情依旧好坏不一、走势各异。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-15 12:42:24",
-      "text": "【国泰海通：固废现金流改善 资源化盈利弹性释放】国泰海通发布研报称，环保红利方面，固废水务龙头公司业绩稳健，自由现金流改善，支撑高分红，国补回收加快与资本开支收缩共同驱动分红提升;再生资源方面，危固废金属资源化产能释放与金属景气上行共振，资源化业务量价齐升，生物柴油和SAF需求旺盛、行业保持高景气。2026H1环保行业业绩整体延续增长，利润增量集中于危废与再生资源。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-15 12:42:10",
-      "text": "中通快递-W(02057)发布公告，于2026年9月14日斥资1039.9万美元回购49.73万股。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "真金白银回购增持",
-        "sentiment_score": 0.85,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
