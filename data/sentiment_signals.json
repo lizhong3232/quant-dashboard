@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-14 23:30:16",
+  "audit_time": "2026-09-14 23:30:22",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,7 +10,7 @@
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 3,
+      "news_count": 4,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
@@ -104,6 +104,22 @@
         "sentiment_score": 0.95,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-15 14:10:04",
+      "text": "【主力资金：融资融券板块净流出超88亿】截至目前，今日主力资金净流出124.53亿；净流入半导体产业、PCB概念、存储概念等板块，其中半导体产业板块净流入64.44亿；净流出融资融券、转融券标的、MSCI中国等板块，其中融资融券板块净流出88.89亿。\n  \n个股方面，通鼎互联净买入18.91亿元位居首位，诺德股份、中国巨石、生益科技主力资金净流入居前；宁德时代净卖出20.08亿元位居首位，中际旭创、新易盛、远东股份净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
       }
     },
     {
