@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 8,
+    "total_trades_100k": 9,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-09-10 18:10:25"
+    "last_rebalance_time_100k": "2026-09-14 18:29:30"
   },
   "trades_1m": [
     {
@@ -426,6 +426,21 @@
       "price": 410.9,
       "amount": 41090.0,
       "fee": 8.22,
+      "saved_bps": 2.1,
+      "reason": "消灭现金拖累·动用闲置资金建仓强Alpha龙头 (AI服务器与PCB高多层突破)"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-14 18:29:30",
+      "contract_id": "WT-20260914-0029",
+      "action": "BUY",
+      "ticker": "300274.SZ",
+      "name": "阳光电源",
+      "shares": 300,
+      "price": 84.58,
+      "amount": 25374.0,
+      "fee": 5.07,
       "saved_bps": 2.1,
       "reason": "消灭现金拖累·动用闲置资金建仓强Alpha龙头 (AI服务器与PCB高多层突破)"
     }
