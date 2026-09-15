@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-14 18:49:09",
+  "audit_time": "2026-09-14 18:56:40",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 6,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -91,18 +91,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-15 08:49:05",
-      "text": "【埃森哲将支付2500万美元 以了结美国政府指控】埃森哲（Accenture）已同意支付2500万美元，以了结美国司法部（DOJ）对其在多元化、公平与包容（DEI）政策中涉嫌就业歧视的指控。该和解协议于 2026年9月14日 正式公布。美国司法部指控埃森哲在招聘和晋升决策中考虑了种族和性别因素。内部资料显示，该公司自2017年起在各业务部门设立了未公开的“隐形目标”（stealth goals），并通过月度红绿灯报告追踪人口结构比例，从而影响了实际的雇佣结果。指控还指出，埃森哲旗下的部分内部培训、指导和教育项目限制了特定种族或性别的参与资格。作为联邦政府承包商，埃森哲在签署合同时虚假认证其遵守了“禁止在雇佣中考量种族与性别”的联邦反歧视法规。埃森哲发言人表示，公司已配合政府审查，达成的和解协议并不代表承认存在法律责任，此举旨在避免长期诉讼带来的高昂成本和资源消耗。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
