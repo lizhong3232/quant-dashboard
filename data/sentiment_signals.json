@@ -1,22 +1,11 @@
 {
-  "audit_time": "2026-09-15 22:45:16",
+  "audit_time": "2026-09-15 23:00:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 6,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "688981.SS": {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "avg_sentiment": 0.2,
-      "news_count": 2,
-      "latest_events": [
-        "行业资讯/宏观动态",
-        "温和经营利好"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
     {
       "timestamp": "2026-09-16 13:21:06",
@@ -88,62 +77,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-16 12:09:19",
-      "text": "【只差0.5个百分点！中芯国际晶圆代工逼近三星】近日，研究机构TrendForce集邦咨询发布了2026年Q2全球前十大晶圆代工厂报告，报告显示，前十大晶圆代工厂合计产值约534.9亿美元，季增11.5%，再创新高。其中，台积电（TSMC）以402亿美元营收、72.5%市占率继续稳居第一，三星晶圆代工（Samsung Foundry）和中芯国际（SMIC）分别位列第二、第三。四到六名分别为联电、格芯、华虹集团。前六名厂商排名自2024Q1至今保持完全稳定，未发生任何变动。值得关注的是，三星晶圆代工与中芯的营收差距从Q1的约7亿美元快速收窄至不足2.6亿美元，市占率差距仅剩0.5个百分点。从更长的时间维度看，数据背后，两家公司呈现出截然不同的增长动能。（一财）",
-      "analysis": {
-        "matched_tickers": [
-          "688981.SS"
-        ],
-        "matched_names": [
-          "中芯国际"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-16 12:08:13",
-      "text": "【1至8月全国铁路完成固定资产投资5118亿元】从中国国家铁路集团有限公司（以下简称“国铁集团”）获悉，今年以来，铁路建设稳步推进，1至8月全国铁路完成固定资产投资5118亿元，同比增长1.5%，现代化铁路基础设施体系加快构建，有效带动相关产业发展和增收就业，为扩内需、稳增长注入了新动能。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-16 12:02:41",
-      "text": "香港公屋综合轮候时间将逐年下降。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-16 12:01:02",
-      "text": "【港股午评：恒生指数涨0.12%，恒生科技指数涨0.87%】智谱涨8.31%，天数智芯涨7.50%，华虹宏力涨7.19%，联想集团涨7.05%，MINIMAX-W涨5.12%，中芯国际涨5.02%，老铺黄金涨4.38%。",
-      "analysis": {
-        "matched_tickers": [
-          "688981.SS"
-        ],
-        "matched_names": [
-          "中芯国际"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
