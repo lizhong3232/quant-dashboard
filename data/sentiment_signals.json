@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-15 22:30:16",
+  "audit_time": "2026-09-15 22:45:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -144,18 +144,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-16 11:54:20",
-      "text": "【韩国法院判决朝鲜就炸毁联络办公室大楼赔偿约446亿韩元 】韩国首尔中央地方法院16日就韩国政府针对朝鲜提起的损害赔偿诉讼作出判决，判决朝鲜应就单方面炸毁韩朝联络办公室大楼，向韩国政府赔偿约446亿韩元（1美元约合1371韩元）。 据韩联社报道，法院支持原告提出的赔偿请求，但没有具体说明判决理由。这是韩国政府首次以原告身份起诉朝鲜并胜诉。 2020年6月16日，朝鲜彻底炸毁位于当时的朝鲜开城工业园区的朝韩联络办公室大楼。据朝中社报道，朝方此举是有关部门为了顺应民心而实施的反制措施。韩国统一部于2023年6月对朝鲜提起相关诉讼。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
