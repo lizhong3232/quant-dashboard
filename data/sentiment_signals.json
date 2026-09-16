@@ -1,12 +1,74 @@
 {
-  "audit_time": "2026-09-15 23:00:16",
+  "audit_time": "2026-09-15 23:15:19",
   "total_news_scanned": 100,
-  "relevant_events_found": 6,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-16 14:14:31",
+      "text": "【富国银行下调标普500目标】富国银行将2026年底标普500指数目标点位从7950点下调至7700点。该行表示，目前对美股市场态度趋于谨慎，预计市场短期内存在5%至10%的下行空间。在最新报告中，以Ohsung Kwon领衔的富国银行分析师团队上调了美股盈利预期，将2027年、2028年市场每股收益（EPS）预测值分别修正至425美元和460美元。但同时，该团队指出，美股市场已步入本轮行情的周期尾声，后续行情核心逻辑将转向估值收缩，难以继续依靠盈利增长驱动上行。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-16 14:10:02",
+      "text": "【主力资金：芯片概念板块净流入超326亿】截至目前，今日主力资金净流入287.18亿；净流入芯片概念、融资融券、转融券标的等板块，其中芯片概念板块净流入326.55亿；净流出反内卷、电力设备、新能源等板块，其中反内卷板块净流出31.22亿。\n  \n个股方面，光迅科技净买入18.77亿元位居首位，永鼎股份、中际旭创、东山精密主力资金净流入居前；宁德时代净卖出21.54亿元位居首位，华正新材、诺德股份、中国巨石净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-16 14:09:35",
+      "text": "【钟薛高品牌宣布重启】16日，钟薛高品牌宣布重启。据悉，钟薛高首批产品预计将于今年第四季度上市，包括轻牛乳、丝绒可可以及牛乳与丝绒可可拼搭的半半巧巧。三个口味的计划定价为：轻牛乳口味建议零售价6.9元/支，丝绒可可、半半巧巧建议零售价预计为7.9元/支。定价上，新钟薛高相较原来13元—20元的零售价有大幅下调。（中新经纬）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-16 14:02:41",
+      "text": "40年期日本国债收益率下降4.0个基点至4.170%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-09-16 13:21:06",
       "text": "【日本百岁以上老年人首超10万，女性占87%】据报道，在日本的“敬老日”（今年为21日）前夕的9月15日，日本厚生劳动省公布了百岁老人等的相关统计数据。日本全国百岁以上的老年人已达10万7677人。连续56年增长，首次突破10万人。 从整体来看，超过百岁的老人中，女性为9万4298人，占87.6%，男性为1万3379人。",
@@ -65,18 +127,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-16 12:21:14",
-      "text": "【香港公屋综合轮候时间将逐年下降】香港特区行政长官李家超今日（16日）公布《香港特别行政区经济和社会发展第一个五年规划（2026—2030年）》（《香港第一个五年规划》）。李家超表示，未来五年（即2026-2027至2030-2031年度），连同“简约公屋”，香港总体公营房屋建屋量将达约196000个单位。随着总体公营房屋建屋量持续增加，“公屋综合轮候时间”会于2026-2027年度下降至4.5年，并预期在2030-2031年度进一步下降至4年以下。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
