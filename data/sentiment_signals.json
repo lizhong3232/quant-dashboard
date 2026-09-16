@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-15 22:00:17",
+  "audit_time": "2026-09-15 22:15:14",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -144,18 +144,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-16 11:48:15",
-      "text": "【中国天眼FAST发现极短周期、最轻双中子星系统】近日，依托中国天眼FAST超高探测灵敏度，国家天文台韩金林研究员领衔的FAST银道面脉冲星巡天团队取得重要发现，捕获一颗处于紧致轨道的双中子星系统PSRJ1856-0039。该系统是轨道周期极短、目前已知总质量最轻的双中子星系统，多项观测结果精准验证了广义相对论，为探索极端天体物理、引力本质与宇宙元素起源提供了关键的新目标，相关研究成果2026年9月15日发表于《物理评论快报》（PRL），并被期刊编辑遴选为重点推介成果。（新华社）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
