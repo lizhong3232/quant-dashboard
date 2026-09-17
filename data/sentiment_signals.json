@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-16 18:42:33",
+  "audit_time": "2026-09-16 18:59:07",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 4,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -19,13 +19,25 @@
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-17 09:54:16",
+      "text": "【8月访日中国大陆游客暴减59%】日本国家旅游局16日发布估算数据称，8月访日外国人为309.89万人次，较上年同期减少9.6%，时隔一个月同比减少。从国家和地区来看，人数最多的是韩国的85.05万人次，增长28.7%。中国大陆游客为41.8万人次，大减59.0%，连续9个月同比下滑。1至8月的访日外国人累计为2762.63万人次，较上年同期减少2.7%。（中国侨网）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-17 09:12:17",
       "text": "【海南首批跨国公司本外币跨境资金集中运营业务落地】 据海南日报，9月15日，在国家外汇管理局海南省分局的指导下，中国银行海南省分行（简称“海南中行”）成功协助全球消费精品（海南）国际贸易有限公司（简称“全球消费精品”）落地省内首批跨国公司本外币跨境资金集中运营业务，成为省内首批落地该业务的金融机构。",
@@ -68,58 +80,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 08:53:17",
-      "text": "【中信期货：点阵图确认加息周期开启，压制黄金趋势】日内黄金震荡下跌，主要缘于美联储连续加息计价预期压制。宏观方面，17日美联储公布9月议息结果，FOMC以12-0投票决定将联邦基金目标区间上调25个基点至3.75%-4.00%，为自2023年7月以来首次加息；会议释放的最大增量信息并非单次加息本身，而是点阵图与发布会共同确认加息周期开启。具体来看，提交点阵图的18位官员中，有4位官员认为2026年应累计加息75个基点（6月为1位），有12位官员认为应累计加息50个基点（6月为5位），有2位官员认为应累计加息25个基点（6月为3位）。此外，最新公布的美国8月零售数据反弹幅度亦明显超预期，印证美国经济韧性，强化加息计价。美国8月零售销售月率1.2%，高于预期0.8%和前值-0.5%；美国8月核心零售销售月率1.4%，高于预期0.5%和前值-0.2%。地缘方面，日内油价高位小幅回落，WTI原油跌幅近2%，前期由能源价格快速上涨形成的通胀压力边际缓和。但沙特东西输油管道受损后，Yanbu港装运仍处暂停状态，霍尔木兹海峡通航仍受阻，中东能源供应风险尚未明显缓解。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 08:48:46",
-      "text": "摩根士丹利表示，由于净实现利润上升和成品油裂解价差走强，泰国炼油商2026-2027年的盈利有望增长40%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 08:47:32",
-      "text": "【机构：市场对宁德时代的担忧多已反映在股价 风险回报正具吸引力】Jefferies称，受行业需求前景、市场份额和盈利能力的担忧拖累，宁德时代股价下跌，但这些担忧大部分已反映在股价中，当前风险回报正在变得有吸引力。尽管市场讨论中国国内整车厂正在推动电池供应多元化，但宁德时代的全球市场份额仍在提升，且在质量和技术方面领先。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 08:43:56",
-      "text": "【日本40年期国债收益率下跌7个基点至4.095%】日本长期国债价格上涨，日本央行今日召开为期两天的政策会议。日本40年期国债收益率下跌7个基点至4.095%。20年期国债收益率下降2个基点至3.835%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
