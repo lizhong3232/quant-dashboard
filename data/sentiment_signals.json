@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-16 20:27:08",
+  "audit_time": "2026-09-16 20:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 15,
+  "relevant_events_found": 14,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -193,18 +193,6 @@
     {
       "timestamp": "2026-09-17 10:16:14",
       "text": "【9月第2周生猪定点屠宰企业生猪收购和白条肉出厂价格情况】据农业农村部监测，2026年9月7—13日，生猪定点屠宰企业生猪平均收购价格为12.14元/公斤，环比与上期持平，同比下降17.2%。白条肉平均出厂价格为15.89元/公斤，环比增长0.1%，同比下降16.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 09:54:16",
-      "text": "【8月访日中国大陆游客暴减59%】日本国家旅游局16日发布估算数据称，8月访日外国人为309.89万人次，较上年同期减少9.6%，时隔一个月同比减少。从国家和地区来看，人数最多的是韩国的85.05万人次，增长28.7%。中国大陆游客为41.8万人次，大减59.0%，连续9个月同比下滑。1至8月的访日外国人累计为2762.63万人次，较上年同期减少2.7%。（中国侨网）",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
