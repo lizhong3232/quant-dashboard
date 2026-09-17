@@ -1,22 +1,48 @@
 {
-  "audit_time": "2026-09-16 23:00:23",
+  "audit_time": "2026-09-16 23:15:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "300750.SZ": {
-      "ticker": "300750.SZ",
-      "name": "宁德时代",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-17 14:05:14",
+      "text": "【抖音电商：过去一年累计助销各类农特产品135亿单】抖音电商发布的数据显示，2025年9月至2026年9月，抖音电商累计助销各类农特产品135亿单，近三年销售规模累计增长超90%。每天平均有3235万单农特产品包裹发往全国各地，日均发货单量近三年累计增长86%。年成交额破百万元的农货商家数量超7万个，同比增长50%，近三年累计翻一番。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-17 14:02:30",
+      "text": "欧元斯托克50指数期货<STXEc1>上涨0.29%，德国DAX指数期货<FDXc1>上涨0.34%，富时指数期货<FFIc1>上涨0.16%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-17 14:00:57",
+      "text": "瑞士8月手表出口同比增长9.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-17 13:24:49",
       "text": "【消息人士称苹果折叠屏发布后一周，三星新款折叠屏韩国销量增长约10%】据行业消息人士周四透露，在上周iPhone Duo发布后的一周内，三星Galaxy Z Fold 8在韩国国内的销量增长了约10%。这一增长的部分原因是一些消费者在等待苹果新产品期间推迟了购买，但最终选择了Galaxy Z Fold 8。消息人士称，iPhone Duo的价格和硬件规格是韩国消费者做出购买决策时的考虑因素之一。 iPhone Duo在韩国的256GB版本售价为329万韩元（约合2380美元），比三星Galaxy Z Fold 8的256GB版本高出逾100万韩元。而2TB版本的iPhone Duo售价为509万韩元。 韩国的价差相对美国而言更大。在美国市场，这两款智能手机的256GB版本售价相差约100美元。",
@@ -80,94 +106,6 @@
     {
       "timestamp": "2026-09-17 12:57:02",
       "text": "【海洋强国建设取得新成效】今天（9月17日），国家海洋信息中心和中国海洋发展研究会发布《中国海洋发展指数报告2026》，2025年中国海洋发展指数为132.3，比上年增长2.5%，海洋经济高质量发展稳步推进，海洋强国建设取得新成效。中国海洋发展指数是对一定时期我国海洋领域经济民生、科技创新、生态环境、资源利用、开放水平、综合管理六个方面发展水平的量化评估，指数以2015年为基期，基期指数值为100。《中国海洋发展指数报告2026》显示：海洋经济发展稳中有进，社会民生持续改善。2025年，经济民生指数为133.1，比上年增长2.9%。全国海洋生产总值达11万亿元，比上年增长5.5%。海洋新兴产业和海洋制造业保持较快增长，产业结构持续优化。人均海水产品占有量比上年增加0.9千克，民生保障水平不断提升。国家海洋信息中心同步发布《世界海洋经济发展简报2026》，汇总了全球9大海洋产业以及近30个沿海国家海洋经济的发展情况，重点呈现2025年全球海洋经济发展现状。从全球海洋产业发展情况来看，海洋产业已成为世界经济复苏和增长的蓝色引擎。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 12:27:08",
-      "text": "中通快递-W(02057)发布公告，于2026年9月16日斥资1012.91万美元回购49.73万股。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "真金白银回购增持",
-        "sentiment_score": 0.85,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 12:25:01",
-      "text": "【宁德时代市值缩水千亿美元 多头仍坚定看好其技术优势】尽管宁德时代的市值四个月内蒸发了1,000亿美元，但看多者不为所动。据彭博，卖方依然看好宁德时代，47位分析师一致给予其“买入”评级。“过去很多汽车制造商都曾力推‘去宁德时代化’，但没有一家成功。”Edmond de Rothschild资产管理基金经理Bing Yuan表示，“复制宁德时代的技术和可靠性极其困难。规模较小的供应商或许能够满足大众市场车型的需求，但旗舰和高端产品线仍然会依赖宁德时代。”",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 12:22:31",
-      "text": "【零跑朱江明：2027年零跑品牌将发7款产品 拟在南美进行本地化布局】针对销量如何保持持续增长，零跑科技创始人、董事长、CEO 朱江明今日透露，公司将在2027年发布7款零跑产品，并于同年第四季度推出第二品牌。此外，海外市场除欧洲外，也将在南美进行本地化布局。数据显示，零跑汽车8月全球交付103129辆，同比增长80.7%，连续两个月突破10万，全年百万销量目标完成率56.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 12:21:20",
-      "text": "【A股“净壳股”揭秘 11股上榜】受市场风格等多方面因素影响，今年壳资源股板块表现较差，重组指数年内下跌超3%，壳资源指数下跌超6%。不过，押中重组股获得超额收益的概率较高。一般而言，壳资源股通常是指那些市值较低、主营业务不突出、财务状况不佳的上市公司。数据宝统计出资产负债率较低、营收较少、半年报亏损的公司，这类个股重组概率较高，主要条件包括：1.市值在30亿元以下；2.上半年营收低于2亿元且亏损；3.半年报资产负债率低于20%。剔除双创以及北交所股票后合计有11只个股上榜。从市值角度来看，*ST联翔、华斯股份、永悦科技、ST嘉应等股票市值均不足20亿元。资产负债率方面，*ST春天、*ST帅电、*ST网达、*ST天箭等5只股票半年报负债率均不足10%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 12:07:32",
-      "text": "【东方证券：DeepSeek Harness更新加速应用落地 国产算力需求高增】东方证券发布研报称，DeepSeek V4.1 Flash模型参数量仅有552B，在多项基准测试中基于更少的参数量取得更优异的结果，与上一代模型相比，其对HBM的需求减少至1/4，对SSD的需求减少至1/8。该行预计将推进国内AI大模型渗透率增长，并将加速国内AI商业化场景拓展。该行认为国产AI大模型迭代将驱动国产算力与交换芯片需求高增。相关标的：寒武纪、海光信息、盛科通信-U。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 12:06:30",
-      "text": "【方正证券：黄酒龙头变革成效渐显 高端化与全国化共振】方正证券发布研报称，近期黄酒龙头股价持续走强，主要系白酒行业持续调整背景下，黄酒企业加速变革的成效获市场认可，持续突破高端白酒核心渠道，并已由中报结构表现验证，由此打开黄酒高端化及全国化想象空间。酒类多元化趋势下，黄酒发展空间可期，看好行业总量增长与龙头公司长效提升。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 12:01:28",
-      "text": "【大摩：智谱上调年底ARR指引至30亿美元 重申“增持”评级】摩根士丹利发布研报称，智谱(02513)截至9月中旬年化经常性收入(ARR)已达18亿美元，并将年底ARR指引由24亿美元上调至30亿美元，重申“增持”评级，目标价1,800港元。该行指出，管理层框架显示约50亿美元融资可支持约9.4万颗GPU，其中约40%用于训练、约60%用于推理;约5.6万颗推理GPU意味理论年收入上限约410亿元人民币，尚未考虑利用率与实际定价兑现，理论推理毛利率最高可达约80%。算力瓶颈缓解有望打开下一阶段增长，云端合作亦可改善资本效率及全球分销，收入分成料自10月起贡献。在研发端，训练部分的分配可支持四年累计约人民币30亿元的年化训练支出，足以支撑多次GLM-5.3级别或更大规模的训练。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
