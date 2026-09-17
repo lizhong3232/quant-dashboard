@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-16 20:30:18",
+  "audit_time": "2026-09-16 20:45:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -14,18 +14,33 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "688981.SS": {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-17 11:41:20",
+      "text": "香港国际机场8月货运量同比下降1.2%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-17 11:41:11",
+      "text": "香港国际机场8月客运量同比增长3.5%，飞机起降量同比增长0.5%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-17 11:17:13",
       "text": "【国联股份：跨境业务目前仍处于投入与布局期】国联股份(603613)在9月17日召开的2026年半年度业绩说明会上表示，跨境业务是公司着力培育的“第三增长曲线”，目前仍处于投入与布局期。2026年上半年，包括巴基斯坦、哈萨克斯坦国别总部、海外中心、海外仓、跨境智运平台等基础设施建设逐步落地，这些属于前期投入阶段，收入转化工作会在未来逐步体现。跨境业务从基础设施搭建到订单规模化落地需要一定周期，公司将持续稳步推进“1750”跨境战略，力争将其培育为长期增长引擎。",
@@ -153,46 +168,6 @@
     {
       "timestamp": "2026-09-17 10:24:40",
       "text": "【澄天伟业：MLCP相关技术方案仍处于与客户联合研发和验证阶段】澄天伟业(300689)9月16日在路演活动上表示，目前，MLCP（微通道液冷封装盖板）相关技术方案仍处于公司与客户联合研发和验证阶段，具体工艺路径仍在持续优化，尚未进入规模化量产阶段，公司将积极配合客户加快推进验证进度。当前难以对公司在下一代产品的供应份额或供应商地位作出确定判断。短期内，公司液冷业务仍将以现有冷板式液冷产品的开发和规模化交付为主，为公司液冷业务的持续增长提供有力支撑。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 10:20:30",
-      "text": "【8月份河南省规上工业增加值增长7.2％】河南省统计局发布数据显示，8月份，全省规模以上工业增加值同比实际增长7.2%（增加值增速均为扣除价格因素的实际增长率），高于全国2.0个百分点。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 10:18:35",
-      "text": "科创50日内跌幅达1％，成分股中，盛合晶微跌2.77％，中科星图跌2.69％，思特威跌2.54％，中芯国际跌2.40％。",
-      "analysis": {
-        "matched_tickers": [
-          "688981.SS"
-        ],
-        "matched_names": [
-          "中芯国际"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-17 10:16:14",
-      "text": "【9月第2周生猪定点屠宰企业生猪收购和白条肉出厂价格情况】据农业农村部监测，2026年9月7—13日，生猪定点屠宰企业生猪平均收购价格为12.14元/公斤，环比与上期持平，同比下降17.2%。白条肉平均出厂价格为15.89元/公斤，环比增长0.1%，同比下降16.1%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
