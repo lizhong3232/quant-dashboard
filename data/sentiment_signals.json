@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-17 18:30:14",
+  "audit_time": "2026-09-17 18:45:13",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -32,18 +32,21 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "600030.SS": {
-      "ticker": "600030.SS",
-      "name": "中信证券",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-18 09:37:11",
+      "text": "【国家能源局等部门部署煤炭安全稳产保供工作】近日，国家发展改革委、国家能源局、国家矿山安监局联合印发通知，多措并举加快推进煤炭稳产保供。通知指出，各产煤省（自治区）和煤炭企业要在确保安全的前提下，全力做好煤炭稳产保供相关工作，持续抓好监测调度，不断优化生产组织，积极稳妥推进煤矿复产达产，加快联合试运转煤矿验收，推动煤炭产量平稳回升，为经济增长和能源保供提供有力支撑。同时，通知对电煤中长期合同签订履约、发挥进口补充调剂作用、推进煤炭接续产能建设提出要求。下一步，有关部门将加强统筹协调，指导各产煤省（自治区）和煤炭企业抓紧落实各项工作部署，调整完善政策举措，适时释放煤炭产能储备，全力稳定煤炭生产供应，促进市场平稳运行。（国家能源局）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-18 09:28:46",
       "text": "算力概念走强，旭光电子涨近4%，太辰光、铭普光磁、澜起科技、工业富联等个股跟涨。",
@@ -62,7 +65,7 @@
     },
     {
       "timestamp": "2026-09-18 09:21:00",
-      "text": "【港股开盘：恒生指数涨0.00%，恒生科技指数涨0.00%】MINIMAX-W涨4.00%，智谱涨3.38%，天数智芯涨3.27%，紫金矿业涨2.66%，康师傅控股跌1.94%，吉利汽车跌2.06%，比亚迪股份跌2.16%。",
+      "text": "【港股开盘：恒生指数涨0.49%，恒生科技指数涨0.41%】MINIMAX-W涨4.00%，智谱涨3.38%，天数智芯涨3.27%，紫金矿业涨2.66%，康师傅控股跌1.94%，吉利汽车跌2.06%，比亚迪股份跌2.16%。",
       "analysis": {
         "matched_tickers": [
           "002594.SZ"
@@ -150,46 +153,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 08:45:53",
-      "text": "【食品价格或成全球债市下一风险源 债券投资者提前布局】今年以来，能源价格一直是债券市场承压的重要原因。如今，投资者担心下一轮通胀飙升可能来自食品领域。他们认为，“超级厄尔尼诺”现象、化肥供应紧张、航运遇袭以及欧洲创纪录高温夏季带来的影响，可能推高主食价格。即便美联储已经加息并誓言遏制通胀，持续上涨的食品价格仍可能给债券投资组合带来新的挑战。Carmignac、富达国际和Troy Asset Management等资产管理机构正在买入对冲工具，或削减对可能受到最严重冲击国家的投资敞口。“我认为下一轮供应冲击将出现在食品领域，”Carmignac共同管理76亿欧元资产的Marie-Anne Allier表示。“我认为目前市场尚未充分反映这一风险，尤其是我们预计这一过程将较为缓慢，但持续存在。”",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 08:18:20",
-      "text": "欧洲斯托克50指数期货下跌0.3%，德国DAX指数期货下滑0.5%，英国富时指数期货微跌0.2%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 08:12:15",
-      "text": "【中信证券：下半年互联网板块行情仍将围绕AI进展及主业业绩确定性演绎】中信证券研报称，2026年第二季度以来，恒生科技指数估值保持低位震荡，互联网板块的核心定价因素从外部风险偏好的分化转向市场流动性预期、板块业绩韧性和现金流情况。展望2026年下半年，板块行情仍将围绕AI进展及主业业绩确定性演绎。AI角度，建议关注头部互联网公司模型迭代、智能体渗透节奏、应用拓展以及商业化兑现有望带来的催化；行业角度，建议关注业绩确定性较高、现金流及股东回报较好的公司。",
-      "analysis": {
-        "matched_tickers": [
-          "600030.SS"
-        ],
-        "matched_names": [
-          "中信证券"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
