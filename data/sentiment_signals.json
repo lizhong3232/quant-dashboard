@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-17 20:30:15",
+  "audit_time": "2026-09-17 20:45:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 6,
+  "relevant_events_found": 5,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -65,18 +65,6 @@
         "sentiment_score": -1.0,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 10:49:13",
-      "text": "印尼棕榈油协会：印尼2027年棕榈油产量可能同比下降3%，至5660万吨。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
