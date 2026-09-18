@@ -1,31 +1,72 @@
 {
-  "audit_time": "2026-09-17 23:36:36",
+  "audit_time": "2026-09-18 00:00:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 9,
+  "relevant_events_found": 8,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "600036.SS": {
-      "ticker": "600036.SS",
-      "name": "招商银行",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和经营利好"
-      ]
-    },
-    "600584.SS": {
-      "ticker": "600584.SS",
-      "name": "长电科技",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-18 14:57:15",
+      "text": "土耳其大盘BIST-100指数<.XU100>早盘下跌1.1%，本土主要银行指数<.XBANK>下跌0.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-18 14:48:12",
+      "text": "【鑫科材料：公司铜板带材总体暂无扩产计划】鑫科材料(600255)在9月18日召开的2026年半年度业绩说明会上表示，公司铜板带材总体暂无扩产计划，同时公司依托技术创新与精密制造能力的持续升级，带动全系列带材产品的结构性升级。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-18 14:42:36",
+      "text": "据日本半导体设备协会的数据显示，日本8月份芯片制造设备出货量同比增长47.4%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-18 14:38:43",
+      "text": "【大摩：国泰航空8月客运业务在高基数下趋正常化，维持“增持”评级】摩根士丹利发表研报指，国泰航空8月客运业务在高基数下趋正常化，今年8月收入客公里(RPK)同比增长4%(前值升6.6%)，可用座位公里数同比增长3.4%(前值升5%)，客运载客率保持在87.2%的稳健水平，同比提升0.5个百分点。货运业务则具韧性，管理层称货运需求增长加强，受半导体、医药及库存补货需求支持。大摩认为，偏高的航空燃油价格仍是国泰短期盈利主要阻力。展望未来，管理层预期9月客运需求将季节性放缓，并于国庆黄金周前后改善；货运需求则料受高科技产品发布及传统旺季支持。该行维持国泰航空“增持”评级，目标价16.9港元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-18 14:37:46",
+      "text": "【日本央行行长植田和男：核心通胀接近2%】日本央行行长植田和男：尽管存在一些疲软，日本经济正在温和复苏。日本经济可能会继续温和增长。核心通胀接近2%。必须关注中东局势、人工智能相关需求增长以及汇率变动对日本经济活动和物价的影响。考虑到企业在工资和价格设定方面的行为变得更加激进，且中长期通胀预期正在上升，存在潜在通胀率超过2%价格目标的风险；将核心通胀稳定在2%左右的水平至关重要。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-18 14:31:53",
       "text": "【平安证券：首予平高电气“推荐”评级，特高压龙头再迎成长周期】平安证券研报指出，平高电气电网投资景气上行，特高压龙头再迎成长周期。2020—2025年，公司高压板块收入占比由42.4%提升至62.3%，板块毛利率由15.07%提升至27.76%，业务结构持续向高附加值产品倾斜，推动利润释放快于收入增长。电网投资进入补强周期，主网、特高压及海内外需求持续扩容。特高压项目形成“十四五结转兑现、十五五新增接力”的连续梯队，叠加煤电、核电等大型电源建设以及海外电网扩容与更新需求，高压开关行业景气有望延续。产品结构优化与内部提质增效共同推动盈利能力持续改善。海外市场：需求多点开花，竞争格局更优，公司有望逐步出海拓展。公司作为国内特高压GIS核心供应商，有望充分受益于“十五五”电网资本开支扩张；叠加高压业务占比提升、在手订单逐步交付和内部提质增效，预计盈利能力继续改善，首次覆盖，给予“推荐”评级。",
@@ -60,86 +101,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 14:19:59",
-      "text": "【大和：首予招商银行“跑赢大市”评级 目标价56.3港元】大和发布研报称，首予招商银行(03968)“跑赢大市”评级，目标价56.3港元，认为手续费收入拐点将重塑其盈利优势。该行指出，招行的手续费收入于2021至2024年累计下跌23%，主因监管调整而非特许经营权侵蚀，但复苏已展开，2025年净手续费收入增长4%，2026年上半年同比增长6%。该行预测2026至2028年净手续费收入增长8%至8.4%，同时预期2026至2028年营业收入同比增长6%至7%，纯利同比增长6%至8%。",
-      "analysis": {
-        "matched_tickers": [
-          "600036.SS"
-        ],
-        "matched_names": [
-          "招商银行"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 14:10:03",
-      "text": "【主力资金：融资融券板块净流入超294亿】截至目前，今日主力资金净流入302.13亿；净流入融资融券、转融券标的、芯片概念等板块，其中融资融券板块净流入294.95亿；净流出PCB概念、昨日高振幅、印制电路板等板块，其中PCB概念板块净流出51.22亿。\n  \n个股方面，华天科技净买入25.69亿元位居首位，兆易创新、中际旭创、长电科技主力资金净流入居前；中国巨石净卖出16.46亿元位居首位，中天科技、生益科技、长飞光纤净流出额居前。",
-      "analysis": {
-        "matched_tickers": [
-          "600584.SS"
-        ],
-        "matched_names": [
-          "长电科技"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 14:05:07",
-      "text": "【iPhone Duo发布后 三星新款折叠屏手机意外走俏】苹果发布首款折叠屏手机iPhone Duo之后，竞争对手三星的折叠屏新款Galaxy Z Fold 8迎来了销量大增。数据显示，Galaxy Z Fold 8在韩国的销量较前一周增长了约10%。分析认为，一些此前在等待苹果新产品的消费者可能最后决定购买三星手机，从而提振了三星折叠屏的需求。韩国当地分析师将转变的主要原因归于苹果折叠屏手机的价格以及超过一个月的等待时间。iPhone Duo目前尚未正式上市，需等到10月下旬才能出货。价格方面来看，美国市场上三星Galaxy Z Fold 8的起售价为1899美元，而iPhone Duo的起售价为1999美元。韩国市场上，两款相同容量的折叠屏手机售价却差了100多万韩元，相当于723美元。而三星在欧洲市场的定价经换算后也较苹果便宜更多。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 14:01:21",
-      "text": "欧元斯托克50指数期货<STXEc1>下跌0.17%，德国DAX指数期货<FDXc1>下跌0.28%，富时指数期货<FFIc1>下跌0.06%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 13:57:44",
-      "text": "【国际移民组织：经海路抵欧移民和难民显著减少】国际移民组织17日发布消息说，今年以来，通过海路抵达欧洲的移民和难民显著减少，但在途中死亡或失踪的人数却在增加。 该机构最新数据显示，截至9月15日，2026年有近6万名移民和难民经海路抵达欧洲，比去年同期下降39%。至少有2292人在途中死亡或失踪，高于去年同期的1999人。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 13:52:10",
-      "text": "【软银将Arm保证金贷款增至250亿美元，加大人工智能押注】软银集团已将其以芯片子公司Arm股份为担保的保证金贷款增加50亿美元，至250亿美元。该贷款本月已与债权人重新协商并签署，用以支持软银扩大人工智能投资。软银创始人孙正义需要数十亿美元资金，用于其不断增长的人工智能投资，其中包括对OpenAI 近 650 亿美元的承诺。这是软银第三次扩大以Arm股份为抵押的保证金贷款规模。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
