@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-17 23:01:18",
+  "audit_time": "2026-09-17 23:05:28",
   "total_news_scanned": 100,
-  "relevant_events_found": 6,
+  "relevant_events_found": 8,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-18 14:05:07",
+      "text": "【iPhone Duo发布后 三星新款折叠屏手机意外走俏】苹果发布首款折叠屏手机iPhone Duo之后，竞争对手三星的折叠屏新款Galaxy Z Fold 8迎来了销量大增。数据显示，Galaxy Z Fold 8在韩国的销量较前一周增长了约10%。分析认为，一些此前在等待苹果新产品的消费者可能最后决定购买三星手机，从而提振了三星折叠屏的需求。韩国当地分析师将转变的主要原因归于苹果折叠屏手机的价格以及超过一个月的等待时间。iPhone Duo目前尚未正式上市，需等到10月下旬才能出货。价格方面来看，美国市场上三星Galaxy Z Fold 8的起售价为1899美元，而iPhone Duo的起售价为1999美元。韩国市场上，两款相同容量的折叠屏手机售价却差了100多万韩元，相当于723美元。而三星在欧洲市场的定价经换算后也较苹果便宜更多。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-18 14:01:21",
+      "text": "欧元斯托克50指数期货<STXEc1>下跌0.17%，德国DAX指数期货<FDXc1>下跌0.28%，富时指数期货<FFIc1>下跌0.06%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
     {
       "timestamp": "2026-09-18 13:57:44",
       "text": "【国际移民组织：经海路抵欧移民和难民显著减少】国际移民组织17日发布消息说，今年以来，通过海路抵达欧洲的移民和难民显著减少，但在途中死亡或失踪的人数却在增加。 该机构最新数据显示，截至9月15日，2026年有近6万名移民和难民经海路抵达欧洲，比去年同期下降39%。至少有2292人在途中死亡或失踪，高于去年同期的1999人。",
