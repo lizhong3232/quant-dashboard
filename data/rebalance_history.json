@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 11,
+    "total_trades_100k": 15,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-09-15 18:17:19"
+    "last_rebalance_time_100k": "2026-09-17 18:11:04"
   },
   "trades_1m": [
     {
@@ -473,6 +473,70 @@
       "price": 255.38,
       "amount": 25538.0,
       "fee": 5.11,
+      "saved_bps": 2.1,
+      "reason": "HYSTERESIS_ENTRY"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-17 18:10:20",
+      "contract_id": "WT-20260917-0032",
+      "action": "SELL",
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
+      "shares": 200,
+      "price": 123.48,
+      "amount": 24696.0,
+      "fee": 17.29,
+      "saved_bps": 1.9,
+      "pnl": -426.0,
+      "pnl_pct": -1.7,
+      "reason": "HYSTERESIS_REPLACE"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-17 18:11:04",
+      "contract_id": "WT-20260917-0033",
+      "action": "SELL",
+      "ticker": "300274.SZ",
+      "name": "阳光电源",
+      "shares": 300,
+      "price": 84.67,
+      "amount": 25401.0,
+      "fee": 17.78,
+      "saved_bps": 1.9,
+      "pnl": 27.0,
+      "pnl_pct": 0.11,
+      "reason": "HYSTERESIS_REPLACE"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-17 18:11:04",
+      "contract_id": "WT-20260917-0034",
+      "action": "BUY",
+      "ticker": "300502.SZ",
+      "name": "新易盛",
+      "shares": 100,
+      "price": 424.34,
+      "amount": 42434.0,
+      "fee": 8.49,
+      "saved_bps": 2.1,
+      "reason": "消灭现金拖累·动用闲置资金建仓强Alpha龙头 (AI服务器与PCB高多层突破)"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-17 18:11:04",
+      "contract_id": "WT-20260917-0035",
+      "action": "BUY",
+      "ticker": "300474.SZ",
+      "name": "景嘉微",
+      "shares": 400,
+      "price": 50.3,
+      "amount": 20120.0,
+      "fee": 4.02,
       "saved_bps": 2.1,
       "reason": "HYSTERESIS_ENTRY"
     }
