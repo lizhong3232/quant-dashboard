@@ -1,22 +1,38 @@
 {
-  "audit_time": "2026-09-17 23:05:28",
+  "audit_time": "2026-09-17 23:16:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 8,
+  "relevant_events_found": 6,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "600276.SS": {
-      "ticker": "600276.SS",
-      "name": "恒瑞医药",
-      "avg_sentiment": 0.4,
+    "600584.SS": {
+      "ticker": "600584.SS",
+      "name": "长电科技",
+      "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
-        "温和经营利好"
+        "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-18 14:10:03",
+      "text": "【主力资金：融资融券板块净流入超294亿】截至目前，今日主力资金净流入302.13亿；净流入融资融券、转融券标的、芯片概念等板块，其中融资融券板块净流入294.95亿；净流出PCB概念、昨日高振幅、印制电路板等板块，其中PCB概念板块净流出51.22亿。\n  \n个股方面，华天科技净买入25.69亿元位居首位，兆易创新、中际旭创、长电科技主力资金净流入居前；中国巨石净卖出16.46亿元位居首位，中天科技、生益科技、长飞光纤净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "600584.SS"
+        ],
+        "matched_names": [
+          "长电科技"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-09-18 14:05:07",
       "text": "【iPhone Duo发布后 三星新款折叠屏手机意外走俏】苹果发布首款折叠屏手机iPhone Duo之后，竞争对手三星的折叠屏新款Galaxy Z Fold 8迎来了销量大增。数据显示，Galaxy Z Fold 8在韩国的销量较前一周增长了约10%。分析认为，一些此前在等待苹果新产品的消费者可能最后决定购买三星手机，从而提振了三星折叠屏的需求。韩国当地分析师将转变的主要原因归于苹果折叠屏手机的价格以及超过一个月的等待时间。iPhone Duo目前尚未正式上市，需等到10月下旬才能出货。价格方面来看，美国市场上三星Galaxy Z Fold 8的起售价为1899美元，而iPhone Duo的起售价为1999美元。韩国市场上，两款相同容量的折叠屏手机售价却差了100多万韩元，相当于723美元。而三星在欧洲市场的定价经换算后也较苹果便宜更多。",
@@ -75,46 +91,6 @@
         "sentiment_score": -0.95,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 12:46:50",
-      "text": "【创新药板块迎利好 业绩有望持续高增长股名单出炉】工业和信息化部等十部门联合发布的《医药工业发展“十五五”规划》（简称《规划》）提出，到2030年，生物医药研发应用稳居世界前列，创新驱动效能充分释放，重点领域关键核心技术实现系统性突破，生物医药产业加速成为国家新兴支柱产业。展望下半年，平安医药精选基金经理周思聪认为创新药有望成为重要成长主线。从资金面来看，本周以来，近30只创新药概念股获得融资客加仓，药明康德、凯莱英、成都先导、美迪西的融资净买入额居前。我武生物、华兰生物、华纳药厂月内均获得机构调研。结合机构预测来看，获得10家及以上机构给予评级的概念股中，有15股2026年和2027年业绩有望持续超10%幅度增长，包含药明康德、恒瑞医药、凯莱英、康龙化成、科伦药业等股。",
-      "analysis": {
-        "matched_tickers": [
-          "600276.SS"
-        ],
-        "matched_names": [
-          "恒瑞医药"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 12:33:40",
-      "text": "【大摩：维持李宁“增持”评级 目标价22.5港元】摩根士丹利发布研报称，维持李宁(02331)“增持”评级，目标价22.5港元。公司今年7月零售销售录高单位数或以上跌幅，但8月趋势有所改善，其中线下跌幅收窄，线上销售则受到直播活动所带动。8月整体零售销售同比相对稳定。公司认为目前评论9月趋势仍为时尚早，但预期中秋节假期将支持9月表现。该行提到，李宁受行业竞争及特卖场销售占比提高影响，7月至8月的线下零售折扣有所加深，但这并非由库存去化所驱动，公司此前已下调下半年订单。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 12:33:12",
-      "text": "中通快递-W(02057)发布公告，于2026年9月17日，该公司斥资1037.65万美元回购49.73万股股份，每股回购价20.7-20.95美元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "真金白银回购增持",
-        "sentiment_score": 0.85,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
