@@ -35107,5 +35107,150 @@
       "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
       "decision_rationale": "当前龙头持仓 (天孚通信 (300394.SZ) | 新易盛 (300502.SZ) | 景嘉微 (300474.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
     }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-18 11:15:28 CST",
+    "time_str": "11:15",
+    "date_str": "2026-09-18",
+    "portfolio_value": 101888.94,
+    "cash": 9068.94,
+    "stock_market_value": 92820.0,
+    "cash_ratio_pct": 8.9,
+    "stock_ratio_pct": 91.1,
+    "account_nav": 1.0189,
+    "bench_nav": 0.9909,
+    "bench_change_pct": 0.93,
+    "alpha_pct": 2.8,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "300394.SZ",
+        "name": "天孚通信",
+        "shares": 100,
+        "avg_cost": 255.38,
+        "last_price": 287.17,
+        "market_value": 28717.0,
+        "change_pct": 3.43,
+        "pnl": 3179.0,
+        "pnl_pct": 12.45,
+        "ofi": 0.034,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 28.18
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 424.34,
+        "last_price": 437.99,
+        "market_value": 43799.0,
+        "change_pct": 3.22,
+        "pnl": 1365.0,
+        "pnl_pct": 3.22,
+        "ofi": -0.017,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 42.99
+      },
+      {
+        "ticker": "300474.SZ",
+        "name": "景嘉微",
+        "shares": 400,
+        "avg_cost": 50.3,
+        "last_price": 50.76,
+        "market_value": 20304.0,
+        "change_pct": 0.91,
+        "pnl": 184.0,
+        "pnl_pct": 0.91,
+        "ofi": -0.001,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 19.93
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 101888.94,
+      "cash": 9068.94,
+      "stock_market_value": 92820.0,
+      "cash_ratio_pct": 8.9,
+      "stock_ratio_pct": 91.1,
+      "account_nav": 1.0189,
+      "bench_nav": 0.9909,
+      "alpha_pct": 2.8,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "300394.SZ",
+          "name": "天孚通信",
+          "shares": 100,
+          "avg_cost": 255.38,
+          "last_price": 287.17,
+          "market_value": 28717.0,
+          "change_pct": 3.43,
+          "pnl": 3179.0,
+          "pnl_pct": 12.45,
+          "ofi": 0.034,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 28.18
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 424.34,
+          "last_price": 437.99,
+          "market_value": 43799.0,
+          "change_pct": 3.22,
+          "pnl": 1365.0,
+          "pnl_pct": 3.22,
+          "ofi": -0.017,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 42.99
+        },
+        {
+          "ticker": "300474.SZ",
+          "name": "景嘉微",
+          "shares": 400,
+          "avg_cost": 50.3,
+          "last_price": 50.76,
+          "market_value": 20304.0,
+          "change_pct": 0.91,
+          "pnl": 184.0,
+          "pnl_pct": 0.91,
+          "ofi": -0.001,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 19.93
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，天孚通信、新易盛、景嘉微高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 天孚通信 (300394.SZ) | 新易盛 (300502.SZ) | 景嘉微 (300474.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (天孚通信 (300394.SZ) | 新易盛 (300502.SZ) | 景嘉微 (300474.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
   }
 ]
