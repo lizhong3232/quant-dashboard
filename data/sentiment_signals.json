@@ -1,12 +1,36 @@
 {
-  "audit_time": "2026-09-17 20:15:31",
+  "audit_time": "2026-09-17 20:30:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 5,
+  "relevant_events_found": 6,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-18 11:28:17",
+      "text": "【渣打：美联储主席沃什可能已制造了卖出美元的障碍】渣打银行表示，美联储主席凯文·沃什可能已经移除了买入美元的最大障碍，同时制造了卖出美元的最大障碍。渣打银行G10外汇研究全球主管Steve Englander在9月17日致客户的报告中写道，之前买入美元的最大障碍是货币贬值担忧。他补充说，卖出美元的最大障碍是，名义和实际利差让美元作为融资货币缺乏吸引力，使得美元资产持有者的对冲成本高昂。Englander认为，沃什可能已经消减了美元短线上涨的阻力，因为联邦公开市场委员会加息25个基点，让市场对追逐高收益率更放心，而且增加了对冲成本。他表示，目前美元面临的最大风险是美国经济增长前景下滑。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-18 11:17:56",
+      "text": "印尼财政部长：1-8月补贴与补偿支出达331.4万亿印尼盾，同比增长52.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-18 11:14:02",
       "text": "【东方金诚白雪：美联储不会开启连续加息周期】东方金诚研究发展部高级副总监白雪9月18日表示，美联储年内再加息一次的概率显著上升，但这并不意味着美联储将开启连续加息周期。首先，当前美国经济虽有韧性，但K型分化特征明显，居民储蓄率偏低、消费可持续性下降的问题逐步显现，AI投资周期也可能面临边际走弱。其次，长端美债收益率已攀升至2007年以来高位，金融条件的自发收紧已对利率敏感部门形成实质性压制，美联储仍需谨慎评估紧缩政策的累积效应。再次，本次加息的核心目的是锁定通胀预期、防范通胀再度固化，属于阶段性政策调整，而非应对经济过热和通胀螺旋式抬升的系统性紧缩。而当前美国通胀只是出现阶段性反弹，并未形成工资—物价螺旋，基本面也不支持持续加息。9月加息落地后，若12月通胀数据仍偏强，则可能再加息一次。随后美联储将进入观察期，在4.00%—4.25%的利率水平上观察通胀向目标回落的进度，再决定下一步是维持、加息还是转向降息。",
@@ -53,18 +77,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-18 10:40:41",
-      "text": "印尼前8月国家财政收入为2055.6万亿印尼盾，同比增长25.4%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
