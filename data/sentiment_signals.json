@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-20 19:45:24",
+  "audit_time": "2026-09-20 20:00:14",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-21 10:46:47",
+      "text": "【*ST卓然20%涨停】9月21日上午，*ST卓然小幅高开，其后拉升至20%涨停。此前公司提示可能被实施重大违法强制退市，以及可能存在市值退市风险。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "监管调查立案",
+        "sentiment_score": -1.0,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
     {
       "timestamp": "2026-09-21 10:44:40",
       "text": "【抖音电商：7万新作者年成交额从零到百万元】抖音电商披露的数据显示，过去一年，抖音电商新增动销作者超过456万，其中7万名作者年成交额从零增长至百万元以上；抖音电商平台日均开播直播间超过100万个，每天涌现的电商内容超8500万条，日均观看量近149亿。目前，抖音电商平台作者总数已突破1200万，在新增动销作者中，普通中小作者占比达99%。",
