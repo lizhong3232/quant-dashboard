@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-20 20:30:14",
+  "audit_time": "2026-09-20 20:45:14",
   "total_news_scanned": 100,
-  "relevant_events_found": 15,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-21 11:40:27",
+      "text": "【国泰海通：维持油运增持评级 高景气持续将超预期】国泰海通发布研报称，市场变化有望增加合规需求，加速老船出清，成就超高景气且可持续。油运已进入高景气阶段，2026年中东局势升级为灰色市场变化提供契机。建议关注灰色市场变化持续影响，油运有望现超高景气且可持续，提供业绩估值双重空间。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 11:40:05",
+      "text": "【苹果首款折叠屏手机iPhone Duo整机良率仅六成？客服回应 】有媒体报道称，距离正式发售只剩一个多月，苹果首款折叠屏手机iPhone Duo的量产爬坡还未完成。报道称，产业链人士表示，目前富士康组装iPhone Duo的整机良率仅为60%多，首批产量较少。按照苹果现有的质量标准，整机良率达到成熟水平可能还需要半年甚至一年。针对此事，苹果客服表示不太清楚，目前产品还未正式发售，要到10月才会有货。在9月的秋季新品发布会上，苹果推出首款折叠屏智能手机iPhone Duo，产品提供星光白色和夜空蓝色两种配色，国行版本售价15999元起，将于10月16日开启预售，10月23日正式发售。（新浪科技）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 11:39:08",
+      "text": "【东方证券：全球燃机需求景气度高 关注国产设备厂商突破进展】东方证券发布研报称，近期，该行看到了全球多家燃机厂商取得积极进展，该行认为这更印证了行业的高景气度，积极拥抱行业变化、主动布局燃机设备的国产厂商，有望在国际市场竞争中取得优势。全球燃气轮机的紧缺，正有望降低燃机行业厂商的进入壁垒，给国产燃机链厂商带来更多的出海机遇，国际厂商间的竞争将体现在技术、渠道、产能等综合的维度，具备强大资源整合能力的国产厂商，有望脱颖而出，取得业绩的高速增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-21 11:09:32",
       "text": "【德两州地方选举被视为观察政局窗口 】德国9月20日举行的梅前州和柏林州议会选举，为何受到德国政坛和舆论的高度关注？这是因为此次地方选举发生在德国联邦政府承压、传统政党支持度下降、极右翼政党政治影响力持续上升的背景之下，德国舆论普遍将这次地方选举视为观察德国联邦政局的重要窗口。（ CCTV国际时讯  ）",
@@ -176,42 +212,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-21 10:04:02",
-      "text": "【国铁集团联合商业银行推出“铁路运费票”物流金融产品】继全面推广运费贷、运费证、信用证结算货款、铁路单证质押融资等物流金融服务后，9月21日，国铁集团再次与商业银行合作，推出“铁路运费票”物流金融产品，中国铁路物流95306平台物流金融版块“铁路运费票”功能同步上线，首批在北京、天津、河北、山西、内蒙古、广东、湖南、海南、云南、新疆等10个省区市试点，将有效助力铁路物流客户进一步拓展融资渠道、降低融资成本。（中国铁路）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-21 10:03:18",
-      "text": "【亮源新创发布全身智能基础模型Light-O1】9月21日，亮源新创发布全身智能基础模型Light-O1，首次验证人类全身动作预训练的跨本体迁移扩展规律。该模型从海量互联网视频中学习人类动作，结合语言与视觉信息迁移至机器人，突破遥操作成本高、多样性不足等瓶颈。其人类动作预训练达10万动作小时，数据扩大后，跨本体与视角适配的动作预测损失呈幂律下降趋势，全身姿态误差同步降低。同期，公司官网开源Light-O1-Preview模型，其“规模化预训练—规模化对齐—规模化部署”的三段范式技术成果全部落位。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-21 10:02:33",
-      "text": "【56家企业和机构获得我国首批数据产权“身份证”】数据产权登记，相当于为数据这一无形资产出具身份证明。“十五五”规划纲要提出，构建全国统一的数据产权登记体系。记者今天（21日）从国家数据局了解到，我国首批数据产权登记凭证陆续发放，56家企业和机构拿到相关数据持有权、使用权和经营权的有效证明。首批获发数据产权登记凭证的主体主要包括三类：国有企业、事业单位和民营企业，涵盖医疗健康、交通运输、信息技术、科学研究等10余个行业领域。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
