@@ -13,9 +13,9 @@
       "avg_cost": 255.38,
       "last_price": 284.66,
       "market_value": 28466.0,
-      "pnl": 2227.0,
-      "pnl_pct": 8.72,
-      "highest": 277.65
+      "pnl": 2928.0,
+      "pnl_pct": 11.47,
+      "highest": 284.66
     },
     "300502.SZ": {
       "name": "新易盛",
@@ -23,9 +23,9 @@
       "avg_cost": 424.34,
       "last_price": 445.0,
       "market_value": 44500.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
-      "highest": 424.34
+      "pnl": 2066.0,
+      "pnl_pct": 4.87,
+      "highest": 445.0
     },
     "300474.SZ": {
       "name": "景嘉微",
@@ -33,9 +33,9 @@
       "avg_cost": 50.3,
       "last_price": 51.17,
       "market_value": 20468.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
-      "highest": 50.3
+      "pnl": 348.0,
+      "pnl_pct": 1.73,
+      "highest": 51.17
     }
   },
   "rules": {
@@ -45,7 +45,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-09-18 00:08:18",
+  "last_updated": "2026-09-20 18:15:34",
   "benchmark": {
     "last_price": 4.582,
     "nav": 0.9926
@@ -124,7 +124,7 @@
       "alpha": 1.26
     },
     {
-      "timestamp": "2026-09-18 00:08:18",
+      "timestamp": "2026-09-18 00:09:01",
       "date": "2026-09-18",
       "cash": 9068.94,
       "portfolio_value": 102502.94,
