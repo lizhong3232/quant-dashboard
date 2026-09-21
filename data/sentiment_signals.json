@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-09-20 19:00:13",
+  "audit_time": "2026-09-20 19:15:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 6,
+  "relevant_events_found": 8,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "002594.SZ": {
       "ticker": "002594.SZ",
       "name": "比亚迪",
@@ -14,27 +23,61 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "300750.SZ": {
-      "ticker": "300750.SZ",
-      "name": "宁德时代",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和经营利好"
-      ]
-    },
-    "600584.SS": {
-      "ticker": "600584.SS",
-      "name": "长电科技",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-21 10:11:39",
+      "text": "【AI推理芯片公司行云集成完成近8亿元融资】9月21日，据云岫资本消息，国内全自研GPGPU创新企业北京行云集成电路有限公司完成新一轮近8亿人民币融资，本轮融资由宁德时代通过旗下唯一的产业投资平台溥泉资本和自有资金领投，春华资本、基石创投等机构跟投。本轮资金将主要用于产品工程化、供应链准备与客户交付，加速产业化进程。云岫资本担任长期独家财务顾问。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 10:04:02",
+      "text": "【国铁集团联合商业银行推出“铁路运费票”物流金融产品】继全面推广运费贷、运费证、信用证结算货款、铁路单证质押融资等物流金融服务后，9月21日，国铁集团再次与商业银行合作，推出“铁路运费票”物流金融产品，中国铁路物流95306平台物流金融版块“铁路运费票”功能同步上线，首批在北京、天津、河北、山西、内蒙古、广东、湖南、海南、云南、新疆等10个省区市试点，将有效助力铁路物流客户进一步拓展融资渠道、降低融资成本。（中国铁路）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 10:03:18",
+      "text": "【亮源新创发布全身智能基础模型Light-O1】9月21日，亮源新创发布全身智能基础模型Light-O1，首次验证人类全身动作预训练的跨本体迁移扩展规律。该模型从海量互联网视频中学习人类动作，结合语言与视觉信息迁移至机器人，突破遥操作成本高、多样性不足等瓶颈。其人类动作预训练达10万动作小时，数据扩大后，跨本体与视角适配的动作预测损失呈幂律下降趋势，全身姿态误差同步降低。同期，公司官网开源Light-O1-Preview模型，其“规模化预训练—规模化对齐—规模化部署”的三段范式技术成果全部落位。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 10:02:33",
+      "text": "【56家企业和机构获得我国首批数据产权“身份证”】数据产权登记，相当于为数据这一无形资产出具身份证明。“十五五”规划纲要提出，构建全国统一的数据产权登记体系。记者今天（21日）从国家数据局了解到，我国首批数据产权登记凭证陆续发放，56家企业和机构拿到相关数据持有权、使用权和经营权的有效证明。首批获发数据产权登记凭证的主体主要包括三类：国有企业、事业单位和民营企业，涵盖医疗健康、交通运输、信息技术、科学研究等10余个行业领域。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
     {
       "timestamp": "2026-09-21 09:46:41",
       "text": "【ST路通成立科技新公司 含AI及机器人业务】企查查APP显示，近日，成都路通创心科技有限公司成立，经营范围包含物联网技术研发；智能机器人销售；智能机器人的研发；人工智能硬件销售；人工智能基础软件开发；人工智能应用软件开发等。企查查股权穿透显示，该公司由ST路通全资持股。",
@@ -85,38 +128,6 @@
         "sentiment_score": 0.8,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-21 09:09:52",
-      "text": "【花旗：市场对电池需求的担忧过头 看好宁德时代A股及中创新航等】花旗称，对2027年电池需求的担忧使得近期宁德时代和碳酸锂相关的股票都遭到抛售。相信市场已对疲软预期定价并有些过头。基于估值吸引力看好宁德时代A股，以及正在获得市场份额的二线参与者，如中创新航和亿纬锂能。分析师Jack Shang等在报告中指出，宁德时代近期遭到抛售主要由于电池供过于求以及竞争格局恶化的担忧。行业调研显示电池需求依然稳健，2027年料增长20%-30%，尽管增速较2026年有所放缓。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-21 09:03:55",
-      "text": "【353股获融资买入超亿元，中际旭创获买入33.4亿元居首】A股9月18日共有3854只个股获融资资金买入，有353股买入金额超亿元。其中，中际旭创、新易盛、中国巨石融资买入金额排名前三，分别获买入33.4亿元、22.95亿元、21.85亿元。从融资买入额占当日总成交金额比重来看，有5只个股融资买入额占比超30%。其中浩瀚深度、光峰科技、美登科技融资买入额占成交额比重排名前三，分别为41.19%、40.14%、39.79%。从融资净买入金额来看，有25只个股获融资净买入超亿元。其中，新易盛、长电科技、中国巨石融资净买入金额排名前三，分别获净买入4.35亿元、4.23亿元、4.09亿元。",
-      "analysis": {
-        "matched_tickers": [
-          "600584.SS"
-        ],
-        "matched_names": [
-          "长电科技"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
