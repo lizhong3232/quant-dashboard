@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-20 20:00:27",
+  "audit_time": "2026-09-20 20:15:14",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 15,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,54 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-21 11:09:32",
+      "text": "【德两州地方选举被视为观察政局窗口 】德国9月20日举行的梅前州和柏林州议会选举，为何受到德国政坛和舆论的高度关注？这是因为此次地方选举发生在德国联邦政府承压、传统政党支持度下降、极右翼政党政治影响力持续上升的背景之下，德国舆论普遍将这次地方选举视为观察德国联邦政局的重要窗口。（ CCTV国际时讯  ）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 11:07:53",
+      "text": "【锂业分会：8月全国碳酸锂产量环比下降2.5%】8月，碳酸锂价格小幅上涨，市场预期短期供应收紧，同时下游电池排产超出预期。据中国有色金属工业协会锂业分会统计，8月，全国碳酸锂产量约9.6万吨，环比下降2.5%；全国氢氧化锂产量约3.3万吨，环比上涨2.5%。全国锂盐产量折合碳酸锂当量（LCE）约12.5万吨，环比下降1.4%。产量下降主要由于津巴布韦锂矿到港量不及预期，企业部分产线停产检修。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 11:02:48",
+      "text": "隔夜SHIBOR报1.3640%，下降0.10个基点。7天SHIBOR报1.4063%，下降0.37个基点。3个月SHIBOR报1.4300%，下降0.10个基点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 11:01:51",
+      "text": "【中国AI大模型周调用量连续二十一周领跑：DeepSeek V4.1-Flash登顶，环比增长219%】根据OpenRouter最新数据测算，上周（9月14日至9月20日）全球AI大模型总调用量为129万亿Token，环比增长1.57%。其中，上榜的AI大模型中，中国AI大模型周调用量达67.46万亿Token，环比增长10.28%；同期美国AI大模型周调用量为14.21万亿Token，环比下滑34.7%。中国大模型周调用量连续二十一周超过美国，稳居全球首位。上周，全球调用量排名前五中，有四款中国AI大模型。其中，DeepSeekV4.1-Flash升至第一，周调用量达15.8万亿Token，环比增长219%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-21 10:46:47",
       "text": "【*ST卓然20%涨停】9月21日上午，*ST卓然小幅高开，其后拉升至20%涨停。此前公司提示可能被实施重大违法强制退市，以及可能存在市值退市风险。",
@@ -164,18 +212,6 @@
         "sentiment_score": 0.75,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-21 09:46:41",
-      "text": "【ST路通成立科技新公司 含AI及机器人业务】企查查APP显示，近日，成都路通创心科技有限公司成立，经营范围包含物联网技术研发；智能机器人销售；智能机器人的研发；人工智能硬件销售；人工智能基础软件开发；人工智能应用软件开发等。企查查股权穿透显示，该公司由ST路通全资持股。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
