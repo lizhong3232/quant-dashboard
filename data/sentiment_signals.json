@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-09-20 23:00:26",
+  "audit_time": "2026-09-20 23:15:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 15,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "600584.SS": {
+      "ticker": "600584.SS",
+      "name": "长电科技",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "601166.SS": {
       "ticker": "601166.SS",
       "name": "兴业银行",
@@ -17,6 +26,34 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-21 14:10:03",
+      "text": "【主力资金：先进封装板块净流出超71亿】截至目前，今日主力资金净流出12.84亿；净流入医药生物、生物医药、创新药等板块，其中医药生物板块净流入60.16亿；净流出先进封装、电子、大盘等板块，其中先进封装板块净流出71.45亿。\n  \n个股方面，中际旭创净买入8.97亿元位居首位，新易盛、胜宏科技、中材科技主力资金净流入居前；天孚通信净卖出11.22亿元位居首位，华天科技、长电科技、C沈鼓集团净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "600584.SS"
+        ],
+        "matched_names": [
+          "长电科技"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-21 14:01:43",
+      "text": "【摩根大通维持股市看涨观点，认为油价与利率冲击属于暂时性现象】摩根大通全球策略师表示，强劲的利润率、不断扩大的盈利增长以及稳健的企业资产负债表，将支撑股市在年底前继续上行。由米斯拉夫·马泰伊卡牵头的团队在周一发布的研报中写道，布伦特原油突破100美元、债券收益率走高引发的近期股市回调，不太可能中断本轮上涨行情。策略师称，摩根大通建议超配欧元区及新兴市场股票；行业配置上看好矿业、资本品与半导体板块，看空媒体及软件板块，科技股在下半年难以引领市场。他们预计，到12月，明晟欧元区指数将达到420点，潜在涨幅9%；欧洲斯托克50指数目标位6800点，明晟欧洲指数2750点，斯托克600指数680点。策略师预计短期市场波动仍将持续，但认为市场避险回调是买入良机；企业利润率仍接近历史高位，盈利增长的动力不再局限于人工智能领域。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-21 13:47:58",
       "text": "哈萨克斯坦国家石油运输公司(KazTransOil)：8月经由乌斯季卢加港出口的哈萨克斯坦石油较上月下降30%，运输量为20万吨。",
@@ -171,38 +208,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-21 12:32:04",
-      "text": "法国兴业银行：人工智能相关项目将带来5亿至6亿欧元的成本节约。",
-      "analysis": {
-        "matched_tickers": [
-          "601166.SS"
-        ],
-        "matched_names": [
-          "兴业银行"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-21 12:30:45",
-      "text": "法国兴业银行股份有限公司 预计2029年有形股本回报率+13％至+14％。",
-      "analysis": {
-        "matched_tickers": [
-          "601166.SS"
-        ],
-        "matched_names": [
-          "兴业银行"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
