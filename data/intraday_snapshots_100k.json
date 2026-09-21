@@ -2,133 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-09-08 10:32:29 CST",
-    "time_str": "10:32",
-    "date_str": "2026-09-08",
-    "portfolio_value": 101309.0,
-    "cash": 18458.0,
-    "stock_market_value": 82851.0,
-    "cash_ratio_pct": 18.22,
-    "stock_ratio_pct": 81.78,
-    "account_nav": 1.0131,
-    "bench_nav": 1.0082,
-    "bench_change_pct": 0.43,
-    "alpha_pct": 0.49,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "601138.SS",
-        "name": "工业富联",
-        "shares": 600,
-        "avg_cost": 66.57,
-        "last_price": 66.43,
-        "market_value": 39858.0,
-        "change_pct": -0.21,
-        "pnl": -84.0,
-        "pnl_pct": -0.21,
-        "ofi": -0.026,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 39.34
-      },
-      {
-        "ticker": "300502.SZ",
-        "name": "新易盛",
-        "shares": 100,
-        "avg_cost": 416.0,
-        "last_price": 429.93,
-        "market_value": 42993.0,
-        "change_pct": 3.05,
-        "pnl": 1393.0,
-        "pnl_pct": 3.35,
-        "ofi": 0.103,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 42.44
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 101309.0,
-      "cash": 18458.0,
-      "stock_market_value": 82851.0,
-      "cash_ratio_pct": 18.22,
-      "stock_ratio_pct": 81.78,
-      "account_nav": 1.0131,
-      "bench_nav": 1.0082,
-      "alpha_pct": 0.49,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "601138.SS",
-          "name": "工业富联",
-          "shares": 600,
-          "avg_cost": 66.57,
-          "last_price": 66.43,
-          "market_value": 39858.0,
-          "change_pct": -0.21,
-          "pnl": -84.0,
-          "pnl_pct": -0.21,
-          "ofi": -0.026,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 39.34
-        },
-        {
-          "ticker": "300502.SZ",
-          "name": "新易盛",
-          "shares": 100,
-          "avg_cost": 416.0,
-          "last_price": 429.93,
-          "market_value": 42993.0,
-          "change_pct": 3.05,
-          "pnl": 1393.0,
-          "pnl_pct": 3.35,
-          "ofi": 0.103,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 42.44
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，海外AI基础设施 Capex 驱动力强劲",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，新易盛 800G 光模块出海与工业富联 AI 服务器高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [
-        {
-          "ticker": "601138.SS",
-          "name": "工业富联",
-          "time": "今日研判",
-          "title": "全球 AI 服务器供应链出货饱满，GB200/B200 机柜算力第三季度加速放量",
-          "source": "海通证券 / 产业供应链跟踪",
-          "sentiment": "积极偏多",
-          "score": 0.65,
-          "summary": "工业富联在高密度 AI 服务器、液冷机柜及高速以太网/InfiniBand 交换机制造领域全球份额领先，算力客户资本开支持续加码。"
-        },
-        {
-          "ticker": "300502.SZ",
-          "name": "新易盛",
-          "time": "今日研判",
-          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
-          "source": "中信建投 / 光通信快报",
-          "sentiment": "强劲看多",
-          "score": 0.72,
-          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
-        }
-      ],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓（工业富联 Alpha +0.1795 | 新易盛 Alpha +0.1689）稳居第一梯队；外部最强候选（阳光电源 +0.1591）未超越现有持仓 15% 门限（需 > +0.1942）；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-09-08 10:45:29 CST",
     "time_str": "10:45",
     "date_str": "2026-09-08",
@@ -41548,6 +41421,161 @@
           "ofi": 0.09,
           "flow_status": "强势主动扫货",
           "weight_pct": 20.22
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，天孚通信、新易盛、景嘉微高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 天孚通信 (300394.SZ) | 新易盛 (300502.SZ) | 景嘉微 (300474.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "300394.SZ",
+          "name": "天孚通信",
+          "time": "14:10:03",
+          "title": "【主力资金：先进封装板块净流出超71亿】截至目前，今日主力资金净流出12.84亿；净流入医药生物、生物医药、创新药等板块...",
+          "source": "7x24 财经直播 / 财联社",
+          "sentiment": "中性资讯",
+          "score": 0.0,
+          "summary": "【主力资金：先进封装板块净流出超71亿】截至目前，今日主力资金净流出12.84亿；净流入医药生物、生物医药、创新药等板块，其中医药生物板块净流入60.16亿；净流出先进封装、电子、大盘等板块，其中先进封装板块净流出71.45亿。\n  \n个股方面，中际旭创净买入8.97亿元位居首位，新易盛、胜宏科技、中材科技主力资金净流入居前；天孚通信净卖出11.22亿元位居首位，华天科技、长电科技、C沈鼓集团净流出额居前。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "14:10:03",
+          "title": "【主力资金：先进封装板块净流出超71亿】截至目前，今日主力资金净流出12.84亿；净流入医药生物、生物医药、创新药等板块...",
+          "source": "7x24 财经直播 / 财联社",
+          "sentiment": "中性资讯",
+          "score": 0.0,
+          "summary": "【主力资金：先进封装板块净流出超71亿】截至目前，今日主力资金净流出12.84亿；净流入医药生物、生物医药、创新药等板块，其中医药生物板块净流入60.16亿；净流出先进封装、电子、大盘等板块，其中先进封装板块净流出71.45亿。\n  \n个股方面，中际旭创净买入8.97亿元位居首位，新易盛、胜宏科技、中材科技主力资金净流入居前；天孚通信净卖出11.22亿元位居首位，华天科技、长电科技、C沈鼓集团净流出额居前。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (天孚通信 (300394.SZ) | 新易盛 (300502.SZ) | 景嘉微 (300474.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-09-21 14:45:12 CST",
+    "time_str": "14:45",
+    "date_str": "2026-09-21",
+    "portfolio_value": 103714.94,
+    "cash": 9068.94,
+    "stock_market_value": 94646.0,
+    "cash_ratio_pct": 8.74,
+    "stock_ratio_pct": 91.26,
+    "account_nav": 1.0371,
+    "bench_nav": 0.9985,
+    "bench_change_pct": 0.59,
+    "alpha_pct": 3.86,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "300394.SZ",
+        "name": "天孚通信",
+        "shares": 100,
+        "avg_cost": 255.38,
+        "last_price": 279.28,
+        "market_value": 27928.0,
+        "change_pct": -1.89,
+        "pnl": 2390.0,
+        "pnl_pct": 9.36,
+        "ofi": -0.105,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 26.93
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 424.34,
+        "last_price": 457.9,
+        "market_value": 45790.0,
+        "change_pct": 2.9,
+        "pnl": 3356.0,
+        "pnl_pct": 7.91,
+        "ofi": -0.063,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 44.15
+      },
+      {
+        "ticker": "300474.SZ",
+        "name": "景嘉微",
+        "shares": 400,
+        "avg_cost": 50.3,
+        "last_price": 52.32,
+        "market_value": 20928.0,
+        "change_pct": 2.25,
+        "pnl": 808.0,
+        "pnl_pct": 4.02,
+        "ofi": 0.137,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 20.18
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 103714.94,
+      "cash": 9068.94,
+      "stock_market_value": 94646.0,
+      "cash_ratio_pct": 8.74,
+      "stock_ratio_pct": 91.26,
+      "account_nav": 1.0371,
+      "bench_nav": 0.9985,
+      "alpha_pct": 3.86,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "300394.SZ",
+          "name": "天孚通信",
+          "shares": 100,
+          "avg_cost": 255.38,
+          "last_price": 279.28,
+          "market_value": 27928.0,
+          "change_pct": -1.89,
+          "pnl": 2390.0,
+          "pnl_pct": 9.36,
+          "ofi": -0.105,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 26.93
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 424.34,
+          "last_price": 457.9,
+          "market_value": 45790.0,
+          "change_pct": 2.9,
+          "pnl": 3356.0,
+          "pnl_pct": 7.91,
+          "ofi": -0.063,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 44.15
+        },
+        {
+          "ticker": "300474.SZ",
+          "name": "景嘉微",
+          "shares": 400,
+          "avg_cost": 50.3,
+          "last_price": 52.32,
+          "market_value": 20928.0,
+          "change_pct": 2.25,
+          "pnl": 808.0,
+          "pnl_pct": 4.02,
+          "ofi": 0.137,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 20.18
         }
       ]
     },
