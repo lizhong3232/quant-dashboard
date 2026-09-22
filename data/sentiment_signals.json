@@ -1,22 +1,48 @@
 {
-  "audit_time": "2026-09-21 19:15:19",
+  "audit_time": "2026-09-21 19:30:16",
   "total_news_scanned": 100,
   "relevant_events_found": 7,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "688981.SS": {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-22 10:21:34",
+      "text": "【1—8月 海洋工程装备新接订单金额同比增长160.8%】国务院新闻办公室举行“开局起步‘十五五’”系列主题新闻发布会，介绍促进自然资源安全高效永续利用有关情况。相关负责人介绍，1—8月，海洋船舶新接订单量、海洋工程装备新接订单金额，同比分别增长83.7%、160.8%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-22 10:21:08",
+      "text": "【成大生物：人用二倍体狂犬病疫苗预计年产能可达1000万剂】成大生物在9月22日举行的2026年半年度业绩说明会上表示，公司人用二倍体狂犬病疫苗现已具备规模化生产条件，预计年产能可达1000万剂。9月15日，公司人用二倍体狂犬病疫苗首批产品正式从成大生物本溪公司发运上市。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-22 10:16:13",
+      "text": "【国家发改委：上半年水网建设吸引民间投资同比增长85.8%】9月22日，国家发展改革委政策研究室副主任李超在新闻发布会上表示，在水利领域，上半年，水网建设吸引民间投资超过108亿元，同比增长了85.8%。在绿电直连领域，目前已经审批的项目中，民间资本参与的项目占到半数。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-22 10:11:23",
       "text": "【华立汪力成：跳出内卷、摒弃规模扩张思维是中国民企的当务之急]“全球化不会终止，但是它的形态、内容以及定义正在被重新改写。低关税甚至零关税的全球化合作已经终止，国家与国家之间的大分工也已经终止，全球的供应链正在向分布式、区域化、近岸外包等方向演变。”9月21日，华立集团董事局主席汪力成，在长江商学院举办的活动上发言，他认为近几年中国出口不降反增，是由于中国已经形成的齐全、完整、高效的制造体系，发达国家市场暂时无法轻易“脱链断链”，但此类趋势没有改变，所以中国企业仍需提前做好应对准备。 最近一年，“K型分化”成为宏观经济领域的高频热词，其主要指以AI为代表的新兴产业持续向上，但传统行业可能持续向下的分化。汪力成认为，K型分化是表象，本质上是经济结构正在重构——靠传统三驾马车（消费、投资、出口）拉动经济增长的模式难以为继；随着房地产业的“崩盘”，大量的相关产业萎缩趋势不会改变；政府的土地财政模式已经终结，依附在其他产业上的税负会进一步增加。(财新网)",
@@ -63,46 +89,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 09:21:46",
-      "text": "【前8个月税收收入与经济增长基本匹配】税收数据显示，今年前8个月，税务部门征收税收收入同比增长5.9%，与上半年现价GDP增速5.4%相比，略高出0.5个百分点。“税收收入按现价计算，今年以来，税收增长总体上与经济增长基本相匹配。”税务总局税收科学研究所所长黄立新认为。值得关注的是，今年前8个月，纳税规模居前一万户的企业缴纳税收占全部税收比重接近一半，前一百万户的企业缴纳税收占全部税收的比重达到九成，而包括小微企业在内的其他企业税收占比仅一成左右。（金融时报）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 09:21:00",
-      "text": "【港股开盘：恒生指数涨0.51%，恒生科技指数涨1.01%】MINIMAX-W涨5.97%，天数智芯涨5.85%，腾讯音乐-SW涨4.91%，智谱涨4.28%，腾讯控股涨3.02%，华虹宏力涨2.77%，中芯国际涨2.13%。",
-      "analysis": {
-        "matched_tickers": [
-          "688981.SS"
-        ],
-        "matched_names": [
-          "中芯国际"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 09:21:00",
-      "text": "央行：今日开展350亿元7天逆回购操作，投标量350亿元，中标量350亿元，操作利率为1.40%",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重磅业务突破",
-        "sentiment_score": 0.8,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
