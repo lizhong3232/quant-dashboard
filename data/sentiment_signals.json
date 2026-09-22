@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-21 22:45:23",
+  "audit_time": "2026-09-21 23:00:14",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -130,18 +130,6 @@
     {
       "timestamp": "2026-09-22 12:19:15",
       "text": "【欧洲央行首席经济学家：能源价格上涨将推高食品价格】欧洲央行首席经济学家Lane： 当前并未看到通胀的第二轮效应； 能源价格上涨将推高食品价格；服务业压力应继续控制在可控范围内；经济将以稳定但温和的速度增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 12:08:49",
-      "text": "【前8月霍尔果斯口岸汽车出口增长33.3%】今年以来，依托区位与通道优势，全国最大商品车陆路出口口岸——霍尔果斯口岸汽车出口贸易持续升温，成为新疆外贸提质增效的核心增长点。 据霍尔果斯海关统计，今年1至8月，霍尔果斯口岸出口汽车34.4万辆，同比增长33.3%。出口车型除传统燃油汽车外，新能源乘用车、商用车出口占比大幅提升。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
