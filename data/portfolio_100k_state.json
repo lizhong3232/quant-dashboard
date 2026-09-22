@@ -2,9 +2,9 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 9068.94,
-  "portfolio_value": 103559.94,
-  "account_nav": 1.0356,
+  "cash": 10466.12,
+  "portfolio_value": 103519.12,
+  "account_nav": 1.0352,
   "bench_nav": 1.0017,
   "positions": {
     "300394.SZ": {
@@ -13,19 +13,9 @@
       "avg_cost": 255.38,
       "last_price": 279.26,
       "market_value": 27926.0,
-      "pnl": 2928.0,
-      "pnl_pct": 11.47,
+      "pnl": 2388.0,
+      "pnl_pct": 9.35,
       "highest": 284.66
-    },
-    "300502.SZ": {
-      "name": "新易盛",
-      "shares": 100,
-      "avg_cost": 424.34,
-      "last_price": 456.73,
-      "market_value": 45673.0,
-      "pnl": 2066.0,
-      "pnl_pct": 4.87,
-      "highest": 445.0
     },
     "300474.SZ": {
       "name": "景嘉微",
@@ -33,9 +23,19 @@
       "avg_cost": 50.3,
       "last_price": 52.23,
       "market_value": 20892.0,
-      "pnl": 348.0,
-      "pnl_pct": 1.73,
-      "highest": 51.17
+      "pnl": 772.0,
+      "pnl_pct": 3.84,
+      "highest": 52.23
+    },
+    "300274.SZ": {
+      "name": "阳光电源",
+      "shares": 500,
+      "avg_cost": 88.47,
+      "last_price": 88.47,
+      "market_value": 44235.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "highest": 88.47
     }
   },
   "rules": {
@@ -45,7 +45,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-09-21 00:05:07",
+  "last_updated": "2026-09-21 18:11:06",
   "benchmark": {
     "last_price": 4.608,
     "nav": 0.9983
