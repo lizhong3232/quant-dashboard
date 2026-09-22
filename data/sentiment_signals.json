@@ -1,12 +1,74 @@
 {
-  "audit_time": "2026-09-21 23:00:27",
+  "audit_time": "2026-09-21 23:15:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "600900.SS": {
+      "ticker": "600900.SS",
+      "name": "长江电力",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-22 14:14:14",
+      "text": "【伊斯坦布尔交易所对BIST 50成分股卖空实施报升规则】交易所公告显示，土耳其伊斯坦布尔证券交易所宣布，自9月22日起，BIST-50指数成分股的卖空交易将适用报升规则，实施期限另行通知。卖空委托成交价格必须高于最新成交价。若最新成交价格已高于前一成交价，则不受该条款限制。根据该规则，日内先卖后平仓的头寸同样归类为卖空交易。投资者及机构在提交此类委托时，必须选择卖空选项。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-22 14:12:17",
+      "text": "【2026年1-8月份中国钨制品进出口数据】据中钨在线整理海关总署数据，2026年1-8月份，中国钨制品进口量（不含硬质合金刀具与卤钨灯）累计为2.53万吨，同比2025年1-8月份增长89.94%；累计进口金额为73.25亿元，同比增长345.92%。中国钨制品出口量（不含硬质合金刀具与卤钨灯）累计为8063.74吨，同比2025年1-8月份减少25.01%；累计出口金额为104.62亿元，同比增长208.84%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-22 14:02:50",
+      "text": "加拿大贸易部长：渥太华液化天然气出口量不断增长，是其对菲律宾及东盟的核心供应优势。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-22 14:02:14",
+      "text": "【三峡能源、长江电力等在青海成立能源投资公司】企查查APP显示，近日，三峡集团青海能源投资有限公司成立，经营范围包含风力发电技术服务；太阳能发电技术服务；储能技术服务；生态恢复及生态保护服务；水资源管理等。企查查股权穿透显示，该公司由三峡能源、长江电力等共同持股。",
+      "analysis": {
+        "matched_tickers": [
+          "600900.SS"
+        ],
+        "matched_names": [
+          "长江电力"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-09-22 13:29:05",
       "text": "【Omdia：二季度全球半导体营收突破4250亿美元 再创历史新高】 Omdia最新研究报告显示，2026年第二季度全球半导体营收突破4250亿美元，再创历史新高，市场环比增长率达到31.4%，创历史纪录。AI需求和强劲的存储器价格继续成为推动市场的主要动力，使2026年上半年半导体总营收达到7520亿美元。",
@@ -70,66 +132,6 @@
     {
       "timestamp": "2026-09-22 12:47:24",
       "text": "【创历史同期新高 前8月长三角外贸进出口突破13万亿元】记者今天从上海海关了解到，今年前8个月，长三角区域货物贸易进出口总值达13.16万亿元，同比增长18.8%。长三角区域货物贸易进出口规模创历史同期新高，已连续18个月实现正增长。长三角区域外贸总额占全国比重提升至37.8%，充分发挥了全国外贸“压舱石”的作用。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 12:37:41",
-      "text": "【觅蜂科技最新估值冲击百亿元？公司回应：不予置评】9月22日，市场消息称，具身智能数据领域企业觅蜂科技最新估值冲击百亿元。证券时报记者向觅蜂科技官方求证，公司表示不予置评。公开资料显示，觅蜂科技将于9月23日正式发布众包数据采集平台“觅蜂派”。用户可领取数据采集任务，佩戴MEgo设备在零售、仓储、制造、家庭等真实场景中完成指定操作，并按照审核后的有效数据时长获得相应报酬。据了解，“觅蜂派”在为期1个月的内测期间表现超预期，注册用户数达2万人，采集提交总量为1.3万份。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 12:34:09",
-      "text": "【杰富瑞大幅上调Meta目标价至875美元 看好AI变现潜力】华尔街知名投行杰富瑞（Jefferies）发布最新研究报告，将科技巨头MetaPlatforms的目标股价从710美元大幅调高至875美元，并重申对该股的“买入”评级。杰富瑞分析师指出，Meta在人工智能（AI）领域的持续投入正加速转化为核心广告业务的增长动力，其强大的生态变现能力将进一步释放。截至最新收盘，Meta股价单日大涨11.43%，报741.25美元。以最新收盘价计算，杰富瑞设定的全新目标价意味着该股仍有约18%的潜在上涨空间。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 12:29:50",
-      "text": "【印尼盾疲软，印尼股市跌至一个月低点】印尼股市持续下跌，创8月14日以来新低。印尼盾走弱削弱市场风险偏好，印尼股市表现弱于区域其他市场。雅加达综合指数最大跌幅达1.7%，能源与基础材料板块领跌。受进口结算带来的美元需求上升影响，印尼盾连续第二日走低。未来资产印尼证券分析师Wilbert Arifin表示，美联储加息后全球利率维持高位等因素带来的印尼盾外部压力，正在拖累股市。国内缺乏利好催化剂进一步加剧市场承压。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 12:24:37",
-      "text": "【杰我睿公司成失信被执行人】中国执行信息公开网显示，9月21日，深圳市杰我睿珠宝有限公司因违反财产报告制度，被深圳市罗湖区人民法院列为失信被执行人，履行情况为全部未履行。今年1月，深圳市罗湖区工作专班通报水贝黄金平台杰我睿经营异常事件处置情况，在工作专班督促下，杰我睿公司处置资产、筹集资金，已启动兑付。5月，深圳市公安局罗湖分局发布情况通报称，依法对深圳市杰我睿珠宝有限公司、深圳市龙冶金业有限公司张某腾等涉嫌经济犯罪人员采取刑事强制措施，并已全量调取涉案数据。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "流动性与债务违约",
-        "sentiment_score": -0.9,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 12:19:15",
-      "text": "【欧洲央行首席经济学家：能源价格上涨将推高食品价格】欧洲央行首席经济学家Lane： 当前并未看到通胀的第二轮效应； 能源价格上涨将推高食品价格；服务业压力应继续控制在可控范围内；经济将以稳定但温和的速度增长。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
