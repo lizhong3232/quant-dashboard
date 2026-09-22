@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-09-21 18:15:17",
+  "audit_time": "2026-09-21 18:30:11",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "688981.SS": {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "000858.SZ": {
       "ticker": "000858.SZ",
       "name": "五粮液",
@@ -35,6 +44,46 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-22 09:21:46",
+      "text": "【前8个月税收收入与经济增长基本匹配】税收数据显示，今年前8个月，税务部门征收税收收入同比增长5.9%，与上半年现价GDP增速5.4%相比，略高出0.5个百分点。“税收收入按现价计算，今年以来，税收增长总体上与经济增长基本相匹配。”税务总局税收科学研究所所长黄立新认为。值得关注的是，今年前8个月，纳税规模居前一万户的企业缴纳税收占全部税收比重接近一半，前一百万户的企业缴纳税收占全部税收的比重达到九成，而包括小微企业在内的其他企业税收占比仅一成左右。（金融时报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-22 09:21:00",
+      "text": "【港股开盘：恒生指数涨0.51%，恒生科技指数涨1.01%】MINIMAX-W涨5.97%，天数智芯涨5.85%，腾讯音乐-SW涨4.91%，智谱涨4.28%，腾讯控股涨3.02%，华虹宏力涨2.77%，中芯国际涨2.13%。",
+      "analysis": {
+        "matched_tickers": [
+          "688981.SS"
+        ],
+        "matched_names": [
+          "中芯国际"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-22 09:21:00",
+      "text": "央行：今日开展350亿元7天逆回购操作，投标量350亿元，中标量350亿元，操作利率为1.40%",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重磅业务突破",
+        "sentiment_score": 0.8,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
     {
       "timestamp": "2026-09-22 09:09:56",
       "text": "【深交所：元道通信股份有限公司股票终止上市】深交所公告，元道通信因首次公开发行股票披露文件存在虚假记载，被证监会作出行政处罚。根据相关规定及上市审核委员会审议意见，深交所决定公司股票终止上市，自2026年9月30日起进入退市整理期，期限为十五个交易日，届满次一交易日予以摘牌。",
@@ -165,30 +214,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 07:57:29",
-      "text": "【三花智控获Schroders PLC增持311.35万股 每股作价约24.24港元】香港联交所最新数据显示，9月17日，Schroders PLC增持三花智控311.35万股，每股作价24.2394港元，总金额约为7546.94万港元。增持后最新持股数目约为8119.63万股，持股比例为17.04%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 07:41:00",
-      "text": "【中国对美国进出口连续5个月增长 70家公司境外收入占比连续5年超60%】9月18日A股出海贸易指数大涨，单日涨幅接近2%，9月21日涨幅继续超过1%，上周以来（9月14日至9月21日）累计涨幅达到3.4%，大幅跑赢同期上证指数。中美贸易持续向稳。海关总署统计显示，中国对美国进出口已连续5个月增长，今年1—8月累计进出口额达到2.76万亿元，同比增长1.3%。自2020年至2025年，中国对美出口年度金额持续站稳3万亿元以上，占中国对外全部出口额比值持续超过11%。从出口商品类别来看，对应的A股公司主要聚集于纺织服饰、轻工制造、医疗耗材、通用设备等行业。据证券时报·数据宝统计，上文提及行业中，2021年至2025年境外收入占营收比重（下称“境外收入占比”）持续超过60%的公司有70家。上述70家公司中，今年以来跌幅不低于5%，机构一致预测2026年、2027年净利润增幅超过25%的公司仅有10家，主要分布于家居用品、文娱用品、通用设备等申万二级行业。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
