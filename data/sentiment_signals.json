@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-21 23:30:35",
+  "audit_time": "2026-09-21 23:45:19",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -35,6 +35,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-22 14:35:06",
+      "text": "【《轻工纺织产业发展“十五五”规划》印发】工业和信息化部、商务部、市场监管总局印发《轻工纺织产业发展“十五五”规划》。其中指出，到2030年，轻工纺织产业智能化、绿色化、融合化发展水平不断提高，规模以上工业增加值年均增速保持在合理区间，全员劳动生产率稳步增长，创新体系高效协同，转型升级稳步推进，结构和布局更加优化，产业优势持续巩固，民生保障坚实有力，在全球产业链价值链中地位显著提升。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-22 14:28:43",
       "text": "【财政部：8月份全国共销售彩票639.85亿元，同比增加105.84亿元，增长19.8%】财政部消息，8月份，全国共销售彩票639.85亿元，同比增加105.84亿元，增长19.8%，主要是足球世界杯对竞猜型彩票销量拉动作用仍在持续。其中，福利彩票机构销售158.09亿元，同比减少14.65亿元，下降8.5%；体育彩票机构销售481.76亿元，同比增加120.49亿元，增长33.4%。",
@@ -165,30 +177,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 13:29:05",
-      "text": "【Omdia：二季度全球半导体营收突破4250亿美元 再创历史新高】 Omdia最新研究报告显示，2026年第二季度全球半导体营收突破4250亿美元，再创历史新高，市场环比增长率达到31.4%，创历史纪录。AI需求和强劲的存储器价格继续成为推动市场的主要动力，使2026年上半年半导体总营收达到7520亿美元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 13:21:17",
-      "text": "【摩根大通CEO：超大规模云服务商的AI支出明年可能达到1万亿美元】摩根大通CEO杰米·戴蒙表示，人工智能领域的支出热潮几乎没有放缓迹象，超大规模云服务商（hyperscaler）生态系统中的投资总额明年可能达到1万亿美元。该生态系统内的支出已从去年的约3000亿美元激增至今年的约7000亿美元，增加了一倍以上。戴蒙指出，这种激增在推动经济增长的同时，也可能加剧通胀压力。“这相当于每年推动GDP增长1%，”随着企业招聘员工、建设工厂和发电厂以及采购设备与材料，这些支出“可能会在一定程度上推高通胀”。不过，戴蒙表示，从长远来看，人工智能可能会产生通缩效应；他称之为一项“令人难以置信的技术”，并指出其快速扩张的势头“似乎还将持续”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
