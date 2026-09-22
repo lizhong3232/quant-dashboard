@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-21 23:15:16",
+  "audit_time": "2026-09-21 23:15:30",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -67,6 +67,18 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-22 13:29:05",
+      "text": "【Omdia：二季度全球半导体营收突破4250亿美元 再创历史新高】 Omdia最新研究报告显示，2026年第二季度全球半导体营收突破4250亿美元，再创历史新高，市场环比增长率达到31.4%，创历史纪录。AI需求和强劲的存储器价格继续成为推动市场的主要动力，使2026年上半年半导体总营收达到7520亿美元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
       }
     },
     {
