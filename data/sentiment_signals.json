@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-21 22:30:17",
+  "audit_time": "2026-09-21 22:45:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -149,18 +149,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-22 12:04:28",
-      "text": "【千问手机来了】9月22日，即将于9月28日发布的荣耀新机Magic9系列将成为首批搭载阿里AI手机解决方案Qwen Intelligence的正式机型。荣耀Robot Phone也同步支持。据介绍，双方携手以Qwen Intelligence和荣耀MagicOS为基础，共同打造了面向下一代AI手机的垂域模型和解决方案，铸就行业领先的手机Agent能力，让手机从被动响应走向主动服务。基于这套解决方案，综合任务准确率达到91.8%，GUI操作速度仅有3.6s，对于复杂长程任务可实现100+操作步数，端到端的服务闭环率超过 90%。 （硬AI）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
