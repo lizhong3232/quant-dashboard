@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-22 20:00:44",
+  "audit_time": "2026-09-22 20:15:20",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 15,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -35,6 +35,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-23 11:14:09",
+      "text": "【全球AI相关产品贸易额超4万亿美元 随身可带AI硬件加速走向消费市场】随着人工智能和Agent能力的快速演进，一批“随身可带”的AI硬件正加速走向消费市场，成为行业新品。在浙江杭州云栖大会的展馆内，记者看到，从AI眼镜，到用户可自行组装的AI DIY设备，许多AI硬件产品已经不再单纯依赖手机，而是把用户身边的语音、图像等信息实时同步给Agent，由Agent自主拆解任务、完成执行。数据显示，2025年全球AI相关产品贸易额达4.18万亿美元，同比增长21.9%。全球AI基础设施投入持续加码，中国科技企业也在围绕AI硬件、大模型和底层算力进行最新布局。（央视财经）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-23 11:06:09",
+      "text": "【国家能源局：截至2026年8月底，我国电动汽车充电基础设施（枪）总数达到2422.3万个】9月23日，国家能源局发布2026年8月全国电动汽车充电设施数据。根据国家充电设施监测服务平台数据，截至2026年8月底，我国电动汽车充电基础设施（枪）总数达到2422.3万个，同比增长39.6%。其中，公共充电设施（枪）516.0万个，同比增长19.5%，额定总功率达到2.62亿千瓦，单枪平均功率约为50.69千瓦；私人充电设施（枪）1906.3万个，同比增长46.3%，私人充电设施报装用电容量达到1.63亿千伏安。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-23 11:03:12",
+      "text": "隔夜SHIBOR报1.3613%，下降0.27个基点。7天SHIBOR报1.3840%，下降0.53个基点。3个月SHIBOR报1.4300%，上涨0.00个基点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-09-23 10:50:00",
       "text": "【邹迎光接棒中信证券党委书记 张佑君即将退休】券业龙头中信证券迎来高层换届。9月22日，多位接近中信证券的消息人士透露，中信证券当日内部发文官宣，该公司党委副书记、总裁邹迎光出任中信证券党委书记，现任党委书记张佑君不再担任现职。这意味着，执掌中信证券10年有余的张佑君即将卸任退休。 多位消息人士称，待履行上市公司相关程序后，邹迎光预计将出任中信证券董事长。据此前报道，中信集团在9月上旬对邹迎光进行了内部考察及公示。（财新网）",
