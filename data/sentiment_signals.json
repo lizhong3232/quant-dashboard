@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-22 20:30:20",
+  "audit_time": "2026-09-22 20:45:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 13,
   "black_swan_count": 1,
   "black_swan_alerts": [
     {
@@ -53,6 +53,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-23 11:38:47",
+      "text": "【三六零首批获得国家级人工智能安全一级资质】记者今日获悉，中国信息安全测评中心颁发首批“国家信息安全测评信息安全服务资质（人工智能安全类一级）”，360集团成为首批6家获证企业之一。（证券时报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
     {
       "timestamp": "2026-09-23 11:29:19",
       "text": "【腾讯WorkBuddy企业版办公套件化升级】据腾讯安全公众号消息，9月23日，腾讯WorkBuddy企业版发布办公套件化升级最新进展，腾讯文档、腾讯乐享、腾讯网盘、安全与效能运营平台、腾讯AI设计智能体Ardot首批接入WorkBuddy。升级后，腾讯WorkBuddy企业版价格保持不变，文档、知识库、网盘、设计、安全与效能等能力，被放进同一套企业办公体系里。",
@@ -162,12 +174,12 @@
       "text": "【中信证券：维持三一重工H股目标价28港元 维持“买入”评级】中信证券发布研报称，维持三一重工(06031)H股目标价28港元及A股目标价27港元，二者均维持“买入”评级。该行维持2026/2027/2028年归母净利润预测109/143/182亿元，H股目标价对应2026年23倍市盈率。",
       "analysis": {
         "matched_tickers": [
-          "600031.SS",
-          "600030.SS"
+          "600030.SS",
+          "600031.SS"
         ],
         "matched_names": [
-          "中信证券",
-          "三一重工"
+          "三一重工",
+          "中信证券"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -213,30 +225,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-23 10:14:20",
-      "text": "【建滔积层板逆市走强 摩根大通首次覆盖给予增持评级】建滔积层板盘中一度涨超6%，此前摩根大通首次覆盖该公司，给予“增持”评级，目标价65港元，较周二收盘价有约41%上涨空间。摩根大通预测其每股收益在2025-2028年间将增长8倍，核心驱动因素包括覆铜板价格上涨、产能扩张，以及未来2年织布机设备规模增加75%等。摩根大通预计，玻纤布短缺将至少持续至2027年，而中高端电子级铜箔的供需紧张局势将在2027-2028年加剧。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-23 10:06:15",
-      "text": "阿里巴巴高管李飞飞周三在杭州举行的公司旗舰云平台Apsara大会上表示，这家中国电商巨头将在未来12个月内在土耳其、芬兰和荷兰建立其首批云区域。该公司还将扩大其在马来西亚、德国、阿联酋、法国和中国香港地区的数据中心规模，此举将提升其提供本地化云和人工智能服务的能力。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
