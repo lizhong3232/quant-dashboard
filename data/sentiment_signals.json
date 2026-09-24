@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-23 22:15:20",
+  "audit_time": "2026-09-23 22:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [
@@ -45,6 +45,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-24 13:29:25",
+      "text": "【微信支付面向海外短期来华旅客推出支付APP】9月24日，微信支付宣布推出TenPayGo APP，面向海外短期来华旅客。无需手机号码、中国境内银行卡，用户可通过邮箱快速注册登录，在TenPayGo上快速绑定与微信支付合作的国际银行卡、境外钱包或ApplePay等境外主流支付方式。据介绍，微信支付此前在“跨境二维码统一网关”连接的海外钱包将逐步接入TenPayGo，首批包括ShopeePay、Starryblu等，预计年底接入约60家。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-09-24 13:25:47",
+      "text": "【美国法官暂时解除特朗普政府对白宫媒体的采访禁令】一名联邦法官下令特朗普政府暂时解除针对CNN、MS NOW和Politico记者的白宫采访禁令。周四的这项裁决是这几家新闻机构在诉讼中取得的初步胜利。它们指控总统唐纳德·特朗普及高级官员对其《第一修正案》权利发起“直接攻击”，并因它们对本届政府的报道而实施了非法报复。这项临时限制令由美国地区法官蒂莫西·J·凯利（Timothy J. Kelly）发布，他由特朗普提名。该限制令将持续两周。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-24 13:15:30",
+      "text": "【京东2026年“双11”定档10月12日 加码AI经营工具】9月24日，记者获悉，京东今年“双11”将于10月12日全面开启、现货开卖。从整体节奏来看，大促期分为起售期、开门红、专场期、高潮期以及返场期。值得一提的是，今年的商家大会主题为“AI（人工智能）驱动·确定增长”。今年以来，京东相继推出并迭代京麦AI经营中心、京东AI购物助手、京ME协同办公系统等一系列智能化产品和工具，服务商家AI经营。京东集团SEC副主席、京东集团CEO（首席执行官）许冉表示，在即将到来的“双11”，京东将加大投入力度，以更高效实用的AI工具助力商家经营，推动销售额过百万新商家数量同比增长超60%。（每经）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-24 13:11:31",
       "text": "【欧洲复兴开发银行将土耳其2026年经济增长预期从3.5%下调至3%】据一份声明称，由于国内需求疲软、高通胀以及金融环境紧缩，欧洲复兴开发银行（EBRD）将其对土耳其2026年的经济增长预期从3.5%下调至3.0%。预计土耳其经济增速将在2027年回升至4.0%。中东冲突持续通过推高能源价格、影响旅游收入以及扰乱贸易等途径，对经济前景构成压力。不断攀升的外汇负债使企业资产负债表面临里拉贬值的风险。欧洲复兴开发银行在土耳其的投资已超过250亿欧元，主要投向私营部门。",
@@ -199,34 +235,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-24 11:48:41",
-      "text": "【奕斯伟计算开始就香港IPO评估投资者需求】交易文件显示，北京奕斯伟计算技术股份有限公司已启动香港IPO投资者需求评估。募集资金将用于开发人机交互芯片产品、多媒体处理芯片产品、互连芯片产品及计算芯片产品；募集资金还将用于增强软硬件一体化平台能力，并完善研发体系；用于战略并购；用于扩大全球商业化网络；用于补充营运资金及一般企业用途。初步招股文件显示，中信证券和中信建投国际担任联席保荐人。",
-      "analysis": {
-        "matched_tickers": [
-          "600030.SS"
-        ],
-        "matched_names": [
-          "中信证券"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-24 11:39:36",
-      "text": "【机构：上半年全球AI眼镜总出货量同比增长263%】9月24日，根据Counterpoint Research全球智能眼镜市场追踪，2026年上半年，全球AI眼镜（包括无显示屏AI眼镜和AR&AI眼镜）总出货量同比增长263%。价格亲民且轻便的无显示屏AI眼镜继续占据主导地位，占总出货量的96%；而AR&AI眼镜大多依靠光波导技术实现光学透视体验，由于成本较高、技术成熟度仍有待提升且产品形态相对厚重，市场仍然较为小众。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
