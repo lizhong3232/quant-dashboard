@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-09-27 22:45:17",
+  "audit_time": "2026-09-27 23:00:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "600031.SS": {
+      "ticker": "600031.SS",
+      "name": "三一重工",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "600519.SS": {
       "ticker": "600519.SS",
       "name": "贵州茅台",
@@ -17,6 +26,82 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-28 13:57:26",
+      "text": "【三一重工成立两家技术服务公司】企查查APP显示，近日，湖南三一技术服务有限公司、内蒙古三一技术服务有限公司成立，法定代表人同为陈泽勇，经营范围均包含：汽车零配件零售；二手车经纪；电池销售等。企查查股权穿透显示，二者皆由三一重工(600031)间接全资持股。",
+      "analysis": {
+        "matched_tickers": [
+          "600031.SS"
+        ],
+        "matched_names": [
+          "三一重工"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 13:53:34",
+      "text": "【今年前8个月上海口岸跨境电商出口超1069亿元，同比增28.7%】上海海关消息，今年前8个月，上海口岸跨境电商出口1069.8亿元，同比增长28.7%，连续8个月保持增长。此外，浦东机场跨境电商清单票数连续三年稳居全国空运第一。今年前8个月，上海浦东机场口岸进出口跨境电商清单整体申报量达5.78亿票、货值575.26亿元，同比分别增长41.37%和6.62%，两项指标均刷新历史纪录。（澎湃）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 13:50:06",
+      "text": "英国工业联合会（CBI）首席执行官：我们绝不能仅靠税收来实现经济增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 13:47:45",
+      "text": "英国工业联合会（CBI）首席执行官：需要英国财政大臣提供详细的经济增长计划。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 13:45:25",
+      "text": "斯里兰卡8月份进口额同比增长12.8%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 13:45:19",
+      "text": "斯里兰卡8月出口同比下降3.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-09-28 13:30:35",
       "text": "【台积电关联企业计划在新加坡建设第二座芯片工厂，推进亚洲布局】台积电旗下规模较小的关联公司 Vanguard International Semiconductor Corporation的合资企业正考虑在新加坡建设第二座芯片制造厂，以满足持续增长的需求。世界先进与荷兰恩智浦半导体成立的合资公司 VisionPower Semiconductor Manufacturing Co. 董事长、世界先进董事长方略在采访中表示，这座新工厂或将生产比新加坡首厂工艺更先进的芯片。人工智能服务以及支撑其运转的数据中心需求攀升，造成全球半导体供应短缺，即便台积电等头部厂商持续扩产。这股热潮促使中国台湾半导体企业出海新建产线，新加坡正是吸引全球投资的地区之一。方略称：“供应短缺还会持续一段时间。我们当初就应该在这里一次性建设两座工厂。”世界先进周一为位于新加坡东部的首座芯片工厂举行落成典礼。该工厂于 2024 年末动工，公司预估总投资 78 亿美元。方略未预估潜在第二座工厂的投资额。他表示：“现在谈论预算还为时过早，我们尚未确定将采用何种工艺技术。不同技术方案会极大影响总投资规模。”",
@@ -120,78 +205,6 @@
     {
       "timestamp": "2026-09-28 12:36:52",
       "text": "【机构：全球网联汽车保有量预计2035年将超过10亿辆】根据Omdia最新研究，预计全球网联汽车保有量将超过10.5亿辆，较2025年的4.737亿辆增长一倍以上，复合年增长率（CAGR）为8.3%。随着市场不断扩大，网联汽车发展的下一阶段将更加聚焦于更严格的服务水平协议（SLA）、空中下载（OTA）更新计划，以及可带来周期性收入机会的服务化架构。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 12:35:24",
-      "text": "【上汽大众整车出口业务进入北美市场，全新凌渡L启运墨西哥】近日，上汽大众首批出口墨西哥的全新凌渡L车型下线并启运海外。随着上汽大众产品首次进入北美市场，公司整车出口业务的市场版图再次拓展。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 12:30:02",
-      "text": "【我国渔业资源与水域生态环境状况保持稳定 最新公报出炉】今天（9月28日），农业农村部、生态环境部联合发布《中国渔业生态环境状况公报（2025）》。《公报》显示，2025年我国渔业资源与水域生态环境状况保持稳定。2025年，农业农村部组织全国渔业生态环境监测网络48个监测站，对四大海域及长江、黄河等重要流域开展渔业资源调查，对164个重要渔业水域开展渔业水质、沉积物、浮游生物等18项指标常规监测。《公报》显示，所有监测水域锌、铅、汞、砷浓度均优于评价标准；海洋重要渔业水域化学需氧量、石油类超标面积比例分别下降59.3%、45.7%，内陆重要渔业水域石油类下降34.6%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 12:21:20",
-      "text": "【创指跌超4％！红利低波ETF华泰柏瑞（512890）逆势抗跌半日成交2.71亿领跑 机构：兼顾景气成长与高股息防御】9月28日，市场早盘低开低走，创业板指半日跌超4％，沪指跌1.74％。在此背景下，红利低波ETF华泰柏瑞（512890）跌0.25％，报1.182元，换手率0.89％，半日成交额2.71亿元，居同类标的ETF首位。消息面上，央行今日开展1390亿元7天逆回购操作，操作利率为1.40％。同时，开展了6610亿元隔夜逆回购操作，并以固定数量、利率招标、多重价位中标方式开展了3000亿元14天期逆回购操作。招商证券表示，长假前后宜保持中性偏多仓位，兼顾景气成长与高股息防御。东方财富指出，虽然市场在中秋国庆节前可能存在一定避险情绪，但综合评估，对节后A股市场不悲观。配置上，建议投资者稳中求进，配置红利资产，关注高质量蓝筹的估值修复机会，同时在成长方向中精选综合胜率赔率性价比较高方向。截止2026年9月24日，红利低波ETF华泰柏瑞（512890）流通规模305.17亿元，近5年回报41.20％，投资者可将该ETF作为底仓配置，无股票账户的投资者也可通过其场外联接基金进行配置（A类：007466；C类：007467；I类：022678；Y类：022951）。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重磅业务突破",
-        "sentiment_score": 0.8,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 12:11:56",
-      "text": "【泰国8月国内汽车销量59,809辆】据泰国工业联合会统计，8月份泰国国内汽车销量为59809辆，同比增长25.59%。汽车出口量为69,724辆，同比下降2.04%；汽车产量为124,646辆，同比增长10.93%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 12:02:36",
-      "text": "【波士顿咨询：杠杆攀升，财务压力正在欧洲蔓延】波士顿咨询集团称，西欧六分之一企业正承受财务压力，不断走高的杠杆令企业更容易受到各类冲击影响。波士顿咨询在一份分析约1700家欧洲上市公司的报告中发现，西班牙与葡萄牙面临的压力最为突出，两地有22%的企业需要开展业务转型。全欧洲需要转型的企业占比由去年14.3%升至16.2%。法国以及包含德国、奥地利、瑞士在内的DACH地区，面临较重财务压力或重组压力的企业占比最高，两地均为10%。衡量整体负债水平的净债务/息税折旧摊销前利润（Net-debt-to-Ebitda）指标，2022至2025年间上升22%。近三分之一企业在2026年初该比值超过3倍，波士顿咨询将该数值视作财务压力的临界线。不少企业在疫情期间大举借入低成本债务，如今难以降杠杆。这使得企业抵御能源成本飙升、贸易中断以及长期高利率环境冲击的能力下降。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 11:56:46",
-      "text": "【国金证券：MUSE加速算力新叙事 产业链多点受益】国金证券发布研报称，Meta推出独立AI代理应用Muse，上线后下载量快速走高，登顶美加App Store榜单，带动Meta股价两周上涨21%，标志Agent叙事从概念走向实际产品落地;Muse面向十亿级消费用户，潜在需求池扩大20-100倍，推动行业进入推理时代，Token消耗量预计迎来大幅增长。Muse重构算力硬件配比，CPU与GPU配比由过往1:4-1:8向1:1-1:2切换，整体Token规模膨胀放大全链条算力需求，GPU、内存、SSD、网络基础设施同步受益，算力全产业链景气上行。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
