@@ -1,12 +1,50 @@
 {
-  "audit_time": "2026-09-27 22:15:20",
+  "audit_time": "2026-09-27 22:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 18,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "600519.SS": {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-28 13:27:40",
+      "text": "【三星电子将扩大个性化人工智能订阅服务】三星电子周一表示，将通过提供更多针对个人客户量身定制的个性化选项，来扩大其人工智能订阅服务。这家韩国科技巨头表示，该服务于两年前推出，除移动产品外，累计销售额已接近1万亿韩元（约合7.34亿美元）。负责韩国销售团队的执行副总裁Im Sung-taek告诉记者：“得益于客户的喜爱与支持，我们的‘Blue Pass’三星AI订阅服务在推出仅一年后，销售额便逼近1万亿韩元。”此次服务升级的重点在于强化个性化客户服务。三星在其“Blue Pass”服务中新增了两个选项，该服务提供从产品安装到售后服务的全方位专家支持。基于该服务的增长态势，三星表示计划根据客户的生命阶段、产品管理需求及预算，进一步扩充订阅选项。该公司指出，国内订阅市场的快速增长是此次业务扩张的关键因素。据三星统计，今年有94.8%的韩国消费者使用了订阅服务，人均订阅了5.5项服务，每月在订阅上的平均花费为41,853韩元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 13:26:48",
+      "text": "知名投资人段永平今日发帖称：“买了点贵州茅台”。其发布的截图显示，买入了3万股。",
+      "analysis": {
+        "matched_tickers": [
+          "600519.SS"
+        ],
+        "matched_names": [
+          "贵州茅台"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-09-28 13:13:42",
       "text": "【韩国总统李在明：将很快准备针对住房、就业、债务问题的特别措施】韩国总统李在明：外交的最重要目标是国家利益，即国家发展和民生改善。作为开放型贸易国家的韩国，出口是国家产业发展和民生改善的最重要因素。为了改善经济状况，我们正在全力以赴确保经济恢复和持续增长的动力，同时也在全力缓解社会两极分化。明年预算开始执行后，将开始在相当程度上有所感受，生活环境也将得到改善。 我们也将很快准备针对住房、就业、债务问题的特别措施。",
@@ -154,30 +192,6 @@
     {
       "timestamp": "2026-09-28 11:53:35",
       "text": "泰国工业联合会：泰国8月国内汽车销量同比增长25.59%，7月该涨幅为20.07%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 11:52:02",
-      "text": "【前8月上海口岸跨境电商出口增长28.7%】据上海海关消息，2026年前8个月，上海口岸跨境电商出口1069.8亿元，同比增长28.7%，连续8个月保持增长。其中，浦东机场跨境电商清单票数连续三年稳居全国空运第一。同期，上海浦东机场口岸进出口跨境电商清单整体申报量达5.78亿票、货值575.26亿元，同比分别增长41.37%和6.62%，两项指标均刷新历史纪录。（第一财经）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 11:41:12",
-      "text": "【中研股份：正积极探索PEEK材料的新应用领域】中研股份在9月28日召开的2026年半年度业绩说明会上表示，公司正积极探索PEEK材料的新应用领域，突破新兴应用领域的技术壁垒，持续推进技术落地与市场开拓，加快产能及订单释放。PEEK作为高分子新材料领域中的一个重要组成部分，在电子信息、交通运输、航空航天、能源工业、医疗健康、3D打印等领域有着广泛的发展空间和市场应用。在国家主要法律法规政策的鼓励、推动下，预计PEEK产业未来将有较大的市场增长空间。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
