@@ -1,12 +1,48 @@
 {
-  "audit_time": "2026-09-27 19:30:17",
+  "audit_time": "2026-09-27 19:45:49",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 5,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-28 10:38:17",
+      "text": "【北京：1-8月全市规模以上工业企业实现营业收入21320.1亿元，同比增长2.8%】北京市统计局数据显示，1-8月，北京全市规模以上工业企业实现营业收入21320.1亿元，同比增长2.8%；实现利润总额1371.6亿元，同比增长22.9%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 10:34:03",
+      "text": "【卓创资讯：产能去化周期或延续，2027年猪价或谨慎偏乐观】卓创资讯消息，2026年二、三季度母猪减产逐步加速，两轮减产先后经历低效母猪减产向高效母猪减产的推进。政策面及市场端或推动产能去化周期延续。而结合卓创资讯对母猪基数、产效等数据的评估，2027年生猪出栏总量或介于2025年与2026年之间，月供需比或逐步下滑，二季度后降幅或走阔。基于对年出栏总量以及猪肉消费量的数据预测评估，2027年生猪年均价或维持谨慎偏乐观，年均价或在12.0—12.5元/公斤。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 10:31:44",
+      "text": "【中国AI大模型调用量连续二十二周领跑：匿名模型“太空兔”冲进前三 测试显示其可能来自MiniMax】根据OpenRouter最新数据测算，上周（9月21日至9月27日）全球AI大模型总调用量为146万亿Token，环比增长13.18%。其中，上榜的AI大模型中，中国AI大模型周调用量达62.22万亿Token，环比下滑7.77%；同期美国AI大模型周调用量为14.2万亿Token，环比下滑0.07%。中国大模型周调用量连续二十二周超过美国，稳居全球首位。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-28 10:25:14",
       "text": "【香港交易所欢迎四只追踪香港交易所跨市场指数的新ETF上市】香港交易及结算所有限公司（香港交易所）今天（星期一）欢迎四只追踪三个香港交易所跨市场指数的交易所买卖基金（ETF）在本月上市，这标志着集团指数业务持续拓展的重要里程碑，也是集团致力于创新产品、为全球投资者提供多元化投资机遇的重要举措。四只新上市ETF分别追踪香港交易所马来西亚交易所大盘指数、香港交易所韩国交易所半导体指数，以及香港交易所科技及美国科技100指数，是首批追踪这三个指数的投资产品。香港交易所在今年初推出这三个指数，旨在加强香港与国际主要市场的联系。其中首两个指数分别是与香港交易所与马来西亚交易所及韩国交易所合作推出的联名指数。",
@@ -29,66 +65,6 @@
         "sentiment_score": -0.9,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 09:49:52",
-      "text": "美联储传声筒Nick Timiraos：在特朗普第二任期初期，他的经济顾问们提出了一个简单的理论：只要向债券市场表明华盛顿有决心弥合巨额赤字，长期利率自然会下降。特朗普大可不必干预美联储。然而，事与愿违。白宫的这一理论建立在从未兑现的财政紧缩之上，且忽视了特朗普自身议程中的诸多举措将如何加剧当前的物价上涨压力，进而推高利率。关税推高了进口商品的成本，而与伊朗的战争则导致石油和柴油价格飙升。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 09:48:35",
-      "text": "【韩国总统李在明将于周二主持会议，审议重大项目】韩国总统府声明称，韩国总统李在明将于当地时间周二下午3点主持召开政企联席会议，审议半导体、人工智能（AI）数据中心及物理AI等大型项目的进展。本次会议将讨论改善政府重大项目所在地区居民生活条件的措施，同时还将审议扩大物理AI及AI机器人应用的步骤，以及AI数据中心的进展与未来规划，以支持地方经济增长。各部部长将就南部半导体产业带的进展和规划进行汇报。总统府高级官员和各部部长将出席会议，三星电子和SK集团的高管也将一同参会。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 09:43:32",
-      "text": "【中秋假期深圳市接待游客376.75万人次，同比增长超三成】9月27日，据深圳市文化广电旅游体育局消息，据初步测算，中秋假期（9月25日至9月27日），全市接待游客376.75万人次，按可比口径较2025年增长32.1%；实现旅游花费21.67亿元，按可比口径较2025年增长29.1%。（深圳发布）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 09:43:06",
-      "text": "【国家统计局：1—8月份规模以上原材料制造业利润同比增长47.3%】国家统计局工业司首席统计师于卫宁解读2026年1—8月份工业企业利润数据，原材料制造业实现较快增长。1—8月份，规模以上原材料制造业利润同比增长47.3%，拉动全部规模以上工业企业利润增长6.2个百分点。从行业看，国际原油和有色金属价格上行，带动相关行业效益改善。化工行业利润增长51.0%；有色行业利润增长82.9%；石油加工行业同比扭亏为盈，实现利润总额562.9亿元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 09:42:20",
-      "text": "【国家统计局：工业企业累计单位成本今年以来持续保持同比下降态势】国家统计局工业司首席统计师于卫宁解读2026年1—8月份工业企业利润数据，工业企业单位成本持续下降。1—8月份，规模以上工业企业每百元营业收入中的成本为85.07元，同比下降0.41元，工业企业累计单位成本今年以来持续保持同比下降态势。1—8月份，规模以上工业企业营业收入利润率为5.66%，同比提高0.44个百分点。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
