@@ -1,12 +1,36 @@
 {
-  "audit_time": "2026-09-27 22:00:18",
+  "audit_time": "2026-09-27 22:15:20",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-28 13:13:42",
+      "text": "【韩国总统李在明：将很快准备针对住房、就业、债务问题的特别措施】韩国总统李在明：外交的最重要目标是国家利益，即国家发展和民生改善。作为开放型贸易国家的韩国，出口是国家产业发展和民生改善的最重要因素。为了改善经济状况，我们正在全力以赴确保经济恢复和持续增长的动力，同时也在全力缓解社会两极分化。明年预算开始执行后，将开始在相当程度上有所感受，生活环境也将得到改善。 我们也将很快准备针对住房、就业、债务问题的特别措施。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-28 13:09:17",
+      "text": "【江苏：前8月全省出口工程机械649亿元】据南京海关统计，今年1—8月，江苏省出口工程机械649亿元，同比增长10%。越来越多企业推进电动挖掘机、微型挖掘机等产品转型升级，为全球基建注入绿色动能。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-28 12:56:52",
       "text": "高盛恢复覆盖吉利汽车，给予买入评级，目标价24 港元。",
@@ -154,18 +178,6 @@
     {
       "timestamp": "2026-09-28 11:41:12",
       "text": "【中研股份：正积极探索PEEK材料的新应用领域】中研股份在9月28日召开的2026年半年度业绩说明会上表示，公司正积极探索PEEK材料的新应用领域，突破新兴应用领域的技术壁垒，持续推进技术落地与市场开拓，加快产能及订单释放。PEEK作为高分子新材料领域中的一个重要组成部分，在电子信息、交通运输、航空航天、能源工业、医疗健康、3D打印等领域有着广泛的发展空间和市场应用。在国家主要法律法规政策的鼓励、推动下，预计PEEK产业未来将有较大的市场增长空间。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-28 11:40:00",
-      "text": "泰国工业联合会：8月汽车产量同比增长10.93%，7月同比增幅为6.12%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
