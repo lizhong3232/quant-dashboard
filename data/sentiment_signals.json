@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-28 22:15:18",
+  "audit_time": "2026-09-28 22:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 21,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -19,7 +19,7 @@
       "ticker": "002594.SZ",
       "name": "比亚迪",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
