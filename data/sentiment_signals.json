@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-09-28 22:30:18",
+  "audit_time": "2026-09-28 22:45:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 17,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "avg_sentiment": 0.0,
+      "news_count": 2,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "600276.SS": {
       "ticker": "600276.SS",
       "name": "恒瑞医药",
@@ -14,18 +23,25 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-29 13:44:03",
+      "text": "恒生科技指数一度跌1.8％，现报4217.81点，创年内新低。蔚来、小鹏、比亚迪股份等汽车股领跌。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-09-29 13:11:15",
       "text": "【瑞士莲将2026年有机销售额增长指引下调至0%-2%】瑞士莲（Lindt & Sprüngli）将2026年全年有机销售额增长指引从此前的4%-6%下调至0%-2%，主要原因是消费者对价格高度敏感以及欧洲遭遇罕见高温天气。公司维持2026年全年息税前利润（EBIT）利润率同比改善20-40个基点的指引不变。德国、瑞士和奥地利需求疲软，尤其是季节性业务，是本次下调的主要原因。",
@@ -204,18 +220,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-09-29 12:00:02",
-      "text": "【中国代表：奉劝菲律宾停止南海问题多边炒作】中方9月28日在第81届联大一般性辩论针对菲律宾的发言行使答辩权。中方奉劝菲方停止南海问题多边炒作，尽快回归双边协商正轨。中国常驻联合国副代表孙磊说，中方一贯认为，联合国不是讨论南海问题的合适场所。但中方有必要对菲方有关错误论调作出严正回应。中方对“南海仲裁案”的立场是一贯、明确的。菲律宾单方面提起所谓仲裁，违背“国家同意”“约定必须遵守”等国际法基本原则，违反包括《联合国海洋法公约》在内的国际法。“仲裁庭”越权审理、枉法裁判，所做“裁决”非法无效，严重影响《公约》规定的原则和精神，严重冲击国际海洋法的权威性和完整性。中国不接受、不承认该“裁决”，反对且不接受任何基于该“裁决”的主张和行动。这既是捍卫自身领土和海洋权益，也是为了维护国际海洋法治，维护公平合理的国际海洋秩序。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
