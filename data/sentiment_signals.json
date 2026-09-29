@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-28 19:30:16",
+  "audit_time": "2026-09-28 19:45:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -155,30 +155,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-29 09:30:26",
-      "text": "澳大利亚8月份家庭支出环比持平，同比增长6.8%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-09-29 09:29:56",
-      "text": "【外交部部长助理刘彬会见印尼经济统筹部副部长艾迪】2026年9月28日，外交部部长助理刘彬会见印尼经济统筹部副部长艾迪。刘彬表示，在两国元首战略引领下，近年来中印尼命运共同体建设取得积极进展。两国同为全球南方和新兴经济体代表，发展目标相近，共同利益广泛，互补优势显著。中方倡议成立世界人工智能合作组织，旨在促进人工智能以人为本、向上向善发展，帮助发展中国家共享人工智能发展成果，防止智能鸿沟进一步扩大。中方欢迎印尼首批加入合作组织，愿同各创始成员国一道，秉持共商共建共享原则，积极推进合作组织建设。（外交部）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
