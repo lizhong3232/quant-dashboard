@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 19,
+    "total_trades_100k": 22,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-09-22 18:11:03"
+    "last_rebalance_time_100k": "2026-09-28 18:11:03"
   },
   "trades_1m": [
     {
@@ -601,6 +601,55 @@
       "price": 256.0,
       "amount": 25600.0,
       "fee": 5.12,
+      "saved_bps": 2.1,
+      "reason": "HYSTERESIS_ENTRY"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-28 18:11:03",
+      "contract_id": "WT-20260928-0040",
+      "action": "SELL",
+      "ticker": "300394.SZ",
+      "name": "天孚通信",
+      "shares": 100,
+      "price": 244.8,
+      "amount": 24480.0,
+      "fee": 17.14,
+      "saved_bps": 1.9,
+      "pnl": -1058.0,
+      "pnl_pct": -4.14,
+      "reason": "STOP_LOSS"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-28 18:11:03",
+      "contract_id": "WT-20260928-0041",
+      "action": "SELL",
+      "ticker": "688041.SS",
+      "name": "海光信息",
+      "shares": 100,
+      "price": 240.5,
+      "amount": 24050.0,
+      "fee": 16.84,
+      "saved_bps": 1.9,
+      "pnl": -1550.0,
+      "pnl_pct": -6.05,
+      "reason": "STOP_LOSS"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-09-28 18:11:03",
+      "contract_id": "WT-20260928-0042",
+      "action": "BUY",
+      "ticker": "300442.SZ",
+      "name": "润泽科技",
+      "shares": 600,
+      "price": 65.05,
+      "amount": 39030.0,
+      "fee": 7.81,
       "saved_bps": 2.1,
       "reason": "HYSTERESIS_ENTRY"
     }
