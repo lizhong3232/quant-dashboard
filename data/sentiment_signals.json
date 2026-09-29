@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-28 22:00:17",
+  "audit_time": "2026-09-28 22:15:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 22,
+  "relevant_events_found": 21,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,7 +10,7 @@
       "ticker": "600276.SS",
       "name": "恒瑞医药",
       "avg_sentiment": 0.0,
-      "news_count": 1,
+      "news_count": 2,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
@@ -26,6 +26,34 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-29 13:11:15",
+      "text": "【瑞士莲将2026年有机销售额增长指引下调至0%-2%】瑞士莲（Lindt & Sprüngli）将2026年全年有机销售额增长指引从此前的4%-6%下调至0%-2%，主要原因是消费者对价格高度敏感以及欧洲遭遇罕见高温天气。公司维持2026年全年息税前利润（EBIT）利润率同比改善20-40个基点的指引不变。德国、瑞士和奥地利需求疲软，尤其是季节性业务，是本次下调的主要原因。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-29 13:06:33",
+      "text": "【恒瑞医药直线拉升，现涨超3%】恒瑞医药直线拉升，现涨超3%。消息面上，公司已与诺和诺德就HRS-1596达成许可协议。",
+      "analysis": {
+        "matched_tickers": [
+          "600276.SS"
+        ],
+        "matched_names": [
+          "恒瑞医药"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-09-29 12:42:00",
       "text": "丰田：8月日本对美出口汽车量同比下降3.8%至39785辆。",
@@ -188,30 +216,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-29 11:49:42",
-      "text": "近期，农业农村部印发《全国畜牧兽医行业发展“十五五”规划》（以下简称《规划》）。《规划》明确提出，到2030年，畜牧业高质量发展迈上新台阶，主要畜禽产品稳定安全供给更有保障，产业素质提升更有质量。综合生产能力进一步巩固，产品结构持续优化，优质特色畜产品供应更加丰富，养殖规模化、设施化水平稳步提升，科技支撑作用进一步增强。规模结构和产业生态更加优化，大型企业联农带农作用进一步强化，利益分配机制逐步完善，上下游产业生态更加协同，中小养殖场户发展质量明显提升。重大动物疫病得到有效防控，种畜禽疫病净化取得积极成效，人畜共患病风险稳步降低，兽医公共卫生安全水平进一步提高。畜禽产品质量安全保持更高水平，单位畜禽产品使用兽用抗菌药数量总体下降。绿色转型取得新成效，畜禽粪污资源化利用水平持续提升，种养结合农牧循环格局基本形成。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-09-29 11:45:18",
-      "text": "【机构：2026上半年全球人形机器人出货量接近2.5万台，同比增长432.1%】国际数据公司（IDC）最新发布的全球人形机器人跟踪报告显示，2026上半年，全球人形机器人出货量接近2.5万台，同比增长432.1%，产业发展进一步从技术验证向商业化应用探索阶段迈进。应用场景持续扩展，加速向工业制造、零售、交通物流、休闲旅游及家庭消费延伸；与此同时，行业竞争也从本体性能逐步转向具身智能综合能力。IDC预计，2030年全球人形机器人出货量将超过75万台，市场将进入规模化应用加速发展阶段。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
