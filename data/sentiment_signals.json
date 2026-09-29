@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-28 19:15:17",
+  "audit_time": "2026-09-28 19:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,13 +10,89 @@
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 1,
+      "news_count": 2,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-09-29 10:27:57",
+      "text": "希音港股下跌10%，此前该公司公布上半年营业利润大幅下滑。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-29 10:27:23",
+      "text": "【中国人民银行：加强财政金融协同 进一步降低服务业融资成本】中国人民银行信贷市场司副司长‌车士义29日在新闻发布会上表示，加强财政金融协同，通过再贷款和财政贴息政策叠加，进一步降低服务业融资成本。今年上半年，地方法人金融机构新发放中小微民营企业贷款加权平均利率较去年同期下降了0.4个百分点。（新华财经）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-09-29 10:26:08",
+      "text": "【山西证券：8月板块分化延续 煤炭旺季驱动可期】山西证券发布研报称，环保监管持续收紧，焦化新增产能受限，供给收缩有望对焦炭价差形成更强支撑。海外油价高位震荡，油煤价差持续走阔，基本面利好煤化工一体化标的，上游煤炭自给叠加下游化工品多元布局，盈利稳定性与长期增长可期。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-29 10:25:48",
+      "text": "【里昂：AI资源、清洁电力、气候适应及绿色股票成为可持续发展四大启示】里昂发布研报称，日前举行机构投资者可持续发展考察活动，当中涵盖企业ESG策略会议、可持续投资圆桌会议，以及与港交所(00388)的绿色金融交流。投资者普遍认为，可持续发展正成为企业竞争力、资源安全及业务韧性的问题，在AI基建、清洁能源部署、气候适应或可持续资本市场创新方面，市场更趋关注可持续因素如何转化为长期经济价值，而非单单着眼于可持续承诺。该行表示，就AI发展而言，目前市场的关注已超越AI是否“绿色”或“可持续”，而是转移至哪些企业能取得足够清洁电力、水源及基建，从而“负责任地”发展AI。该行认为，长期赢家或能在资源使用增长限制下扩充运算能力，又指AI数据中心电力供应经常成为焦点，水源及环保审批同样关键。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-09-29 10:25:06",
+      "text": "【五菱扬光L正式上市，上市权益价8.68万元起】9月29日，五菱扬光L正式上市，该车定位城配高效轻客，搭载宁德时代新一代专业级城配电池，提供7.3方标准款与8.1方长轴款两大车型共6款配置，售价9.48万元起，上市权益价8.68万元起。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-09-29 10:24:18",
+      "text": "【国家发改委：今年前7个月境外人员在华消费同比增长27.8%】国家发展改革委今日举行专题新闻发布会，介绍推进服务业扩能提质有关情况。国家发展改革委产业发展司副司长李春芳表示，在政策持续加力下，今年前7个月，境外人员在华消费同比增长27.8%，我国服务出口同比增长17.1%、带动服务贸易逆差收窄约16%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-09-29 10:12:02",
       "text": "【宁德时代巧克力换电已建成2520站覆盖200城】据巧克力换电消息，截至9月29日，巧克力换电全国累计建成换电站超2520座，站点落地覆盖31省200城，近2万块宁德品质全新电池完成入仓部署。",
