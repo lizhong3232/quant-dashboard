@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-09-30 18:30:21",
+  "audit_time": "2026-09-30 20:00:28",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 14,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,126 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-01 10:55:04",
+      "text": "奈飞联席CEO泰德·萨兰多斯（Ted Sarandos）表示，奈飞的增长速度未达预期，公司正致力于加快增长步伐。奈飞正在拓展影视核心业务以外的领域，其内容预算中约有 5% 用于直播节目。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 10:49:04",
+      "text": "【极氪9月交付新车37216辆，同比增103.85%】10月1日，极氪公布销量数据：9月交付新车37216辆，连续8个月同环比双增长，同比增103.85%，1-9月共交付28.84万辆，同比增100.84%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 10:31:54",
+      "text": "【美光科技CEO：除了数据中心 下一个巨大的增量市场将是物理AI】美光科技董事长兼CEO Sanjay Mehrotra在财报电话会上表示，除了数据中心，下一个巨大的增量市场将是物理AI（Physical AI）。自动驾驶汽车是物理AI的首个重大部署，我们相信随着时间的推移，它将扩展到人形机器人和其他智能自主系统。L4级及以上自动驾驶汽车的内存容量通常超过200GB，存储容量达到多个TB，这比今天L2+和L3级半自动驾驶汽车高出一个多数量级。人形机器人预计也将有类似的存储需求。美光认为，随着设备数量和单机存储含量的双重增长，到本世纪末，物理AI将成为存储需求的一个极其重要的驱动力。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 10:18:01",
+      "text": "【日本央行会议意见摘要：部分委员认为应继续加息，关注通胀上行风险】10月1日，日本央行公布9月17日至18日货币政策会议意见摘要。文件显示，部分委员认为，日本经济活动和物价走势基本符合预期，核心消费者价格指数（CPI）通胀率正接近2%的价格稳定目标，在金融环境仍保持宽松的情况下，适合上调政策利率并调整货币宽松程度。部分委员指出，日本经济预计将继续温和增长，全球人工智能相关需求增加及政府措施将对经济形成支撑，但中东局势可能带来下行压力。对于物价，委员们认为工资与价格相互推动的机制正在维持，核心CPI预计将在2026财年下半年至2027财年达到与2%目标基本一致的水平。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 10:14:35",
+      "text": "【美光科技CEO：HBM需求增速将持续跑赢传统DRAM直至2028年】美光科技董事长兼CEO Sanjay Mehrotra在财报电话会上表示，结构性的供需增长率差距导致了持续的供应紧张，即使考虑到行业新增的DRAM洁净室空间计划，在强劲的需求趋势（包括客户不断提出的增量要求）下，我们看不到供需何时能恢复平衡的拐点。行业HBM需求增速将持续跑赢传统DRAM直至2028年。Sanjay Mehrotra透露，美光2027年HBM的大部分供应已经签订协议，“价格同比大幅上涨，这缩小了（HBM）与传统DRAM之间的毛利率差距。”",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 10:12:14",
+      "text": "【韩国将允许分析师匿名发布卖出建议报告】韩国金融服务委员会发表声明称，作为提高券商研究独立性和可信度的措施之一，韩国金融当局将允许分析师在包含卖出建议的研究报告中省略姓名。分析师在发布卖出建议时可以选择是否披露姓名，但须事先获得券商合规官的批准。券商将被要求内部保存记录，包括报告作者姓名和审批流程详情。韩国金融服务委员会表示，国内券商发布的卖出建议占比不到1%，并计划采取措施减少对买入评级的过度依赖。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 09:55:40",
+      "text": "【国庆长假来临 横琴口岸单日车流量创新高】国庆长假来临，琴澳跨境出游持续火热，横琴口岸通关人流、车流攀升。总台记者从拱北海关获悉，9月30日，海关在横琴口岸监管进出境车辆、进境车辆、出境车辆均创历史新高，数值分别为14975辆次、7573辆次、7402辆次，同比分别增长22.2%、20.2%、24.2%。当日，澳门单牌车通行数量突破9731辆次，占比达65%，同样创下历史新高。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 09:47:32",
+      "text": "奈飞联席首席执行官表示，希望公司增长速度能更快。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 09:42:50",
+      "text": "【今天起房贷利息“国补”启动，另一项财政增量政策将出】房贷利息财政贴息被一些老百姓称之为房贷利息“国补”，今天起这项惠民政策正式开启。多位财税专家表示，房贷利息“国补”政策落地可以减轻中低收入群体购房的房贷成本，助力更多的人住有所居，体现了更多财政资金“投资于人”，有利于托举房地产合理购房需求，推动楼市稳定，促进消费。房贷利息“国补”政策只是第四季度国家出台的财政增量政策之一，而另一项财政增量政策也将酝酿出台。9月28日召开的国务院常务会议在部署提及推出一批务实管用的增量政策时要求，“用好地方政府债务结存限额”。多位财税专家告诉第一财经，这意味着今年第四季度地方政府可以动用债务存量限额，额外发行部分新增地方政府债券，筹集资金用于项目建设等，从而推动经济平稳增长。（第一财经）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-01 09:39:35",
+      "text": "【T. Rowe称10年期美债收益率有充分理由升至6%】T. Rowe Price多资产全球收益策略的联席投资组合经理David Clewell表示，10年期美国国债收益率5%的水平一直是投资人关注的重要心理关口。一旦像这样的关键技术水准遭到突破，系统化及量化交易仓位可能会放大走势，引发进一步卖压。不过，重要的是要把近期走势的速度与幅度，和背后的基本面因素区分开来。这波抛售异常猛烈，但整体方向符合我们的看法，也就是长天期收益率仍可能进一步走高。鉴于美国经济增长展现韧性，10年期美债收益率升向5.5%至6%，是有充分理由支持的情境。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-01 09:19:38",
       "text": "【机构：日本央行意见摘要不如预期鹰派 日元或承压】Resona Holdings高级策略师Keiichi Iguchi表示，日本央行上月政策会议的意见摘要似乎不如预期鹰派，或导致日元遭到抛售。市场原本预期，在美国财政部长斯科特·贝森特等人发表相关评论后，日本央行内部会出现更多偏鹰意见。随着纽约联邦储备银行行长发表偏鸽言论，加上美国个人消费支出数据疲弱后，市场对美国升息的预期降温，因此周五公布的美国就业报告将成为市场关注焦点。",
@@ -60,42 +180,6 @@
     {
       "timestamp": "2026-10-01 08:53:59",
       "text": "【长三角铁路预计今日发送旅客440万人次，有望创历史新高】长三角铁路国庆节全力迎战假期客流最高峰。10月1日国庆节，记者从中国铁路上海局集团有限公司（以下简称“上铁集团”）获悉，长三角铁路迎来中秋国庆假期运输客流最高峰，计划开行旅客列车3161列，预计发送旅客440万人次，有望创国庆黄金周单日客发量新高。9月30日，长三角铁路发送旅客372.7万人次，同比增长3%。（ 澎湃新闻 ）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-01 08:46:58",
-      "text": "韩国海关周四公布的数据显示，半导体行业依然是经济繁荣的引擎，芯片出口额较上年同期飙升263%，达到创纪录的603亿美元。计算机出货量激增435%，石油制品出口增长72%。汽车出口则下降了5%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-01 08:27:14",
-      "text": "【AI热潮推动韩国9月出口突破1200亿美元 半导体出口再创纪录高位】在支撑人工智能半导体需求似乎无止境的推动下，韩国月度出口额首次突破1,200亿美元。周四的初步数据显示，9月份，韩国这个亚洲第四大经济体的出口额同比增长83.5%，至1,209.4亿美元。尽管当月因假日影响工作日较少，出口增速仍高于8月份68.7%的增幅，也超过65.4%增幅预期。进口额增长26.0%，至710.9亿美元，第三季度末贸易顺差达到创纪录的498.5亿美元。这一贸易顺差超过6月份创下的359.1亿美元前纪录。被视为AI需求风向标的韩国贸易数据显示，在AI基础设施投资持续大量涌入之际，对芯片的强劲需求几乎没有减退迹象。韩国9月份半导体出口额较上年同期增长逾两倍，至603亿美元，再创纪录高位。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-01 07:42:41",
-      "text": "【9月特斯拉在法国新车登记量同比增长61.86%】法国汽车工业委员会（PFA）数据显示，9月法国新车注册量同比增长11.60%，至156,629辆。9月特斯拉在法国新车登记量同比增长61.86%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
