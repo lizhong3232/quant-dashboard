@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-28 18:11:01.815769",
+  "timestamp": "2026-10-05 18:11:10.469141",
   "model": "LightGBM GBDT Regressor (16 Microstructure Factors)",
   "features": [
     "mom5",
@@ -26,137 +26,137 @@
     "graph_catchup_potential"
   ],
   "feature_importance": {
-    "amihud_illiq": 123,
-    "gp_alpha_1": 103,
-    "skewness": 98,
-    "ma60_bias": 89,
-    "gp_alpha_3": 86,
-    "mom120": 71,
-    "vol60": 70,
-    "downside_vol": 70,
-    "vol20": 67,
-    "turnover_stability": 66,
-    "tail_kurtosis": 65,
-    "mom20": 63,
-    "vpt_mom": 54,
-    "volume_surge": 50,
-    "mom60": 50,
-    "gp_alpha_2": 46,
-    "graph_peer_lead": 42,
-    "mom5": 42,
-    "graph_catchup_potential": 38,
-    "vwap_div": 36,
-    "residual_mom": 33,
-    "graph_upstream_shock": 18
+    "amihud_illiq": 128,
+    "gp_alpha_1": 111,
+    "skewness": 99,
+    "tail_kurtosis": 93,
+    "ma60_bias": 92,
+    "mom120": 80,
+    "vol20": 77,
+    "mom20": 70,
+    "downside_vol": 67,
+    "gp_alpha_3": 65,
+    "vol60": 65,
+    "turnover_stability": 57,
+    "volume_surge": 48,
+    "residual_mom": 46,
+    "vpt_mom": 45,
+    "gp_alpha_2": 45,
+    "graph_peer_lead": 41,
+    "mom60": 40,
+    "vwap_div": 38,
+    "mom5": 33,
+    "graph_catchup_potential": 30,
+    "graph_upstream_shock": 26
   },
   "portfolio": [
-    {
-      "ticker": "000333.SZ",
-      "name": "美的集团",
-      "industry": "家用电器",
-      "last_price": 82.0,
-      "pure_ai_alpha": 1.7851136506513936,
-      "opt_weight_pct": 12.0,
-      "shares": 1400
-    },
     {
       "ticker": "600887.SS",
       "name": "伊利股份",
       "industry": "食品饮料",
-      "last_price": 27.03,
-      "pure_ai_alpha": 1.7080602819019883,
+      "last_price": 27.3,
+      "pure_ai_alpha": 2.35920012172011,
       "opt_weight_pct": 12.0,
-      "shares": 4400
+      "shares": 4300
     },
     {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "industry": "电子科技",
-      "last_price": 116.56,
-      "pure_ai_alpha": 1.5241485616563246,
+      "ticker": "000333.SZ",
+      "name": "美的集团",
+      "industry": "家用电器",
+      "last_price": 80.1,
+      "pure_ai_alpha": 2.037023021824016,
       "opt_weight_pct": 12.0,
-      "shares": 1000
+      "shares": 1400
     },
     {
       "ticker": "002594.SZ",
       "name": "比亚迪",
       "industry": "汽车制造",
-      "last_price": 83.35,
-      "pure_ai_alpha": 1.2883411397594002,
+      "last_price": 83.31,
+      "pure_ai_alpha": 1.0508380958206287,
       "opt_weight_pct": 12.0,
       "shares": 1400
-    },
-    {
-      "ticker": "601088.SS",
-      "name": "中国神华",
-      "industry": "煤炭能源",
-      "last_price": 48.39,
-      "pure_ai_alpha": 1.012567380733216,
-      "opt_weight_pct": 12.0,
-      "shares": 2400
-    },
-    {
-      "ticker": "600036.SS",
-      "name": "招商银行",
-      "industry": "银行金融",
-      "last_price": 40.64,
-      "pure_ai_alpha": 0.716011667736757,
-      "opt_weight_pct": 12.0,
-      "shares": 2900
-    },
-    {
-      "ticker": "601985.SS",
-      "name": "中国核电",
-      "industry": "公用事业",
-      "last_price": 9.0,
-      "pure_ai_alpha": 0.6561041515924252,
-      "opt_weight_pct": 12.0,
-      "shares": 13300
-    },
-    {
-      "ticker": "601633.SS",
-      "name": "长城汽车",
-      "industry": "汽车制造",
-      "last_price": 13.79,
-      "pure_ai_alpha": 0.561000934695966,
-      "opt_weight_pct": 3.0,
-      "shares": 2100
-    },
-    {
-      "ticker": "600030.SS",
-      "name": "中信证券",
-      "industry": "非银金融",
-      "last_price": 25.94,
-      "pure_ai_alpha": 0.49832479943972674,
-      "opt_weight_pct": 2.0,
-      "shares": 700
-    },
-    {
-      "ticker": "600031.SS",
-      "name": "三一重工",
-      "industry": "机械装备",
-      "last_price": 17.19,
-      "pure_ai_alpha": 0.4749117426558521,
-      "opt_weight_pct": 2.0,
-      "shares": 1100
-    },
-    {
-      "ticker": "600276.SS",
-      "name": "恒瑞医药",
-      "industry": "医药生物",
-      "last_price": 44.47,
-      "pure_ai_alpha": 0.32930802736530845,
-      "opt_weight_pct": 2.0,
-      "shares": 400
     },
     {
       "ticker": "601138.SS",
       "name": "工业富联",
       "industry": "电子科技",
-      "last_price": 58.92,
-      "pure_ai_alpha": 0.31584852563554155,
+      "last_price": 58.2,
+      "pure_ai_alpha": 0.7017936408690757,
+      "opt_weight_pct": 12.0,
+      "shares": 2000
+    },
+    {
+      "ticker": "601088.SS",
+      "name": "中国神华",
+      "industry": "煤炭能源",
+      "last_price": 47.8,
+      "pure_ai_alpha": 0.6779471868124198,
+      "opt_weight_pct": 12.0,
+      "shares": 2500
+    },
+    {
+      "ticker": "600276.SS",
+      "name": "恒瑞医药",
+      "industry": "医药生物",
+      "last_price": 47.2,
+      "pure_ai_alpha": 0.6593425345053777,
+      "opt_weight_pct": 12.0,
+      "shares": 2500
+    },
+    {
+      "ticker": "600036.SS",
+      "name": "招商银行",
+      "industry": "银行金融",
+      "last_price": 41.26,
+      "pure_ai_alpha": 0.6340794200589225,
+      "opt_weight_pct": 12.0,
+      "shares": 2900
+    },
+    {
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "industry": "石油石化",
+      "last_price": 5.28,
+      "pure_ai_alpha": 0.5831085768351915,
+      "opt_weight_pct": 3.0,
+      "shares": 5600
+    },
+    {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "industry": "电子科技",
+      "last_price": 111.99,
+      "pure_ai_alpha": 0.5529944666736335,
       "opt_weight_pct": 2.0,
-      "shares": 300
+      "shares": 100
+    },
+    {
+      "ticker": "601985.SS",
+      "name": "中国核电",
+      "industry": "公用事业",
+      "last_price": 9.07,
+      "pure_ai_alpha": 0.4390913165389279,
+      "opt_weight_pct": 2.0,
+      "shares": 2200
+    },
+    {
+      "ticker": "600031.SS",
+      "name": "三一重工",
+      "industry": "机械装备",
+      "last_price": 17.49,
+      "pure_ai_alpha": 0.43416338078147537,
+      "opt_weight_pct": 2.0,
+      "shares": 1100
+    },
+    {
+      "ticker": "601225.SS",
+      "name": "陕西煤业",
+      "industry": "煤炭能源",
+      "last_price": 26.03,
+      "pure_ai_alpha": 0.4019058586317745,
+      "opt_weight_pct": 2.0,
+      "shares": 700
     }
   ]
 }

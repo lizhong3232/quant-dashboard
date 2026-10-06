@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 22,
+    "total_trades_100k": 23,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-09-28 18:11:03"
+    "last_rebalance_time_100k": "2026-10-05 18:11:11"
   },
   "trades_1m": [
     {
@@ -652,6 +652,21 @@
       "fee": 7.81,
       "saved_bps": 2.1,
       "reason": "HYSTERESIS_ENTRY"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-10-05 18:11:11",
+      "contract_id": "WT-20261005-0043",
+      "action": "BUY",
+      "ticker": "688036.SS",
+      "name": "传音控股",
+      "shares": 600,
+      "price": 53.81,
+      "amount": 32286.0,
+      "fee": 6.46,
+      "saved_bps": 2.1,
+      "reason": "消灭现金拖累·动用闲置资金建仓强Alpha龙头 (AI服务器与PCB高多层突破)"
     }
   ]
 }

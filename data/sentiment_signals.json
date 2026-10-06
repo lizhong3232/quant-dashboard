@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-05 18:00:26",
+  "audit_time": "2026-10-05 18:15:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-06 09:14:59",
+      "text": "美国财长贝森特：美国经济正在“加速增长”。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-06 09:00:13",
       "text": "美国财长贝森特：我认为第三季度增长率将超过3%。",
