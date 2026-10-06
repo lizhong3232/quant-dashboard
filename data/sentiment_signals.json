@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-05 19:45:17",
+  "audit_time": "2026-10-05 20:00:20",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -169,18 +169,6 @@
     {
       "timestamp": "2026-10-06 08:29:19",
       "text": "【摩根大通称韩国股市有望有序追赶AI复苏后行情】摩根大通指出，考虑到投资者持仓结构和盈利增长，韩国股市在7月AI/内存复苏后的回调可能比以往的AI反弹周期更为有序。 分析师包括Tony Lee在一份报告中写道，当前走势“看起来比爆发式更受控制”，并引用了“改善的Gamma背景”来降低机械放大波动及每股收益修正风险。 尽管韩国内存基本面有所改善，但其在7月AI/内存复苏后仍处于落后状态，仍有空间进行追赶，尤其是当高收益率、油价以及亚洲市场风险偏好下降等宏观经济因素趋于稳定时。 韩国9月份波动性环境有所改善，使交易商在股票上的长Gamma头寸达到约4.3亿美元，这是过去一年以来最长的Gamma持仓。 “由于看涨期权端价格偏高，我们认为通过具有丰富凸性特征的结构性产品持有KOSPI2看涨敞口最为合适。”在三星和SK海力士第三季度财报发布之前，分析师认为“HBM需求、定价与产品组合、汇率以及资本支出管控和股东回报更新是关键催化剂，市场存在大幅波动的可能”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 08:18:32",
-      "text": "南亚科9月销售额450.9亿元台币，增长576.6％。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
