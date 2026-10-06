@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-05 19:15:16",
+  "audit_time": "2026-10-05 19:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-06 10:20:41",
+      "text": "【较去年提前17天，2026年北京两机场旅客吞吐量突破1亿人次】从首都机场集团获悉，截至10月4日，首都机场、大兴机场今年累计旅客吞吐量10021.6万人次，同比增长6.7%，较去年提前17天突破1亿人次。其中，国内旅客吞吐量8106万人次，同比增长6%；国际及地区旅客吞吐量1915万人次，同比增长9.6%。2026年全年北京两场预计旅客吞吐量将突破1.3亿人次，同比增长6%。其中，首都机场预计全年旅客吞吐量可突破7400万人次，大兴机场预计全年旅客吞吐量可突破5700万人次。（新京报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-06 10:05:22",
       "text": "印度能源交易所第二季度电力交易量达397亿单位，同比增长12.7%。",
