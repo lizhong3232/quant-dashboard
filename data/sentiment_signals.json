@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-05 20:00:20",
+  "audit_time": "2026-10-05 20:15:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-06 11:01:45",
+      "text": "【贝森特称美国可以“非常迅速地”压低债务水平】美国财政部长斯科特·贝森特表示，美国可以实现3%的经济增长并控制支出，从而“很快”开始改变政府债务的轨迹。“我认为我们上个季度，也就是第三季度，增速将远超3% —— 而且我认为我们可以持续这么做，”贝森特周一晚在宾夕法尼亚州州商会的一次炉边谈话中说道。“接下来，重要的是债务占GDP的比重，我们将开始压低那条曲线并降低这一比重，”贝森特说。“我认为这可能会非常、非常快地发生。”",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-06 10:30:29",
       "text": "【今年前八月韩国首尔接待外国游客数量同比增长21.6%创历史新高】韩国首尔市政府周二表示，今年1月至8月，首尔共接待外国游客1156万人次，创历史新高，较去年同期增长21.6%。与此同时，外国游客的信用卡消费额也同比增长59.9%，达到7.78万亿韩元（约合58亿美元）。数据显示，仅8月份，就有172万外国游客到访首尔，较去年同期的140万人次增长23.3%。",
@@ -140,42 +152,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 08:33:14",
-      "text": "【高盛上调台积电目标价至3300新台币 看好AI驱动强劲增长】高盛因AI需求在GPU、网络芯片及服务器CPU领域的持续扩张，上调了台积电的目标价及资本支出预测。分析师Evelyn Yu指出，“由代理型AI（Agentic AI）驱动的更强CPU需求是过去一年来的关键变化”。高盛预计台积电2026年/2027年营收将同比增长42.0％/36.9％（美元计），毛利率分别为67.2％/67.5％；同时将2027年/2028年资本支出预测从780亿/820亿美元上调至850亿/980亿美元，以支持长期客户需求。维持“买入”评级，目标价从3100新台币上调至3300新台币。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 08:30:58",
-      "text": "高盛上调台积电目标股价，理由是其强劲的增长前景。高盛将台积电目标价从新台币3100元上调至新台币3300元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 08:29:19",
-      "text": "【摩根大通称韩国股市有望有序追赶AI复苏后行情】摩根大通指出，考虑到投资者持仓结构和盈利增长，韩国股市在7月AI/内存复苏后的回调可能比以往的AI反弹周期更为有序。 分析师包括Tony Lee在一份报告中写道，当前走势“看起来比爆发式更受控制”，并引用了“改善的Gamma背景”来降低机械放大波动及每股收益修正风险。 尽管韩国内存基本面有所改善，但其在7月AI/内存复苏后仍处于落后状态，仍有空间进行追赶，尤其是当高收益率、油价以及亚洲市场风险偏好下降等宏观经济因素趋于稳定时。 韩国9月份波动性环境有所改善，使交易商在股票上的长Gamma头寸达到约4.3亿美元，这是过去一年以来最长的Gamma持仓。 “由于看涨期权端价格偏高，我们认为通过具有丰富凸性特征的结构性产品持有KOSPI2看涨敞口最为合适。”在三星和SK海力士第三季度财报发布之前，分析师认为“HBM需求、定价与产品组合、汇率以及资本支出管控和股东回报更新是关键催化剂，市场存在大幅波动的可能”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
