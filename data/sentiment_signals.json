@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-05 18:15:17",
+  "audit_time": "2026-10-05 18:30:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "avg_sentiment": 0.4,
+      "news_count": 1,
+      "latest_events": [
+        "温和经营利好"
+      ]
+    },
     "000858.SZ": {
       "ticker": "000858.SZ",
       "name": "五粮液",
@@ -17,6 +26,22 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-06 09:17:39",
+      "text": "【特斯拉连续八个月蝉联韩国进口车销量冠军】特斯拉在9月份连续第八个月成为韩国销量最高的进口乘用车品牌。据韩国汽车进口商和分销商协会（KAIDA）统计，上个月韩国新注册进口乘用车总数为34904辆，同比增长6.3%。特斯拉以12372辆的销量领跑市场，自2月以来一直稳居榜首。宝马以6066辆位居第二，紧随其后的是梅赛德斯奔驰（5477辆）和比亚迪（2614辆）。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-06 09:14:59",
       "text": "美国财长贝森特：美国经济正在“加速增长”。",
