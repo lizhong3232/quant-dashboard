@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-05 20:30:18",
+  "audit_time": "2026-10-05 20:45:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 9,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-06 11:30:41",
+      "text": "印度汽车经销商协会：9月份乘用车零售销量同比增长32.10%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-06 11:30:29",
+      "text": "印度汽车经销商协会FADA：9月汽车零售销量同比增长31.82%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-06 11:29:40",
       "text": "【广东各地开展各类活动释放假日消费潜力 “国补”“省补”三天拉动消费近四十四亿元】国庆期间，广东21个地市密集开展各类节日促消费活动，有效释放假日消费潜力。据省商务厅消息，10月1日至4日，全省21个地市共投入超10亿元补贴资金，落实国补、省补政策，派发餐饮、文旅、商圈消费券，举办超660场活动，多重优惠叠加让利。根据商务部监测反馈数据，10月1日至3日，全省零售销售额同比增长7.5%，餐饮营业额同比增长6.7%，“国补”加“省补”拉动消费近44亿元；消费品以旧换新核销资金2.37亿元，同比增长301.8%，拉动销售额21.59亿元，同比增长148.8%。国庆期间，广东一批商业地标集中开业，为黄金周消费扩容蓄能。广州白鹅潭万象城、聚龙湾太古里与佛山万象天地三大顶级商业体同步启幕，打造大湾区消费新地标。（南方日报）",
@@ -108,18 +132,6 @@
     {
       "timestamp": "2026-10-06 09:14:59",
       "text": "美国财长贝森特：美国经济正在“加速增长”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 09:00:06",
-      "text": "美国财长贝森特：我认为第三季度增长率将超过3%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
