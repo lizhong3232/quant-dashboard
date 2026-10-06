@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-05 18:45:17",
+  "audit_time": "2026-10-05 19:00:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -145,30 +145,6 @@
     {
       "timestamp": "2026-10-06 08:18:32",
       "text": "南亚科9月销售额450.9亿元台币，增长576.6％。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 07:23:55",
-      "text": "【SpaceX与特斯拉股价反弹 马斯克身家重返万亿美元】全球首富埃隆·马斯克的身家时隔三个月再次突破万亿美元。根据彭博亿万富豪指数，马斯克的财富周一增加650亿美元，达到1.04万亿美元，得益于其持有的SpaceX和特斯拉股份价值回升。10月以来，SpaceX股价上涨13%，特斯拉上涨6.7%。SpaceX在6月IPO后股价大涨，使马斯克成为全球首位万亿美元富豪，但随着投资者担忧该公司估值过高、股价随后下挫，他很快失去这一头衔。截至7月下旬，马斯克的财富较峰值缩水逾6000亿美元，缩水规模超过彭博全球500大富豪榜上除他本人之外任何一位上榜者的全部身家。最新一轮财富增长源于市场重新看好SpaceX和特斯拉。摩根士丹利分析师周一称，SpaceX是以较低成本把握太空和人工智能领域巨大增长潜力的投资标的之一。这家横跨太空、人工智能和社交媒体业务的公司股价已较8月低点反弹58%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 07:18:58",
-      "text": "【深圳盐田港单船装卸量刷新中国港口纪录】记者从深圳海关获悉，10月2日，深圳盐田港单船完成28684标箱装卸作业，刷新中国港口单船装卸箱量纪录。单船作业量不断攀升的背后，是中国港口持续拓展的全球航线网络和不断增长的国际物流需求。目前，盐田港每周运营百条全球航线，其中53条联通APEC成员经济体，今年已新增14条联通APEC经济体的航线。持续加密的航线网络，为更多进出口货物快速连接全球提供了通道。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
