@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-05 23:30:17",
+  "audit_time": "2026-10-05 23:45:24",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 18,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -35,6 +35,66 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-06 14:37:11",
+      "text": "【AMD苏姿丰密会台积电 证实中国台湾百亿美元投资将加码】据报道，AMD CEO苏姿丰今天密集拜会鸿海、广达、华硕、宏碁等代工与品牌大厂，下午更驱车直奔新竹密会晶圆代工龙头台积电。面对强劲的AI运算需求，苏姿丰证实，AMD先前宣布在中国台湾投资100亿美元（约新台币3176亿元）的供应链计划不仅符合进度，更因市场需求暴增，已决定调高相关投资金额，未来将持续扩大在台供应链投资。苏姿丰表示，AMD与关键供应商及合作伙伴保持紧密合作非常重要。针对CPU与GPU等晶片供应状况，苏姿丰直言，现在对所有运算领域来说是令人兴奋的时刻，今年AMD在市场整体需求带动下大幅扩产，但需求仍高于供给，因此AMD正与台积电、后段封测及基板供应商加速拉升产能。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-06 14:35:57",
+      "text": "【花旗：土耳其年末通胀将达30%】花旗集团经济学家预计，土耳其本年度年末通胀将达到 30%，略低于 2025 年末 30.9% 的水平。花旗经济学家伊尔克尔・多马克与居尔泰金・伊什克拉尔周一在报告中写道：“即便经济增长预期走弱，通胀前景依旧充满挑战。”花旗预计土耳其央行将在 10 月下调政策利率 100 个基点，并维持年末政策利率 35% 的预测不变。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-06 14:32:27",
+      "text": "Autostat：俄罗斯九月份汽车销量同比下降6.2%，降至115,060辆。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-06 14:30:58",
+      "text": "麦当劳日本9月同店销售额增长10%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-06 14:30:39",
+      "text": "匈牙利8月工业生产同比增长8.7%，高于预期的4.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-06 14:22:30",
       "text": "【崔东树：车市增长动力正从“新婚首购”转向“换购增购+新能源升级+适老化出行】乘联分会崔东树发文称，2025年结婚人数回升对车市是暂时积极信号，但结婚总量中枢下移、结婚年龄后移、老龄化加速三大趋势不可逆转。车市增长动力正从“新婚首购”转向“换购增购+新能源升级+适老化出行”。车企应抓住25—35岁结婚主力人群的智能化、电动化需求，同时积极布局老年友好型产品和出行服务，才能在人口结构变化中赢得增量。",
@@ -161,78 +221,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 13:21:43",
-      "text": "【铃木以低于比亚迪的价格搅动日本微型电动车市场】日本铃木汽车公司（Suzuki Motor Corp.）发布了其首款纯电动车型\"e SKY\"，属于日本最举足轻重的K-car（轻自动车）细分市场，令该领域的竞争进一步升温。铃木周二表示，算上政府补贴后，\"e SKY\"将于11月开售，售价约为160万日元（约合10,120美元）。这一价格低于日产的畅销电动车型Sakura，也低于比亚迪今年7月推出的首款K-car Racco。K-car是价格亲民、车身极小的车型，占日本汽车销量三分之一以上。\"e SKY\"的加入进一步表明，这类微型电动车正使日本成为各品牌竞逐的关键战场——目前日产、本田、大发以及如今的铃木均已推出电动K-car。日本品牌合计占据约80%的市场份额。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 13:02:44",
-      "text": "【机构：维持对韩国市场的中性立场】法国兴业银行策略师在一份报告中称，随着投资者参与度下降、存储芯片盈利动能减弱，韩国股市近期可能总体维持区间震荡。外国投资者在8月至9月卖出了250亿美元韩国股票，而韩国国内散户投资者在9月转为卖方，资金流出达100亿美元。韩国综合指数成交额已较6月峰值下降约75%，至20万亿韩元，为今年最低水平。“问题不再是被迫降低风险敞口，而是缺乏边际买家。“这些策略师称，存储芯片供应仍然偏紧，但未来价格涨幅预计将放缓。该行维持对韩国市场的中性立场。该行看好有全球资本支出敞口的工业和材料类股，以及受益于治理改革的金融股。",
-      "analysis": {
-        "matched_tickers": [
-          "601166.SS"
-        ],
-        "matched_names": [
-          "兴业银行"
-        ],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 13:00:34",
-      "text": "市场消息：DeepSeek 将在腾讯、宁德时代牵头的融资轮中募资至少120亿美元。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 12:44:30",
-      "text": "【余承东回应苹果入局折叠屏】10月6日，华为海外 X 账号发布了 9 月 29 日的国际媒体圆桌会议摘要。华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东与多家国际媒体的记者就华为消费者业务及 HarmonyOS 生态系统进行了交流。谈到苹果入局折叠屏手机市场，余承东表示很高兴看到美国同行最近推出了折叠屏手机。“实际上，华为在去年春天推出了一款类似的横向折叠产品 Pura X。当时，华为设计了这款折叠屏手机的小屏和大屏版本，最初计划同时发布。但由于投入了大量资源和精力建设 HarmonyOS 生态系统，华为将更大版本 Pura X Max 的发布推迟到了今年 4 月。” 余承东表示：“当我们准备推出这款阔折叠手机时，看到网上报道说我们的美国同行也开发了类似的手机。这款阔折叠手机最初来自华为，我们是更早开始做的。” 余承东还透露：“在 iPhone Duo 发布后的一周内，我们的 Pura X Max 销量增长了 76%。也许是因为消费者更喜欢我们的产品。自发布以来的几个月内，Pura X Max 的销量已突破 100 万台。我们欢迎同行加入竞争，为消费者提供更好的产品和服务。这种良性竞争也能激励更多用户选择折叠屏手机。”",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-06 12:43:25",
-      "text": "【韩国家庭户形势展望：明年二人户占比首超三成】据报道，韩国一份最新数据显示，2027年二人户家庭占比或首超三成。据韩国国家数据处6日发布的“家庭户形势展望”资料，明年家庭户总数将同比增长0.9%，为2280.7万户。其中，一人户同比增长2.3%，为855.3万户；二人户增长2.1%，为689万户；三人户下降0.4%，为412.1万户；四人户下降2.9%，为260.9万户。从占比看，一人户占比提升0.5个百分点至37.5%；二人户提升0.3个百分点至30.2%，自韩国2000年开始编制相关资料以来首超三成；三人户下降0.2个百分点至18.1%；四人户下降0.5个百分点至11.4%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
