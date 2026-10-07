@@ -1,140 +1,114 @@
 {
-  "audit_time": "2026-10-06 20:45:23",
+  "audit_time": "2026-10-06 22:00:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和经营利好"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-07 12:49:08",
+      "text": "印度储备银行行长：全球贸易增长放缓、能源价格高企、贸易不确定性给经常账户赤字带来上行风险。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 12:48:45",
+      "text": "泰国联合商业集团维持2026年国内生产总值增长预测在2.1%至2.5%之间。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 12:42:33",
+      "text": "印度储备银行：将2027财年印度GDP增长预期从6.7%上调至7.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 12:37:29",
+      "text": "印度储备银行行长：加息周期的持续时长与幅度取决于实际增长及通胀展望。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 12:32:20",
+      "text": "【携程：中秋国庆出行需求整体增长 入境游订单同比高双位数增长】10月7日，携程发布数据显示，今年中秋国庆出行需求整体增长：入境游订单同比高双位数增长，国内景区门票订单同样实现双位数增长。国内包车游订单同比增长近八成，包团定制游增长超五成；云南、新疆、甘肃三地包车游订单增幅均超1.5倍。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 12:31:14",
+      "text": "印度储备银行：今年全球经济增长将放缓。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 12:04:22",
+      "text": "市场消息：沙特阿美正在权衡应对沙特阿拉伯日益增长的天然气过剩问题的方案。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 11:53:26",
+      "text": "【高盛交易台：三星电子受财报与 ETF 资金流动影响，股价或将大幅波动】高盛销售交易部门称，受多重事件叠加影响，三星电子股票周四波动大概率加剧，包括三季度业绩预告以及半导体 ETF 调仓。交易台发给机构客户的研报表示：“三季度预告发布恰逢期权到期与多只半导体 ETF 再平衡，可能放大市场波动。”合计资产管理规模约 19 万亿韩元（折合 140 亿美元）的 7 只半导体 ETF 将进行调仓，市场预期会被动卖出三星，被动增持 SK 海力士、SK Square 及半导体设备股。三星的公司回购计划预计于 10 月 6 日完成。“外资资金是否回流，以及公司能否维持强劲盈利势头与业绩指引，是需要重点关注的核心。”“9 月我们交易订单偏向卖盘：长线基金多空分布均衡，对冲基金则卖盘意愿更强。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-07 11:25:24",
       "text": "【途牛联合梧桐数据发布报告：拼假带动国庆出游热 深度体验游成新主流】10月7日，途牛旅游网联合中国移动梧桐数据发布《2026国庆出游消费盘点》，受拼假带动，今年国庆假期出游热潮提前释放，传统热门城市热度领跑，小城游、县域旅游加速增长；传统文化游、赏秋游、红色旅游、观赛观演游、夜游等多元需求叠加，主打情绪价值与体验型消费、慢节奏长停留的深体验高品质旅游产品，成为主流选择。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 11:11:44",
-      "text": "【飞猪发布《2026国庆出游快报》：网红打卡退潮，“原生旅游”崛起】10月7日上午消息，飞猪发布《2026国庆假期出游快报》。假期之初，飞猪观察到“原生旅游”正成为出游新趋势。“原生旅游”带动下，飞猪平台自然风光及村寨商品预订量同比增长超40%，喀什、百色、海西、宣城、武威等小城热度领先，成为这一趋势的代表性目的地。在“原生旅游”的细分玩法中，“古村游”的热度尤为明显。飞猪数据显示，预订“古村类”相关商品的用户数同比增长超90%。同时，以非遗手作体验为代表的“报班游”是“原生旅游”的另一种打开方式，非遗手作体验及参观类商品预订量同比翻倍增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 10:49:18",
-      "text": "马来西亚副财长：受经济增长推动，马来西亚2026年上半年税收收入将增长9%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 10:42:14",
-      "text": "【木鸟民宿发布《2026国庆民宿消费报告》：北京夺得双榜首，三线及以下城市日均订单同比增长17%】10月7日上午消息。木鸟民宿发布《2026国庆民宿消费报告》。报告显示，今年国庆假期民宿订单同比增长显著，连住7天及以上订单同比增长30%。今年国庆假期，15%的用户选择在国庆假期前出发。三线及以下城市日均订单同比增长17%。四成用户打卡宝藏县城民宿，奔县游成为国庆假期热点。家庭游用户订单占比53%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 10:40:16",
-      "text": "【途家：十一宝藏小城民宿预订同比涨两成】10月7日上午消息，十一假期进入尾声。途家民宿数据显示，从9月中下旬开始，十一民宿预订进入高峰，假期超过六成订单是在9月中旬以后预订的；10月1日至10月4日的假期前半段，是游客入住高峰。从目的地看，青岛、北京、成都、重庆、南京民宿预订量位居全国前五；伊犁、黔西南、迪庆等一批适合赏秋、慢游的宝藏小城订单同比增长两成以上。此外，国庆期间，北上广等大城市郊区民宿预订火热。北京怀柔、延庆、密云等远郊地区的民宿承接了北京市民的短途度假需求。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 10:31:01",
-      "text": "三菱汽车就针对其美国子公司的诉讼达成和解。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 10:23:14",
-      "text": "【国家外汇管理局：9月末我国外汇储备规模为34003亿美元 环比下降381亿美元】国家外汇管理局统计数据显示，截至2026年9月末，我国外汇储备规模为34003亿美元，较8月末下降381亿美元，降幅为1.11%。2026年9月，受全球宏观经济环境、主要经济体货币政策等因素影响，美元指数上涨，全球主要金融资产价格总体下跌。汇率折算和资产价格变化等因素综合作用，当月外汇储备规模下降。我国经济运行总体平稳、动能向新、结构向优，高质量发展取得新成效，有利于外汇储备规模保持基本稳定。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 10:03:27",
-      "text": "【中国央行连续第23个月增持黄金】中国9月末黄金储备报7747万盎司（约2409.59吨），环比增加74万盎司（约23.02吨），8月末黄金储备报7673万盎司（约2386.57吨）。中国央行已连续第23个月增持黄金。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 09:53:32",
-      "text": "【中越边境河口口岸今年出入境流量已突破500万人次】据河口出入境边防检查站统计，截至10月6日12时，2026年中越边境云南河口口岸出入境人数达500.03万人次。日均出入境旅客达1.79万人次，同比增长6.12%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 09:46:30",
-      "text": "【交银国际：新能源汽车终端需求仍具支撑 建议关注小鹏集团-W等】交银国际发布研报称，9月新能源汽车车企销量延续环比改善，10家样本车企合计销量约80.9万辆，同比及环比分别升14.3%及3.8%。展望第四季度，“银十”旺季叠加新车集中上市及年底冲量，终端需求仍具支撑，同时海外销量增长仍将贡献主要增量。该行表示，继续关注三条主线，包括新品周期明确、智能化能力持续升级的新势力；海外销量快速增长、具备规模及本地化生产优势的整车龙头；以及具备VLA(Vision-Language-Action)、Robotaxi及人形机器人等物理AI延展能力的标的。该行建议关注小鹏集团-W(09868)M03、GX、G9L及后续增程车型放量、海外本地化生产和物理AI业务落地；吉利汽车(00175)极氪持续高增长、内部资源协同及海外销量快速提升；比亚迪股份(01211)海外销量持续创新高、高端品牌发展和智能化提速。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
         "event_category": "温和经营利好",
         "sentiment_score": 0.4,
         "is_black_swan": false,
