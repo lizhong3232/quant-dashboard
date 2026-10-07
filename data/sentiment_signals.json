@@ -1,12 +1,24 @@
 {
-  "audit_time": "2026-10-06 22:15:19",
+  "audit_time": "2026-10-06 22:30:19",
   "total_news_scanned": 100,
-  "relevant_events_found": 8,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-07 13:20:49",
+      "text": "印度央行货币政策报告：若原油价格较基准低10%，通胀率可能下降约50个基点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-07 12:49:08",
       "text": "印度储备银行行长：全球贸易增长放缓、能源价格高企、贸易不确定性给经常账户赤字带来上行风险。",
