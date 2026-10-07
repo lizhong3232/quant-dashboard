@@ -1,12 +1,60 @@
 {
-  "audit_time": "2026-10-06 23:15:16",
+  "audit_time": "2026-10-06 23:30:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-07 14:25:57",
+      "text": "匈牙利财政部：要让经济在2至3年内走上可持续增长与竞争力的稳健轨道，此次增长牺牲是必要的。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 14:21:03",
+      "text": "【保时捷设定中期汽车业务净现金流利润率9%至12%】保时捷在资本市场日发布会材料中表示，集团中期目标销售营业回报率为10%-15%，汽车业务净现金流利润率目标9%-12%。长期目标为集团销售营业回报率15%，汽车业务净现金流利润率12%。集团中期营收目标区间410亿欧元至450亿欧元，现金生成能力预计实现超比例增长。公司计划通过精益运营与成本削减，将盈亏平衡点降至20万辆以下。公司中期管理层岗位裁减40%。员工规模削减25%，战略目标为裁减30%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 14:16:38",
+      "text": "【德国工业产出创17个月最大增幅】德国工业产出创下自去年3月以来的最大单月增幅，延续了由基础设施和国防公共支出所支撑的经济复苏态势。德国8月工业产出环比增长2%，不仅完全抵消了上个月的跌幅，更远超经济学家普遍预期的0.5%。产出增长主要由建筑业推动。不过，即便剔除建筑业和能源行业后的产出也实现了明显增长。德国统计局表示，资本品产出表现尤其强劲，而汽车制造业产出则有所回落。这些数据为正努力重振增长的欧洲最大经济体注入了信心。政府正投入数十亿欧元用于基础设施和国防建设以提振经济动能，这些举措在近几个月里既推动了工厂订单的增长，也导致了部分订单的波动。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 14:16:00",
+      "text": "【IMF总裁：世界面临人工智能、油价和债务带来的多重风险】国际货币基金组织（IMF）总裁格奥尔基耶娃表示，各国政府必须紧急采取行动，应对人工智能（AI）发展失衡、长期能源冲击以及创纪录债务堆积所带来的挑战。她指出，当前竞相发展人工智能的热潮正带来一波增长，但这波增长迄今仅局限于少数几个国家。格奥尔基耶娃说：“AI建设热潮具有推升通胀的效应。能源和粮食冲击也会推升通胀。关税、国防支出以及高额公共债务同样可能引发通胀。”她呼吁各国央行采取“审慎的鹰派立场”。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-07 14:09:01",
       "text": "匈牙利财长：匈牙利政府寻求重新点燃经济增长。",
@@ -113,30 +161,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 12:49:08",
-      "text": "印度储备银行行长：全球贸易增长放缓、能源价格高企、贸易不确定性给经常账户赤字带来上行风险。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 12:48:45",
-      "text": "泰国联合商业集团维持2026年国内生产总值增长预测在2.1%至2.5%之间。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
