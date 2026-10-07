@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-06 22:45:18",
+  "audit_time": "2026-10-06 23:00:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 8,
+  "relevant_events_found": 7,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -82,18 +82,6 @@
     {
       "timestamp": "2026-10-07 12:31:14",
       "text": "印度储备银行：今年全球经济增长将放缓。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 12:04:22",
-      "text": "市场消息：沙特阿美正在权衡应对沙特阿拉伯日益增长的天然气过剩问题的方案。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
