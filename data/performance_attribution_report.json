@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-05 00:05:20.937449",
+  "timestamp": "2026-10-06 00:05:19.597692",
   "benchmark": "510300.SS",
   "evaluation_metrics": {
     "total_days": 485,
@@ -37,10 +37,10 @@
         "active_weight_pct": -0.3348955951836291,
         "return_portfolio_pct": -6.007319792839093,
         "return_benchmark_pct": -6.8318792385943015,
-        "allocation_effect_pct": 0.0495893353989625,
+        "allocation_effect_pct": 0.0495893328076792,
         "selection_effect_pct": 0.06107847746334853,
         "interaction_effect_pct": -0.00276141326350474,
-        "total_excess_pct": 0.1079063995988063
+        "total_excess_pct": 0.107906397007523
       },
       {
         "industry": "医药生物",
@@ -49,34 +49,34 @@
         "active_weight_pct": -3.111911294010013,
         "return_portfolio_pct": -29.56744670513315,
         "return_benchmark_pct": -34.77610389566044,
-        "allocation_effect_pct": 1.3303926828876314,
+        "allocation_effect_pct": 1.3303926588089519,
         "selection_effect_pct": 0.5787396878363634,
         "interaction_effect_pct": -0.1620887913782835,
-        "total_excess_pct": 1.747043579345711
+        "total_excess_pct": 1.7470435552670316
       },
       {
         "industry": "家用电器",
         "weight_portfolio_pct": 7.033417162017984,
         "weight_benchmark_pct": 7.4074074074073755,
         "active_weight_pct": -0.3739902453893912,
-        "return_portfolio_pct": -2.6506595006506024,
-        "return_benchmark_pct": -6.9369272548256316,
-        "allocation_effect_pct": 0.05577110655530076,
-        "selection_effect_pct": 0.3175013151240748,
-        "interaction_effect_pct": -0.016030223291885536,
-        "total_excess_pct": 0.35724219838749005
+        "return_portfolio_pct": -2.6506671700413755,
+        "return_benchmark_pct": -6.936933750739438,
+        "allocation_effect_pct": 0.05577112795560325,
+        "selection_effect_pct": 0.31750122819985516,
+        "interaction_effect_pct": -0.016030218903196152,
+        "total_excess_pct": 0.3572421372522622
       },
       {
         "industry": "机械装备",
         "weight_portfolio_pct": 6.466544734034445,
         "weight_benchmark_pct": 7.4074074074073755,
         "active_weight_pct": -0.9408626733729303,
-        "return_portfolio_pct": -10.714970486234781,
-        "return_benchmark_pct": -11.296307116518205,
-        "allocation_effect_pct": 0.18132144913320145,
-        "selection_effect_pct": 0.0430619726135868,
-        "interaction_effect_pct": -0.005469579360980735,
-        "total_excess_pct": 0.2189138423858075
+        "return_portfolio_pct": -10.71496501568423,
+        "return_benchmark_pct": -11.29630201600072,
+        "allocation_effect_pct": 0.18132139386433094,
+        "selection_effect_pct": 0.0430620000234435,
+        "interaction_effect_pct": -0.005469582842483725,
+        "total_excess_pct": 0.21891381104529073
       },
       {
         "industry": "汽车制造",
@@ -85,46 +85,46 @@
         "active_weight_pct": -2.8174058832494726,
         "return_portfolio_pct": -33.533654765873166,
         "return_benchmark_pct": -35.03633042867163,
-        "allocation_effect_pct": 1.2118184683052047,
+        "allocation_effect_pct": 1.2118184465052857,
         "selection_effect_pct": 0.1113093083554417,
         "interaction_effect_pct": -0.04233647252984209,
-        "total_excess_pct": 1.2807913041308043
+        "total_excess_pct": 1.2807912823308854
       },
       {
         "industry": "煤炭能源",
         "weight_portfolio_pct": 8.323540618808108,
         "weight_benchmark_pct": 7.4074074074073755,
         "active_weight_pct": 0.9161332114007326,
-        "return_portfolio_pct": 14.303729573028285,
-        "return_benchmark_pct": 13.51986002939403,
-        "allocation_effect_pct": 0.050793519605634885,
-        "selection_effect_pct": 0.05806441063957421,
-        "interaction_effect_pct": 0.007181289223288769,
-        "total_excess_pct": 0.11603921946849786
+        "return_portfolio_pct": 14.303725896283998,
+        "return_benchmark_pct": 13.519855960911919,
+        "allocation_effect_pct": 0.05079348942157809,
+        "selection_effect_pct": 0.05806443965719071,
+        "interaction_effect_pct": 0.007181292812129065,
+        "total_excess_pct": 0.11603922189089785
       },
       {
         "industry": "电力设备",
         "weight_portfolio_pct": 3.761050144795,
         "weight_benchmark_pct": 3.7037037037036877,
         "active_weight_pct": 0.05734644109131257,
-        "return_portfolio_pct": 21.20477322893315,
-        "return_benchmark_pct": 21.20477322893315,
-        "allocation_effect_pct": 0.007586504610464993,
-        "selection_effect_pct": 0.0,
-        "interaction_effect_pct": 0.0,
-        "total_excess_pct": 0.007586504610464993
+        "return_portfolio_pct": 21.20478862934958,
+        "return_benchmark_pct": 21.204788629349576,
+        "allocation_effect_pct": 0.007586513885778717,
+        "selection_effect_pct": 1.0279842820603257e-16,
+        "interaction_effect_pct": 1.591683481997135e-18,
+        "total_excess_pct": 0.007586513885778822
       },
       {
         "industry": "电子科技",
         "weight_portfolio_pct": 21.835086114921502,
         "weight_benchmark_pct": 18.518518518518437,
         "active_weight_pct": 3.3165675964030665,
-        "return_portfolio_pct": 108.09213581090947,
-        "return_benchmark_pct": 102.48819385331207,
-        "allocation_effect_pct": 3.1345766403703177,
-        "selection_effect_pct": 1.0377670291846977,
-        "interaction_effect_pct": 0.18585852308691078,
-        "total_excess_pct": 4.358202192641927
+        "return_portfolio_pct": 108.09213206473818,
+        "return_benchmark_pct": 102.48819009029704,
+        "allocation_effect_pct": 3.1345765412296065,
+        "selection_effect_pct": 1.0377670323039103,
+        "interaction_effect_pct": 0.1858585236455451,
+        "total_excess_pct": 4.3582020971790625
       },
       {
         "industry": "石油石化",
@@ -133,10 +133,10 @@
         "active_weight_pct": -0.020842859320209517,
         "return_portfolio_pct": -17.621799697030514,
         "return_benchmark_pct": -17.621799697030514,
-        "allocation_effect_pct": 0.005335213806428437,
+        "allocation_effect_pct": 0.005335213645155032,
         "selection_effect_pct": 0.0,
         "interaction_effect_pct": -0.0,
-        "total_excess_pct": 0.005335213806428437
+        "total_excess_pct": 0.005335213645155032
       },
       {
         "industry": "银行金融",
@@ -145,34 +145,34 @@
         "active_weight_pct": 1.3266270385612247,
         "return_portfolio_pct": 13.13660565949788,
         "return_benchmark_pct": 12.191451491730533,
-        "allocation_effect_pct": 0.05592965703941738,
+        "allocation_effect_pct": 0.055929667304307464,
         "selection_effect_pct": 0.07001141983461807,
         "interaction_effect_pct": 0.01253867074568996,
-        "total_excess_pct": 0.1384797476197254
+        "total_excess_pct": 0.1384797578846155
       },
       {
         "industry": "非银金融",
         "weight_portfolio_pct": 7.228890413046791,
         "weight_benchmark_pct": 7.4074074074073755,
         "active_weight_pct": -0.17851699436058355,
-        "return_portfolio_pct": 2.0225604406808184,
-        "return_benchmark_pct": 1.8484749354391317,
-        "allocation_effect_pct": 0.01093782073699287,
-        "selection_effect_pct": 0.012895222610495269,
-        "interaction_effect_pct": -0.0003107722115748956,
-        "total_excess_pct": 0.023522271135913243
+        "return_portfolio_pct": 2.022557051942413,
+        "return_benchmark_pct": 1.8484713010080926,
+        "allocation_effect_pct": 0.010937825843779425,
+        "selection_effect_pct": 0.012895240809949608,
+        "interaction_effect_pct": -0.0003107726501780004,
+        "total_excess_pct": 0.023522294003551034
       },
       {
         "industry": "食品饮料",
         "weight_portfolio_pct": 8.27286236854138,
         "weight_benchmark_pct": 11.111111111111063,
         "active_weight_pct": -2.8382487425696823,
-        "return_portfolio_pct": -17.291190627481573,
-        "return_benchmark_pct": -23.861457725112427,
-        "allocation_effect_pct": 0.9036126842607717,
-        "selection_effect_pct": 0.7300296775145363,
-        "interaction_effect_pct": -0.1864805232819773,
-        "total_excess_pct": 1.4471618384933307
+        "return_portfolio_pct": -17.291194015060558,
+        "return_benchmark_pct": -23.861460196060026,
+        "allocation_effect_pct": 0.9036127324312186,
+        "selection_effect_pct": 0.7300295756666044,
+        "interaction_effect_pct": -0.18648049726569849,
+        "total_excess_pct": 1.4471618108321245
       }
     ]
   },
