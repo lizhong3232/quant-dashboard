@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-06 20:30:16",
+  "audit_time": "2026-10-06 20:45:23",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -9,11 +9,10 @@
     "002594.SZ": {
       "ticker": "002594.SZ",
       "name": "比亚迪",
-      "avg_sentiment": 0.2,
-      "news_count": 2,
+      "avg_sentiment": 0.4,
+      "news_count": 1,
       "latest_events": [
-        "温和经营利好",
-        "行业资讯/宏观动态"
+        "温和经营利好"
       ]
     }
   },
@@ -140,34 +139,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 09:32:42",
-      "text": "【三星斥资近50亿美元在韩越扩产半导体基板】据报道，三星电机计划到2028年在韩国和越南投资近50亿美元，用于半导体基板生产，进一步提升越南在人工智能服务器和高性能计算关键零部件生产中的地位。作为韩国三星集团旗下的电子元件子公司，三星电机上周公布了两项FC-BGA（倒装芯片球栅阵列）基板投资计划。该产品用于AI服务器、机器人和智能汽车芯片。其中一项投资规模为4.27万亿韩元（32亿美元），用于韩国世宗工厂，是公司迄今针对单一产品进行的最大规模投资；另一项投资规模为2.51万亿韩元（18.7亿美元），用于越南子公司。该公司曾于2022年宣布将在越南北部太原省测试FC-BGA基板。如今该设施的扩建表明试生产结果符合预期，公司已准备好进入大规模量产阶段。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 09:21:01",
-      "text": "【港股开盘：恒生指数跌0.45%，恒生科技指数跌0.33%】美团-W跌1.06%，药明康德跌1.10%，友邦保险跌1.16%，比亚迪电子跌1.59%，信达生物跌2.37%，百济神州跌2.72%，药明生物跌3.11%。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
