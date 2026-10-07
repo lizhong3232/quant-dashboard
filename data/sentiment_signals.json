@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-06 19:17:11",
+  "audit_time": "2026-10-06 20:00:45",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 15,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -27,6 +27,66 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-07 10:49:18",
+      "text": "马来西亚副财长：受经济增长推动，马来西亚2026年上半年税收收入将增长9%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 10:42:14",
+      "text": "【木鸟民宿发布《2026国庆民宿消费报告》：北京夺得双榜首，三线及以下城市日均订单同比增长17%】10月7日上午消息。木鸟民宿发布《2026国庆民宿消费报告》。报告显示，今年国庆假期民宿订单同比增长显著，连住7天及以上订单同比增长30%。今年国庆假期，15%的用户选择在国庆假期前出发。三线及以下城市日均订单同比增长17%。四成用户打卡宝藏县城民宿，奔县游成为国庆假期热点。家庭游用户订单占比53%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 10:40:16",
+      "text": "【途家：十一宝藏小城民宿预订同比涨两成】10月7日上午消息，十一假期进入尾声。途家民宿数据显示，从9月中下旬开始，十一民宿预订进入高峰，假期超过六成订单是在9月中旬以后预订的；10月1日至10月4日的假期前半段，是游客入住高峰。从目的地看，青岛、北京、成都、重庆、南京民宿预订量位居全国前五；伊犁、黔西南、迪庆等一批适合赏秋、慢游的宝藏小城订单同比增长两成以上。此外，国庆期间，北上广等大城市郊区民宿预订火热。北京怀柔、延庆、密云等远郊地区的民宿承接了北京市民的短途度假需求。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 10:31:01",
+      "text": "三菱汽车就针对其美国子公司的诉讼达成和解。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-07 10:23:14",
+      "text": "【国家外汇管理局：9月末我国外汇储备规模为34003亿美元 环比下降381亿美元】国家外汇管理局统计数据显示，截至2026年9月末，我国外汇储备规模为34003亿美元，较8月末下降381亿美元，降幅为1.11%。2026年9月，受全球宏观经济环境、主要经济体货币政策等因素影响，美元指数上涨，全球主要金融资产价格总体下跌。汇率折算和资产价格变化等因素综合作用，当月外汇储备规模下降。我国经济运行总体平稳、动能向新、结构向优，高质量发展取得新成效，有利于外汇储备规模保持基本稳定。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-07 10:03:27",
       "text": "【中国央行连续第23个月增持黄金】中国9月末黄金储备报7747万盎司（约2409.59吨），环比增加74万盎司（约23.02吨），8月末黄金储备报7673万盎司（约2386.57吨）。中国央行已连续第23个月增持黄金。",
@@ -157,66 +217,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 08:32:48",
-      "text": "【摩根大通上调潍柴动力目标价，看好其强劲前景】摩根大通上调潍柴动力目标价，理由是公司出货前景向好、利润率具备韧性、AI数据中心业务增长提速以及固体氧化物燃料电池（SOFC）商业化推进。包括KarenLi在内的摩根大通分析师在研报中写道，这家中国制造商近期股价回调，源于市场对AI数据中心电源供应链的负面情绪以及宏观逆风因素，并非潍柴的业务执行或基本面出现恶化。注：该股较5月历史高点已下跌超30%。“Bloom Energy、Ceres以及船舶发动机/燃气发动机头部企业的行业对标数据均显示，潍柴具备多年增长空间，海内外AIDC算力电源需求以及固体氧化物燃料电池业务带来的上行潜力尚未完全反映在市场一致预期与估值之中。”摩根大通维持潍柴动力增持评级，目标价由55港元上调至57港元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 08:23:49",
-      "text": "摩根大通：将潍柴动力目标价由55港元上调至57港元，维持增持评级。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 08:20:52",
-      "text": "【美国农业部海外农业局：印度食糖产量预计低于3000万吨】美国农业部海外农业局（FAS）在一份报告中称，本月开启的2026-27榨季，印度食糖产量预计为2950万吨。该数值低于美国农业部此前3360万吨的官方预估。“甘蔗主产区在关键生长期降雨严重不足、持续干旱，作物生长受阻，造成收割甘蔗重量与每公顷单产双双下降。”主产邦马哈拉施特拉邦降雨失序，部分农田出现积水，进一步拖累产量。期末库存预计降至400万吨，低于此前650万吨的官方预估。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 08:15:30",
-      "text": "三星：三星钱包现已支持部分通用汽车车型的数字钥匙功能，首批支持车型为部分 2026 及 2027 款凯迪拉克电动车型。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-07 08:07:56",
-      "text": "【热门航线机票价格已回落 有长线机票价格较节前下降逾七成】随着国庆假期进入尾声，部分热门航线的机票价格已经率先回落。美团数据显示，10月7日上海至呼伦贝尔机票含税均价约490元，较节前超过2000元的均价下降约76%；10月3日、4日，平台“特价机票”搜索量较10月1日、2日增长13%；价格变化之下，不少游客开始把目光转向假期后半程和节后行程。 从假期后半程到节后，价格回落并不限于单一航线，北方赏秋与南方长线目的地均有低价出现。美团数据显示，10月5日，北京直飞呼伦贝尔的机票含税均价约415元，较节前同期下降约59%；10月6日，杭州至西双版纳机票含税均价约425元，较节前同期下降约63%。节后价格进一步下探，10月8日至14日，上海至西双版纳机票含税均价约396元，较节前同期下降约65%；丽江、大理、三亚、昆明等长线目的地的部分航线，降幅也达到五至六成。 （澎湃）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
