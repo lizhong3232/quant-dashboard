@@ -45,7 +45,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-06 00:05:10",
+  "last_updated": "2026-10-07 00:08:31",
   "benchmark": {
     "last_price": 4.432,
     "nav": 0.9601
@@ -171,6 +171,15 @@
     {
       "timestamp": "2026-10-06 00:05:10",
       "date": "2026-10-06",
+      "cash": 6095.88,
+      "portfolio_value": 97071.88,
+      "account_nav": 0.9707,
+      "bench_nav": 0.9601,
+      "alpha": 1.06
+    },
+    {
+      "timestamp": "2026-10-07 00:08:31",
+      "date": "2026-10-07",
       "cash": 6095.88,
       "portfolio_value": 97071.88,
       "account_nav": 0.9707,
