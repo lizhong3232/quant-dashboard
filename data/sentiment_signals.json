@@ -1,12 +1,86 @@
 {
-  "audit_time": "2026-10-08 19:30:16",
+  "audit_time": "2026-10-08 19:45:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 6,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-09 10:44:07",
+      "text": "【十一假期上海链家二手房成交量同比增长44%】上海链家数据显示，十一假期（10/1-10/7）上海链家的二手房成交量同比2025年十一假期增长44%，新房成交量增长64%。值得关注的是，带看量增幅低于成交量增幅，这一“剪刀差”释放出关键信号——当前购房者决策效率明显提升，观望情绪减弱，成交意愿较去年更为坚定。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-09 10:40:04",
+      "text": "【主力资金：中际旭创净卖出超9亿】截至目前，今日主力资金净流出394.91亿；净流入反内卷、有机硅、麒麟电池等板块，其中反内卷板块净流入13.12亿；净流出融资融券、转融券标的、TMT等板块，其中融资融券板块净流出361.39亿。\n  \n个股方面，宁德时代净买入10.03亿元位居首位，东岳硅材、金健米业、天赐材料主力资金净流入居前；中际旭创净卖出9.78亿元位居首位，新易盛、长鑫科技、胜宏科技净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-09 10:38:47",
+      "text": "【华为技术公司被执行70.2万】天眼查App显示，近日，华为技术有限公司新增一则被执行人信息，执行标的70.2万余元人民币，执行法院为苏州工业园区人民法院。该公司成立于1987年9月，法定代表人为赵明路，注册资本约411.4亿人民币，经营范围包括信息系统设计、集成、运行维护等，由华为投资控股有限公司全资持股。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "流动性与债务违约",
+        "sentiment_score": -0.9,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-09 10:37:29",
+      "text": "【九联科技：物联网模组出货保持稳健增长 多款产品已完成开源鸿蒙认证】九联科技在10月9日召开的2026年半年度业绩说明会上表示，公司物联网模组出货保持稳健增长，多款产品已完成开源鸿蒙认证。现阶段，公司重点服务各行业客户，助力客户快速开发鸿蒙生态终端。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-09 10:30:21",
+      "text": "【华熙生物：部分新产品已进入商业化阶段 并开始形成收入贡献】华熙生物在10月9日召开的2026年半年度业绩说明会上表示，公司持续围绕与生命健康密切相关的生物活性物开展研发和产业化布局，在巩固透明质酸传统优势的基础上，逐步拓展至PDRN/PN、重组胶原蛋白、母乳低聚糖（HMOs）、麦角硫因、红景天苷等新型生物活性物。目前，部分新产品已进入商业化阶段，并开始形成收入贡献。原料业务方面，PDRN、重组胶原蛋白等新生命活性物正在逐步成为新的增长点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-09 10:09:37",
       "text": "【“中国天眼”发现首例原生演化脉冲星三体系统】从中国科学院国家天文台获悉，依托“中国天眼”FAST的优越探测性能，近期，国家天文台韩金林研究员等科研人员，结合FAST射电观测数据与国际上光学和伽马射线望远镜的多波段天文数据，揭示了FAST发现的脉冲星J0435+3233属于首例尚在演化阶段的原生三体系统，这也是第二例被确认的脉冲星三体系统。相关研究成果10月9日在国际学术期刊《天体物理学杂志快报》发表。",
