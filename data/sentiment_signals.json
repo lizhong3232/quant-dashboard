@@ -1,22 +1,36 @@
 {
-  "audit_time": "2026-10-08 22:45:17",
+  "audit_time": "2026-10-08 23:00:19",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-09 14:00:08",
+      "text": "日本9月机床订单初值同比增长60.4%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-09 13:46:09",
+      "text": "SK集团会长崔泰源：预计芯片需求将继续快速增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-09 13:35:58",
       "text": "【海南国庆假期接待游客475.4万人次 旅游总花费68.75亿元】2026年国庆假期，海南接待游客475.40万人次，较2025年增长13.1%，较2024年增长15.0%；游客总花费68.75亿元，较2025年增长14.7%，较2024年增长19.8%；入境游客3.29万人次，较2025年增长18.4%，较2024年增长88.6%。据海口海关统计，假期7天共监管离岛免税购物金额8.55亿元、参与购物人数12.3万人次，日均销售额突破1亿元。据海口出入境边防检查总站消息，10月1日至10月7日16时，海南共验放出入境交通工具409架（艘）次、出入境人员5.4万人次，较去年同期分别增长12.1%和13.4%。",
@@ -123,46 +137,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 12:32:00",
-      "text": "【比亚迪：当前闪充车型订单需求旺盛 公司首要目标是加快二代刀片电池产能爬坡】比亚迪(002594)10月9日在互动平台表示，公司产品定价会综合市场竞争、用户需求、长期品牌战略、产能释放节奏等多维度因素统筹考量。当前闪充车型订单需求旺盛，公司首要目标是加快二代刀片电池产能爬坡，全力提升交付能力，保障消费者购车体验。产品相关价格信息请以官方发布为准。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 12:30:31",
-      "text": "【今年前9月全国二手房交易网签面积同比增长10.7％】10月9日，据中国建设报消息，2026年1—9月份，全国二手房交易网签面积61746万平方米，同比增长10.7％。二手房成交持续走高的背后，是房地产市场正在发生的结构性变革。此前的9月18日，国务院新闻办公室举行“开局起步‘十五五’”系列主题新闻发布会，住房和城乡建设部房地产市场监管司司长张雪涛在发布会上指出，当前，房地产市场出现了两个转变：一是房地产市场供求关系发生了重大变化，二是房地产市场进入了存量时代。从数据来看，全国二手房的交易占比已从2020年的27%提高到2025年的46%。今年前八个月，二手房交易占比已经达到52%，正式标志着房地产进入到存量时代。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 12:11:16",
-      "text": "【青海省海北州委原副书记、政法委原书记张爱红被“双开”】据青海省纪委监委消息，经中共青海省委批准，青海省纪委监委对青海省海北州委原副书记、政法委原书记张爱红严重违纪违法问题进行了立案审查调查。张爱红严重违反党的政治纪律、组织纪律、廉洁纪律和工作纪律，构成严重职务违法并涉嫌受贿犯罪，且在党的十八大后不收敛、不收手，性质严重，影响恶劣，应予严肃处理。依据《中国共产党纪律处分条例》《中华人民共和国监察法》《中华人民共和国公职人员政务处分法》等有关规定，经中共青海省纪委常委会会议研究并报中共青海省委批准，决定给予张爱红开除党籍处分；由青海省监委给予其开除公职处分；收缴其违纪违法所得；将其涉嫌犯罪问题移送检察机关依法审查起诉，所涉财物一并移送。（央视新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "监管调查立案",
-        "sentiment_score": -1.0,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
