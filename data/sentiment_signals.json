@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-10-08 22:00:17",
+  "audit_time": "2026-10-08 22:15:18",
   "total_news_scanned": 100,
   "relevant_events_found": 18,
   "black_swan_count": 0,
@@ -27,6 +27,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-09 13:01:42",
+      "text": "【日本实际家庭消费连续9个月同比下滑 】日本总务省9日公布的调查结果显示，日本家庭消费持续疲软，8月实际家庭消费支出连续第9个月同比下滑。数据显示，8月日本两人及以上家庭月平均消费支出同比下降3.1%。在消费支出的10个大类中，有9类支出同比下降。具体来看，当月食品支出下降1.4%；教育支出降幅较大，下降12.3%；水电燃气等支出下降5.2%，连续6个月下滑；服装、鞋类、家具及家居用品等支出也出现下滑。（新华社）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-09 12:52:50",
       "text": "摩根大通将杜邦评级从\"增持\"下调至\"中性\"；目标价从172美元下调至145美元。",
@@ -129,18 +141,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 12:00:40",
-      "text": "【IDC：第三季度全球PC出货量同比下降20.1%】国际数据公司（IDC）发布的最新初步数据显示，2026年第三季度全球PC出货量6270万台，同比下降20.1%。这已经是连续第二个季度下滑，且降幅比二季度的3.8%明显加大。环比来看，三季度出货量也少了9.1%，往年的“三季度比二季度旺”这次没有出现。供应端一直没缓过来，加上今年早些时候厂商和渠道商赶在涨价前集中备货，需求被提前消耗，到三季度可释放的需求所剩无几。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     },
     {
