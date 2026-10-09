@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-10-08 20:00:17",
+  "audit_time": "2026-10-08 20:15:18",
   "total_news_scanned": 100,
   "relevant_events_found": 16,
   "black_swan_count": 0,
@@ -26,6 +26,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-09 11:05:46",
+      "text": "隔夜SHIBOR报1.3130%，下降6.26个基点。7天SHIBOR报1.3410%，下降4.90个基点。3个月SHIBOR报1.4300%，上涨0.00个基点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-09 11:03:52",
+      "text": "【千叶珠宝新增被执行人信息，执行标的1814万余元】天眼查App显示，10月8日，北京市千叶珠宝股份有限公司新增一则被执行人信息，执行标的1814万余元人民币，执行法院为常州市新北区人民法院。该公司成立于2001年3月，法定代表人为林明杰，注册资本约1.1亿人民币，经营范围包括企业管理、工艺美术设计、承办展览展示等，由林明杰、高晓松、林慧仙等共同持股。据媒体报道，此前，该公司被曝出拖欠员工薪资、管理层失联等消息。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "流动性与债务违约",
+        "sentiment_score": -0.9,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
     {
       "timestamp": "2026-10-09 10:59:55",
       "text": "印尼央行调查显示，8月印尼零售销售同比增长1.3%。",
@@ -196,30 +220,6 @@
         "sentiment_score": -1.0,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 10:00:15",
-      "text": "【检察机关依法对陈伟俊涉嫌受贿案提起公诉】从最高人民检察院获悉，新疆维吾尔自治区党委原常委、自治区政府原副主席陈伟俊涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪对陈伟俊作出逮捕决定，并指定由安徽省滁州市人民检察院审查起诉。近日，滁州市人民检察院已向滁州市中级人民法院提起公诉。检察机关在审查起诉阶段，依法告知了被告人陈伟俊享有的诉讼权利，并讯问了被告人，听取了辩护人的意见。检察机关起诉指控：被告人陈伟俊利用担任浙江省奉化市委副书记、市长，宁波市委常委、鄞州区委书记，湖州市委副书记、市长，湖州市委书记，浙江省副省长、温州市委书记，浙江省委常委、温州市委书记，新疆维吾尔自治区党委常委、自治区政府副主席等职务上的便利，为他人谋取利益，非法收受他人财物，数额特别巨大，依法应当以受贿罪追究其刑事责任。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 09:55:27",
-      "text": "【1—9月全国二手房交易网签面积同比增长10.7%】据中国建设报，1—9月份，全国二手房交易网签面积61746万平方米，同比增长10.7%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
