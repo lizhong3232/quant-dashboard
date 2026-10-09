@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-08 22:15:18",
+  "audit_time": "2026-10-08 22:30:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 18,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -18,11 +18,10 @@
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
-      "avg_sentiment": 0.13,
-      "news_count": 3,
+      "avg_sentiment": 0.0,
+      "news_count": 1,
       "latest_events": [
-        "行业资讯/宏观动态",
-        "温和经营利好"
+        "行业资讯/宏观动态"
       ]
     }
   },
@@ -177,42 +176,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 11:48:35",
-      "text": "【花旗：苹果季绩焦点在服务业务增长，维持“买入”评级】花旗发表报告指，苹果将于11月2日收市后公布9月季度业绩，该行认为投资者焦点集中于服务业务增长动能，同时关注App Store收入持续疲弱、agentic AI影响的额外忧虑、存储器成本上升对毛利率的压力，以及因今秋发布会欠缺基本型号，对iPhone带来季节性销售影响。该行的iPhone 18 Pro/Pro Max出货追踪显示升级周期略为不那么明显，惟并非意外，因部分需求或会延后至iPhone Duo发布。该行大致维持2026/2027年iPhone出货量增长预测不变，分别为1.4%/6.7%。该行预计9月季度收入及每股盈利大致符合市场预期，而12月季度收入及每股盈利则因今年不同的发布节奏而低于预期。该行维持“买入”评级。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 11:45:08",
-      "text": "根据越南海关部门公布的数据计算，9月份越南对美出口额同比增长31.7%，达到180.5亿美元。自美国进口额同比增长30.0%，达到19.8亿美元。对美贸易顺差从前月的152.8亿美元扩大至160.7亿美元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-09 11:38:54",
-      "text": "【玉渊谭天：央行为何此时发布人民币汇率政策立场】10月8日下午，中国人民银行发布关于人民币汇率的政策立场。这是央行对汇率问题的系统性阐述。“政策立场”这个词，是指以国家名义发布的官方文本，在对外表述中，代表的是官方态度。这份政策立场要厘清的，是三条线： 1. 汇率问题不能政治化，更不能用来抹黑别人。 2. 某些国际组织的报告不是成员国共同商定的，归根到底也是一家之言，不是金科玉律，更不能被选择性使用。多边机制要回到协商一致、平等参与的轨道。 3. 某些国家不能把自己造成的问题包装成别人造成的问题，再甩锅给别人。自己的经济问题到底是谁的责任，要清清楚楚。 接下来，中国将继续做好自己的事，也始终愿意同各方一道，为全球经济动态平衡和可持续增长作积极贡献。 （玉渊谭天）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
