@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 6095.88,
-  "portfolio_value": 97071.88,
-  "account_nav": 0.9707,
+  "portfolio_value": 90853.88,
+  "account_nav": 0.9085,
   "bench_nav": 1.0017,
   "positions": {
     "300474.SZ": {
       "name": "景嘉微",
       "shares": 400,
       "avg_cost": 50.3,
-      "last_price": 50.71,
-      "market_value": 20284.0,
+      "last_price": 49.1,
+      "market_value": 19640.0,
       "pnl": 164.0,
       "pnl_pct": 0.82,
       "highest": 52.73
@@ -21,8 +21,8 @@
       "name": "润泽科技",
       "shares": 600,
       "avg_cost": 65.05,
-      "last_price": 64.02,
-      "market_value": 38412.0,
+      "last_price": 62.43,
+      "market_value": 37458.0,
       "pnl": -618.0,
       "pnl_pct": -1.58,
       "highest": 65.05
@@ -31,8 +31,8 @@
       "name": "传音控股",
       "shares": 600,
       "avg_cost": 53.81,
-      "last_price": 53.8,
-      "market_value": 32280.0,
+      "last_price": 46.1,
+      "market_value": 27660.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 53.81
@@ -45,10 +45,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-07 00:08:31",
+  "last_updated": "2026-10-08 00:05:10",
   "benchmark": {
-    "last_price": 4.432,
-    "nav": 0.9601
+    "last_price": 4.389,
+    "nav": 0.9508
   },
   "nav_history": [
     {
@@ -185,6 +185,15 @@
       "account_nav": 0.9707,
       "bench_nav": 0.9601,
       "alpha": 1.06
+    },
+    {
+      "timestamp": "2026-10-08 00:05:10",
+      "date": "2026-10-08",
+      "cash": 6095.88,
+      "portfolio_value": 90853.88,
+      "account_nav": 0.9085,
+      "bench_nav": 0.9508,
+      "alpha": -4.23
     }
   ]
 }
