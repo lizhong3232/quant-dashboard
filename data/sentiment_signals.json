@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-11 19:22:14",
+  "audit_time": "2026-10-11 19:34:09",
   "total_news_scanned": 100,
-  "relevant_events_found": 8,
+  "relevant_events_found": 6,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -18,15 +18,6 @@
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "601138.SS": {
-      "ticker": "601138.SS",
-      "name": "工业富联",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -117,34 +108,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 09:30:15",
-      "text": "工业富联跌超4%。",
-      "analysis": {
-        "matched_tickers": [
-          "601138.SS"
-        ],
-        "matched_names": [
-          "工业富联"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 09:28:21",
-      "text": "【韩国央行行长称半导体产业走强将支撑经济增长】10月12日，韩国央行行长申铉松表示，在半导体产业表现强劲及其对内需的带动作用支撑下，韩国经济有望保持稳健增长。申铉松表示，随着成本压力持续传导、收入状况改善逐步推高需求端压力，韩国通胀率预计将在一段时间内高于央行目标水平。韩国央行此前连续第二次上调基准利率，原因包括经济增长强于预期、通胀加速以及金融稳定风险仍处高位。央行将密切评估通胀、经济增长和金融稳定状况，以决定后续加息的时机与幅度。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
