@@ -1,11 +1,29 @@
 {
-  "audit_time": "2026-10-11 23:21:55",
+  "audit_time": "2026-10-11 23:33:59",
   "total_news_scanned": 100,
-  "relevant_events_found": 18,
+  "relevant_events_found": 24,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "601633.SS": {
+      "ticker": "601633.SS",
+      "name": "长城汽车",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600031.SS": {
+      "ticker": "600031.SS",
+      "name": "三一重工",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -23,27 +41,161 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "601633.SS": {
-      "ticker": "601633.SS",
-      "name": "长城汽车",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-12 14:33:26",
+      "text": "大众汽车集团：第三季度在中欧及东欧地区的交付量增长1.4%，达到13.5万辆。。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:32:39",
+      "text": "大众汽车集团：第三季度交付量同比下降38.5%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:32:30",
+      "text": "大众汽车集团：第三季度北美交付量下降5.8%，至23.2万辆。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:30:30",
+      "text": "奥迪：第三季度欧洲（除德国外）交付量同比增长1.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:30:26",
+      "text": "奥迪：第三季度北美交付量同比下降17.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:30:20",
+      "text": "奥迪Q3交付量同比下降11.4%，至104.215万辆。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:30:18",
+      "text": "奥迪：Q3在华交付量同比下降24.5%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:30:13",
+      "text": "【汽车整车板块局部异动 赛力斯涨停】午后汽车整车板块局部异动，赛力斯逼近涨停，宇通客车、长城汽车、金龙汽车、曙光股份、江铃汽车冲高。消息面上，问界汽车计划于2027年进入欧洲市场，目前WVTA欧盟整车型式认证工作已全面启动。",
+      "analysis": {
+        "matched_tickers": [
+          "601633.SS"
+        ],
+        "matched_names": [
+          "长城汽车"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:26:58",
+      "text": "高盛增持土耳其卡德米尔公司股份，持股比例突破5%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:26:46",
+      "text": "【小摩：对汇丰及渣打基本面保持正面看法，股价属过度下跌】摩根大通发表研报指，虽然市场对债券投资估值亏损、增长风险及财富管理收入可持续性存有一定忧虑，但整体市场情绪并未过度看淡。该行对汇丰控股及渣打的基本面保持正面看法，认为两间银行的股价属过度下跌。就第三季业绩期而言，摩通相对看好中银香港表现，预期中银香港盈利增长较强，且CET1高达23.8%令债券估值亏损的资本影响较受控。展望未来12个月，则更偏好渣打，认为其盈利增长及股本回报率扩张轨迹较为理想。该行均予汇丰、渣打及中银香港“增持”评级，目标价分别为205港元、310港元及53.3港元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:25:22",
+      "text": "【三一重工成立机械技术服务公司 含AI硬件销售业务】企查查APP显示，近日，浙江三一机械技术服务有限公司成立，经营范围包含集中式快速充电站；电池制造；电子产品销售；人工智能硬件销售等。企查查股权穿透显示，该公司由三一重工间接全资持股。",
+      "analysis": {
+        "matched_tickers": [
+          "600031.SS"
+        ],
+        "matched_names": [
+          "三一重工"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 14:23:18",
+      "text": "【大和：对阿里云业务盈利前景信心提升，重申阿里“买入”评级】大和发表研报，对阿里云业务盈利前景信心提升，目前预测截至今年9月底止次财季云收入将同比增长逾50%；在EBITA层面，预期云业务利润最快于第三财季可基本抵销AI实验室的亏损，成为集团AI投资的重要里程碑，快过此前预期。该行维持次财季云EBITA利润率为12%预测，但将第三财季预测由12.4%上调至约15%，认为AI收入占比较高，尤其是MaaS及IaaS，加上定价能力及规模效益较强，应可推动利润率扩张得更快。近期管理层对资本开支预期为每年约2,000亿至3,000亿元，每年新增产能约2至3吉瓦，一半自建、一半透过租赁及合作方营运设施，预料有助降低资产负债表压力。该行将阿里2027至2029财年每股盈利预测上调2%至3%，以反映云业务盈利改善前景，重申“买入”评级，维持目标价为180港元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-12 14:20:42",
       "text": "【花旗：视PCB/CCL板块急挫为吸引入场机会，偏好建滔积层板等】花旗发表报告指，在人工智能基建硬件领域，中国占全球覆铜板(CCL)供应约75%份额，认为取代中国覆铜板仍然困难。上周五PCB/CCL板块急挫，该行视此为吸引入场机会，因中国覆铜板厂商凭借主导规模及充裕产能，应可继续扩大全球份额，以支持英伟达/ASIC强劲增长。该行在人工智能覆铜板/人工智能PCB设备相关股中，偏好依次为建滔积层板>生益科技>大族激光，因其竞争定位更强。",
@@ -78,164 +230,6 @@
         "sentiment_score": 0.75,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 14:19:14",
-      "text": "【遭小作文错杀，龙头股天顺风能涨停】10月12日，风电设备板块震荡反弹，天顺风能上个交易日跌停，今天直线拉涨停，封单超66万手，成交额超8亿元；截至发稿，振宏股份、威力传动、双一科技涨超10%，泰胜风能、新强联、天能重工等跟涨。消息面上，《21辟谣》注意到，有市场消息称，欧盟委员会决定对原产于中国的风力发电机塔筒及关键结构件发起反倾销与反补贴立案调查。对此，有上市风电企业表示此为假消息，还有风电企业相关工作人员称目前未收到该通知。 当天上午，记者以投资者身份致电大金重工，公司接线工作人员亦确认，欧盟对相关设备发起反倾销和反补贴立案调查属于不实消息，公司经营一切正常。 （21财经）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "监管调查立案",
-        "sentiment_score": -1.0,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 14:10:03",
-      "text": "【主力资金：融资融券板块净流出超219亿】截至目前，今日主力资金净流出236.51亿；净流入传媒、文化传媒概念、IP概念（谷子经济）等板块，其中传媒板块净流入26.55亿；净流出融资融券、转融券标的、纳入富时罗素等板块，其中融资融券板块净流出219.88亿。\n  \n个股方面，宁德时代净买入6.76亿元位居首位，鹏鼎控股、寒武纪、天顺风能主力资金净流入居前；东山精密净卖出8.15亿元位居首位，长鑫科技、中际旭创、兆易创新净流出额居前。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 14:08:03",
-      "text": "【美银维持阿里巴巴“买入”评级，上调目标价并看好云与AI盈利拐点】美银维持阿里巴巴“买入”评级，并将美股目标价上调至178美元、港股目标价由172港元上调至175港元，理由是公司盈利改善尚未充分反映在股价中。该机构预计阿里巴巴9月季度营收同比增长10%，调整后EBITA为300亿元人民币，高于市场一致预期的260亿元及上一季度的270亿元；其中云业务收入增速预计由上一季度的45%加快至52%，外部客户需求增长接近55%，调整后EBITA利润率由11.6%升至12.9%。美银预计，随着训练效率改善，AI实验室及应用业务亏损将由140亿元收窄至110亿元，并预计自12月季度起，云业务调整后EBITA可覆盖AI业务亏损，推动云与AI业务由2026财年亏损逾200亿元逐步在2027财年下半年实现盈亏平衡。电商方面，该机构预计客户管理收入同比下降5%，但受效率提升和即时零售亏损收窄推动，综合电商调整后EBITA仍将增长2%；主要风险包括AI采用或云需求放缓、AI资本开支快于商业化进度以及电商、即时零售和云业务竞争加剧。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 14:00:23",
-      "text": "【前三季度新能源汽车产销量实现两位数增长 海外市场表现亮眼】中国汽车工业协会12日发布的最新数据显示，今年1至9月份，我国新能源汽车市场产销量实现两位数增长，其中海外市场表现亮眼。最新数据显示，今年1至9月份，我国新能源汽车市场产销量分别完成1248.3万辆和1247.2万辆，同比分别增长11%和11.1%，新能源汽车新车销量达到汽车新车总销量的53.6%。在国际市场上，今年1至9月份，新能源汽车出口400.6万辆，同比增长1.3倍中国汽车工业协会相关负责人表示，《智能网联新能源汽车产业发展“十五五”规划》日前正式发布，为“十五五”时期智能网联汽车产业发展提供顶层指引。规划聚焦关键核心技术攻关、车路云跨界融合、产业结构优化、行业治理完善与国际化布局，将推动行业从规模增长转向质量提升，助力中国品牌进一步提升全球竞争力。（央视新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 13:57:20",
-      "text": "【崔东树谈欧盟插混“限制”：短期出口承压 但难撼动新能源车出口大盘】针对近期欧盟对中国车企插混车型出口“限制”一事，中国汽车流通协会乘联分会负责人崔东树表示，欧盟出台相关限制会给中国插混车出口带来一定影响，但国内插混产品竞争力强劲，已实现从电比油高到油电同价、再到电比油低的跨越，在技术、油耗、整车价值体验上全球领先。欧洲此前排斥插混路线，本土产业错失发展机遇，2025~2026年我国插混车出口在欧盟市场爆发，也因此带来竞争压力。（每经）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 13:57:16",
-      "text": "【机构：台积电三季度净利润预计同比大增65% 连续六个季度创历史新高】全球最大先进AI芯片代工厂台积电周四将公布三季度财报。外界普遍预测，受AI热潮推动，台积电有望实现连续第六个季度盈利创历史新高。分析师预测显示，台积电三季度净利润预计同比大增65%，至7463亿新台币（折合234亿美元）。若净利润超过7065.6亿新台币，将再次创下公司单季净利润历史新高，同时实现连续11个季度利润增长。上周四，台积电公布的初步数据显示，公司三季度营收1.49万亿新台币（约合467亿美元），同比增加51%，超出市场预期，创下历史新高。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 13:46:00",
-      "text": "【万里石：公司及实控人目前处于证监会立案调查期间，公司正积极配合证监会的调查工作。】有投资者向万里石（002785.SZ）提问，公司及实控人因涉嫌信息披露违法违规被立案，前期存在贸易业务收入确认由总额法调整为净额法、以及实控人非经营性资金占用等情形。10月12日，公司回答表示，公司及实控人目前处于证监会立案调查期间，公司正积极配合中国证监会的调查工作。相关风险请以公司公告为准，公司将按规定及时履行信息披露义务，敬请广大投资者注意投资风险。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "监管调查立案",
-        "sentiment_score": -1.0,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 13:45:39",
-      "text": "【摩通降阿里港股目标价近5% 料其云业务于第三财季迎盈利拐点 维持增持】摩根大通发研报指，在阿里巴巴9月季度财报前夕，下调公司2027财年及2028财年经调整每股盈利预测分别9%及10%，同时上调阿里2027财年经调整EBITDA 8%，并下调2028财年经调整EBITDA 4%。该行降阿里巴巴目标价4.88%，由205港元降至195港元，维持“增持”评级。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 13:40:24",
-      "text": "【广发证券：维持恒瑞医药“买入”评级，SHR-1139银屑病Ⅱ期数据积极】广发证券研报指出，恒瑞医药SHR-1139银屑病Ⅱ期数据积极，具备全球best-in-disease潜力。该行预计公司26-28年EPS分别为1.40、1.70、2.06元/股。本次数据进一步验证SHR-1139的疗效及超长效潜力，强化公司自身免疫领域创新管线的竞争力，考虑其行业龙头地位，参考可比公司，给予其26年50倍PE估值，对应A股合理价值为69.98元/股，维持“买入”评级。同时按当前AH股溢价比例计算H股合理价值为71.70港元/股，维持“买入”评级。",
-      "analysis": {
-        "matched_tickers": [
-          "600276.SS"
-        ],
-        "matched_names": [
-          "恒瑞医药"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 13:37:20",
-      "text": "【跟阿里数据中心和合作进展顺利吗？新特电气回应】有投资者向新特电气（301120.SZ）提问，作为生产SST核心部件的产商，请问下游客户都有哪些？跟阿里数据中心和合作进展顺利吗？10月12日，公司回答表示，公司中高频隔离变压器等磁性器件的下游主要为电力电子系统集成，涵盖数据中心供配电领域头部企业等。公司目前有序推进移相变压器在数据中心的应用，有关业务进展情况请关注公司后续在深交所指定信息披露平台披露的定期报告及相关临时公告。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 13:24:47",
-      "text": "乘联分会发文称，9月国内新能源乘用车零售突破2万辆的企业品牌是：比亚迪汽车（246,816辆）、吉利汽车（119,682辆）、零跑汽车（78,202辆）、特斯拉中国（64,837辆）、长安汽车（61,732辆）、上汽通用五菱（54,810辆）、奇瑞汽车（46,860辆）、上汽乘用车（40,280辆）小米汽车（40,015辆）、鸿蒙智行（37,490辆）、蔚来汽车（37,231辆）、长城汽车（32,048辆）、理想汽车（31,817辆）、小鹏汽车（30,599辆）、广汽埃安（24,539辆）、东风汽车（20,070辆）、极狐汽车（20,021辆）。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ",
-          "601633.SS"
-        ],
-        "matched_names": [
-          "长城汽车",
-          "比亚迪"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 13:24:06",
-      "text": "【大金重工：欧盟对相关设备发起反倾销和反补贴立案调查属于不实消息】有市场消息称，欧盟委员会决定对原产于中国的风力发电机塔筒及关键结构件发起反倾销与反补贴立案调查。对此，有上市风电企业表示此为假消息，还有风电企业相关工作人员称目前未收到该通知。当天上午，大金重工公司接线工作人员亦确认，欧盟对相关设备发起反倾销和反补贴立案调查属于不实消息，公司经营一切正常。（21财经）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "监管调查立案",
-        "sentiment_score": -1.0,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
