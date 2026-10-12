@@ -1,64 +1,78 @@
 {
-  "timestamp": "2026-09-20 18:15:34",
+  "timestamp": "2026-10-11 18:31:17",
   "strategy": "Hybrid_LightGBM_OLPS_Adaptive",
   "barra_risk_profile": {
-    "total_equity_ratio": 0.4001,
-    "annualized_volatility_pct": 14.16,
-    "factor_risk_vol_pct": 7.32,
-    "specific_risk_vol_pct": 12.13,
-    "factor_risk_ratio_pct": 26.7,
-    "specific_risk_ratio_pct": 73.3,
+    "total_equity_ratio": 0.7499,
+    "annualized_volatility_pct": 11.34,
+    "factor_risk_vol_pct": 2.79,
+    "specific_risk_vol_pct": 11.0,
+    "factor_risk_ratio_pct": 6.0,
+    "specific_risk_ratio_pct": 94.0,
     "active_tracking_error_pct": null,
     "style_exposures": {
-      "Size": -0.584,
-      "Beta": -0.061,
-      "Momentum": 0.011,
-      "Volatility": 0.215,
-      "Value": -0.171,
-      "Liquidity": 0.053
+      "Size": 0.052,
+      "Beta": 0.095,
+      "Momentum": -0.116,
+      "Volatility": 0.148,
+      "Value": 0.013,
+      "Liquidity": 0.045
     }
   },
   "allocation": [
     {
+      "ticker": "688981.SS",
+      "target_weight": 0.12,
+      "lgbm_weight": 0.12,
+      "olps_weight": 0.1865,
+      "prev_weight": 0.082
+    },
+    {
       "ticker": "600031.SS",
-      "target_weight": 0.08,
+      "target_weight": 0.12,
       "lgbm_weight": 0.12,
-      "olps_weight": 0.2802,
-      "prev_weight": 0.0923
+      "olps_weight": 0.1468,
+      "prev_weight": 0.0916
     },
     {
-      "ticker": "000333.SZ",
-      "target_weight": 0.08,
-      "lgbm_weight": 0.12,
-      "olps_weight": 0.0729,
-      "prev_weight": 0.0
-    },
-    {
-      "ticker": "300760.SZ",
-      "target_weight": 0.064,
-      "lgbm_weight": 0.12,
-      "olps_weight": 0.0185,
-      "prev_weight": 0.0
-    },
-    {
-      "ticker": "600887.SS",
-      "target_weight": 0.0619,
-      "lgbm_weight": 0.12,
-      "olps_weight": 0.0131,
-      "prev_weight": 0.0
-    },
-    {
-      "ticker": "600584.SS",
-      "target_weight": 0.0583,
-      "lgbm_weight": 0.12,
-      "olps_weight": -0.0059,
-      "prev_weight": 0.113
+      "ticker": "601088.SS",
+      "target_weight": 0.0975,
+      "lgbm_weight": 0.02,
+      "olps_weight": 0.1791,
+      "prev_weight": 0.1099
     },
     {
       "ticker": "002594.SZ",
-      "target_weight": 0.0559,
+      "target_weight": 0.0965,
       "lgbm_weight": 0.12,
-      "olps_weight": -0.0019,
+      "olps_weight": 0.0364,
+      "prev_weight": 0.0
+    },
+    {
+      "ticker": "600276.SS",
+      "target_weight": 0.0895,
+      "lgbm_weight": 0.12,
+      "olps_weight": 0.019,
+      "prev_weight": 0.0
+    },
+    {
+      "ticker": "601225.SS",
+      "target_weight": 0.0807,
+      "lgbm_weight": 0.05,
+      "olps_weight": 0.092,
+      "prev_weight": 0.102
+    },
+    {
+      "ticker": "600887.SS",
+      "target_weight": 0.0802,
+      "lgbm_weight": 0.12,
+      "olps_weight": -0.0043,
+      "prev_weight": 0.0
+    },
+    {
+      "ticker": "600036.SS",
+      "target_weight": 0.0655,
+      "lgbm_weight": 0.12,
+      "olps_weight": -0.0411,
       "prev_weight": 0.0
     }
   ]

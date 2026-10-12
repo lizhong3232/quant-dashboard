@@ -1,63 +1,63 @@
 {
   "initial_capital": 1000000.0,
-  "cash": 170442.65,
-  "portfolio_value": 925132.65,
+  "cash": 243028.87,
+  "portfolio_value": 916361.87,
   "positions": {
     "601088.SS": {
       "name": "中国神华",
-      "shares": 2100,
-      "avg_cost": 46.05,
-      "last_price": 48.4,
-      "market_value": 101640.0
-    },
-    "601138.SS": {
-      "name": "工业富联",
       "shares": 1800,
-      "avg_cost": 65.39,
-      "last_price": 56.07,
-      "market_value": 100926.0
+      "avg_cost": 46.05,
+      "last_price": 48.56,
+      "market_value": 87408.0
     },
     "688981.SS": {
       "name": "中芯国际",
-      "shares": 700,
-      "avg_cost": 122.48,
-      "last_price": 108.42,
-      "market_value": 75894.0
-    },
-    "002463.SZ": {
-      "name": "沪电股份",
       "shares": 1000,
-      "avg_cost": 125.61,
-      "last_price": 112.29,
-      "market_value": 112290.0
-    },
-    "600584.SS": {
-      "name": "长电科技",
-      "shares": 1500,
-      "avg_cost": 68.79,
-      "last_price": 62.74,
-      "market_value": 94110.0
+      "avg_cost": 117.851,
+      "last_price": 107.03,
+      "market_value": 107030.0
     },
     "601225.SS": {
       "name": "陕西煤业",
-      "shares": 3500,
+      "shares": 2700,
       "avg_cost": 25.53,
-      "last_price": 26.97,
-      "market_value": 94395.0
-    },
-    "600030.SS": {
-      "name": "中信证券",
-      "shares": 3500,
-      "avg_cost": 27.42,
-      "last_price": 25.91,
-      "market_value": 90685.0
+      "last_price": 27.35,
+      "market_value": 73845.0
     },
     "600031.SS": {
       "name": "三一重工",
-      "shares": 5000,
-      "avg_cost": 19.97,
-      "last_price": 16.95,
-      "market_value": 84750.0
+      "shares": 6400,
+      "avg_cost": 19.336,
+      "last_price": 17.07,
+      "market_value": 109248.0
+    },
+    "002594.SZ": {
+      "name": "比亚迪",
+      "shares": 1000,
+      "avg_cost": 85.327,
+      "last_price": 85.31,
+      "market_value": 85310.0
+    },
+    "600276.SS": {
+      "name": "恒瑞医药",
+      "shares": 1700,
+      "avg_cost": 46.829,
+      "last_price": 46.82,
+      "market_value": 79594.0
+    },
+    "600887.SS": {
+      "name": "伊利股份",
+      "shares": 2600,
+      "avg_cost": 27.826,
+      "last_price": 27.82,
+      "market_value": 72332.0
+    },
+    "600036.SS": {
+      "name": "招商银行",
+      "shares": 1400,
+      "avg_cost": 41.908,
+      "last_price": 41.9,
+      "market_value": 58660.0
     }
   },
   "benchmark": {
@@ -67,7 +67,7 @@
     "last_price": 4.385,
     "nav": 0.95
   },
-  "account_nav": 0.9251,
+  "account_nav": 0.9164,
   "nav_history": [
     {
       "date": "2026-09-06",

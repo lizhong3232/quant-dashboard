@@ -103,5 +103,137 @@
     "fee": 8.24,
     "saved_bps": 1.7,
     "reason": "周一开盘组合建仓: 商业银行之王底仓 (零售银行业绩拐点与资产质量压舱石)"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561427",
+    "action": "SELL",
+    "ticker": "601088.SS",
+    "name": "中国神华",
+    "shares": 300,
+    "price": 48.56,
+    "amount": 14568.0,
+    "fee": 10.2,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561484",
+    "action": "SELL",
+    "ticker": "601138.SS",
+    "name": "工业富联",
+    "shares": 1800,
+    "price": 52.23,
+    "amount": 94014.0,
+    "fee": 65.81,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561508",
+    "action": "SELL",
+    "ticker": "002463.SZ",
+    "name": "沪电股份",
+    "shares": 1000,
+    "price": 111.8,
+    "amount": 111800.0,
+    "fee": 78.26,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561530",
+    "action": "SELL",
+    "ticker": "600584.SS",
+    "name": "长电科技",
+    "shares": 1500,
+    "price": 61.32,
+    "amount": 91980.0,
+    "fee": 64.39,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561551",
+    "action": "SELL",
+    "ticker": "601225.SS",
+    "name": "陕西煤业",
+    "shares": 800,
+    "price": 27.35,
+    "amount": 21880.0,
+    "fee": 15.32,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561573",
+    "action": "SELL",
+    "ticker": "600030.SS",
+    "name": "中信证券",
+    "shares": 3500,
+    "price": 25.89,
+    "amount": 90615.0,
+    "fee": 63.43,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561602",
+    "action": "BUY",
+    "ticker": "688981.SS",
+    "name": "中芯国际",
+    "shares": 300,
+    "price": 107.03,
+    "amount": 32109.0,
+    "fee": 6.42,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561639",
+    "action": "BUY",
+    "ticker": "600031.SS",
+    "name": "三一重工",
+    "shares": 1400,
+    "price": 17.07,
+    "amount": 23898.0,
+    "fee": 4.78,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561665",
+    "action": "BUY",
+    "ticker": "002594.SZ",
+    "name": "比亚迪",
+    "shares": 1000,
+    "price": 85.31,
+    "amount": 85310.0,
+    "fee": 17.06,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561689",
+    "action": "BUY",
+    "ticker": "600276.SS",
+    "name": "恒瑞医药",
+    "shares": 1700,
+    "price": 46.82,
+    "amount": 79594.0,
+    "fee": 15.92,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561713",
+    "action": "BUY",
+    "ticker": "600887.SS",
+    "name": "伊利股份",
+    "shares": 2600,
+    "price": 27.82,
+    "amount": 72332.0,
+    "fee": 14.47,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-10-11 18:31:17.561736",
+    "action": "BUY",
+    "ticker": "600036.SS",
+    "name": "招商银行",
+    "shares": 1400,
+    "price": 41.9,
+    "amount": 58660.0,
+    "fee": 11.73,
+    "reason": "LightGBM V2 调仓优化"
   }
 ]

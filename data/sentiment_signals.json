@@ -1,14 +1,14 @@
 {
-  "audit_time": "2026-10-11 18:30:36",
+  "audit_time": "2026-10-11 18:53:19",
   "total_news_scanned": 100,
-  "relevant_events_found": 18,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "601138.SS": {
-      "ticker": "601138.SS",
-      "name": "工业富联",
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -19,23 +19,14 @@
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 3,
+      "news_count": 2,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     },
-    "000858.SZ": {
-      "ticker": "000858.SZ",
-      "name": "五粮液",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和经营利好"
-      ]
-    },
-    "600030.SS": {
-      "ticker": "600030.SS",
-      "name": "中信证券",
+    "601138.SS": {
+      "ticker": "601138.SS",
+      "name": "工业富联",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -44,6 +35,38 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-12 09:41:43",
+      "text": "港股新能源车企板块走强，零跑汽车(09863.HK)涨超6%，吉利汽车(00175.HK)、蔚来-SW(09866.HK)、小鹏集团(09868.HK)、赛力斯(09927.HK)、比亚迪股份(01211.HK)、理想汽车(02015.HK)等个股跟涨。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 09:39:22",
+      "text": "【宁德时代港股涨超3%】宁德时代港股涨3.17%，报507.00港元。A股现涨近2%。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-10-12 09:30:15",
       "text": "工业富联跌超4%。",
@@ -152,92 +175,6 @@
           "300750.SZ"
         ],
         "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 08:58:52",
-      "text": "【浪潮信息到访宏景科技 共研下一代AI基础设施创新应用】近日，浪潮信息服务器业务部门副总经理携产品研发团队一行到访宏景科技。双方围绕新一代AI基础设施的技术创新与应用落地展开深入交流，重点探讨基于NVIDIA Vera CPU架构的服务器在AI智能体（AI Agent）、沙盒（Sandbox）等新兴场景中的应用，以及浪潮信息取得WEKA、VAST Data认证的高性能存储服务器在AI训练与推理集群中的应用前景。双方一致表示，将围绕新一代CPU计算架构、AI智能体基础设施、高性能存储以及AI训练推理集群等方向，联合研发高性能、高效率、更具成本竞争力的AI基础设施解决方案。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 08:58:02",
-      "text": "【国窖1573、古井贡古20大涨 青花郎三连阳逼近700元】新浪财经“酒价内参”过去24小时收集的数据显示，10月12日中国白酒业12大单品的终端零售均价七涨三跌两平，上涨品种数量明显占优，且累计涨幅大幅超过下跌端，整体价盘延续回升态势。赢家方面，精品茅台上涨4元至2468元，强势收复昨日失地，价格重返近期高位；五粮液普五八代上涨1元至806元，二连阳延续反弹，继续稳守800元关口上方；五粮液1618上涨1元至830元，收复昨日跌幅，价盘继续维持窄幅振荡；青花汾20上涨2元至397元，结束此前四连跌，低位迎来小幅修复；国窖1573大涨6元至882元，三连阳涨势明显增长，价盘重返近期高位；古井贡古20大涨6元至538元，二连阳反弹提速；青花郎大涨6元至699元，连续第三日走高，距离700元整数关口仅一步之遥。输家方面，飞天茅台下跌2元至1795元，连续第六日运行在1800元关口下方；茅台1935下跌1元至683元，近一周价格持续小幅下移；洋河梦之蓝M6+下跌2元至602元，昨日反弹后再度回落，平近30天最低纪录。持平方面，习酒君品维持636元不变，连续第二天平盘整理；水晶剑南春保持411元不变，三连跌后暂时步入休整。\n\n今日12大单品的终端零售总价连续第二日回升，七款产品价格上涨，上涨端表现明显占优，推动整体价盘进一步修复。如果12大单品各取一瓶整体打包售卖，今日总售价为10747元，较昨日大幅上涨21元，创下4天以来新高。",
-      "analysis": {
-        "matched_tickers": [
-          "000858.SZ"
-        ],
-        "matched_names": [
-          "五粮液"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 08:55:53",
-      "text": "【10月9日267股获融资买入超亿元 中际旭创获买入16.17亿元居首】10月9日共有3526只个股获融资资金买入，有267股买入金额超亿元。其中，中际旭创、长鑫科技、宁德时代融资买入金额排名前三，分别获买入16.17亿元、15.26亿元、11.77亿元。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 08:55:50",
-      "text": "【冷空气“加码”中 今明天东北华北迎降温降雨】眼下，一股冷空气正在影响我国北方地区。受其影响，今天（10月12日）多地将迎降雨，明天逐渐减弱停歇。除了降雨，这股冷空气还将带来大风降温天气。今明天，东北、华北多地气温下降明显，凉意加重，公众需及时找出厚衣，外出谨防感冒。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 08:50:21",
-      "text": "【AI热潮拉动需求增长 日本半导体上游龙头薪资较2021年上涨25%】随着人工智能（AI）投资拉动半导体设备需求增长，日本主要半导体材料、零部件企业的平均年薪也出现大幅上涨。 根据各家有价证券报告书，日本8家核心半导体材料零部件企业（迪斯科、东京电子、爱德万测试、ScreenHoldings、罗姆、瑞萨电子、东京应化、信越半导体（SUMCO））在2026财年3月决算期（会计年度：2025年4月~2026年3月）的平均年薪达到1075万日元，相比2021年上涨25%。同期日本上市企业整体平均年薪仅维持在600万日元级别，差距十分明显。 特别是迪斯科总部平均年薪较5年前大增95%，达到1879万日元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 08:50:00",
-      "text": "【中信证券：宁德时代预计成为纳入恒生科技指数最大权重个股】中信证券研报表示，2026年10月7日，恒生指数公司发布恒生科技指数编算方法修订方案的市场咨询总结。宁德时代预计成为纳入最大权重个股，关注再平衡过程中被动资金对个股的流动性冲击。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ",
-          "600030.SS"
-        ],
-        "matched_names": [
-          "中信证券",
           "宁德时代"
         ],
         "event_category": "行业资讯/宏观动态",
