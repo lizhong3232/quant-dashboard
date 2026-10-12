@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-11 22:00:16",
+  "audit_time": "2026-10-11 22:15:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 18,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,54 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-12 13:12:03",
+      "text": "【商务部新闻发言人就中欧混动汽车、电动汽车磋商共识答记者问】问：近日，中欧双方在贸易投资磋商机制下就混动汽车、电动汽车贸易进行了深入讨论，避免了局面升级，一些外媒对混动汽车贸易安排的数量等相关细节进行猜测，请问中方有何评论？\n\n答：中欧在贸易投资磋商机制下持续对话，达成多项成果共识，有利于维护稳定、平衡的中欧关键贸易伙伴关系。双方本着相互尊重、平等协商的原则，就混动汽车、电动汽车贸易进行了密集磋商，平衡处理经贸分歧和彼此关切。\n\n关于混动汽车，双方强调并确认了三项基本原则。一是尊重事实。根据欧盟统计局数据，2024年欧盟自中国进口混动汽车10.7万辆，2025年为30.2万辆。双方在2025年基础上达成向上安排，确保中国企业的出口空间和稳定增长，照顾了双方产业基于现实的合理关切。二是非歧视。任何措施都不会专门针对中国产品，更不能歧视性对待中国企业。中方获得配额将不会低于欧方的其他任何进口来源地。三是合规。双方确认贸易安排应符合世贸组织规则。中方保留在世贸组织框架下诉诸争端解决、要求贸易补偿等一切权利。这三项基本原则贯穿始终，是保障中国企业合法权益的坚实基础。\n\n关于电动汽车，中欧双方于今年1月实现反补贴案“软着陆”，欧方发布了价格承诺通用指导文件。就此，欧方将继续推进电动汽车案企业价格承诺相关程序，以及其它复审程序。\n\n在对等互利基础上，上述共识有力维护了中国企业的实际利益，避免了中欧贸易摩擦局面升级，也为中欧双方提供了稳定、可预期、可持续的贸易投资环境，有助于双边经贸关系稳定、平衡和健康发展。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 13:10:33",
+      "text": "【乘联分会：9月新能源乘用车国内零售销量108.4万辆 同比下降16.7%】乘联分会数据显示，9月新能源乘用车国内零售销量108.4万辆，同比下降16.7%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 13:02:29",
+      "text": "乘联分会：中国9月狭义乘用车零售销量环比增长5%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 13:02:19",
+      "text": "【乘联分会：中国9月狭义乘用车零售销量同比下降28.1%】乘联分会数据显示，9月全国广义乘用车市场零售163.1万辆，同比下降28.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-12 12:51:24",
       "text": "【优必选上榜2026年《财富》全球未来成长120强，位列全球第11】近日，《财富》联合波士顿咨询（BCG）发布2026 Fortune Future 120（全球最具未来增长潜力的120强企业榜单），优必选以总分115拿下全球第11名，是本次榜单中排名最高的中国企业。该榜单围绕成长雄心、人才密度、成长文化三大维度，从全球3500多家企业中筛选。美国科技巨头英伟达（第16名）、OpenAI（第18名）、苹果（第55名）、特斯拉（第87名）、Meta（第120名）均上榜，中国共有 11 家企业入选，优必选位列中国企业第一。（新浪科技）",
@@ -151,54 +199,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 11:45:57",
-      "text": "【金迪克回应股价跌停：三价流感疫苗已经开始分装，具体上市销售时间要看批签发进度】受公司股票可能被实施“退市风险警示”的利空消息影响，10月12日，金迪克股价20cm跌停。金迪克董秘办公室表示，“公司已按证监会和上交所的要求及时披露相关事项，不存在其他未披露的重大信息。至于三价流感疫苗，公司已经开始分装，具体上市销售时间要看批签发进度。”另外，关于“四价流感疫苗阶段性停售，还是以后都不卖了”的问题，金迪克方面表示，每年年初WHO会发布下半年北半球流感季的流行情况，七八月份时中国疾控中心也会发布相应的接种指南，具体要视当年度的情况决定。（北京商报）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 11:45:07",
-      "text": "美元兑印度卢比1年期远期升水下降14个基点，至3.55%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 11:35:33",
-      "text": "IMF的格奥尔基耶娃表示：人工智能的增长可能改变劳动力市场结构，并引发有关政府如何产生税收收入的问题。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 11:25:26",
-      "text": "国际货币基金组织格奥尔基耶娃表示：即便在亚洲新兴经济体，人工智能也可将增长率推高0.2至0.8个百分点。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
