@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-11 20:00:17",
+  "audit_time": "2026-10-11 20:15:24",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 14,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "avg_sentiment": 0.0,
+      "news_count": 3,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -14,18 +23,61 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.0,
-      "news_count": 2,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-12 11:08:09",
+      "text": "印尼协会数据显示，9月汽车销量同比增长28.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 11:07:56",
+      "text": "本田中国9月汽车销量为25,564辆，同比下降53.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 11:06:32",
+      "text": "【比亚迪具身智能机器人外观专利获授权】企查查APP显示，近日，比亚迪申请的“具身智能机器人”外观设计专利获授权。专利摘要显示，该外观设计产品用于具备行走、平衡及交互功能的智能机器人，可应用于服务机器人、教育或工业场景。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 11:04:35",
+      "text": "【曝英伟达最强游戏显卡将停产】10月12日消息，英伟达旗舰显卡RTX 5090被曝即将停产，面向中国市场的RTX 5090 D系列也在停产范围内。爆料人士Zed__Wang透露，英伟达计划将后续生产的GB202芯片全部用于RTX Pro系列专业显卡，不再向GeForce游戏显卡供货。另一名爆料人士hongxing2020也晒出一张疑似显卡厂商内部通知的截图，称英伟达将停止生产所有RTX 5090型号，包括RTX 5090 D系列。 此次调整可能与AI算力需求持续增长有关，英伟达或将GB202芯片优先供应给利润更高的专业显卡，以满足AI市场的需求。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-12 10:52:19",
       "text": "【光大期货：海外加息预期萦绕，黄金低位徘徊】理论上，大幅弱于预期的非农就业数据导致10月加息概率快速下降，将推动黄金价格走高，但实际上黄金价格仍在低位反复波动，这可能与美长债收益率始终维持在偏高位有关。十月首个交易日10年期美债收益率一度触及5.34%，创2002年以来最高水平，30年期升至5.68%。这也意味着美国名义利率仍高居不下，投资者对于通胀以及财政风险的担忧并未下降太多，加息预期仍萦绕着交易逻辑。综合来看，就业数据走弱抑制了贵金属的短期下行空间，但长端利率高企与美元强势仍构成估值约束。10月贵金属关注重点在于，就业走弱能否倒逼美联储在12月放弃进一步加息，以及通胀能否在能源价格高企的背景下维持回落趋势。（光大期货）",
@@ -156,42 +208,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 10:09:53",
-      "text": "【*ST美芝成立智能科技公司 含AI相关业务】企查查APP显示，近日，美芝未来（深圳）智能科技有限公司成立，经营范围包含人工智能公共数据平台；人工智能双创服务平台；人工智能基础资源与技术平台；人工智能公共服务平台技术咨询服务；智能无人飞行器制造等。企查查股权穿透显示，该公司由*ST美芝全资持股。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 10:06:10",
-      "text": "【手机又涨1000块 供货商称“内存条像黄金一天一个价”】手机又开启新一轮调价。此次手机、电脑集体涨价，根源是AI服务器挤占存储产能，消费级DRAM、NAND供给被严重压缩，成本沿产业链传导至整机。一位给深圳华强北商家供货的厂商对记者表示，“现在的内存条和黄金一样，一天一个价，12月份价格肯定还要再大幅上涨一波。”业内人士分析称，本轮手机、电脑涨价潮至少延续至2027年下半年，2028年前后或逐步回落，但若AI需求持续超预期，拐点还会推迟。（贝壳财经）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 10:00:17",
-      "text": "【检察机关依法对潘良涉嫌受贿、利用影响力受贿案提起公诉】记者今天从最高人民检察院获悉，国务院国有资产监督管理委员会原副部长级干部潘良涉嫌受贿、利用影响力受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪、利用影响力受贿罪对潘良作出逮捕决定，并指定由安徽省淮北市人民检察院审查起诉。近日，淮北市人民检察院已向淮北市中级人民法院提起公诉。检察机关在审查起诉阶段，依法告知了被告人潘良享有的诉讼权利，并讯问了被告人，听取了辩护人的意见。检察机关起诉指控：被告人潘良利用担任国务院办公厅秘书二局助理政务专员、副局长、局长，国有重点大型企业监事会主席，国务院国有资产监督管理委员会副部长级干部等职务上的便利，为他人谋取利益，以及利用本人职权或者地位形成的便利条件，通过其他国家工作人员职务上的行为，为他人谋取不正当利益，非法收受他人财物，数额特别巨大；离职后，利用原职权或者地位形成的便利条件，通过其他国家工作人员职务上的行为，为他人谋取不正当利益，非法收受他人财物，数额特别巨大，依法应当以受贿罪、利用影响力受贿罪追究其刑事责任。（央视新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
