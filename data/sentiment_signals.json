@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-11 20:15:24",
+  "audit_time": "2026-10-11 20:33:29",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 15,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,7 +10,7 @@
       "ticker": "002594.SZ",
       "name": "比亚迪",
       "avg_sentiment": 0.0,
-      "news_count": 3,
+      "news_count": 2,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
@@ -26,6 +26,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-12 11:25:26",
+      "text": "国际货币基金组织格奥尔基耶娃表示：即便在亚洲新兴经济体，人工智能也可将增长率推高0.2至0.8个百分点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-12 11:24:00",
+      "text": "【公募基金发行市场回暖 本周共有65只基金开启认购】国庆长假后，公募基金发行市场回暖。公募排排网数据显示，按认购起始日统计，本周（2026年10月12日—10月18日）全市场共计有65只新基金开启认购，较上周环比增长209.52%，并创下近6周发行新高。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-12 11:08:09",
       "text": "印尼协会数据显示，9月汽车销量同比增长28.1%。",
@@ -181,22 +205,6 @@
     {
       "timestamp": "2026-10-12 10:37:02",
       "text": "【2026雅典车展中国汽车品牌受青睐】为期9天的2026雅典车展11日在希腊首都雅典闭幕。来自中国的多家汽车品牌携新车型和新技术集中亮相，成为展会一大看点。 本届车展于10月3日至11日在雅典大都会展览中心举行，共有52个汽车品牌参展，品牌数量创新高。比亚迪、名爵、吉利、长安等10多个中国汽车品牌参展，展品涵盖纯电动汽车、插电式混合动力汽车及商用车等。中国汽车品牌带来面向希腊及欧洲市场的新车型，吸引当地消费者关注。 随着汽车市场电动化转型持续推进，希腊消费者对新能源汽车的需求也在发生变化。据调查，今年1月至8月，纯电动汽车占希腊新注册乘用车的6.7%，较去年同期上升1.4个百分点。（新华社）",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-12 10:21:44",
-      "text": "【比亚迪与荣耀战略合作，共创AI语音融合】比亚迪宣布，比亚迪与荣耀战略合作，共创AI语音融合，A2A打通车机与手机语音智能体，将手机AI能力和服务带入座舱空间，树立AI生态融合标杆。",
       "analysis": {
         "matched_tickers": [
           "002594.SZ"
