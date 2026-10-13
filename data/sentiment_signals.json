@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-12 22:45:22",
+  "audit_time": "2026-10-12 23:00:30",
   "total_news_scanned": 100,
-  "relevant_events_found": 5,
+  "relevant_events_found": 8,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,54 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 14:00:04",
+      "text": "STELLANTIS：年第三季度预估合并出货量为130万辆，同比下降1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 13:59:42",
+      "text": "菲律宾央行预计2026年和2027年外包收入将增长3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 13:58:29",
+      "text": "【节后公募发行回暖，本周65只新基金开启认购，环比大增逾209%】国庆长假后，公募基金发行市场迅速回暖。公募排排网数据显示，按认购起始日统计，本周（10月12日—10月18日）全市场共计有65只新基金开启认购，较上周环比增长209.52%，并创下近6周发行新高。融智投资FOF基金经理李春瑜表示，国庆长假后，基金发行市场迅速回暖的原因包括：一是市场预期修复，公募机构看好四季度A股结构性机会，选择节后集中上新，把握低位建仓窗口。二是资金端存在配置需求，长假后居民资金回流，理财资金寻求多元资产布局，承接新发产品。三是产品供给丰富，发行阵容包含权益、FOF、固收+等多类型产品，适配不同风险偏好资金，助推发行热度。权益类基金成为本周发行主力。65只新发基金中，权益基金占36只，包括19只股票型基金和17只偏股混合型基金，合计占比55.38%。(新华财经)",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 13:58:21",
+      "text": "菲律宾央行预计2027年汇款额将增长3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-13 13:16:25",
       "text": "印度总理莫迪：印度的增长基于强劲的基本面。",
@@ -67,18 +115,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 12:29:12",
-      "text": "IDC：中国第三季智能手机出货量同比下降15.4%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
