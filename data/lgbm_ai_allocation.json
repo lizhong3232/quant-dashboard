@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-11 18:31:14.984254",
+  "timestamp": "2026-10-12 18:11:01.546240",
   "model": "LightGBM GBDT Regressor (16 Microstructure Factors)",
   "features": [
     "mom5",
@@ -51,83 +51,83 @@
   },
   "portfolio": [
     {
-      "ticker": "600276.SS",
-      "name": "恒瑞医药",
-      "industry": "医药生物",
-      "last_price": 46.85,
-      "pure_ai_alpha": 2.020411428100756,
-      "opt_weight_pct": 12.0,
-      "shares": 2500
-    },
-    {
       "ticker": "600887.SS",
       "name": "伊利股份",
       "industry": "食品饮料",
-      "last_price": 27.81,
-      "pure_ai_alpha": 1.8943222660937398,
+      "last_price": 27.96,
+      "pure_ai_alpha": 1.9639095230227497,
       "opt_weight_pct": 12.0,
-      "shares": 4300
+      "shares": 4200
+    },
+    {
+      "ticker": "600276.SS",
+      "name": "恒瑞医药",
+      "industry": "医药生物",
+      "last_price": 46.05,
+      "pure_ai_alpha": 1.960851405772256,
+      "opt_weight_pct": 12.0,
+      "shares": 2600
     },
     {
       "ticker": "688981.SS",
       "name": "中芯国际",
       "industry": "电子科技",
-      "last_price": 106.89,
-      "pure_ai_alpha": 1.8516671676627994,
+      "last_price": 106.68,
+      "pure_ai_alpha": 1.6445026946172991,
       "opt_weight_pct": 12.0,
       "shares": 1100
-    },
-    {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "industry": "汽车制造",
-      "last_price": 85.3,
-      "pure_ai_alpha": 1.367681959061658,
-      "opt_weight_pct": 12.0,
-      "shares": 1400
     },
     {
       "ticker": "600031.SS",
       "name": "三一重工",
       "industry": "机械装备",
-      "last_price": 17.06,
-      "pure_ai_alpha": 0.8783375128787614,
+      "last_price": 17.52,
+      "pure_ai_alpha": 1.0358374460394377,
       "opt_weight_pct": 12.0,
-      "shares": 7000
+      "shares": 6800
     },
     {
-      "ticker": "600036.SS",
-      "name": "招商银行",
-      "industry": "银行金融",
-      "last_price": 41.87,
-      "pure_ai_alpha": 0.7061127273186275,
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "industry": "汽车制造",
+      "last_price": 84.6,
+      "pure_ai_alpha": 0.9666109501609349,
       "opt_weight_pct": 12.0,
-      "shares": 2800
+      "shares": 1400
     },
     {
       "ticker": "600028.SS",
       "name": "中国石化",
       "industry": "石油石化",
-      "last_price": 5.42,
-      "pure_ai_alpha": 0.6085944501982546,
+      "last_price": 5.43,
+      "pure_ai_alpha": 0.8352050464826833,
       "opt_weight_pct": 12.0,
-      "shares": 22100
+      "shares": 22000
     },
     {
       "ticker": "601225.SS",
       "name": "陕西煤业",
       "industry": "煤炭能源",
-      "last_price": 27.37,
-      "pure_ai_alpha": 0.5059795378366749,
-      "opt_weight_pct": 5.0,
-      "shares": 1800
+      "last_price": 27.35,
+      "pure_ai_alpha": 0.7984435728949782,
+      "opt_weight_pct": 12.0,
+      "shares": 4300
     },
     {
       "ticker": "601088.SS",
       "name": "中国神华",
       "industry": "煤炭能源",
-      "last_price": 48.61,
-      "pure_ai_alpha": 0.47229576802855294,
+      "last_price": 49.38,
+      "pure_ai_alpha": 0.5779235656666738,
+      "opt_weight_pct": 3.0,
+      "shares": 600
+    },
+    {
+      "ticker": "600036.SS",
+      "name": "招商银行",
+      "industry": "银行金融",
+      "last_price": 42.76,
+      "pure_ai_alpha": 0.5371171497885616,
       "opt_weight_pct": 2.0,
       "shares": 400
     },
@@ -135,8 +135,8 @@
       "ticker": "300760.SZ",
       "name": "迈瑞医疗",
       "industry": "医药生物",
-      "last_price": 163.34,
-      "pure_ai_alpha": 0.39027854256332895,
+      "last_price": 166.0,
+      "pure_ai_alpha": 0.3534442705272736,
       "opt_weight_pct": 2.0,
       "shares": 100
     },
@@ -144,10 +144,19 @@
       "ticker": "000333.SZ",
       "name": "美的集团",
       "industry": "家用电器",
-      "last_price": 83.74,
-      "pure_ai_alpha": 0.06858439817997136,
+      "last_price": 83.5,
+      "pure_ai_alpha": 0.3250217689691249,
       "opt_weight_pct": 2.0,
       "shares": 200
+    },
+    {
+      "ticker": "600030.SS",
+      "name": "中信证券",
+      "industry": "非银金融",
+      "last_price": 26.06,
+      "pure_ai_alpha": 0.3022701521235771,
+      "opt_weight_pct": 2.0,
+      "shares": 700
     }
   ]
 }
