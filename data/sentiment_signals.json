@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-12 23:15:17",
+  "audit_time": "2026-10-12 23:30:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 18,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "avg_sentiment": 0.4,
+      "news_count": 1,
+      "latest_events": [
+        "温和经营利好"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -14,18 +23,97 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "600028.SS": {
-      "ticker": "600028.SS",
-      "name": "中国石化",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 14:28:34",
+      "text": "【商务部服贸司负责人介绍2026年1-8月服务贸易发展情况】2026年1-8月，我国服务进出口总额50701.6亿元（人民币，下同），同比增长7.9%。其中，出口19996.1亿元，增长14.8%；进口30705.5亿元，增长3.8%。服务贸易逆差10709.4亿元，同比缩小1451.2亿元。主要呈现以下特点：旅行和运输服务出口对整体服务出口增长的贡献率近50%。1-8月，旅行服务出口2751.7亿元，增长15.3%，运输服务出口4202.6亿元，增长28.2%。旅行和运输服务出口对整体服务出口增长的贡献率分别为14.1%和35.8%。知识密集型服务出口占比超过一半。1-8月，知识密集型服务进出口22314亿元，增长6.6%，占服务进出口总额的44%。知识密集型服务出口10744.7亿元，增长10.9%，占服务出口额的53.7%；其中，个人文化和娱乐服务、金融服务增长最快，增速分别为66%和21.6%。知识密集型服务进口11569.3亿元，增长2.8%，占服务进口额的37.7%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:26:29",
+      "text": "【硫磺供给紧张加剧，全球粮食价格承压】霍尔木兹海峡航运受阻叠加伊朗战事，全球硫磺供应大幅收紧。硫磺作为油气行业副产品，是生产硫酸、磷肥与炼铜的核心原料，当前价格已飙升至接近每吨1000美元，较战前涨近十倍。资金实力更强的矿企在硫磺竞价中压过低毛利化肥厂商，化肥企业被迫减产。美盛、摩洛哥OCP等化肥巨头表示，难以将原料成本完全转嫁给农户，警告后续全球农作物单产将受冲击，推高食品价格。大宗商品报价机构Argus分析师拉加夫・贾恩表示，在这场稀缺资源竞价战中，利润率较低的化肥行业，处于下风。机构Kpler提示，霍尔木兹海峡船舶滞留问题仍在恶化，硫磺贸易扰动持续。硫磺同时作用于工业制造与农业生产，供应链紧张不仅影响电子产品、电网产业链，明年面包等食品价格也或将上涨。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:21:31",
+      "text": "【外交部回应国际货币基金组织评估：我们对中国的经济发展前景有信心】10月13日，外交部发言人毛宁主持例行记者会。 法新社记者提问，国际货币基金组织周二将中国今年的经济增长预期下调至4.5%。请问外交部如何看待国际货币基金组织的这一评估和预测？ 毛宁表示，这个问题建议你向中方的主管部门了解。我可以告诉你的是，中国的经济基本面是好的，我们对中国的经济发展前景有信心。（北京日报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:20:46",
+      "text": "【高盛：上调比亚迪电子目标价至22港元，2027年收入增长将复苏】高盛发表研报，比亚迪电子2027年收入增长将复苏，受惠于在存储器成本相对稳定下，智能手机及个人计算机需求企稳，以及公司产品组合升级；来自苹果及比亚迪的收入敞口增加，并扩展至AI服务器供应链(液冷、供电)。该行继续预期比亚迪电子毛利率至2028年将复苏，以2027年目标市盈率10倍计，目标价由21港元上调至22港元，维持“沽售”评级。高盛表示，终端需求在高存储器成本下偏温和，同时已把AI运算基础设施纳入预测，反映公司向AI数据中心扩张，并下调消费电子收入预测，相应将比亚迪电子2026至2028年净利润预测相应分别下调40%、3%及32%，仍预期2026年下半年按半年计可增长24%，因存储器成本企稳可带动电动车及消费电子终端需求改善，加上季节性较佳及更多旗舰机型推出。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:19:32",
+      "text": "卡塔尔埃米尔表示，上半年国家支出下降了14%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:18:55",
+      "text": "卡塔尔埃米尔：受地区危机影响，上半年收入下降42%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:17:11",
+      "text": "【中银国际：预计中国电信第三季净利润同比下降13.5%，维持“买入”评级】中银国际发表报告，预计中国电信今年第三季净利润66亿元，同比下降13.5%；第四季受惠于低基数，净利润同比恢复增长33.3%。该行维持中国电信2026财年收入及盈利预测不变，服务收入走势预计与行业基本一致，增值税压力持续。该行预计中国电信2026财年AIDC收入同比增长10%至380亿元，下半年同比增速提升至10.8%。管理层维持全年总资本开支730亿元的指引，鉴于今年上半年算力投资占比已达48%，全年占比有望超过35%的原定目标。该行维持中国电信H股“买入”评级，目标价维持6.96港元，基于云业务1.5倍P/S及2.1倍EV/EBITDA，后者较过去三年历史均值折让60%，以反映增值税压力。今年中期派息率75%。该行维持运营商投资排序中国电信>中国移动>联通，主要基于更高的盈利可见度及股东回报。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-13 14:14:19",
       "text": "【中控技术：订阅制项目在TPT项目数量中的占比持续提升】中控技术在10月13日召开的2026年半年度业绩说明会上表示，自去年至今，TPT项目数量实现较快增长，订阅制项目在TPT项目数量中的占比亦持续提升。但由于订阅制收入按时间分期确认，收入确认周期相对较长，因此订阅制收入占比的提升速度必然慢于其项目数量占比的提升速度。现阶段，TPT业务呈现买断制与订阅制并存的格局，但订阅制收入占比正逐步提升。推行订阅制虽会减少当期确认的TPT收入金额，但公司认为其是最适合TPT长期发展的商业模式，也是当前大模型厂商普遍采用的模式，公司仍将坚定不移地推进这一模式。",
@@ -36,6 +124,18 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:11:31",
+      "text": "【抖音：近一年来打击仿冒蹭热账号2000余个】10月13日，据抖音集团消息，抖音热点信息中煽动、虚假、蹭热等低质内容播放量占比持续下降。近一年来：针对传播初期事实尚不清楚的热点事件，平台主动联动地方有关部门、媒体等权威渠道核查谣言线索959条，下架并拦截新增谣言信息；在对热点当事人采取权益保护与行为约束方面，平台建联90个热点事件当事人确认账号真实性、打击仿冒蹭热账号2000余个；同时，平台限制32名争议热点当事人“趁热变现”，暂停其营利权限。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
       }
     },
     {
@@ -112,82 +212,6 @@
         "sentiment_score": -0.95,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 13:59:42",
-      "text": "菲律宾央行预计2026年和2027年外包收入将增长3%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 13:58:29",
-      "text": "【节后公募发行回暖，本周65只新基金开启认购，环比大增逾209%】国庆长假后，公募基金发行市场迅速回暖。公募排排网数据显示，按认购起始日统计，本周（10月12日—10月18日）全市场共计有65只新基金开启认购，较上周环比增长209.52%，并创下近6周发行新高。融智投资FOF基金经理李春瑜表示，国庆长假后，基金发行市场迅速回暖的原因包括：一是市场预期修复，公募机构看好四季度A股结构性机会，选择节后集中上新，把握低位建仓窗口。二是资金端存在配置需求，长假后居民资金回流，理财资金寻求多元资产布局，承接新发产品。三是产品供给丰富，发行阵容包含权益、FOF、固收+等多类型产品，适配不同风险偏好资金，助推发行热度。权益类基金成为本周发行主力。65只新发基金中，权益基金占36只，包括19只股票型基金和17只偏股混合型基金，合计占比55.38%。(新华财经)",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 13:58:21",
-      "text": "菲律宾央行预计2027年汇款额将增长3%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 13:16:25",
-      "text": "印度总理莫迪：印度的增长基于强劲的基本面。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 13:03:03",
-      "text": "【石油概念震荡反弹，和顺石油涨停】石油概念震荡反弹，和顺石油涨停，广汇能源、中国石油、泰山石油、国际实业、中国海油、中国石化等跟涨。",
-      "analysis": {
-        "matched_tickers": [
-          "600028.SS"
-        ],
-        "matched_names": [
-          "中国石化"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 12:55:04",
-      "text": "澳新银行表示，港元兑美元走弱反映流动性过剩和融资偏好。香港银行体系流动性十分充裕，港元以及所有币种的贷存比降至2010年以来最低水平，反映贷款需求低迷而存款强劲增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
