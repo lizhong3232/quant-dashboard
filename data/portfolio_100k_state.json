@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 7933.98,
-  "portfolio_value": 91449.98,
-  "account_nav": 0.9145,
+  "portfolio_value": 90257.98,
+  "account_nav": 0.9026,
   "bench_nav": 1.0017,
   "positions": {
     "300014.SZ": {
       "name": "亿纬锂能",
       "shares": 800,
       "avg_cost": 50.48,
-      "last_price": 51.32,
-      "market_value": 41056.0,
+      "last_price": 50.38,
+      "market_value": 40304.0,
       "pnl": 672.0,
       "pnl_pct": 1.66,
       "highest": 51.32
@@ -21,8 +21,8 @@
       "name": "晶科能源",
       "shares": 11000,
       "avg_cost": 3.86,
-      "last_price": 3.86,
-      "market_value": 42460.0,
+      "last_price": 3.82,
+      "market_value": 42020.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 3.86
@@ -35,10 +35,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-11 18:31:16",
+  "last_updated": "2026-10-12 00:05:16",
   "benchmark": {
-    "last_price": 4.385,
-    "nav": 0.95
+    "last_price": 4.36,
+    "nav": 0.9445
   },
   "nav_history": [
     {
@@ -193,6 +193,15 @@
       "account_nav": 0.9146,
       "bench_nav": 0.95,
       "alpha": -3.54
+    },
+    {
+      "timestamp": "2026-10-12 00:05:16",
+      "date": "2026-10-12",
+      "cash": 7933.98,
+      "portfolio_value": 90257.98,
+      "account_nav": 0.9026,
+      "bench_nav": 0.9445,
+      "alpha": -4.19
     }
   ]
 }

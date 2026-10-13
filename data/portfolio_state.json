@@ -1,21 +1,21 @@
 {
   "initial_capital": 1000000.0,
   "cash": 243028.87,
-  "portfolio_value": 916361.87,
+  "portfolio_value": 920010.87,
   "positions": {
     "601088.SS": {
       "name": "中国神华",
       "shares": 1800,
       "avg_cost": 46.05,
-      "last_price": 48.56,
-      "market_value": 87408.0
+      "last_price": 49.38,
+      "market_value": 88884.0
     },
     "688981.SS": {
       "name": "中芯国际",
       "shares": 1000,
       "avg_cost": 117.851,
-      "last_price": 107.03,
-      "market_value": 107030.0
+      "last_price": 106.68,
+      "market_value": 106680.0
     },
     "601225.SS": {
       "name": "陕西煤业",
@@ -28,46 +28,46 @@
       "name": "三一重工",
       "shares": 6400,
       "avg_cost": 19.336,
-      "last_price": 17.07,
-      "market_value": 109248.0
+      "last_price": 17.52,
+      "market_value": 112128.0
     },
     "002594.SZ": {
       "name": "比亚迪",
       "shares": 1000,
       "avg_cost": 85.327,
-      "last_price": 85.31,
-      "market_value": 85310.0
+      "last_price": 84.6,
+      "market_value": 84600.0
     },
     "600276.SS": {
       "name": "恒瑞医药",
       "shares": 1700,
       "avg_cost": 46.829,
-      "last_price": 46.82,
-      "market_value": 79594.0
+      "last_price": 46.05,
+      "market_value": 78285.0
     },
     "600887.SS": {
       "name": "伊利股份",
       "shares": 2600,
       "avg_cost": 27.826,
-      "last_price": 27.82,
-      "market_value": 72332.0
+      "last_price": 27.96,
+      "market_value": 72696.0
     },
     "600036.SS": {
       "name": "招商银行",
       "shares": 1400,
       "avg_cost": 41.908,
-      "last_price": 41.9,
-      "market_value": 58660.0
+      "last_price": 42.76,
+      "market_value": 59864.0
     }
   },
   "benchmark": {
     "ticker": "510300.SS",
     "name": "沪深300 ETF",
     "initial_price": 4.616,
-    "last_price": 4.385,
-    "nav": 0.95
+    "last_price": 4.36,
+    "nav": 0.9445
   },
-  "account_nav": 0.9164,
+  "account_nav": 0.92,
   "nav_history": [
     {
       "date": "2026-09-06",
@@ -308,6 +308,15 @@
       "account_nav": 0.9251,
       "bench_nav": 0.95,
       "alpha": -2.49
+    },
+    {
+      "timestamp": "2026-10-12 00:05:16",
+      "date": "2026-10-12",
+      "cash": 243028.87,
+      "portfolio_value": 920010.87,
+      "account_nav": 0.92,
+      "bench_nav": 0.9445,
+      "alpha": -2.45
     }
   ],
   "created_at": "2026-09-06 11:12:43.386346"
