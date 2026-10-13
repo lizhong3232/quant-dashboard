@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-12 23:00:30",
+  "audit_time": "2026-10-12 23:15:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 8,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "600028.SS": {
       "ticker": "600028.SS",
       "name": "中国石化",
@@ -17,6 +26,82 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 14:14:19",
+      "text": "【中控技术：订阅制项目在TPT项目数量中的占比持续提升】中控技术在10月13日召开的2026年半年度业绩说明会上表示，自去年至今，TPT项目数量实现较快增长，订阅制项目在TPT项目数量中的占比亦持续提升。但由于订阅制收入按时间分期确认，收入确认周期相对较长，因此订阅制收入占比的提升速度必然慢于其项目数量占比的提升速度。现阶段，TPT业务呈现买断制与订阅制并存的格局，但订阅制收入占比正逐步提升。推行订阅制虽会减少当期确认的TPT收入金额，但公司认为其是最适合TPT长期发展的商业模式，也是当前大模型厂商普遍采用的模式，公司仍将坚定不移地推进这一模式。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:10:03",
+      "text": "【主力资金：光通信板块净流入超48亿】截至目前，今日主力资金净流入0.45亿；净流入光通信、TMT、CPO概念等板块，其中光通信板块净流入48.59亿；净流出锂电池、纳入富时罗素、新能源等板块，其中锂电池板块净流出39.54亿。\n  \n个股方面，N粤芯净买入13.38亿元位居首位，中际旭创、中国船舶、天娱数科主力资金净流入居前；宁德时代净卖出5.51亿元位居首位，有研新材、长鑫科技、先导智能净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:03:38",
+      "text": "斯泰兰蒂斯：阿尔及利亚和摩洛哥的出货量增长，完全抵消了海湾合作委员会国家因地区冲突受冲击而出现的销量下滑。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:02:50",
+      "text": "Stellantis集团公布2026年第三季度预估合并出货量为130万辆，同比下降1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:01:49",
+      "text": "斯托克50指数期货<STXEc1>下跌0.16%，德国DAX指数期货<FDXc1>下跌0.09%，富时指数期货<FFIc1>上涨0.23%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:00:52",
+      "text": "【摩根大通：维持阿里巴巴增持评级 目标价195港元】摩根大通发布关于阿里巴巴-SW（09988）的研报，维持“增持”评级，目标价195港元。虽下调EPS预测，但云业务EBITA将转正且增速超55%，利润率升至15%以上。公司EBITDA预测仍高于市场预期，长期增长逻辑稳固。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-13 14:00:04",
       "text": "STELLANTIS：年第三季度预估合并出货量为130万辆，同比下降1%。",
@@ -96,18 +181,6 @@
     {
       "timestamp": "2026-10-13 12:55:04",
       "text": "澳新银行表示，港元兑美元走弱反映流动性过剩和融资偏好。香港银行体系流动性十分充裕，港元以及所有币种的贷存比降至2010年以来最低水平，反映贷款需求低迷而存款强劲增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 12:51:09",
-      "text": "【 第140届广交会在即 白云机场口岸日均客流量将达约5.8万人次 】 10月15日至11月4日，第140届中国进出口商品交易会（以下简称“广交会”）将在广州分三期举办。随着广交会的临近，境外采购商、参展商进入广州的主要口岸——白云机场口岸将迎来出入境客流高峰。据白云边检站预测，广交会期间，白云机场口岸日均出入境客流量约达5.8万人次，同比增长约13.6%，单日峰值或超6.4万人次。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
