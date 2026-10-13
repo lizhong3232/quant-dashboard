@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-10-12 20:15:15",
+  "audit_time": "2026-10-12 20:30:16",
   "total_news_scanned": 100,
   "relevant_events_found": 17,
   "black_swan_count": 0,
@@ -26,6 +26,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 11:27:59",
+      "text": "【华光新材：持续优化产品结构 促进高毛利产品占比提升】华光新材在10月13日召开的2026年半年度业绩暨现金分红说明会上表示，数据中心液冷用精密钎焊材料认证周期3至6个月左右，公司上半年已实现销售收入2.16亿元，订单规模呈现快速增长态势。半导体领域的电子钎料验证周期较长，根据不同的产品系列验证周期不同，目前公司推进客户送样验证工作。公司积极推进新产品研发和产能扩建，持续优化产品结构，促进高毛利产品占比的提升。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 11:27:46",
+      "text": "【IMF称全球金融稳定面临三大风险】IMF在最新报告中强调了三个突出风险，这些风险可能是金融状况急剧收紧和市场动荡的短期催化剂。其中一个风险为AI。报告称，尽管AI生态系统中的核心公司迄今一直盈利，缓解了AI相关股票估值的压力，但AI投资和盈利能力的减弱或不那么持久可能会引发AI相关资产价格的调整，而杠杆率上升、风险集中和循环融资安排加剧了这一调整。全球AI发展的相关司法判决可能更容易使得金融市场受到负面影响。第二，鉴于主权债券的重要性，通胀或财政担忧的重新抬头可能会引发主权债券收益率的急剧上升，并引发更广泛的市场动荡。尽管债券市场流动性稳定，最近一些杠杆交易也已解除，但公共债务和展期风险走高的现状仍未得到解决，增加了收益率无序上升的可能性。第三，随着金融服务变得更加数字化和互联互通，网络威胁构成了日益增长的系统性风险。前沿AI模型正在成为网络攻击的强大推动者和关键的防御工具。IMF称，这些风险本身不一定威胁到金融稳定，但如果被金融脆弱性放大，它们可能会成为一种系统性风险，对关键的金融中介和信贷提供造成损害，并产生严重的负面经济影响。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-13 11:02:11",
       "text": "隔夜SHIBOR报1.2880%，下降0.80个基点。7天SHIBOR报1.3410%，下降0.50个基点。3个月SHIBOR报1.4300%，上涨0.00个基点。",
@@ -181,30 +205,6 @@
     {
       "timestamp": "2026-10-13 10:20:59",
       "text": "国际货币基金组织将2026年韩国经济增长预测从2.6%上调至3.3%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:20:11",
-      "text": "IMF认为，能源价格和利率上涨将拖累英国经济增长，预测英国经济今年将增长1.3%，高于7月份预测的1.0%和4月份预测的0.8%，随后在2027年放缓至1.2%，这将使英国在主要发达经济体中处于中游水平。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:18:30",
-      "text": "国际货币基金组织：增长下调更为普遍。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
