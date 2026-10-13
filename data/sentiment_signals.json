@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-12 23:30:17",
+  "audit_time": "2026-10-12 23:45:33",
   "total_news_scanned": 100,
-  "relevant_events_found": 18,
+  "relevant_events_found": 23,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "600031.SS": {
+      "ticker": "600031.SS",
+      "name": "三一重工",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "002594.SZ": {
       "ticker": "002594.SZ",
       "name": "比亚迪",
@@ -26,6 +35,70 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 14:43:13",
+      "text": "【韩国开发研究院：韩国经济复苏尚未广泛惠及普通家庭】韩国国有智库韩国开发研究院（KDI）周一表示，韩国经济复苏的红利还未广泛传导至家庭部门，居民购买力的修复幅度依旧有限。韩国开发研究院在月度经济评估报告中称：“受基础薪资增长乏力、油价持续高企等供给端通胀压力影响，居民购买力的复苏受到制约。”研究院指出，尽管当前韩国经济由人工智能产业拉动复苏，但红利尚未普惠家庭。不过该智库同时表示，韩国经济整体仍保持复苏势头，制造业产出持续稳健增长。报告称：“全球对 AI 基础设施投资需求旺盛，带动 AI 相关领域出口与设备投资保持强劲增长。”",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:41:37",
+      "text": "【小摩：国泰海通获新华保险增持支持股价表现，维持“增持”评级】摩根大通发表研报指，国泰海通近期股价跑赢同业，获新华保险增持或为重要推动因素，惟该行对国泰海通即将公布的2026年第三季业绩持审慎态度，因公司股票投资敞口相对较高，投资收益或较同业更受近期市场疲弱影响。该行认为，资金流带动的买盘或可维持近端跑赢，但第三季业绩公布后，盈利相关忧虑或成为更大焦点，近期股价跑赢幅度或有所收敛。该行维持国泰海通H股“增持”评级及目标价18港元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:38:21",
+      "text": "【哈萨克斯坦央行官员：坚戈走强令外资兴趣降温】哈萨克斯坦央行副行长阿莉娅·莫尔达别科娃称，坚戈兑美元涨幅位居全球前列，市场对哈萨克斯坦资产的外资吸引力随之下降。莫尔达别科娃表示，坚戈走强降低了该国对机构投资者的吸引力，机构称若坚戈小幅走弱，将考虑追加投资。今年以来坚戈兑美元升值近13%，跻身全球表现最佳货币之列，仅次于巴拉圭瓜拉尼与哥伦比亚比索。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:36:32",
+      "text": "【三一重工成立设备服务公司 含电池制造业务】企查查APP显示，近日，辽宁三一设备服务有限公司成立，经营范围包含集中式快速充电站；电池制造；电池销售；电池零配件销售等。企查查股权穿透显示，该公司由三一重工间接全资持股。",
+      "analysis": {
+        "matched_tickers": [
+          "600031.SS"
+        ],
+        "matched_names": [
+          "三一重工"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 14:36:16",
+      "text": "【10月13日：“农产品批发价格200指数”比昨天下降0.13个点】据农业农村部监测，10月13日“农产品批发价格200指数”为113.93，比昨天下降0.13个点，“菜篮子”产品批发价格指数为113.89，比昨天下降0.16个点。截至今日14:00时，全国农产品批发市场猪肉平均价格为15.94元/公斤，比昨天下降0.3%；牛肉73.52元/公斤，比昨天上升2.0%；羊肉67.32元/公斤，比昨天上升1.3%；鸡蛋9.73元/公斤，比昨天下降0.8%；白条鸡17.19元/公斤，比昨天上升0.5%。重点监测的28种蔬菜平均价格为4.35元/公斤，比昨天上升1.4%；重点监测的6种水果平均价格为6.66元/公斤，比昨天上升0.5%。鲫鱼19.74元/公斤，比昨天上升2.2%；鲤鱼14.06元/公斤，比昨天上升1.1%；白鲢鱼10.13元/公斤，比昨天下降0.8%；大带鱼41.85元/公斤，比昨天上升1.3%。今日，国内鲜活农产品批发市场重点监测的46个品种中，与昨天相比价格升幅前五名的是生菜、西葫芦、蒜薹、冬瓜和菠萝，幅度分别为3.4%、3.1%、2.8%、2.8%和2.5%；价格降幅前五名的是鸭梨、香蕉、大黄花鱼、平菇和花鲢鱼，幅度分别为2.3%、1.4%、1.4%、1.2%和0.9%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-13 14:28:34",
       "text": "【商务部服贸司负责人介绍2026年1-8月服务贸易发展情况】2026年1-8月，我国服务进出口总额50701.6亿元（人民币，下同），同比增长7.9%。其中，出口19996.1亿元，增长14.8%；进口30705.5亿元，增长3.8%。服务贸易逆差10709.4亿元，同比缩小1451.2亿元。主要呈现以下特点：旅行和运输服务出口对整体服务出口增长的贡献率近50%。1-8月，旅行服务出口2751.7亿元，增长15.3%，运输服务出口4202.6亿元，增长28.2%。旅行和运输服务出口对整体服务出口增长的贡献率分别为14.1%和35.8%。知识密集型服务出口占比超过一半。1-8月，知识密集型服务进出口22314亿元，增长6.6%，占服务进出口总额的44%。知识密集型服务出口10744.7亿元，增长10.9%，占服务出口额的53.7%；其中，个人文化和娱乐服务、金融服务增长最快，增速分别为66%和21.6%。知识密集型服务进口11569.3亿元，增长2.8%，占服务进口额的37.7%。",
@@ -152,66 +225,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 14:03:38",
-      "text": "斯泰兰蒂斯：阿尔及利亚和摩洛哥的出货量增长，完全抵消了海湾合作委员会国家因地区冲突受冲击而出现的销量下滑。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 14:02:50",
-      "text": "Stellantis集团公布2026年第三季度预估合并出货量为130万辆，同比下降1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 14:01:49",
-      "text": "斯托克50指数期货<STXEc1>下跌0.16%，德国DAX指数期货<FDXc1>下跌0.09%，富时指数期货<FFIc1>上涨0.23%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 14:00:52",
-      "text": "【摩根大通：维持阿里巴巴增持评级 目标价195港元】摩根大通发布关于阿里巴巴-SW（09988）的研报，维持“增持”评级，目标价195港元。虽下调EPS预测，但云业务EBITA将转正且增速超55%，利润率升至15%以上。公司EBITDA预测仍高于市场预期，长期增长逻辑稳固。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 14:00:04",
-      "text": "STELLANTIS：年第三季度预估合并出货量为130万辆，同比下降1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
