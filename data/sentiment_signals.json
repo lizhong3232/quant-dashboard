@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-12 20:30:16",
+  "audit_time": "2026-10-12 20:45:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 17,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,66 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 11:41:29",
+      "text": "国际货币基金组织官员：目前，对人工智能的敞口正通过财富效应拉动增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 11:40:06",
+      "text": "国际货币基金组织官员：人工智能乐观情绪以及盈利超预期的行情持续下去的难度正在加大。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 11:39:57",
+      "text": "【爱仕达具身智能创新中心揭牌暨全栈式赋能平台加速人形机器人规模化部署】以“具身生态&部署未来”为主题的2026爱仕达生态伙伴大会10月13日在上海智能谷举行，爱仕达集团董事长、爱仕达股份有限公司董事陈灵巧表示：“炊具主业是根基，钱江机器人是底座，具身智能是爱仕达面向未来的新增长曲线。三者在爱仕达体系内一脉相承、互相赋能。”大会现场，爱仕达智能谷具身智能创新中心正式揭牌。据悉，该中心将聚焦具身智能核心技术研发与场景创新，推动创新成果落地转化。目前，深圳、上海、台州及嘉善零部件/整机制造基地已于近期相继落地。与此同时，“具身生态&部署未来”生态伙伴联盟启动仪式亦同步举行。爱仕达将携手产业链上下游合作伙伴共建具身智能生态，推动核心零部件自研、整机制造、场景部署与市场赋能的一体化协同，以生态合力加速具身智能从单点突破走向规模共进。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 11:35:04",
+      "text": "【联进生物完成超3亿元A轮融资，夏尔巴投资领投】10月13日，据夏尔巴投资消息，联进生物（Allygen Biologics）近期完成超3亿元人民币的A轮融资。本轮融资由夏尔巴投资领投，北京市医药健康产业投资基金、启明创投、珠海科技产业集团、华盖资本、泰煜投资、W Capital等多家投资机构参与投资。扶鞍资本担任本轮融资独家财务顾问。本轮资金将用于联进生物首个STAR-BiADC管线ALG01快速进入临床1期试验及后续更多管线产品的开发。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 11:32:19",
+      "text": "【前8个月卫生健康领域减税降费超2400亿元】从国家税务总局获悉，今年前8个月，现行支持卫生和健康事业发展主要政策合计减税降费2454亿元。其中，医疗机构提供的医疗服务免征增值税等支持优化健康服务的政策减税降费926亿元；社区养老、托育、家政机构免征增值税，健康、养老相关人身保险产品取得的保费收入免征增值税等支持健康产业发展和完善健康保障的政策减税降费1522亿元。在税费优惠政策和其他政策的共同作用下，卫生与健康产业都呈现出较快发展态势。增值税发票数据显示，2026年前8个月，医疗仪器设备及器械制造业销售收入同比增长16.9%，健康服务业销售收入同比增长15.7%，卫生健康领域高质量发展基础持续巩固。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-13 11:27:59",
       "text": "【华光新材：持续优化产品结构 促进高毛利产品占比提升】华光新材在10月13日召开的2026年半年度业绩暨现金分红说明会上表示，数据中心液冷用精密钎焊材料认证周期3至6个月左右，公司上半年已实现销售收入2.16亿元，订单规模呈现快速增长态势。半导体领域的电子钎料验证周期较长，根据不同的产品系列验证周期不同，目前公司推进客户送样验证工作。公司积极推进新产品研发和产能扩建，持续优化产品结构，促进高毛利产品占比的提升。",
@@ -116,102 +176,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:34:20",
-      "text": "国际货币基金组织首席经济学家：今年泰国国内生产总值增长率预计为2.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:29:36",
-      "text": "国际货币基金组织(IMF)的滕雷罗表示，中国和印度是增长的重要引擎；其他国家也从人工智能需求中受益。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:29:09",
-      "text": "国际货币基金组织首席经济学家：受人工智能热潮支撑，亚洲经济增长面对能源冲击仍保持韧性。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:28:54",
-      "text": "【千叶珠宝被列入经营异常名录，公司实控人仍失联】千叶珠宝主办券商东北证券10月12日公告，在持续督导中发现千叶珠宝存在两类风险事项。一是千叶珠宝于10月10日被北京市东城区市场监督管理局列入经营异常名录，原因为“通过登记的住所或者经营场所无法联系的”。二是发现千叶珠宝及子公司、公司实际控制人林明杰存在被纳入被执行人的情形，被执行总金额达2.3亿元，其中包括10月8日立案的一起执行标的1.29亿元的案件。千叶珠宝为北京老牌连锁金店，9月上旬被曝欠薪欠款，公司实控人“跑路”。东北证券在最新公告中表示，目前仍无法与公司实际控制人林明杰、高晓松取得联系，公司无法履行信息披露义务，经营决策已无法正常维持，持续经营存在重大不确定性。（界面新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "流动性与债务违约",
-        "sentiment_score": -0.9,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:22:33",
-      "text": "国际货币基金组织预计2026年全球经济增长面临0.2个百分点的下行风险，2027年为0.5个百分点。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:21:53",
-      "text": "【大商所：期货市场正成为产业企业对冲价格风险、稳定经营预期的“压舱石”】10月13日，大连商品交易所副总经理王玉飞在第19届国际油脂油料大会暨农畜产业（衍生品）大会黑色产业论坛上表示，市场运行稳中提质。2026年上半年，焦煤、焦炭、铁矿石期货、期权合计成交量2.1亿手，同比增长46%；日均持仓218万手、同比增长13%。在市场流动性能够充分承接产业套保需求的同时，期现价格保持紧密联动。煤焦矿品种期现价相关性均在90%以上，基差率均在5%以内，期货价格有效反映供需基本面变化。期货市场正成为产业企业对冲价格风险、稳定经营预期的“压舱石”。（中证金牛座）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:21:16",
-      "text": "国际货币基金组织（IMF）警告，若下行风险情景变为现实，全球增长将受到显著冲击，通胀水平将大幅攀升。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:20:59",
-      "text": "国际货币基金组织将2026年韩国经济增长预测从2.6%上调至3.3%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
