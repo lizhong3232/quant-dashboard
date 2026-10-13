@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-12 22:30:19",
+  "audit_time": "2026-10-12 22:45:22",
   "total_news_scanned": 100,
-  "relevant_events_found": 6,
+  "relevant_events_found": 5,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -79,18 +79,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 12:19:07",
-      "text": "【英国央行格林称英国增长上调证明有必要加息】货币政策委员格林（Megan Greene）表示，英国经济增速快于预期、就业市场具备韧性，这证明英国央行在抑制通胀方面做得还不够。这位货币政策委员会外部委员在曼谷国际货币基金组织会议期间，于大西洋理事会（Atlantic Council）发表讲话。她称利率应当高于当前 3.75% 的水平，并警示同僚不要指望金融市场自行完成收紧工作。此番发言前，国际货币基金组织（IMF）将英国今年经济增长预期由 1% 上调至 1.3%。“我们拿到的国内生产总值（GDP）数据表明，当前政策的紧缩力度不足，经济闲置产能并不多。” 她说，“近期部分劳动力市场数据也显示，劳动力市场闲置规模或许已经见顶，劳动力市场趋于宽松。”格林（Megan Greene）是委员会内部偏鹰派的成员之一。过去数月，她一直投票支持加息 25 个基点至 4%，以防范工资 - 物价螺旋上升，但在九人组成的货币政策委员会（MPC）中，她的意见至今属于少数派。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
