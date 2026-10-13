@@ -1,15 +1,135 @@
 {
-  "audit_time": "2026-10-12 19:15:15",
+  "audit_time": "2026-10-12 19:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 21,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
     {
+      "timestamp": "2026-10-13 10:29:36",
+      "text": "国际货币基金组织(IMF)的滕雷罗表示，中国和印度是增长的重要引擎；其他国家也从人工智能需求中受益。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:29:09",
+      "text": "国际货币基金组织首席经济学家：受人工智能热潮支撑，亚洲经济增长面对能源冲击仍保持韧性。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:28:54",
+      "text": "【千叶珠宝被列入经营异常名录，公司实控人仍失联】千叶珠宝主办券商东北证券10月12日公告，在持续督导中发现千叶珠宝存在两类风险事项。一是千叶珠宝于10月10日被北京市东城区市场监督管理局列入经营异常名录，原因为“通过登记的住所或者经营场所无法联系的”。二是发现千叶珠宝及子公司、公司实际控制人林明杰存在被纳入被执行人的情形，被执行总金额达2.3亿元，其中包括10月8日立案的一起执行标的1.29亿元的案件。千叶珠宝为北京老牌连锁金店，9月上旬被曝欠薪欠款，公司实控人“跑路”。东北证券在最新公告中表示，目前仍无法与公司实际控制人林明杰、高晓松取得联系，公司无法履行信息披露义务，经营决策已无法正常维持，持续经营存在重大不确定性。（界面新闻）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "流动性与债务违约",
+        "sentiment_score": -0.9,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:22:33",
+      "text": "国际货币基金组织预计2026年全球经济增长面临0.2个百分点的下行风险，2027年为0.5个百分点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:21:53",
+      "text": "【大商所：期货市场正成为产业企业对冲价格风险、稳定经营预期的“压舱石”】10月13日，大连商品交易所副总经理王玉飞在第19届国际油脂油料大会暨农畜产业（衍生品）大会黑色产业论坛上表示，市场运行稳中提质。2026年上半年，焦煤、焦炭、铁矿石期货、期权合计成交量2.1亿手，同比增长46%；日均持仓218万手、同比增长13%。在市场流动性能够充分承接产业套保需求的同时，期现价格保持紧密联动。煤焦矿品种期现价相关性均在90%以上，基差率均在5%以内，期货价格有效反映供需基本面变化。期货市场正成为产业企业对冲价格风险、稳定经营预期的“压舱石”。（中证金牛座）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:21:16",
+      "text": "国际货币基金组织（IMF）警告，若下行风险情景变为现实，全球增长将受到显著冲击，通胀水平将大幅攀升。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:20:59",
+      "text": "国际货币基金组织将2026年韩国经济增长预测从2.6%上调至3.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:20:11",
+      "text": "IMF认为，能源价格和利率上涨将拖累英国经济增长，预测英国经济今年将增长1.3%，高于7月份预测的1.0%和4月份预测的0.8%，随后在2027年放缓至1.2%，这将使英国在主要发达经济体中处于中游水平。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:18:30",
+      "text": "国际货币基金组织：增长下调更为普遍。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:18:09",
+      "text": "国际货币基金组织：经济增长将愈发集中在少数经济体。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
       "timestamp": "2026-10-13 10:15:07",
-      "text": "国际货币基金组织首席经济学家坦雷罗表示，2023年至2025年间，人工智能领域的增长速度超过了全球贸易增长；若没有人工智能，贸易增速会低得多。",
+      "text": "国际货币基金组织首席经济学家西尔瓦娜·滕雷罗表示，2023年至2025年间，人工智能领域的增长速度超过了全球贸易增长；若没有人工智能，贸易增速会低得多。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
@@ -58,90 +178,6 @@
     {
       "timestamp": "2026-10-13 10:02:02",
       "text": "【IMF小幅上调2026年全球GDP增长预期】IMF预测2026年全球实际GDP增长率为3.1％（7月预测值为3.0％），主要原因为关键经济体的AI投资缓和了能源价格冲击的影响。IMF预测2027年全球经济增长率为3.4％，与7月预测持平（2025年实际增长率为3.5％）。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:01:59",
-      "text": "IMF预计欧元区2026年经济增长1.1%，高于7月预测的增长0.9%，德国、意大利和西班牙经济展现韧性带来支撑。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:01:41",
-      "text": "IMF预计印度2026年和2027年经济均增长7.0%(7月预测增速分别为6.4%和6.7%）。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:01:16",
-      "text": "国际货币基金组织(IMF)预计日本2026年和2027年经济将增长0.7%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:00:58",
-      "text": "【安徽检察机关依法对张尧学涉嫌受贿案提起公诉】从最高人民检察院获悉，中南大学原党委常委、校长张尧学涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪对张尧学作出逮捕决定，并指定由安徽省安庆市人民检察院审查起诉。近日，安庆市人民检察院已向安庆市中级人民法院提起公诉。检察机关在审查起诉阶段，依法告知了被告人张尧学享有的诉讼权利，并讯问了被告人，听取了辩护人的意见。检察机关起诉指控：被告人张尧学利用担任教育部科学技术司副司长、司长，高等教育司司长，学位管理与研究生教育司司长，中南大学党委常委、校长等职务上的便利，为他人谋取利益，非法收受他人财物，数额特别巨大，依法应当以受贿罪追究其刑事责任。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:00:21",
-      "text": "国际货币基金组织（IMF）预测2027年全球GDP增长3.4%，并警告“韧性面临压力”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 09:48:15",
-      "text": "【进出口银行前三季度投放外贸领域贷款近万亿元】记者10月13日从中国进出口银行获悉，今年前三季度，进出口银行新发放外贸领域贷款近万亿元，同比增长9%，其中近40%投向稳外贸主体和稳外贸产业链领域。据介绍，进出口银行制定并实施稳住外贸基本盘工作方案，统筹支持货物贸易与服务贸易、传统贸易与新业态新模式，助力发展数字贸易、绿色贸易；聚焦企业“走出去”的新形势、新需求，在跨境结算、贸易融资、供应链金融等方面提供全方位支持，助力企业稳健开拓国际市场。（新华社）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 09:36:40",
-      "text": "【联讯仪器盘初涨超5%】联讯仪器盘初涨超5%，公司预计前三季度净利润19.00亿元-21.00亿元，同比增长1866%-2073%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
