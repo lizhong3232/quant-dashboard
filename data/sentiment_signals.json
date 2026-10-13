@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-12 20:00:17",
+  "audit_time": "2026-10-12 20:15:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 20,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 11:02:11",
+      "text": "隔夜SHIBOR报1.2880%，下降0.80个基点。7天SHIBOR报1.3410%，下降0.50个基点。3个月SHIBOR报1.4300%，上涨0.00个基点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-13 10:55:22",
       "text": "【中国石化销售股份有限公司西藏石油分公司党委书记、代表施长春被查】据中央纪委国家监委驻中国石化纪检监察组消息：中国石化销售股份有限公司西藏石油分公司党委书记、代表施长春涉嫌严重违纪违法，目前正接受中央纪委国家监委驻中国石化纪检监察组纪律审查和监察调查。",
@@ -193,18 +205,6 @@
     {
       "timestamp": "2026-10-13 10:18:30",
       "text": "国际货币基金组织：增长下调更为普遍。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:18:09",
-      "text": "国际货币基金组织：经济增长将愈发集中在少数经济体。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
