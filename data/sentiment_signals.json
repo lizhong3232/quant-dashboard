@@ -1,12 +1,50 @@
 {
-  "audit_time": "2026-10-12 19:30:16",
+  "audit_time": "2026-10-12 19:45:14",
   "total_news_scanned": 100,
-  "relevant_events_found": 21,
+  "relevant_events_found": 22,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 10:40:05",
+      "text": "【主力资金：宁德时代净卖出超6亿】截至目前，今日主力资金净流出178.57亿；净流入功率半导体、集成电路制造、模拟芯片等板块，其中功率半导体板块净流入7.92亿；净流出转融券标的、融资融券、纳入富时罗素等板块，其中转融券标的板块净流出173.73亿。\n  \n个股方面，N粤芯净买入9.62亿元位居首位，哈药股份、凯美特气、跨境通主力资金净流入居前；宁德时代净卖出6.37亿元位居首位，长鑫科技、先导智能、有研新材净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:34:20",
+      "text": "国际货币基金组织首席经济学家：今年泰国国内生产总值增长率预计为2.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-13 10:29:36",
       "text": "国际货币基金组织(IMF)的滕雷罗表示，中国和印度是增长的重要引擎；其他国家也从人工智能需求中受益。",
@@ -154,30 +192,6 @@
     {
       "timestamp": "2026-10-13 10:02:11",
       "text": "国际货币基金组织(IMF)预计2026年全球实际GDP增长3.1%，高于7月预测的增长3.0%，受益于AI投资。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:02:03",
-      "text": "IMF预计美国2026年经济增长2.3%(与7月预测及2025年增速持平)，2027年料增长2.3%(7月预测为增长2.2%)。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:02:02",
-      "text": "【IMF小幅上调2026年全球GDP增长预期】IMF预测2026年全球实际GDP增长率为3.1％（7月预测值为3.0％），主要原因为关键经济体的AI投资缓和了能源价格冲击的影响。IMF预测2027年全球经济增长率为3.4％，与7月预测持平（2025年实际增长率为3.5％）。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
