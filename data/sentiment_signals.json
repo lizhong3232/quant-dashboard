@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-12 19:45:14",
+  "audit_time": "2026-10-12 20:00:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 22,
+  "relevant_events_found": 20,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "600028.SS": {
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -17,6 +26,46 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 10:55:22",
+      "text": "【中国石化销售股份有限公司西藏石油分公司党委书记、代表施长春被查】据中央纪委国家监委驻中国石化纪检监察组消息：中国石化销售股份有限公司西藏石油分公司党委书记、代表施长春涉嫌严重违纪违法，目前正接受中央纪委国家监委驻中国石化纪检监察组纪律审查和监察调查。",
+      "analysis": {
+        "matched_tickers": [
+          "600028.SS"
+        ],
+        "matched_names": [
+          "中国石化"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:47:46",
+      "text": "高盛：我们估计，欧洲战略储备中潜在释放的5000万桶柴油库存，可能使美国墨西哥湾沿岸和欧洲的柴油批发价格下降11美元/桶。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-13 10:46:57",
+      "text": "【施耐德电气尹正：能源科技为中国制造业塑造新竞争优势】2026中国国际工业博览会于10月12日至16日在国家会展中心（上海）举行。施耐德电气执行副总裁、中国及东亚区总裁尹正表示，当前，全球产业格局加速调整，AI等创新科技与能源转型正在重塑竞争逻辑。作为全球制造大国，中国正加快发展新质生产力，推动工业向智能化、绿色化、融合化转型，并迈向全球产业链高端地位。在这一过程中，能源已从后台成本转为战略要素。未来制造业竞争力不仅体现在生产效率上，更体现为能源效率、运营韧性以及可持续发展等综合能力。可以说，能源转型是制造业升级不可或缺的动力引擎。尹正指出，中国是全球产业的蓬勃之地。在能源科技赋能下，中国制造业将加速释放增长潜力。作为全球制造大国，中国拥有广阔的市场、完整的产业配套、丰富的应用场景和活跃的创新生态，为科技创新、技术迭代与AI的规模化应用创造了有利条件。面向未来，施耐德电气将秉持在华发展的坚定信心，持续加大本土投入，激励创新与产业协作，助力中国工业再攀高峰。（新浪科技）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-13 10:40:05",
       "text": "【主力资金：宁德时代净卖出超6亿】截至目前，今日主力资金净流出178.57亿；净流入功率半导体、集成电路制造、模拟芯片等板块，其中功率半导体板块净流入7.92亿；净流出转融券标的、融资融券、纳入富时罗素等板块，其中转融券标的板块净流出173.73亿。\n  \n个股方面，N粤芯净买入9.62亿元位居首位，哈药股份、凯美特气、跨境通主力资金净流入居前；宁德时代净卖出6.37亿元位居首位，长鑫科技、先导智能、有研新材净流出额居前。",
@@ -156,42 +205,6 @@
     {
       "timestamp": "2026-10-13 10:18:09",
       "text": "国际货币基金组织：经济增长将愈发集中在少数经济体。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:15:07",
-      "text": "国际货币基金组织首席经济学家西尔瓦娜·滕雷罗表示，2023年至2025年间，人工智能领域的增长速度超过了全球贸易增长；若没有人工智能，贸易增速会低得多。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:03:01",
-      "text": "国际货币基金组织（IMF）13日小幅上调2026年世界经济增长预期至3.1%，较7月预测值高0.1个百分点。IMF说，人工智能（AI）投资热潮对部分经济体的提振抵消了中东冲突对其他一些经济体的拖累。 （新华社）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 10:02:11",
-      "text": "国际货币基金组织(IMF)预计2026年全球实际GDP增长3.1%，高于7月预测的增长3.0%，受益于AI投资。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
