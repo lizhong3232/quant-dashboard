@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-12 22:00:19",
+  "audit_time": "2026-10-12 22:15:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "600028.SS": {
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "600036.SS": {
       "ticker": "600036.SS",
       "name": "招商银行",
@@ -35,6 +44,22 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-13 13:03:03",
+      "text": "【石油概念震荡反弹，和顺石油涨停】石油概念震荡反弹，和顺石油涨停，广汇能源、中国石油、泰山石油、国际实业、中国海油、中国石化等跟涨。",
+      "analysis": {
+        "matched_tickers": [
+          "600028.SS"
+        ],
+        "matched_names": [
+          "中国石化"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-10-13 12:55:04",
       "text": "澳新银行表示，港元兑美元走弱反映流动性过剩和融资偏好。香港银行体系流动性十分充裕，港元以及所有币种的贷存比降至2010年以来最低水平，反映贷款需求低迷而存款强劲增长。",
@@ -116,8 +141,8 @@
           "300750.SZ"
         ],
         "matched_names": [
-          "宁德时代",
-          "招商银行"
+          "招商银行",
+          "宁德时代"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -154,41 +179,17 @@
       "text": "【港股午评：恒生指数跌0.39%，恒生科技指数跌1.54%】宁德时代跌2.59%，比亚迪股份跌2.82%，天数智芯跌3.52%，京东集团-SW跌3.69%，药明生物跌4.37%，海底捞跌4.74%，华虹宏力跌5.45%。",
       "analysis": {
         "matched_tickers": [
-          "300750.SZ",
-          "002594.SZ"
+          "002594.SZ",
+          "300750.SZ"
         ],
         "matched_names": [
-          "宁德时代",
-          "比亚迪"
+          "比亚迪",
+          "宁德时代"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 11:57:48",
-      "text": "国际货币基金组织官员：尽管债市承压，风险偏好依然强劲。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-13 11:53:48",
-      "text": "【机构：若市场情绪持续疲软 美国10年期国债收益率或将跌至5%】Saxo Markets表示，如果风险情绪持续疲软，且美国财报季出现增长风险，那么基准美债可能出现技术性反弹，收益率或将跌至5%。新加坡首席投资策略师Charu Chanana表示，周二美债在亚洲市场上涨，这是典型的避险走势，因为股市承压，投资者寻求避险资产“但我也能嗅到一丝增长方面的担忧，柴油加个可能对家庭和企业构成风险”进一步上涨将具有战术性，因为通胀风险已被充分定价，10年期美债收益率在“5%可能是第一个值得关注的合理水平”。“如果风险情绪持续疲软，增长担忧加剧，我们可能很快就会触及这个目标位”。她表示，交易员“显然在密切关注”公司财报季中可能出现的增长风险。市场正在密切关注“任何下调业绩指引的迹象、能源和运输成本带来的利润率压力，以及任何表明企业（至少是那些资金雄厚的企业之外的公司）在资本支出方面变得更加谨慎的迹象”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
