@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-10-13 22:15:24",
+  "audit_time": "2026-10-13 22:30:20",
   "total_news_scanned": 100,
   "relevant_events_found": 11,
   "black_swan_count": 0,
@@ -7,6 +7,42 @@
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-14 13:19:25",
+      "text": "【小方制药：长期看好家庭常备外用药赛道】小方制药在2026年半年度业绩说明会上表示，公司未来盈利增长主要依赖创新药研发突破与全渠道销售放量两大核心驱动，同时受益于外用药市场的长期扩容。公司长期看好家庭常备外用药赛道，老龄化与健康消费升级带来稳定需求，行业空间广阔。公司将持续深耕主业、推进产品创新，把握行业机遇。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-14 13:17:10",
+      "text": "【高德美以15亿美元企业价值收购 ZO Skin Health】高德美已签署协议，从包括黑石战术机会基金以及 Obagi 家族在内的股东手中收购 ZO Skin Health，交易企业价值 15 亿美元。本次收购资金将由现有现金储备与银行融资共同筹措。ZO Skin Health 是 “依托临床科学与标准化日常护理方案打造的头部医生渠道护肤品牌”。截至 2026 年 6 月的过去十二个月，ZO Skin Health 净销售额约 3.3 亿美元。高德美计划在收购完成后的首年加大商业化投入，为交易交割第二年起重拾增长夯实基础。预计该交易将在 2027 年小幅摊薄集团核心息税折旧摊销前利润率，自 2028 年起利润率可大致回归集团平均水平。预计交割后首个完整年度，本次收购对集团核心每股收益无影响，且符合高德美维持稳健投资级信用评级的目标。交易预计于 2026 年第四季度或 2027 年初完成，尚需监管审批及其他常规交割条件落地。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-14 13:15:33",
+      "text": "【美国房贷利率跳涨至7.4% 房贷利率跳涨冲击楼市】美国相关机构最新公布的数据显示，今年9月，美国成屋待签约量创下十多年来的新低。高企的抵押贷款利率是楼市受冲击的主要原因。美国知名房地产经纪公司瑞德芬12日公布的数据显示，经季节性调整后，今年9月，美国成屋待签约量，也就是已经签购房意向合同但尚未完成过户的房屋成交量环比下降4%，为三年多来最大月度跌幅，触及2014年以来低点，购房合同撤约率达14.5%，是2020年以来的历史新高。数据显示，美国30年期固定抵押贷款平均利率于10月8日升至7.4%，较8月底的6.66%大幅跳升，达到近三年来的最高水平，也较一年前的6.3%高出超一个百分点。 分析称，市场预期美联储将在9月加息之后再度收紧货币政策，以应对通胀压力。与此同时，美国政府债务规模持续扩张、企业为AI基础设施建设大举借贷，这些因素共同推高债券收益率，进而传导至抵押贷款市场。（央视财经）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-14 13:09:57",
       "text": "阿斯麦预计非EUV业务将比去年增长约20%。",
@@ -101,42 +137,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-14 11:46:47",
-      "text": "国际货币基金组织总裁格奥尔基耶娃：美国依靠强劲的经济增长来降低赤字占GDP的比重，但国际货币基金组织认为这还不够。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-14 11:43:56",
-      "text": "国际货币基金组织总裁：从这个意义上讲，英国的增长前景略好一些。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-14 11:42:25",
-      "text": "国际货币基金组织格奥尔基耶娃：英国的减债举措为增长带来了更优前景。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
