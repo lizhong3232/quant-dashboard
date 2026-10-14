@@ -1,12 +1,63 @@
 {
-  "audit_time": "2026-10-13 22:45:21",
+  "audit_time": "2026-10-13 23:00:19",
   "total_news_scanned": 100,
   "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "601088.SS": {
+      "ticker": "601088.SS",
+      "name": "中国神华",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-14 13:53:44",
+      "text": "【煤炭板块午后再度异动 安泰集团5天3板】午后煤炭板块再度异动，安泰集团走出5天3板，此前郑州煤电涨停，大有能源、晋控煤业、苏能股份、中煤能源、中国神华涨幅靠前。",
+      "analysis": {
+        "matched_tickers": [
+          "601088.SS"
+        ],
+        "matched_names": [
+          "中国神华"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-14 13:48:00",
+      "text": "【比亚迪关于中欧贸易投资磋商机制第二次例会汽车领域成果的声明】比亚迪发布关于中欧贸易投资磋商机制第二次例会汽车领域成果的声明。比亚迪高度关注本次磋商在汽车贸易领域达成的重要共识。本次磋商成果有效管控贸易分歧、避免摩擦升级，兼顾了中欧双方产业的现实情况与合理关切，为中欧混动汽车贸易营造了稳定、可预期、可持续的合作环境。未来，比亚迪将坚持技术创新，减少温室气体排放和人类对化石燃料的依赖，为地球降温1°C。期待与国内同行一道，做负责任的全球产业参与者，共同推动中国汽车行业健康有序的国际化发展。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-10-14 13:19:25",
       "text": "【小方制药：长期看好家庭常备外用药赛道】小方制药在2026年半年度业绩说明会上表示，公司未来盈利增长主要依赖创新药研发突破与全渠道销售放量两大核心驱动，同时受益于外用药市场的长期扩容。公司长期看好家庭常备外用药赛道，老龄化与健康消费升级带来稳定需求，行业空间广阔。公司将持续深耕主业、推进产品创新，把握行业机遇。",
@@ -101,30 +152,6 @@
         "sentiment_score": -0.95,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-14 12:25:37",
-      "text": "【惠誉：马来西亚评级或因财政改善面临上调压力】惠誉评级表示，如果马来西亚政府债务占国内生产总值比重凭借财政整固或强劲的国内生产总值增长前景实现持续下降，该国 BBB + 评级或将面临上调压力。惠誉在周二的声明中称，在名义国内生产总值增长及既定赤字缩减计划的支撑下，政府债务将继续逐步回落。惠誉预计，债务占比将从 2025 年的 77.3% 降至 2027 年约 74%。注：马来西亚政府计划明年将赤字收窄至国内生产总值的 3.3%。2026 年预算赤字上调至 3.6%，原目标为 3.5%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-14 12:22:42",
-      "text": "【IMF总裁认为美国仅靠经济增长不足以解决高债务和财政赤字问题】国际货币基金组织(IMF)认为，美国仅靠经济增长无法足够快地解决不断上升的债务和财政赤字问题，还需要采取其他措施。IMF总裁格奥尔基耶娃周三表示：“美国政府非常依赖强劲的经济增长。增长当然会有帮助，但无法足够快地带来必要的调整。”她在曼谷举行的IMF和世界银行年会期间表示，“有必要采取一些措施”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
