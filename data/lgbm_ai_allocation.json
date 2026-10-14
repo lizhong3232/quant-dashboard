@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-12 18:11:01.546240",
+  "timestamp": "2026-10-13 18:26:24.085028",
   "model": "LightGBM GBDT Regressor (16 Microstructure Factors)",
   "features": [
     "mom5",
@@ -26,135 +26,135 @@
     "graph_catchup_potential"
   ],
   "feature_importance": {
-    "gp_alpha_1": 113,
-    "skewness": 108,
-    "amihud_illiq": 106,
-    "ma60_bias": 104,
-    "vol60": 81,
-    "mom120": 75,
-    "gp_alpha_3": 72,
-    "downside_vol": 70,
-    "mom20": 63,
-    "tail_kurtosis": 62,
-    "mom60": 61,
-    "turnover_stability": 57,
-    "vol20": 56,
-    "volume_surge": 53,
-    "residual_mom": 47,
-    "mom5": 43,
-    "vpt_mom": 42,
-    "gp_alpha_2": 42,
-    "graph_peer_lead": 36,
-    "vwap_div": 27,
-    "graph_upstream_shock": 26,
-    "graph_catchup_potential": 22
+    "amihud_illiq": 125,
+    "skewness": 104,
+    "gp_alpha_1": 100,
+    "vol60": 82,
+    "gp_alpha_3": 82,
+    "downside_vol": 80,
+    "tail_kurtosis": 80,
+    "vol20": 78,
+    "mom120": 76,
+    "mom20": 76,
+    "ma60_bias": 70,
+    "volume_surge": 60,
+    "turnover_stability": 58,
+    "residual_mom": 50,
+    "gp_alpha_2": 43,
+    "graph_peer_lead": 42,
+    "mom60": 42,
+    "vpt_mom": 39,
+    "mom5": 38,
+    "graph_catchup_potential": 35,
+    "vwap_div": 29,
+    "graph_upstream_shock": 15
   },
   "portfolio": [
     {
-      "ticker": "600887.SS",
-      "name": "伊利股份",
-      "industry": "食品饮料",
-      "last_price": 27.96,
-      "pure_ai_alpha": 1.9639095230227497,
-      "opt_weight_pct": 12.0,
-      "shares": 4200
-    },
-    {
-      "ticker": "600276.SS",
-      "name": "恒瑞医药",
+      "ticker": "300760.SZ",
+      "name": "迈瑞医疗",
       "industry": "医药生物",
-      "last_price": 46.05,
-      "pure_ai_alpha": 1.960851405772256,
+      "last_price": 164.3,
+      "pure_ai_alpha": 2.2183068434537887,
       "opt_weight_pct": 12.0,
-      "shares": 2600
+      "shares": 700
     },
     {
       "ticker": "688981.SS",
       "name": "中芯国际",
       "industry": "电子科技",
-      "last_price": 106.68,
-      "pure_ai_alpha": 1.6445026946172991,
+      "last_price": 105.0,
+      "pure_ai_alpha": 1.495722856514076,
       "opt_weight_pct": 12.0,
       "shares": 1100
+    },
+    {
+      "ticker": "600276.SS",
+      "name": "恒瑞医药",
+      "industry": "医药生物",
+      "last_price": 45.29,
+      "pure_ai_alpha": 1.3286447621091544,
+      "opt_weight_pct": 12.0,
+      "shares": 2600
     },
     {
       "ticker": "600031.SS",
       "name": "三一重工",
       "industry": "机械装备",
-      "last_price": 17.52,
-      "pure_ai_alpha": 1.0358374460394377,
+      "last_price": 17.83,
+      "pure_ai_alpha": 1.1906212885213663,
       "opt_weight_pct": 12.0,
-      "shares": 6800
-    },
-    {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "industry": "汽车制造",
-      "last_price": 84.6,
-      "pure_ai_alpha": 0.9666109501609349,
-      "opt_weight_pct": 12.0,
-      "shares": 1400
-    },
-    {
-      "ticker": "600028.SS",
-      "name": "中国石化",
-      "industry": "石油石化",
-      "last_price": 5.43,
-      "pure_ai_alpha": 0.8352050464826833,
-      "opt_weight_pct": 12.0,
-      "shares": 22000
+      "shares": 6700
     },
     {
       "ticker": "601225.SS",
       "name": "陕西煤业",
       "industry": "煤炭能源",
-      "last_price": 27.35,
-      "pure_ai_alpha": 0.7984435728949782,
+      "last_price": 27.36,
+      "pure_ai_alpha": 1.0178179476554583,
       "opt_weight_pct": 12.0,
       "shares": 4300
     },
     {
-      "ticker": "601088.SS",
-      "name": "中国神华",
-      "industry": "煤炭能源",
-      "last_price": 49.38,
-      "pure_ai_alpha": 0.5779235656666738,
-      "opt_weight_pct": 3.0,
-      "shares": 600
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "industry": "石油石化",
+      "last_price": 5.48,
+      "pure_ai_alpha": 0.6974920869413104,
+      "opt_weight_pct": 12.0,
+      "shares": 21800
     },
     {
-      "ticker": "600036.SS",
-      "name": "招商银行",
-      "industry": "银行金融",
-      "last_price": 42.76,
-      "pure_ai_alpha": 0.5371171497885616,
-      "opt_weight_pct": 2.0,
-      "shares": 400
-    },
-    {
-      "ticker": "300760.SZ",
-      "name": "迈瑞医疗",
-      "industry": "医药生物",
-      "last_price": 166.0,
-      "pure_ai_alpha": 0.3534442705272736,
-      "opt_weight_pct": 2.0,
-      "shares": 100
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "industry": "汽车制造",
+      "last_price": 82.25,
+      "pure_ai_alpha": 0.6554578374365742,
+      "opt_weight_pct": 12.0,
+      "shares": 1400
     },
     {
       "ticker": "000333.SZ",
       "name": "美的集团",
       "industry": "家用电器",
-      "last_price": 83.5,
-      "pure_ai_alpha": 0.3250217689691249,
+      "last_price": 82.7,
+      "pure_ai_alpha": 0.524843214150184,
+      "opt_weight_pct": 3.0,
+      "shares": 300
+    },
+    {
+      "ticker": "600887.SS",
+      "name": "伊利股份",
+      "industry": "食品饮料",
+      "last_price": 27.75,
+      "pure_ai_alpha": 0.4985763154605212,
       "opt_weight_pct": 2.0,
-      "shares": 200
+      "shares": 700
+    },
+    {
+      "ticker": "600584.SS",
+      "name": "长电科技",
+      "industry": "电子科技",
+      "last_price": 59.96,
+      "pure_ai_alpha": 0.4150291832104275,
+      "opt_weight_pct": 2.0,
+      "shares": 300
+    },
+    {
+      "ticker": "601088.SS",
+      "name": "中国神华",
+      "industry": "煤炭能源",
+      "last_price": 49.5,
+      "pure_ai_alpha": 0.14438952997521803,
+      "opt_weight_pct": 2.0,
+      "shares": 400
     },
     {
       "ticker": "600030.SS",
       "name": "中信证券",
       "industry": "非银金融",
-      "last_price": 26.06,
-      "pure_ai_alpha": 0.3022701521235771,
+      "last_price": 25.9,
+      "pure_ai_alpha": 0.08850955867026464,
       "opt_weight_pct": 2.0,
       "shares": 700
     }
