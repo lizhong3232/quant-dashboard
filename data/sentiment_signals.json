@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-14 22:00:20",
+  "audit_time": "2026-10-14 22:15:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 9,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -23,18 +23,45 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "600519.SS": {
-      "ticker": "600519.SS",
-      "name": "贵州茅台",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 13:12:45",
+      "text": "【美多州起诉OpenAI 指控ChatGPT违法】美国8个州的总检察长14日分别向各自州法院提起诉讼，指控美国开放人工智能研究中心（OpenAI）旗下聊天机器人ChatGPT在产品安全性方面误导用户，危害未成年人安全，涉嫌违法。(新华社)",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 13:02:12",
+      "text": "爱立信：预计第四季云端软件和服务销售增长将与三年平均季节性表现基本一致。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 13:01:39",
+      "text": "爱立信：各业务板块均发力，仍具备充足优势应对当前挑战，实现长期盈利增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-15 12:35:00",
       "text": "【宁德时代成功注册“宁的易购”商标】企查查APP显示，近日，宁德时代成功注册一枚“宁的易购”商标，国际分类为37类 建筑修理，已申请商品/服务包括：修复磨损或部分损坏的机器；机械安装、保养和修理；运载工具保养服务；电动运载工具充电服务等。",
@@ -120,34 +147,6 @@
         ],
         "matched_names": [
           "招商银行"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:50:37",
-      "text": "【机构预测：2026年第二季度长江存储跃居全球NAND出货量第三】根据Counterpoint Research存储市场追踪与预测，2026年第二季度，长江存储按NAND(闪存)出货量排名升至全球第三，仅次于三星电子和SK海力士，超过铠侠和美光。若将SK海力士旗下Solidigm的出货量剥离计算，长江存储的排名将进一步提升至第二位。在四个季度内（2025年第一季度至2026年第一季度），长江存储的全球NAND营收份额增长超过五成（从9%升至14%），其营收同比增幅最高达478%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:38:57",
-      "text": "【茅台集团旗下子公司人事变动，茅台保健酒、茅台葡萄酒迎新任董事长】茅台集团旗下子公司近期出现人事变动。红星资本局获悉，李春风已出任贵州茅台酒厂（集团）保健酒业有限公司（以下简称“茅台保健酒公司”）董事长并担任法定代表人，张迪已出任贵州茅台酒厂（集团）昌黎葡萄酒业有限公司（以下简称“茅台葡萄酒公司”）董事长。公开信息显示，李春风早期在茅台集团内部任职，曾任‌贵州茅台酒厂知识产权保护部办公室主任‌、茅台集团党委办公室副主任等职务。2023年4月，正式接任茅台葡萄酒公司法定代表人、董事长，全面主持茅台葡萄酒板块工作。张迪曾履职茅台酒区域自营销售公司，负责区域市场渠道运营管理，积累销售经验后，出任贵州茅台酒厂（集团）循环经济产业投资开发有限公司党委副书记、总经理。(红星资本局)",
-      "analysis": {
-        "matched_tickers": [
-          "600519.SS"
-        ],
-        "matched_names": [
-          "贵州茅台"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
