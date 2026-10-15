@@ -1,20 +1,11 @@
 {
-  "audit_time": "2026-10-14 19:45:15",
+  "audit_time": "2026-10-14 20:00:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 20,
+  "relevant_events_found": 18,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "600519.SS": {
-      "ticker": "600519.SS",
-      "name": "贵州茅台",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
     "002463.SZ": {
       "ticker": "002463.SZ",
       "name": "沪电股份",
@@ -24,29 +15,74 @@
         "行业资讯/宏观动态"
       ]
     },
+    "600519.SS": {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
-      "avg_sentiment": 0.2,
-      "news_count": 4,
+      "avg_sentiment": 0.13,
+      "news_count": 3,
       "latest_events": [
-        "行业资讯/宏观动态",
-        "温和经营利好"
+        "温和经营利好",
+        "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
     {
+      "timestamp": "2026-10-15 10:53:51",
+      "text": "【姚振华及宝能等被执行12.7亿】天眼查App显示，10月13日，深圳市宝能投资集团有限公司及其法定代表人姚振华等新增一则被执行人信息，执行标的12.7亿元人民币，执行法院为江西省南昌市中级人民法院。值得一提的是，10月12日，该公司及姚振华等已被执行20.5亿元人民币。该公司成立于2000年3月，注册资本约3亿人民币，经营范围包括投资兴办实业，投资文化旅游产业，建筑、装饰材料的购销及其它国内贸易等，由姚振华、深圳赛康资产管理有限公司共同持股。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "流动性与债务违约",
+        "sentiment_score": -0.9,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:52:25",
+      "text": "新易盛下滑逾7％，抹平年内升幅；中际旭创跌近5％，创业板指日内跌幅再超3％。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:50:20",
+      "text": "【2026北外滩国际航运论坛10月20日开幕】据上海发布，2026北外滩国际航运论坛将于10月20日至21日在虹口区北外滩世界会客厅举办，继续由上海市人民政府、交通运输部共同主办。2026北外滩国际航运论坛以“共同的挑战，共同的使命——共促全球航运韧性发展”为主题。论坛包括开幕式、国际海运、国际航空2个主论坛，以及海上交通安全、金融保险、数字智能、绿色低碳、司法仲裁5个主题论坛，同期还将举办上海浦东国际航运周、全球海事论坛大会等活动，活动总数超过60场。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
       "timestamp": "2026-10-15 10:40:03",
       "text": "【主力资金：新易盛净卖出超9亿】截至目前，今日主力资金净流出315.28亿；净流入医药生物、生物医药、化学制剂等板块，其中医药生物板块净流入15.22亿；净流出转融券标的、融资融券、纳入富时罗素等板块，其中转融券标的板块净流出301.89亿。\n  \n个股方面，欢瑞世纪净买入3.46亿元位居首位，贵州茅台、N联亚、沪电股份主力资金净流入居前；新易盛净卖出9.20亿元位居首位，中际旭创、长鑫科技、寒武纪科技净流出额居前。",
       "analysis": {
         "matched_tickers": [
-          "600519.SS",
-          "002463.SZ"
+          "002463.SZ",
+          "600519.SS"
         ],
         "matched_names": [
-          "沪电股份",
-          "贵州茅台"
+          "贵州茅台",
+          "沪电股份"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -196,42 +232,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:01:29",
-      "text": "国际货币基金组织将印度财年GDP增长预测从6.5%上调至7.0%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:01:20",
-      "text": "IMF将韩国2026年GDP增长预测从1.9%上调至3.3%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:01:14",
-      "text": "IMF维持日本2026年GDP增长预测在0.7%不变。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
