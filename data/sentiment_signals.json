@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-14 23:15:22",
+  "audit_time": "2026-10-14 23:30:24",
   "total_news_scanned": 100,
-  "relevant_events_found": 17,
+  "relevant_events_found": 20,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -9,9 +9,10 @@
     "002594.SZ": {
       "ticker": "002594.SZ",
       "name": "比亚迪",
-      "avg_sentiment": 0.0,
+      "avg_sentiment": 0.2,
       "news_count": 2,
       "latest_events": [
+        "温和经营利好",
         "行业资讯/宏观动态"
       ]
     },
@@ -26,6 +27,94 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 14:28:49",
+      "text": "中指研究院： 2026年9月，重点城市二手房市场保持一定活跃度，同比延续增长态势。十大城市二手房价格环比跌幅较上月有所扩大，上海房价环比由跌转涨。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:28:22",
+      "text": "【机构：硅料企稳预期增强，组件价格承压】据集邦咨询，硅料端继续累库，本周库存维持在56万吨以上，供需过剩压力尚未明显缓解。本周，杭州自律会议推动多晶硅企业统一销售底价，叠加行业预计10月减产约2万吨，市场挺价预期有所增强。但当前硅料排产仍略高于下游拉晶需求，减产虽有助于缓解供需矛盾，但短期内难以扭转库存高企的局面。本周硅料市场成交依旧清淡，但有企业以40元/kg以上价格达成一定规模订单，为市场价格提供支撑。随着下游拉晶厂加速消耗自身库存，硅料价格企稳概率提升，高价价格体系逐步形成，市场看稳情绪增多。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:24:55",
+      "text": "日本经济产业省预计，日本第四季度（10-12月）粗钢产量同比将增长2.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:24:52",
+      "text": "日本经济产业省预测，日本今年第四季度（10-12月）钢材产品出口量将同比下降2.4%，至611万吨。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:22:24",
+      "text": "【台积电第三季度利润超出预期 保持高速增长】台积电第三季度利润超出预期，在人工智能(AI)基础设施建设长远前景日益引发担忧之际，保持了高速增长。这家全球芯片制造关键企业表示，净利润增长69%至7631亿元台币（236亿美元），高于分析师平均预期。之前该公司公布当季销售额增长51%，达到470亿美元，也超出预期。作为英伟达和苹果公司最先进半导体的独家生产商，台积电的强劲业绩与市场对AI股票日益悲观的情绪形成鲜明反差。在台积电的下游，对投资回报和长期融资的担忧正在冲击云计算服务商兼英伟达客户CoreWeave等公司。CoreWeave的股票和债券价格周三双双暴跌。台积电过去两个季度营收都加速增长，并已加大产能扩张力度。该公司表示，今年资本支出至多将高达640亿美元，创历史新高。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:20:23",
+      "text": "【高盛：维持比亚迪“买入”评级，续列确信买入名单内】高盛发表研报指，比亚迪预定于10月29日公布第三季业绩。该行预测收入将达2429.36亿元，同比增长25%且环比增长25%；净利润115亿元，同比上升47%并环比增长39%，主要受惠于销量增长，以及推出更多闪充车型带动平均售价上升，同时其国内新能源车零售市占率由第二季的22%提升至第三季的25%。该行预期投资者将聚焦于国内需求前景、欧盟对中国混合动力车出口上限的影响，以及电动车出口增值税退税逐步取消的影响。高盛维持比亚迪“买入”评级，续列确信买入名单内，H股目标价维持134港元。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:19:49",
+      "text": "【投资者预测黄金价格两年内将创新高】投资者预测，黄金价格将在24个月内刷新历史纪录。数据显示，各国央行9月的黄金购金量创下近两年来最高水平。受市场预期美联储将再度加息影响，周三金价下跌2%，报每金衡盎司4075美元，但部分基金经理预计这一贵金属价格将大幅反弹。基金经理认为，在地缘政治紧张、经济与金融市场充满不确定性的背景下，投资者寻求避险资产，这将在中长期支撑金价上行。特洛伊资产管理公司基金经理夏洛特・扬在贵金属研讨会上表示，黄金有望在12至18个月内再创新高。她指出，美国政府债务规模不断膨胀，且市场预期下一轮经济衰退时全球央行会再度开启印钞，黄金是对冲政府财政状况持续恶化的理想工具。“黄金无法像纸币那样被凭空印制。”她补充道。扬提到，新兴市场机构想要找到美元之外的储备资产，黄金大概率会成为首选，而非欧元、日元这类其他货币。怡安投资欧非中东地区代理首席投资官保罗・卡恩同样认为，金价将在两年内创下新高。黄金生产商奋进矿业首席执行官伊恩・科克里尔认为，宏观环境、市场对法定货币信心下降，以及各国央行思考“如何保护本币价值”，都为金价提供支撑。行业高管们预计，随着市场对美元信心减弱、持续寻找替代资产，各国央行的购金力度将会回升。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-15 14:14:49",
       "text": "【9月我国动力和储能电池销量为222.7GWh 同比增长52%】中国汽车动力电池产业创新联盟数据显示，9月，我国动力和储能电池销量为222.7GWh，环比下降0.2%，同比增长52%。其中，动力电池销量为149.2GWh，占总销量67.0%，环比增长1.7%，同比增长35.0%；储能电池销量为73.5GWh，占总销量33.0%，环比下降3.7%，同比增长104.4%。1—9月，我国动力和储能电池累计销量为1681.7GWh，累计同比增长57.6%。",
@@ -128,94 +217,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 14:07:30",
-      "text": "【花旗：将交通银行A股纳入30天正面催化剂观察，目标价10.31元】花旗发表研报指，将交通银行A股纳入30天正面催化剂观察，预计其第三季业绩将胜于市场预期。该行表示，受惠于长鑫科技按市价计价收益、净息差按季平稳及稳定的资产质素，预计盈利增长加快至同比升约9.3%，带动首九个月盈利同比增长5.8%。该行将交行A股纳入内银A股首选股之一，认为其估值吸引，予其“买入”评级及目标价10.31元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 14:04:43",
-      "text": "道达尔能源：受欧洲气市整体持稳下行背景下天然气交易业务表现不佳拖累，综合液化天然气业务现金流与业绩预计将大幅下滑；该业务第一季度表现曾优于预期。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 14:02:22",
-      "text": "道达尔能源：剔除中东地区影响后，预计产量较2025年第三季度增长超4%，高于3%的年度增长指引。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 14:01:05",
-      "text": "欧洲第三季度可可研磨量同比增长3.2%，至348,215吨。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 14:00:08",
-      "text": "英国8月份经济环比增长0.1%; 预估为-0.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 13:53:53",
-      "text": "沙特阿拉伯9月CPI环比增长0.0%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 13:45:35",
-      "text": "比亚迪：比亚迪辅助驾驶车型保有量超395万辆，天神之眼每天生成数据超2.4亿公里。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
