@@ -2,9 +2,9 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 64148.79,
-  "portfolio_value": 87075.79,
-  "account_nav": 0.8708,
+  "cash": 19189.8,
+  "portfolio_value": 87066.8,
+  "account_nav": 0.8707,
   "bench_nav": 1.0017,
   "positions": {
     "688111.SS": {
@@ -13,9 +13,19 @@
       "avg_cost": 231.17,
       "last_price": 229.27,
       "market_value": 22927.0,
+      "pnl": -190.0,
+      "pnl_pct": -0.82,
+      "highest": 231.17
+    },
+    "300059.SZ": {
+      "name": "东方财富",
+      "shares": 2500,
+      "avg_cost": 17.98,
+      "last_price": 17.98,
+      "market_value": 44950.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
-      "highest": 231.17
+      "highest": 17.98
     }
   },
   "rules": {
@@ -25,7 +35,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-14 00:05:10",
+  "last_updated": "2026-10-14 18:11:02",
   "benchmark": {
     "last_price": 4.294,
     "nav": 0.9302
