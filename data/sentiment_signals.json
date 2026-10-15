@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-14 19:15:16",
+  "audit_time": "2026-10-14 19:30:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 15,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -9,14 +9,59 @@
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
+      "avg_sentiment": 0.13,
+      "news_count": 3,
       "latest_events": [
+        "行业资讯/宏观动态",
         "温和经营利好"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 10:28:11",
+      "text": "【宁德时代曾毓群：储能系统级的挑战要靠材料与电化学体系的底层创新来解决】宁德时代董事长曾毓群今日在2026世界储能大会开幕式上表示，储能正在从新能源的配套设施逐步升级为电力系统不可或缺的新型基础设施，随着应用场景的不断拓展，储能技术面临更高要求。不同的应用环境，对热稳定性、低温容量保持率、功率响应速度等系统性能的要求不同，这些系统级的挑战最终要靠材料与电化学体系的底层创新来解决。宁德时代正发挥钠电池在低温性能和资源禀赋上的优势，与锂电池形成互补，并持续通过材料创新与结构创新，保障电芯在高温环境下的运行稳定性。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:19:42",
+      "text": "【曾毓群向上海交通大学宁德高等研究院捐赠150万股宁德时代股票】10月15日，宁德时代董事长曾毓群在2026世界储能大会现场向上海交通大学宁德高等研究院捐赠150万股宁德时代股票，按照当前股价计算，市值约为4亿元。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:17:29",
+      "text": "欧洲央行桑托斯·佩雷拉：经济增长上行超出预期，未来几个月这种趋势若延续也并不意外。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-15 10:12:27",
       "text": "【中金所：提高服务中长期资金入市的适配性】10月15日，中金所党委书记、董事长何庆文在“2026上海衍生品市场论坛”上表示，近年来，中金所已经实施了两轮的提升机构参与质量行动方案，连续四年实施中长期资金风险管理计划，积极推动修订入市政策，培育中长期资金战略客户，加强相关机构培训，促进更多增量资金进入资本市场。今年上半年中长期资金日均持仓增长11.6%。未来，中金所将继续坚持期现一体、期现协同的理念，持续加大中长期资金入市工作力度，让中长期资金能用、想用、善用金融期货，更好适配其投资发展的需求。",
@@ -152,46 +197,6 @@
     {
       "timestamp": "2026-10-15 10:00:37",
       "text": "国际货币基金组织(IMF)警告称，亚洲经济增长将放缓，且收益率上升会带来溢出效应。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:59:35",
-      "text": "菲律宾8月份海外汇款额为30.35亿美元，同比增长1.9%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:58:40",
-      "text": "【宁德时代曾毓群：储能在电力系统的作用发生了根本性变化】10月15日，宁德时代董事长曾毓群在2026世界储能大会开幕式上指出，储能在电力系统的作用发生了根本性变化，正在从新能源的配套设施，逐步成为电力系统不可或缺的新型基础设施。他表示，过去十几年，全球能源转型成效显著，风电、光伏装机规模持续扩张。但是发电测的稳定性和挑战随之而来。与此同时，工业、交通领域加速电气化，叠加算力AIDC等新型领域快速增长，对电力系统的可靠性、灵活性提出了更高要求。“这就意味着储能行业不能只是追求设备参数的提升，更要构建满足电网需要的系统能力和长期的可靠性。”曾毓群说。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:37:03",
-      "text": "日本央行小枝：鉴于工资整体也保持稳定增长，日本持续通胀似乎比以往任何时候都更加明显。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
