@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 64148.79,
-  "portfolio_value": 87265.79,
-  "account_nav": 0.8727,
+  "portfolio_value": 87075.79,
+  "account_nav": 0.8708,
   "bench_nav": 1.0017,
   "positions": {
     "688111.SS": {
       "name": "金山办公",
       "shares": 100,
       "avg_cost": 231.17,
-      "last_price": 231.17,
-      "market_value": 23117.0,
+      "last_price": 229.27,
+      "market_value": 22927.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 231.17
@@ -25,10 +25,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-13 18:44:11",
+  "last_updated": "2026-10-14 00:05:10",
   "benchmark": {
-    "last_price": 4.345,
-    "nav": 0.9413
+    "last_price": 4.294,
+    "nav": 0.9302
   },
   "nav_history": [
     {
@@ -201,6 +201,15 @@
       "account_nav": 0.8799,
       "bench_nav": 0.9413,
       "alpha": -6.14
+    },
+    {
+      "timestamp": "2026-10-14 00:05:10",
+      "date": "2026-10-14",
+      "cash": 64148.79,
+      "portfolio_value": 87075.79,
+      "account_nav": 0.8708,
+      "bench_nav": 0.9302,
+      "alpha": -5.94
     }
   ]
 }
