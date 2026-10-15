@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-14 23:00:16",
+  "audit_time": "2026-10-14 23:15:22",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,6 +10,15 @@
       "ticker": "002594.SZ",
       "name": "比亚迪",
       "avg_sentiment": 0.0,
+      "news_count": 2,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600519.SS": {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
@@ -17,6 +26,158 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 14:14:49",
+      "text": "【9月我国动力和储能电池销量为222.7GWh 同比增长52%】中国汽车动力电池产业创新联盟数据显示，9月，我国动力和储能电池销量为222.7GWh，环比下降0.2%，同比增长52%。其中，动力电池销量为149.2GWh，占总销量67.0%，环比增长1.7%，同比增长35.0%；储能电池销量为73.5GWh，占总销量33.0%，环比下降3.7%，同比增长104.4%。1—9月，我国动力和储能电池累计销量为1681.7GWh，累计同比增长57.6%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:13:20",
+      "text": "【花旗：将交通银行A股纳入30天正面催化剂观察，目标价10.31元】花旗发表研报指，将交通银行A股纳入30天正面催化剂观察，预计其第三季业绩将胜于市场预期。该行表示，受惠于长鑫科技按市价计价收益、净息差按季平稳及稳定的资产质素，预计盈利增长加快至同比升约9.3%，带动首九个月盈利同比增长5.8%。该行将交行A股纳入内银A股首选股之一，认为其估值吸引，予其“买入”评级及目标价10.31元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:12:35",
+      "text": "台积电：预计2026年营收以美元计算将增长约44%，此前预测为略高于40%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:11:59",
+      "text": "台积电：预计第四季度需求将持续强劲；人工智能需求日益增长；我们领先技术的需求非常强劲。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:11:51",
+      "text": "【花旗：维持比亚迪“买入”评级，H股目标价142港元】花旗发表研报，预期比亚迪第三季净利润(撇除外汇影响及比亚迪电子贡献)将达129.5亿元，受强劲自由现金流支持，有望触发市场短仓回补。花旗维持比亚迪“买入”评级，H股目标价142港元。该行认为比亚迪有三个因素有助于确立估值下限，并可能对市场上的空头头寸造成平仓压力：政策不确定性消除；2027财年西欧出口的下行空间有限；2027财年出口与国内市场前景均较不悲观。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:11:35",
+      "text": "【9月国内动力电池装车量87.2GWh 同比增长14.7%】中国汽车动力电池产业创新联盟数据显示，9月，国内动力电池装车量87.2GWh，环比增长10.4%，同比增长14.7%。其中三元电池装车量12.3GWh，占总装车量14.1%，环比增长11.7%，同比下降10.9%；磷酸铁锂电池装车量74.5GWh，占总装车量85.5%，环比增长10.3%，同比增长19.9%。1—9月，国内动力电池累计装车量576.3GWh，累计同比增长16.7%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:10:03",
+      "text": "【主力资金：转融券标的板块净流出超495亿】截至目前，今日主力资金净流出524.74亿；净流入CRO概念、化学制剂、仿制药等板块，其中CRO概念板块净流入8.56亿；净流出转融券标的、融资融券、纳入富时罗素等板块，其中转融券标的板块净流出495.22亿。\n  \n个股方面，N联亚净买入4.50亿元位居首位，贵州茅台、欢瑞世纪、至纯科技主力资金净流入居前；中际旭创净卖出18.21亿元位居首位，新易盛、长鑫科技、中国船舶净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "600519.SS"
+        ],
+        "matched_names": [
+          "贵州茅台"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:09:17",
+      "text": "【崔东树：1-9月中国汽车出口863万台增52%，出口额1498亿美元增54%】崔东树发文称，2026年我国汽车出口迎来爆发式增长。2026年1-9月汽车出口863万台，同比大增52%，已经超越2025年全年出口整车规模。其中9月出口118.2万台，同比增速55%，环比大幅上升13%，增长爆发力突出。2026年1-9月汽车出口总额1498亿美元，同比大幅增长54%，增长力度重回高位。9月汽车整车出口208亿美元，同比增62%，环比正增长13%，打破 2023-2025年9月季度末偏弱的规律。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:07:30",
+      "text": "【花旗：将交通银行A股纳入30天正面催化剂观察，目标价10.31元】花旗发表研报指，将交通银行A股纳入30天正面催化剂观察，预计其第三季业绩将胜于市场预期。该行表示，受惠于长鑫科技按市价计价收益、净息差按季平稳及稳定的资产质素，预计盈利增长加快至同比升约9.3%，带动首九个月盈利同比增长5.8%。该行将交行A股纳入内银A股首选股之一，认为其估值吸引，予其“买入”评级及目标价10.31元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:04:43",
+      "text": "道达尔能源：受欧洲气市整体持稳下行背景下天然气交易业务表现不佳拖累，综合液化天然气业务现金流与业绩预计将大幅下滑；该业务第一季度表现曾优于预期。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:02:22",
+      "text": "道达尔能源：剔除中东地区影响后，预计产量较2025年第三季度增长超4%，高于3%的年度增长指引。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 14:01:05",
+      "text": "欧洲第三季度可可研磨量同比增长3.2%，至348,215吨。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-15 14:00:08",
       "text": "英国8月份经济环比增长0.1%; 预估为-0.1%。",
@@ -55,54 +216,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 13:35:08",
-      "text": "印度汽车工业协会：2026-27财年剩余时间整体前景依然令人鼓舞，预计汽车行业将以正增长轨迹结束本财年。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 13:34:56",
-      "text": "台积电第三季度物联网业务收入环比增长5%，智能手机业务营收环比增长10%，高效能运算营收环比增长22%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 13:23:23",
-      "text": "【近10万个！全国首批绿证跨境集中交易达成】10月14日，全国首批绿证跨境集中交易（香港）发在广州达成。本次集中交易共成交绿证约10万个，对应可再生能源电量近1亿千瓦时，标志着我国可再生能源绿色电力证书（GEC）规模化落地香港市场，打通内地绿证市场与香港国际绿色金融市场联通渠道，是我国绿证“走出去”、粤港澳大湾区绿色能源协同创新的标志性实践。（央视新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 13:12:45",
-      "text": "【美多州起诉OpenAI 指控ChatGPT违法】美国8个州的总检察长14日分别向各自州法院提起诉讼，指控美国开放人工智能研究中心（OpenAI）旗下聊天机器人ChatGPT在产品安全性方面误导用户，危害未成年人安全，涉嫌违法。(新华社)",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
