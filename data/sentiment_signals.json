@@ -1,16 +1,34 @@
 {
-  "audit_time": "2026-10-14 19:30:15",
+  "audit_time": "2026-10-14 19:45:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 17,
+  "relevant_events_found": 20,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "600519.SS": {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "002463.SZ": {
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
-      "avg_sentiment": 0.13,
-      "news_count": 3,
+      "avg_sentiment": 0.2,
+      "news_count": 4,
       "latest_events": [
         "行业资讯/宏观动态",
         "温和经营利好"
@@ -18,6 +36,52 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 10:40:03",
+      "text": "【主力资金：新易盛净卖出超9亿】截至目前，今日主力资金净流出315.28亿；净流入医药生物、生物医药、化学制剂等板块，其中医药生物板块净流入15.22亿；净流出转融券标的、融资融券、纳入富时罗素等板块，其中转融券标的板块净流出301.89亿。\n  \n个股方面，欢瑞世纪净买入3.46亿元位居首位，贵州茅台、N联亚、沪电股份主力资金净流入居前；新易盛净卖出9.20亿元位居首位，中际旭创、长鑫科技、寒武纪科技净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "600519.SS",
+          "002463.SZ"
+        ],
+        "matched_names": [
+          "沪电股份",
+          "贵州茅台"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:33:13",
+      "text": "【宁德时代曾毓群：储能行业要构建满足电网需求的系统能力和长期可靠性】10月15日，在2026世界储能大会上，宁德时代董事长曾毓群表示，储能正在从新能源的配套设施，逐步成为电力系统不可或缺的新型基础设施；比增长速度更值得关注的是，储能在电力系统中的作用正在发生深刻变化。在曾毓群看来，储能行业不能只追求设备参数的提升，更要构建满足电网需求的系统能力和长期可靠性，要真正迈入新型基础设施时代，储能行业需要强化三个方面的核心能力，一是面向多元化的电网需求，打造整站级解决能力，二是坚持底层创新，提升复杂场景下的技术适应能力，三是要从产品零部件测试，走向体系化、整站级实证。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:30:40",
+      "text": "国际货币基金组织官员在被问及印度强劲的经济增长及其货币疲软时表示：汇率不应被视为衡量经济成败的晴雨表。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-15 10:28:11",
       "text": "【宁德时代曾毓群：储能系统级的挑战要靠材料与电化学体系的底层创新来解决】宁德时代董事长曾毓群今日在2026世界储能大会开幕式上表示，储能正在从新能源的配套设施逐步升级为电力系统不可或缺的新型基础设施，随着应用场景的不断拓展，储能技术面临更高要求。不同的应用环境，对热稳定性、低温容量保持率、功率响应速度等系统性能的要求不同，这些系统级的挑战最终要靠材料与电化学体系的底层创新来解决。宁德时代正发挥钠电池在低温性能和资源禀赋上的优势，与锂电池形成互补，并持续通过材料创新与结构创新，保障电芯在高温环境下的运行稳定性。",
@@ -161,42 +225,6 @@
     {
       "timestamp": "2026-10-15 10:01:14",
       "text": "IMF维持日本2026年GDP增长预测在0.7%不变。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:01:06",
-      "text": "国际货币基金组织：人工智能热潮与能源冲击正重塑地区增长格局。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:01:00",
-      "text": "国际货币基金组织预计2026年亚洲GDP增长4.8%，2027年增长4.4%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:00:37",
-      "text": "国际货币基金组织(IMF)警告称，亚洲经济增长将放缓，且收益率上升会带来溢出效应。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
