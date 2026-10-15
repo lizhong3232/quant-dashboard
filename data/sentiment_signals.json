@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-14 18:45:16",
+  "audit_time": "2026-10-14 19:00:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 4,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -9,23 +9,42 @@
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
-      "avg_sentiment": 0.0,
+      "avg_sentiment": 0.4,
       "news_count": 1,
       "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "000858.SZ": {
-      "ticker": "000858.SZ",
-      "name": "五粮液",
-      "avg_sentiment": -0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和业绩承压"
+        "温和经营利好"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 09:59:35",
+      "text": "菲律宾8月份海外汇款额为30.35亿美元，同比增长1.9%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 09:58:40",
+      "text": "【宁德时代曾毓群：储能在电力系统的作用发生了根本性变化】10月15日，宁德时代董事长曾毓群在2026世界储能大会开幕式上指出，储能在电力系统的作用发生了根本性变化，正在从新能源的配套设施，逐步成为电力系统不可或缺的新型基础设施。他表示，过去十几年，全球能源转型成效显著，风电、光伏装机规模持续扩张。但是发电测的稳定性和挑战随之而来。与此同时，工业、交通领域加速电气化，叠加算力AIDC等新型领域快速增长，对电力系统的可靠性、灵活性提出了更高要求。“这就意味着储能行业不能只是追求设备参数的提升，更要构建满足电网需要的系统能力和长期的可靠性。”曾毓群说。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-15 09:37:03",
       "text": "日本央行小枝：鉴于工资整体也保持稳定增长，日本持续通胀似乎比以往任何时候都更加明显。",
@@ -48,74 +67,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:21:18",
-      "text": "【港股开盘：恒生指数跌0.80%，恒生科技指数跌2.21%】小鹏集团-W跌4.09%，MINIMAX-W跌4.95%，华虹宏力跌5.54%，智谱跌6.47%，宁德时代跌6.98%，联想集团跌7.89%，天数智芯跌9.52%。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:15:05",
-      "text": "【琶洲太空智算星组双星升空 开启“天数天算”新阶段】14日19时40分，琶洲太空智算星组首批两颗算力卫星在酒泉卫星发射中心由“朱雀二号”改进型运载火箭搭载发射升空，卫星顺利进入预定轨道，发射任务取得圆满成功。此次发射的“琶洲太空智算星组”首批两颗算力卫星支持在轨7×24小时稳定运行，投运后，将在太空算力载荷常态化运行、激光高带宽星间互联与星地通信、跨卫星太空大模型分布式计算三方面实现业界首创，形成全栈软硬一体化能力。（央视）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:13:24",
-      "text": "【苹果智能有望12月登陆中国】 彭博社Mark Gurman报道，苹果计划12月通过iOS 27.3在中国大陆首次推出Apple Intelligence。首批功能包括Genmoji自定义表情、通知摘要、写作工具和照片Clean Up。国内版将接入阿里通义千问和通义万相AI模型，苹果已于9月底获监管许可。新版Siri和图乐园暂不包含在内。（IT之家）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:10:45",
-      "text": "【飞天茅台零售均价上涨3元 青花郎二连阳逼近前高 古井贡古20重跌10元】新浪财经“酒价内参”过去24小时收集的数据显示，10月15日中国白酒业12大单品的终端零售均价四涨七跌一平，下跌品种的数量明显占优，且累计跌幅超过上涨端，整体价盘在昨日大幅回升后再度回落。上涨端，飞天茅台上涨3元至1797元，自近期低点明显反弹，逼近1800元关口；五粮液普五八代上涨1元至802元，昨日横盘后小幅抬升，继续据守800元关口之上；习酒君品上涨1元至644元，连续三日上行，平近30天最高价纪录；青花郎上涨3元至698元，二连阳累计上涨8元，距前期699元高点仅一元之遥。下跌端，精品茅台下跌3元至2465元，昨日回升后再度转跌，延续近期窄幅拉锯行情；五粮液1618下跌1元至829元，继续在829至830元的狭窄区间内波动；青花汾20下跌4元至393元，二连跌加速回落，触及400元大关后阻力大增；国窖1573下跌3元至887元，五连阳暂告收尾，但仍处在近期最高位附近；洋河梦之蓝M6+下跌4元至607元，短线反弹告一段落，价盘重新承压身陷低谷；古井贡古20重跌10元至530元，近期涨跌交错特征明显，但今日卖压明显扩大；水晶剑南春下跌2元至409元，昨日反弹未能延续，价盘走势重新转弱。持平方面，茅台1935维持684元不变，昨日小幅回升后进入平盘修整。\n\n今日12大单品的终端零售总价重现回落，七款产品价格下跌，下跌端量能对整体价盘形成较大拖累。如果12大单品各取一瓶整体打包售卖，今日总售价为10745元，较昨日明显下跌19元。",
-      "analysis": {
-        "matched_tickers": [
-          "000858.SZ"
-        ],
-        "matched_names": [
-          "五粮液"
-        ],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:10:16",
-      "text": "【DeepSeek崩了】10月15日，北京时间早上8点后，DeepSeek网页和APP显示“服务器暂时不可用”。 DeepSeek官方信息显示对话服务部分中断、DeepSeekV4.1 FlashAPI服务部分中断，网页/API性能下降，官方正在排查问题、定位原因。（第一财经）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
