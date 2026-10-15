@@ -1,40 +1,144 @@
 {
-  "audit_time": "2026-10-14 20:45:16",
+  "audit_time": "2026-10-14 22:00:20",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600036.SS": {
+      "ticker": "600036.SS",
+      "name": "招商银行",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "600519.SS": {
       "ticker": "600519.SS",
       "name": "贵州茅台",
       "avg_sentiment": 0.0,
-      "news_count": 2,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "002463.SZ": {
-      "ticker": "002463.SZ",
-      "name": "沪电股份",
-      "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
-      ]
-    },
-    "300750.SZ": {
-      "ticker": "300750.SZ",
-      "name": "宁德时代",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和经营利好"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 12:35:00",
+      "text": "【宁德时代成功注册“宁的易购”商标】企查查APP显示，近日，宁德时代成功注册一枚“宁的易购”商标，国际分类为37类 建筑修理，已申请商品/服务包括：修复磨损或部分损坏的机器；机械安装、保养和修理；运载工具保养服务；电动运载工具充电服务等。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 12:29:24",
+      "text": "【前9个月福建泉州港外贸集装箱增长超三成 创同期历史新高】从泉州海关获悉，今年前9个月，泉州海关共监管外贸集装箱16.38万标箱，同比增长30.61%，创同期历史新高，增幅列全省各港口第一位。今年以来，泉州港多措并举，外贸国际集装箱业务全面提速，为泉州外贸高质量发展注入强劲动能。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 12:10:45",
+      "text": "【IDC 称智能手机出货量暴跌 22%，创下史上最差季度】市场研究机构 IDC 表示，受内存成本上涨影响，9 月所在季度智能手机出货量下滑 22%，智能手机市场遭遇有记录以来最大幅度季度下跌，后续形势或将进一步恶化。IDC 称，过去一年人工智能行业订单推高存储价格，拖累整个手机行业盈利水平，迫使厂商涨价、缩减硬件配置，并砍掉入门机型。IDC 研究总监纳比拉・波帕尔称：“当前指标显示市场尚未触底。内存价格自去年以来暴涨约 350%，且仍在继续走高，给厂商利润率和出货量带来巨大压力，最糟糕的阶段还在后面。”",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 12:04:58",
+      "text": "中广核新能源 - 2026年9月发电量同比增长3.9%，达1,409.6吉瓦时。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 12:04:43",
+      "text": "【香港旅发局：9月访港旅客录得约403万人次】香港旅发局今日（15日）公布，上月访港旅客初步录得约403万人次，较去年同期上升22%。旅发局表示，今年前9个月累计访港旅客约4070万人次，按年增加12%，反映香港旅游业持续保持增长动力。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 12:02:27",
+      "text": "【苹果AI国内采用双合作伙伴：阿里提供模型能力，百度负责Siri和视觉智能】据媒体报道，苹果计划于今年12月通过iOS 27.3系统更新正式推出苹果智能，首批上线的是两年前已在美国发布的AI功能。苹果AI在国内采用双合作伙伴的模式。阿里将作为AI能力集成至Apple智能，为 iOS、iPadOS、macOS和visionOS的中国用户提供文本与图像理解、内容生成等智能体验。9月29日取得的许可范围，包括了阿里旗下通义万相和 Qwen。据知情人士透露，苹果将在Siri语音助手及视觉智能（Visual Intelligence）功能中嵌入百度的软件服务。第三方开发者对iOS 27 Beta 2固件的拆解验证了这一信息。拆解显示，系统内新增了名为“Baidu Visual Search”的模块，指向视觉搜索能力的接入。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 11:59:42",
+      "text": "【凌霄泵业使用闲置自有资金购买理财产品】凌霄泵业公告，2026年10月13日，公司使用闲置自有资金人民币22,000.00万元向招商银行股份有限公司（简称“招商银行”）购买了名为“招商银行聚益生金系列公司（35天）B款理财计划【产品代码：99035】”的非保本型理财产品，该理财产品到期日为2026年11月17日。",
+      "analysis": {
+        "matched_tickers": [
+          "600036.SS"
+        ],
+        "matched_names": [
+          "招商银行"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 11:50:37",
+      "text": "【机构预测：2026年第二季度长江存储跃居全球NAND出货量第三】根据Counterpoint Research存储市场追踪与预测，2026年第二季度，长江存储按NAND(闪存)出货量排名升至全球第三，仅次于三星电子和SK海力士，超过铠侠和美光。若将SK海力士旗下Solidigm的出货量剥离计算，长江存储的排名将进一步提升至第二位。在四个季度内（2025年第一季度至2026年第一季度），长江存储的全球NAND营收份额增长超过五成（从9%升至14%），其营收同比增幅最高达478%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-15 11:38:57",
       "text": "【茅台集团旗下子公司人事变动，茅台保健酒、茅台葡萄酒迎新任董事长】茅台集团旗下子公司近期出现人事变动。红星资本局获悉，李春风已出任贵州茅台酒厂（集团）保健酒业有限公司（以下简称“茅台保健酒公司”）董事长并担任法定代表人，张迪已出任贵州茅台酒厂（集团）昌黎葡萄酒业有限公司（以下简称“茅台葡萄酒公司”）董事长。公开信息显示，李春风早期在茅台集团内部任职，曾任‌贵州茅台酒厂知识产权保护部办公室主任‌、茅台集团党委办公室副主任等职务。2023年4月，正式接任茅台葡萄酒公司法定代表人、董事长，全面主持茅台葡萄酒板块工作。张迪曾履职茅台酒区域自营销售公司，负责区域市场渠道运营管理，积累销售经验后，出任贵州茅台酒厂（集团）循环经济产业投资开发有限公司党委副书记、总经理。(红星资本局)",
@@ -49,184 +153,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:35:12",
-      "text": "今年9月访港旅客超过400万人次，同比增长22%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:31:19",
-      "text": "【午评：双创指数半日均跌超3%，全市场超5000只个股下跌】A股三大指数早盘集体下跌，截至午盘，上证指数跌1.98%，深证成指跌2.78%，创业板指跌3.42%，北证50跌2.76%，科创50指数跌3.02%。全市场成交额9896亿元，较上日放量1289亿元，全市场超5000只个股下跌。板块题材上，煤炭开采加工、油气开采及服务、港口航运、半导体、猪肉、种植业与林业板块跌幅居前；白酒、元件、医疗服务、证券板块表现相对领先。盘面上，美国公布的最新通胀数据超预期，加息概率上升，对利率敏感的科技板块全线回调，长鑫科技跌超4%总市值跌破3万亿元，总市值退居至工商银行之后，“易中天”同样表现不佳推动指数震荡走弱。中东局势急剧恶化，两艘新加坡籍货轮遇袭，航运板块大幅调整，中远海能、招商南油、招商轮船盘中跌停。煤炭板块同样表现落后，昊华能源、兖矿能源、郑州煤电跌幅居前。此外，猪肉、种植业、半导体等多个板块下挫。另一方面，白酒板块逆势上涨，皇台酒业涨停，金种子酒、金徽酒跟涨，分析人士指出资金寻找“避风港”，流向具备充沛现金流、低估值和高分红特征的大消费板块。科技板块中的PCB概念股表现坚挺，澳弘电子19天11板，骏亚科技、金禄电子等股涨停，此前多家PCB公司公布的业绩预告亮眼。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:31:08",
-      "text": "【维信诺供货小米18 Fold折叠机柔性屏】记者从产业链人士处获悉，维信诺为小米18 Fold折叠机供应了柔性屏幕。产业链人士透露，近年来，折叠屏手机逐步从概念产品走向大众主力机型，阔（中）折叠成为折叠屏细分赛道的新增长点，与此同时，国内主流手机厂商均在布局阔折叠产品线，相关机型预计今明两年陆续推向市场。（证券时报）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:24:02",
-      "text": "【中国人民银行上海总部：前三季度，外币各项存款增加167亿美元，同比少增38亿美元】据中国人民银行上海总部官网，9月末，上海市本外币各项存款余额25.92万亿元，同比增长8.7%。其中，人民币各项存款余额24.56万亿元，同比增长9%；外币各项存款余额2011亿美元，同比增长10.3%。9月末，上海市本外币各项贷款余额13.66万亿元，同比增长5.9%。其中，人民币各项贷款余额12.98万亿元，同比增长5.6%；外币各项贷款余额1002亿美元，同比增长19.3%。前三季度，外币各项存款增加167亿美元，同比少增38亿美元。9月份，外币各项存款减少44亿美元，同比多减78亿美元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:20:56",
-      "text": "【天合光能：下半年组件业务亏损幅度预计将有所收窄】天合光能在2026年半年度业绩说明会上表示，当前光伏行业已进入U型周期的尾部阶段，2026年下半年，随着季节性行业旺季的到来和“反内卷”工作的持续推进，组件产品价格有望呈上升趋势，组件业务亏损幅度预计将有所收窄。公司会努力尽早实现经营业绩扭亏为盈。公司预计钙钛矿叠层电池将于2028年至2029年进入小规模量产阶段，2029年实现GW级产能；具体落地节奏将根据市场需求适时调整。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:14:30",
-      "text": "【宁波市副市长黄炯：宁波市保险业总资产破千亿 十年累计引进险资1800亿】今日在第三届四明保险论坛上，宁波市副市长黄炯对外披露，今年恰逢宁波国家保险创新综合试验区获批十周年，十年来，宁波市保险业总资产从461亿元增长到1230亿元；保费收入从228亿元增长到636亿元；保障规模从8.5万亿元增长到87.7万亿元。在保险支撑带动下，全市金融业增加值达到1584亿元，占地区生产总值比重提升至8.5%。在保险资金支持重大项目领域，宁波十年累计引进险资1800亿元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:10:07",
-      "text": "【瑞银：下调腾讯控股目标价至740港元 重申“买入”评级】瑞银发布研报称，下调腾讯控股(00700)目标价3.9%，从770港元降至740港元，重申“买入”评级。该行预计，腾讯第三季收入增加7%，较第二季增长放缓，经调整净利润将同比减7%至650亿元人民币(第二季增长9%)，主要受人工智能投资拖累以及摊占联营利润占比可能降低的影响。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:00:26",
-      "text": "韩国8月经调整后的M2货币供应量环比增长0.9%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 11:00:19",
-      "text": "韩国8月经调整后的L货币供应量环比增长0.2%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:53:51",
-      "text": "【姚振华及宝能等被执行12.7亿】天眼查App显示，10月13日，深圳市宝能投资集团有限公司及其法定代表人姚振华等新增一则被执行人信息，执行标的12.7亿元人民币，执行法院为江西省南昌市中级人民法院。值得一提的是，10月12日，该公司及姚振华等已被执行20.5亿元人民币。该公司成立于2000年3月，注册资本约3亿人民币，经营范围包括投资兴办实业，投资文化旅游产业，建筑、装饰材料的购销及其它国内贸易等，由姚振华、深圳赛康资产管理有限公司共同持股。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "流动性与债务违约",
-        "sentiment_score": -0.9,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:52:25",
-      "text": "新易盛下滑逾7％，抹平年内升幅；中际旭创跌近5％，创业板指日内跌幅再超3％。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:50:20",
-      "text": "【2026北外滩国际航运论坛10月20日开幕】据上海发布，2026北外滩国际航运论坛将于10月20日至21日在虹口区北外滩世界会客厅举办，继续由上海市人民政府、交通运输部共同主办。2026北外滩国际航运论坛以“共同的挑战，共同的使命——共促全球航运韧性发展”为主题。论坛包括开幕式、国际海运、国际航空2个主论坛，以及海上交通安全、金融保险、数字智能、绿色低碳、司法仲裁5个主题论坛，同期还将举办上海浦东国际航运周、全球海事论坛大会等活动，活动总数超过60场。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:40:03",
-      "text": "【主力资金：新易盛净卖出超9亿】截至目前，今日主力资金净流出315.28亿；净流入医药生物、生物医药、化学制剂等板块，其中医药生物板块净流入15.22亿；净流出转融券标的、融资融券、纳入富时罗素等板块，其中转融券标的板块净流出301.89亿。\n  \n个股方面，欢瑞世纪净买入3.46亿元位居首位，贵州茅台、N联亚、沪电股份主力资金净流入居前；新易盛净卖出9.20亿元位居首位，中际旭创、长鑫科技、寒武纪科技净流出额居前。",
-      "analysis": {
-        "matched_tickers": [
-          "600519.SS",
-          "002463.SZ"
-        ],
-        "matched_names": [
-          "沪电股份",
-          "贵州茅台"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:33:13",
-      "text": "【宁德时代曾毓群：储能行业要构建满足电网需求的系统能力和长期可靠性】10月15日，在2026世界储能大会上，宁德时代董事长曾毓群表示，储能正在从新能源的配套设施，逐步成为电力系统不可或缺的新型基础设施；比增长速度更值得关注的是，储能在电力系统中的作用正在发生深刻变化。在曾毓群看来，储能行业不能只追求设备参数的提升，更要构建满足电网需求的系统能力和长期可靠性，要真正迈入新型基础设施时代，储能行业需要强化三个方面的核心能力，一是面向多元化的电网需求，打造整站级解决能力，二是坚持底层创新，提升复杂场景下的技术适应能力，三是要从产品零部件测试，走向体系化、整站级实证。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
