@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-14 19:00:16",
+  "audit_time": "2026-10-14 19:15:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 4,
+  "relevant_events_found": 15,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,150 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 10:12:27",
+      "text": "【中金所：提高服务中长期资金入市的适配性】10月15日，中金所党委书记、董事长何庆文在“2026上海衍生品市场论坛”上表示，近年来，中金所已经实施了两轮的提升机构参与质量行动方案，连续四年实施中长期资金风险管理计划，积极推动修订入市政策，培育中长期资金战略客户，加强相关机构培训，促进更多增量资金进入资本市场。今年上半年中长期资金日均持仓增长11.6%。未来，中金所将继续坚持期现一体、期现协同的理念，持续加大中长期资金入市工作力度，让中长期资金能用、想用、善用金融期货，更好适配其投资发展的需求。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:06:14",
+      "text": "菲律宾1月至8月海外汇款额为234.24亿美元，同比增长2.2%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:04:12",
+      "text": "【上期所：已有360余家A股实体上市公司披露参与上期所品种】上期所党委书记、理事长田向阳今日在“2026上海衍生品市场论坛”上表示，上期所聚焦金属、能源、航运等重要领域，加快构建贯穿产业链上下游的产品和服务体系。今年为便利实体企业的参与，上线套利和市价指令，上市5个期权品种，目前期权市场法人客户持仓量的占比超过五成，运行质量不断提升。同时，为引导实体企业善用工具、用好工具，持续做优“强源助企”服务品牌，设立了142家产融服务中心。通过“一对一”、专项推广项目等方式，以点带面推动更多企业迈出重点环节。从效果来看，实体企业参与期货市场的趋势持续向好。截至8月底，有360余家A股实体上市公司披露参与上期所品种，同比增长超过20%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:03:57",
+      "text": "【吉利控股集团2026前三季度销量超300万辆，再创新高】吉利控股集团2026年前三季度累计销量3,002,640辆，创历史新高，持续释放稳健高质量增长势能。其中新能源销量1,792,617辆，同比增长12.6%，新能源渗透率达到59.7%。基于新能源转型的深度推进与全球化布局持续突破，吉利控股以扎实经营实现稳中有进，在复杂多变的市场环境中筑牢发展基盘。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:03:04",
+      "text": "IMF：亚洲经济2026年料增长4.8%，2027年料增长4.4%，低于2025年5.0%的增速。美国收紧货币政策以及发达国家的财政压力，可能持续对亚洲债券收益率构成上行压力。亚洲经济前景面临的风险偏向下行。鉴于亚洲深度参与AI产业链，AI需求若出现调整，亚洲所受影响将尤其明显。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:01:41",
+      "text": "【受贿数额特别巨大 成都市委原副书记、原市长王凤朝被提起公诉】从最高人民检察院获悉，四川省成都市委原副书记、市政府原市长王凤朝涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪对王凤朝作出逮捕决定，并指定由湖南省长沙市人民检察院审查起诉。近日，长沙市人民检察院已向长沙市中级人民法院提起公诉。检察机关在审查起诉阶段，依法告知了被告人王凤朝享有的诉讼权利，并讯问了被告人，听取了辩护人的意见。检察机关起诉指控：被告人王凤朝利用担任四川长虹电子集团有限公司空调产品事业部部长、副董事长，四川长虹电器股份有限公司副总经理、副董事长、常务副总经理、执行总裁、总经理，四川省内江市政府党组成员、副市长，四川省国有资产监督管理委员会副主任，四川发展（控股）有限责任公司党委书记、董事长，四川省政府党组成员、副省长，四川省成都市委副书记、市长等职务上的便利，为他人谋取利益，非法收受他人财物，数额特别巨大，依法应当以受贿罪追究其刑事责任。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:01:29",
+      "text": "国际货币基金组织将印度财年GDP增长预测从6.5%上调至7.0%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:01:20",
+      "text": "IMF将韩国2026年GDP增长预测从1.9%上调至3.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:01:14",
+      "text": "IMF维持日本2026年GDP增长预测在0.7%不变。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:01:06",
+      "text": "国际货币基金组织：人工智能热潮与能源冲击正重塑地区增长格局。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:01:00",
+      "text": "国际货币基金组织预计2026年亚洲GDP增长4.8%，2027年增长4.4%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 10:00:37",
+      "text": "国际货币基金组织(IMF)警告称，亚洲经济增长将放缓，且收益率上升会带来溢出效应。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-15 09:59:35",
       "text": "菲律宾8月份海外汇款额为30.35亿美元，同比增长1.9%。",
@@ -48,18 +192,6 @@
     {
       "timestamp": "2026-10-15 09:37:03",
       "text": "日本央行小枝：鉴于工资整体也保持稳定增长，日本持续通胀似乎比以往任何时候都更加明显。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 09:30:41",
-      "text": "【我国地理信息产业总产值超9000亿元 已构建起完整产业链】2025年我国地理信息产业总产值超过9000亿元，产业结构规模持续扩大，已经构建起完整的地理信息产业链。最新数据显示，2025年我国地理信息产业增速达5.9%，总产值达到9005亿元。从业单位数量约26.9万家，同比增长11.1%，产业由高速增长转向高质量发展阶段，形成数据采集、智能处理、场景应用、综合服务一体化完整产业链。与此同时，市场活力持续迸发，中小企业创新活跃，专精特新“小巨人”企业中地理信息企业共计447家，占全部“小巨人”企业的2.5%。（央视新闻）",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
