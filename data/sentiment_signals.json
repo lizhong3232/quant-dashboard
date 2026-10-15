@@ -1,23 +1,23 @@
 {
-  "audit_time": "2026-10-14 20:00:15",
+  "audit_time": "2026-10-14 20:15:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 18,
+  "relevant_events_found": 14,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "002463.SZ": {
-      "ticker": "002463.SZ",
-      "name": "沪电股份",
+    "600519.SS": {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     },
-    "600519.SS": {
-      "ticker": "600519.SS",
-      "name": "贵州茅台",
+    "002463.SZ": {
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -30,12 +30,60 @@
       "avg_sentiment": 0.13,
       "news_count": 3,
       "latest_events": [
-        "温和经营利好",
-        "行业资讯/宏观动态"
+        "行业资讯/宏观动态",
+        "温和经营利好"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 11:14:30",
+      "text": "【宁波市副市长黄炯：宁波市保险业总资产破千亿 十年累计引进险资1800亿】今日在第三届四明保险论坛上，宁波市副市长黄炯对外披露，今年恰逢宁波国家保险创新综合试验区获批十周年，十年来，宁波市保险业总资产从461亿元增长到1230亿元；保费收入从228亿元增长到636亿元；保障规模从8.5万亿元增长到87.7万亿元。在保险支撑带动下，全市金融业增加值达到1584亿元，占地区生产总值比重提升至8.5%。在保险资金支持重大项目领域，宁波十年累计引进险资1800亿元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 11:10:07",
+      "text": "【瑞银：下调腾讯控股目标价至740港元 重申“买入”评级】瑞银发布研报称，下调腾讯控股(00700)目标价3.9%，从770港元降至740港元，重申“买入”评级。该行预计，腾讯第三季收入增加7%，较第二季增长放缓，经调整净利润将同比减7%至650亿元人民币(第二季增长9%)，主要受人工智能投资拖累以及摊占联营利润占比可能降低的影响。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 11:00:26",
+      "text": "韩国8月经调整后的M2货币供应量环比增长0.9%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-15 11:00:19",
+      "text": "韩国8月经调整后的L货币供应量环比增长0.2%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-15 10:53:51",
       "text": "【姚振华及宝能等被执行12.7亿】天眼查App显示，10月13日，深圳市宝能投资集团有限公司及其法定代表人姚振华等新增一则被执行人信息，执行标的12.7亿元人民币，执行法院为江西省南昌市中级人民法院。值得一提的是，10月12日，该公司及姚振华等已被执行20.5亿元人民币。该公司成立于2000年3月，注册资本约3亿人民币，经营范围包括投资兴办实业，投资文化旅游产业，建筑、装饰材料的购销及其它国内贸易等，由姚振华、深圳赛康资产管理有限公司共同持股。",
@@ -77,12 +125,12 @@
       "text": "【主力资金：新易盛净卖出超9亿】截至目前，今日主力资金净流出315.28亿；净流入医药生物、生物医药、化学制剂等板块，其中医药生物板块净流入15.22亿；净流出转融券标的、融资融券、纳入富时罗素等板块，其中转融券标的板块净流出301.89亿。\n  \n个股方面，欢瑞世纪净买入3.46亿元位居首位，贵州茅台、N联亚、沪电股份主力资金净流入居前；新易盛净卖出9.20亿元位居首位，中际旭创、长鑫科技、寒武纪科技净流出额居前。",
       "analysis": {
         "matched_tickers": [
-          "002463.SZ",
-          "600519.SS"
+          "600519.SS",
+          "002463.SZ"
         ],
         "matched_names": [
-          "贵州茅台",
-          "沪电股份"
+          "沪电股份",
+          "贵州茅台"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -172,66 +220,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:06:14",
-      "text": "菲律宾1月至8月海外汇款额为234.24亿美元，同比增长2.2%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:04:12",
-      "text": "【上期所：已有360余家A股实体上市公司披露参与上期所品种】上期所党委书记、理事长田向阳今日在“2026上海衍生品市场论坛”上表示，上期所聚焦金属、能源、航运等重要领域，加快构建贯穿产业链上下游的产品和服务体系。今年为便利实体企业的参与，上线套利和市价指令，上市5个期权品种，目前期权市场法人客户持仓量的占比超过五成，运行质量不断提升。同时，为引导实体企业善用工具、用好工具，持续做优“强源助企”服务品牌，设立了142家产融服务中心。通过“一对一”、专项推广项目等方式，以点带面推动更多企业迈出重点环节。从效果来看，实体企业参与期货市场的趋势持续向好。截至8月底，有360余家A股实体上市公司披露参与上期所品种，同比增长超过20%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:03:57",
-      "text": "【吉利控股集团2026前三季度销量超300万辆，再创新高】吉利控股集团2026年前三季度累计销量3,002,640辆，创历史新高，持续释放稳健高质量增长势能。其中新能源销量1,792,617辆，同比增长12.6%，新能源渗透率达到59.7%。基于新能源转型的深度推进与全球化布局持续突破，吉利控股以扎实经营实现稳中有进，在复杂多变的市场环境中筑牢发展基盘。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:03:04",
-      "text": "IMF：亚洲经济2026年料增长4.8%，2027年料增长4.4%，低于2025年5.0%的增速。美国收紧货币政策以及发达国家的财政压力，可能持续对亚洲债券收益率构成上行压力。亚洲经济前景面临的风险偏向下行。鉴于亚洲深度参与AI产业链，AI需求若出现调整，亚洲所受影响将尤其明显。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 10:01:41",
-      "text": "【受贿数额特别巨大 成都市委原副书记、原市长王凤朝被提起公诉】从最高人民检察院获悉，四川省成都市委原副书记、市政府原市长王凤朝涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪对王凤朝作出逮捕决定，并指定由湖南省长沙市人民检察院审查起诉。近日，长沙市人民检察院已向长沙市中级人民法院提起公诉。检察机关在审查起诉阶段，依法告知了被告人王凤朝享有的诉讼权利，并讯问了被告人，听取了辩护人的意见。检察机关起诉指控：被告人王凤朝利用担任四川长虹电子集团有限公司空调产品事业部部长、副董事长，四川长虹电器股份有限公司副总经理、副董事长、常务副总经理、执行总裁、总经理，四川省内江市政府党组成员、副市长，四川省国有资产监督管理委员会副主任，四川发展（控股）有限责任公司党委书记、董事长，四川省政府党组成员、副省长，四川省成都市委副书记、市长等职务上的便利，为他人谋取利益，非法收受他人财物，数额特别巨大，依法应当以受贿罪追究其刑事责任。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
