@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-14 18:15:16",
+  "audit_time": "2026-10-14 18:30:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 20,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [
@@ -15,6 +15,15 @@
     }
   ],
   "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 2,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "000858.SZ": {
       "ticker": "000858.SZ",
       "name": "五粮液",
@@ -24,28 +33,35 @@
         "温和业绩承压"
       ]
     },
-    "300750.SZ": {
-      "ticker": "300750.SZ",
-      "name": "宁德时代",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
     "600030.SS": {
       "ticker": "600030.SS",
       "name": "中信证券",
       "avg_sentiment": 0.27,
       "news_count": 5,
       "latest_events": [
-        "温和经营利好",
         "行业资讯/宏观动态",
-        "重大业绩预增"
+        "重大业绩预增",
+        "温和经营利好"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-15 09:21:18",
+      "text": "【港股开盘：恒生指数跌0.80%，恒生科技指数跌2.21%】小鹏集团-W跌4.09%，MINIMAX-W跌4.95%，华虹宏力跌5.54%，智谱跌6.47%，宁德时代跌6.98%，联想集团跌7.89%，天数智芯跌9.52%。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-10-15 09:15:05",
       "text": "【琶洲太空智算星组双星升空 开启“天数天算”新阶段】14日19时40分，琶洲太空智算星组首批两颗算力卫星在酒泉卫星发射中心由“朱雀二号”改进型运载火箭搭载发射升空，卫星顺利进入预定轨道，发射任务取得圆满成功。此次发射的“琶洲太空智算星组”首批两颗算力卫星支持在轨7×24小时稳定运行，投运后，将在太空算力载荷常态化运行、激光高带宽星间互联与星地通信、跨卫星太空大模型分布式计算三方面实现业界首创，形成全栈软硬一体化能力。（央视）",
@@ -236,22 +252,6 @@
         "sentiment_score": 0.95,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-15 08:28:50",
-      "text": "【中信证券：电价周期拐点来临，核电重拾弹性】中信证券研报表示，沿海供需改善，预计核电即将走出2024~2026年的电价下行周期；核电在建机组投产周期启动，量价齐升助力核电公司业绩进入新一轮释放周期；当前市场尚未完全计入电价上涨对核电公司的业绩催化，板块估值仍具备较强安全边际。",
-      "analysis": {
-        "matched_tickers": [
-          "600030.SS"
-        ],
-        "matched_names": [
-          "中信证券"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
