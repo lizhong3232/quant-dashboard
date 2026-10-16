@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 19189.8,
-  "portfolio_value": 87066.8,
-  "account_nav": 0.8707,
+  "portfolio_value": 88239.8,
+  "account_nav": 0.8824,
   "bench_nav": 1.0017,
   "positions": {
     "688111.SS": {
       "name": "金山办公",
       "shares": 100,
       "avg_cost": 231.17,
-      "last_price": 229.27,
-      "market_value": 22927.0,
+      "last_price": 232.5,
+      "market_value": 23250.0,
       "pnl": -190.0,
       "pnl_pct": -0.82,
       "highest": 231.17
@@ -21,8 +21,8 @@
       "name": "东方财富",
       "shares": 2500,
       "avg_cost": 17.98,
-      "last_price": 17.98,
-      "market_value": 44950.0,
+      "last_price": 18.32,
+      "market_value": 45800.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 17.98
@@ -35,10 +35,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-14 18:11:02",
+  "last_updated": "2026-10-15 00:05:14",
   "benchmark": {
-    "last_price": 4.294,
-    "nav": 0.9302
+    "last_price": 4.242,
+    "nav": 0.919
   },
   "nav_history": [
     {
@@ -220,6 +220,15 @@
       "account_nav": 0.8708,
       "bench_nav": 0.9302,
       "alpha": -5.94
+    },
+    {
+      "timestamp": "2026-10-15 00:05:14",
+      "date": "2026-10-15",
+      "cash": 19189.8,
+      "portfolio_value": 88239.8,
+      "account_nav": 0.8824,
+      "bench_nav": 0.919,
+      "alpha": -3.66
     }
   ]
 }
