@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-15 23:15:16",
+  "audit_time": "2026-10-15 23:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-16 14:27:10",
+      "text": "【里昂：台积电第三季业绩胜预期，维持“高度确信跑赢大市”评级】里昂发表报告指，台积电第三季业绩胜预期，虽不令人意外，但宏观清晰度受市场欢迎。该行维持“高度确信跑赢大市”评级及目标价3700新台币，基于2027年盈利25倍市盈率。该行指出，台积电第三季每股盈利29.43新台币，高于该行估计的28.6新台币；收入同比增长50.9%至1.494万亿新台币，毛利率66.4%，符合该行估计。公司表示需求极为强劲，未见放缓迹象，并暗示对人工智能需求复合年增长率评估有上行空间至高50%。台积电维持2026年全年资本开支指引60亿至64亿美元；该行目前基准预测2027年资本开支800亿美元、2028年900亿美元，两者均有上行风险。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-16 14:22:34",
+      "text": "【飞猪：双11开售4小时，超200个商家成交额翻倍】10月16日消息，据飞猪方面披露的数据，2026年飞猪双11于10月15日晚上8点开启，开售4小时，活动商品累计销量接近100万件，超200个商家成交额较去年翻倍增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-16 14:19:27",
+      "text": "【世界银行将在美国推动下加大关键矿产领域工作力度】世界银行行长阿杰伊·班加表示，世行计划在五年内将关键矿产相关融资规模提升至原来的五倍。该计划目标是在2026至2030财年提供190亿美元关键矿产融资。班加周五在曼谷举行的世界银行与国际货币基金组织年会全体会议上称，这家总部位于华盛顿的机构已选定20个国家，可与其开展关键矿产开发项目合作。美国财政部长斯科特·贝森特本周早些时候表示，“关键矿产是经济增长与经济安全的基础投入品”，世行在该领域可以发挥重要作用。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-16 14:14:56",
       "text": "【ST星农：公司农机业务不再盲目追求销售规模】ST星农在2026年半年度暨第三季度业绩说明会上表示，公司农机业务不再盲目追求销售规模，适度控制低毛利机型出货，聚焦高附加值产品，提高预收账款占比，管控应收账款、加快资金回笼；同时依托现有产能承接外协订单，分摊固定制造费用；燃油泵业务在现有基础上提高销售规模、适度提升国内占比；专用汽车业务审慎承接订单，优选毛利、回款可控项目，压降闲置产能成本。",
@@ -139,30 +175,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-16 12:55:55",
-      "text": "国际货币基金组织（IMF）总裁格奥尔基耶娃：创造人工智能增长的国家有责任与企业共同建立护栏。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-16 12:53:07",
-      "text": "【阅文发布首批AI精品动画与OPC平台】10月16日，阅文创作大会在杭州举行。阅文发布了首批AI精品动画项目，推出“IP委员会”模式，首个项目《保卫南山公园》与三体宇宙合作，并将DramaBuddy漫剧助手升级为OPC一站式平台。阅文集团CEO兼总裁侯晓楠披露，阅文已签约5000多个“个人及个人工作室”，前十大OPC创作者年收入均突破100万。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
