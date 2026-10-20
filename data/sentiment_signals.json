@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-19 19:00:16",
+  "audit_time": "2026-10-19 19:15:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 15,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,22 +10,85 @@
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 3,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "000858.SZ": {
-      "ticker": "000858.SZ",
-      "name": "五粮液",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
+      "news_count": 2,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-20 10:12:33",
+      "text": "【招商证券：有色龙头配置价值逐步显现 配置上优先关注金、铜】招商证券发布研报称，有色行业供给弹性不足、库存相对低位及企业盈利兑现形成现实支撑，宏观不确定性与风险偏好回落则压制权益估值。前期调整已释放部分风险，具备盈利持续性与合理估值的龙头配置价值逐步显现。展望四季度，以盈利韧性把握配置确定性，以宏观改善捕捉修复弹性。若宏观压制缓解与基本面形成共振，板块有望迎来盈利预期上修与估值修复。配置上优先关注金、铜，其次关注钽、钨等品种，重点筛选成本优势突出、资源储备优质、产量增长明确且股东回报稳定的企业。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 10:12:33",
+      "text": "【国内首款获批蠕形螨睑缘炎创新药开出首批处方】记者从远大医药获悉，公司用于治疗蠕形螨睑缘炎的创新眼科药物满沐安®在北京、上海、广东等多地的11家医疗机构开出了首批处方。满沐安®是国内首款且唯一获批用于治疗蠕形螨性睑缘炎的药物。（证券时报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 10:11:51",
+      "text": "前三季度，中欧班列已开行1.6万列，同比增长15%；中亚班列已开行1.1万列，同比增长2%，西部陆海新通道铁海联运班列发送超97万标箱，为保障国际供应链稳定畅通、服务高质量共建“一带一路”和我国高水平对外开放提供了有力运输保障。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 10:11:41",
+      "text": "前三季度，国家铁路发送粮食8896万吨，同比增长15%，其中9月份进入秋收季节，累计发送1025万吨，同比增长26%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 10:07:30",
+      "text": "【国家统计局：三季度信息传输、软件和信息技术服务业同比增长9.8%】国家统计局发布2026年三季度国内生产总值初步核算结果。三季度我国金融业GDP同比增长4.1%，批发和零售业GDP同比增长5.6%，信息传输、软件和信息技术服务业同比增长9.8%。（国家统计局）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 10:07:02",
+      "text": "【移远通信触及涨停】移远通信触及涨停，成交额14.08亿元。消息面上，移远通信披露2026年第三季度报告，前三季度公司实现营业总收入237.99亿元，同比增长33.13%；归母净利润12.12亿元，同比增长65.21%；扣非净利润12.17亿元，同比增长75.25%",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-20 09:59:57",
       "text": "【国家统计局：经初步核算，2026年第三季度金融业GDP同比增长4.1%】据国家统计局消息，经初步核算，我国2026年第三季度金融业GDP同比增长4.1%。",
@@ -140,50 +203,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 09:21:07",
-      "text": "【青花郎四连阳再创月新高 青花汾20重返400元 五粮液普五回落5元仍守住800大关】新浪财经“酒价内参”过去24小时收集的数据显示，10月20日中国白酒业12大单品的终端零售均价四涨四跌四平，涨跌品种的数量持平，累计涨跌幅度也相抵，整体价盘在连续上行后转入平盘整理。上涨端，精品茅台上涨3元至2466元，二连阳继续走高，价格重新回到近期高位；青花汾20上涨3元至400元，连续第二日回升，收复400元整数关口；古井贡古20上涨1元至541元，四连阳累计大涨18元，延续近期强势修复行情；青花郎上涨4元至714元，四连涨持续走强，进一步刷新近一个月价格新高。下跌端，飞天茅台下跌2元至1791元，逼近1790元一线；五粮液普五八代下跌5元至802元，连续两日攀升后明显回落，但依然守在800元关口之上；五粮液1618下跌1元至830元，连续三日平盘的均衡打破；国窖1573下跌3元至894元，昨日创下近一个月新高后回调，900元关口前涨势暂歇。持平方面，茅台1935维持684元不变，昨日小幅下跌后转入横盘；洋河梦之蓝M6+维持611元，连续两日下跌后暂时企稳；习酒君品保持640元不变，结束此前连续回调；水晶剑南春维持411元，昨日回落后进入平盘整理。今日12大单品的终端零售总价结束了此前连续四日的上涨，涨跌两端力量基本均衡，青花郎、精品茅台等品种继续走强，而五粮液普五八代、国窖1573等出现不同程度回调。如果12大单品各取一瓶整体打包售卖，今日总售价为10784元，与昨日持平，仍维持在近13天以来的高位水平。",
-      "analysis": {
-        "matched_tickers": [
-          "000858.SZ"
-        ],
-        "matched_names": [
-          "五粮液"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 09:21:00",
-      "text": "【港股开盘：恒生指数跌0.81%，恒生科技指数跌1.28%】汇丰控股跌2.74%，信义玻璃跌2.84%，宁德时代跌2.99%，紫金矿业跌3.44%，蔚来-SW跌3.50%，华虹宏力跌3.74%，联想集团跌7.34%。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 09:12:11",
-      "text": "【湖南前三季度进出口增长11.9%】据湖南日报·新湖南客户端，长沙海关19日发布，今年前三季度，湖南进出口总值4445亿元，同比增长11.9%。其中，出口2533亿元、增长6.3%；进口1912亿元、增长20.2%。9月全省进出口总值532.9亿元，同比增长16.3%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
