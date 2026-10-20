@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-19 23:15:18",
+  "audit_time": "2026-10-19 23:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -9,14 +9,104 @@
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
+      "avg_sentiment": -0.1,
+      "news_count": 4,
+      "latest_events": [
+        "温和业绩承压",
+        "行业资讯/宏观动态"
+      ]
+    },
+    "601318.SS": {
+      "ticker": "601318.SS",
+      "name": "中国平安",
       "avg_sentiment": 0.0,
-      "news_count": 3,
+      "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-20 14:27:45",
+      "text": "【港股锂电池大跳水】据Wind数据，宁德时代H股跌近9%，港股锂电池指数跌幅扩大至6%，中创新航跌逾10%。今天（10月20日）摩根大通正式将宁德时代港股评级从“超配”下调至“中性”，‌目标价从725港元/股下调至500港元/股‌，同时维持宁德时代A股的“超配”评级不变。10月19日，中信建投研报指出，2026年以来国内大型储能项目落地进度不及预期，将全年新增装机预测下调至230—250GWh。数据显示，1—9月国内储能新增装机102.3GWh，同比仅增6%，需求预期偏弱或压制相关企业业务估值。花旗发布研报称，ZEConsulting已下调2026年10月电池产量管道预测，预期前五大电池厂商产量管道月度环比仅升1%，低于此前预览调查预期的月度环比升7%。该行下调宁德时代港股(HK3750)、中创新航(HK3931)及EVE的产量管道预测。（券商中国）",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 14:23:38",
+      "text": "保加利亚央行预计，2027年GDP增长2.5%，2028年增长2.7%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 14:20:27",
+      "text": "【花旗：维持SK海力士“买入”评级，存储器上行周期延长潜力未完全反映】花旗发表报告，预期SK海力士第三季经营溢利为81.3万亿韩元，环比升34%，同比升614%，较市场预期75.5万亿韩元高出8%，尽管面对外汇逆风及HBM4相关杂音。该行预期，SK海力士第三季销售额为101.2万亿韩元，环比升28%，同比升314%。花旗预计，受人工智能推理需求强劲带动，存储器对KV-cache工作负载的需求增加，支持SK海力士第三季DRAM平均售价环比升28%，NAND平均售价环比升24%。该行认为，随着持续学习的采用增加，人工智能推理需求将继续扩大，推动eSSD需求在2027年同比增长52.9%。该行指出，SK海力士专注于高密度QLC NAND技术，并正提升TLC NAND性能以配合人工智能定制解决方案，相信公司将成为eSSD需求急升的主要受益者。该行认为，存储器供应紧张情况将持续至2028年，目前股价相当于预测未来12个月市盈率2.7倍及预测市账率1.4倍，并未完全反映存储器上行周期延长的潜力。花旗维持SK海力士韩股目标价300万韩元及“买入”评级不变。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 14:17:59",
+      "text": "【英特尔半导体（大连）有限公司增资至8.16亿美元】天眼查App显示，近日，英特尔半导体（大连）有限公司发生工商变更，注册资本由2000万美元增至8.16亿美元，增幅3980%。英特尔半导体（大连）有限公司成立于2006年6月，法定代表人为CANDICECHRISTINEMOORE，经营范围包括半导体集成电路产品制造、封装测试、加工、仓储、销售自产产品和售后服务等。股东信息显示，该公司由英特尔（中国）有限公司全资持股。（南方财经）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 14:17:00",
+      "text": "【保险股下挫，中国人保跌超4%】保险股下挫，中国人保跌超4%，中国太保、新华保险、中国平安、中国人寿跟跌。",
+      "analysis": {
+        "matched_tickers": [
+          "601318.SS"
+        ],
+        "matched_names": [
+          "中国平安"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 14:15:54",
+      "text": "英美资源集团：与泰克资源的合并预计仍将于2027年3月前完成。因智利天气干扰，第三季度铜产量下降5%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-20 14:10:05",
       "text": "【主力资金：融资融券板块净流出超163亿】截至目前，今日主力资金净流出175.14亿；净流入机器人概念、人形机器人、MR头显等板块，其中机器人概念板块净流入53.77亿；净流出融资融券、转融券标的、政府控股等板块，其中融资融券板块净流出163.32亿。\n  \n个股方面，长盈精密净买入6.30亿元位居首位，瑞芯微、超声电子、移远通信主力资金净流入居前；长鑫科技净卖出17.14亿元位居首位，宁德时代、洛阳钼业、新易盛净流出额居前。",
@@ -131,46 +221,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 13:43:46",
-      "text": "【港股锂电池板块跌幅扩大，宁德时代跌超8%】港股锂电池板块跌幅扩大，宁德时代跌超8%，中创新航跌超9%。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 13:38:02",
-      "text": "匈牙利总理：预计2030年经济增长将加速至3%以上。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 13:28:53",
-      "text": "【仲量联行：三季度北京办公楼租赁市场活跃度呈现小幅回升态势】10月20日，仲量联行发布2026年第三季度北京房地产市场回顾报告。今年三季度，北京办公楼租赁市场活跃度呈现小幅回升态势，整层及以上的大面积成交显著增多。CBD核心区迎来四个新项目集中入市。受新项目集中入市的影响，全市空置率环比上升2.4个百分点至17.1%。受全年供应高峰的持续影响，预计2026年末全市空置率走势仍将承压。三季度市场流动性的增强尚未扭转租金下行通道，全市平均租金环比下降1.2%。(财经网)",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
