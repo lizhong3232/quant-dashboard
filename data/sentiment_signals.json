@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-19 22:45:18",
+  "audit_time": "2026-10-19 23:00:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-20 13:58:35",
+      "text": "【日本投资者上半年净买入国债18.8万亿日元，创2009年以来最高】日本投资者在本财年上半年增持本国国债的规模升至17年来最高水平。部分分析人士认为，这反映出养老金正在调整投资组合，以恢复既定的资产配置比例。根据日本证券业协会周二公布、由机构汇总的数据，截至9月30日的六个月内，日本投资者净买入国债18.8万亿日元（约合1190亿美元）。其中，通常被视为养老金资金代理人的信托银行贡献了近一半的买盘，另有约三分之一来自银行。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-20 13:49:04",
+      "text": "汇丰集团首席执行官：投资建设具有韧性的替代航线，我们看到该地区复苏并持续增长，资本不会成为问题。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-20 13:43:46",
       "text": "【港股锂电池板块跌幅扩大，宁德时代跌超8%】港股锂电池板块跌幅扩大，宁德时代跌超8%，中创新航跌超9%。",
@@ -103,54 +127,6 @@
         "sentiment_score": -1.0,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 12:37:41",
-      "text": "【俄外长：俄专家正陆续返回伊朗布什尔核电站项目 】据伊朗伊斯兰共和国通讯社19日报道，俄罗斯外长拉夫罗夫当天在伊朗首都德黑兰表示，俄方无意放弃履行与伊朗在经济和投资领域达成的协议。俄技术专家正陆续返回伊朗南部的布什尔核电站项目。拉夫罗夫当天早些时候抵达德黑兰，开始访问。他在与伊朗外长阿拉格齐会晤后举行的记者会上作出上述表示。拉夫罗夫说，俄伊双边贸易快速增长，去年增长了21%，今年前8个月又增长超过10%。他还表示，在油气资源开采与运输方面，两国有广阔合作前景。布什尔核电站位于伊朗南部城市布什尔城外，建于波斯湾沿岸，是伊朗境内唯一运转的核电站。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 12:34:55",
-      "text": "【首批水运领域人工智能应用场景指引发布】10月20日，2026北外滩国际航运论坛在上海开幕，一系列政府引领性成果于开幕式集中亮相。为落实《关于“人工智能+交通运输”的实施意见》，聚焦“一网四化”，交通运输部发布第一批水运领域人工智能应用场景指引以及2027年拟建成的十大智能体和十大垂类模型，加快推动人工智能在水运领域创新应用。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 12:32:12",
-      "text": "【本币承压之际 印度央行对大额海外投资加强审查】据报道，在卢比承压之际，印度央行正加强对国内企业大额海外投资的审查，以遏制资本外流。印度《经济时报》援引两位不愿具名的知情人士报道称，印度央行上周向主要银行发出一份标准化核查清单，要求其提供两类投资的详细信息：一是超过10亿美元的对外直接投资，二是交易金额超过投资企业净资产四倍这一监管上限的项目。此举正值印度央行加大力度捍卫卢比之际。受持续的美元需求和资本外流影响，卢比今年以来已下跌逾5%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-20 12:28:05",
-      "text": "【山西发布寒潮黄色预警 最低气温将下降10℃以上】10月20日，山西省气象台发布寒潮黄色预警，预警区域为临汾市北部、忻州市西部、朔州市、大同市、太原市西部、吕梁市西部、晋中市南部、长治市西北部，预警区域48小时内最低气温将下降10℃以上，最低气温小于等于4℃。气象部门提示，政府及有关部门按照职责做好防寒潮工作；公众注意添衣保暖，照顾好老、弱、病人；农户对牲畜、家禽、农作物等采取防寒措施。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
