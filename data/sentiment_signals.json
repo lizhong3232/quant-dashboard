@@ -1,22 +1,36 @@
 {
-  "audit_time": "2026-10-21 22:30:16",
+  "audit_time": "2026-10-21 22:45:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 17,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.4,
-      "news_count": 2,
-      "latest_events": [
-        "温和经营利好"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-22 13:45:00",
+      "text": "数据显示，9月份印度从俄罗斯进口的石油较8月份下降13.7%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 13:37:38",
+      "text": "【港股布鲁可午后跌超20%】港股布鲁可午后跌超20%，公司控股股东通过大宗交易方式减持股份，交易价格较市价折价。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "常规股东减持",
+        "sentiment_score": -0.45,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-10-22 13:26:01",
       "text": "【火山引擎启动Seedance 2.5 4K企业试用：首批定向供应20家工作室】火山引擎近期启动了Seedance 2.5 4K模型的第一批企业用户试用，与作品绑定、定向供应给全球20家工作室和导演Seedance 2.5 4K模型，探索搬上大荧幕的高端影视需求。 除了画面细节更清晰，Seedance 2.5 4K主打人物表演更细腻自然、参考生成和编辑的一致性更精细，是Seedance 2.5这一代中的最强模型。",
@@ -119,86 +133,6 @@
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:06:42",
-      "text": "欧洲汽车制造商协会：欧洲纯电动汽车市场上月增长近60%。混合动力汽车注册量增加5.3%，插电式混合动力车型注册量增长24%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:06:15",
-      "text": "【特斯拉欧洲月度销量激增】特斯拉上月欧洲销量激增，显示埃隆·马斯克旗下这家电动汽车制造商在欧洲继续扩大市场影响力；中国竞争对手在这一地区也在强劲增长。行业机构欧洲汽车制造商协会(European Automobile Manufacturers' Association，简称ACEA)的数据显示，作为销量指标的特斯拉车型新车注册量9月份同比跃升72.5%，至68,776辆，统计范围涵盖欧盟(European Union)、英国、冰岛、列支敦士登、挪威和瑞士。上月增速较8月份仅4%的增幅明显加快；8月份通常是汽车注册淡季，因为欧洲许多经销商会因夏季假期休业。得益于相对低价的电动和混合动力车型阵容，中国汽车制造商近年来在欧洲迅速崛起。ACEA称，比亚迪(BYD)上月注册量激增近99%，至49,953辆。上汽集团(SAIC Motor)注册量增长近24%，至41,987辆；零跑汽车(Leapmotor)注册量增至14,594辆，达到原来的四倍多。相比之下，德国大众汽车销量下降2.9%，至308,474辆；雷诺销量下降0.7%，至114,726辆。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:04:39",
-      "text": "【应急管理领域4个项目入选首批标志性重大应用场景项目】近日，国家发展改革委等六部门联合发布实施首批标志性重大应用场景项目。其中，应急管理领域共有“危化品储罐区无人化智能灭火”“极端灾害情况下应急指挥通信保障”“智慧矿山建设”“深部战略资源安全开采”等4个场景项目入选。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:03:52",
-      "text": "欧洲汽车制造商协会：宝马9月欧洲新车注册量下降0.3%。大众集团9月份欧洲新车注册量下降2.9%。梅赛德斯-奔驰集团9月欧洲新车注册量增长5.8%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:00:49",
-      "text": "欧洲汽车制造商协会：特斯拉9月欧洲新车注册量增长72.5%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:00:36",
-      "text": "欧洲汽车工业协会：比亚迪9月欧洲新车注册量增长近99%。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
         "event_category": "温和经营利好",
         "sentiment_score": 0.4,
         "is_black_swan": false,
