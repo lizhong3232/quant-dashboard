@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-21 20:15:20",
+  "audit_time": "2026-10-21 20:30:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-22 11:22:59",
+      "text": "【马斯克：拉动汽车需求的最大驱动力是FSD 正全力推动FSD在更多市场获得审批】美东时间周三，特斯拉CEO马斯克在特斯拉财报电话会上表示，特斯拉汽车产品的市场需求正在快速增长，需求规模已经大幅超出产能。毫无疑问我们会提升产量，目前正在显著扩产。拉动需求的最大驱动力就是完全自动驾驶FSD。目前市面上没有任何在售车型能够在FSD层面和我们竞争。需要说明的是，我们正尽可能多地生产并交付车辆，同时全力推动FSD在更多市场获得审批。目前FSD已经获得欧洲多个国家许可，我们希望拿到欧盟全域审批。这件事很难预判，或许几个月内可以落地，但就算拖到明年一季度我也不会感到意外。当然审批进度并不由我们掌控，但我们预计FSD终将拿到欧洲全境以及诸多其他国家的许可。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 11:20:55",
+      "text": "【大摩：维持MiniMax“增持”评级，M3.1 Flash定价具竞争力】摩根士丹利发表报告指，MiniMax本周正式推出M3.1 Flash，参数及授权尚未披露。该模型在代理工作流、编程、计算机使用及网络安全方面有显著提升，DeepSWE得分73.7%、OSWorld V2得分61.7、CyberGym得分82%，后两项基准在中国领先模型中名列前茅。该行指出，虽然定价并非最低，但在中国主要flash大型语言模型中具竞争力，代理任务成本亦具优势。该行预期M3 Pro将是展示MiniMax追求前沿智能能力的主要大型语言模型，料于10月底前推出。该行维持MiniMax“增持”评级及目标价900港元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 11:19:28",
+      "text": "【马斯克：储能业务需求十分火爆 正以最快速度扩产】美东时间周三，特斯拉CEO马斯克在特斯拉财报电话会上表示，储能业务需求十分火爆，2027年交付的Megapack储能柜基本已经售罄。我们正以最快速度扩产来满足市场需求，同时预计该业务的毛利率将实现大幅提升。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-22 11:11:34",
       "text": "【高盛：英伟达物理AI收入超全年，给予300美元目标价】市场担心AI资本开支见顶，英伟达在GTC柏林给出相反信号。物理AI收入提前超过上一财年全年，供应链基板产能扩2.5倍，CoWoS-R(先进封装)产能扩3倍。高盛维持英伟达买入评级，目标价300美元，较10月20日收盘价216.47美元高38.6%。高盛集团参加了英伟达CEO黄仁勋的GTC柏林主题演讲。高盛在2026年10月21日发布的报告中指出，事件对股价的即时影响有限，但强化了AI部署仍在轨道的判断。英伟达在确保供应链准备，同时提供工具帮助生态解决代理AI的安全担忧。三个投资要点是客户单位经济性强、代理安全升级、物理AI收入多元化。AI部署从训练转向推理和物理AI，英伟达为高于此前预期的CPU爬坡准备供应链。目标价300美元基于30倍市盈率乘以正常化每股收益10美元。英伟达授权回购约2350亿美元，资本回报构成股价支撑。",
@@ -143,18 +179,6 @@
         "sentiment_score": -1.0,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 10:24:37",
-      "text": "韩国央行申铉松：增长信心和通胀压力强于8月，需要维持当前限制性立场。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
