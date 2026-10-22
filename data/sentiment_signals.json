@@ -1,12 +1,220 @@
 {
-  "audit_time": "2026-10-21 22:45:17",
+  "audit_time": "2026-10-21 23:13:07",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 21,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600030.SS": {
+      "ticker": "600030.SS",
+      "name": "中信证券",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "601166.SS": {
+      "ticker": "601166.SS",
+      "name": "兴业银行",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-22 14:11:37",
+      "text": "【招商证券国际：下调福耀玻璃目标价至76港元，维持“增持”评级】招商证券国际发表报告指，福耀玻璃第三季净利润20.36亿元，同比及环比均跌9.9%，低于市场预期的20.7亿元。剔除汇兑损失、美国工厂火灾修复及一次性售后服务费合计约4.32亿元后，测算税前利润约29.19亿元，同比升0.5%，较市场预期低4.4%。该行下调2026至2028年利润预测11%、8%及9%，以反映汇兑影响、国内车市恢复乏力及其他一次性因素，并将目标价由83港元下调至76港元，相当于2027年财政年度16.2倍市盈率，维持“增持”评级。该行认为，尽管第三季业绩低于预期，公司在产业链中的地位并未动摇，电动化、智能化带来持续产品创新机遇，预期2027年国内车市企稳后，公司有望恢复收入及利润双位数增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:11:02",
+      "text": "20年期日本国债收益率<JP20YTN=JBTC>下降2.5个基点，至3.68%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:10:07",
+      "text": "【主力资金：转融券标的板块净流出超473亿】截至目前，今日主力资金净流出524.99亿；净流入电机Ⅲ、电机Ⅱ、减速器等板块，其中电机Ⅲ板块净流入9.56亿；净流出转融券标的、融资融券、纳入富时罗素等板块，其中转融券标的板块净流出473.69亿。\n  \n个股方面，华天科技净买入5.62亿元位居首位，N通则、沈鼓集团、大洋电机主力资金净流入居前；中际旭创净卖出19.80亿元位居首位，新易盛、宁德时代、东山精密净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:08:08",
+      "text": "【印度9月份从中东进口的石油量回升至战前水平】船舶追踪数据显示，9月份印度从中东进口的原油量大幅增长，已回升至战前水平；与此同时，由于竞争加剧，印度炼油商削减了对俄罗斯石油的采购。随着中东产油国和贸易商通过霍尔木兹海峡加大发货量，印度炼油商纷纷抢购现货，这缓解了此前因伊朗相关冲突而导致的供应紧张局面。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:08:04",
+      "text": "【印度：小盘股涨势遇阻，融资买股规模回落】散户投资者降低风险敞口，印度股市杠杆交易规模将迎来3月以来首次月度下滑。截至10月19日，融资持仓规模为1.56万亿卢比，低于9月创纪录的1.6万亿卢比。油价高企给印度股市带来压力，中小盘股在9月初创出新高后领跌，融资规模随之回落。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:07:08",
+      "text": "【前三季度山西非常规天然气产量创历史同期新高】今年前三季度山西非常规天然气累计产量达到149.9亿立方米，同比增长10.1%，创历史同期产量新高，为保障今冬明春清洁供暖、稳定区域能源供应提供了有力支撑。今年以来，山西非常规天然气增产势头明显。上半年产量突破100.5亿立方米，进入9月后，产量继续保持增长，单月产量达到16.5亿立方米。随着冬季供暖季临近，山西非常规天然气稳产保供的意义更加凸显，山西依托本土资源禀赋持续增产，不仅为省内城乡居民清洁取暖提供保障，也为跨区域能源调配贡献了气源。（新华社）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:02:14",
+      "text": "国际货币基金组织：预测中东、北非及巴基斯坦地区经济在2026年将萎缩1.3%，2027年则将反弹，实现6.6%的增长。预计高加索和中亚地区2026年经济增长率为5.2%，2027年将放缓至5%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:00:42",
+      "text": "【高盛：安踏第四季开局稳健，评级“买入”】高盛发表研报指，安踏体育管理层透露第四季开局稳健，国庆假期销售表现好过高盛的渠道检查，双11预售大致符合预期。高盛预料，明年农历新年较今年提早11日，将进一步利好第四季销售，管理层仍有信心达致并维持全年指引，目前预测集团明年纯利可录得双位数增长，并受惠于Puma在中国的潜在协同效应及较早农历新年的利好，给予目标价105港元，评级“买入”。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:00:38",
+      "text": "欧洲斯托克50期货<STXEc1>下跌0.95%，德国DAX期货<FDXc1>下跌0.71%，富时期货<FFIc1>下跌0.43%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 14:00:23",
+      "text": "爱马仕第三季度亚太地区营收（按固定汇率计算）增长0%，预计增长1.55%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 13:59:46",
+      "text": "【中信证券、国轩高科等入股吉利旗下远程商用车科技公司】天眼查App显示，近日，远程商用车科技有限公司发生工商变更，新增中信证券投资有限公司、合肥国轩高科动力能源有限公司等为股东，同时，注册资本由约9.57亿元人民币增至约10.6亿元人民币。该公司成立于2021年7月，法定代表人为戴庆，经营范围含电池制造、电池销售、新能源汽车整车销售、新能源汽车换电设施销售等，现由浙江远程新能源汽车集团有限公司、李书福及上述新增股东等共同持股。",
+      "analysis": {
+        "matched_tickers": [
+          "600030.SS"
+        ],
+        "matched_names": [
+          "中信证券"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 13:53:28",
+      "text": "【银行板块局部回暖 工商银行涨超2%创历史新高】午后银行板块局部回暖，工商银行涨超2%，创历史新高，A+H股总市值约2.86万亿元，建设银行涨超1.5%，农业银行、渝农商行、兴业银行跟涨。",
+      "analysis": {
+        "matched_tickers": [
+          "601166.SS"
+        ],
+        "matched_names": [
+          "兴业银行"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 13:50:28",
+      "text": "罗氏首席执行官：Xolair明年将继续成为重要的增长驱动力。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-22 13:46:36",
+      "text": "罗氏首席执行官预计诊断业务将于2027年恢复至正常增长水平。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-22 13:45:00",
       "text": "数据显示，9月份印度从俄罗斯进口的石油较8月份下降13.7%。",
@@ -17,126 +225,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 13:37:38",
-      "text": "【港股布鲁可午后跌超20%】港股布鲁可午后跌超20%，公司控股股东通过大宗交易方式减持股份，交易价格较市价折价。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "常规股东减持",
-        "sentiment_score": -0.45,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 13:26:01",
-      "text": "【火山引擎启动Seedance 2.5 4K企业试用：首批定向供应20家工作室】火山引擎近期启动了Seedance 2.5 4K模型的第一批企业用户试用，与作品绑定、定向供应给全球20家工作室和导演Seedance 2.5 4K模型，探索搬上大荧幕的高端影视需求。 除了画面细节更清晰，Seedance 2.5 4K主打人物表演更细腻自然、参考生成和编辑的一致性更精细，是Seedance 2.5这一代中的最强模型。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 13:23:36",
-      "text": "【易方达基金将自购旗下首只主动ETF 金额达2亿】首批主动ETF将于周五发行。易方达基金公告称，基于对中国资本市场长期健康稳定发展的信心，公司将于10月23日募集期首日以固有资金2亿元认购旗下易方达品质均衡主动ETF。该产品募集截至日为10月29日，首次募集规模上限为 20 亿元人民币。此前，摩根基金也宣布类似动作，公司股东将通过关联方摩根资产管理（亚太），出资7500万美元（约合5亿元人民币）投向摩根大盘成长主动股票ETF。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 13:13:40",
-      "text": "【诺基亚利润超预期，数据中心业务拉动增长】总部位于芬兰埃斯波的诺基亚公布，受人工智能基建投资热潮带动，数据中心网络设备需求走高，公司第三季度利润超出分析师预期。该公司周四公告显示，当期调整后营业利润增至 6.05 亿欧元（合 6.8 亿美元），分析师预期均值为 4.54 亿欧元。本次业绩增长得益于部分积压的数据中心设备订单完成交付。由于 5G 网络建设放缓，传统电信客户需求预计持续低迷，首席执行官 Justin Hotard 正着力把数据中心打造为诺基亚新的增长支柱。去年，他推出依托 AI 基建热潮的发展战略，并同步启动重组，此后诺基亚剥离了多项业务。诺基亚表示，这些调整有望在未来数年推动营业利润实现两位数增长。AI 基建的快速扩张也给设备厂商带来挑战，存储芯片等零部件供应紧张、价格上涨。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 13:12:01",
-      "text": "【我国高校未来技术学院初步涌现一批人才培养成果 】记者近日从教育部获悉，自2021年启动建设首批未来技术学院以来，目前在校生总规模已突破万人，初步涌现一批科研与人才培养成果，有力支撑现代化产业体系建设和高水平科技自立自强。据悉，2021年5月，教育部印发通知，在北京大学、清华大学、哈尔滨工业大学、上海交通大学、中国科学技术大学等12所高校建设首批未来技术学院，着力培养具有前瞻性、能够引领未来发展的技术创新领军人才。5年多来，首批未来技术学院学科专业建设方向已覆盖《关于推动未来产业创新发展的实施意见》中提出的六大方向。统计数据显示，这些学院主动融入未来产业布局，牵头或参与建设国家产教融合创新平台7个，签约合作企业151家、科研机构117个。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 13:09:50",
-      "text": "【米莱访问西班牙，隔空交锋桑切斯】阿根廷总统米莱21日在西班牙首都马德里出席活动时，公开抨击西班牙首相桑切斯，并呼吁将桑切斯领导的中左翼执政党工人社会党赶下台。此举引发桑切斯和工人社会党的反击。米莱当天出席西班牙新经济论坛举办的早餐会时称桑切斯为“不可接受的独裁者”，批评桑切斯及其政府的经济、住房和移民政策，并表示自己访问期间不会与桑切斯会面。21日上午，工人社会党在马德里总部外悬挂巨幅横幅予以回击，横幅上写着“你好，米莱。左撇子欢迎你来到西班牙——欧洲经济增长最快的国家”。桑切斯还将社交媒体账号头像改为印有“左撇子，且引以为豪”字样的图片。“左撇子”一词在西班牙政治语境中常被右翼人士用来贬称左翼支持者。（新华社）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 13:01:29",
-      "text": "雀巢9个月实际内部增长率+1.9％。雀巢仍然预测全年内生性收入+3％至+4％，预估+3.51％。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:57:42",
-      "text": "【摩根大通上调IBM目标价】摩根大通将IBM目标价从250美元上调至269美元。 消息面，IBM第三季度营收增长4.7%至171亿美元，高于分析师平均预期的168.2亿美元。经调整后每股收益为2.95美元，高于市场预期的2.86美元。IBM首席财务官詹姆斯·卡瓦诺表示，上季度曾令投资者感到不安的延迟软件交易正开始达成，与此同时，该公司上调了该业务的业绩预期，并公布了好于预期的第三季度财报。卡瓦诺在接受采访时称，IBM目前预计年度软件营收增长率约为7%至8%，高于此前预期的6%至8%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:17:21",
-      "text": "【日本国债收益率触及数周低点 交易员权衡中东局势及央行政策前景】日本国债收益率周四跌至数周低点，市场交投清淡。交易员们在权衡地缘政治和通胀风险的同时，关注下周召开的日本央行会议。近日，日本国债受益于避险资金的流入。市场正密切关注中东冲突的进展、法国财政赤字及街头抗议活动，以及受企业财报和人工智能(AI)相关消息影响的股市波动情况。指标10年期日本国债收益率跌1个基点至2.88%，为9月9日以来最低水平。五年期日债收益率降1.5个基点至2.285%，创9月18日以来最低。30年期日债收益率跌2.5个基点至3.895%，创8月6日以来最低。40年期日本国债收益率下降3.5个基点，至4.015%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-22 12:14:29",
-      "text": "【央行拟切换隔夜逆回购！红利低波ETF华泰柏瑞（512890）成交4.58亿元领跑同类】10月22日，创业板指半日跌超2%，沪指跌0.89%。在此背景下，红利低波ETF华泰柏瑞（512890）跌0.99%，报1.201元，换手率1.49%，半日成交额4.58亿元，居同类标的ETF首位。消息面上，央行公告，根据公开市场业务一级交易商的需求，2026年10月22日7天期逆回购操作量为零。同时，开展了1730亿元隔夜逆回购操作。另外，央行行长在2026年金融街论坛年会上提出，将研究择机把公开市场主要操作品种切换为隔夜逆回购，隔夜逆回购利率将成为主要政策利率。中金公司指出，在总量增长弹性有限、结构性高景气与市场风险偏好波动加大并存的环境下，“科技+红利”的哑铃型结构有望成为兼顾盈利增长弹性、股东现金回报与组合稳定性的配置选择。科技端关注产业趋势明确、具备长期竞争优势及盈利兑现能力的企业；红利端关注盈利与现金流稳健、分红可持续且估值合理的优质公司。中信建投证券认为，配置层面，短期配置宜以确定性股息锁定底仓、以轻筹码结构等待风格再平衡、以实物资产对冲通胀与地缘双向风险。行业上，可重点关注银行、非银、公用事业、煤炭、石油、油运、基础化工、生猪养殖、AI产业链等。投资者可将红利低波ETF华泰柏瑞（512890）作为底仓配置，无股票账户的投资者也可通过其场外联接基金进行配置（A类：007466；C类：007467；I类：022678；Y类：022951）。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
