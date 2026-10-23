@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-22 23:15:26",
+  "audit_time": "2026-10-22 23:30:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -17,6 +26,70 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-23 14:26:09",
+      "text": "【华源证券：维持圆通速递“买入”评级，淡季盈利仍显韧性，关注股东回报提升】华源证券研报指出，圆通速递淡季盈利仍显韧性，关注股东回报提升。2026Q3公司实现归母净利润14.54亿元，同比增长39.06%；2026Q1-3公司归母净利润46.30亿元，同比增长60.94%。2026Q3淡季业绩仍显韧性，单票归母净利润环比下滑，市场份额加速扩张。2026年9月单票快递收入环比提升0.03元，后续关注四季度旺季涨价趋势，预计公司盈利能力将回升。行业高质量发展结合公司AI应用强化核心竞争力，关注股东回报提升。展望全年，行业“反内卷”持续深化，各地快递涨价持续落地，叠加AI赋能全链提质增效，预计公司2026-2028年归母净利润分别为63.89/72.85/80.00亿元，当前股价对应的PE分别为9.03/7.92/7.21倍，维持“买入”评级。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-23 14:19:57",
+      "text": "港股新能源汽车股走强，比亚迪股份(01211.HK)涨超6%，小鹏集团(09868.HK)涨5.5%，小米集团(01810.HK)、蔚来-SW(09866.HK)涨超5%，理想汽车(02015.HK)涨4.6%，赛力斯(09927.HK)涨3.4%。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-23 14:18:35",
+      "text": "沃尔沃汽车首席商务官：需要将我们在美国的战略重点放在盈利能力上，而不是销量和增长上。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-23 14:16:10",
+      "text": "【阿里巴巴驰援西藏那曲首批物资已发出】10月22日22时33分，西藏那曲市巴青县发生7.0级地震。阿里巴巴紧急启动应急响应，协同菜鸟发出首批3700箱食品与饮用水。首批物资已于上午11时发出，预计今日18时送达巴青县。考虑到震中处于高海拔高寒地区，阿里巴巴第一时间筹集到50吨新鲜蔬菜和保暖物资，今天将同步送出。（新浪科技）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-23 14:16:03",
+      "text": "【香港特区政府财政司司长：APEC财长会产生多项成果】第33届亚太经合组织（APEC）财长会10月21日在香港闭幕。香港特别行政区政府财政司司长陈茂波在接受总台记者采访时表示，APEC财长会成功举行，产生多项成果。本届会议审议通过《2026年APEC财长联合声明》和《亚太地区数字基础设施融资政策声明》，为亚太经济体深化财金合作指明了方向。会议还形成《支持民生发展与投资于人——推动亚太地区可持续增长的财政政策报告》《亚太地区普惠金融创新实践案例集》等成果文件，并同意继续推进亚太地区青年财经人才交流与合作。（央视新闻）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-23 14:14:22",
       "text": "【前三季度广东GDP同比增长4.6% 创五年来同期最高增速】广东省统计局发布今年前三季度经济数据。根据地区生产总值统一核算结果，前三季度，广东实现地区生产总值111090.77亿元。按不变价格计算，同比增长4.6%，高于上半年增速0.1个百分点。总的来看，前三季度广东经济增速与全国实现同步，经济总量继续稳居全国首位。",
@@ -136,42 +209,6 @@
     {
       "timestamp": "2026-10-23 13:39:32",
       "text": "印度9月原油进口量同比增长10.2%，至2230万吨。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-23 13:38:32",
-      "text": "埃尼集团将2026年基础油气产量增长预期上调至6%至7%区间。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-23 13:38:23",
-      "text": "【今年前三季度霍尔果斯口岸进出口货】据霍尔果斯海关统计，今年1至9月，霍尔果斯口岸进出口货运量3558.4万吨，同比增长2%，位居新疆口岸首位。出口商品以新能源汽车、机电产品、纺织服装、日用百货等为主；进口商品涵盖矿产品、农产品、食品、有色金属等。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-23 13:31:10",
-      "text": "【小摩：福耀玻璃第三季业绩明显逊预期，H股目标价降至50港元】摩根大通发表报告指，福耀玻璃第三季业绩明显逊预期，主要受平均售价增长较低、销售费用上升及实际税率提高拖累。管理层表示，较高海运费令第三季毛利率受压约0.8个百分点，第四季运费或再升，但环比升幅应较第二至第三季放缓。该行认为，产品升级及产能利用率提升将支持2027年盈利，管理层预期2027年全球汽车产量大致持平或轻微增长，公司可受惠海外市占率进一步提升。该行将2026年及2027年净利润预测分别下调7%及6%，维持“中性”评级，并将H股目标价60港元下调至50港元，反映目标估值倍数下调，因2027年汽车需求存在不确定性，且短期催化剂有限。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
