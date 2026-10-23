@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-22 23:00:17",
+  "audit_time": "2026-10-22 23:15:26",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,58 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-23 14:14:22",
+      "text": "【前三季度广东GDP同比增长4.6% 创五年来同期最高增速】广东省统计局发布今年前三季度经济数据。根据地区生产总值统一核算结果，前三季度，广东实现地区生产总值111090.77亿元。按不变价格计算，同比增长4.6%，高于上半年增速0.1个百分点。总的来看，前三季度广东经济增速与全国实现同步，经济总量继续稳居全国首位。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-23 14:11:34",
+      "text": "【机构：尽管面临短期挑战，全球LED显示面板市场仍将实现高附加值增长】10月23日，Omdia最新研究预测，全球LED显示面板市场正面临零部件成本上涨、贸易摩擦以及传统应用领域需求走弱等多重压力，增速有所放缓。不过，2026年至2030年间，该市场营收复合年增长率（CAGR）将达到11.6%，这一增长主要得益于新兴应用场景的拓展、区域制造产能的扩张，以及产品结构向高附加值方向的转型。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-23 14:10:03",
+      "text": "【主力资金：沪股通板块净流出超104亿】截至目前，今日主力资金净流出87.49亿；净流入腾讯概念、数字芯片设计、抖音概念等板块，其中腾讯概念板块净流入44.10亿；净流出沪股通、融资融券、转融券标的等板块，其中沪股通板块净流出104.04亿。\n  \n个股方面，长鑫科技净买入14.56亿元位居首位，中际旭创、天娱数科、宁德时代主力资金净流入居前；交通银行净卖出3.74亿元位居首位，工商银行、紫金矿业、协创数据净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-23 14:06:12",
+      "text": "日本央行：期限超过35年的超长抵押贷款数量持续增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-23 13:49:52",
       "text": "【锂电池概念港股反弹 宁德时代涨超7%】截至发稿，宁德时代(03750.HK)涨7.09%报362.40港元，盘中最高涨超7%，早盘曾低开至326港元；中创新航(03931.HK)涨5.26%，赣锋锂业(01772.HK)涨3.68%。",
@@ -127,46 +179,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-23 13:21:06",
-      "text": "【宁德时代盘中涨超5%】A股宁德时代盘中涨超5%，现报231.49元。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-23 13:20:47",
-      "text": "【沃尔沃汽车计划全球裁减约2500个岗位】10月23日，沃尔沃汽车公布，2026年第三季度营收为669亿瑞典克朗，上年同期为864亿瑞典克朗 ；营业利润为负56亿瑞典克朗，上年同期为64亿瑞典克朗）； 基本每股收益为负1.63瑞典克朗，上年同期为1.75瑞典克朗 。其中，沃尔沃汽车在中国市场营收同比下降约50%。沃尔沃汽车表示，计划在先前成功完成的成本计划基础上，进一步削减50亿瑞典克朗的间接支出和可变成本。这些措施将通过终止咨询合同、自然减员和有针对性的员工离职补偿方案，在全球范围内结构性裁减约2500个岗位，其中2000个位于瑞典。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-23 13:08:34",
-      "text": "沃尔沃汽车：新款低价大型电动汽车将于2027年夏季之后开始首批客户交付。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
