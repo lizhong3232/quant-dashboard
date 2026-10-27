@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-26 19:15:15",
+  "audit_time": "2026-10-26 19:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-27 10:20:49",
+      "text": "【苹果官方回应iPhone Duo屏幕故障，知情人士称未曾下调质检标准】10月27日，苹果针对近日iPhone Duo出现的屏幕故障问题发表正式回应，称相关用户可联系AppleCare处理换机事宜。“首批用户对iPhone Duo的反响非常热烈。目前，我们已经留意到有极少数iPhone Duo的内屏出现了一些问题。”苹果官方表示，“如果用户遇到iPhone Duo的显示屏问题，请联系AppleCare处理换机事宜。”此前曾报道iPhone Duo屏幕故障问题称，据普遍推测，原因或主要在于铰链。一名富士康员工对记者表示，在产能吃紧的状态下，苹果此前曾降低过一定良率质检标准以保证供应。不过，在最新进展中，一名接近iPhone Duo供应链的知情人士表示，苹果内部并未采取过下调良率质检标准等类似举措。（界面新闻）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 10:17:49",
+      "text": "【韩国央行警告：若AI支出放缓，韩国芯片出口可能减少多达1000亿美元】根据韩国央行的数据，如果美国大型科技公司明年放缓在人工智能领域的资本支出，韩国的半导体出口额可能会比此前的预测减少500亿至1000亿美元。在提交给议员安道杰（Ahn Do-geol）的书面回复中，韩国央行构建了一种“悲观情境”，旨在评估如果美国科技巨头削减其大规模基础设施投入，会对韩国经济造成何种冲击。在这种情境下，出口额的骤减将导致韩国明年的国内生产总值（GDP）增长率下降约0.4个百分点；同时，这也将使韩国的经常账户盈余大幅低于韩国央行此前对2027年4300亿美元盈余的预测。该情境假设韩国半导体产品的单价将下跌10%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-27 09:52:45",
       "text": "【今年前三季度中部地区进出口3.43万亿元 同比增长20.5%】据海关统计，今年前三季度，中部地区进出口3.43万亿元，同比增长20.5%，进出口值创历史同期新高，中部地区的外贸发展均衡性和稳定性持续增强。从月度走势看，三季度以来，中部地区单月进出口增速持续扩大。其中，9月当月进出口4496.3亿元，创单月进出口规模历史新高，同比增长22.5%。从出口来看，前三季度，中部地区装备制造业是拉动出口增长的核心支撑，高技术产品表现突出。电动汽车、集成电路、电脑及其零部件合计出口4948.2亿元，占到中部地区外贸总值的14.4%。全国每3辆出口电动汽车中，就有一辆来自中部地区。从进口来看，中部地区进口已连续11个月保持两位数增速。金属矿砂、集成电路、存储部件进口均大幅增长，为制造业稳定投产、重点产业扩能升级提供了有力支撑。",
@@ -151,18 +175,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 09:21:19",
-      "text": "央行今日开展4120亿元7天逆回购操作，投标量4120亿元，中标量4120亿元，操作利率为1.40%。同时，开展了10000亿元隔夜逆回购操作。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重磅业务突破",
-        "sentiment_score": 0.8,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
