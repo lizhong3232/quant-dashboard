@@ -1,11 +1,47 @@
 {
-  "audit_time": "2026-10-26 23:15:17",
+  "audit_time": "2026-10-26 23:30:20",
   "total_news_scanned": 100,
-  "relevant_events_found": 21,
+  "relevant_events_found": 24,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "000858.SZ": {
+      "ticker": "000858.SZ",
+      "name": "五粮液",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600519.SS": {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600031.SS": {
+      "ticker": "600031.SS",
+      "name": "三一重工",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600584.SS": {
+      "ticker": "600584.SS",
+      "name": "长电科技",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -17,6 +53,126 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-27 14:28:32",
+      "text": "【HD现代电气将投资1980亿韩元扩大产能】10月27日，一份文件显示，HD现代电气（HD Hyundai Electric）将投资1980亿韩元，扩建配电盘和配电变压器的生产基础设施，以应对全球对配电设备日益增长的需求。投资期将从2026年11月持续至2029年6月。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 14:27:55",
+      "text": "【张坤调仓：重仓新易盛，白酒股持仓数量减少】易方达基金经理张坤管理的多只基金今日披露了三季报，记者注意到，易方达蓝筹精选的前十大重仓股中出现了新易盛的身影，而东山精密退出了前十大重仓序列。再看今年前三季度冠军易方达供给改革，基金经理杨宗昌三季度进行了大幅的调仓，多只科技股退出前十大，药明康德、紫金矿业、三一重工等个股新进前十大。易方达优质精选混合，三季度持仓相比二季度没有发生非常明显的变化，主要是持仓数量的增减，贵州茅台、五粮液、山西汾酒、泸州老窖的持仓数量都有所减少。（每经）",
+      "analysis": {
+        "matched_tickers": [
+          "000858.SZ",
+          "600519.SS",
+          "600031.SS"
+        ],
+        "matched_names": [
+          "五粮液",
+          "三一重工",
+          "贵州茅台"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 14:24:44",
+      "text": "【抖音：近一个月，平台处置色情低俗内容39.3万条】抖音持续深入开展色情低俗等不良内容治理。与此同时，相关违规行为也呈现出组织化、隐蔽化等新特征，部分账号通过多账号串联导流、隐蔽展示二维码、使用方言黑话暗语等方式，传播色情低俗内容或实施站外导流，试图规避平台审核。对此，平台始终保持高压治理态势，持续排查、处置各类违规行为，涉嫌违法犯罪的行为，依法固定证据并上报主管部门。近一个月，平台处置色情低俗内容39.3万条，11.5万个账号被采取清除违规增长粉丝、取消营利权限、禁止发布视频、禁言、封禁等梯度处置措施。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 14:22:03",
+      "text": "据 Counterpoint Research 数据，若不计中国市场销量，iPhone全球销量增长将大幅放缓；美国和日本市场销量因价格上涨而下滑。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 14:21:42",
+      "text": "据 Counterpoint Research 数据，由于供应改善及竞争对手提价，苹果 iPhone 18 Pro 系列在中国市场销量增长 29%，创下最强劲增长纪录。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "产品景气提价",
+        "sentiment_score": 0.7,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 14:21:12",
+      "text": "【国盛证券：维持大族激光“买入”评级，3C创新+AI PCB驱动业绩高增】国盛证券研报指出，大族激光3C创新+AI PCB驱动业绩高增，平台型公司订单持续放量。26Q1-Q3归母净利润21.77亿元，同比增长152.19%；26Q3归母净利润8.89亿元，同比增长137.03%，环比减少4.77%。公司AIPCB、消费电子、锂电设备等五大业务齐头并进，上半年订单大幅增长。一方面受益于消费电子大客户产品创新周期，提振激光加工、3D打印设备需求；另一方面，AI驱动带来PCB供应链强劲需求，公司AI算力PCB专用设备份额提升。由于公司各业务板块全面快速增长，订单量高增，叠加在光纤、液冷、玻璃基板等领域的前瞻布局，有望进一步打开公司成长空间。预计公司在2026/2027/2028年分别实现营业收入303/409/521亿元，同比增长62%/35%/27%，实现归母净利润30/50/72亿元，同比增长155%/65%/43%。公司当前股价对应2026/2027/2028年PE分别为21/13/9X，维持“买入”评级。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 14:20:46",
+      "text": "据 Counterpoint Research 数据，苹果 iPhone 18 Pro 系列上市前三周全球销量同比增长 3.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 14:20:11",
+      "text": "【杰富瑞：半导体设备火爆行情将持续至2028年】华尔街投行杰富瑞公司（Jefferies）预计，尽管人工智能（AI）投资、数据中心建设和内存价格等问题给半导体行业带来压力，但半导体设备市场仍将持续扩张至2028年。但杰富瑞预计，人工智能的日益普及将维持对图形处理器、定制芯片、中央处理器、功率半导体以及数据中心其他组件的需求。该行还特别提到，预计内存需求将持续增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-27 14:16:29",
+      "text": "【半导体封测年会将于11月4日至6日举行 多家上市公司参会】记者了解到，第二十四届中国半导体封装测试技术与市场年会（简称“封测年会”）将于11月4日-6日在南京丰大国际大酒店举行。在为期两天的会议中，来自华天科技、长电科技、通富微电、南京台积电、壁仞科技、京东方、云天半导体等半导体封测、芯片设计、玻璃基板、先进封测设备等领域的龙头企业，将通过主论坛、专题报告、供需对接等形式，交流先进封装的最新发展方向。",
+      "analysis": {
+        "matched_tickers": [
+          "600584.SS"
+        ],
+        "matched_names": [
+          "长电科技"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-10-27 14:15:03",
       "text": "【今年前三季度江苏财政收支数据出炉】收入端看，1—9月，江苏全省一般公共预算收入完成8193亿元，同比增长2.1%。其中，税收收入6372亿元，增长4.9%；非税收入1821亿元，同比下降6.7%，税收占比达到77.8%，收入含金量进一步提升，税收对财政收入的支撑作用持续增强。",
@@ -91,118 +247,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 14:03:49",
-      "text": "【只有美伊冲突结束黄金才能复苏？美银策略师强调关键利空仍未解决】尽管分析师一直强调黄金的长期投资价值不变，但该资产的价格从年初的5600美元/盎司一路下跌，并在近期跌破4000美元/盎司，反映出市场对黄金越来越谨慎的态度。美国银行财富管理高级投资策略师Rob Haworth指出，美伊冲突必须结束才能使黄金价格回到每盎司5000美元。他强调，尽管黄金的长期投资吸引力依然存在，但由于各国央行优先考虑经济稳定和能源安全，而不是积累更多黄金，这种贵金属继续面临负面压力。只要美伊冲突继续，黄金市场的压力就会一直存在。他还补充称，美伊冲突导致全球资本流动发生重大转变，因为面临能源和食品成本上涨的国家将资源从储备多元化转向其他用途。与此同时，债券收益率上升、美元走强以及流动性需求不断增长，正在削弱黄金传统的避险吸引力。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 14:02:01",
-      "text": "日本法院驳回要求关闭滨冈核反应堆的诉讼。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 13:56:31",
-      "text": "【马斯克与黄仁勋观点打架 摩根大通：超大规模AI数据中心运营商状况良好是市场共识】SpaceX首席执行官马斯克最新警告，200多家新云公司将大规模倒闭或合并，有些公司能挺过去，但不会很多。而马斯克的这番警告与英伟达首席执行官黄仁勋此前的观点几乎截然相反。上周，黄仁勋在GTC大会上指出，市场对新云的需求远超预期。他虽然也提到了目前新云公司亟需资金支持，而资金正面临短缺的问题，但他认为这一问题一定会得到解决。杰富瑞分析师指出，马斯克的言论引发了新一轮的恐慌交易。摩根大通则认为，人工智能债务市场对人工智能基础设施变得更加挑剔，但对于更广泛的融资危机不以为然。摩根大通市场情报团队强调，信贷短缺令人担忧，但目前的共识是超大规模数据中心运营商状况良好，大型运营商将继续占据主导地位，包括新型云服务商在内的小型企业的投资回报率也仍然为正。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重大业绩预增",
-        "sentiment_score": 0.95,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 13:48:49",
-      "text": "【宁德时代等成立时代宸远创投企业】企查查APP显示，近日，上海时代宸远创业投资合伙企业（有限合伙）成立，经营范围包含创业投资（限投资未上市企业）。企查查股权穿透显示，该企业由福建省海洋经济产业投资有限公司、宁德时代等共同出资。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 13:45:17",
-      "text": "【五年上市数量扩容近5倍 江苏企业拿下北交所\"多个第一\"】今年是北交所开市五周年。公开数据显示，江苏板块拿下\"多个第一\"：目前江苏北交所上市公司70家，数量连续五年居全国首位，累计IPO募资近150亿元，超七成为专精特新\"小巨人\"；2025年70家公司归母净利润合计43.46亿元、现金分红14.84亿元，均列全国第一，分红规模创三年新高。扩容提速方面，2024年、2025年分别新增5家、8家，2026年前10个月已新增15家，过半为先进制造与高端装备企业，较首批12家五年扩容近5倍。目前江苏70家北交所公司近三年营收复合增长率中位数约25.2%，营收均值由上市当天3.09亿元增至2025年6.09亿元，接近翻倍。有观点认为，江苏企业板块有望形成北交所上市“全国看江苏”的示范带动效应。 (财联社)",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 13:44:58",
-      "text": "【联储证券首席经济学家李全：中国资本市场有望步入发展新阶段】联储证券董事、首席经济学家李全在接受采访时表示，资本市场改革已步入深水区，注册制全面推进，多层次资本市场体系成为重要推动力，随着产业结构优化、盈利能力释放，中国资本市场有望步入发展新阶段。在他看来，目前经济环境与市场发展可以从两个方面来把握。一方面，全球地缘冲突扰动、主要发达国家通胀高企、相继加息，全球资本市场承压，我国以新质生产力推动产业转型、金融改革赋能实体、六网建设撬动投资，经济稳中向好、韧性显现；另一方面，全球处新一轮康波周期上升期，我国以科技信贷、科技保险、科技投资赋能科创，科创板、北交所深度助力科创企业资本化，为新一轮科技革命提供资本助力。 (财联社)",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 13:34:00",
-      "text": "【汇添富、大成旗下主动ETF募集达20亿元上限 首批主动ETF已有9只达标】进入首批主动ETF募集第三日，募集规模触及20亿元的主动ETF增至9只，记者从渠道了解到，截至10月27日中午收盘，汇添富基金和大成基金旗下主动ETF募集规模均达到20亿元，将宣布提前结束募集。加上此前已宣布结募的7只产品，首批18只主动ETF半数完成发行目标。 (财联社)",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 13:19:56",
-      "text": "【最快35分钟！“进博直通车”助展品从保税仓直达“四叶草”】第九届中国国际进口博览会将于11月5日正式拉开帷幕。本届进博会共有162个国家、地区和国际组织参与，4142家境外企业参展，企业展面积首次突破37万平方米。目前，本届进博会首批展品已正式进馆，布展搭建工作全面启动。据了解，首批进馆展品覆盖技术装备、医疗器械、消费品、农食产品等多个展区。其中部分展品为全球首发。10月26日，一批进博会的高价值展品在上海静安张园保税仓内布展，其中包括约150件意大利珠宝饰品。这批展品将通过“进博直通车”直达第九届进博会举办地——国家会展中心（上海），在本届进博会上首秀。（央视新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-27 13:18:42",
-      "text": "【112家科创板公司完成三季报披露，合计净利润同比增长86.25%】截至10月27日，共112家科创板公司完成三季报披露，合计营收2,667.90亿元，同比增长35.93%，合计净利润268.92亿元，同比增长86.25%；其中，8家科创50公司收入、净利润贡献度分别占27%、46%，有力发挥板块业绩“压舱石”作用。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
