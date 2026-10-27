@@ -13,9 +13,9 @@
       "avg_cost": 231.17,
       "last_price": 252.57,
       "market_value": 25257.0,
-      "pnl": 571.0,
-      "pnl_pct": 2.47,
-      "highest": 236.88
+      "pnl": 2140.0,
+      "pnl_pct": 9.26,
+      "highest": 252.57
     },
     "688036.SS": {
       "name": "传音控股",
@@ -23,9 +23,9 @@
       "avg_cost": 50.85,
       "last_price": 56.59,
       "market_value": 16977.0,
-      "pnl": 1287.0,
-      "pnl_pct": 8.44,
-      "highest": 55.14
+      "pnl": 1722.0,
+      "pnl_pct": 11.29,
+      "highest": 56.59
     },
     "688017.SS": {
       "name": "绿的谐波",
@@ -33,9 +33,9 @@
       "avg_cost": 252.0,
       "last_price": 293.0,
       "market_value": 29300.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
-      "highest": 252.0
+      "pnl": 4100.0,
+      "pnl_pct": 16.27,
+      "highest": 293.0
     }
   },
   "rules": {
@@ -45,7 +45,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-26 00:05:08",
+  "last_updated": "2026-10-26 18:11:12",
   "benchmark": {
     "last_price": 4.179,
     "nav": 0.9053
