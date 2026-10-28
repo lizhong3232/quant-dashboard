@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-27 19:15:15",
+  "audit_time": "2026-10-27 19:30:14",
   "total_news_scanned": 100,
-  "relevant_events_found": 8,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -19,7 +19,7 @@
       "ticker": "600276.SS",
       "name": "恒瑞医药",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
@@ -35,6 +35,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-28 10:25:54",
+      "text": "【国台办介绍台湾农渔产品输入大陆情况】国台办发言人陈斌华：今年4月，中央台办受权发布十项促进两岸交流合作的政策措施，明确提出为符合检验检疫标准的台湾农渔产品输入大陆提供便利；支持台湾农渔产品参与大陆各类展销会、对接会，拓展销售渠道；研究为台湾远洋自捕渔获物在大陆销售提供便利。半年多以来，我们会同两岸有关方面，在坚持“九二共识”、反对“台独”政治基础上，通过举办对接签约会、优化通关流程、支持参与各类展会等，积极回应台湾渔民关切，持续推动十项措施落地见效。今年前三季度，大陆自台湾进口农产品同比增长18.5%，其中进口渔产品同比增长35.5%；今年4月至9月，也就是十项措施发布以后，福建进口台湾渔产品1.91万吨，进口额5.85亿元，同比增长35.9%。越来越多台湾优质渔产品走入大陆千家万户，越来越多台湾渔民从中得到实惠。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 10:16:14",
+      "text": "新西兰联储行长：工资增长低迷降低了企业提价的必要性。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "产品景气提价",
+        "sentiment_score": 0.7,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 10:15:22",
+      "text": "【君正股份涨超13% 三季度净利同比大增近26倍】截至发稿，君正股份(03223.HK)涨13.17%。根据公告，前三季度公司实现营业收入71.02亿元，同比增长106.66%；归母净利润为26.16亿元，同比增长922.95%。第三季度实现营业收入31.45亿元，同比增长164.85%；归母净利润为14.19亿元，同比增长2595.49%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-28 10:13:53",
       "text": "新西兰联储行长布雷曼：工资增长水平低于与通胀目标相符的水平。",
@@ -128,22 +164,6 @@
         ],
         "matched_names": [
           "五粮液"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 09:31:48",
-      "text": "【恒瑞医药港股涨超10%】恒瑞医药港股涨10.42%，报49.12港元。",
-      "analysis": {
-        "matched_tickers": [
-          "600276.SS"
-        ],
-        "matched_names": [
-          "恒瑞医药"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
