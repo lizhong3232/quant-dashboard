@@ -1,14 +1,23 @@
 {
-  "audit_time": "2026-10-27 20:45:14",
+  "audit_time": "2026-10-27 22:00:15",
   "total_news_scanned": 100,
   "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "600036.SS": {
-      "ticker": "600036.SS",
-      "name": "招商银行",
+    "600276.SS": {
+      "ticker": "600276.SS",
+      "name": "恒瑞医药",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "688981.SS": {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -24,18 +33,9 @@
         "行业资讯/宏观动态"
       ]
     },
-    "300750.SZ": {
-      "ticker": "300750.SZ",
-      "name": "宁德时代",
-      "avg_sentiment": 0.0,
-      "news_count": 3,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "600276.SS": {
-      "ticker": "600276.SS",
-      "name": "恒瑞医药",
+    "600036.SS": {
+      "ticker": "600036.SS",
+      "name": "招商银行",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -44,6 +44,122 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-28 12:49:06",
+      "text": "【卫星互联网产学研联合创新计划启动】10月28日，在第二十七届卫星应用大会上，卫星互联网产学研联合创新计划启动，首批参与单位包括近60家高校、科研院所和企业。该计划围绕卫星互联网开展合作，包括共建课程、培养学生工程能力、以实训储备产业人才、开放测试条件支撑企业技术发展等。研究方向包括星算协同与太空算力、手机直连卫星、6G非地面网络、星间激光通信等六项。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 12:41:35",
+      "text": "越南国际金融中心表示，首批10家成员预计将在2027年前动员并投资约27亿美元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 12:22:46",
+      "text": "【香港交易所拓展综合基金平台，推出平台及代理人服务】香港交易及结算所有限公司（香港交易所）10月28日宣布，旗下综合基金平台推出平台及代理人服务，标志着香港在建立更高效、更互联及更具扩展性的基金分销生态圈方面迈进最新里程碑。综合基金平台于2024年12月推出基金资料库，并于2025年7月推出订单传递服务。此次加入总分销、代理人及行政服务，进一步把平台功能延伸至基金分销全流程。这些服务共同构建企业对企业综合市场基础设施，透过统一的工作流程及资讯交换，连接基金经理、过户代理、分销商及其他市场参与者。自订单传递服务推出以来，综合基金平台的参与者数目已由首批33家增至超过60家分销商、基金公司及过户代理。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 12:12:11",
+      "text": "【渣打集团第三季度税前利润为23亿美元，同比增长29%】10月28日，渣打集团公布2026年第三季度业绩，经营收入为58亿美元，同比增长14%；税前利润为23亿美元，同比增长29%；有形股本回报率（RoTE）为15.7%，上升520个基点。财富管理解决方案收入同比增长26%，全球市场业务收入增长21%。渣打集团将全年经营收入增长指引上调至高于原定的5%至7%区间，并预计全年有形股本回报率约为14%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 12:05:52",
+      "text": "【光大证券：加息预期基本定价 看好铜、金价格上行】光大证券发布研究报告称，油价上行带来加息预期强化，当前市场已经基本定价2026年年内再度加息一次;央行持续增持黄金，看好金价上行。全球铜矿依然偏紧;美国铜关税政策仍未落地，COMEX铜库存持续新高。全球铜矿供应延续紧张，9月中国电解铜冶炼开工率创2014年以来同期新低;国内线缆开工率环比回升，Q4电网、空调需求有望好转，2026年供需偏紧的矛盾依然未变。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 12:02:30",
+      "text": "渣打预计，在剔除重大项目影响并按固定汇率计算的情况下，2026年营业收入的同比增幅将高于5%至7%这一增长区间。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 12:01:38",
+      "text": "【港股午评：恒生指数涨0.43%，恒生科技指数涨1.8%】港股午间收盘，恒生指数涨0.43%，恒生科技指数涨1.8%。恒指港股通ETF银华（159318）涨0.08%，港股通科技ETF鹏华（159751）涨2.05%。板块方面，电机Ⅲ、电机Ⅳ板块涨幅靠前；水务Ⅲ、水务Ⅳ板块跌幅靠前。个股方面，兆威机电涨17.11%，君正股份涨15.19%，纳真科技涨14.29%，峰岹科技涨13.0%，恒瑞医药涨11.81%；新东方-S跌8.15%，粤海投资跌6.63%，力勤资源跌4.47%，鸣鸣很忙跌4.42%，奥克斯电气跌4.14%。",
+      "analysis": {
+        "matched_tickers": [
+          "600276.SS"
+        ],
+        "matched_names": [
+          "恒瑞医药"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 12:01:03",
+      "text": "【港股午评：恒生指数涨0.43%，恒生科技指数涨1.80%】MINIMAX-W涨7.55%，联想集团涨6.70%，华虹宏力涨5.96%，舜宇光学科技涨5.05%，地平线机器人-W涨4.72%，智谱涨4.45%，中芯国际涨4.32%。",
+      "analysis": {
+        "matched_tickers": [
+          "688981.SS"
+        ],
+        "matched_names": [
+          "中芯国际"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 11:50:26",
+      "text": "【第三季度国家标准下载量超1200万人次 同比增长78%】据市场监管总局消息，第三季度，国家标准下载量超过1200万人次，比去年同期增长78%；在线阅读量超过860万人次，与去年同期基本持平。这是国家标准免费公开以来，季度下载量首次超过在线阅读量，表明社会公众的标准需求正从“知晓”为主不断向“掌握”为主深化。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-28 11:40:42",
       "text": "【机构：苹果iPhone 18 Pro系列上市三周全球销量同比增长3.1%】根据Counterpoint Research的《智能手机周度销量追踪报告》，苹果iPhone 18 Pro系列在发布后前三周销量实现销量增长。自9月发布以来的三周内，iPhone 18 Pro和Pro Max的全球销量同比增长3.1%，高于去年同期 iPhone 17 Pro系列上市后三周的销量。该系列在中国和印度等市场表现较好，但在其他部分市场的表现相对平淡，整体开局呈现分化。",
@@ -73,139 +189,17 @@
       "text": "【午评：创业板指震荡走高涨3%，人形机器人概念股爆发】A股三大指数早盘集体上涨，截至午盘，上证指数涨0.72%，深证成指涨1.99%，创业板指涨3%，北证50涨1.32%，科创50指数涨2.51%。全市场成交额10220亿元，较上日放量1446亿元，全市场近4500只个股上涨。板块题材上，减速器、人形机器人、半导体、电机、PEEK材料板块涨幅居前；白酒、青蒿素、猪肉、保险、银行板块跌幅居前。盘面上，人形机器人板块爆发，安培龙、恒工精密、五洲新春、兆威机电、浙江荣泰等二十余股涨停，上纬新材、长盛轴承、斯菱智驱等多股涨超10%。半导体板块亦表现活跃，富瀚微、必易微触及涨停，君正股份、灿芯股份、思瑞浦涨幅居前。PEEK材料板块持续走高，新瀚新材涨停，恒勃股份、隆盛科技、科达利涨幅居前。白酒板块逆市走低，皇台酒业、五粮液、金徽酒跌幅居前。银行板块表现低迷，重庆银行、沪农商行、招商银行跌幅居前。",
       "analysis": {
         "matched_tickers": [
-          "600036.SS",
-          "000858.SZ"
+          "000858.SZ",
+          "600036.SS"
         ],
         "matched_names": [
-          "五粮液",
-          "招商银行"
+          "招商银行",
+          "五粮液"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 11:29:20",
-      "text": "【国际航协：2025年全球航空公司支付成本高达245亿美元】国际航空运输协会（IATA，简称“国际航协”）发布数据显示，全球航空公司的支付处理成本负担加重。2025年，全球航空公司为处理1.05万亿美元的销售收入，支付了245亿美元的支付相关成本，较2023年增长10.4%。这一增幅明显高于同期航空旅行销售额7.7%的增长率。航空公司平均单客支付成本为5美元。国际航协预测，2026年航空公司平均每名旅客的净利润仅4.50美元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 11:12:57",
-      "text": "【新洋丰：对2027年磷肥和复合肥市场较为乐观】新洋丰(000902)10月26日在分析师会议上表示，公司对2027年磷肥和复合肥市场较为乐观，主要基于三点：第一，硫磺价格下降将缓解2026年磷复肥销售中最困难的成本因素，磷肥盈利能力逐步修复，在2026年硫磺价格高企的情况下，公司前三季度销量仍能与2025年同期差不多持平，因此硫磺价格回落后，2027年销售状况可以更乐观一些。第二，2026年硫磺价格一度涨到一万多元的历史极值，对销售形成非常强的抑制，导致下游库存几乎为零，这为2027年销售开展提供了较好的增量空间。第三，2027年三季度磷石膏制酸投产后，公司产品成本将大幅低于同行，为销售提供更多助力。综合来看，公司判断2027年复合肥、磷酸一铵的销量和盈利能力都会比2026年更乐观。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 11:11:01",
-      "text": "宁德时代区域负责人称澳大利亚对钠离子电池兴趣浓厚。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 11:02:40",
-      "text": "【山东山大华天软件与阿里云达成合作】据阿里云消息，近日，山东山大华天软件与阿里云达成合作。双方将围绕“AI+工业软件”开展联合开发、测试、验证与应用，共同推进云+AI、AI编程等方向合作。同时，山东山大华天软件旗下的三维云CAD产品CrownCAD已接入Qoder，并已实现对STEP、IGES等通用三维数据交换格式的特征识别与参数化重建。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:44:34",
-      "text": "【宁德时代新设储能科技公司 含AI相关业务】企查查APP显示，近日，宁德时代储能科技有限公司成立，注册资本50亿元，经营范围包含人工智能基础软件开发；网络与信息安全软件开发；人工智能应用软件开发；物联网应用服务；量子计算技术服务等。企查查股权穿透显示，该公司由宁德时代全资持股。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:42:57",
-      "text": "【一天102家沪市公司披露利好信息 持续传递积极信号】10月27日晚间，沪市共102家公司披露利好公告，包括63份三季度业绩喜报、21份增持回购类公告、9份中期分红公告、6份承诺不减持或提前终止减持计划以及3份其他经营性利好公告，持续向市场传递积极信号。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:40:09",
-      "text": "【主力资金：兆易创新净买入超6亿】截至目前，今日主力资金净流入28.00亿；净流入TMT、机器人概念、基金重仓等板块，其中TMT板块净流入58.27亿；净流出政府控股、小盘、国企改革等板块，其中政府控股板块净流出23.88亿。\n  \n个股方面，兆易创新净买入6.85亿元位居首位，中际旭创、恒瑞医药、新易盛主力资金净流入居前；长鑫科技净卖出5.79亿元位居首位，宁德时代、五 粮 液、西安奕材净流出额居前。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ",
-          "600276.SS"
-        ],
-        "matched_names": [
-          "宁德时代",
-          "恒瑞医药"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:38:42",
-      "text": "【中金：维持香港交易所“跑赢行业”评级 目标价520港元】中金发布研报称，香港交易所(00388)计划于11月6日披露2026年第三季度业绩。该行预计，公司3Q26收入同比持平、环比下降9%至77.8亿港元，剔除投资收益后的主营费类收入同比下降1%、环比下降7%至66.7亿港元，盈利同比下降2%、环比下降11%至48.1亿港元。2026年前三季度，公司总收入及盈利预计分别同比增长12%和15%至244.8亿港元和153.8亿港元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:37:36",
-      "text": "【天翼视联完成二轮增资 新引入三家战略投资者】从中国电信获悉，近日，天翼视联科技股份有限公司（简称“天翼视联”）完成二轮增资引战，新引入建信投资、上海国际、上海孚腾三家战略投资者，老股东诚通混改基金继续增持。这是继2026年1月完成首轮增资引战后，天翼视联在市场化发展和资本运作上的又一关键动作。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]

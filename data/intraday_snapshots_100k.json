@@ -2,140 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-09-22 14:45:53 CST",
-    "time_str": "14:45",
-    "date_str": "2026-09-22",
-    "portfolio_value": 103180.12,
-    "cash": 10466.12,
-    "stock_market_value": 92714.0,
-    "cash_ratio_pct": 10.14,
-    "stock_ratio_pct": 89.86,
-    "account_nav": 1.0318,
-    "bench_nav": 1.0004,
-    "bench_change_pct": 0.22,
-    "alpha_pct": 3.14,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "300394.SZ",
-        "name": "天孚通信",
-        "shares": 100,
-        "avg_cost": 255.38,
-        "last_price": 275.91,
-        "market_value": 27591.0,
-        "change_pct": -1.2,
-        "pnl": 2053.0,
-        "pnl_pct": 8.04,
-        "ofi": -0.067,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 26.74
-      },
-      {
-        "ticker": "300474.SZ",
-        "name": "景嘉微",
-        "shares": 400,
-        "avg_cost": 50.3,
-        "last_price": 52.82,
-        "market_value": 21128.0,
-        "change_pct": 1.13,
-        "pnl": 1008.0,
-        "pnl_pct": 5.01,
-        "ofi": 0.036,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 20.48
-      },
-      {
-        "ticker": "300274.SZ",
-        "name": "阳光电源",
-        "shares": 500,
-        "avg_cost": 88.47,
-        "last_price": 87.99,
-        "market_value": 43995.0,
-        "change_pct": -0.54,
-        "pnl": -240.0,
-        "pnl_pct": -0.54,
-        "ofi": -0.094,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 42.64
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 103180.12,
-      "cash": 10466.12,
-      "stock_market_value": 92714.0,
-      "cash_ratio_pct": 10.14,
-      "stock_ratio_pct": 89.86,
-      "account_nav": 1.0318,
-      "bench_nav": 1.0004,
-      "alpha_pct": 3.14,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "300394.SZ",
-          "name": "天孚通信",
-          "shares": 100,
-          "avg_cost": 255.38,
-          "last_price": 275.91,
-          "market_value": 27591.0,
-          "change_pct": -1.2,
-          "pnl": 2053.0,
-          "pnl_pct": 8.04,
-          "ofi": -0.067,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 26.74
-        },
-        {
-          "ticker": "300474.SZ",
-          "name": "景嘉微",
-          "shares": 400,
-          "avg_cost": 50.3,
-          "last_price": 52.82,
-          "market_value": 21128.0,
-          "change_pct": 1.13,
-          "pnl": 1008.0,
-          "pnl_pct": 5.01,
-          "ofi": 0.036,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 20.48
-        },
-        {
-          "ticker": "300274.SZ",
-          "name": "阳光电源",
-          "shares": 500,
-          "avg_cost": 88.47,
-          "last_price": 87.99,
-          "market_value": 43995.0,
-          "change_pct": -0.54,
-          "pnl": -240.0,
-          "pnl_pct": -0.54,
-          "ofi": -0.094,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 42.64
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，天孚通信、景嘉微、阳光电源高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 天孚通信 (300394.SZ) | 景嘉微 (300474.SZ) | 阳光电源 (300274.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (天孚通信 (300394.SZ) | 景嘉微 (300474.SZ) | 阳光电源 (300274.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-09-23 09:00:42 CST",
     "time_str": "09:00",
     "date_str": "2026-09-23",
@@ -34585,6 +34451,112 @@
           "ofi": -0.076,
           "flow_status": "主动砸盘出货",
           "weight_pct": 51.54
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，金山办公、晶科能源高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 金山办公 (688111.SS) | 晶科能源 (688223.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (金山办公 (688111.SS) | 晶科能源 (688223.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-10-28 13:00:12 CST",
+    "time_str": "13:00",
+    "date_str": "2026-10-28",
+    "portfolio_value": 86340.88,
+    "cash": 18879.88,
+    "stock_market_value": 67461.0,
+    "cash_ratio_pct": 21.87,
+    "stock_ratio_pct": 78.13,
+    "account_nav": 0.8634,
+    "bench_nav": 0.8993,
+    "bench_change_pct": 0.68,
+    "alpha_pct": -3.59,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "688111.SS",
+        "name": "金山办公",
+        "shares": 100,
+        "avg_cost": 231.17,
+        "last_price": 230.01,
+        "market_value": 23001.0,
+        "change_pct": -5.92,
+        "pnl": -116.0,
+        "pnl_pct": -0.5,
+        "ofi": -0.072,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 26.64
+      },
+      {
+        "ticker": "688223.SS",
+        "name": "晶科能源",
+        "shares": 11400,
+        "avg_cost": 3.94,
+        "last_price": 3.9,
+        "market_value": 44460.0,
+        "change_pct": -1.02,
+        "pnl": -456.0,
+        "pnl_pct": -1.02,
+        "ofi": -0.079,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 51.49
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 86340.88,
+      "cash": 18879.88,
+      "stock_market_value": 67461.0,
+      "cash_ratio_pct": 21.87,
+      "stock_ratio_pct": 78.13,
+      "account_nav": 0.8634,
+      "bench_nav": 0.8993,
+      "alpha_pct": -3.59,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "688111.SS",
+          "name": "金山办公",
+          "shares": 100,
+          "avg_cost": 231.17,
+          "last_price": 230.01,
+          "market_value": 23001.0,
+          "change_pct": -5.92,
+          "pnl": -116.0,
+          "pnl_pct": -0.5,
+          "ofi": -0.072,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 26.64
+        },
+        {
+          "ticker": "688223.SS",
+          "name": "晶科能源",
+          "shares": 11400,
+          "avg_cost": 3.94,
+          "last_price": 3.9,
+          "market_value": 44460.0,
+          "change_pct": -1.02,
+          "pnl": -456.0,
+          "pnl_pct": -1.02,
+          "ofi": -0.079,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 51.49
         }
       ]
     },
