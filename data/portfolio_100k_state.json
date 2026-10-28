@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 19805.68,
-  "portfolio_value": 91339.68,
-  "account_nav": 0.9134,
+  "portfolio_value": 88283.68,
+  "account_nav": 0.8828,
   "bench_nav": 1.0017,
   "positions": {
     "688111.SS": {
       "name": "金山办公",
       "shares": 100,
       "avg_cost": 231.17,
-      "last_price": 252.57,
-      "market_value": 25257.0,
+      "last_price": 244.48,
+      "market_value": 24448.0,
       "pnl": 2140.0,
       "pnl_pct": 9.26,
       "highest": 252.57
@@ -21,8 +21,8 @@
       "name": "传音控股",
       "shares": 300,
       "avg_cost": 50.85,
-      "last_price": 56.59,
-      "market_value": 16977.0,
+      "last_price": 54.99,
+      "market_value": 16497.0,
       "pnl": 1722.0,
       "pnl_pct": 11.29,
       "highest": 56.59
@@ -31,8 +31,8 @@
       "name": "绿的谐波",
       "shares": 100,
       "avg_cost": 252.0,
-      "last_price": 293.0,
-      "market_value": 29300.0,
+      "last_price": 275.33,
+      "market_value": 27533.0,
       "pnl": 4100.0,
       "pnl_pct": 16.27,
       "highest": 293.0
@@ -45,10 +45,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-26 18:11:12",
+  "last_updated": "2026-10-27 00:05:09",
   "benchmark": {
-    "last_price": 4.179,
-    "nav": 0.9053
+    "last_price": 4.123,
+    "nav": 0.8932
   },
   "nav_history": [
     {
@@ -284,6 +284,15 @@
       "account_nav": 0.9134,
       "bench_nav": 0.9053,
       "alpha": 0.81
+    },
+    {
+      "timestamp": "2026-10-27 00:05:09",
+      "date": "2026-10-27",
+      "cash": 19805.68,
+      "portfolio_value": 88283.68,
+      "account_nav": 0.8828,
+      "bench_nav": 0.8932,
+      "alpha": -1.04
     }
   ]
 }
