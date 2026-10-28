@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-27 20:15:15",
+  "audit_time": "2026-10-27 20:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -23,18 +23,21 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "600030.SS": {
-      "ticker": "600030.SS",
-      "name": "中信证券",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-28 11:29:20",
+      "text": "【国际航协：2025年全球航空公司支付成本高达245亿美元】国际航空运输协会（IATA，简称“国际航协”）发布数据显示，全球航空公司的支付处理成本负担加重。2025年，全球航空公司为处理1.05万亿美元的销售收入，支付了245亿美元的支付相关成本，较2023年增长10.4%。这一增幅明显高于同期航空旅行销售额7.7%的增长率。航空公司平均单客支付成本为5美元。国际航协预测，2026年航空公司平均每名旅客的净利润仅4.50美元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-28 11:12:57",
       "text": "【新洋丰：对2027年磷肥和复合肥市场较为乐观】新洋丰(000902)10月26日在分析师会议上表示，公司对2027年磷肥和复合肥市场较为乐观，主要基于三点：第一，硫磺价格下降将缓解2026年磷复肥销售中最困难的成本因素，磷肥盈利能力逐步修复，在2026年硫磺价格高企的情况下，公司前三季度销量仍能与2025年同期差不多持平，因此硫磺价格回落后，2027年销售状况可以更乐观一些。第二，2026年硫磺价格一度涨到一万多元的历史极值，对销售形成非常强的抑制，导致下游库存几乎为零，这为2027年销售开展提供了较好的增量空间。第三，2027年三季度磷石膏制酸投产后，公司产品成本将大幅低于同行，为销售提供更多助力。综合来看，公司判断2027年复合肥、磷酸一铵的销量和盈利能力都会比2026年更乐观。",
@@ -108,12 +111,12 @@
       "text": "【主力资金：兆易创新净买入超6亿】截至目前，今日主力资金净流入28.00亿；净流入TMT、机器人概念、基金重仓等板块，其中TMT板块净流入58.27亿；净流出政府控股、小盘、国企改革等板块，其中政府控股板块净流出23.88亿。\n  \n个股方面，兆易创新净买入6.85亿元位居首位，中际旭创、恒瑞医药、新易盛主力资金净流入居前；长鑫科技净卖出5.79亿元位居首位，宁德时代、五 粮 液、西安奕材净流出额居前。",
       "analysis": {
         "matched_tickers": [
-          "300750.SZ",
-          "600276.SS"
+          "600276.SS",
+          "300750.SZ"
         ],
         "matched_names": [
-          "宁德时代",
-          "恒瑞医药"
+          "恒瑞医药",
+          "宁德时代"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -155,58 +158,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:16:14",
-      "text": "新西兰联储行长：工资增长低迷降低了企业提价的必要性。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "产品景气提价",
-        "sentiment_score": 0.7,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:15:22",
-      "text": "【君正股份涨超13% 三季度净利同比大增近26倍】截至发稿，君正股份(03223.HK)涨13.17%。根据公告，前三季度公司实现营业收入71.02亿元，同比增长106.66%；归母净利润为26.16亿元，同比增长922.95%。第三季度实现营业收入31.45亿元，同比增长164.85%；归母净利润为14.19亿元，同比增长2595.49%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:13:53",
-      "text": "新西兰联储行长布雷曼：工资增长水平低于与通胀目标相符的水平。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:09:28",
-      "text": "【非银金融板块震荡回落 瑞达期货跌停】非银金融板块震荡回落，瑞达期货跌停，此前华鑫股份跌停，国泰海通、新华保险、华林证券、中科金财、中信证券跟跌。",
-      "analysis": {
-        "matched_tickers": [
-          "600030.SS"
-        ],
-        "matched_names": [
-          "中信证券"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
