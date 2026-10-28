@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-26 18:11:11.302054",
+  "timestamp": "2026-10-27 18:10:56.021381",
   "model": "LightGBM GBDT Regressor (16 Microstructure Factors)",
   "features": [
     "mom5",
@@ -54,107 +54,107 @@
       "ticker": "600276.SS",
       "name": "恒瑞医药",
       "industry": "医药生物",
-      "last_price": 47.0,
-      "pure_ai_alpha": 2.1026536850581135,
+      "last_price": 45.55,
+      "pure_ai_alpha": 2.4967795422908083,
       "opt_weight_pct": 12.0,
-      "shares": 2500
+      "shares": 2600
     },
     {
       "ticker": "601138.SS",
       "name": "工业富联",
       "industry": "电子科技",
-      "last_price": 46.73,
-      "pure_ai_alpha": 1.7123117898664797,
+      "last_price": 45.92,
+      "pure_ai_alpha": 1.6283975156154047,
       "opt_weight_pct": 12.0,
-      "shares": 2500
+      "shares": 2600
     },
     {
       "ticker": "601166.SS",
       "name": "兴业银行",
       "industry": "银行金融",
-      "last_price": 18.68,
-      "pure_ai_alpha": 1.2030609234461358,
+      "last_price": 19.1,
+      "pure_ai_alpha": 1.3104695995898443,
       "opt_weight_pct": 12.0,
-      "shares": 6400
+      "shares": 6200
     },
     {
       "ticker": "600690.SS",
       "name": "海尔智家",
       "industry": "家用电器",
-      "last_price": 19.56,
-      "pure_ai_alpha": 1.12420384260146,
+      "last_price": 19.36,
+      "pure_ai_alpha": 1.0271347049781294,
       "opt_weight_pct": 12.0,
       "shares": 6100
-    },
-    {
-      "ticker": "600887.SS",
-      "name": "伊利股份",
-      "industry": "食品饮料",
-      "last_price": 28.6,
-      "pure_ai_alpha": 0.8949278066318914,
-      "opt_weight_pct": 12.0,
-      "shares": 4100
-    },
-    {
-      "ticker": "600028.SS",
-      "name": "中国石化",
-      "industry": "石油石化",
-      "last_price": 5.56,
-      "pure_ai_alpha": 0.8121844274804062,
-      "opt_weight_pct": 12.0,
-      "shares": 21500
     },
     {
       "ticker": "601088.SS",
       "name": "中国神华",
       "industry": "煤炭能源",
-      "last_price": 50.15,
-      "pure_ai_alpha": 0.7024401751143138,
+      "last_price": 49.38,
+      "pure_ai_alpha": 0.9927552098730291,
       "opt_weight_pct": 12.0,
-      "shares": 2300
+      "shares": 2400
+    },
+    {
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "industry": "石油石化",
+      "last_price": 5.51,
+      "pure_ai_alpha": 0.7236465264935236,
+      "opt_weight_pct": 12.0,
+      "shares": 21700
+    },
+    {
+      "ticker": "600887.SS",
+      "name": "伊利股份",
+      "industry": "食品饮料",
+      "last_price": 28.89,
+      "pure_ai_alpha": 0.6553326064267568,
+      "opt_weight_pct": 12.0,
+      "shares": 4100
     },
     {
       "ticker": "000858.SZ",
       "name": "五粮液",
       "industry": "食品饮料",
-      "last_price": 75.63,
-      "pure_ai_alpha": 0.6712451889600283,
+      "last_price": 75.38,
+      "pure_ai_alpha": 0.6159401178828037,
       "opt_weight_pct": 3.0,
       "shares": 300
-    },
-    {
-      "ticker": "601985.SS",
-      "name": "中国核电",
-      "industry": "公用事业",
-      "last_price": 9.47,
-      "pure_ai_alpha": 0.622878641556318,
-      "opt_weight_pct": 2.0,
-      "shares": 2100
-    },
-    {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "industry": "电子科技",
-      "last_price": 102.77,
-      "pure_ai_alpha": 0.49927156260658645,
-      "opt_weight_pct": 2.0,
-      "shares": 100
     },
     {
       "ticker": "600031.SS",
       "name": "三一重工",
       "industry": "机械装备",
-      "last_price": 18.27,
-      "pure_ai_alpha": 0.4990592587687678,
+      "last_price": 18.07,
+      "pure_ai_alpha": 0.5710988724902524,
       "opt_weight_pct": 2.0,
-      "shares": 1000
+      "shares": 1100
+    },
+    {
+      "ticker": "601985.SS",
+      "name": "中国核电",
+      "industry": "公用事业",
+      "last_price": 9.5,
+      "pure_ai_alpha": 0.5207085035849824,
+      "opt_weight_pct": 2.0,
+      "shares": 2100
     },
     {
       "ticker": "002594.SZ",
       "name": "比亚迪",
       "industry": "汽车制造",
-      "last_price": 82.4,
-      "pure_ai_alpha": 0.3048760680004176,
+      "last_price": 82.01,
+      "pure_ai_alpha": 0.4499290956602736,
+      "opt_weight_pct": 2.0,
+      "shares": 200
+    },
+    {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "industry": "电子科技",
+      "last_price": 100.0,
+      "pure_ai_alpha": 0.2505350316487226,
       "opt_weight_pct": 2.0,
       "shares": 200
     }
