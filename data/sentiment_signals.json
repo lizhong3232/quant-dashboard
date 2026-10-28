@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-10-27 22:45:17",
+  "audit_time": "2026-10-27 23:00:23",
   "total_news_scanned": 100,
   "relevant_events_found": 9,
   "black_swan_count": 0,
@@ -7,6 +7,18 @@
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-28 13:49:48",
+      "text": "【中国一汽完成超轻薄“车用透明陶瓷复合玻璃”大尺寸曲面样件试制】据吉林发布消息，近日，中国一汽联合国内科研院所和产业资源，完成国际首创高安全、超轻薄“车用透明陶瓷复合玻璃”大尺寸曲面样件试制，标志着我国在高安全透明材料领域取得重大技术突破。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
     {
       "timestamp": "2026-10-28 13:44:09",
       "text": "【复星医药旗下徐州万邦金桥制药公司增资至4.9亿 增幅约121%】天眼查App显示，近日，徐州万邦金桥制药有限公司发生工商变更，注册资本由2.2亿人民币增至约4.9亿人民币，增幅约121%。该公司成立于2006年9月，法定代表人为彭少平，经营范围包括药品生产、药品委托生产、药品批发等，由复星医药旗下复星万邦（江苏）医药集团有限公司、上海复星医药产业发展有限公司、FOSUN INDUSTRIAL CO., LIMITED共同持股。",
@@ -94,18 +106,6 @@
     {
       "timestamp": "2026-10-28 12:49:06",
       "text": "【卫星互联网产学研联合创新计划启动】10月28日，在第二十七届卫星应用大会上，卫星互联网产学研联合创新计划启动，首批参与单位包括近60家高校、科研院所和企业。该计划围绕卫星互联网开展合作，包括共建课程、培养学生工程能力、以实训储备产业人才、开放测试条件支撑企业技术发展等。研究方向包括星算协同与太空算力、手机直连卫星、6G非地面网络、星间激光通信等六项。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 12:41:35",
-      "text": "越南国际金融中心表示，首批10家成员预计将在2027年前动员并投资约27亿美元。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
