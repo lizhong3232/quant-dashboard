@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-27 20:00:16",
+  "audit_time": "2026-10-27 20:15:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,7 +10,7 @@
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 3,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
@@ -35,6 +35,46 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-28 11:12:57",
+      "text": "【新洋丰：对2027年磷肥和复合肥市场较为乐观】新洋丰(000902)10月26日在分析师会议上表示，公司对2027年磷肥和复合肥市场较为乐观，主要基于三点：第一，硫磺价格下降将缓解2026年磷复肥销售中最困难的成本因素，磷肥盈利能力逐步修复，在2026年硫磺价格高企的情况下，公司前三季度销量仍能与2025年同期差不多持平，因此硫磺价格回落后，2027年销售状况可以更乐观一些。第二，2026年硫磺价格一度涨到一万多元的历史极值，对销售形成非常强的抑制，导致下游库存几乎为零，这为2027年销售开展提供了较好的增量空间。第三，2027年三季度磷石膏制酸投产后，公司产品成本将大幅低于同行，为销售提供更多助力。综合来看，公司判断2027年复合肥、磷酸一铵的销量和盈利能力都会比2026年更乐观。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 11:11:01",
+      "text": "宁德时代区域负责人称澳大利亚对钠离子电池兴趣浓厚。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-28 11:02:40",
+      "text": "【山东山大华天软件与阿里云达成合作】据阿里云消息，近日，山东山大华天软件与阿里云达成合作。双方将围绕“AI+工业软件”开展联合开发、测试、验证与应用，共同推进云+AI、AI编程等方向合作。同时，山东山大华天软件旗下的三维云CAD产品CrownCAD已接入Qoder，并已实现对STEP、IGES等通用三维数据交换格式的特征识别与参数化重建。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
     {
       "timestamp": "2026-10-28 10:44:34",
       "text": "【宁德时代新设储能科技公司 含AI相关业务】企查查APP显示，近日，宁德时代储能科技有限公司成立，注册资本50亿元，经营范围包含人工智能基础软件开发；网络与信息安全软件开发；人工智能应用软件开发；物联网应用服务；量子计算技术服务等。企查查股权穿透显示，该公司由宁德时代全资持股。",
@@ -167,18 +207,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-28 10:00:43",
-      "text": "韩国9月零售销售同比增长4.5%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
