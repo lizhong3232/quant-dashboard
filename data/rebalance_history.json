@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 40,
+    "total_trades_100k": 42,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-10-27 18:10:57"
+    "last_rebalance_time_100k": "2026-10-28 18:10:58"
   },
   "trades_1m": [
     {
@@ -940,6 +940,38 @@
       "fee": 8.98,
       "saved_bps": 2.1,
       "reason": "HYSTERESIS_ENTRY"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-10-28 18:10:58",
+      "contract_id": "WT-20261028-0061",
+      "action": "SELL",
+      "ticker": "688111.SS",
+      "name": "金山办公",
+      "shares": 100,
+      "price": 223.08,
+      "amount": 22308.0,
+      "fee": 15.62,
+      "saved_bps": 1.9,
+      "pnl": -809.0,
+      "pnl_pct": -3.5,
+      "reason": "STOP_LOSS"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-10-28 18:10:58",
+      "contract_id": "WT-20261028-0062",
+      "action": "BUY",
+      "ticker": "300124.SZ",
+      "name": "汇川技术",
+      "shares": 600,
+      "price": 56.16,
+      "amount": 33696.0,
+      "fee": 6.74,
+      "saved_bps": 2.1,
+      "reason": "消灭现金拖累·动用闲置资金建仓强Alpha龙头 (AI服务器与PCB高多层突破)"
     }
   ]
 }

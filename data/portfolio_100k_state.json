@@ -2,30 +2,30 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 18879.88,
-  "portfolio_value": 85419.88,
-  "account_nav": 0.8542,
+  "cash": 7469.52,
+  "portfolio_value": 85397.52,
+  "account_nav": 0.854,
   "bench_nav": 1.0017,
   "positions": {
-    "688111.SS": {
-      "name": "金山办公",
-      "shares": 100,
-      "avg_cost": 231.17,
-      "last_price": 223.08,
-      "market_value": 22308.0,
-      "pnl": 1331.0,
-      "pnl_pct": 5.76,
-      "highest": 252.57
-    },
     "688223.SS": {
       "name": "晶科能源",
       "shares": 11400,
       "avg_cost": 3.94,
       "last_price": 3.88,
       "market_value": 44232.0,
+      "pnl": -684.0,
+      "pnl_pct": -1.52,
+      "highest": 3.94
+    },
+    "300124.SZ": {
+      "name": "汇川技术",
+      "shares": 600,
+      "avg_cost": 56.16,
+      "last_price": 56.16,
+      "market_value": 33696.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
-      "highest": 3.94
+      "highest": 56.16
     }
   },
   "rules": {
@@ -35,7 +35,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-28 00:05:08",
+  "last_updated": "2026-10-28 18:10:58",
   "benchmark": {
     "last_price": 4.152,
     "nav": 0.8995
