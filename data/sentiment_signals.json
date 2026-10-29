@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-10-28 19:30:16",
+  "audit_time": "2026-10-28 19:45:16",
   "total_news_scanned": 100,
   "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "002463.SZ": {
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -26,6 +35,34 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-29 10:40:10",
+      "text": "【主力资金：天孚通信净卖出超16亿】截至目前，今日主力资金净流出373.72亿；净流入卫星导航、航天装备概念、军民融合等板块，其中卫星导航板块净流入16.60亿；净流出融资融券、转融券标的、TMT等板块，其中融资融券板块净流出355.57亿。\n  \n个股方面，中国卫星净买入3.80亿元位居首位，钧达股份、顺灏股份、西部材料主力资金净流入居前；天孚通信净卖出16.93亿元位居首位，新易盛、沪电股份、佰维存储净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "002463.SZ"
+        ],
+        "matched_names": [
+          "沪电股份"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 10:31:54",
+      "text": "【中泰证券：激光雕刻新兴赛道加速成长 国产智造引领出海 】中泰证券发布研报称，全球消费级激光雕刻市场已进入加速渗透期，年复合增长率达到21.0%，成为激光产业从工业向消费端延伸的核心增量赛道。这一增长是供给端国产化突破与需求端场景扩容形成的双向共振。上游激光器、振镜是产业链的核心价值所在。消费级激光雕刻下游市场已形成“头部引领+多元竞争”的清晰格局。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-29 10:13:05",
       "text": "【林业概念震荡反弹，福建金森涨停】林业概念震荡反弹，福建金森涨停，泉阳泉、平潭发展、丰林集团、青山纸业、*ST景谷、永安林业跟涨。",
@@ -152,30 +189,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:42:38",
-      "text": "SK INNOVATION第三季度营业利润3.7万亿韩元，同比增长532.5%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:42:12",
-      "text": "【韩国法院驳回特斯拉车主要求退还FSD费用的诉求】韩国一家法院周四驳回了89名被告提起的诉讼。 这些特斯拉车主因FSD系统延误而寻求退款。首尔中央地方法院裁定，购买该服务并不能保证完全无需人工干预的自动驾驶功能，而且买家已经获得了部分核心功能。2024年，89位车主起诉特斯拉韩国子公司，要求全额赔偿每位车主高达900万韩元的FSD驾驶辅助系统费用。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
