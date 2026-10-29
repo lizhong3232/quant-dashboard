@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-28 18:30:17",
+  "audit_time": "2026-10-28 18:45:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 15,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,66 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-29 09:42:38",
+      "text": "SK INNOVATION第三季度营业利润3.7万亿韩元，同比增长532.5%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:42:12",
+      "text": "【韩国法院驳回特斯拉车主要求退还FSD费用的诉求】韩国一家法院周四驳回了89名被告提起的诉讼。 这些特斯拉车主因FSD系统延误而寻求退款。首尔中央地方法院裁定，购买该服务并不能保证完全无需人工干预的自动驾驶功能，而且买家已经获得了部分核心功能。2024年，89位车主起诉特斯拉韩国子公司，要求全额赔偿每位车主高达900万韩元的FSD驾驶辅助系统费用。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:35:51",
+      "text": "三星晶圆代工业务预计第四季度营收将实现两位数增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:35:39",
+      "text": "三星电子：第四季度移动业务营收将较第三季度下降。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:35:19",
+      "text": "【低空经济板块盘初走弱，光启技术跌停】低空经济板块盘初走弱，光启技术跌停，中仑新材跌超10%，*ST航图、安恒信息、星网宇达、国轩高科、吉林化纤等跟跌。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
     {
       "timestamp": "2026-10-29 09:23:50",
       "text": "三星电子：第四季度DRAM芯片出货量增长将达15%-20%。",
@@ -109,102 +169,6 @@
     {
       "timestamp": "2026-10-29 09:12:48",
       "text": "三星电子：预计第四季度将继续实现盈利增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:08:52",
-      "text": "三星电子：2027年移动业务计划通过灵活的市场应对和运营效率举措，最大限度地减少利润下滑。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:06:39",
-      "text": "三星电子：与2026年相比，2027年AI驱动的需求增长将远远超过行业供应。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:04:01",
-      "text": "【中金财富期货：黄金反弹后再度回落，仍处在震荡行情中】沃什在记者会上以强劲经济数据（GDP超3%、投资两位数增长）为底气，拒绝将当前金融条件定性为“偏紧”，被市场解读为仍需进一步加息，只是幅度料将有限。对部分交易员而言，沃什的表态鹰派程度不够充分。对美联储政策更为敏感的两年期美债收益率下行4个基点至4.7%，长端收益率则小幅走高，黄金昨日震荡反弹。但是考虑到美联储释放的信息有限，且态度整体平淡，黄金反弹后再度回落，仍处在震荡行情中。（中金财富期货）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:02:14",
-      "text": "【美国中期选举前福克斯新闻收视下滑 保守派观众热情或在降温】美国收视人数最多的有线新闻频道福克斯新闻，在中期选举前的四周里，黄金时段观众人数下降28%。这指向该台传统的偏保守派观众可能对11月3日的选举热情减弱。尼尔森数据显示，9月28日至10月25日期间，福克斯公司旗下福克斯新闻晚间平均观众人数为200万。Versant Media Group旗下MS NOW的观众人数增长15%，至116万；天空之舞公司旗下CNN平均观众人数为64.4万，同期增长16%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:01:01",
-      "text": "【 首批风云卫星极端天气AI模型发布 台风“体检报告”27秒生成 】 10月29日，首批风云气象卫星极端天气人工智能模型在2026年风云卫星用户大会上正式发布，推动风云卫星应用从“看清现在”迈向“预测未来”。此次发布的台风智能云图解译模型，融合风云卫星多通道云图及相关产品，可自动分析台风的位置、结构、强度及演变趋势，并生成解译文本。目前，该模型已形成覆盖7类台风特征、融合20余种卫星实况产品的综合解译能力，每15分钟开展一次解译，仅需27秒即可生成解译文本。以今年第26号台风“舒力基”为例，模型自动识别台风后，对强度、风圈半径、降水特征等进行了综合分析，为监测预报提供支撑。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 08:55:28",
-      "text": "【受人工智能芯片热潮推动 三星第三季度创下利润新高】韩国三星电子周四表示，受人工智能芯片需求强劲推动，其第三季度营业利润增长近九倍，创下历史新高，尽管投资者仍对人工智能支出的可持续性持谨慎态度。这家全球最大的内存芯片制造商报告称，7月至10月期间的营业利润为107.4万亿韩元(800.4亿美元)，符合其预期，且较上年同期的12.2万亿韩元有所增长。其同城竞争对手SK海力士 周三公布了强劲的业绩和乐观的前景，这有助于缓解市场对AI驱动的芯片收益可能失去动力的担忧，从而推高了三星和SK海力士的股价。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 08:53:24",
-      "text": "三星电子：第四季度代工业务收入将实现两位数百分比增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 08:52:56",
-      "text": "三星电子：第三季度代工业务收入大幅增长。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
