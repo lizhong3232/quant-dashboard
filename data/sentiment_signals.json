@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-28 22:15:19",
+  "audit_time": "2026-10-28 22:30:21",
   "total_news_scanned": 100,
-  "relevant_events_found": 23,
+  "relevant_events_found": 26,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-29 13:28:54",
+      "text": "【近三天沪市新增回购增持方案29单 拟增持回购金额上限近45亿元】据统计，近三天（10月26日至28日），沪市新增回购增持方案29单，拟增持回购金额上限近45亿元。10月以来，沪市公司已发布315份回购增持进展公告，已累积实施回购增持金额超350亿元。这一轮增持回购中，科技公司成为主力军。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:16:19",
+      "text": "【深南电路：2026年第三季度实现营业收入104.78亿元，同比增长66.29%】记者从深南电路了解到， 2026年第三季度，公司实现营业收入104.78亿元，同比增长66.29%，扣非归母净利润18.58亿元，同比增长102.78%。当前公司算力相关业务需求持续向好，AI服务器、高速交换机、光模块用PCB及处理器类封装基板等产品订单饱满。公司已与多家算力、芯片领域核心客户建立稳定合作关系，为后续产能落地与业务增长筑牢基础。伴随算力类高附加值产品占比持续提升，广州、南通、无锡各基地产能稳步爬坡，公司产品结构持续优化，盈利能力逐季提升，长期发展前景清晰向好。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-29 13:13:45",
       "text": "【东山精密：四季度产品交付有望延续高增长趋势】记者获悉，随着全球AI算力基础设施投入持续加码，东山精密高端光模块与AI服务器PCB需求保持高景气。公司方面表示，当前下游订单需求饱满，产能利用率维持高位，AI高端光模块出货量逐季快速提升，1.6T产品已于四季度进入批量出货阶段；叠加公司在高速EML光芯片领域的自研自产能力，光模块与光芯片双轮驱动效应进一步显现。受益于高附加值产品占比持续提升，公司整体盈利结构显著改善。展望四季度，伴随光模块产能集中释放、1.6T产品起量及高端PCB持续放量，单季产品交付有望延续高增长趋势。公司已于10月28日完成港股挂牌上市，实现“A+H”两地上市。本次募资将重点投向光芯片、光模块及高端PCB产能扩建，并用于产业链战略投资，全球化资本与制造布局进一步打开中长期成长空间。",
@@ -139,6 +163,18 @@
       }
     },
     {
+      "timestamp": "2026-10-29 12:30:33",
+      "text": "韩国央行董事会成员HWANG表示，借贷成本高企，陷入困境的中小企业令经济增长受限。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
       "timestamp": "2026-10-29 12:30:19",
       "text": "丰田汽车：9月份母公司海外汽车产量同比下降7.6%，至569,884辆。",
       "analysis": {
@@ -165,42 +201,6 @@
     {
       "timestamp": "2026-10-29 12:28:09",
       "text": "【湾测完成战略轮融资，小米产投参与】10月29日，湾测技术宣布完成战略融资，本轮产业投资方为小米产投。据湾测技术介绍，公司2026年累计收入同比增长超200%，累计出货超过100万套。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 12:27:34",
-      "text": "根据Omdia预测，2026年折叠屏手机AMOLED显示面板出货量将增至2900万片，同比增长44%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 12:25:43",
-      "text": "现代汽车第三季度全球零售销量下降10.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 12:25:31",
-      "text": "现代汽车第三季度中国零售销售-50.2％， 第三季度韩国零售销售-27.2％，第三季度北美零售销售增长3.5%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],

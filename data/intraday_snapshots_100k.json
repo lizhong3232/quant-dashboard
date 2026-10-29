@@ -2,146 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-09-28 11:00:12 CST",
-    "time_str": "11:00",
-    "date_str": "2026-09-28",
-    "portfolio_value": 98161.13,
-    "cash": 28930.13,
-    "stock_market_value": 69231.0,
-    "cash_ratio_pct": 29.47,
-    "stock_ratio_pct": 70.53,
-    "account_nav": 0.9816,
-    "bench_nav": 0.956,
-    "bench_change_pct": -2.26,
-    "alpha_pct": 2.56,
-    "warnings_count": 2,
-    "warnings": [
-      "[🚨硬性止损预警] 天孚通信 (300394.SZ) 浮亏 -4.22% 跌破 -2.8% 止损保护红线！",
-      "[🚨硬性止损预警] 海光信息 (688041.SS) 浮亏 -6.43% 跌破 -2.8% 止损保护红线！"
-    ],
-    "positions": [
-      {
-        "ticker": "300394.SZ",
-        "name": "天孚通信",
-        "shares": 100,
-        "avg_cost": 255.38,
-        "last_price": 244.61,
-        "market_value": 24461.0,
-        "change_pct": -8.7,
-        "pnl": -1077.0,
-        "pnl_pct": -4.22,
-        "ofi": -0.066,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 24.92
-      },
-      {
-        "ticker": "300474.SZ",
-        "name": "景嘉微",
-        "shares": 400,
-        "avg_cost": 50.3,
-        "last_price": 52.04,
-        "market_value": 20816.0,
-        "change_pct": -1.03,
-        "pnl": 696.0,
-        "pnl_pct": 3.46,
-        "ofi": 0.043,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 21.21
-      },
-      {
-        "ticker": "688041.SS",
-        "name": "海光信息",
-        "shares": 100,
-        "avg_cost": 256.0,
-        "last_price": 239.54,
-        "market_value": 23954.0,
-        "change_pct": -3.53,
-        "pnl": -1646.0,
-        "pnl_pct": -6.43,
-        "ofi": -0.052,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 24.4
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 98161.13,
-      "cash": 28930.13,
-      "stock_market_value": 69231.0,
-      "cash_ratio_pct": 29.47,
-      "stock_ratio_pct": 70.53,
-      "account_nav": 0.9816,
-      "bench_nav": 0.956,
-      "alpha_pct": 2.56,
-      "warnings_count": 2,
-      "warnings": [
-        "[🚨硬性止损预警] 天孚通信 (300394.SZ) 浮亏 -4.22% 跌破 -2.8% 止损保护红线！",
-        "[🚨硬性止损预警] 海光信息 (688041.SS) 浮亏 -6.43% 跌破 -2.8% 止损保护红线！"
-      ],
-      "positions": [
-        {
-          "ticker": "300394.SZ",
-          "name": "天孚通信",
-          "shares": 100,
-          "avg_cost": 255.38,
-          "last_price": 244.61,
-          "market_value": 24461.0,
-          "change_pct": -8.7,
-          "pnl": -1077.0,
-          "pnl_pct": -4.22,
-          "ofi": -0.066,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 24.92
-        },
-        {
-          "ticker": "300474.SZ",
-          "name": "景嘉微",
-          "shares": 400,
-          "avg_cost": 50.3,
-          "last_price": 52.04,
-          "market_value": 20816.0,
-          "change_pct": -1.03,
-          "pnl": 696.0,
-          "pnl_pct": 3.46,
-          "ofi": 0.043,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 21.21
-        },
-        {
-          "ticker": "688041.SS",
-          "name": "海光信息",
-          "shares": 100,
-          "avg_cost": 256.0,
-          "last_price": 239.54,
-          "market_value": 23954.0,
-          "change_pct": -3.53,
-          "pnl": -1646.0,
-          "pnl_pct": -6.43,
-          "ofi": -0.052,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 24.4
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，天孚通信、景嘉微、海光信息高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 天孚通信 (300394.SZ) | 景嘉微 (300474.SZ) | 海光信息 (688041.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (天孚通信 (300394.SZ) | 景嘉微 (300474.SZ) | 海光信息 (688041.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-09-28 11:15:12 CST",
     "time_str": "11:15",
     "date_str": "2026-09-28",
@@ -33951,6 +33811,112 @@
           "ofi": 0.09,
           "flow_status": "强势主动扫货",
           "weight_pct": 39.81
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，晶科能源、汇川技术高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 晶科能源 (688223.SS) | 汇川技术 (300124.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (晶科能源 (688223.SS) | 汇川技术 (300124.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-10-29 13:30:16 CST",
+    "time_str": "13:30",
+    "date_str": "2026-10-29",
+    "portfolio_value": 86027.52,
+    "cash": 7469.52,
+    "stock_market_value": 78558.0,
+    "cash_ratio_pct": 8.68,
+    "stock_ratio_pct": 91.32,
+    "account_nav": 0.8603,
+    "bench_nav": 0.8945,
+    "bench_change_pct": -0.55,
+    "alpha_pct": -3.42,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "688223.SS",
+        "name": "晶科能源",
+        "shares": 11400,
+        "avg_cost": 3.94,
+        "last_price": 3.88,
+        "market_value": 44232.0,
+        "change_pct": 0.0,
+        "pnl": -684.0,
+        "pnl_pct": -1.52,
+        "ofi": -0.048,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 51.42
+      },
+      {
+        "ticker": "300124.SZ",
+        "name": "汇川技术",
+        "shares": 600,
+        "avg_cost": 56.16,
+        "last_price": 57.21,
+        "market_value": 34326.0,
+        "change_pct": 1.87,
+        "pnl": 630.0,
+        "pnl_pct": 1.87,
+        "ofi": 0.098,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 39.9
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 86027.52,
+      "cash": 7469.52,
+      "stock_market_value": 78558.0,
+      "cash_ratio_pct": 8.68,
+      "stock_ratio_pct": 91.32,
+      "account_nav": 0.8603,
+      "bench_nav": 0.8945,
+      "alpha_pct": -3.42,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "688223.SS",
+          "name": "晶科能源",
+          "shares": 11400,
+          "avg_cost": 3.94,
+          "last_price": 3.88,
+          "market_value": 44232.0,
+          "change_pct": 0.0,
+          "pnl": -684.0,
+          "pnl_pct": -1.52,
+          "ofi": -0.048,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 51.42
+        },
+        {
+          "ticker": "300124.SZ",
+          "name": "汇川技术",
+          "shares": 600,
+          "avg_cost": 56.16,
+          "last_price": 57.21,
+          "market_value": 34326.0,
+          "change_pct": 1.87,
+          "pnl": 630.0,
+          "pnl_pct": 1.87,
+          "ofi": 0.098,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 39.9
         }
       ]
     },
