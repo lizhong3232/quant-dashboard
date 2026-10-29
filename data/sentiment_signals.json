@@ -1,31 +1,112 @@
 {
-  "audit_time": "2026-10-28 18:45:15",
+  "audit_time": "2026-10-28 19:00:20",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 14,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "600030.SS": {
-      "ticker": "600030.SS",
-      "name": "中信证券",
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     },
-    "000858.SZ": {
-      "ticker": "000858.SZ",
-      "name": "五粮液",
-      "avg_sentiment": -0.4,
-      "news_count": 1,
+    "600030.SS": {
+      "ticker": "600030.SS",
+      "name": "中信证券",
+      "avg_sentiment": 0.2,
+      "news_count": 2,
       "latest_events": [
-        "温和业绩承压"
+        "行业资讯/宏观动态",
+        "温和经营利好"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-29 09:53:39",
+      "text": "【小米、宁德时代入股武汉阿基米德半导体】企查查APP显示，近日，武汉阿基米德半导体有限公司发生工商变更，新增宁德时代、小米关联公司瀚星创业投资有限公司为股东。企查查信息显示，该公司成立于2026年1月，经营范围包含集成电路设计；集成电路制造；集成电路销售；集成电路芯片设计及服务；集成电路芯片及产品制造等。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:53:09",
+      "text": "【腾讯汤道生：AI智能体重塑企业生产力 日均Token调用量已超500万亿】10月29日，腾讯全球数字生态大会在深圳举行，腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生表示，国家相关部门数据统计，中国日均Token调用量已从2024年初的1000亿增长到今年7月的超过500万亿，两年增长超5000倍。他分析，AI应用快速发展，AI正成为新的生产力；以腾讯Workbuddy为代表的AI智能体除日常文档协作外，正商业分析、业务运营、市场调研、营销规划与执行等专业领域快速落地；员工用AI agent提效已是必选级，企业需靠AI做更准决策、更快执行以增强竞争力，否则不进则退。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:51:05",
+      "text": "三星电子：第三季度HBM4营收较第二季度增长两倍多。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:49:42",
+      "text": "【韩国或动用紧急债券回购措施稳定市场】韩国财政部长李炯日周四在扩大宏观经济和金融会议上表示，韩国将审慎评估11月的债券发行规模，并在必要时动用紧急债券回购措施，作为稳定市场努力的一部分。韩国政府将监测美国对外政策变化、全球油价和资本流动对国内金融及外汇市场的影响，并在必要时迅速采取应对措施。韩国宣布减少10月债券发行规模后，收益率随之下降，债券市场已显现出一定企稳迹象。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:48:43",
+      "text": "韩国KOSPI指数下跌3％，至5,831.67点。三星电子跌超5%，第三季度芯片利润不及预期。SK海力士转跌，此前一度涨近7%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 09:46:07",
+      "text": "【中信证券A股策略：回购增持密集披露彰显市场信心】中信证券A股策略研报称，近期市场波动加大，A股上市公司密集披露回购增持公告。截至最新，10月以来公告回购金额超160亿元，今年以来累计接近2500亿元（含北交所），创近几年新高，其中电子、有色金属等板块10月以来回购金额相对更高。市场经历大幅调整阶段时回购增持意愿更强，大规模回购增持使市场企稳回升概率明显提升。近期回购多用于股权激励和市值管理，分别对提振公司未来基本面和增厚股东权益有积极作用，公告传递出对公司未来经营和资本市场前景的信心。短期有望对市场的企稳向上形成有效支撑，中长期伴随资本市场改革推进，A股在提升股东回报方面有望持续改善。",
+      "analysis": {
+        "matched_tickers": [
+          "600030.SS"
+        ],
+        "matched_names": [
+          "中信证券"
+        ],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-10-29 09:42:38",
       "text": "SK INNOVATION第三季度营业利润3.7万亿韩元，同比增长532.5%。",
@@ -124,58 +205,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:20:36",
-      "text": "【古井贡古20零售均价逆势大涨 五粮液普五、国窖1573、洋河梦之蓝M6+齐齐重跌6元 飞天茅台小幅下滑】新浪财经“酒价内参”过去24小时收集的数据显示，10月29日中国白酒业12大单品的终端零售均价两涨五跌五平，下跌品种的数量占优，且跌幅明显超过上涨端，整体价盘在昨日回落后继续下行。上涨端，五粮液1618小涨1元至826元，自月内最低位小幅抬升；古井贡古20大涨7元至532元，昨日重挫后快速反弹，修复力度强劲。下跌端，飞天茅台下跌3元至1786元，结束此前二连阳，再度滑向近期最低位；茅台1935下跌1元至685元，连续两日上涨后小幅回调；五粮液普五八代下跌6元至791元，二连跌继续承压，距离800元关口渐行渐远；国窖1573大跌6元至878元，连续第二日走低并跌破880元，回调幅度明显扩大；洋河梦之蓝M6+下跌6元至601元，三连阳宣告结束，昨日涨幅悉数回吐。持平方面，精品茅台维持2448元不变，昨日小幅下跌后转入横盘；青花汾20保持388元，连续微幅回调后暂时止跌，低位波动明显收敛；习酒君品维持在637元，近期其走势涨跌交错，今日步入淡静期；青花郎保持688元不变，连续第二日平盘整理；水晶剑南春维持414元，在20天以来最高位暂歇。今日12大单品的终端零售总价继续回落，五款产品价格下跌，其中五粮液普五八代、国窖1573和洋河梦之蓝M6+均大幅下跌6元，对整体价盘形成主要拖累。如果12大单品各取一瓶整体打包售卖，今日总售价为10674元，较昨日下跌14元，创下4天以来新低。",
-      "analysis": {
-        "matched_tickers": [
-          "000858.SZ"
-        ],
-        "matched_names": [
-          "五粮液"
-        ],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:16:15",
-      "text": "三星电子：2027年美国泰勒晶圆厂量产将助力代工业务增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:15:43",
-      "text": "【三星电子财报不及预期，股价跌幅扩大】三星电子在公布芯片业务利润不及预期，并表示将于1月底公布股东回报计划后，公司股价抹去早盘涨幅，跌幅一度扩大至2.9%。在开盘时，该股曾一度上涨2.9%。这家芯片制造商的半导体部门利润虽然飙升了15倍，但仍略低于市场预期，这使市场对人工智能基础设施建设热潮的乐观情绪有所降温。截至9月的三个月内，该部门的营业利润为106.5万亿韩元（约合800亿美元），低于分析师108.5万亿韩元的平均预期。韩国综合股价指数（Kospi）下跌1.5%。Life Asset Management首席执行官Kang DaeKwun表示：“三星再次落后于SK海力士。其推迟公布具体股东回报措施的决定，凸显了更积极的股东参与对于支持更好的企业决策和创造长期价值的重要性。”存储芯片同行SK海力士的涨幅从6.7%收窄至2.7%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:12:48",
-      "text": "三星电子：预计第四季度将继续实现盈利增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
