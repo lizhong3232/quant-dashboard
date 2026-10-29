@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-28 20:15:18",
+  "audit_time": "2026-10-28 20:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 8,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -108,30 +108,6 @@
     {
       "timestamp": "2026-10-29 10:11:26",
       "text": "【宇树回应净利润下滑：系算力、大模型方向研发投入增加所致】10月28日晚间，宇树科技披露2026年第三季度报告：单季营收6.65亿元，同比增长69.93%；归母净利润1.13亿元，同比下滑17.37%，环比降幅接近50%。针对利润下滑，公司董秘办相关人士表示，主要系算力、大模型方向研发投入增加所致；拉长周期看影响可控，单季度仅呈现阶段性变化，现阶段研发投入依托募投资金规划，不会盲目加码。（蓝鲸新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 10:09:28",
-      "text": "【富创精密：下游需求红利已在公司业务端体现】富创精密(688409)在2026年第三季度业绩说明会上表示，随着AI催生的全新市场需求、国内半导体设备国产化率持续提升以及下游晶圆厂持续扩产，行业整体需求快速释放，头部设备厂商订单规模显著增长。从前三季度经营情况看，下游需求红利已经在公司业务端体现，前期大客户战略、产能布局的成果持续释放，订单向营收转化效率提升，带动公司经营保持向好。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 10:04:14",
-      "text": "【沪市公司频频“报喜” 一晚300多份利好公告接力】10月28日晚，沪市又有超300家公司披露利好公告，持续传递积极信号。其中包括超280份三季度业绩盈利喜报、超16份增持回购类公告、超7份中期分红公告、超10份承诺不减持或提前终止减持计划，持续向市场传递积极信号。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
