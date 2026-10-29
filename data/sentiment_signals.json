@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-28 19:15:14",
+  "audit_time": "2026-10-28 19:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 15,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -176,42 +176,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:35:51",
-      "text": "三星晶圆代工业务预计第四季度营收将实现两位数增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:35:39",
-      "text": "三星电子：第四季度移动业务营收将较第三季度下降。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-10-29 09:35:19",
-      "text": "【低空经济板块盘初走弱，光启技术跌停】低空经济板块盘初走弱，光启技术跌停，中仑新材跌超10%，*ST航图、安恒信息、星网宇达、国轩高科、吉林化纤等跟跌。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
