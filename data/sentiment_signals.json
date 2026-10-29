@@ -1,10 +1,218 @@
 {
-  "audit_time": "2026-10-28 22:45:19",
-  "total_news_scanned": 0,
-  "relevant_events_found": 0,
+  "audit_time": "2026-10-28 23:00:21",
+  "total_news_scanned": 100,
+  "relevant_events_found": 22,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
-  "recent_analyzed_news": []
+  "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "000858.SZ": {
+      "ticker": "000858.SZ",
+      "name": "五粮液",
+      "avg_sentiment": 0.4,
+      "news_count": 1,
+      "latest_events": [
+        "温和经营利好"
+      ]
+    }
+  },
+  "recent_analyzed_news": [
+    {
+      "timestamp": "2026-10-29 13:56:21",
+      "text": "【广汽领程T9 ROBOTRUCK在广州从化正式下线】10月29日，广汽领程与小马智行联合研发的T9 ROBOTRUCK L4级自动驾驶重卡首批量产车型，在广汽领程从化工厂正式下线。小马智行创始人、首席执行官彭军表示，T9 Robotruck是加速小马智行和广汽领程自动驾驶卡车大规模商业化的重要产品，未来将投放到干线物流、专线物流和港口运输场景。双方在将来2-3年快速实现T9 Robotruck的千辆量产规模。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:50:19",
+      "text": "【嫌吵就买你房！SpaceX以土豪办法解决数据中心投诉】SpaceX正在美国密西西比州绍斯黑文地区建设发电厂，为临近的Colossus数据中心供电。但这一项目引发了当地居民的强烈抗议，理由是这些基础设施产生了令人难以忍受的噪音。绍斯黑文当地的居民已经对发电厂的噪音问题提起诉讼。为了解决与社区的矛盾，目前SpaceX旗下公司MZX Tech正在收购当地居民的房产。房地产经纪人代表SpaceX游说称，只要房主同意不参与针对发电厂噪音问题提起的诉讼，SpaceX就愿意收购他们的房屋。据悉整个计划将包括周边的418套房屋，目前已有18位业主同意出售。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:49:14",
+      "text": "【宁德时代参投基金完成对AI电力资产运营商Green Voltis数千万美元独家投资】记者获悉，宁德时代参投的产业投资基金Lochpine Green Fund I, LP近日完成了对AI原生电力资产运营商Green Voltis的数千万美元独家投资。这是Green Voltis的A轮融资，该公司总部位于瑞典斯德哥尔摩，以自研AI电力交易智能体运营欧洲独立储能及风光配储资产，本轮融资将用于AI电力交易智能体与并网控制系统研发、欧洲重点市场拓展，及AI基础设施业务布局。今年5月，宁德时代子公司以不高于2.25亿美元参投Lochpine，该基金主要围绕碳中和领域上下游开展相关投资。（蓝鲸新闻）",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:42:35",
+      "text": "【中指研究院：“银十”楼市二手房成交量同比增幅有所扩大】中指研究院发文称，10月以来，二手房成交保持活跃，新房市场仍处调整期。根据中指数据监测，10月（1—28日）重点20城二手住宅成交套数同比增长20%，增幅较上月有所扩大，重点30城新建商品住宅成交面积同比下降13%。北京、上海及部分二线城市二手房市场延续较高活跃度。新房市场中，北京受前期供应放量带动成交增长，部分城市核心区优质项目热销，但多数城市同比仍下降。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:35:07",
+      "text": "【康斯特：公司美国市场前三季度同比增长46.6% 是海外增长的核心引擎】康斯特在投资者关系活动中表示，美国市场前三季度同比增长46.6%，是海外增长的核心引擎，主要由去年因加征关税延后执行的大订单在今年落地交付，以及公司产品经过多年国际验证并得到客户认可两方面驱动。基于当前外部环境及公司内外双循环稳健发展的核心战略，公司将继续沿着美国深耕、欧洲稳步拓展的路径落地。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:28:54",
+      "text": "【近三天沪市新增回购增持方案29单 拟增持回购金额上限近45亿元】据统计，近三天（10月26日至28日），沪市新增回购增持方案29单，拟增持回购金额上限近45亿元。10月以来，沪市公司已发布315份回购增持进展公告，已累积实施回购增持金额超350亿元。这一轮增持回购中，科技公司成为主力军。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:16:19",
+      "text": "【深南电路：2026年第三季度实现营业收入104.78亿元，同比增长66.29%】记者从深南电路了解到， 2026年第三季度，公司实现营业收入104.78亿元，同比增长66.29%，扣非归母净利润18.58亿元，同比增长102.78%。当前公司算力相关业务需求持续向好，AI服务器、高速交换机、光模块用PCB及处理器类封装基板等产品订单饱满。公司已与多家算力、芯片领域核心客户建立稳定合作关系，为后续产能落地与业务增长筑牢基础。伴随算力类高附加值产品占比持续提升，广州、南通、无锡各基地产能稳步爬坡，公司产品结构持续优化，盈利能力逐季提升，长期发展前景清晰向好。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:13:45",
+      "text": "【东山精密：四季度产品交付有望延续高增长趋势】记者获悉，随着全球AI算力基础设施投入持续加码，东山精密高端光模块与AI服务器PCB需求保持高景气。公司方面表示，当前下游订单需求饱满，产能利用率维持高位，AI高端光模块出货量逐季快速提升，1.6T产品已于四季度进入批量出货阶段；叠加公司在高速EML光芯片领域的自研自产能力，光模块与光芯片双轮驱动效应进一步显现。受益于高附加值产品占比持续提升，公司整体盈利结构显著改善。展望四季度，伴随光模块产能集中释放、1.6T产品起量及高端PCB持续放量，单季产品交付有望延续高增长趋势。公司已于10月28日完成港股挂牌上市，实现“A+H”两地上市。本次募资将重点投向光芯片、光模块及高端PCB产能扩建，并用于产业链战略投资，全球化资本与制造布局进一步打开中长期成长空间。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:12:05",
+      "text": "【鹏鼎控股：算力领域持续放量 四季度在手订单充足】鹏鼎控股三季度收入及盈利环比明显增长，算力相关业务放量提速，算力领域收入及盈利表现超出市场预期。记者从公司获悉，受益于AI算力需求持续释放，高端产品出货稳步提升，鹏鼎控股当前客户需求指引及订单情况良好；四季度在手订单充足，行业景气度有望维持高位，出货规模有望在前期基础上进一步扩大，公司经营持续向好。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 13:03:48",
+      "text": "吉利第三季度净利润不及预期， 股价午后抹去涨幅，下跌1.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 12:58:14",
+      "text": "【丰田汽车9月全球销量同比下降2.9%】10月29日，丰田汽车公司宣布，包括子公司大发汽车在内，2026年9月份全球产量为989,168辆，同比下降4.5%，为连续第3个月同比下降；全球销量为921,847辆，同比下降2.9%，为连续第8个月同比下降。2026年4月至9日，公司全球产量为5,476,448辆，同比下降2.2%，为两年来首次同比下降；全球销量为5,381,058辆，同比下降4.6%，为两年来首次同比下降。丰田汽车公司提示，日野汽车产销数据披露截至2026年3月底，自2026年4月起，集团合计产销数据为丰田汽车公司和大发汽车之和，不含日野汽车。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 12:46:43",
+      "text": "【成飞研究所“某飞行器运载火箭发射服务”中标候选人公示：蓝箭航天、中科宇航入围】据中国招标投标公共服务平台消息，10月28日，中国航空工业集团公司成都飞机设计研究所发布《某飞行器运载火箭发射服务中标候选人公示》。根据公示的评标结果，第一中标候选人为蓝箭航天空间科技股份有限公司，其投标报价为9500万元；第二中标候选人为北京中科宇航技术有限公司，其投标报价为1亿元。两家企业承诺的交货期一致，均为“完成合同签订后5年内，成功完成发射服务，在轨交付”。本次公示期自2026年10月28日起至2026年11月02日止。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重磅业务突破",
+        "sentiment_score": 0.8,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 12:41:14",
+      "text": "【天猫双11：1145个酒水品牌开卖1小时超去年全天】今年天猫双11开卖1小时，就有1145个酒水品牌成交超去年全天。截至10月25日，剑南春、茅台、人头马、汾酒、泸州老窖、习酒、郎、奔富、五粮液、轩尼诗拿下酒类品牌成交前十，其中剑南春蝉联第一。其中，茅台集团旗下品牌表现亮眼，茅台酱香酒去年新开天猫旗舰店，今年双11成交同比增长超600%，茅台王子酒也同比三位数高增长。此外，泸州成交增长437%、五粮春成交增长181%、雪花成交增长145%。",
+      "analysis": {
+        "matched_tickers": [
+          "000858.SZ"
+        ],
+        "matched_names": [
+          "五粮液"
+        ],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 12:38:27",
+      "text": "【印尼盾连跌六日后迎来反弹】随着美联储主席凯文·沃什的讲话被解读为比预期更为鸽派，亚洲货币走强，印尼盾（IDR）也随之脱离了历史低点附近的区域。美元兑印尼盾汇率下跌0.4%至18,108；有望创下自9月30日以来的最大单日跌幅。10年期国债收益率下降3个基点至7.62%。印尼财政部数据显示，全球基金在10月27日净买入6950万美元印尼本地债券。雅加达综合股价指数下跌2%至5,175.15点。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-10-29 12:31:47",
+      "text": "【丰田汽车9月销量、产量连续第三个月下滑】丰田汽车周四表示，受中国和中东市场下滑拖累，9月份全球汽车销量和产量连续第三个月出现下降。这家全球最大汽车制造商9月份全球销量同比下降2.2%，至860,107辆；产量下降3.2%，至889,079辆。丰田在一份声明中表示，由于较高的汽油价格抑制了对汽油车和混合动力汽车的需求，中国市场销量下降19.7%，降幅已延长至连续第八个月。丰田销量在中东市场暴跌29.8%，而在日本和美国（丰田最大市场）分别增长了1.8%和8.4%。产量方面，中国市场下降18.6%，美国市场下降了2.9%，而日本市场则增长了5.8%。丰田的上述数据包含了其豪华品牌雷克萨斯（Lexus）。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    }
+  ]
 }
