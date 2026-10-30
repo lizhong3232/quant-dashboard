@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-10-29 19:45:15",
+  "audit_time": "2026-10-29 20:00:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -132,30 +132,6 @@
     {
       "timestamp": "2026-10-30 10:12:35",
       "text": "【四川：2026年上半年通信及量子科技产业总产值同比增长近三成】四川省通信及量子科技产业链供需对接活动暨新一代通信网建设应用专题会新闻通气会29日在成都举行。四川省经济和信息化厅信息安全与网络发展处处长郭浩表示，今年上半年，四川通信及量子科技产业总产值688.3亿元，同比增长28.8%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-30 10:02:14",
-      "text": "【帝科股份：预计TBC浆料出货量在明年有进一步增长】帝科股份(300842)10月29日接受机构调研时表示，一季度到三季度，公司BC浆料出货量快速增长，除龙头客户之外新增了其他TBC量产客户，预计TBC浆料出货量在明年有进一步增长，盈利水平也会更好一些。对于更前瞻性的HTBC电池，目前公司已率先实现银包铜浆料的量产应用，为公司在尖端电池技术应用上创造了领先性。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-10-30 10:00:05",
-      "text": "新加坡9月M2货币供应量同比增长3.382%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
