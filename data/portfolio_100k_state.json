@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 7469.52,
-  "portfolio_value": 85397.52,
-  "account_nav": 0.854,
+  "portfolio_value": 85427.52,
+  "account_nav": 0.8543,
   "bench_nav": 1.0017,
   "positions": {
     "688223.SS": {
       "name": "晶科能源",
       "shares": 11400,
       "avg_cost": 3.94,
-      "last_price": 3.88,
-      "market_value": 44232.0,
+      "last_price": 3.85,
+      "market_value": 43890.0,
       "pnl": -684.0,
       "pnl_pct": -1.52,
       "highest": 3.94
@@ -21,8 +21,8 @@
       "name": "汇川技术",
       "shares": 600,
       "avg_cost": 56.16,
-      "last_price": 56.16,
-      "market_value": 33696.0,
+      "last_price": 56.78,
+      "market_value": 34068.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 56.16
@@ -35,10 +35,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-10-28 18:10:58",
+  "last_updated": "2026-10-29 00:05:08",
   "benchmark": {
-    "last_price": 4.152,
-    "nav": 0.8995
+    "last_price": 4.111,
+    "nav": 0.8906
   },
   "nav_history": [
     {
@@ -292,6 +292,15 @@
       "account_nav": 0.8542,
       "bench_nav": 0.8995,
       "alpha": -4.53
+    },
+    {
+      "timestamp": "2026-10-29 00:05:08",
+      "date": "2026-10-29",
+      "cash": 7469.52,
+      "portfolio_value": 85427.52,
+      "account_nav": 0.8543,
+      "bench_nav": 0.8906,
+      "alpha": -3.63
     }
   ]
 }
