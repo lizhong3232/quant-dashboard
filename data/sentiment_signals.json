@@ -1,11 +1,21 @@
 {
-  "audit_time": "2026-11-01 18:15:19",
+  "audit_time": "2026-11-01 18:30:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "600036.SS": {
+      "ticker": "600036.SS",
+      "name": "招商银行",
+      "avg_sentiment": -0.2,
+      "news_count": 2,
+      "latest_events": [
+        "行业资讯/宏观动态",
+        "温和业绩承压"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -28,15 +38,6 @@
       "ticker": "600519.SS",
       "name": "贵州茅台",
       "avg_sentiment": 0.0,
-      "news_count": 2,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "600036.SS": {
-      "ticker": "600036.SS",
-      "name": "招商银行",
-      "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
@@ -44,6 +45,58 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-02 10:29:28",
+      "text": "【京东方A：公司未来在折叠屏市场确定性增长过程中有望受益】京东方A(000725)在最新披露的投资者关系活动记录表中表示，今年手机头部客户推出折叠产品，预计将带动全球折叠屏手机市场销量继续增长，公司此前已推出镜感“无痕”产品，并已向部分国内客户量产出货。根据咨询机构数据及分析，在存储涨价背景下，品牌厂商在获取存储资源时更倾向于将其配置于高端产品，折叠屏是重要方向之一，因此折叠屏市场有望快速增长。公司已与国内外品牌深度合作，实现了多个产品、技术首发，已上市的产品涵盖多个应用形态，未来在折叠屏市场确定性增长过程中有望受益。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 10:27:40",
+      "text": "【40年房贷落地两月观望情绪仍浓厚，有全国性银行仅投放800笔，高总价购房者意愿更强】828房贷新政出台近两个月，40年期个人房贷政策已在银行层面全面执行。多名银行人士透露，9月、10月申请40年房贷的人数占比不如预期，有全国性银行两月仅投放约800笔，整体仍保持观望；30年左右期限客户数量是申请40年房贷客户数量的两倍多，高总价购房者更愿选择40年房贷。放款节点在8月28日后取得预售许可证的项目，需项目竣工备案后才能放款，放款时间明显延后。预计后续申请人数仍有望保持一定增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 10:26:23",
+      "text": "【招商银行副行长彭家文：银行业净息差仍面临下行压力】11月2日金融一线消息，招商银行今日召开2026年三季度业绩交流会，副行长兼任财务负责人彭家文表示，银行业净息差仍然会面临下行的压力，行业总体来看仍然会承压前行。“从前三个季度公布的数据来看，银行业的息差表现出了一个阶段性的企稳的特征。”彭家文表示，“我们也看到了我们同行兄弟行的一些数据，有一些都已经开始平企稳反弹，但是我们判断总体情况下还是一个阶段性的企稳。”彭家文强调，在未来一段时间息差下行的压力还是存在的。现在还难言已经出现拐点、开始反弹，所以银行业必须要做好各方面的准备，来应对息差的压力。他表示，“对招商银行而言，我们将会更加精细化、精益化地开展资产负债管理，我们的目标仍然不变，是力求息差降幅持续收窄，保持息差水平的行业领先。”",
+      "analysis": {
+        "matched_tickers": [
+          "600036.SS"
+        ],
+        "matched_names": [
+          "招商银行"
+        ],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 10:24:40",
+      "text": "韩国总统李在明：半导体出口并非唯一增长项。20个主要出口品类中有18个大幅增长。全球第四个万亿美元出口规模近在眼前。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-02 10:14:48",
       "text": "【锂电池板块震荡拉升 欣旺达涨超12%】锂电池板块震荡拉升，欣旺达涨超12%，宁德时代、领湃科技、鹏辉能源、亿纬锂能、国轩高科跟涨。",
@@ -186,38 +239,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 09:34:35",
-      "text": "港股内银板块持续走强，哈尔滨银行(06138.HK)涨超10%，工商银行(01398.HK)涨超2%，招商银行(03968.HK)、中国银行(03988.HK)等跟涨。",
-      "analysis": {
-        "matched_tickers": [
-          "600036.SS"
-        ],
-        "matched_names": [
-          "招商银行"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 09:31:18",
-      "text": "【白酒概念表现活跃 皇台酒业2连板】白酒概念表现活跃，皇台酒业2连板，水井坊、古井贡酒、金徽酒、贵州茅台跟涨。",
-      "analysis": {
-        "matched_tickers": [
-          "600519.SS"
-        ],
-        "matched_names": [
-          "贵州茅台"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]

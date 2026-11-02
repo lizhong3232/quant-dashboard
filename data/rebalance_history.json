@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 44,
+    "total_trades_100k": 47,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-10-29 18:10:57"
+    "last_rebalance_time_100k": "2026-11-01 18:15:33"
   },
   "trades_1m": [
     {
@@ -1002,6 +1002,53 @@
       "price": 281.0,
       "amount": 28100.0,
       "fee": 5.62,
+      "saved_bps": 2.1,
+      "reason": "HYSTERESIS_ENTRY"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-11-01 18:15:33",
+      "contract_id": "WT-20261101-0065",
+      "action": "SELL",
+      "ticker": "688017.SS",
+      "name": "绿的谐波",
+      "shares": 100,
+      "price": 254.27,
+      "amount": 25427.0,
+      "fee": 17.8,
+      "saved_bps": 1.9,
+      "pnl": -2673.0,
+      "pnl_pct": -9.51,
+      "reason": "STOP_LOSS"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-11-01 18:15:33",
+      "contract_id": "WT-20261101-0066",
+      "action": "BUY",
+      "ticker": "300059.SZ",
+      "name": "东方财富",
+      "shares": 2200,
+      "price": 18.72,
+      "amount": 41184.0,
+      "fee": 8.24,
+      "saved_bps": 2.1,
+      "reason": "消灭现金拖累·动用闲置资金建仓强Alpha龙头 (AI服务器与PCB高多层突破)"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-11-01 18:15:33",
+      "contract_id": "WT-20261101-0067",
+      "action": "BUY",
+      "ticker": "688036.SS",
+      "name": "传音控股",
+      "shares": 100,
+      "price": 57.22,
+      "amount": 5722.0,
+      "fee": 1.14,
       "saved_bps": 2.1,
       "reason": "HYSTERESIS_ENTRY"
     }

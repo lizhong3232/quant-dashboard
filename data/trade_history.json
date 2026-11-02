@@ -235,5 +235,148 @@
     "amount": 58660.0,
     "fee": 11.73,
     "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856736",
+    "action": "SELL",
+    "ticker": "688981.SS",
+    "name": "中芯国际",
+    "shares": 1000,
+    "price": 98.03,
+    "amount": 98030.0,
+    "fee": 68.62,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856781",
+    "action": "SELL",
+    "ticker": "601225.SS",
+    "name": "陕西煤业",
+    "shares": 2700,
+    "price": 27.53,
+    "amount": 74331.0,
+    "fee": 52.03,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856798",
+    "action": "SELL",
+    "ticker": "600031.SS",
+    "name": "三一重工",
+    "shares": 6400,
+    "price": 18.13,
+    "amount": 116032.0,
+    "fee": 81.22,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856813",
+    "action": "SELL",
+    "ticker": "600276.SS",
+    "name": "恒瑞医药",
+    "shares": 1700,
+    "price": 48.89,
+    "amount": 83113.0,
+    "fee": 58.18,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856831",
+    "action": "SELL",
+    "ticker": "600887.SS",
+    "name": "伊利股份",
+    "shares": 700,
+    "price": 30.75,
+    "amount": 21525.0,
+    "fee": 15.07,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856845",
+    "action": "SELL",
+    "ticker": "600036.SS",
+    "name": "招商银行",
+    "shares": 1400,
+    "price": 43.51,
+    "amount": 60914.0,
+    "fee": 42.64,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856867",
+    "action": "BUY",
+    "ticker": "601088.SS",
+    "name": "中国神华",
+    "shares": 800,
+    "price": 51.09,
+    "amount": 40872.0,
+    "fee": 8.17,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856893",
+    "action": "BUY",
+    "ticker": "002594.SZ",
+    "name": "比亚迪",
+    "shares": 400,
+    "price": 83.71,
+    "amount": 33484.0,
+    "fee": 6.7,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856916",
+    "action": "BUY",
+    "ticker": "600436.SS",
+    "name": "片仔癀",
+    "shares": 800,
+    "price": 126.89,
+    "amount": 101512.0,
+    "fee": 20.3,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856933",
+    "action": "BUY",
+    "ticker": "601766.SS",
+    "name": "中国中车",
+    "shares": 16400,
+    "price": 6.35,
+    "amount": 104140.0,
+    "fee": 20.83,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856951",
+    "action": "BUY",
+    "ticker": "601138.SS",
+    "name": "工业富联",
+    "shares": 2200,
+    "price": 43.65,
+    "amount": 96030.0,
+    "fee": 19.21,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856971",
+    "action": "BUY",
+    "ticker": "600028.SS",
+    "name": "中国石化",
+    "shares": 14200,
+    "price": 5.88,
+    "amount": 83496.0,
+    "fee": 16.7,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-01 18:15:34.856986",
+    "action": "BUY",
+    "ticker": "600900.SS",
+    "name": "长江电力",
+    "shares": 2500,
+    "price": 29.79,
+    "amount": 74475.0,
+    "fee": 14.9,
+    "reason": "LightGBM V2 调仓优化"
   }
 ]
