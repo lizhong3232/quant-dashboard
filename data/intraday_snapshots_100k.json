@@ -2,112 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-09-29 13:00:14 CST",
-    "time_str": "13:00",
-    "date_str": "2026-09-29",
-    "portfolio_value": 98288.34,
-    "cash": 38388.34,
-    "stock_market_value": 59900.0,
-    "cash_ratio_pct": 39.06,
-    "stock_ratio_pct": 60.94,
-    "account_nav": 0.9829,
-    "bench_nav": 0.9539,
-    "bench_change_pct": -0.32,
-    "alpha_pct": 2.9,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "300474.SZ",
-        "name": "景嘉微",
-        "shares": 400,
-        "avg_cost": 50.3,
-        "last_price": 51.8,
-        "market_value": 20720.0,
-        "change_pct": -0.58,
-        "pnl": 600.0,
-        "pnl_pct": 2.98,
-        "ofi": -0.05,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 21.08
-      },
-      {
-        "ticker": "300442.SZ",
-        "name": "润泽科技",
-        "shares": 600,
-        "avg_cost": 65.05,
-        "last_price": 65.3,
-        "market_value": 39180.0,
-        "change_pct": 0.38,
-        "pnl": 150.0,
-        "pnl_pct": 0.38,
-        "ofi": 0.033,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 39.86
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 98288.34,
-      "cash": 38388.34,
-      "stock_market_value": 59900.0,
-      "cash_ratio_pct": 39.06,
-      "stock_ratio_pct": 60.94,
-      "account_nav": 0.9829,
-      "bench_nav": 0.9539,
-      "alpha_pct": 2.9,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "300474.SZ",
-          "name": "景嘉微",
-          "shares": 400,
-          "avg_cost": 50.3,
-          "last_price": 51.8,
-          "market_value": 20720.0,
-          "change_pct": -0.58,
-          "pnl": 600.0,
-          "pnl_pct": 2.98,
-          "ofi": -0.05,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 21.08
-        },
-        {
-          "ticker": "300442.SZ",
-          "name": "润泽科技",
-          "shares": 600,
-          "avg_cost": 65.05,
-          "last_price": 65.3,
-          "market_value": 39180.0,
-          "change_pct": 0.38,
-          "pnl": 150.0,
-          "pnl_pct": 0.38,
-          "ofi": 0.033,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 39.86
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，景嘉微、润泽科技高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 景嘉微 (300474.SZ) | 润泽科技 (300442.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (景嘉微 (300474.SZ) | 润泽科技 (300442.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-09-29 13:15:14 CST",
     "time_str": "13:15",
     "date_str": "2026-09-29",
@@ -33703,6 +33597,127 @@
           "ofi": -0.015,
           "flow_status": "买卖力量均衡",
           "weight_pct": 30.99
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，汇川技术、绿的谐波高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 汇川技术 (300124.SZ) | 绿的谐波 (688017.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "688017.SS",
+          "name": "绿的谐波",
+          "time": "今日研判",
+          "title": "人形机器人谐波减速器核心龙头，特斯拉 Optimus 量产预期驱动订单放量",
+          "source": "华安证券 / 机器人产业链快报",
+          "sentiment": "积极偏多",
+          "score": 0.6,
+          "summary": "绿的谐波是国产谐波减速器绝对龙头，深度绑定人形机器人与工业协作机器人赛道；特斯拉 Optimus Gen-3 量产爬坡带动上游核心零部件放量，公司在精度、寿命与量产一致性上具备国际竞争力。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (汇川技术 (300124.SZ) | 绿的谐波 (688017.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-02 10:15:15 CST",
+    "time_str": "10:15",
+    "date_str": "2026-11-02",
+    "portfolio_value": 81784.18,
+    "cash": 23223.18,
+    "stock_market_value": 58561.0,
+    "cash_ratio_pct": 28.4,
+    "stock_ratio_pct": 71.6,
+    "account_nav": 0.8178,
+    "bench_nav": 0.886,
+    "bench_change_pct": 0.62,
+    "alpha_pct": -6.82,
+    "warnings_count": 1,
+    "warnings": [
+      "[🚨硬性止损预警] 绿的谐波 (688017.SS) 浮亏 -9.21% 跌破 -2.8% 止损保护红线！"
+    ],
+    "positions": [
+      {
+        "ticker": "300124.SZ",
+        "name": "汇川技术",
+        "shares": 600,
+        "avg_cost": 56.16,
+        "last_price": 55.08,
+        "market_value": 33048.0,
+        "change_pct": -0.56,
+        "pnl": -648.0,
+        "pnl_pct": -1.92,
+        "ofi": 0.017,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 40.41
+      },
+      {
+        "ticker": "688017.SS",
+        "name": "绿的谐波",
+        "shares": 100,
+        "avg_cost": 281.0,
+        "last_price": 255.13,
+        "market_value": 25513.0,
+        "change_pct": 0.44,
+        "pnl": -2587.0,
+        "pnl_pct": -9.21,
+        "ofi": -0.019,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 31.2
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 81784.18,
+      "cash": 23223.18,
+      "stock_market_value": 58561.0,
+      "cash_ratio_pct": 28.4,
+      "stock_ratio_pct": 71.6,
+      "account_nav": 0.8178,
+      "bench_nav": 0.886,
+      "alpha_pct": -6.82,
+      "warnings_count": 1,
+      "warnings": [
+        "[🚨硬性止损预警] 绿的谐波 (688017.SS) 浮亏 -9.21% 跌破 -2.8% 止损保护红线！"
+      ],
+      "positions": [
+        {
+          "ticker": "300124.SZ",
+          "name": "汇川技术",
+          "shares": 600,
+          "avg_cost": 56.16,
+          "last_price": 55.08,
+          "market_value": 33048.0,
+          "change_pct": -0.56,
+          "pnl": -648.0,
+          "pnl_pct": -1.92,
+          "ofi": 0.017,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 40.41
+        },
+        {
+          "ticker": "688017.SS",
+          "name": "绿的谐波",
+          "shares": 100,
+          "avg_cost": 281.0,
+          "last_price": 255.13,
+          "market_value": 25513.0,
+          "change_pct": 0.44,
+          "pnl": -2587.0,
+          "pnl_pct": -9.21,
+          "ofi": -0.019,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 31.2
         }
       ]
     },
