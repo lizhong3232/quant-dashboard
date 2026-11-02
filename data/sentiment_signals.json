@@ -1,11 +1,38 @@
 {
-  "audit_time": "2026-11-01 22:00:18",
+  "audit_time": "2026-11-01 22:15:21",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600900.SS": {
+      "ticker": "600900.SS",
+      "name": "长江电力",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "600519.SS": {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "002594.SZ": {
       "ticker": "002594.SZ",
       "name": "比亚迪",
@@ -17,6 +44,124 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-02 14:15:13",
+      "text": "【联电获光子集成电路订单 首批订单量高达1万片晶圆】晶圆代工厂联电已获得中基光电和腾讯投资的硅光电子的大量光子集成电路（PIC）订单，首批订单总量可能高达1万片晶圆。预计这些芯片将在联电新加坡工厂生产，未来可能还会追加订单。据报道，这些产品的售价是传统CMOS工艺的七倍，有望提升联电的盈利能力。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:14:54",
+      "text": "起亚汽车公司：10 月汽车销量为 291,219 辆，同比增长 10.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:14:24",
+      "text": "印度煤炭部：10月煤炭产量2203万吨，同比增长42%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:12:53",
+      "text": "【创业板人工智能ETF华宝（159363）放量大涨，机构称光模块正处于成长曲线上的一次蓄力】11月2日，创业板人工智能ETF华宝（159363）放量大涨，截止发稿涨幅2.48%，成交额8.06亿元，流动性位居同类第一。资金流向方面，上周五获得3383万元净申购，仅20日获得2.94亿元净流入。从估值层面来看，创业板人工智能ETF华宝（159363）跟踪的创业板人工智能指数最新市盈率（PE-TTM）仅30.4倍，处于历史低位。国盛证券表示，当前光模块龙头正处于1.6T产品快速上量的“平台期”，这一阶段产品代际切换的陡峭需求与内部运营体系的线性扩张之间，出现了阶段性的错配。在需求端，1.6T的放量斜率比800G更为陡峭；但在内部管理与供应链端，核心物料的备货周期拉长，以及跨区域工厂的协同管理复杂度，都构成了制约出货量短时爆发的瓶颈。从产业演进的长周期来看，这种“平台期”仅仅是成长曲线上的一次蓄力，一旦跨过内部管理磨合与供应链产能释放的临界点，龙头企业业绩将迎来更充分的释放。继续推荐算力产业链相关企业如光模块行业龙头中际旭创、新易盛等，同时建议关注光器件“一大五小”天孚通信+仕佳光子/太辰光/长芯博创/德科立/东田微，PIC设计可川科技等，建议关注AI大基建如核心环节液冷的英维克、高澜股份、申菱环境等，AIDC+算力租赁如东阳光等。金元证券认为，当前光模块龙头股的投资逻辑，已经从高速增长预期转向了增长兑现能力的验证。光模块重点公司股价近期经历大幅下跌之后，估值已降至较低水平，建议再度把握光通信行业上下游的投资机会。资料显示，创业板人工智能ETF华宝（159363）跟踪指数的一半权重集中在光模块CPO板块，另一半权重覆盖国产算力、AI软件应用领域，形成“硬件+应用”的均衡布局。全方位把握AI主题机会，关注全市场首只创业板人工智能ETF华宝（159363）及场外联接基金（023407，023408）。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:10:04",
+      "text": "【主力资金：转融券标的板块净流入超158亿】截至目前，今日主力资金净流入181.26亿；净流入转融券标的、TMT、融资融券等板块，其中转融券标的板块净流入159.00亿；净流出长期破净、银行概念、破净股等板块，其中长期破净板块净流出19.89亿。\n  \n个股方面，东山精密净买入13.30亿元位居首位，东方财富、宁德时代、兆易创新主力资金净流入居前；天孚通信净卖出6.20亿元位居首位，长鑫科技、长江电力、胜宏科技净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ",
+          "600900.SS"
+        ],
+        "matched_names": [
+          "长江电力",
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:09:14",
+      "text": "【威胜控股旗下公司合计中标国家电网约2.41亿元项目】威胜控股(03393.HK)11月2日午间公告，旗下威胜集团近日在国家电网2026年第二次设备招标项目中获约85.9万台智能电表及计量电流及电压互感器合同，价值约1.86亿元；另一附属公司威胜信息获约2.5万台智能融合终端及专变采集终端合同，价值约5561万元，两者合计约2.41亿元。截至目前，公司年内累计中标国家电网集中招标约6.24亿元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重磅业务突破",
+        "sentiment_score": 0.8,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:07:31",
+      "text": "【贵州茅台成交额达100亿元】11月2日下午，贵州茅台成交额达100亿元，现涨3.4%。",
+      "analysis": {
+        "matched_tickers": [
+          "600519.SS"
+        ],
+        "matched_names": [
+          "贵州茅台"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:05:23",
+      "text": "【S-OIL：预计2027年全球润滑油供应短缺将持续】S-OIL表示，由于供应短缺，韩国润滑油需求正在上升，预计2027年全球润滑油供应短缺将持续。第三季度库存估值损失294亿韩元。在沙特阿拉伯依靠两条航线运输原油，通过长期合同从沙特阿拉伯获得大部分原油。原油蒸馏装置利用率从第二季度的76%上升至第三季度的81%。公司第三季度业绩超预期股价上涨3.8%，至127,700韩元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:03:48",
+      "text": "根据汇编机构Bilstatistik.dk的数据，10月份丹麦特斯拉新车注册量同比增长34.31%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-02 13:55:20",
       "text": "【消息称SK海力士调整高管团队，加速拓展美洲市场业务】据报道，SK海力士于30日对其高管团队进行了调整。此次人事变动已于11月1日生效，旨在应对瞬息万变的全球AI半导体市场，并确保该司未来的技术竞争力。根据此次调整，此前任开发总管的安炫被任命为美洲总管社长，将领导新成立的美国“美洲区负责人”机构，该机构为总裁级架构。此前任未来技术研究院长的车宣龙被任命为开发总管社长，兼任未来技术研究院长；此前任SK SUPEX追求协议会担当，兼SK海力士全球增长工作组担当尹丰荣被任命为Corporate Center总管社长。",
@@ -78,18 +223,6 @@
       }
     },
     {
-      "timestamp": "2026-11-02 13:30:20",
-      "text": "荷兰9月零售销售同比增长3.3%，8月修正后为增长2.8%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
       "timestamp": "2026-11-02 13:29:15",
       "text": "【2026年1-9月中国占世界汽车份额32%】崔东树发文称，根据世界汽车组织统计数据，全球汽车生产不断增长，2025年达到9689万台，较2024年的9177万台增6%，中国占世界生产份额35.4%。2026年1-9月，世界汽车累计销量7252万台，同比增长3%；其中9月单月销量874万台，同比仅增2%，环比增12.4%，全球车市增长动力偏弱。2026年1-9月全球汽车累计销量7252万台。分国家来看，中国销量2327万台，份额32.1%，较2025年35.4%明显回落；美国销量1230万台，份额17.0%，小幅下滑；印度表现亮眼，份额提升至6.7%，成为增长亮点。从历年份额变化看，2022-2025年中国在全球占比持续走高，2025年达到阶段性高点。欧洲主要国家份额整体稳中有降，巴西、俄罗斯等新兴市场份额保持稳定。2026年前9月中国市场销量下滑，是全球份额变动的核心原因，印度等新兴市场的快速增长，一定程度对冲了中、美市场的增长压力，支撑全球车市维持小幅正增长。东升西降，除了丰田、现代起亚、铃木和塔塔等，其它国际品牌份额2026年出现较大幅下滑。相对于2019年的中国自主品牌全面提升世界份额。吉利、比亚迪、奇瑞、上汽、长安等自主表现较强。电动化发展也导致部分国际车企逐步走向衰落。除了铃木等印度市场较好的因素促进，其它欧美国际品牌份额出现全面较大的下滑。",
       "analysis": {
@@ -99,66 +232,6 @@
         "matched_names": [
           "比亚迪"
         ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 13:23:23",
-      "text": "【万泰生物宣布HPV九价疫苗馨可宁®9在泰国上市】11月2日，据万泰生物消息，近日，万泰生物子公司厦门万泰沧海生物技术有限公司与厦门大学联合研发的九价HPV疫苗馨可宁®9在泰国正式上市。资料显示，馨可宁®9于2025年在中国获批上市，并于2026年获得泰国食品药品监督管理局批准，泰国成为其首个获批的海外国家。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 13:02:00",
-      "text": "【远景实现全球首套800V SST高压直流系统商业化运行】11 月 2 日，远景科技集团宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行，成为全球首套在大型 AI 数据中心商业化运行的同类系统。该系统由天枢控制器、固态变压器、直流储能及 DC/DC 构成。远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 12:52:45",
-      "text": "香港证监会行政总裁（CEO）梁凤仪：投资基金代币化已成为区块链技术在传统金融领域的主要用例之一。截至2026年9月，香港证监会已认可17项代币化零售产品，资产管理规模合共达13亿美元，较过去12个月增长34%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 12:51:44",
-      "text": "泰国旅游部：今年迄今，泰国外国游客人数同比下降4.59%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 12:45:40",
-      "text": "【艾芬达：浙江云芯机器人技术有限公司相关业务订单稳步推进】艾芬达11月2日在互动平台表示，公司设立控股子公司浙江云芯机器人技术有限公司，开展机器人精密金属结构件的研发、生产及销售，目前相关业务订单稳步推进。公司持续保持前瞻布局，围绕高端制造领域积极开展产业研究与项目研判，并通过股权投资等方式布局新赛道，寻求和培育新的增长曲线。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
         "event_category": "温和经营利好",
         "sentiment_score": 0.4,
         "is_black_swan": false,
