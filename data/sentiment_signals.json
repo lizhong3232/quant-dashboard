@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-01 22:15:21",
+  "audit_time": "2026-11-01 22:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -32,18 +32,81 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和经营利好"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-02 14:27:54",
+      "text": "【交通运输部：10月26日—11月1日国家铁路运输货物8349.6万吨，环比增长0.33%】10月26日—11月1日，全国物流保通保畅运行数据：国家铁路运输货物8349.6万吨，环比增长0.33%； 全国高速公路货车通行5574.0万辆，环比下降0.96%； 监测港口完成货物吞吐量27269.0万吨，环比增长11.02%，完成集装箱吞吐量662.7万标箱，环比下降1.81%； 民航保障航班11.6万班（其中货运航班5446班，包括国际货运航班3503班，国内货运航班1943班），环比下降2.19%； 邮政快递揽收量约42.24亿件，环比下降2.20%；投递量约42.42亿件，环比下降0.07%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:27:39",
+      "text": "OpenAI奥特曼：每次查询的能耗正大幅下降。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:25:57",
+      "text": "【辛选：双11首播累计场观人次增长68.4%】10月31日，辛选集团董事长初瑞雪开启双11首播。辛选集团披露数据，初瑞雪开播1小时便登顶快手热卖榜，食品、护肤、大牌牛奶等多款民生好物与国货爆品持续热销。此外，今年双11首播期间，辛选整体直播人气高涨，累计场观人次增长68.4%；多位主播GMV延续增长势头，其中丹牛相比去年同期增长242%，樱花和徐杰同比增长103%和45%。（新浪科技）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:25:34",
+      "text": "【长安凯程：10月销量18800辆】11月2日，长安凯程发布销量快报，10月销量18800辆，海外同比增长47.2%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:23:13",
+      "text": "瑞安航空首席财务官：若欧洲航空安全局（EASA）按时完成认证，公司可能于2027年1月或2月初接收首批MAX10飞机。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-02 14:15:31",
+      "text": "瑞安航空首席执行官：预计今年冬季欧洲航空运力将出现低至中个位数的下降，明年夏季运力可能持平或下降。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-11-02 14:15:13",
       "text": "【联电获光子集成电路订单 首批订单量高达1万片晶圆】晶圆代工厂联电已获得中基光电和腾讯投资的硅光电子的大量光子集成电路（PIC）订单，首批订单总量可能高达1万片晶圆。预计这些芯片将在联电新加坡工厂生产，未来可能还会追加订单。据报道，这些产品的售价是传统CMOS工艺的七倍，有望提升联电的盈利能力。",
@@ -156,82 +219,6 @@
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 13:55:20",
-      "text": "【消息称SK海力士调整高管团队，加速拓展美洲市场业务】据报道，SK海力士于30日对其高管团队进行了调整。此次人事变动已于11月1日生效，旨在应对瞬息万变的全球AI半导体市场，并确保该司未来的技术竞争力。根据此次调整，此前任开发总管的安炫被任命为美洲总管社长，将领导新成立的美国“美洲区负责人”机构，该机构为总裁级架构。此前任未来技术研究院长的车宣龙被任命为开发总管社长，兼任未来技术研究院长；此前任SK SUPEX追求协议会担当，兼SK海力士全球增长工作组担当尹丰荣被任命为Corporate Center总管社长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 13:51:32",
-      "text": "【中公教育被限制高消费】天眼查法律诉讼信息显示，中公教育科技股份有限公司及其法定代表人李永新新增一则限制消费令，涉及房屋租赁合同纠纷案件，执行法院为杭州经济技术开发区人民法院。案件流程信息显示，此前，该公司已被执行653万余元人民币。该公司成立于1999年8月，注册资本约61.7亿元人民币，经营范围包括教育科技领域内的技术开发、技术服务、技术推广、技术转让、技术咨询等，由李永新、湖南省财信产业基金管理有限公司-湖南省财信常勤壹号基金合伙企业（有限合伙）、王振东等共同持股。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 13:35:33",
-      "text": "【分析师担忧金价短期内仍将进一步下行】黄金在周一亚洲早盘迎来逢低买入，金价小幅反弹至3900美元/盎司上方，收复部分失地。然而，由于油价高企和通胀担忧加剧了市场对美国加息的预期，黄金价格的上涨空间似乎有限。由于交易员们预计中东持续紧张局势，且美国就业数据可能增加加息概率，以及中期选举带来的不确定性，黄金价格可能在接下来一段时间内继续承压。XS.com业务发展主管Simon-Peter Massabni表示，决定性因素是即将公布的经济数据是否会改变美联储货币政策。目前尽管存在一些支撑其中长期前景的因素，但黄金仍可能继续面临抛售压力。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 13:33:15",
-      "text": "【花旗：韩国经常账户盈余正呈现结构性扩大趋势 未来三个月美元兑韩元汇率将降至1300】花旗集团经济学家Jin-Wook Kim表示，在芯片出口持续增长和商品贸易顺差稳健的支撑下，韩国经常账户盈余正呈现结构性扩大趋势，长期来看可能推动韩元进一步升值；未来三个月美元兑韩元汇率将降至1300，未来6至12个月将进一步降至1270。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 13:30:20",
-      "text": "荷兰9月零售销售同比增长3.3%，8月修正后为增长2.8%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-02 13:29:15",
-      "text": "【2026年1-9月中国占世界汽车份额32%】崔东树发文称，根据世界汽车组织统计数据，全球汽车生产不断增长，2025年达到9689万台，较2024年的9177万台增6%，中国占世界生产份额35.4%。2026年1-9月，世界汽车累计销量7252万台，同比增长3%；其中9月单月销量874万台，同比仅增2%，环比增12.4%，全球车市增长动力偏弱。2026年1-9月全球汽车累计销量7252万台。分国家来看，中国销量2327万台，份额32.1%，较2025年35.4%明显回落；美国销量1230万台，份额17.0%，小幅下滑；印度表现亮眼，份额提升至6.7%，成为增长亮点。从历年份额变化看，2022-2025年中国在全球占比持续走高，2025年达到阶段性高点。欧洲主要国家份额整体稳中有降，巴西、俄罗斯等新兴市场份额保持稳定。2026年前9月中国市场销量下滑，是全球份额变动的核心原因，印度等新兴市场的快速增长，一定程度对冲了中、美市场的增长压力，支撑全球车市维持小幅正增长。东升西降，除了丰田、现代起亚、铃木和塔塔等，其它国际品牌份额2026年出现较大幅下滑。相对于2019年的中国自主品牌全面提升世界份额。吉利、比亚迪、奇瑞、上汽、长安等自主表现较强。电动化发展也导致部分国际车企逐步走向衰落。除了铃木等印度市场较好的因素促进，其它欧美国际品牌份额出现全面较大的下滑。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
         "event_category": "温和经营利好",
         "sentiment_score": 0.4,
         "is_black_swan": false,
