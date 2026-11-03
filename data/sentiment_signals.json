@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-02 18:45:16",
+  "audit_time": "2026-11-02 19:00:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 22,
+  "relevant_events_found": 14,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,13 +10,37 @@
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 4,
+      "news_count": 3,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-03 10:52:08",
+      "text": "【蔡崇信：只有开源才能推动AI普及，千问开源模型已超470款】11月3日，2026年世界互联网大会在浙江乌镇开幕。阿里巴巴集团联合创始人及董事会主席蔡崇信在开幕式上表示，AI需求持续攀升，算力供不应求，认为只有开源才能普及，开源能有效降低中小企业研发成本，对发展中国家尤其重要。他透露，阿里千问已开源超过470款模型，全球累计下载量突破40亿，衍生模型超过33万。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "产品景气提价",
+        "sentiment_score": 0.7,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:51:59",
+      "text": "【南非标准银行将率20家非洲企业参加进博会】南非标准银行集团2日宣布，将率领20家非洲企业参加第九届中国国际进口博览会，对接中国市场供需资源，深化非中经贸联系，助力非洲企业深度融入全球价值链。 根据标准银行发布的声明，参展企业来自南非、加纳、尼日利亚、肯尼亚、马拉维、坦桑尼亚和乌干达。这些企业集中在农业及农产品加工领域，展品涵盖咖啡、可可、茶叶、葡萄酒、牛油果、腰果、芝麻、谷物等产品。 声明说，进博会已成为非洲企业把握增长机遇的重要平台，该行通过这一平台为242家非洲企业提供支持，帮助他们直接对接买家，提升出口能力，拓展中国市场。 这是标准银行连续第九年参加进博会。标准银行集团创建于1862年，总部设在南非约翰内斯堡，是非洲规模最大的金融服务集团之一。(新华社)",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-03 10:40:02",
       "text": "【主力资金：中际旭创净卖出超5亿】截至目前，今日主力资金净流出33.84亿；净流入电力设备、锂电池、新能源等板块，其中电力设备板块净流入47.22亿；净流出CPO概念、芯片概念、TMT等板块，其中CPO概念板块净流出46.72亿。\n  \n个股方面，宁德时代净买入10.42亿元位居首位，阳光电源、N皇冠、慈文传媒主力资金净流入居前；中际旭创净卖出5.61亿元位居首位，阳光照明、长鑫科技、寒武纪净流出额居前。",
@@ -171,46 +195,6 @@
         "sentiment_score": 0.75,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 10:05:05",
-      "text": "【水泥概念震荡反弹，福建水泥涨停】水泥概念震荡反弹，福建水泥涨停，华新建材、亚泰集团、中材国际、红宝丽、ST金顶、红墙股份等跟涨。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 10:05:02",
-      "text": "【共绩科技完成数亿元新一轮融资】11月3日，北京共绩科技有限公司宣布完成数亿元新一轮融资，投资方包括中国互联网投资基金、宁德时代系宁波问鼎和溥泉资本、元禾璞华、赛目科技、德石投资、启恒共创等。老股东春华资本、力合创投、新进创投持续加码。本轮融资资金将重点投入分布式算力网核心技术迭代、产业生态扩张与商业化体系建设。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 10:03:07",
-      "text": "越南统计局：1-10月咖啡出口同比增长18.8%，达157万吨。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
