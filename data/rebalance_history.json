@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 47,
+    "total_trades_100k": 48,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-11-01 18:15:33"
+    "last_rebalance_time_100k": "2026-11-02 18:11:09"
   },
   "trades_1m": [
     {
@@ -1051,6 +1051,23 @@
       "fee": 1.14,
       "saved_bps": 2.1,
       "reason": "HYSTERESIS_ENTRY"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-11-02 18:11:09",
+      "contract_id": "WT-20261102-0068",
+      "action": "SELL",
+      "ticker": "688036.SS",
+      "name": "传音控股",
+      "shares": 100,
+      "price": 57.74,
+      "amount": 5774.0,
+      "fee": 4.04,
+      "saved_bps": 1.9,
+      "pnl": 52.0,
+      "pnl_pct": 0.91,
+      "reason": "HYSTERESIS_REPLACE"
     }
   ]
 }

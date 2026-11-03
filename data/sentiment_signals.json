@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-11-02 18:00:18",
+  "audit_time": "2026-11-02 18:15:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 19,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "600028.SS": {
       "ticker": "600028.SS",
       "name": "中国石化",
@@ -35,6 +44,154 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-03 10:12:46",
+      "text": "【“十五五”末 新兴支柱产业产值有望超10万亿元】从国家发展改革委今天举行的“奋进‘十五五’”系列新闻发布会上了解到，目前，我国新兴支柱产业已有相当规模，去年产值接近6万亿元。研发投入高速增长，新技术新产品不断涌现，产业规模提速放量。今年前三季度，集成电路产量达4428亿块、同比增长23.3%；创新药对外技术授权约1300亿美元，已接近去年全年水平。到“十五五”末，新兴支柱产业的产值有望翻一番，达到10万亿元以上，成为支撑经济高质量发展的重要力量。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:11:27",
+      "text": "【华福证券任志强：稳步提升市场韧性，为资本市场平稳运行提供支撑】11月2日，中国人民银行会同金融监管总局、中国证监会等部门先后召开证券、基金、保险公司互换便利座谈会和股票回购增持再贷款座谈会，听取金融机构业务进展及意见建议，研究部署用好用足政策工具有关工作。华福证券研究所所长任志强表示，总体来看，本次一揽子稳市政策从结构性货币政策工具、上市公司回购制度、权益产品供给、融资融券交易机制等多个维度同步推进，通过扩容降费优化证券、基金、保险公司互换便利，将股票回购增持再贷款转为长期制度安排并下调利率，持续降低机构入市资金成本，引导机构资金有序进场，同时优化护盘式回购相关安排，放宽回购操作限制、明确主体履职要求、搭建回购专项基金闭环机制，推动上市公司依托股份回购发挥内生稳市作用。此外，推动首批主动ETF加快落地，持续丰富权益类基金产品供给，引导公募逆周期布局，并在风险可控的框架下对两融风控指标实施逆周期优化，适度释放融资空间、盘活存量交易资金，相关安排兼顾短期预期修复与长期制度建设，持续完善资本市场内生稳定体系，稳步提升市场韧性，为资本市场平稳运行提供支撑。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:10:33",
+      "text": "【全国放心消费平台正式上线】市场监管总局建设的全国放心消费平台3日上线，商家注册、承诺并经核验公示后可参与放心消费承诺，平台将生成“一店一码”放心消费码和全国统一标识。消费者可通过“消费查”小程序或线下扫码登录，按8类单元和7类集聚区分类查看商家证照、承诺等信息，消费后可一星至五星评价、一键电联。首批已有超1万个放心消费单元、100个放心消费集聚区入驻，平台将持续迭代升级。（央视新闻）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:05:05",
+      "text": "【水泥概念震荡反弹，福建水泥涨停】水泥概念震荡反弹，福建水泥涨停，华新建材、亚泰集团、中材国际、红宝丽、ST金顶、红墙股份等跟涨。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:05:02",
+      "text": "【共绩科技完成数亿元新一轮融资】11月3日，北京共绩科技有限公司宣布完成数亿元新一轮融资，投资方包括中国互联网投资基金、宁德时代系宁波问鼎和溥泉资本、元禾璞华、赛目科技、德石投资、启恒共创等。老股东春华资本、力合创投、新进创投持续加码。本轮融资资金将重点投入分布式算力网核心技术迭代、产业生态扩张与商业化体系建设。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:03:07",
+      "text": "越南统计局：1-10月咖啡出口同比增长18.8%，达157万吨。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:02:54",
+      "text": "越南统计局：10月大米出口量同比增长37.2%，达到47.5万吨。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:02:20",
+      "text": "【证监会副主席李超：全力维护资本市场平稳运行 推动中长期资金入市规模和比例稳步提升】今日上午，证监会副主席李超在香港国际金融领袖投资峰会上表示，将全力维护资本市场平稳运行。他表示，今年以来，面对多重超预期输入性风险挑战，证监会密切加强监测监控和稳市机制建设，着力夯实市场稳的基础，进一步健全长钱长投制度生态，深入推进公募基金改革，推动社保、年金、保险等中长期资金入市规模和比例稳步提升。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:01:53",
+      "text": "黑石集团总裁乔纳森·格雷表示，为满足人工智能行业增长带来的巨大需求，将需要更多股权融资。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:01:44",
+      "text": "越南10月进口同比增长43.1%；预估+48.0%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:01:34",
+      "text": "越南10月出口同比增长51.4%；预估+41.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-03 10:00:22",
+      "text": "【涉嫌受贿、行贿、贪污 中南大学原副校长郭学益被提起公诉】从最高人民检察院获悉，中南大学原党委常委、副校长郭学益涉嫌受贿、行贿、贪污一案，由国家监察委员会调查终结，移送检察机关审查起诉。经最高人民检察院指定管辖，安徽省人民检察院依法以涉嫌受贿罪、行贿罪、贪污罪对郭学益作出逮捕决定。近日，安徽省六安市人民检察院已向六安市中级人民法院提起公诉。检察机关在审查起诉阶段，依法告知了被告人郭学益享有的诉讼权利，并讯问了被告人，听取了辩护人的意见。检察机关起诉指控：被告人郭学益利用担任中南大学资源循环与环境材料研究中心主任，研究生院招生办公室主任，人事处处长，党委常委、副校长等职务上的便利，为他人谋取利益，以及利用职权或者地位形成的便利条件，为他人谋取不正当利益，非法收受他人财物，数额特别巨大；为谋取不正当利益，给予国家工作人员财物，情节特别严重；利用担任中南大学党委常委、副校长职务上的便利，侵吞公共财物，数额巨大，依法应当以受贿罪、行贿罪、贪污罪追究其刑事责任。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-11-03 09:59:39",
       "text": "越南统计总局：10 月份工业生产增长 15%。",
@@ -66,110 +223,6 @@
     {
       "timestamp": "2026-11-03 09:54:44",
       "text": "【股票回购增持贷款利率有望降至1.6%】“金融机构在最新发布的股票回购增持再贷款利率基础上进行加点，利率有望降至1.6%。”11月2日，一位国有大行人士表示。另一位全国性股份制银行人士亦证实了上述说法。该人士称，金融机构要合理确定贷款条件，自担风险。在考虑风险成本等因素之后，对最优客户的利率大致降至1.6%附近。（财经杂志）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 09:49:14",
-      "text": "银行板块早盘下挫，上海银行跌超4%，工商银行、中国银行、交通银行跌超3%，重庆银行、招商银行、邮储银行、建设银行、农业银行等均跌超2%。",
-      "analysis": {
-        "matched_tickers": [
-          "600036.SS"
-        ],
-        "matched_names": [
-          "招商银行"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 09:47:28",
-      "text": "【中信证券董事长邹迎光首次公开亮相：基本盘稳、升级方向明 是中国资产最硬底气】中信证券2027年资本市场策略会在武汉举行，邹迎光获任中信证券董事长后首次公开亮相。邹迎光在致辞中表示，全球市场冷热分化逐步收窄后，中国基本面有韧性；分化收窄后，预计2027年A股行情宽度有望不断拓展。预计科技制造的景气将沿着产业链向上下游延伸，出海将从商品输出走向产能、品牌、管理体系的协同输出，内需也将随着稳增长、促消费举措陆续落地而稳步修复。三者将成为中国经济行稳致远的重要支撑。基本盘稳、升级方向明，是中国资产最硬的底气。产业上下游配套、集群化发展带来的体系完备性，是应对外部不确定性的压舱石，也为中国资产筑牢基本面支撑。",
-      "analysis": {
-        "matched_tickers": [
-          "600030.SS"
-        ],
-        "matched_names": [
-          "中信证券"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 09:35:13",
-      "text": "星展银行首席执行官预期香港财富管理业务将强劲增长。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 09:34:56",
-      "text": "星展银行首席执行官：香港业务实现了两位数增长，是表现最佳的市场之一。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 09:25:05",
-      "text": "LG新能源预计第四季度面向北美市场的储能系统（ESS）出货量将环比增长40%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 09:21:47",
-      "text": "央行今日开展6210亿元隔夜逆回购操作，投标量6210亿元，中标量6210亿元，操作利率为1.25%",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重磅业务突破",
-        "sentiment_score": 0.8,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 09:13:27",
-      "text": "【TCL科技：海外LCD产能加速退出，公司对面板涨价保持乐观预期】TCL科技在投资者关系活动中表示，四季度供给侧主流厂商依旧坚持按需生产，面板价格是否上行及涨价幅度需结合终端销售情况综合观察。考虑到海外LCD产能加速退出，综合需求面积持续增长与供给面积收缩的背景，预计2027年行业供需关系将进一步趋紧，价格中枢有望上行，公司对面板涨价保持乐观预期。(21财经)",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-03 09:13:12",
-      "text": "【TCL科技：t9产线已实现满产，带动中尺寸业务竞争力和市场份额大幅提升】TCL科技在投资者关系活动中表示，t9产线是公司中尺寸主力产线，目前已实现满产，带动中尺寸业务竞争力和市场份额大幅提升。t9产线现阶段以中小尺寸等高附加值产品为主，包括笔电、高端monitor、平板、手机及部分车载产品。凭借相对竞争优势，公司中小尺寸LCD主流产品出货量均实现增长，LCD手机面板市场份额排名升至全球第二。(21财经)",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],

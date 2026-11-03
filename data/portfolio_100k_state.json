@@ -2,19 +2,19 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 1717.0,
-  "portfolio_value": 81725.0,
-  "account_nav": 0.8173,
+  "cash": 7486.96,
+  "portfolio_value": 82248.96,
+  "account_nav": 0.8225,
   "bench_nav": 1.0017,
   "positions": {
     "300124.SZ": {
       "name": "汇川技术",
       "shares": 600,
       "avg_cost": 56.16,
-      "last_price": 55.16,
-      "market_value": 33096.0,
-      "pnl": -588.0,
-      "pnl_pct": -1.75,
+      "last_price": 56.0,
+      "market_value": 33600.0,
+      "pnl": -96.0,
+      "pnl_pct": -0.28,
       "highest": 56.78
     },
     "300059.SZ": {
@@ -23,19 +23,9 @@
       "avg_cost": 18.72,
       "last_price": 18.71,
       "market_value": 41162.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
+      "pnl": -22.0,
+      "pnl_pct": -0.05,
       "highest": 18.72
-    },
-    "688036.SS": {
-      "name": "传音控股",
-      "shares": 100,
-      "avg_cost": 57.22,
-      "last_price": 57.5,
-      "market_value": 5750.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
-      "highest": 57.22
     }
   },
   "rules": {
@@ -45,7 +35,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-02 00:05:10",
+  "last_updated": "2026-11-02 18:11:09",
   "benchmark": {
     "last_price": 4.085,
     "nav": 0.885
