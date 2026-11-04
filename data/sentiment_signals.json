@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-03 19:30:24",
+  "audit_time": "2026-11-03 19:45:21",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 14,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -187,18 +187,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-04 10:42:10",
-      "text": "【电网设备板块震荡走弱，信通电子触及跌停】电网设备板块震荡走弱，信通电子触及跌停，通光线缆跌超10%，远程股份、太阳电缆、金利华电、鑫宏业、ST合纵等跟跌。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
