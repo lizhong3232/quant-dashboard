@@ -2,84 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-09 09:45:14 CST",
-    "time_str": "09:45",
-    "date_str": "2026-10-09",
-    "portfolio_value": 91082.47,
-    "cash": 50402.47,
-    "stock_market_value": 40680.0,
-    "cash_ratio_pct": 55.34,
-    "stock_ratio_pct": 44.66,
-    "account_nav": 0.9108,
-    "bench_nav": 0.9441,
-    "bench_change_pct": -0.71,
-    "alpha_pct": -3.33,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "300014.SZ",
-        "name": "亿纬锂能",
-        "shares": 800,
-        "avg_cost": 50.48,
-        "last_price": 50.85,
-        "market_value": 40680.0,
-        "change_pct": 0.73,
-        "pnl": 296.0,
-        "pnl_pct": 0.73,
-        "ofi": 0.06,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 44.66
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 91082.47,
-      "cash": 50402.47,
-      "stock_market_value": 40680.0,
-      "cash_ratio_pct": 55.34,
-      "stock_ratio_pct": 44.66,
-      "account_nav": 0.9108,
-      "bench_nav": 0.9441,
-      "alpha_pct": -3.33,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "300014.SZ",
-          "name": "亿纬锂能",
-          "shares": 800,
-          "avg_cost": 50.48,
-          "last_price": 50.85,
-          "market_value": 40680.0,
-          "change_pct": 0.73,
-          "pnl": 296.0,
-          "pnl_pct": 0.73,
-          "ofi": 0.06,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 44.66
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，亿纬锂能高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 亿纬锂能 (300014.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (亿纬锂能 (300014.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-09 10:00:14 CST",
     "time_str": "10:00",
     "date_str": "2026-10-09",
@@ -33297,6 +33219,112 @@
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-11-04 15:15:15 CST",
     "time_str": "15:15",
+    "date_str": "2026-11-04",
+    "portfolio_value": 85441.0,
+    "cash": 10733.0,
+    "stock_market_value": 74708.0,
+    "cash_ratio_pct": 12.56,
+    "stock_ratio_pct": 87.44,
+    "account_nav": 0.8544,
+    "bench_nav": 0.9045,
+    "bench_change_pct": 2.03,
+    "alpha_pct": -5.01,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "300059.SZ",
+        "name": "东方财富",
+        "shares": 2200,
+        "avg_cost": 18.72,
+        "last_price": 19.2,
+        "market_value": 42240.0,
+        "change_pct": 1.8,
+        "pnl": 1056.0,
+        "pnl_pct": 2.56,
+        "ofi": 0.082,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 49.44
+      },
+      {
+        "ticker": "300274.SZ",
+        "name": "阳光电源",
+        "shares": 400,
+        "avg_cost": 76.86,
+        "last_price": 81.17,
+        "market_value": 32468.0,
+        "change_pct": 7.2,
+        "pnl": 1724.0,
+        "pnl_pct": 5.61,
+        "ofi": 0.073,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 38.0
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 85441.0,
+      "cash": 10733.0,
+      "stock_market_value": 74708.0,
+      "cash_ratio_pct": 12.56,
+      "stock_ratio_pct": 87.44,
+      "account_nav": 0.8544,
+      "bench_nav": 0.9045,
+      "alpha_pct": -5.01,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "300059.SZ",
+          "name": "东方财富",
+          "shares": 2200,
+          "avg_cost": 18.72,
+          "last_price": 19.2,
+          "market_value": 42240.0,
+          "change_pct": 1.8,
+          "pnl": 1056.0,
+          "pnl_pct": 2.56,
+          "ofi": 0.082,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 49.44
+        },
+        {
+          "ticker": "300274.SZ",
+          "name": "阳光电源",
+          "shares": 400,
+          "avg_cost": 76.86,
+          "last_price": 81.17,
+          "market_value": 32468.0,
+          "change_pct": 7.2,
+          "pnl": 1724.0,
+          "pnl_pct": 5.61,
+          "ofi": 0.073,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 38.0
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，东方财富、阳光电源高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 东方财富 (300059.SZ) | 阳光电源 (300274.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (东方财富 (300059.SZ) | 阳光电源 (300274.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-04 15:30:14 CST",
+    "time_str": "15:30",
     "date_str": "2026-11-04",
     "portfolio_value": 85441.0,
     "cash": 10733.0,
