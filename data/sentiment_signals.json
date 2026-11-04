@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-03 20:00:27",
+  "audit_time": "2026-11-03 20:15:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 9,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -127,54 +127,6 @@
         "sentiment_score": 0.75,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-04 11:00:52",
-      "text": "【我国首批和美海岛三年建设“成绩单”出炉】自然资源部今天（4日）介绍，正在召开的中国—岛屿国家海洋合作论坛上，自然资源部海岛研究中心发布了《中国和美海岛建设阶段性成效报告》。报告指出，经过三年建设，我国首批33个和美海岛生态安全屏障进一步筑牢、宜居水平进一步提升、海岛绿色共富产业转型初显规模、防灾减灾能力进一步提升。数据显示，三年来，超过70%的受损海岛生态区域得到修复，半数和美海岛清洁能源消费量占比已超过60%，饮用水安全覆盖率超过90%的和美海岛达到30个，建成国家级、省级海洋牧场示范区30余个。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-04 10:59:19",
-      "text": "【前三季度中国黄金产量同比下降近两成】11月4日，中国黄金协会最新统计数据显示，2026年前三季度，国内原料产金累计220.935吨，同比减少50.847吨，同比下降18.71%；进口原料产金累计127.055吨，同比增加5.906吨，同比增长4.87%。国内原料和进口原料共计生产黄金347.990吨，同比减少44.941吨，同比下降11.44%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-04 10:59:05",
-      "text": "【中国黄金储备居全球第五】11月4日，中国黄金协会最新统计数据显示，2026年前三季度，中国累计增持黄金103.26吨，截至9月底，中国黄金储备为2409.59吨，位居全球第5位。从2024年11月至2026年9月，中国已连续23个月增持黄金。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-04 10:58:04",
-      "text": "中国黄金协会：1-9月中国黄金产量同比下降18.71%，至220.935公吨。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
