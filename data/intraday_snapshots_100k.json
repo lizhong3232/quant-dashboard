@@ -2,144 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-08 10:30:13 CST",
-    "time_str": "10:30",
-    "date_str": "2026-10-08",
-    "portfolio_value": 91873.88,
-    "cash": 6095.88,
-    "stock_market_value": 85778.0,
-    "cash_ratio_pct": 6.64,
-    "stock_ratio_pct": 93.36,
-    "account_nav": 0.9187,
-    "bench_nav": 0.9606,
-    "bench_change_pct": 0.05,
-    "alpha_pct": -4.19,
-    "warnings_count": 1,
-    "warnings": [
-      "[🚨硬性止损预警] 传音控股 (688036.SS) 浮亏 -15.76% 跌破 -2.8% 止损保护红线！"
-    ],
-    "positions": [
-      {
-        "ticker": "300474.SZ",
-        "name": "景嘉微",
-        "shares": 400,
-        "avg_cost": 50.3,
-        "last_price": 50.69,
-        "market_value": 20276.0,
-        "change_pct": -0.04,
-        "pnl": 156.0,
-        "pnl_pct": 0.78,
-        "ofi": -0.012,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 22.07
-      },
-      {
-        "ticker": "300442.SZ",
-        "name": "润泽科技",
-        "shares": 600,
-        "avg_cost": 65.05,
-        "last_price": 63.84,
-        "market_value": 38304.0,
-        "change_pct": -0.28,
-        "pnl": -726.0,
-        "pnl_pct": -1.86,
-        "ofi": -0.018,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 41.69
-      },
-      {
-        "ticker": "688036.SS",
-        "name": "传音控股",
-        "shares": 600,
-        "avg_cost": 53.81,
-        "last_price": 45.33,
-        "market_value": 27198.0,
-        "change_pct": -15.74,
-        "pnl": -5088.0,
-        "pnl_pct": -15.76,
-        "ofi": -0.154,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 29.6
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 91873.88,
-      "cash": 6095.88,
-      "stock_market_value": 85778.0,
-      "cash_ratio_pct": 6.64,
-      "stock_ratio_pct": 93.36,
-      "account_nav": 0.9187,
-      "bench_nav": 0.9606,
-      "alpha_pct": -4.19,
-      "warnings_count": 1,
-      "warnings": [
-        "[🚨硬性止损预警] 传音控股 (688036.SS) 浮亏 -15.76% 跌破 -2.8% 止损保护红线！"
-      ],
-      "positions": [
-        {
-          "ticker": "300474.SZ",
-          "name": "景嘉微",
-          "shares": 400,
-          "avg_cost": 50.3,
-          "last_price": 50.69,
-          "market_value": 20276.0,
-          "change_pct": -0.04,
-          "pnl": 156.0,
-          "pnl_pct": 0.78,
-          "ofi": -0.012,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 22.07
-        },
-        {
-          "ticker": "300442.SZ",
-          "name": "润泽科技",
-          "shares": 600,
-          "avg_cost": 65.05,
-          "last_price": 63.84,
-          "market_value": 38304.0,
-          "change_pct": -0.28,
-          "pnl": -726.0,
-          "pnl_pct": -1.86,
-          "ofi": -0.018,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 41.69
-        },
-        {
-          "ticker": "688036.SS",
-          "name": "传音控股",
-          "shares": 600,
-          "avg_cost": 53.81,
-          "last_price": 45.33,
-          "market_value": 27198.0,
-          "change_pct": -15.74,
-          "pnl": -5088.0,
-          "pnl_pct": -15.76,
-          "ofi": -0.154,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 29.6
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，景嘉微、润泽科技、传音控股高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 景嘉微 (300474.SZ) | 润泽科技 (300442.SZ) | 传音控股 (688036.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (景嘉微 (300474.SZ) | 润泽科技 (300442.SZ) | 传音控股 (688036.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-08 14:45:15 CST",
     "time_str": "14:45",
     "date_str": "2026-10-08",
@@ -33422,6 +33284,112 @@
           "ofi": 0.094,
           "flow_status": "强势主动扫货",
           "weight_pct": 37.81
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，东方财富、阳光电源高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 东方财富 (300059.SZ) | 阳光电源 (300274.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (东方财富 (300059.SZ) | 阳光电源 (300274.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-04 14:15:15 CST",
+    "time_str": "14:15",
+    "date_str": "2026-11-04",
+    "portfolio_value": 85287.0,
+    "cash": 10733.0,
+    "stock_market_value": 74554.0,
+    "cash_ratio_pct": 12.58,
+    "stock_ratio_pct": 87.42,
+    "account_nav": 0.8529,
+    "bench_nav": 0.9014,
+    "bench_change_pct": 1.69,
+    "alpha_pct": -4.85,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "300059.SZ",
+        "name": "东方财富",
+        "shares": 2200,
+        "avg_cost": 18.72,
+        "last_price": 19.21,
+        "market_value": 42262.0,
+        "change_pct": 1.86,
+        "pnl": 1078.0,
+        "pnl_pct": 2.62,
+        "ofi": 0.094,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 49.55
+      },
+      {
+        "ticker": "300274.SZ",
+        "name": "阳光电源",
+        "shares": 400,
+        "avg_cost": 76.86,
+        "last_price": 80.73,
+        "market_value": 32292.0,
+        "change_pct": 6.62,
+        "pnl": 1548.0,
+        "pnl_pct": 5.04,
+        "ofi": 0.092,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 37.86
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 85287.0,
+      "cash": 10733.0,
+      "stock_market_value": 74554.0,
+      "cash_ratio_pct": 12.58,
+      "stock_ratio_pct": 87.42,
+      "account_nav": 0.8529,
+      "bench_nav": 0.9014,
+      "alpha_pct": -4.85,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "300059.SZ",
+          "name": "东方财富",
+          "shares": 2200,
+          "avg_cost": 18.72,
+          "last_price": 19.21,
+          "market_value": 42262.0,
+          "change_pct": 1.86,
+          "pnl": 1078.0,
+          "pnl_pct": 2.62,
+          "ofi": 0.094,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 49.55
+        },
+        {
+          "ticker": "300274.SZ",
+          "name": "阳光电源",
+          "shares": 400,
+          "avg_cost": 76.86,
+          "last_price": 80.73,
+          "market_value": 32292.0,
+          "change_pct": 6.62,
+          "pnl": 1548.0,
+          "pnl_pct": 5.04,
+          "ofi": 0.092,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 37.86
         }
       ]
     },
