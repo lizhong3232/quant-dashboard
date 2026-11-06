@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-05 18:15:16",
+  "audit_time": "2026-11-05 18:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 5,
+  "relevant_events_found": 8,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -26,6 +26,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-06 10:28:41",
+      "text": "【今冬供暖季能源供应总体能够满足需求】记者11月6日从国家发展改革委新闻发布会上获悉，今冬供暖季能源供应总体能够满足需求，人民群众温暖过冬有保障。截至10月底，全国统调电厂存煤超过2.1亿吨，可用36天。今冬供暖季天然气日顶峰保供能力超过17.5亿立方米，较上个供暖季用气峰值高出近7000万立方米。电力方面，预计供暖季全国最高用电负荷将达到15.2亿千瓦左右，较上一供暖季峰值增加约9000万千瓦，常规电源装机同比增加约1亿千瓦，电力供应能力提升总体能够保障需求增长。(新华社)",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-06 10:21:12",
+      "text": "【特朗普支持的世界自由金融公司启动WLFI代币回购计划】特朗普支持的加密货币初创公司世界自由金融（World Liberty Financial）周四表示，将启动其WLFI治理代币的回购计划，该计划的资金将来源于初始拨款，其中可能包括其1美元稳定币储备产生的收入及其他来源。此前，由于共和党在本周美国中期选举中的表现不及预期，WLFI代币面临抛售压力，该公司随后发布了这一公告。据CoinMarketCap.com数据显示，自投票结束以来，该代币已下跌约10%，今年迄今跌幅已超过60%。该公司表示，该计划旨在鼓励参与WLFI治理，并提高长期代币持有者的投票权。该公司补充称，代币回购将成为其战略中持续进行的一部分。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-06 10:18:15",
+      "text": "【东吴证券：乳品饮料分化加剧 头部乳企将会受益供给格局改善】东吴证券发布研报称，26年7月以来在热应激/苜蓿收贮季/双节需求旺季等季节性因素带动下，奶价自底部小幅温和上涨。后续奶价温和上涨，头部乳企将会受益供给格局改善，体现在售价回升和费投优化等，联营牧场盈利亦会改善。饮料、零食、调味品、白酒等多品类Q3营收增长均表现为承压，上市公司报表均有体现;其次极端天气亦对饮料销售有所影响。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-06 10:02:44",
       "text": "菲律宾将第二季度GDP增速修正为同比增长2.4%。",
