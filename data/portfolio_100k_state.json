@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 10733.0,
-  "portfolio_value": 85441.0,
-  "account_nav": 0.8544,
+  "portfolio_value": 86545.0,
+  "account_nav": 0.8655,
   "bench_nav": 1.0017,
   "positions": {
     "300059.SZ": {
       "name": "东方财富",
       "shares": 2200,
       "avg_cost": 18.72,
-      "last_price": 19.2,
-      "market_value": 42240.0,
+      "last_price": 18.98,
+      "market_value": 41756.0,
       "pnl": -44.0,
       "pnl_pct": -0.11,
       "highest": 18.72
@@ -21,8 +21,8 @@
       "name": "阳光电源",
       "shares": 400,
       "avg_cost": 76.86,
-      "last_price": 81.17,
-      "market_value": 32468.0,
+      "last_price": 85.14,
+      "market_value": 34056.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 76.86
@@ -35,10 +35,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-04 00:05:10",
+  "last_updated": "2026-11-05 00:05:08",
   "benchmark": {
-    "last_price": 4.175,
-    "nav": 0.9045
+    "last_price": 4.195,
+    "nav": 0.9088
   },
   "nav_history": [
     {
@@ -328,6 +328,15 @@
       "account_nav": 0.8544,
       "bench_nav": 0.9045,
       "alpha": -5.01
+    },
+    {
+      "timestamp": "2026-11-05 00:05:08",
+      "date": "2026-11-05",
+      "cash": 10733.0,
+      "portfolio_value": 86545.0,
+      "account_nav": 0.8655,
+      "bench_nav": 0.9088,
+      "alpha": -4.33
     }
   ]
 }
