@@ -2,30 +2,30 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 10733.0,
-  "portfolio_value": 86545.0,
-  "account_nav": 0.8655,
+  "cash": 8001.02,
+  "portfolio_value": 86769.02,
+  "account_nav": 0.8677,
   "bench_nav": 1.0017,
   "positions": {
-    "300059.SZ": {
-      "name": "东方财富",
-      "shares": 2200,
-      "avg_cost": 18.72,
-      "last_price": 18.98,
-      "market_value": 41756.0,
-      "pnl": -44.0,
-      "pnl_pct": -0.11,
-      "highest": 18.72
-    },
     "300274.SZ": {
       "name": "阳光电源",
       "shares": 400,
       "avg_cost": 76.86,
-      "last_price": 85.14,
-      "market_value": 34056.0,
+      "last_price": 86.18,
+      "market_value": 34472.0,
+      "pnl": 3728.0,
+      "pnl_pct": 12.13,
+      "highest": 86.18
+    },
+    "688223.SS": {
+      "name": "晶科能源",
+      "shares": 9800,
+      "avg_cost": 4.52,
+      "last_price": 4.52,
+      "market_value": 44296.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
-      "highest": 76.86
+      "highest": 4.52
     }
   },
   "rules": {
@@ -35,7 +35,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-05 00:05:08",
+  "last_updated": "2026-11-05 18:10:58",
   "benchmark": {
     "last_price": 4.195,
     "nav": 0.9088

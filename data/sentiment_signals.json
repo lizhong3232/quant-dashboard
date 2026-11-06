@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-11-05 18:00:16",
+  "audit_time": "2026-11-05 18:15:16",
   "total_news_scanned": 100,
   "relevant_events_found": 5,
   "black_swan_count": 0,
@@ -26,6 +26,18 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-06 10:02:44",
+      "text": "菲律宾将第二季度GDP增速修正为同比增长2.4%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-06 09:55:44",
       "text": "【星河动力更换IPO辅导券商】近日，证监会网站更新了一则关于北京星河动力航天科技股份有限公司（以下简称“星河动力”）IPO辅导备案的信息。辅导备案信息显示，星河动力IPO辅导券商已由之前的华泰联合证券变更为中信证券。除此之外，星河动力股东持股比例与此前公布的辅导备案信息相比也有所变动。最新辅导备案报告披露，刘百奇、刘建设为公司共同实际控制人，二人直接持有公司14.76%股份，与其一致行动人北京至远探索管理咨询中心（有限合伙）合计持有公司26.57%股份。",
@@ -80,18 +92,6 @@
         "sentiment_score": -1.0,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-06 09:21:55",
-      "text": "央行：今日开展2260亿元隔夜逆回购操作，投标量2260亿元，中标量2260亿元，操作利率为1.25%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重磅业务突破",
-        "sentiment_score": 0.8,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
