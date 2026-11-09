@@ -2,112 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-12 13:33:32 CST",
-    "time_str": "13:33",
-    "date_str": "2026-10-12",
-    "portfolio_value": 90789.98,
-    "cash": 7933.98,
-    "stock_market_value": 82856.0,
-    "cash_ratio_pct": 8.74,
-    "stock_ratio_pct": 91.26,
-    "account_nav": 0.9079,
-    "bench_nav": 0.9474,
-    "bench_change_pct": -0.27,
-    "alpha_pct": -3.95,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "300014.SZ",
-        "name": "亿纬锂能",
-        "shares": 800,
-        "avg_cost": 50.48,
-        "last_price": 50.77,
-        "market_value": 40616.0,
-        "change_pct": -1.07,
-        "pnl": 232.0,
-        "pnl_pct": 0.57,
-        "ofi": -0.055,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 44.74
-      },
-      {
-        "ticker": "688223.SS",
-        "name": "晶科能源",
-        "shares": 11000,
-        "avg_cost": 3.86,
-        "last_price": 3.84,
-        "market_value": 42240.0,
-        "change_pct": -1.29,
-        "pnl": -220.0,
-        "pnl_pct": -0.52,
-        "ofi": -0.17,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 46.52
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 90789.98,
-      "cash": 7933.98,
-      "stock_market_value": 82856.0,
-      "cash_ratio_pct": 8.74,
-      "stock_ratio_pct": 91.26,
-      "account_nav": 0.9079,
-      "bench_nav": 0.9474,
-      "alpha_pct": -3.95,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "300014.SZ",
-          "name": "亿纬锂能",
-          "shares": 800,
-          "avg_cost": 50.48,
-          "last_price": 50.77,
-          "market_value": 40616.0,
-          "change_pct": -1.07,
-          "pnl": 232.0,
-          "pnl_pct": 0.57,
-          "ofi": -0.055,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 44.74
-        },
-        {
-          "ticker": "688223.SS",
-          "name": "晶科能源",
-          "shares": 11000,
-          "avg_cost": 3.86,
-          "last_price": 3.84,
-          "market_value": 42240.0,
-          "change_pct": -1.29,
-          "pnl": -220.0,
-          "pnl_pct": -0.52,
-          "ofi": -0.17,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 46.52
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，亿纬锂能、晶科能源高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 亿纬锂能 (300014.SZ) | 晶科能源 (688223.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (亿纬锂能 (300014.SZ) | 晶科能源 (688223.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-12 13:47:12 CST",
     "time_str": "13:47",
     "date_str": "2026-10-12",
@@ -33958,6 +33852,116 @@
           "ofi": -0.076,
           "flow_status": "主动砸盘出货",
           "weight_pct": 51.28
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，阳光电源、晶科能源高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 阳光电源 (300274.SZ) | 晶科能源 (688223.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (阳光电源 (300274.SZ) | 晶科能源 (688223.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-09 10:00:16 CST",
+    "time_str": "10:00",
+    "date_str": "2026-11-09",
+    "portfolio_value": 82665.02,
+    "cash": 8001.02,
+    "stock_market_value": 74664.0,
+    "cash_ratio_pct": 9.68,
+    "stock_ratio_pct": 90.32,
+    "account_nav": 0.8267,
+    "bench_nav": 0.8995,
+    "bench_change_pct": 0.68,
+    "alpha_pct": -7.28,
+    "warnings_count": 1,
+    "warnings": [
+      "[🚨硬性止损预警] 晶科能源 (688223.SS) 浮亏 -3.54% 跌破 -2.8% 止损保护红线！"
+    ],
+    "positions": [
+      {
+        "ticker": "300274.SZ",
+        "name": "阳光电源",
+        "shares": 400,
+        "avg_cost": 76.86,
+        "last_price": 79.84,
+        "market_value": 31936.0,
+        "change_pct": -2.6,
+        "pnl": 1192.0,
+        "pnl_pct": 3.88,
+        "ofi": -0.008,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 38.63
+      },
+      {
+        "ticker": "688223.SS",
+        "name": "晶科能源",
+        "shares": 9800,
+        "avg_cost": 4.52,
+        "last_price": 4.36,
+        "market_value": 42728.0,
+        "change_pct": -0.46,
+        "pnl": -1568.0,
+        "pnl_pct": -3.54,
+        "ofi": -0.146,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 51.69
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 82665.02,
+      "cash": 8001.02,
+      "stock_market_value": 74664.0,
+      "cash_ratio_pct": 9.68,
+      "stock_ratio_pct": 90.32,
+      "account_nav": 0.8267,
+      "bench_nav": 0.8995,
+      "alpha_pct": -7.28,
+      "warnings_count": 1,
+      "warnings": [
+        "[🚨硬性止损预警] 晶科能源 (688223.SS) 浮亏 -3.54% 跌破 -2.8% 止损保护红线！"
+      ],
+      "positions": [
+        {
+          "ticker": "300274.SZ",
+          "name": "阳光电源",
+          "shares": 400,
+          "avg_cost": 76.86,
+          "last_price": 79.84,
+          "market_value": 31936.0,
+          "change_pct": -2.6,
+          "pnl": 1192.0,
+          "pnl_pct": 3.88,
+          "ofi": -0.008,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 38.63
+        },
+        {
+          "ticker": "688223.SS",
+          "name": "晶科能源",
+          "shares": 9800,
+          "avg_cost": 4.52,
+          "last_price": 4.36,
+          "market_value": 42728.0,
+          "change_pct": -0.46,
+          "pnl": -1568.0,
+          "pnl_pct": -3.54,
+          "ofi": -0.146,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 51.69
         }
       ]
     },
