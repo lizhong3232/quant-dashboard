@@ -1,42 +1,33 @@
 {
-  "audit_time": "2026-11-08 19:30:15",
+  "audit_time": "2026-11-08 19:45:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 22,
+  "relevant_events_found": 21,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "002463.SZ": {
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
+      "avg_sentiment": 0.0,
+      "news_count": 2,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "002594.SZ": {
       "ticker": "002594.SZ",
       "name": "比亚迪",
       "avg_sentiment": -0.2,
       "news_count": 2,
       "latest_events": [
-        "行业资讯/宏观动态",
-        "温和业绩承压"
-      ]
-    },
-    "002463.SZ": {
-      "ticker": "002463.SZ",
-      "name": "沪电股份",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
+        "温和业绩承压",
         "行业资讯/宏观动态"
       ]
     },
     "000333.SZ": {
       "ticker": "000333.SZ",
       "name": "美的集团",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "601138.SS": {
-      "ticker": "601138.SS",
-      "name": "工业富联",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -51,9 +42,34 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
+    },
+    "601138.SS": {
+      "ticker": "601138.SS",
+      "name": "工业富联",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-09 11:31:01",
+      "text": "【A股午评：创业板指震荡半日涨0.56%，元件、煤炭开采加工、燃气板块涨幅居前】A股三大指数早盘集体上涨，截至午盘，上证指数涨0.46%，深证成指涨0.27%，创业板指涨0.56%，北证50涨1.61%，科创50指数涨0.7%。全市场成交额10181亿元，较上日缩量1126亿元，全市场超2700只个股下跌。板块题材上，煤炭开采加工、元件、燃气、6G概念、卫星导航板块涨幅居前；能源金属、光伏设备、游戏、保险、汽车整车跌幅居前。盘面上，煤炭开采加工板块高开高走，郑州煤电、安泰集团涨停，大有能源、云煤能源、新集能源涨幅居前。元件板块震荡走高，奥士康、世运电路、超声电子涨停，胜宏科技、景旺电子、沪电股份涨幅居前。商业航天板块表现活跃，中国卫星、西部材料、烽火通信等股涨停，西测测试、信维通信、天力复合涨幅居前。能源金属板块高开低走，融捷股份、盛新锂能、永兴材料跌幅居前。光伏设备板块亦高开低走，时创能源、阳光电源、泽润新能跌幅居前。",
+      "analysis": {
+        "matched_tickers": [
+          "002463.SZ"
+        ],
+        "matched_names": [
+          "沪电股份"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-11-09 11:27:00",
       "text": "【AI交易退潮 资金转向印度及亚洲冷门板块】美国中期选举后人工智能(AI)交易迅速退潮，迫使投资者重新考虑其亚洲投资策略，带动此前失宠的印度股票，以及有望受益于通胀和贸易紧张局势缓和的企业重新获得青睐。安本投资看好印度和越南等由强劲国内增长驱动的市场，安联环球投资则把目光投向医疗保健和消费类企业。投资者预计AI行业将面临更严格的审视，同时质疑投入计算基础设施的巨额资金能否带来足够回报，使亚洲市场尤其容易受到冲击。“我预计，投资者将进行更广泛的分散配置，降低对AI交易的集中度，”Gama Asset Management SA全球宏观投资组合经理Rajeev De Mello表示。",
@@ -236,18 +252,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 10:41:27",
-      "text": "【海油工程：2026年订单总额有望突破400亿元】海油工程在2026年第三季度业绩说明会上表示，2026年订单总额有望突破400亿元。前三季度，公司海外市场承揽额151.73亿元。报告期，成功中标卡塔尔MM EPIC 2项目，合同签订后，中东区域累计签约订单金额突破500亿元，是实现中东市场战略目标的重要里程碑。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "重磅业务突破",
-        "sentiment_score": 0.8,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
       }
     }
   ]
