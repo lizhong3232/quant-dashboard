@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-08 19:00:18",
+  "audit_time": "2026-11-08 19:15:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 18,
+  "relevant_events_found": 22,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -9,6 +9,16 @@
     "002594.SZ": {
       "ticker": "002594.SZ",
       "name": "比亚迪",
+      "avg_sentiment": -0.2,
+      "news_count": 2,
+      "latest_events": [
+        "温和业绩承压",
+        "行业资讯/宏观动态"
+      ]
+    },
+    "002463.SZ": {
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -44,6 +54,74 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-09 11:14:50",
+      "text": "【机构：苏伊士运河复航趋势正在增强 运价面临温和下行压力】根据德路里报告，随着船公司调整航线安排和运力部署，市场正应对需求走软、贸易形势变化以及港口拥堵持续等多重因素交织的局面。Drewry世界集装箱运价指数（WCI）于11月5日环比下降1%，至4389美元/FEU，主要东西向航线的运价均有所回落。另外，苏伊士运河复航趋势正在增强，运价面临温和下行压力。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 11:12:52",
+      "text": "恒生科技指数翻绿，盘初一度涨近2％。美团下滑近5％领跌，零跑汽车、比亚迪股份、比亚迪电子、小米集团走软。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 11:10:35",
+      "text": "【花旗：下降港交所目标价至455港元，维持“买入”评级】花旗发表研报指，因应港交所第三季业绩及10月交易数据，将2026至2028年财年每股盈利预测下调1%至2%，以反映港股日均成交额预测下调1%，以及10月衍生工具成交表现较弱。该行目前预测2027年日均成交额将达到2540亿港元。该行将其目标价由460港元下降至455港元，维持“买入”评级。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 11:06:49",
+      "text": "【PCB概念持续走高 奥士康等多股涨停】PCB概念盘中持续走高，奥士康封涨停，此前世运电路、超声电子涨停，满坤科技、胜宏科技、沪电股份、崇达技术、华正新材等多股涨超5%。消息面上，11月4日凌晨，中国台湾地区松下多层材料（PIDMTW）新竹湖口工厂发生严重爆炸火灾，过火区域约占厂区三分之一。松下集团是全球高端覆铜板（CCL）主要供应商之一。湖口厂是松下旗舰高速覆铜板MEGTRON系列（M6、M7、M8等超低损耗材料）的重要生产基地，产能约占松下全球该系列产品两成左右。",
+      "analysis": {
+        "matched_tickers": [
+          "002463.SZ"
+        ],
+        "matched_names": [
+          "沪电股份"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 11:06:13",
+      "text": "【深圳成为全球消费级3D打印第一城】据“广东发布”，今年上半年，深圳3D打印设备产量同比增长58.1%，出口额同比增长127.5%，占全国同类产品出口总额的86%。深圳凭借强大的产业和科技创新能力，牢牢占据全球3D打印市场，一举拿下全球消费级3D打印第一城的宝座。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-09 10:55:43",
       "text": "【花旗：受经济增长、油价、AI 板块轮动因素支撑，将印度 Nifty 指数目标上调至 28000 点】花旗将印度 Nifty 50 指数目标位从 26000 点上调至 28000 点，理由是盈利前景向好、油价风险下降，以及美国中期选举后资金流向非 AI 资产。该券商将目标时间窗口从 2027 年 9 月延后至 2027 年 12 月，估值倍数从 17 倍上调至 18 倍。花旗预计，2026 财年至 2028 财年 Nifty 指数成分股盈利复合年均增速约 15%–16%，二季度财报将延续一季度的增长势头。原油价格下行有望同时利好宏观环境与企业盈利。花旗测算，油价每下跌 10 美元，印度经常账户赤字可收窄 30 至 40 个基点，通胀下降约 50 个基点，Nifty 指数每股收益提升约 2%。美国中期选举之后，AI 领域投入节奏趋于平缓，或将推动资金轮动至非 AI 资产，利好印度股市。分析师苏伦德拉・戈亚尔与维吉特・贾因写道：“过去两年，AI 板块几乎吸走了所有资金。我们测算，印度在主动组合中的配置权重提升约 100 个基点，可带来约 120 亿美元流入；叠加国内资金韧性，市场环境将得到支撑。”",
@@ -157,8 +235,8 @@
           "601138.SS"
         ],
         "matched_names": [
-          "宁德时代",
-          "工业富联"
+          "工业富联",
+          "宁德时代"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -176,66 +254,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 10:36:36",
-      "text": "【银河证券：弹性板块贡献收入增量 传媒利润端业绩分化】中国银河证券发布研报称，2025年以来，受到AI相关催化以及部分行业业绩端的修复，行业年内涨幅明显，但这一涨幅在2026年内已基本抹平。展望未来，传媒行业的核心仍然是优质内容的生产创作，其处于传媒产业链和价值链的中上游位置，始终是行业的稀缺资源。因此优质的内容制作公司的长期价值不改。该行认为，尽管前期市场风格更偏好硬件侧AI基建，但随着硬件侧AI基建的不断发展，最终将传导至产业链下游板块，业绩驱动+AI赋能仍是传媒互联网行业增长的核心驱动力。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 10:33:25",
-      "text": "【全球AI大模型周调用量榜单出炉，中国产品拿下前五中四席：DeepSeek连续三周领跑，腾讯混元Hy4发布即跻身第四】OpenRouter最新数据测算，上周（11月2日至8日）全球AI大模型总调用量为210万亿Token，环比增长8.25%。其中，上榜的AI大模型中，中国AI大模型周调用量达116.18万亿Token，环比增长16.71%；同期美国AI大模型周量为13.98万亿Token，环比下滑32.4%。中国大模型周调用量连续二十八周超过美国，稳居全球首位。上周，全球调用量排名前五的AI大模型中，有四款中国大模型。其中，DeepSeek V4.1 Flash 1017连续三周位居第一，周调用量达56万亿Token，环比增长17%。（每经网）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 10:29:37",
-      "text": "【北交所上市公司年内增持回购计划累计已达62家次】上市公司“护盘”仍在继续，增持回购成为有力抓手。数据显示，10月份以来，北交所上市公司新增披露增持计划7家（通宝广电、锦波生物、森合高科、基康技术、富士达、德众汽车、杰峰动力），拟增持金额约为1.31亿元，其中杰峰动力为实施稳价计划的增持，本年市场累计披露增持计划25家次；回购方面，10月份以来，北交所上市公司新增披露回购股份方案3家（新恒泰、路斯股份、能之光），拟回购金额区间为4860万元至9400万元，其中能之光使用了回购增持专项贷款。本年市场累计披露回购股份方案37家次。近两周以来，彩客科技、殷图网联、保丽洁、中纺标、明阳科技5家公司披露提前结束减持。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 10:18:17",
-      "text": "菲律宾股指下跌0.6%，此前第三季度GDP数据不及预期。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 10:12:24",
-      "text": "【中指研究院：前10月全国法拍房市场成交总金额同比增长19%】中指研究院最新统计，2026年1—10月，全国355城法拍市场累计挂拍各类法拍房源65.4万件，同比增长31.6%；成交18.8万件，同比增长34.6%；成交总金额2552.8亿元，同比增长19.0%；成交折价率74.3%，成交均价5021元/㎡，同比上涨4.8%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
