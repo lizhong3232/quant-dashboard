@@ -1,12 +1,36 @@
 {
-  "audit_time": "2026-11-08 18:15:18",
+  "audit_time": "2026-11-08 18:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 11,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-09 10:29:37",
+      "text": "【北交所上市公司年内增持回购计划累计已达62家次】上市公司“护盘”仍在继续，增持回购成为有力抓手。数据显示，10月份以来，北交所上市公司新增披露增持计划7家（通宝广电、锦波生物、森合高科、基康技术、富士达、德众汽车、杰峰动力），拟增持金额约为1.31亿元，其中杰峰动力为实施稳价计划的增持，本年市场累计披露增持计划25家次；回购方面，10月份以来，北交所上市公司新增披露回购股份方案3家（新恒泰、路斯股份、能之光），拟回购金额区间为4860万元至9400万元，其中能之光使用了回购增持专项贷款。本年市场累计披露回购股份方案37家次。近两周以来，彩客科技、殷图网联、保丽洁、中纺标、明阳科技5家公司披露提前结束减持。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 10:18:17",
+      "text": "菲律宾股指下跌0.6%，此前第三季度GDP数据不及预期。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-11-09 10:12:24",
       "text": "【中指研究院：前10月全国法拍房市场成交总金额同比增长19%】中指研究院最新统计，2026年1—10月，全国355城法拍市场累计挂拍各类法拍房源65.4万件，同比增长31.6%；成交18.8万件，同比增长34.6%；成交总金额2552.8亿元，同比增长19.0%；成交折价率74.3%，成交均价5021元/㎡，同比上涨4.8%。",
@@ -106,18 +130,6 @@
     {
       "timestamp": "2026-11-09 09:59:11",
       "text": "汇丰银行将印度股票评级上调至“增持”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 09:36:01",
-      "text": "【冰雪经济概念反复走强 冰山冷热、龙江交通双双涨停】冰雪经济概念反复走强，冰山冷热、龙江交通走出8天4板，晶雪节能、大连圣亚、龙建股份、探路者等跟涨。消息面上，10月底以来，河北张家口崇礼、新疆可可托海等雪场陆续开板，带动北方冰雪航线机票预订量增长。数据显示，11月1日至15日，国内前往张家口的机票预订量同比上涨约293%；前往阿勒泰的机票预订量超5400张，同比增长约34%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
