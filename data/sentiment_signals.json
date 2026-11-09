@@ -1,12 +1,121 @@
 {
-  "audit_time": "2026-11-08 18:30:16",
+  "audit_time": "2026-11-08 18:45:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 18,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {},
+  "stock_sentiment_summary": {
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "601138.SS": {
+      "ticker": "601138.SS",
+      "name": "工业富联",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    }
+  },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-09 10:42:52",
+      "text": "【金价在美国就业数据出炉后上涨 凸显需求持续稳固】自美国中期选举以来，黄金ETF持仓量反弹，这表明散户需求强劲，而这正是推动金价持续上涨所必需的。尽管10月份美国就业增长出人意料地强劲，增强了美联储下月加息的可能性，但周一黄金价格仍上涨超过1%。目前看起来似乎是第四个月出现这样的走势：在经历了前一个月末的停滞或下滑之后，黄金ETF持仓在次月伊始开始攀升。10月份的情况是，在增至2022年7月以来最高水平之后，持仓量先是在早些时候削减，之后幅度更大。部分原因可能是，随着AI交易在股市遭到解除，加之美国中期选举的避险情绪来袭，投资者减持盈利的黄金多头头寸以弥补其他领域的损失。如果持仓反弹力度足以重现8月至10月的走势，这将在央行持续需求的基础上增添动力。4000美元左右的价格看起来像是金价潜在的长期低点，尤其是在人工智能前景的不确定性持续存在或加剧的情况下。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 10:41:27",
+      "text": "【海油工程：2026年订单总额有望突破400亿元】海油工程在2026年第三季度业绩说明会上表示，2026年订单总额有望突破400亿元。前三季度，公司海外市场承揽额151.73亿元。报告期，成功中标卡塔尔MM EPIC 2项目，合同签订后，中东区域累计签约订单金额突破500亿元，是实现中东市场战略目标的重要里程碑。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重磅业务突破",
+        "sentiment_score": 0.8,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 10:40:19",
+      "text": "菲律宾经济部长：经济管理部门将于下月初召开会议，重新审视经济增长预期。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 10:40:04",
+      "text": "【主力资金：中际旭创净买入超10亿】截至目前，今日主力资金净流入163.39亿；净流入转融券标的、融资融券、TMT等板块，其中转融券标的板块净流入140.28亿；净流出新能源、电力设备、茅指数等板块，其中新能源板块净流出22.86亿。\n  \n个股方面，中际旭创净买入10.77亿元位居首位，工业富联、新易盛、寒武纪主力资金净流入居前；宁德时代净卖出5.06亿元位居首位，阳光电源、长鑫科技、亿纬锂能净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ",
+          "601138.SS"
+        ],
+        "matched_names": [
+          "宁德时代",
+          "工业富联"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 10:38:18",
+      "text": "【印度面向消费者的企业选择内部消化成本，以避免产品涨价】面对飙升的通胀，印度的消费巨头们正越来越多地选择内部消化高昂的成本，而不是将其转嫁给财务吃紧的消费者。这表明，家庭购买力的下降已经开始挤压企业的利润空间。Westlife Foodworld Ltd. 是麦当劳在印度西部和南部快餐连锁店的运营商。该公司首席执行官 Akshay Jatia 在接受采访时表示，为了维持门店客流量，他们对超出常规年度涨幅的涨价“相当保守”。他说：“我们需要确保不会在那边搬起石头砸自己的脚。”Westlife 是至少 15 家对涨价持谨慎态度或维持原价的消费类企业之一。包括肯德基和必胜客运营商 Devyani International Ltd. 和 Sapphire Foods India Ltd.、领先的涂料制造商 Asian Paints Ltd. 以及零售商 V-Mart Retail Ltd. 在内的公司，均将需求前景的不均衡作为表达担忧的原因。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 10:36:36",
+      "text": "【银河证券：弹性板块贡献收入增量 传媒利润端业绩分化】中国银河证券发布研报称，2025年以来，受到AI相关催化以及部分行业业绩端的修复，行业年内涨幅明显，但这一涨幅在2026年内已基本抹平。展望未来，传媒行业的核心仍然是优质内容的生产创作，其处于传媒产业链和价值链的中上游位置，始终是行业的稀缺资源。因此优质的内容制作公司的长期价值不改。该行认为，尽管前期市场风格更偏好硬件侧AI基建，但随着硬件侧AI基建的不断发展，最终将传导至产业链下游板块，业绩驱动+AI赋能仍是传媒互联网行业增长的核心驱动力。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-09 10:33:25",
+      "text": "【全球AI大模型周调用量榜单出炉，中国产品拿下前五中四席：DeepSeek连续三周领跑，腾讯混元Hy4发布即跻身第四】OpenRouter最新数据测算，上周（11月2日至8日）全球AI大模型总调用量为210万亿Token，环比增长8.25%。其中，上榜的AI大模型中，中国AI大模型周调用量达116.18万亿Token，环比增长16.71%；同期美国AI大模型周量为13.98万亿Token，环比下滑32.4%。中国大模型周调用量连续二十八周超过美国，稳居全球首位。上周，全球调用量排名前五的AI大模型中，有四款中国大模型。其中，DeepSeek V4.1 Flash 1017连续三周位居第一，周调用量达56万亿Token，环比增长17%。（每经网）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-09 10:29:37",
       "text": "【北交所上市公司年内增持回购计划累计已达62家次】上市公司“护盘”仍在继续，增持回购成为有力抓手。数据显示，10月份以来，北交所上市公司新增披露增持计划7家（通宝广电、锦波生物、森合高科、基康技术、富士达、德众汽车、杰峰动力），拟增持金额约为1.31亿元，其中杰峰动力为实施稳价计划的增持，本年市场累计披露增持计划25家次；回购方面，10月份以来，北交所上市公司新增披露回购股份方案3家（新恒泰、路斯股份、能之光），拟回购金额区间为4860万元至9400万元，其中能之光使用了回购增持专项贷款。本年市场累计披露回购股份方案37家次。近两周以来，彩客科技、殷图网联、保丽洁、中纺标、明阳科技5家公司披露提前结束减持。",
@@ -94,42 +203,6 @@
     {
       "timestamp": "2026-11-09 10:02:55",
       "text": "菲律宾第三季度服务业同比增长3.7%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 10:02:14",
-      "text": "菲律宾第三季度GDP同比增长2.1% 预估为3.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 10:00:25",
-      "text": "【福建检察机关依法对尹建业涉嫌受贿案提起公诉】记者今天（9日）从最高人民检察院获悉，江西省政协原党组成员、副主席尹建业涉嫌受贿一案，由国家监察委员会调查终结，移送检察机关审查起诉。最高人民检察院依法以涉嫌受贿罪对尹建业作出逮捕决定，并指定由福建省漳州市人民检察院审查起诉。近日，漳州市人民检察院已向漳州市中级人民法院提起公诉。检察机关在审查起诉阶段，依法告知了被告人尹建业享有的诉讼权利，并讯问了被告人，听取了辩护人的意见。检察机关起诉指控：被告人尹建业利用担任云南省人民政府副秘书长，云南省审计厅厅长，云南省大理州委书记，云南省人民政府副省长，江西省人民政府副省长，江西省委常委、政法委书记等职务上的便利以及职权或者地位形成的便利条件，为他人谋取利益，非法收受他人财物，数额特别巨大，依法应当以受贿罪追究其刑事责任。（央视新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-09 09:59:11",
-      "text": "汇丰银行将印度股票评级上调至“增持”。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
