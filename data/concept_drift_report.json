@@ -2,191 +2,191 @@
   "regime_status": "MODERATE_DRIFT",
   "regime_desc": "市场发生中度风格轮动与量能变化，建议引入敏捷在线自适应",
   "drift_score": 0.6,
-  "avg_psi": 0.22687842427196908,
-  "drift_ratio": 0.7272727272727273,
-  "drift_count": 16,
+  "avg_psi": 0.20671474967196654,
+  "drift_ratio": 0.6818181818181818,
+  "drift_count": 15,
   "total_features": 22,
   "ref_sample_count": 3240,
   "recent_sample_count": 540,
   "feature_audit": [
     {
       "feature": "vpt_mom",
-      "ks_stat": 0.2111111111111111,
-      "ks_pvalue": 1.5467532527797423e-18,
-      "psi": 0.8600473742708855,
-      "psi_rating": "🔴 重度漂移 (Severe)",
-      "is_drifted": true
-    },
-    {
-      "feature": "vol20",
-      "ks_stat": 0.22469135802469137,
-      "ks_pvalue": 5.791592789256684e-21,
-      "psi": 0.5563769017102482,
-      "psi_rating": "🔴 重度漂移 (Severe)",
-      "is_drifted": true
-    },
-    {
-      "feature": "mom20",
-      "ks_stat": 0.14537037037037037,
-      "ks_pvalue": 5.544392026853623e-09,
-      "psi": 0.3823695659347455,
-      "psi_rating": "🔴 重度漂移 (Severe)",
-      "is_drifted": true
-    },
-    {
-      "feature": "residual_mom",
-      "ks_stat": 0.14506172839506173,
-      "ks_pvalue": 6.0289110287965455e-09,
-      "psi": 0.3432854877225597,
-      "psi_rating": "🔴 重度漂移 (Severe)",
-      "is_drifted": true
-    },
-    {
-      "feature": "downside_vol",
-      "ks_stat": 0.20401234567901236,
-      "ks_pvalue": 2.4864367208253832e-17,
-      "psi": 0.3194171942302266,
+      "ks_stat": 0.17222222222222222,
+      "ks_pvalue": 1.8918728672133177e-12,
+      "psi": 0.37933064537380135,
       "psi_rating": "🔴 重度漂移 (Severe)",
       "is_drifted": true
     },
     {
       "feature": "amihud_illiq",
-      "ks_stat": 0.1697530864197531,
-      "ks_pvalue": 4.175011066957384e-12,
-      "psi": 0.28334712539142903,
+      "ks_stat": 0.1993827160493827,
+      "ks_pvalue": 1.4429634779949103e-16,
+      "psi": 0.36588199422024376,
+      "psi_rating": "🔴 重度漂移 (Severe)",
+      "is_drifted": true
+    },
+    {
+      "feature": "vwap_div",
+      "ks_stat": 0.1478395061728395,
+      "ks_pvalue": 2.8180433726714896e-09,
+      "psi": 0.34220057391968367,
+      "psi_rating": "🔴 重度漂移 (Severe)",
+      "is_drifted": true
+    },
+    {
+      "feature": "volume_surge",
+      "ks_stat": 0.25030864197530867,
+      "ks_pvalue": 5.694522194914975e-26,
+      "psi": 0.32615777347811237,
+      "psi_rating": "🔴 重度漂移 (Severe)",
+      "is_drifted": true
+    },
+    {
+      "feature": "vol20",
+      "ks_stat": 0.18302469135802468,
+      "ks_pvalue": 5.1661255468501196e-14,
+      "psi": 0.31741804102683024,
       "psi_rating": "🔴 重度漂移 (Severe)",
       "is_drifted": true
     },
     {
       "feature": "vol60",
-      "ks_stat": 0.16512345679012347,
-      "ks_pvalue": 1.784658417862708e-11,
-      "psi": 0.27228406151325535,
+      "ks_stat": 0.19320987654320987,
+      "ks_pvalue": 1.4105770852176643e-15,
+      "psi": 0.3031760424768336,
       "psi_rating": "🔴 重度漂移 (Severe)",
-      "is_drifted": true
-    },
-    {
-      "feature": "gp_alpha_1",
-      "ks_stat": 0.179320987654321,
-      "ks_pvalue": 1.8208439966725207e-13,
-      "psi": 0.25200560700052554,
-      "psi_rating": "🔴 重度漂移 (Severe)",
-      "is_drifted": true
-    },
-    {
-      "feature": "tail_kurtosis",
-      "ks_stat": 0.1117283950617284,
-      "ks_pvalue": 1.7761243474869133e-05,
-      "psi": 0.24725611677124368,
-      "psi_rating": "🟡 轻度漂移 (Moderate)",
       "is_drifted": true
     },
     {
       "feature": "skewness",
-      "ks_stat": 0.15771604938271605,
-      "ks_pvalue": 1.6749205738484058e-10,
-      "psi": 0.24335410978997293,
-      "psi_rating": "🟡 轻度漂移 (Moderate)",
+      "ks_stat": 0.20895061728395062,
+      "ks_pvalue": 3.639385372563224e-18,
+      "psi": 0.3025028724118052,
+      "psi_rating": "🔴 重度漂移 (Severe)",
       "is_drifted": true
     },
     {
-      "feature": "vwap_div",
-      "ks_stat": 0.1095679012345679,
-      "ks_pvalue": 2.7731059545512763e-05,
-      "psi": 0.21922510885754776,
-      "psi_rating": "🟡 轻度漂移 (Moderate)",
+      "feature": "mom20",
+      "ks_stat": 0.09907407407407408,
+      "ks_pvalue": 0.0002131604880947199,
+      "psi": 0.291824741959678,
+      "psi_rating": "🔴 重度漂移 (Severe)",
       "is_drifted": true
     },
     {
-      "feature": "ma60_bias",
-      "ks_stat": 0.1169753086419753,
-      "ks_pvalue": 5.803737301620364e-06,
-      "psi": 0.2038385865006981,
-      "psi_rating": "🟡 轻度漂移 (Moderate)",
+      "feature": "residual_mom",
+      "ks_stat": 0.13364197530864197,
+      "ks_pvalue": 1.178615364887778e-07,
+      "psi": 0.28344803765704374,
+      "psi_rating": "🔴 重度漂移 (Severe)",
+      "is_drifted": true
+    },
+    {
+      "feature": "downside_vol",
+      "ks_stat": 0.17685185185185184,
+      "ks_pvalue": 4.155717024739738e-13,
+      "psi": 0.2513695930015808,
+      "psi_rating": "🔴 重度漂移 (Severe)",
       "is_drifted": true
     },
     {
       "feature": "mom5",
-      "ks_stat": 0.09135802469135802,
-      "ks_pvalue": 0.0008372498947688193,
-      "psi": 0.14995851550694897,
+      "ks_stat": 0.1447530864197531,
+      "ks_pvalue": 6.5545869376255125e-09,
+      "psi": 0.22659968579944578,
+      "psi_rating": "🟡 轻度漂移 (Moderate)",
+      "is_drifted": true
+    },
+    {
+      "feature": "tail_kurtosis",
+      "ks_stat": 0.11512345679012345,
+      "ks_pvalue": 8.664037117957874e-06,
+      "psi": 0.22310788062141348,
       "psi_rating": "🟡 轻度漂移 (Moderate)",
       "is_drifted": true
     },
     {
       "feature": "mom120",
-      "ks_stat": 0.13734567901234568,
-      "ks_pvalue": 4.6171549206323286e-08,
-      "psi": 0.1427246499416423,
+      "ks_stat": 0.13364197530864197,
+      "ks_pvalue": 1.178615364887778e-07,
+      "psi": 0.21117092624030145,
       "psi_rating": "🟡 轻度漂移 (Moderate)",
       "is_drifted": true
     },
     {
-      "feature": "gp_alpha_2",
-      "ks_stat": 0.12129629629629629,
-      "ks_pvalue": 2.2222009940953993e-06,
-      "psi": 0.1052203999785725,
+      "feature": "ma60_bias",
+      "ks_stat": 0.1,
+      "ks_pvalue": 0.0001795385792675609,
+      "psi": 0.15318751641792255,
       "psi_rating": "🟡 轻度漂移 (Moderate)",
       "is_drifted": true
     },
     {
       "feature": "mom60",
-      "ks_stat": 0.10555555555555556,
-      "ks_pvalue": 6.197520798279611e-05,
-      "psi": 0.10436577389752227,
+      "ks_stat": 0.07376543209876543,
+      "ks_pvalue": 0.012501217720110829,
+      "psi": 0.12839020943991156,
+      "psi_rating": "🟡 轻度漂移 (Moderate)",
+      "is_drifted": false
+    },
+    {
+      "feature": "gp_alpha_2",
+      "ks_stat": 0.1339506172839506,
+      "ks_pvalue": 1.0911535553278869e-07,
+      "psi": 0.10542071028202428,
       "psi_rating": "🟡 轻度漂移 (Moderate)",
       "is_drifted": true
     },
     {
-      "feature": "volume_surge",
-      "ks_stat": 0.09444444444444444,
-      "ks_pvalue": 0.0004909065829987129,
-      "psi": 0.0887208425582759,
-      "psi_rating": "🟢 稳定 (Stable)",
-      "is_drifted": false
-    },
-    {
-      "feature": "gp_alpha_3",
-      "ks_stat": 0.1,
-      "ks_pvalue": 0.0001795385792675609,
-      "psi": 0.07664797406423342,
+      "feature": "gp_alpha_1",
+      "ks_stat": 0.10308641975308643,
+      "ks_pvalue": 0.00010014408577730325,
+      "psi": 0.08645195774654665,
       "psi_rating": "🟢 稳定 (Stable)",
       "is_drifted": false
     },
     {
       "feature": "graph_catchup_potential",
-      "ks_stat": 0.08641975308641975,
-      "ks_pvalue": 0.0018955970778870795,
-      "psi": 0.06384460488581656,
+      "ks_stat": 0.09290123456790124,
+      "ks_pvalue": 0.0006425304580409321,
+      "psi": 0.0816442450977837,
       "psi_rating": "🟢 稳定 (Stable)",
       "is_drifted": false
     },
     {
       "feature": "turnover_stability",
-      "ks_stat": 0.08981481481481482,
-      "ks_pvalue": 0.0010861346094237698,
-      "psi": 0.05314737610006271,
+      "ks_stat": 0.05308641975308642,
+      "ks_pvalue": 0.14349860545213985,
+      "psi": 0.06875250767950511,
+      "psi_rating": "🟢 稳定 (Stable)",
+      "is_drifted": false
+    },
+    {
+      "feature": "gp_alpha_3",
+      "ks_stat": 0.08302469135802469,
+      "ks_pvalue": 0.0032378981978522688,
+      "psi": 0.06017477813549069,
       "psi_rating": "🟢 稳定 (Stable)",
       "is_drifted": false
     },
     {
       "feature": "graph_upstream_shock",
-      "ks_stat": 0.041666666666666664,
-      "ks_pvalue": 0.390182229508465,
-      "psi": 0.016046455955764035,
+      "ks_stat": 0.04660493827160494,
+      "ks_pvalue": 0.26138081510723893,
+      "psi": 0.032505288084359214,
       "psi_rating": "🟢 稳定 (Stable)",
       "is_drifted": false
     },
     {
       "feature": "graph_peer_lead",
-      "ks_stat": 0.024382716049382715,
-      "ks_pvalue": 0.9415851935088093,
-      "psi": 0.007841501401143596,
+      "ks_stat": 0.0345679012345679,
+      "ks_pvalue": 0.6287299158625614,
+      "psi": 0.007008471712946485,
       "psi_rating": "🟢 稳定 (Stable)",
       "is_drifted": false
     }
   ],
   "w_fast": 0.5,
   "w_long": 0.5,
-  "updated_at": "2026-11-05 18:10:20"
+  "updated_at": "2026-11-08 18:10:27"
 }

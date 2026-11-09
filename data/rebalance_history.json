@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 52,
+    "total_trades_100k": 54,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-11-05 18:10:58"
+    "last_rebalance_time_100k": "2026-11-08 18:15:16"
   },
   "trades_1m": [
     {
@@ -1132,6 +1132,40 @@
       "fee": 8.86,
       "saved_bps": 2.1,
       "reason": "HYSTERESIS_ENTRY"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-11-08 18:15:16",
+      "contract_id": "WT-20261108-0073",
+      "action": "SELL",
+      "ticker": "300274.SZ",
+      "name": "阳光电源",
+      "shares": 400,
+      "price": 79.58,
+      "amount": 31832.0,
+      "fee": 22.28,
+      "saved_bps": 1.9,
+      "pnl": 1088.0,
+      "pnl_pct": 3.54,
+      "reason": "TAKE_PROFIT"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-11-08 18:15:16",
+      "contract_id": "WT-20261108-0074",
+      "action": "SELL",
+      "ticker": "688223.SS",
+      "name": "晶科能源",
+      "shares": 9800,
+      "price": 4.32,
+      "amount": 42336.0,
+      "fee": 29.64,
+      "saved_bps": 1.9,
+      "pnl": -1960.0,
+      "pnl_pct": -4.42,
+      "reason": "STOP_LOSS"
     }
   ]
 }

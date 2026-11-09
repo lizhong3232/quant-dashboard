@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-05 18:10:56.615175",
+  "timestamp": "2026-11-08 18:15:15.351277",
   "model": "LightGBM GBDT Regressor (16 Microstructure Factors)",
   "features": [
     "mom5",
@@ -26,137 +26,137 @@
     "graph_catchup_potential"
   ],
   "feature_importance": {
-    "amihud_illiq": 113,
-    "skewness": 110,
-    "gp_alpha_1": 98,
-    "vol60": 85,
-    "downside_vol": 82,
-    "tail_kurtosis": 77,
-    "ma60_bias": 76,
-    "mom20": 73,
-    "vol20": 68,
-    "mom120": 62,
-    "gp_alpha_3": 61,
-    "turnover_stability": 56,
-    "residual_mom": 51,
-    "volume_surge": 47,
-    "vpt_mom": 47,
-    "gp_alpha_2": 39,
-    "mom60": 39,
-    "graph_catchup_potential": 35,
-    "graph_peer_lead": 33,
-    "vwap_div": 27,
-    "mom5": 27,
-    "graph_upstream_shock": 16
+    "skewness": 133,
+    "amihud_illiq": 120,
+    "gp_alpha_1": 101,
+    "vol20": 83,
+    "downside_vol": 78,
+    "mom120": 76,
+    "vol60": 75,
+    "tail_kurtosis": 75,
+    "ma60_bias": 67,
+    "gp_alpha_3": 63,
+    "mom20": 63,
+    "volume_surge": 61,
+    "turnover_stability": 54,
+    "gp_alpha_2": 52,
+    "residual_mom": 49,
+    "vpt_mom": 44,
+    "mom60": 41,
+    "graph_peer_lead": 38,
+    "mom5": 31,
+    "graph_catchup_potential": 23,
+    "vwap_div": 19,
+    "graph_upstream_shock": 15
   },
   "portfolio": [
     {
-      "ticker": "600436.SS",
-      "name": "片仔癀",
-      "industry": "医药生物",
-      "last_price": 135.6,
-      "pure_ai_alpha": 2.194490413884966,
+      "ticker": "000858.SZ",
+      "name": "五粮液",
+      "industry": "食品饮料",
+      "last_price": 74.83,
+      "pure_ai_alpha": 1.9320885429659749,
       "opt_weight_pct": 12.0,
-      "shares": 800
+      "shares": 1600
     },
     {
       "ticker": "601088.SS",
       "name": "中国神华",
       "industry": "煤炭能源",
-      "last_price": 48.05,
-      "pure_ai_alpha": 1.9967965819947828,
+      "last_price": 49.4,
+      "pure_ai_alpha": 1.4555586331185382,
       "opt_weight_pct": 12.0,
       "shares": 2400
     },
     {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "industry": "汽车制造",
-      "last_price": 85.6,
-      "pure_ai_alpha": 1.0768888468832993,
+      "ticker": "601166.SS",
+      "name": "兴业银行",
+      "industry": "银行金融",
+      "last_price": 19.59,
+      "pure_ai_alpha": 1.3967182041719644,
       "opt_weight_pct": 12.0,
-      "shares": 1400
+      "shares": 6100
     },
     {
-      "ticker": "601138.SS",
-      "name": "工业富联",
+      "ticker": "600436.SS",
+      "name": "片仔癀",
+      "industry": "医药生物",
+      "last_price": 135.28,
+      "pure_ai_alpha": 1.2593870451922882,
+      "opt_weight_pct": 12.0,
+      "shares": 800
+    },
+    {
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
       "industry": "电子科技",
-      "last_price": 41.06,
-      "pure_ai_alpha": 0.9863550476671856,
+      "last_price": 78.51,
+      "pure_ai_alpha": 1.2309467742399094,
       "opt_weight_pct": 12.0,
-      "shares": 2900
+      "shares": 1500
     },
     {
-      "ticker": "600900.SS",
-      "name": "长江电力",
-      "industry": "公用事业",
-      "last_price": 29.59,
-      "pure_ai_alpha": 0.9726427640001799,
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
+      "industry": "电力设备",
+      "last_price": 250.41,
+      "pure_ai_alpha": 1.2191969645766636,
       "opt_weight_pct": 12.0,
-      "shares": 4000
-    },
-    {
-      "ticker": "601766.SS",
-      "name": "中国中车",
-      "industry": "机械装备",
-      "last_price": 6.5,
-      "pure_ai_alpha": 0.9237500153418652,
-      "opt_weight_pct": 12.0,
-      "shares": 18400
-    },
-    {
-      "ticker": "002415.SZ",
-      "name": "海康威视",
-      "industry": "电子科技",
-      "last_price": 35.47,
-      "pure_ai_alpha": 0.7577204192632099,
-      "opt_weight_pct": 12.0,
-      "shares": 3300
-    },
-    {
-      "ticker": "600028.SS",
-      "name": "中国石化",
-      "industry": "石油石化",
-      "last_price": 5.69,
-      "pure_ai_alpha": 0.689854970464592,
-      "opt_weight_pct": 3.0,
-      "shares": 5200
-    },
-    {
-      "ticker": "000858.SZ",
-      "name": "五粮液",
-      "industry": "食品饮料",
-      "last_price": 75.2,
-      "pure_ai_alpha": 0.5399772784373735,
-      "opt_weight_pct": 2.0,
-      "shares": 200
-    },
-    {
-      "ticker": "600584.SS",
-      "name": "长电科技",
-      "industry": "电子科技",
-      "last_price": 52.16,
-      "pure_ai_alpha": 0.34242572698589735,
-      "opt_weight_pct": 2.0,
-      "shares": 300
+      "shares": 400
     },
     {
       "ticker": "000333.SZ",
       "name": "美的集团",
       "industry": "家用电器",
-      "last_price": 89.33,
-      "pure_ai_alpha": 0.3014002863803866,
-      "opt_weight_pct": 2.0,
-      "shares": 200
+      "last_price": 89.1,
+      "pure_ai_alpha": 1.1084137495448083,
+      "opt_weight_pct": 12.0,
+      "shares": 1300
     },
     {
-      "ticker": "600030.SS",
-      "name": "中信证券",
-      "industry": "非银金融",
-      "last_price": 25.72,
-      "pure_ai_alpha": 0.19110311807584576,
+      "ticker": "601766.SS",
+      "name": "中国中车",
+      "industry": "机械装备",
+      "last_price": 6.46,
+      "pure_ai_alpha": 0.5497764116162925,
+      "opt_weight_pct": 3.0,
+      "shares": 4600
+    },
+    {
+      "ticker": "600028.SS",
+      "name": "中国石化",
+      "industry": "石油石化",
+      "last_price": 5.86,
+      "pure_ai_alpha": 0.478326426277127,
       "opt_weight_pct": 2.0,
-      "shares": 700
+      "shares": 3400
+    },
+    {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "industry": "电子科技",
+      "last_price": 109.94,
+      "pure_ai_alpha": 0.21212550868501426,
+      "opt_weight_pct": 2.0,
+      "shares": 100
+    },
+    {
+      "ticker": "002415.SZ",
+      "name": "海康威视",
+      "industry": "电子科技",
+      "last_price": 34.81,
+      "pure_ai_alpha": 0.20604092731807425,
+      "opt_weight_pct": 2.0,
+      "shares": 500
+    },
+    {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "industry": "汽车制造",
+      "last_price": 85.01,
+      "pure_ai_alpha": 0.03668192257340339,
+      "opt_weight_pct": 2.0,
+      "shares": 200
     }
   ]
 }

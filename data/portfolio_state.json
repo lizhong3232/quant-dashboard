@@ -1,63 +1,63 @@
 {
   "initial_capital": 1000000.0,
-  "cash": 162540.31,
-  "portfolio_value": 930738.31,
+  "cash": 178186.71,
+  "portfolio_value": 935400.71,
   "positions": {
     "601088.SS": {
       "name": "中国神华",
-      "shares": 2600,
+      "shares": 2300,
       "avg_cost": 47.604,
-      "last_price": 48.54,
-      "market_value": 126204.0
+      "last_price": 49.4,
+      "market_value": 113620.0
     },
     "002594.SZ": {
       "name": "比亚迪",
-      "shares": 1400,
+      "shares": 1000,
       "avg_cost": 84.87,
-      "last_price": 85.23,
-      "market_value": 119322.0
-    },
-    "600887.SS": {
-      "name": "伊利股份",
-      "shares": 1900,
-      "avg_cost": 27.826,
-      "last_price": 31.45,
-      "market_value": 59755.0
+      "last_price": 85.01,
+      "market_value": 85010.0
     },
     "600436.SS": {
       "name": "片仔癀",
-      "shares": 800,
-      "avg_cost": 126.915,
-      "last_price": 136.0,
-      "market_value": 108800.0
+      "shares": 1000,
+      "avg_cost": 128.591,
+      "last_price": 135.27,
+      "market_value": 135270.0
     },
     "601766.SS": {
       "name": "中国中车",
-      "shares": 16400,
+      "shares": 15500,
       "avg_cost": 6.351,
-      "last_price": 6.55,
-      "market_value": 107420.0
+      "last_price": 6.45,
+      "market_value": 99975.0
     },
-    "601138.SS": {
-      "name": "工业富联",
-      "shares": 2200,
-      "avg_cost": 43.659,
-      "last_price": 40.71,
-      "market_value": 89562.0
+    "300750.SZ": {
+      "name": "宁德时代",
+      "shares": 300,
+      "avg_cost": 250.71,
+      "last_price": 250.66,
+      "market_value": 75198.0
     },
-    "600028.SS": {
-      "name": "中国石化",
-      "shares": 14200,
-      "avg_cost": 5.881,
-      "last_price": 5.8,
-      "market_value": 82360.0
+    "000333.SZ": {
+      "name": "美的集团",
+      "shares": 1000,
+      "avg_cost": 89.108,
+      "last_price": 89.09,
+      "market_value": 89090.0
     },
-    "600900.SS": {
-      "name": "长江电力",
-      "shares": 2500,
-      "avg_cost": 29.796,
-      "last_price": 29.91,
-      "market_value": 74775.0
+    "601166.SS": {
+      "name": "兴业银行",
+      "shares": 4300,
+      "avg_cost": 19.604,
+      "last_price": 19.6,
+      "market_value": 84280.0
+    },
+    "000858.SZ": {
+      "name": "五粮液",
+      "shares": 1000,
+      "avg_cost": 74.855,
+      "last_price": 74.84,
+      "market_value": 74840.0
     }
   },
   "benchmark": {
@@ -67,7 +67,7 @@
     "last_price": 4.124,
     "nav": 0.8934
   },
-  "account_nav": 0.9307,
+  "account_nav": 0.9354,
   "nav_history": [
     {
       "date": "2026-09-06",
