@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-09 18:30:17",
+  "audit_time": "2026-11-09 18:45:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,82 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-10 10:43:52",
+      "text": "中国10月大豆进口734.5万吨，同比下降22.5%；原油进口4,193.8万吨，同比下降13.3%；铁矿砂及其精矿进口10,565.8万吨，同比下降5.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-10 10:42:38",
+      "text": "【中国10月集成电路出口395.94亿美元，同比增长137.1%】海关总署数据显示，中国10月集成电路出口395.94亿美元，同比增长137.1%；稀土出口8223.99万美元，同比增长45%；汽车出口196.92亿美元，同比增长37.6%；手机出口175.69亿美元，同比增长13.2%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-10 10:42:22",
+      "text": "【PCB概念持续走高 肯特股份等涨停】PCB概念持续走高，截至发稿，肯特股份、协和电子、澳弘电子涨停，迅捷兴、沪电股份等跟涨。",
+      "analysis": {
+        "matched_tickers": [
+          "002463.SZ"
+        ],
+        "matched_names": [
+          "沪电股份"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-10 10:35:32",
+      "text": "【2026年10月份北京工业生产者出厂价格同比下降1.7%】10月份，北京工业生产者出厂价格同比下降1.7%、环比下降0.8%；工业生产者购进价格同比上涨1.4%、环比上涨0.8%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-10 10:31:25",
+      "text": "【前10个月我国货物贸易进出口44.81万亿元 同比增长20%】据海关统计，今年前10个月，我国货物贸易进出口总值44.81万亿元，同比增长20%，保持了强劲增长态势。其中，出口25.99万亿元，增长17.6%；进口18.82万亿元，增长23.6%。10月份，进出口4.87万亿元，增长31.2%。其中，出口2.79万亿元，增长28.7%；进口2.08万亿元，增长34.7%。 截至10月份，我国进口、出口都已经连续6个月保持两位数增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-10 10:30:59",
+      "text": "中国10月以美元计价出口同比增长35.2%; 预估为+36.3%。中国10月以美元计价进口同比增长41.6%; 预估为+33.9%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-10 10:28:17",
       "text": "【广东省自然资源保护利用“十五五”规划印发 到2030年海洋产业生产总值将达2.8万亿元】据南方日报，近日，《广东省自然资源保护利用“十五五”规划》正式印发。“十五五”时期，广东将盘活超25万亩存量土地和低效用地；单位GDP建设用地使用面积较2020年下降27.5%及以上，到2030年全省海洋产业生产总值将达2.8万亿元，林业产业总产值将达1.3万亿元。",
@@ -96,46 +172,6 @@
     {
       "timestamp": "2026-11-10 09:42:49",
       "text": "【PCB概念表现活跃 迅捷兴涨超12%】PCB概念表现活跃，迅捷兴涨超12%，沪电股份、瑞丰高材、广合科技、南亚新材跟涨。",
-      "analysis": {
-        "matched_tickers": [
-          "002463.SZ"
-        ],
-        "matched_names": [
-          "沪电股份"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-10 09:38:12",
-      "text": "美国司法部表示，诉讼旨在为据称受到Lyft歧视的残疾人寻求5300万美元赔偿。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-10 09:37:28",
-      "text": "美国司法部表示，已对 Lyft 提起诉讼，原因是该公司拒绝为携带服务犬和乘坐轮椅的乘客提供乘车服务。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-10 09:32:03",
-      "text": "【PCB概念板块冲高，光洋股份涨停】PCB概念板块冲高，光洋股份涨停，沪电股份、深南电路、生益科技、超声电子跟涨。",
       "analysis": {
         "matched_tickers": [
           "002463.SZ"
