@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-09 20:15:17",
+  "audit_time": "2026-11-09 20:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -28,13 +28,25 @@
       "ticker": "002463.SZ",
       "name": "沪电股份",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-10 12:28:48",
+      "text": "【新加坡推出面向海外央行及官方机构的黄金托管服务】新加坡已面向海外央行及官方机构推出黄金托管服务，旨在把握全球对黄金储备多元化存储日益增长的需求。新加坡金融管理局（MAS）周二在一份声明中表示，这些贵金属将存放在该城邦的国家货币金库内。该金库目前容量高达500吨，并可根据需求增长进行扩容。新加坡副总理兼新加坡金管局主席颜金勇（Gan Kim Yong）在金管局办公室对记者表示：“新加坡无意取代其他黄金中心或黄金托管服务。随着各国将黄金作为储备资产的需求日益增长，我认为各国央行也在寻求替代方案，希望获得更多选择，以增强其黄金储备的韧性。”颜金勇补充说，海外央行已对在新加坡存放黄金表达了兴趣，但他拒绝透露具体是哪些国家或机构。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-10 12:01:02",
       "text": "【港股午评：恒生指数涨0.29%，恒生科技指数涨0.70%】智谱涨11.89%，天数智芯涨9.06%，MINIMAX-W涨7.06%，地平线机器人-W涨5.17%，中芯国际涨3.91%，洛阳钼业涨3.80%，舜宇光学科技涨3.33%。",
@@ -177,46 +189,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-10 10:43:52",
-      "text": "中国10月大豆进口734.5万吨，同比下降22.5%；原油进口4,193.8万吨，同比下降13.3%；铁矿砂及其精矿进口10,565.8万吨，同比下降5.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-10 10:42:38",
-      "text": "【中国10月集成电路出口395.94亿美元，同比增长137.1%】海关总署数据显示，中国10月集成电路出口395.94亿美元，同比增长137.1%；稀土出口8223.99万美元，同比增长45%；汽车出口196.92亿美元，同比增长37.6%；手机出口175.69亿美元，同比增长13.2%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-10 10:42:22",
-      "text": "【PCB概念持续走高 肯特股份等涨停】PCB概念持续走高，截至发稿，肯特股份、协和电子、澳弘电子涨停，迅捷兴、沪电股份等跟涨。",
-      "analysis": {
-        "matched_tickers": [
-          "002463.SZ"
-        ],
-        "matched_names": [
-          "沪电股份"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
