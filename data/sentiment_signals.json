@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-09 18:45:17",
+  "audit_time": "2026-11-09 19:00:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,7 +10,7 @@
       "ticker": "002463.SZ",
       "name": "沪电股份",
       "avg_sentiment": 0.0,
-      "news_count": 3,
+      "news_count": 2,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
@@ -167,22 +167,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-10 09:42:49",
-      "text": "【PCB概念表现活跃 迅捷兴涨超12%】PCB概念表现活跃，迅捷兴涨超12%，沪电股份、瑞丰高材、广合科技、南亚新材跟涨。",
-      "analysis": {
-        "matched_tickers": [
-          "002463.SZ"
-        ],
-        "matched_names": [
-          "沪电股份"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
