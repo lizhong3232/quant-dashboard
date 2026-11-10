@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-09 18:15:18",
+  "audit_time": "2026-11-09 18:30:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 6,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,13 +10,65 @@
       "ticker": "002463.SZ",
       "name": "沪电股份",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 3,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-10 10:28:17",
+      "text": "【广东省自然资源保护利用“十五五”规划印发 到2030年海洋产业生产总值将达2.8万亿元】据南方日报，近日，《广东省自然资源保护利用“十五五”规划》正式印发。“十五五”时期，广东将盘活超25万亩存量土地和低效用地；单位GDP建设用地使用面积较2020年下降27.5%及以上，到2030年全省海洋产业生产总值将达2.8万亿元，林业产业总产值将达1.3万亿元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-10 10:28:12",
+      "text": "【广东省自然资源保护利用“十五五”规划印发 到2030年海洋产业生产总值将达2.8万亿元】据南方日报，近日，《广东省自然资源保护利用“十五五”规划》（下称《规划》）正式印发。“十五五”时期，广东将盘活超25万亩存量土地和低效用地；单位GDP建设用地使用面积较2020年下降27.5%及以上，到2030年全省海洋产业生产总值将达2.8万亿元，林业产业总产值将达1.3万亿元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-10 10:21:01",
+      "text": "PCB概念板块走高，新北洋涨停，光洋股份此前封板，肯特股份涨超10%，澳弘电子、迅捷兴、威尔高、沪电股份、南亚新材等跟涨。",
+      "analysis": {
+        "matched_tickers": [
+          "002463.SZ"
+        ],
+        "matched_names": [
+          "沪电股份"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-10 10:16:44",
+      "text": "【足力健创始人被列为老赖】天眼查显示，近日，足力健老人鞋创始人张京康、张少康、辛俊兰及睢县足力健鞋业有限公司因有履行能力而拒不履行生效法律文书确定义务被肥西县人民法院列为失信被执行人（老赖），涉案金额195.42万余元。睢县足力健鞋业有限公司成立于2017年12月，法定代表人张京康，注册资本约1亿元，经营范围包含生产销售鞋及鞋材、健身器材、足疗机、按摩器械销售等，由张京康、张少康共同持股。值得一提的是，张京康名下多家公司已成失信被执行人（老赖）并被限制高消费。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "流动性与债务违约",
+        "sentiment_score": -0.9,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
     {
       "timestamp": "2026-11-10 10:07:14",
       "text": "ELECTRO OPTIC SYSTEMS：与约旦客户签订价值1600万美元的反无人机防御系统合同。",
