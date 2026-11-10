@@ -1,11 +1,11 @@
 {
   "summary": {
     "total_trades_1m": 19,
-    "total_trades_100k": 54,
+    "total_trades_100k": 55,
     "avg_saved_slippage_bps": 1.89,
     "stop_loss_execution_rate": "100.0%",
     "last_rebalance_time_1m": "2026-09-08 09:30:00 CST (实施进攻期增仓与负Alpha大扫除, 权益升至82.5%)",
-    "last_rebalance_time_100k": "2026-11-08 18:15:16"
+    "last_rebalance_time_100k": "2026-11-09 18:11:15"
   },
   "trades_1m": [
     {
@@ -1166,6 +1166,21 @@
       "pnl": -1960.0,
       "pnl_pct": -4.42,
       "reason": "STOP_LOSS"
+    },
+    {
+      "account": "100k",
+      "account_name": "10万激进高弹性",
+      "timestamp": "2026-11-09 18:11:15",
+      "contract_id": "WT-20261109-0075",
+      "action": "BUY",
+      "ticker": "300502.SZ",
+      "name": "新易盛",
+      "shares": 200,
+      "price": 186.18,
+      "amount": 37236.0,
+      "fee": 7.45,
+      "saved_bps": 2.1,
+      "reason": "消灭现金拖累·动用闲置资金建仓强Alpha龙头 (AI服务器与PCB高多层突破)"
     }
   ]
 }
