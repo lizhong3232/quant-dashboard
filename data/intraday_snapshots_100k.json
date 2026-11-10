@@ -2,84 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-14 14:00:15 CST",
-    "time_str": "14:00",
-    "date_str": "2026-10-14",
-    "portfolio_value": 87143.79,
-    "cash": 64148.79,
-    "stock_market_value": 22995.0,
-    "cash_ratio_pct": 73.61,
-    "stock_ratio_pct": 26.39,
-    "account_nav": 0.8714,
-    "bench_nav": 0.932,
-    "bench_change_pct": -0.99,
-    "alpha_pct": -6.06,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "688111.SS",
-        "name": "金山办公",
-        "shares": 100,
-        "avg_cost": 231.17,
-        "last_price": 229.95,
-        "market_value": 22995.0,
-        "change_pct": -1.07,
-        "pnl": -122.0,
-        "pnl_pct": -0.53,
-        "ofi": -0.051,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 26.39
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 87143.79,
-      "cash": 64148.79,
-      "stock_market_value": 22995.0,
-      "cash_ratio_pct": 73.61,
-      "stock_ratio_pct": 26.39,
-      "account_nav": 0.8714,
-      "bench_nav": 0.932,
-      "alpha_pct": -6.06,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "688111.SS",
-          "name": "金山办公",
-          "shares": 100,
-          "avg_cost": 231.17,
-          "last_price": 229.95,
-          "market_value": 22995.0,
-          "change_pct": -1.07,
-          "pnl": -122.0,
-          "pnl_pct": -0.53,
-          "ofi": -0.051,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 26.39
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，金山办公高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 金山办公 (688111.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (金山办公 (688111.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-14 14:15:26 CST",
     "time_str": "14:15",
     "date_str": "2026-10-14",
@@ -32766,6 +32688,95 @@
           "sentiment": "消极承压",
           "score": -0.4,
           "summary": "【政策稳市与估值低位共振，沪深300ETF华泰柏瑞（510300）备受资金关注，最新规模达1929亿元领跑非货ETF】11月10日，截至午盘，沪深300ETF华泰柏瑞（510300）涨0.07%，成交额21.42亿元。重仓股方面，新易盛涨5.68%，中际旭创涨4.94%，药明康德涨0.19%。流动性方面，该基金最新规模达1928.84亿元，稳居非货币ETF规模榜首，流动性优势凸显。消息面上，日前国务院常务会议指出，要完善资本市场稳市机制，增强股市内在稳定性，促进资本市场平稳健康发展。此前，央行、金融监管总局、证监会等部门连开两场座谈会并出台稳市政策。稳市正从临时性、应急式干预，转向可预期、可持续的制度性安排。国泰海通证券表示，目前年内大盘调整空间已比较充分，多个指数估值处于历史偏低位置；央行、证监会正在加大稳市力度，互换便利之后，回购再贷款也将推动形成稳市增量。当前市场已处于底部位置，仍认为时机正在接近，年底年初将会有更好的条件。配置上建议均衡配置，重点布局“微观结构健康”与“预期能够上修”的板块。国金证券表示，考虑到中国资产内生的稳定性依然牢固，叠加近期维稳政策力度加强，中国资产吸引力正在增强。AI减速下资本成本下降路径已经清晰，前半段冲击来自资本回报同步下降，后半段全球将迎来机遇。在产品费率方面，沪深300ETF华泰柏瑞（510300）的管理费率、托管费率分别为0.15%/年、0.05%/年，是当前A股市场权益指数产品中的最低一档费率结构水平。投资者可借道该产品，以均衡策略关注年末行情。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-10 14:00:21 CST",
+    "time_str": "14:00",
+    "date_str": "2026-11-10",
+    "portfolio_value": 81921.65,
+    "cash": 44873.65,
+    "stock_market_value": 37048.0,
+    "cash_ratio_pct": 54.78,
+    "stock_ratio_pct": 45.22,
+    "account_nav": 0.8192,
+    "bench_nav": 0.8964,
+    "bench_change_pct": 0.19,
+    "alpha_pct": -7.72,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 200,
+        "avg_cost": 186.18,
+        "last_price": 185.24,
+        "market_value": 37048.0,
+        "change_pct": 5.25,
+        "pnl": -188.0,
+        "pnl_pct": -0.5,
+        "ofi": -0.039,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 45.22
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 81921.65,
+      "cash": 44873.65,
+      "stock_market_value": 37048.0,
+      "cash_ratio_pct": 54.78,
+      "stock_ratio_pct": 45.22,
+      "account_nav": 0.8192,
+      "bench_nav": 0.8964,
+      "alpha_pct": -7.72,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 200,
+          "avg_cost": 186.18,
+          "last_price": 185.24,
+          "market_value": 37048.0,
+          "change_pct": 5.25,
+          "pnl": -188.0,
+          "pnl_pct": -0.5,
+          "ofi": -0.039,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 45.22
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
         }
       ],
       "nlp_score": 0.62,
