@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 44873.65,
-  "portfolio_value": 82109.65,
-  "account_nav": 0.8211,
+  "portfolio_value": 81633.65,
+  "account_nav": 0.8163,
   "bench_nav": 1.0017,
   "positions": {
     "300502.SZ": {
       "name": "新易盛",
       "shares": 200,
       "avg_cost": 186.18,
-      "last_price": 186.18,
-      "market_value": 37236.0,
+      "last_price": 183.8,
+      "market_value": 36760.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 186.18
@@ -25,10 +25,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-09 18:11:15",
+  "last_updated": "2026-11-10 00:05:10",
   "benchmark": {
-    "last_price": 4.124,
-    "nav": 0.8934
+    "last_price": 4.135,
+    "nav": 0.8958
   },
   "nav_history": [
     {
@@ -336,6 +336,15 @@
       "account_nav": 0.8371,
       "bench_nav": 0.8934,
       "alpha": -5.63
+    },
+    {
+      "timestamp": "2026-11-10 00:05:10",
+      "date": "2026-11-10",
+      "cash": 44873.65,
+      "portfolio_value": 81633.65,
+      "account_nav": 0.8163,
+      "bench_nav": 0.8958,
+      "alpha": -7.95
     }
   ]
 }
