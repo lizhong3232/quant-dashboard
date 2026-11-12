@@ -2,112 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-15 13:45:12 CST",
-    "time_str": "13:45",
-    "date_str": "2026-10-15",
-    "portfolio_value": 88345.8,
-    "cash": 19189.8,
-    "stock_market_value": 69156.0,
-    "cash_ratio_pct": 21.72,
-    "stock_ratio_pct": 78.28,
-    "account_nav": 0.8835,
-    "bench_nav": 0.9155,
-    "bench_change_pct": -1.58,
-    "alpha_pct": -3.2,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "688111.SS",
-        "name": "金山办公",
-        "shares": 100,
-        "avg_cost": 231.17,
-        "last_price": 232.06,
-        "market_value": 23206.0,
-        "change_pct": 1.22,
-        "pnl": 89.0,
-        "pnl_pct": 0.38,
-        "ofi": 0.113,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 26.27
-      },
-      {
-        "ticker": "300059.SZ",
-        "name": "东方财富",
-        "shares": 2500,
-        "avg_cost": 17.98,
-        "last_price": 18.38,
-        "market_value": 45950.0,
-        "change_pct": 2.22,
-        "pnl": 1000.0,
-        "pnl_pct": 2.22,
-        "ofi": 0.219,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 52.01
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 88345.8,
-      "cash": 19189.8,
-      "stock_market_value": 69156.0,
-      "cash_ratio_pct": 21.72,
-      "stock_ratio_pct": 78.28,
-      "account_nav": 0.8835,
-      "bench_nav": 0.9155,
-      "alpha_pct": -3.2,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "688111.SS",
-          "name": "金山办公",
-          "shares": 100,
-          "avg_cost": 231.17,
-          "last_price": 232.06,
-          "market_value": 23206.0,
-          "change_pct": 1.22,
-          "pnl": 89.0,
-          "pnl_pct": 0.38,
-          "ofi": 0.113,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 26.27
-        },
-        {
-          "ticker": "300059.SZ",
-          "name": "东方财富",
-          "shares": 2500,
-          "avg_cost": 17.98,
-          "last_price": 18.38,
-          "market_value": 45950.0,
-          "change_pct": 2.22,
-          "pnl": 1000.0,
-          "pnl_pct": 2.22,
-          "ofi": 0.219,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 52.01
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，金山办公、东方财富高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 金山办公 (688111.SS) | 东方财富 (300059.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (金山办公 (688111.SS) | 东方财富 (300059.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-15 14:00:13 CST",
     "time_str": "14:00",
     "date_str": "2026-10-15",
@@ -32599,6 +32493,105 @@
           "sentiment": "中性资讯",
           "score": 0.0,
           "summary": "【A股收评：创业板指低开高走涨超3%，算力硬件股午后爆发】A股三大指数今日集体上涨，截至午盘，上证指数涨0.46%，深证成指涨1.32%，创业板指涨3.11%，北证50涨2.3%，科创50指数涨2.8%。全市场成交额16887亿元，较上日放量1719亿元，全市场超3500只个股上涨。板块题材上，元件、CPO、光纤概念、PCB概念、游戏、半导体板块涨幅居前；白酒、机场航运、乳业、猪肉、免税店板块跌幅居前。盘面上，元件板块午后持续走高，东山精密、深南电路、沪电股份、景旺电子、奥士康触及涨停，南亚新材、胜宏科技、生益电子涨幅居前。CPO板块午后大幅拉升，源杰科技、长飞光纤、剑桥科技、华盛昌、光迅科技等十余股触及涨停，新易盛、中际旭创、天孚通信均涨超10%。半导体板块亦表现活跃，利扬芯片触及20cm涨停，炬光科技、燧原科技、寒武纪涨幅居前。白酒板块全天低迷，皇台酒业、今世缘、古井贡酒跌幅居前。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-12 12:00:28 CST",
+    "time_str": "12:00",
+    "date_str": "2026-11-12",
+    "portfolio_value": 87995.65,
+    "cash": 44873.65,
+    "stock_market_value": 43122.0,
+    "cash_ratio_pct": 51.0,
+    "stock_ratio_pct": 49.0,
+    "account_nav": 0.88,
+    "bench_nav": 0.8997,
+    "bench_change_pct": 0.07,
+    "alpha_pct": -1.97,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 200,
+        "avg_cost": 186.18,
+        "last_price": 215.61,
+        "market_value": 43122.0,
+        "change_pct": 0.28,
+        "pnl": 5886.0,
+        "pnl_pct": 15.81,
+        "ofi": 0.003,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 49.0
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 87995.65,
+      "cash": 44873.65,
+      "stock_market_value": 43122.0,
+      "cash_ratio_pct": 51.0,
+      "stock_ratio_pct": 49.0,
+      "account_nav": 0.88,
+      "bench_nav": 0.8997,
+      "alpha_pct": -1.97,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 200,
+          "avg_cost": 186.18,
+          "last_price": 215.61,
+          "market_value": 43122.0,
+          "change_pct": 0.28,
+          "pnl": 5886.0,
+          "pnl_pct": 15.81,
+          "ofi": 0.003,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 49.0
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "11:50:30",
+          "title": "【机构：筹码结构再平衡接近完成，关注AI应用、新能源、医药等方向，可借道沪深300ETF华泰柏瑞（510300）一键布局...",
+          "source": "7x24 财经直播 / 财联社",
+          "sentiment": "中性资讯",
+          "score": 0.0,
+          "summary": "【机构：筹码结构再平衡接近完成，关注AI应用、新能源、医药等方向，可借道沪深300ETF华泰柏瑞（510300）一键布局】11月12日，截止午盘，沪深300ETF华泰柏瑞（510300）涨0.07%，成交额26.02亿元。重仓股方面，药明康德涨1.92%，贵州茅台涨0.51%，新易盛、长江电力等纷纷跟涨。流动性方面，该基金最新规模达1914.64亿元，稳居非货币ETF规模榜首，流动性优势凸显。东方财富证券表示，展望后市，本轮资金集中度已显著回落，筹码结构再平衡接近完成，当前正处于底部区域逐步夯实、市场共识重新凝聚的阶段，短期反弹在方向上的确定性较强。往后看，随着筹码结构调整到位、量能中枢修复，相关方向有望成为资金重新聚拢的载体，新一轮行情值得期待。配置层面，可以考虑精选新成长线索与困境反转预期方向，如AI应用（端侧AI、机器人等）、新能源、医药、军工、有色、化工、农林牧渔、食品饮料、地产等。华安证券表示，反弹已至，坚定信心。一是海内外三季报、中期选举、FOMC会议等扰动因素近期皆落地；二是存在监管坚决稳市场、APEC峰会会晤、中央经济工作会议预期等潜在提振，三是机构年末业绩排名冲刺和春季躁动行情交易共识正在凝聚。在产品费率方面，沪深300ETF华泰柏瑞（510300）的管理费率、托管费率分别为0.15%/年、0.05%/年，是当前A股市场权益指数产品中的最低一档费率结构水平。投资者可借道该产品，以均衡策略关注年末行情。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "11:44:28",
+          "title": "【新易盛：9月底部分产品发货受泰国洪灾对物流影响，受影响部分发货已在10月确认】有投资者向新易盛（300502.SZ）提...",
+          "source": "7x24 财经直播 / 财联社",
+          "sentiment": "消极承压",
+          "score": -0.4,
+          "summary": "【新易盛：9月底部分产品发货受泰国洪灾对物流影响，受影响部分发货已在10月确认】有投资者向新易盛（300502.SZ）提问，据悉由于泰国9月下旬严重洪水灾害，贵司因物流受阻问题导致原计划9月底大批量发货受阻，大量本应在9月确认的收入顺延至10月初，这直接导致了三季度报表收入未能体现出实际的发货规模，造成了业绩“下滑”的假象，贵司第三季度存货相比第二季度也大幅增加，这也侧面解释了正是由于这部分延迟发货的产成品导致了存货大幅增加。请问上述是否属实？11月12日，公司在互动平台回答表示，9月底的部分产品发货受泰国洪灾对物流造成的影响，导致该部分销售收入未能在9月确认，截止目前受影响部分的发货已在10月确认。"
         }
       ],
       "nlp_score": 0.62,
