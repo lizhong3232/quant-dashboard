@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-12 23:15:17",
+  "audit_time": "2026-11-12 23:30:16",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 8,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -14,18 +14,33 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "600276.SS": {
-      "ticker": "600276.SS",
-      "name": "恒瑞医药",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-13 15:19:29",
+      "text": "【外交部：期待各方进一步凝聚共识 达成领导人深圳宣言】11月13日，外交部发言人毛宁主持例行记者会。有记者提问：中方发布了习近平主席将出席亚太经合组织第三十三次领导人非正式会议及相关活动的消息，能否请您进一步介绍会议整体情况及中方对会议的期待？毛宁表示，今年是中国时隔12年再次担任APEC东道主。下周APEC第三十三次领导人非正式会议将在深圳拉开帷幕。我们期待各方进一步凝聚共识，达成领导人深圳宣言，在贸易、互联互通、数字经济和人工智能等重要领域取得更多的务实成果，为亚太乃至全球繁荣增长注入强劲动力。（央视新闻）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-13 15:18:51",
+      "text": "【长城证券完成第三批互换便利回购融资并落地首批股票买入】长城证券宣布，已完成第三批“证券、基金、保险公司互换便利”回购融资并落地首批股票买入。长城证券表示，下一步将继续用好互换便利工具，坚持长期投资、价值投资，持续开展权益市场长期资产配置，用实际行动助力资本市场健康稳定发展。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
     {
       "timestamp": "2026-11-13 15:03:13",
       "text": "【两部门：替代电力基础设施投资】国家发展改革委、国家能源局印发《“十五五”新型储能实施方案》。替代电力基础设施投资。推动在变电站变压器重过载、输变电走廊资源紧张或项目建设难度大、季节性临时性负荷增长、供电能力不足的地区或缺乏网间联络的独立供电区等，科学评估新型储能替代输变电设施投资效益，探索电网替代型储能应用，研究电网替代型储能认定标准，延缓或替代输变电设施投资。",
@@ -100,70 +115,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-13 14:40:18",
-      "text": "【英国财政大臣：必须建设更多数据中心】据报道，英国财政大臣表示，英国需要拥抱人工智能并投资数据中心，因为这将为国家带来“生产力革命”，并提升普通工人的工资。英国需要“最大限度地把握”人工智能带来的机遇。人工智能有望为英国吸引大规模投资，并认为英国需要发展自主可控的人工智能，以促进经济增长并加强国家安全。英国可以从美国围绕数据中心无序扩张所引发的激烈争论中吸取教训，确保数据中心项目获得当地社区支持。希望避免出现我们在美国看到的那种人工智能和数据中心无序扩张的局面。如果人工智能用于我们的安全事务，我希望相关数据留在英国、服务于英国，而不是存放在国外。为此，我们必须建设更多数据中心。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-13 14:39:43",
-      "text": "欧洲企业第三季度营收预计将增长12.0%，高于一周前预期的11.9%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-13 14:39:39",
-      "text": "欧洲企业第三季度收益预计增长25.0%，与一周前持平。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-13 14:36:25",
-      "text": "【东吴证券：维持恒瑞医药“买入”评级，AHA双药数据亮相，26Q3业绩显著回升】东吴证券研报指出，恒瑞医药AHA双药数据亮相，HRS-1893压差改善持久，HRS-5632单次给药可实现全年Lp（a）深度控制。26Q3创新药收入占比升至64.59%，非肿瘤板块高速放量，26Q3业绩显著回升。肿瘤瑞维鲁胺、瑞康曲妥珠单抗、达尔西利、海曲泊帕CIT、长效止吐针持续放量，老品种降价影响逐步消除；非肿瘤恒格列净、泰吉利定、艾玛昔替尼、夫那奇珠单抗持续贡献增量。研发管线高效推进，自主研发与开放合作并进。肿瘤、代谢及自免后期成果密集兑现，全球化多路径提速。AHA数据验证心血管管线竞争力，非肿瘤创新药放量与BD常态化兑现支撑中期成长。维持2026-2028年营业收入预测360.12/418.28/497.84亿元、维持2026-2028归母净利润预测96.03/114.41/140.81亿元，维持“买入”评级。",
-      "analysis": {
-        "matched_tickers": [
-          "600276.SS"
-        ],
-        "matched_names": [
-          "恒瑞医药"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-13 14:36:10",
-      "text": "【土航在华拓展第四个航点：今年前九月在华运力提升四成，旅客量增长六成】11月11日，土耳其航空开通成都定期航线，伊斯坦布尔至成都航线计划每周运营三班。成都成为继北京、上海和广州之后，土航在中国内地的第四个通航城市。12日晚间，土航董事会主席兼执行委员会主席Murat Şeker接受采访时介绍，今年前8月，赴土耳其旅游的中国游客数创历史新高。中国市场整体利润优厚，依托新增航权，今年将原有三座中国城市的航班频次翻倍。今年前九个月在华运力提升四成、旅客量增长六成、货运量增二至三成。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
