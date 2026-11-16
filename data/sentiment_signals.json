@@ -1,20 +1,11 @@
 {
-  "audit_time": "2026-11-15 19:30:17",
+  "audit_time": "2026-11-15 19:45:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 25,
+  "relevant_events_found": 19,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "688981.SS": {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和经营利好"
-      ]
-    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
@@ -23,9 +14,46 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
+    },
+    "688981.SS": {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "avg_sentiment": 0.4,
+      "news_count": 1,
+      "latest_events": [
+        "温和经营利好"
+      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-16 11:44:09",
+      "text": "【光大期货：美通胀粘性超预期，黄金重回跌势】上周黄金震荡回落，伦敦现货黄金跌幅近4.6%，为今年 6 月以来最大单周跌幅。上周初地缘避险仍有支撑、高位震荡；美国 10 月 CPI 超预期落地后，加息预期快速重定价，金价连续跳水；周五 PPI 环比不及预期，仅带来微弱反弹。整体来看，短期或仍以震荡寻底为主，等待利率预期拐点信号出现后再布局配置机会。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 11:33:45",
+      "text": "【宁德时代江苏子公司增资至20亿元 增幅100%】天眼查App显示，近日，宁德时代（江苏）新能源科技有限公司发生工商变更，注册资本由10亿元人民币增至20亿元人民币，增幅100%。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-11-16 11:28:46",
       "text": "【大和：上调中芯国际H股目标价至47港元，评级升至“持有”】大和发表研报指，中芯国际第三季纯利4.65亿美元，分别高于该行及市场预期17%及9%，受惠收入较高带动毛利率优于指引，产能利用率提升；收入环比升6%(同比升34%)，优于指引的环比升2%至4%。公司指引第四季收入环比增长4%至6%，优于该行及市场原先预期的大致持平。管理层表示，人工智能及汽车与工业需求料延续至2027年，有助延长芯片上行周期；公司亦将受惠中国持续国产化。该行上调2026至2028年每股盈利预测9%至17%，新目标价基于预测2027年每股账面值1.2倍(先前1.1倍)。该行将其评级上调两级至“持有”，H股目标价由40港元上调至47港元。",
@@ -181,30 +209,6 @@
     {
       "timestamp": "2026-11-16 10:55:31",
       "text": "【10月份我国工业机器人产量同比增长26%】国家统计局新闻发言人付凌晖在16日举行的国新办新闻发布会上说，今年10月份，我国装备制造业和高技术制造业支撑明显，工业机器人产量同比增长26.0%，3D打印设备、锂离子电池产量同比分别增长85.9%、30.0%。（新华社）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 10:32:46",
-      "text": "泰国国家经济和社会发展委员会：预计2026年泰国出口将增长20.4%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 10:32:35",
-      "text": "泰国规划机构：预计2027年出口增长8.6%。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
