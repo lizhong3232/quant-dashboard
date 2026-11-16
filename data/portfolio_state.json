@@ -1,22 +1,8 @@
 {
   "initial_capital": 1000000.0,
-  "cash": 178186.71,
-  "portfolio_value": 923750.71,
+  "cash": 172478.56,
+  "portfolio_value": 927211.56,
   "positions": {
-    "601088.SS": {
-      "name": "中国神华",
-      "shares": 2300,
-      "avg_cost": 47.604,
-      "last_price": 50.0,
-      "market_value": 115000.0
-    },
-    "002594.SZ": {
-      "name": "比亚迪",
-      "shares": 1000,
-      "avg_cost": 84.87,
-      "last_price": 79.99,
-      "market_value": 79990.0
-    },
     "600436.SS": {
       "name": "片仔癀",
       "shares": 1000,
@@ -24,40 +10,54 @@
       "last_price": 130.4,
       "market_value": 130400.0
     },
-    "601766.SS": {
-      "name": "中国中车",
-      "shares": 15500,
-      "avg_cost": 6.351,
-      "last_price": 6.43,
-      "market_value": 99665.0
-    },
     "300750.SZ": {
       "name": "宁德时代",
-      "shares": 300,
+      "shares": 200,
       "avg_cost": 250.71,
-      "last_price": 237.7,
-      "market_value": 71310.0
-    },
-    "000333.SZ": {
-      "name": "美的集团",
-      "shares": 1000,
-      "avg_cost": 89.108,
-      "last_price": 90.55,
-      "market_value": 90550.0
+      "last_price": 241.57,
+      "market_value": 48314.0
     },
     "601166.SS": {
       "name": "兴业银行",
-      "shares": 4300,
-      "avg_cost": 19.604,
-      "last_price": 19.83,
-      "market_value": 85269.0
+      "shares": 6100,
+      "avg_cost": 19.728,
+      "last_price": 20.02,
+      "market_value": 122122.0
     },
     "000858.SZ": {
       "name": "五粮液",
-      "shares": 1000,
-      "avg_cost": 74.855,
-      "last_price": 73.38,
-      "market_value": 73380.0
+      "shares": 1400,
+      "avg_cost": 74.358,
+      "last_price": 73.1,
+      "market_value": 102340.0
+    },
+    "688981.SS": {
+      "name": "中芯国际",
+      "shares": 1100,
+      "avg_cost": 106.211,
+      "last_price": 106.19,
+      "market_value": 116809.0
+    },
+    "600584.SS": {
+      "name": "长电科技",
+      "shares": 2200,
+      "avg_cost": 51.31,
+      "last_price": 51.3,
+      "market_value": 112860.0
+    },
+    "601985.SS": {
+      "name": "中国核电",
+      "shares": 6400,
+      "avg_cost": 9.882,
+      "last_price": 9.88,
+      "market_value": 63232.0
+    },
+    "601225.SS": {
+      "name": "陕西煤业",
+      "shares": 2200,
+      "avg_cost": 27.546,
+      "last_price": 27.54,
+      "market_value": 60588.0
     }
   },
   "benchmark": {
@@ -67,7 +67,7 @@
     "last_price": 4.083,
     "nav": 0.8845
   },
-  "account_nav": 0.9238,
+  "account_nav": 0.9272,
   "nav_history": [
     {
       "date": "2026-09-06",

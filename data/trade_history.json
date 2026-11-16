@@ -510,5 +510,126 @@
     "amount": 74840.0,
     "fee": 14.97,
     "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570311",
+    "action": "SELL",
+    "ticker": "601088.SS",
+    "name": "中国神华",
+    "shares": 2300,
+    "price": 50.61,
+    "amount": 116403.0,
+    "fee": 81.48,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570343",
+    "action": "SELL",
+    "ticker": "002594.SZ",
+    "name": "比亚迪",
+    "shares": 1000,
+    "price": 80.35,
+    "amount": 80350.0,
+    "fee": 56.25,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570357",
+    "action": "SELL",
+    "ticker": "601766.SS",
+    "name": "中国中车",
+    "shares": 15500,
+    "price": 6.52,
+    "amount": 101060.0,
+    "fee": 70.74,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570369",
+    "action": "SELL",
+    "ticker": "300750.SZ",
+    "name": "宁德时代",
+    "shares": 100,
+    "price": 241.57,
+    "amount": 24157.0,
+    "fee": 16.91,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570380",
+    "action": "SELL",
+    "ticker": "000333.SZ",
+    "name": "美的集团",
+    "shares": 1000,
+    "price": 91.46,
+    "amount": 91460.0,
+    "fee": 64.02,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570392",
+    "action": "BUY",
+    "ticker": "688981.SS",
+    "name": "中芯国际",
+    "shares": 1100,
+    "price": 106.19,
+    "amount": 116809.0,
+    "fee": 23.36,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570404",
+    "action": "BUY",
+    "ticker": "601166.SS",
+    "name": "兴业银行",
+    "shares": 1800,
+    "price": 20.02,
+    "amount": 36036.0,
+    "fee": 7.21,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570419",
+    "action": "BUY",
+    "ticker": "600584.SS",
+    "name": "长电科技",
+    "shares": 2200,
+    "price": 51.3,
+    "amount": 112860.0,
+    "fee": 22.57,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570430",
+    "action": "BUY",
+    "ticker": "000858.SZ",
+    "name": "五粮液",
+    "shares": 400,
+    "price": 73.1,
+    "amount": 29239.999999999996,
+    "fee": 5.85,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570442",
+    "action": "BUY",
+    "ticker": "601985.SS",
+    "name": "中国核电",
+    "shares": 6400,
+    "price": 9.88,
+    "amount": 63232.00000000001,
+    "fee": 12.65,
+    "reason": "LightGBM V2 调仓优化"
+  },
+  {
+    "timestamp": "2026-11-15 18:15:30.570452",
+    "action": "BUY",
+    "ticker": "601225.SS",
+    "name": "陕西煤业",
+    "shares": 2200,
+    "price": 27.54,
+    "amount": 60588.0,
+    "fee": 12.12,
+    "reason": "LightGBM V2 调仓优化"
   }
 ]

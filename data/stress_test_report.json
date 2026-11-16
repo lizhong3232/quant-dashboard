@@ -1,101 +1,101 @@
 {
   "tail_risk_metrics": {
-    "var_99_1d_pct": 1.7602425488753264,
-    "var_99_1d_cny": 16502.30399585377,
-    "cvar_99_1d_pct": 2.673077996022239,
-    "cvar_99_1d_cny": 25060.151922342222,
-    "var_99_5d_pct": 3.5238137319427056,
-    "var_99_5d_cny": 33035.81399417768,
-    "cvar_99_5d_pct": 4.5708642775700215,
-    "cvar_99_5d_cny": 42851.9307639981
+    "var_99_1d_pct": 2.122457033728866,
+    "var_99_1d_cny": 19679.666972767147,
+    "cvar_99_1d_pct": 2.888407556707823,
+    "cvar_99_1d_cny": 26781.648765708487,
+    "var_99_5d_pct": 4.333444442857231,
+    "var_99_5d_cny": 40180.197820349844,
+    "cvar_99_5d_pct": 4.919800962500087,
+    "cvar_99_5d_cny": 45616.96325329207
   },
   "scenarios": [
     {
       "scenario_key": "2015_CRASH_CASCADE",
       "scenario_name": "2015式千股跌停流动性踩踏",
       "desc": "场外配资杠杆去化，市场无差别跌停，流动性冻结 75%，强行变现折价 6.5%",
-      "pre_nav": 937501.71,
-      "post_nav": 863280.375,
-      "total_pnl_cny": -74221.33499999996,
-      "total_pnl_pct": -7.916927959523398,
+      "pre_nav": 927211.56,
+      "post_nav": 846468.52,
+      "total_pnl_cny": -80743.04000000004,
+      "total_pnl_pct": -8.708157176124944,
       "bench_shock_pct": -9.5,
-      "relative_alpha_pct": 1.583072040476602,
-      "cash_survival_ratio": 20.640653391431492,
-      "emergency_cash_available": 474837.493275,
-      "frozen_liquidity_cny": 367820.1,
-      "frozen_ratio_pct": 53.68902367532474,
+      "relative_alpha_pct": 0.7918428238750561,
+      "cash_survival_ratio": 20.376252149341596,
+      "emergency_cash_available": 366885.25599999994,
+      "frozen_liquidity_cny": 466068.36,
+      "frozen_ratio_pct": 69.1506383863641,
       "stock_details": [
-        {
-          "ticker": "601088.SS",
-          "name": "中国神华",
-          "pre_mv": 114011.0,
-          "shock_pct": -8.5,
-          "post_mv": 104320.065,
-          "pnl_cny": -9690.934999999998,
-          "is_frozen": false
-        },
-        {
-          "ticker": "002594.SZ",
-          "name": "比亚迪",
-          "pre_mv": 84900.0,
-          "shock_pct": -10.0,
-          "post_mv": 76410.0,
-          "pnl_cny": -8490.0,
-          "is_frozen": true
-        },
         {
           "ticker": "600436.SS",
           "name": "片仔癀",
-          "pre_mv": 136330.0,
+          "pre_mv": 130400.0,
           "shock_pct": -10.0,
-          "post_mv": 122697.0,
-          "pnl_cny": -13633.0,
-          "is_frozen": false
-        },
-        {
-          "ticker": "601766.SS",
-          "name": "中国中车",
-          "pre_mv": 100285.0,
-          "shock_pct": -10.0,
-          "post_mv": 90256.5,
-          "pnl_cny": -10028.5,
-          "is_frozen": false
+          "post_mv": 117360.0,
+          "pnl_cny": -13040.0,
+          "is_frozen": true
         },
         {
           "ticker": "300750.SZ",
           "name": "宁德时代",
-          "pre_mv": 74592.0,
+          "pre_mv": 48314.0,
           "shock_pct": -10.0,
-          "post_mv": 67132.8,
-          "pnl_cny": -7459.199999999997,
-          "is_frozen": true
-        },
-        {
-          "ticker": "000333.SZ",
-          "name": "美的集团",
-          "pre_mv": 89790.0,
-          "shock_pct": -10.0,
-          "post_mv": 80811.0,
-          "pnl_cny": -8979.0,
-          "is_frozen": true
+          "post_mv": 43482.6,
+          "pnl_cny": -4831.4000000000015,
+          "is_frozen": false
         },
         {
           "ticker": "601166.SS",
           "name": "兴业银行",
-          "pre_mv": 84667.0,
+          "pre_mv": 122122.0,
           "shock_pct": -10.0,
-          "post_mv": 76200.3,
-          "pnl_cny": -8466.699999999997,
-          "is_frozen": true
+          "post_mv": 109909.8,
+          "pnl_cny": -12212.199999999997,
+          "is_frozen": false
         },
         {
           "ticker": "000858.SZ",
           "name": "五粮液",
-          "pre_mv": 74740.0,
+          "pre_mv": 102340.0,
           "shock_pct": -10.0,
-          "post_mv": 67266.0,
-          "pnl_cny": -7474.0,
+          "post_mv": 92106.0,
+          "pnl_cny": -10234.0,
           "is_frozen": true
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "pre_mv": 116809.0,
+          "shock_pct": -16.0,
+          "post_mv": 98119.56,
+          "pnl_cny": -18689.440000000002,
+          "is_frozen": true
+        },
+        {
+          "ticker": "600584.SS",
+          "name": "长电科技",
+          "pre_mv": 112860.0,
+          "shock_pct": -10.0,
+          "post_mv": 101574.0,
+          "pnl_cny": -11286.0,
+          "is_frozen": true
+        },
+        {
+          "ticker": "601985.SS",
+          "name": "中国核电",
+          "pre_mv": 63232.0,
+          "shock_pct": -10.0,
+          "post_mv": 56908.8,
+          "pnl_cny": -6323.199999999997,
+          "is_frozen": true
+        },
+        {
+          "ticker": "601225.SS",
+          "name": "陕西煤业",
+          "pre_mv": 60588.0,
+          "shock_pct": -10.0,
+          "post_mv": 54529.200000000004,
+          "pnl_cny": -6058.799999999996,
+          "is_frozen": false
         }
       ]
     },
@@ -103,87 +103,87 @@
       "scenario_key": "2020_PANDEMIC_SHOCK",
       "scenario_name": "2020疫情无差别流动性休克",
       "desc": "突发黑天鹅首日跳空低开，医药器械逆势暴涨，周期大金融消费普遍重挫",
-      "pre_nav": 937501.71,
-      "post_nav": 882263.2499999999,
-      "total_pnl_cny": -55238.46000000008,
-      "total_pnl_pct": -5.892091652824834,
+      "pre_nav": 927211.56,
+      "post_nav": 874729.865,
+      "total_pnl_cny": -52481.695000000065,
+      "total_pnl_pct": -5.660164008308962,
       "bench_shock_pct": -7.8,
-      "relative_alpha_pct": 1.9079083471751659,
-      "cash_survival_ratio": 20.196546778980085,
-      "emergency_cash_available": 864661.3364999999,
+      "relative_alpha_pct": 2.1398359916910374,
+      "cash_survival_ratio": 19.717922858390118,
+      "emergency_cash_available": 857173.582375,
       "frozen_liquidity_cny": 0.0,
       "frozen_ratio_pct": 0.0,
       "stock_details": [
         {
-          "ticker": "601088.SS",
-          "name": "中国神华",
-          "pre_mv": 114011.0,
-          "shock_pct": -6.0,
-          "post_mv": 107170.34,
-          "pnl_cny": -6840.6600000000035,
-          "is_frozen": false
-        },
-        {
-          "ticker": "002594.SZ",
-          "name": "比亚迪",
-          "pre_mv": 84900.0,
-          "shock_pct": -7.5,
-          "post_mv": 78532.5,
-          "pnl_cny": -6367.5,
-          "is_frozen": false
-        },
-        {
           "ticker": "600436.SS",
           "name": "片仔癀",
-          "pre_mv": 136330.0,
+          "pre_mv": 130400.0,
           "shock_pct": -7.5,
-          "post_mv": 126105.25,
-          "pnl_cny": -10224.75,
-          "is_frozen": false
-        },
-        {
-          "ticker": "601766.SS",
-          "name": "中国中车",
-          "pre_mv": 100285.0,
-          "shock_pct": -7.5,
-          "post_mv": 92763.625,
-          "pnl_cny": -7521.375,
+          "post_mv": 120620.0,
+          "pnl_cny": -9780.0,
           "is_frozen": false
         },
         {
           "ticker": "300750.SZ",
           "name": "宁德时代",
-          "pre_mv": 74592.0,
+          "pre_mv": 48314.0,
           "shock_pct": -7.5,
-          "post_mv": 68997.6,
-          "pnl_cny": -5594.399999999994,
-          "is_frozen": false
-        },
-        {
-          "ticker": "000333.SZ",
-          "name": "美的集团",
-          "pre_mv": 89790.0,
-          "shock_pct": -7.5,
-          "post_mv": 83055.75,
-          "pnl_cny": -6734.25,
+          "post_mv": 44690.450000000004,
+          "pnl_cny": -3623.5499999999956,
           "is_frozen": false
         },
         {
           "ticker": "601166.SS",
           "name": "兴业银行",
-          "pre_mv": 84667.0,
+          "pre_mv": 122122.0,
           "shock_pct": -7.5,
-          "post_mv": 78316.975,
-          "pnl_cny": -6350.024999999994,
+          "post_mv": 112962.85,
+          "pnl_cny": -9159.149999999994,
           "is_frozen": false
         },
         {
           "ticker": "000858.SZ",
           "name": "五粮液",
-          "pre_mv": 74740.0,
+          "pre_mv": 102340.0,
           "shock_pct": -7.5,
-          "post_mv": 69134.5,
-          "pnl_cny": -5605.5,
+          "post_mv": 94664.5,
+          "pnl_cny": -7675.5,
+          "is_frozen": false
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "pre_mv": 116809.0,
+          "shock_pct": -5.5,
+          "post_mv": 110384.50499999999,
+          "pnl_cny": -6424.49500000001,
+          "is_frozen": false
+        },
+        {
+          "ticker": "600584.SS",
+          "name": "长电科技",
+          "pre_mv": 112860.0,
+          "shock_pct": -7.5,
+          "post_mv": 104395.5,
+          "pnl_cny": -8464.5,
+          "is_frozen": false
+        },
+        {
+          "ticker": "601985.SS",
+          "name": "中国核电",
+          "pre_mv": 63232.0,
+          "shock_pct": -7.5,
+          "post_mv": 58489.600000000006,
+          "pnl_cny": -4742.399999999994,
+          "is_frozen": false
+        },
+        {
+          "ticker": "601225.SS",
+          "name": "陕西煤业",
+          "pre_mv": 60588.0,
+          "shock_pct": -7.5,
+          "post_mv": 56043.9,
+          "pnl_cny": -4544.0999999999985,
           "is_frozen": false
         }
       ]
@@ -192,87 +192,87 @@
       "scenario_key": "2024_DMA_SPIRAL",
       "scenario_name": "2024量化微盘踩踏与期货深贴水",
       "desc": "中证2000与微盘流动性枯竭，高股息红利中字头国家队拉升护盘",
-      "pre_nav": 937501.71,
-      "post_nav": 930866.2349999999,
-      "total_pnl_cny": -6635.475000000093,
-      "total_pnl_pct": -0.7077827090043487,
+      "pre_nav": 927211.56,
+      "post_nav": 909337.9000000001,
+      "total_pnl_cny": -17873.659999999916,
+      "total_pnl_pct": -1.9276787273877296,
       "bench_shock_pct": 3.2,
-      "relative_alpha_pct": -3.9077827090043487,
-      "cash_survival_ratio": 19.142031722742637,
-      "emergency_cash_available": 919576.0421249999,
+      "relative_alpha_pct": -5.12767872738773,
+      "cash_survival_ratio": 18.967488323097495,
+      "emergency_cash_available": 898285.0099000002,
       "frozen_liquidity_cny": 0.0,
       "frozen_ratio_pct": 0.0,
       "stock_details": [
         {
-          "ticker": "601088.SS",
-          "name": "中国神华",
-          "pre_mv": 114011.0,
-          "shock_pct": 5.5,
-          "post_mv": 120281.605,
-          "pnl_cny": 6270.604999999996,
-          "is_frozen": false
-        },
-        {
-          "ticker": "002594.SZ",
-          "name": "比亚迪",
-          "pre_mv": 84900.0,
-          "shock_pct": -2.0,
-          "post_mv": 83202.0,
-          "pnl_cny": -1698.0,
-          "is_frozen": false
-        },
-        {
           "ticker": "600436.SS",
           "name": "片仔癀",
-          "pre_mv": 136330.0,
+          "pre_mv": 130400.0,
           "shock_pct": -2.0,
-          "post_mv": 133603.4,
-          "pnl_cny": -2726.600000000006,
-          "is_frozen": false
-        },
-        {
-          "ticker": "601766.SS",
-          "name": "中国中车",
-          "pre_mv": 100285.0,
-          "shock_pct": -2.0,
-          "post_mv": 98279.3,
-          "pnl_cny": -2005.699999999997,
+          "post_mv": 127792.0,
+          "pnl_cny": -2608.0,
           "is_frozen": false
         },
         {
           "ticker": "300750.SZ",
           "name": "宁德时代",
-          "pre_mv": 74592.0,
+          "pre_mv": 48314.0,
           "shock_pct": -2.0,
-          "post_mv": 73100.16,
-          "pnl_cny": -1491.8399999999965,
-          "is_frozen": false
-        },
-        {
-          "ticker": "000333.SZ",
-          "name": "美的集团",
-          "pre_mv": 89790.0,
-          "shock_pct": -2.0,
-          "post_mv": 87994.2,
-          "pnl_cny": -1795.800000000003,
+          "post_mv": 47347.72,
+          "pnl_cny": -966.2799999999988,
           "is_frozen": false
         },
         {
           "ticker": "601166.SS",
           "name": "兴业银行",
-          "pre_mv": 84667.0,
+          "pre_mv": 122122.0,
           "shock_pct": -2.0,
-          "post_mv": 82973.66,
-          "pnl_cny": -1693.3399999999965,
+          "post_mv": 119679.56,
+          "pnl_cny": -2442.4400000000023,
           "is_frozen": false
         },
         {
           "ticker": "000858.SZ",
           "name": "五粮液",
-          "pre_mv": 74740.0,
+          "pre_mv": 102340.0,
           "shock_pct": -2.0,
-          "post_mv": 73245.2,
-          "pnl_cny": -1494.800000000003,
+          "post_mv": 100293.2,
+          "pnl_cny": -2046.800000000003,
+          "is_frozen": false
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "pre_mv": 116809.0,
+          "shock_pct": -6.0,
+          "post_mv": 109800.45999999999,
+          "pnl_cny": -7008.540000000008,
+          "is_frozen": false
+        },
+        {
+          "ticker": "600584.SS",
+          "name": "长电科技",
+          "pre_mv": 112860.0,
+          "shock_pct": -2.0,
+          "post_mv": 110602.8,
+          "pnl_cny": -2257.199999999997,
+          "is_frozen": false
+        },
+        {
+          "ticker": "601985.SS",
+          "name": "中国核电",
+          "pre_mv": 63232.0,
+          "shock_pct": -2.0,
+          "post_mv": 61967.36,
+          "pnl_cny": -1264.6399999999994,
+          "is_frozen": false
+        },
+        {
+          "ticker": "601225.SS",
+          "name": "陕西煤业",
+          "pre_mv": 60588.0,
+          "shock_pct": -2.0,
+          "post_mv": 59376.24,
+          "pnl_cny": -1211.760000000002,
           "is_frozen": false
         }
       ]
@@ -281,91 +281,91 @@
       "scenario_key": "GEOPOLITICAL_TECH_BLOCKADE",
       "scenario_name": "突发地缘冲突与科技产业链断链",
       "desc": "芯片硬件等遭外部极限施压暴跌，煤炭石油黄金公用事业避险暴涨",
-      "pre_nav": 937501.71,
-      "post_nav": 927833.525,
-      "total_pnl_cny": -9668.18499999994,
-      "total_pnl_pct": -1.0312711856280177,
+      "pre_nav": 927211.56,
+      "post_nav": 890674.395,
+      "total_pnl_cny": -36537.16500000004,
+      "total_pnl_pct": -3.940542436722859,
       "bench_shock_pct": -3.5000000000000004,
-      "relative_alpha_pct": 2.4687288143719828,
-      "cash_survival_ratio": 19.204599230233676,
-      "emergency_cash_available": 905344.12055,
+      "relative_alpha_pct": -0.44054243672285853,
+      "cash_survival_ratio": 19.364939754443036,
+      "emergency_cash_available": 869128.5199500001,
       "frozen_liquidity_cny": 0.0,
       "frozen_ratio_pct": 0.0,
       "stock_details": [
         {
-          "ticker": "601088.SS",
-          "name": "中国神华",
-          "pre_mv": 114011.0,
-          "shock_pct": 8.5,
-          "post_mv": 123701.935,
-          "pnl_cny": 9690.934999999998,
-          "is_frozen": false
-        },
-        {
-          "ticker": "002594.SZ",
-          "name": "比亚迪",
-          "pre_mv": 84900.0,
-          "shock_pct": -3.0,
-          "post_mv": 82353.0,
-          "pnl_cny": -2547.0,
-          "is_frozen": false
-        },
-        {
           "ticker": "600436.SS",
           "name": "片仔癀",
-          "pre_mv": 136330.0,
+          "pre_mv": 130400.0,
           "shock_pct": -3.0,
-          "post_mv": 132240.1,
-          "pnl_cny": -4089.899999999994,
-          "is_frozen": false
-        },
-        {
-          "ticker": "601766.SS",
-          "name": "中国中车",
-          "pre_mv": 100285.0,
-          "shock_pct": -3.0,
-          "post_mv": 97276.45,
-          "pnl_cny": -3008.550000000003,
+          "post_mv": 126488.0,
+          "pnl_cny": -3912.0,
           "is_frozen": false
         },
         {
           "ticker": "300750.SZ",
           "name": "宁德时代",
-          "pre_mv": 74592.0,
+          "pre_mv": 48314.0,
           "shock_pct": -3.0,
-          "post_mv": 72354.24,
-          "pnl_cny": -2237.7599999999948,
-          "is_frozen": false
-        },
-        {
-          "ticker": "000333.SZ",
-          "name": "美的集团",
-          "pre_mv": 89790.0,
-          "shock_pct": -3.0,
-          "post_mv": 87096.3,
-          "pnl_cny": -2693.699999999997,
+          "post_mv": 46864.58,
+          "pnl_cny": -1449.4199999999983,
           "is_frozen": false
         },
         {
           "ticker": "601166.SS",
           "name": "兴业银行",
-          "pre_mv": 84667.0,
+          "pre_mv": 122122.0,
           "shock_pct": -3.0,
-          "post_mv": 82126.98999999999,
-          "pnl_cny": -2540.0100000000093,
+          "post_mv": 118458.34,
+          "pnl_cny": -3663.6600000000035,
           "is_frozen": false
         },
         {
           "ticker": "000858.SZ",
           "name": "五粮液",
-          "pre_mv": 74740.0,
+          "pre_mv": 102340.0,
           "shock_pct": -3.0,
-          "post_mv": 72497.8,
-          "pnl_cny": -2242.199999999997,
+          "post_mv": 99269.8,
+          "pnl_cny": -3070.199999999997,
+          "is_frozen": false
+        },
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "pre_mv": 116809.0,
+          "shock_pct": -16.5,
+          "post_mv": 97535.515,
+          "pnl_cny": -19273.485,
+          "is_frozen": false
+        },
+        {
+          "ticker": "600584.SS",
+          "name": "长电科技",
+          "pre_mv": 112860.0,
+          "shock_pct": -3.0,
+          "post_mv": 109474.2,
+          "pnl_cny": -3385.800000000003,
+          "is_frozen": false
+        },
+        {
+          "ticker": "601985.SS",
+          "name": "中国核电",
+          "pre_mv": 63232.0,
+          "shock_pct": -3.0,
+          "post_mv": 61335.04,
+          "pnl_cny": -1896.9599999999991,
+          "is_frozen": false
+        },
+        {
+          "ticker": "601225.SS",
+          "name": "陕西煤业",
+          "pre_mv": 60588.0,
+          "shock_pct": -3.0,
+          "post_mv": 58770.36,
+          "pnl_cny": -1817.6399999999994,
           "is_frozen": false
         }
       ]
     }
   ],
-  "updated_at": "2026-11-09 18:11:16"
+  "updated_at": "2026-11-15 18:15:31"
 }
