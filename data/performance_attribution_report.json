@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-12 00:06:29.553935",
+  "timestamp": "2026-11-13 00:05:14.009075",
   "benchmark": "510300.SS",
   "evaluation_metrics": {
     "total_days": 483,
@@ -187,17 +187,17 @@
     "factor_Liquidity": 0.25
   },
   "live_portfolio_audit": {
-    "account_nav": 0.915,
-    "stock_weight_pct": 80.53,
-    "cash_weight_pct": 19.47,
+    "account_nav": 0.9238,
+    "stock_weight_pct": 80.71,
+    "cash_weight_pct": 19.29,
     "industry_exposure_pct": {
-      "煤炭能源": 12.31,
-      "汽车制造": 8.78,
-      "医药生物": 14.2,
-      "机械装备": 10.62,
-      "电力设备": 7.87,
-      "家用电器": 9.62,
-      "银行金融": 9.2,
+      "煤炭能源": 12.45,
+      "汽车制造": 8.66,
+      "医药生物": 14.12,
+      "机械装备": 10.79,
+      "电力设备": 7.72,
+      "家用电器": 9.8,
+      "银行金融": 9.23,
       "食品饮料": 7.94
     }
   }
