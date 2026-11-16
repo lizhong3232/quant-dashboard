@@ -1,22 +1,99 @@
 {
-  "audit_time": "2026-11-15 19:15:16",
+  "audit_time": "2026-11-15 19:30:17",
   "total_news_scanned": 100,
   "relevant_events_found": 25,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "688981.SS": {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
+      "avg_sentiment": 0.4,
+      "news_count": 1,
+      "latest_events": [
+        "温和经营利好"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 1,
+      "news_count": 2,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-16 11:28:46",
+      "text": "【大和：上调中芯国际H股目标价至47港元，评级升至“持有”】大和发表研报指，中芯国际第三季纯利4.65亿美元，分别高于该行及市场预期17%及9%，受惠收入较高带动毛利率优于指引，产能利用率提升；收入环比升6%(同比升34%)，优于指引的环比升2%至4%。公司指引第四季收入环比增长4%至6%，优于该行及市场原先预期的大致持平。管理层表示，人工智能及汽车与工业需求料延续至2027年，有助延长芯片上行周期；公司亦将受惠中国持续国产化。该行上调2026至2028年每股盈利预测9%至17%，新目标价基于预测2027年每股账面值1.2倍(先前1.1倍)。该行将其评级上调两级至“持有”，H股目标价由40港元上调至47港元。",
+      "analysis": {
+        "matched_tickers": [
+          "688981.SS"
+        ],
+        "matched_names": [
+          "中芯国际"
+        ],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 11:26:56",
+      "text": "泰国第四季度GDP增长可能因私人投资和高基数而放缓。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 11:26:21",
+      "text": "【宁德时代在上海成立汽车零部件贸易公司】企查查APP显示，近日，上海时代智科汽车零部件贸易有限公司成立，法定代表人为杨汉兵，注册资本为1000万元，经营范围包含电池销售；充电桩销售；终端测试设备销售；机动车充电销售；电池零配件销售；汽车零配件批发等。企查查股权穿透显示，该公司由宁德时代旗下宁德时代（上海）智能科技有限公司全资持股。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 11:22:43",
+      "text": "【中国汽车工业协会：10月商用车产销分别完成35万辆和35.4万辆，环比分别下降3.7%和3.9%】据中国汽车工业协会分析，10月，在商用车主要品种中，与上月相比，客车产销增长、货车产销下降；与去年同期相比，客车产销两位数增长，货车产销小幅下降。2026年10月，商用车产销分别完成35万辆和35.4万辆，环比分别下降3.7%和3.9%，同比分别下降3.7%和1.8%。2026年1-10月，商用车产销分别完成362.9万辆和366.3万辆，同比分别增长5%和5.3%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 11:19:20",
+      "text": "【摩根士丹利：印度股市迎来拐点 明年表现有望大幅向好】摩根士丹利称，印度股市似乎正处在拐点，依托该国稳健、多元且相对独立的增长动能，随着盈利增速加快，明年市场表现或将显著改善。 该行基准情景下，预计到2027年12月，孟买证交所Sensex指数还有16%的上涨空间。 预计到2029财年，Sensex成分股盈利年化复合增速可达18%；其中27财年每股收益增长18.5%，28财年19.4%，29财年16.4%。 分析师Ridham Desai与Nayant Parekh在研报中写道：“我们的收益预测建立在几个前提之上：国内经济强劲增长、全球经济平稳、印美贸易协定落地，以及布伦特原油价格低于100美元。”",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-16 11:12:10",
       "text": "【双11在韩国热卖，速卖通上中国品牌成交上涨4倍】11月16日消息，今年海外双11，阿里旗下跨境电商平台速卖通在韩国加大品牌投入，带动双11首日Brand+品牌商品成交额同比去年上涨4倍，石头、绿联等中国品牌在韩国市场实现数倍增长。",
@@ -128,66 +205,6 @@
     {
       "timestamp": "2026-11-16 10:32:35",
       "text": "泰国规划机构：预计2027年出口增长8.6%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 10:32:25",
-      "text": "【1至10月全国铁路完成固定资产投资6773亿元】记者今天（16日）从国铁集团获悉，今年1至10月，全国铁路完成固定资产投资6773亿元，同比增长0.9%，一批重点建设项目加快推进。进入10月以来，天府新区至蒲江铁路正式开通运营，与成都至雅安铁路、成都至自贡至宜宾高速铁路衔接，雅安至天府机场站最快80分钟可达。淮北至宿州至蚌埠城际铁路、阜阳至蒙城至宿州（淮北）铁路、巢湖至马鞍山城际铁路启动试运行，开通运营进入倒计时。下一步，国铁集团将全面落实国家“十五五”规划《纲要》确定的各项铁路重点工程建设，持续提升铁路投资质量和效益，助力经济社会高质量发展。（央视新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 10:31:27",
-      "text": "泰国第三季度政府支出同比下降1.6%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 10:30:50",
-      "text": "泰国3季度GDP同比增长2.9%; 预估为+3.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 10:27:25",
-      "text": "【药明巨诺否认“赔本赚吆喝”：在有利润基础的价格上打开放量空间】针对药明巨诺CAR-T药物降价进基本医保目录是否为“赔本赚吆喝”，药明巨诺相关管理层近期否认了该说法，并表示这是审慎的决策，是“在有利润基础的价格上打开了放量空间”，进入医保后非常有信心逐步推动公司实现盈利。在产能安排上，公司预估目前产能基本能满足2027年的市场需求，同时公司也在做进一步扩产的准备。昨日晚间药明巨诺-B公告称，公司CAR-T产品倍诺达®（瑞基奥仑赛注射液）医保支付标准为28.86万元，自2027年1月1日起生效。管理层预计，国产替代与规模效应推动该产品单位生产成本持续下降超65%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 10:25:14",
-      "text": "【华设集团：公司创新业务营收占比已超35%】华设集团(603018)在2026年第三季度业绩说明会上表示，目前，公司创新业务（包括数智及智库、低碳环保及新能源、城市更新及新消费等）的营收占比已超过35%，且总营收规模实现同比增长，转型已进入关键期。未来，公司将继续深耕新业务领域，力争将创新业务占比提升至50%，以双增长曲线为投资者创造长期价值。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
