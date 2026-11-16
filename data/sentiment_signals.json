@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-15 22:45:15",
+  "audit_time": "2026-11-15 23:00:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -44,6 +44,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-16 14:51:41",
+      "text": "【英特尔公司及CEO遭股东起诉】英特尔遭股东提起证券欺诈集体诉讼，英特尔 CEO 陈立武、CFO David Zinsner 一并被列为被告。原告指控英特尔刻意隐瞒 PC 市场持续走弱、库存积压对营收的负面影响，信息披露滞后，误导投资者，相关利空最终引发其股价单日暴跌约 29%。诉讼为 2026 年 7 月 23 日至 10 月 29 日期间买入英特尔股票的投资者追索赔偿。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "涉诉法律风险",
+        "sentiment_score": -0.35,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 14:51:25",
+      "text": "【机构最新警告：金价或跌至3600美元】美国投资顾问公司Mott Capital创始人迈克尔·克雷默指出，虽然很难从技术面判断具体的支撑位，但3900美元至4000美元之间存在一个可识别的支撑区域。如果跌破该区域，金价可能进一步下滑，甚至跌至3600美元左右。“除非黄金与美元之间的关系发生改变，否则持续指向美联储鹰派立场的经济数据（这将导致利率和美元双双走高）可能意味着金价将继续下跌，而3900美元至4000美元区间的技术支撑位可能难以守住。”克雷默说。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 14:47:16",
+      "text": "【汇丰廖宜建：亚太区域内的贸易、投资与创新合作对于释放增长潜力尤为重要】汇丰集团日前宣布，正式成为2026年亚太经合组织（APEC）会议官方赞助商。汇丰集团亚洲及中东地区联席行政总裁廖宜建表示，汇丰参与亚太经济交流与协作，助力开放与发展。在全球贸易格局和供应链加速调整的背景下，区域内的贸易、投资与创新合作，对于释放增长潜力尤为重要。汇丰扎根亚太160余年，将继续发挥跨境服务优势，促进互联互通，将合作机遇转化为提升区域经济活力的实际动能。（国际金融报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-16 14:41:06",
       "text": "A股工业富联触及跌停，现报36.09元。",
@@ -198,36 +234,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 14:10:04",
-      "text": "【主力资金：融资融券板块净流出超400亿】截至目前，今日主力资金净流出432.33亿；净流入红利股、陆股通活跃、破净股等板块，其中红利股板块净流入12.65亿；净流出融资融券、转融券标的、芯片概念等板块，其中融资融券板块净流出400.16亿。\n  \n个股方面，北方华创净买入3.99亿元位居首位，吉视传媒、龙江交通、贵州茅台主力资金净流入居前；长鑫科技净卖出15.82亿元位居首位，中际旭创、东山精密、工业富联净流出额居前。",
-      "analysis": {
-        "matched_tickers": [
-          "601138.SS",
-          "600519.SS"
-        ],
-        "matched_names": [
-          "贵州茅台",
-          "工业富联"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 13:53:25",
-      "text": "【摩根士丹利三菱日联将东证指数2027年底目标位设定为4800点】摩根士丹利三菱日联证券重申对日本股市的看多观点，将东证指数2027年底目标位设定为4800点，意味着较当前水平上涨近23%。包括Sho Nakazawa在内的策略师在周日发布的报告中写道，该券商在全球股票配置中增持日本股票，并将10月至11月的回调视为“增加敞口的好机会”。即使人工智能投资增长放缓，日本股市仍应实现上涨。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
