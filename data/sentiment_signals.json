@@ -1,11 +1,20 @@
 {
-  "audit_time": "2026-11-15 22:15:19",
+  "audit_time": "2026-11-15 22:30:19",
   "total_news_scanned": 100,
   "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "002594.SZ": {
+      "ticker": "002594.SZ",
+      "name": "比亚迪",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "600519.SS": {
       "ticker": "600519.SS",
       "name": "贵州茅台",
@@ -23,18 +32,85 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "601166.SS": {
-      "ticker": "601166.SS",
-      "name": "兴业银行",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-16 14:25:40",
+      "text": "【长株潭都市圈“好房子”交易推介活动闭幕 长沙区域意向成交增长】据长沙发布消息，为期四天的2026年长株潭都市圈“好房子”金秋交易推介活动15日闭幕。5.1万人次观展，长沙区域意向成交房屋2931套、成交面积39.3万平方米、成交金额约42.2亿元，成交环比、同比大幅增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 14:22:25",
+      "text": "摩根士丹利：将全球股票评级上调至最高超配；鉴于人工智能资本支出周期完好且人工智能应用范围更广，我们增持美国股票。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 14:22:22",
+      "text": "摩根士丹利将日本股票评级从“中性”上调至“增持”。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 14:22:18",
+      "text": "摩根士丹利将欧洲股票评级从“中性”上调至“增持”。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 14:20:13",
+      "text": "【比亚迪腾势在南昌成立新汽车销售公司 注册资本100万】天眼查App显示，近日，南昌腾迪汽车销售有限公司成立，法定代表人为邓希希，注册资本100万元人民币，经营范围包括汽车销售、新能源汽车整车销售、汽车零配件零售等。股东信息显示，该公司由比亚迪旗下腾势汽车销售服务有限公司全资持股。",
+      "analysis": {
+        "matched_tickers": [
+          "002594.SZ"
+        ],
+        "matched_names": [
+          "比亚迪"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 14:18:40",
+      "text": "【国家统计局：客观理性看待投资降幅扩大】国家统计局16日发布的最新数据显示，1-10月份，全国固定资产投资（不含农户）364824亿元，同比下降8.1%，降幅比上月扩大0.9个百分点。国家统计局新闻发言人、总经济师付凌晖在国务院新闻办发布会上回答记者采访时表示，前10月固定资产投资降幅有所扩大，这主要是经济发展阶段变化、产业结构调整等多方面因素导致的。付凌晖表示，我们要客观理性全面看待，既要看到投资总量变化情况，更要看投资结构、质量、效益的改善，尤其投资在促创新、优供给、惠民生等关键领域的作用在持续增强，这些将有利于推动经济高质量发展。（第一财经）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-11-16 14:10:04",
       "text": "【主力资金：融资融券板块净流出超400亿】截至目前，今日主力资金净流出432.33亿；净流入红利股、陆股通活跃、破净股等板块，其中红利股板块净流入12.65亿；净流出融资融券、转融券标的、芯片概念等板块，其中融资融券板块净流出400.16亿。\n  \n个股方面，北方华创净买入3.99亿元位居首位，吉视传媒、龙江交通、贵州茅台主力资金净流入居前；长鑫科技净卖出15.82亿元位居首位，中际旭创、东山精密、工业富联净流出额居前。",
@@ -44,8 +120,8 @@
           "601138.SS"
         ],
         "matched_names": [
-          "工业富联",
-          "贵州茅台"
+          "贵州茅台",
+          "工业富联"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -87,82 +163,6 @@
         "sentiment_score": -0.4,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 13:21:46",
-      "text": "【土耳其10月份汽车产量同比下降8%】根据土耳其汽车制造商协会（简称 OSD）的数据， 土耳其10 月份汽车产量按单位计算下降了 8%，至 121,360 辆。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 13:20:27",
-      "text": "【机构：2026年Q3东南亚智能手机出货量同比下降36%，苹果逆势增长】根据Omdia最新研究，2026年第三季度，东南亚智能手机市场同比下降36%，出货量降至1,650万部。这一市场收缩延续了2026年上半年以来的下行趋势，存储芯片供应短缺及零部件成本上涨持续制约智能手机厂商的出货表现。尽管出货量大幅下滑，市场出货价值同比仅下降1%，而平均售价（ASP）则同比上涨53%。这一差异反映出，在供应压力持续加大的背景下，智能手机厂商正通过提高产品售价来应对成本上涨及供应限制。尽管三星出货量同比下降20%至370万部，仍保持东南亚市场领先地位。小米出货量同比下降24%，但零售平均售价（ASP）上涨55%，在一定程度上抵消了出货量下滑对市场销售额的影响。苹果是前五大厂商中唯一实现出货量增长的厂商，出货量同比增长4%， 主要得益于其在马来西亚和越南市场的强劲表现。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 13:12:20",
-      "text": "【野村：下调康方生物目标价至94港元，评级降至“中性”】野村发表研报指，康方生物海外合作伙伴Summit宣布，美国FDA未批准其PD-1/VEGF双特异性抗体ivonescimab用于EGFR突变非小细胞肺癌经TKI治疗后的生物制品许可申请(BLA)，完整回应函(CRL)指缺乏具统计学意义的总体生存期(OS)改善为否决原因。该行指出，HARMONi试验主要分析未达OS终点之一，其后虽有有利OS更新，但FDA仍以缺乏显著OS改善为由拒绝批准，属该药首次海外BLA失败。该行因此下调海外前景预期，并指国内增长亦放缓，评级由“买入”降至“中性”，目标价由138.29港元降至94港元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 13:09:53",
-      "text": "【瑞银预测金价将在2027年第四季度触及每盎司5000美元】瑞银集团预计金价将在2027年第四季度触及每盎司5000美元，主要受贬值交易支撑；并维持对澳大利亚上市黄金矿业公司的买入评级。据分析师Levi Spry的一份报告，该行预计整个行业的潜在回报率在18%至88%之间。分析师表示，瑞银仍然“看好长期贬值交易”，但已“推迟”其黄金价格预测的轨迹。瑞银已将本季度金价预测下调10%至每盎司4500美元。贬值交易是指投资者从政府债券和货币转向黄金等避险资产，原因是担心通货膨胀和不断上升的公共债务会侵蚀传统财富储存手段的价值。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 13:08:37",
-      "text": "【国联民生陶川：A股政策底与市场底逐步夯实 性价比持续提升】国联民生证券首席经济学家陶川在接受券中社记者采访时表示，A股政策底与市场底逐步夯实，随着稳增长政策落地、盈利由点及面修复，性价比持续提升。他还表示，红利资产在利率中枢下行环境下仍具配置价值，持续兑现业绩的科技成长有望迎来盈利与估值双支撑。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 13:08:06",
-      "text": "【法兴银行：AI火热行情正被三大风险环伺】资深分析师阿尔伯特·爱德华兹（Albert Edwards）最新警告称，被人工智能（AI）的盈利潜力所吸引的投资者，可能忽视了股市流动性日益收紧的威胁。法国兴业银行（Societe Generale）驻伦敦分析师爱德华兹一向以极度悲观的市场观点著称，甚至自称“超级大空头”。近30年前，他曾准确预警1997年亚洲金融危机。而如今，他将矛头对准了当下炙手可热的人工智能（AI）热潮。他在最新报告中指出，风险资产的金融支持力度减弱、盈利预期上调势头放缓以及通胀压力再度上升，都可能动摇股市上涨的势头。他的分析挑战了“强劲的企业盈利预期足以支撑科技股继续攀升”的观点。",
-      "analysis": {
-        "matched_tickers": [
-          "601166.SS"
-        ],
-        "matched_names": [
-          "兴业银行"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
