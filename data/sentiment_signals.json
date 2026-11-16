@@ -1,41 +1,32 @@
 {
-  "audit_time": "2026-11-15 23:00:18",
+  "audit_time": "2026-11-15 23:15:15",
   "total_news_scanned": 100,
-  "relevant_events_found": 16,
+  "relevant_events_found": 17,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "601138.SS": {
-      "ticker": "601138.SS",
-      "name": "工业富联",
+    "002463.SZ": {
+      "ticker": "002463.SZ",
+      "name": "沪电股份",
       "avg_sentiment": 0.0,
       "news_count": 2,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     },
-    "002463.SZ": {
-      "ticker": "002463.SZ",
-      "name": "沪电股份",
+    "601318.SS": {
+      "ticker": "601318.SS",
+      "name": "中国平安",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     },
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    },
-    "600519.SS": {
-      "ticker": "600519.SS",
-      "name": "贵州茅台",
+    "601138.SS": {
+      "ticker": "601138.SS",
+      "name": "工业富联",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -44,6 +35,60 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-16 15:13:55",
+      "text": "【自主可控大势持续，景气趋势有望延续，创业板算力ETF华夏（158041）值得关注】11月16日，创业板算力ETF华夏（158041）调整，成交额3.92亿元，资金流向方面，近五日获净申购1268万元，近20日获净申购1.15亿元。招商证券表示，全球算力芯片产业发展持续保持高速增长状态，境外先进卡禁运和特供版供应不确定，伴随着国产算力芯片性能提升，尤其是全国产供应链保供能力提升背景之下，未来国产算力芯片渗透率将有望持续提升。市场关注业绩兑现度和中远期估值水平，同时上市后对应时段的解禁时点，但考虑到国产替代和自主可控大势所趋，我们建议投资者核心关注三大方向：国产算力芯片、算力芯片上游（代工+封测）、算力基础设施配套芯片（高速互连类芯片、存储等配套芯片）。国海证券认为，全球算力资本开支持续上行，供应链产能成为制约产业增长的核心变量。展望2027年，全球AI算力需求确定性相对较强。随着新增产能逐步释放，此前受到存储等成本上涨压制的中游环节毛利率有望逐步见底回升。资料显示，创业板算力ETF华夏（158041）紧密跟踪创业板算力基础设施指数，指数聚焦AI算力基础设施产业链，是一键布局算力硬件核心环节的便捷工具。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 15:11:49",
+      "text": "【前10个月西部陆海新通道沿线经通道进出口超8700亿元】今年前10个月，西部陆海新通道沿线“13+2”省（区、市）经通道进出口8788.2亿元，同比增长11.9%，规模创历史同期新高。沿线省（区、市）的机电产品、高新技术产品经通道加速走向海外市场，前10个月分别出口2500.1亿元、1345.1亿元，同比分别增长15.5%、29.8%。同时，来自世界各地的大宗商品、特色农产品等经通道源源不断进入我国西部内陆地区。（央视新闻）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 15:02:40",
+      "text": "欧洲斯托克50期货<STXEc1>下跌0.03%，德国DAX期货<FDXc1>上涨0.06%，英国富时期货<FFIc1>上涨0.05%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-16 15:01:28",
+      "text": "【A股收评：创业板指低开低走大跌4.37%，算力硬件股午后延续跌势】A股三大指数今日集体下跌，截至收盘，上证指数跌0.87%，深证成指跌2.53%，创业板指跌4.37%，北证50跌4.54%，科创50指数跌5.16%。全市场成交额14942亿元，较上日缩量1729亿元，全市场超4300只个股下跌。板块题材上，小家电、银行、保险、证金持股、煤炭开采加工板块涨幅居前；元件、CPO、半导体、电子化学品、存储芯片板块跌幅居前。盘面上，小家电板块表现活跃，北鼎股份、小熊电器涨停，九阳股份、欧圣电气、石头科技涨幅居前。银行板块逆势走高，苏州银行、浦发银行、宁波银行领涨板块。保险板块低开高走，中国太保、中国人保、中国平安纷纷走高。元件板块重挫，沪电股份、兴森科技、深南电路、生益科技等多股触及跌停，胜宏科技、南亚新材、中富电路、迅捷兴跌超10%。CPO板块亦持续下挫，中际旭创、天孚通信、仕佳光子、新易盛等30余股跌超10%，剑桥科技、景旺电子、天安新材等多股触及跌停。半导体板块亦表现疲软，燧原科技、摩尔线程、利扬芯片跌幅居前。",
+      "analysis": {
+        "matched_tickers": [
+          "002463.SZ",
+          "601318.SS"
+        ],
+        "matched_names": [
+          "中国平安",
+          "沪电股份"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-11-16 14:51:41",
       "text": "【英特尔公司及CEO遭股东起诉】英特尔遭股东提起证券欺诈集体诉讼，英特尔 CEO 陈立武、CFO David Zinsner 一并被列为被告。原告指控英特尔刻意隐瞒 PC 市场持续走弱、库存积压对营收的负面影响，信息披露滞后，误导投资者，相关利空最终引发其股价单日暴跌约 29%。诉讼为 2026 年 7 月 23 日至 10 月 29 日期间买入英特尔股票的投资者追索赔偿。",
@@ -182,58 +227,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 14:22:22",
-      "text": "摩根士丹利将日本股票评级从“中性”上调至“增持”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 14:22:18",
-      "text": "摩根士丹利将欧洲股票评级从“中性”上调至“增持”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 14:20:13",
-      "text": "【比亚迪腾势在南昌成立新汽车销售公司 注册资本100万】天眼查App显示，近日，南昌腾迪汽车销售有限公司成立，法定代表人为邓希希，注册资本100万元人民币，经营范围包括汽车销售、新能源汽车整车销售、汽车零配件零售等。股东信息显示，该公司由比亚迪旗下腾势汽车销售服务有限公司全资持股。",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-16 14:18:40",
-      "text": "【国家统计局：客观理性看待投资降幅扩大】国家统计局16日发布的最新数据显示，1-10月份，全国固定资产投资（不含农户）364824亿元，同比下降8.1%，降幅比上月扩大0.9个百分点。国家统计局新闻发言人、总经济师付凌晖在国务院新闻办发布会上回答记者采访时表示，前10月固定资产投资降幅有所扩大，这主要是经济发展阶段变化、产业结构调整等多方面因素导致的。付凌晖表示，我们要客观理性全面看待，既要看到投资总量变化情况，更要看投资结构、质量、效益的改善，尤其投资在促创新、优供给、惠民生等关键领域的作用在持续增强，这些将有利于推动经济高质量发展。（第一财经）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
