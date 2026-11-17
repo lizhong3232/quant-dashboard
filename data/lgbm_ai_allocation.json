@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15 18:15:27.643957",
+  "timestamp": "2026-11-16 18:11:08.494764",
   "model": "LightGBM GBDT Regressor (16 Microstructure Factors)",
   "features": [
     "mom5",
@@ -54,109 +54,109 @@
       "ticker": "000858.SZ",
       "name": "五粮液",
       "industry": "食品饮料",
-      "last_price": 73.11,
-      "pure_ai_alpha": 2.6570275510338455,
+      "last_price": 73.01,
+      "pure_ai_alpha": 2.8033736812183156,
       "opt_weight_pct": 12.0,
       "shares": 1600
-    },
-    {
-      "ticker": "600436.SS",
-      "name": "片仔癀",
-      "industry": "医药生物",
-      "last_price": 128.69,
-      "pure_ai_alpha": 1.2451892543720546,
-      "opt_weight_pct": 12.0,
-      "shares": 900
     },
     {
       "ticker": "600584.SS",
       "name": "长电科技",
       "industry": "电子科技",
-      "last_price": 51.25,
-      "pure_ai_alpha": 1.205625844020307,
+      "last_price": 51.48,
+      "pure_ai_alpha": 1.2938446855632784,
       "opt_weight_pct": 12.0,
       "shares": 2300
     },
     {
-      "ticker": "601225.SS",
-      "name": "陕西煤业",
-      "industry": "煤炭能源",
-      "last_price": 27.53,
-      "pure_ai_alpha": 1.1199911401367775,
+      "ticker": "600436.SS",
+      "name": "片仔癀",
+      "industry": "医药生物",
+      "last_price": 129.61,
+      "pure_ai_alpha": 1.1476483136477529,
       "opt_weight_pct": 12.0,
-      "shares": 4300
-    },
-    {
-      "ticker": "601166.SS",
-      "name": "兴业银行",
-      "industry": "银行金融",
-      "last_price": 20.01,
-      "pure_ai_alpha": 0.8237290563126989,
-      "opt_weight_pct": 12.0,
-      "shares": 5900
-    },
-    {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "industry": "电子科技",
-      "last_price": 106.11,
-      "pure_ai_alpha": 0.6814618990664844,
-      "opt_weight_pct": 12.0,
-      "shares": 1100
+      "shares": 900
     },
     {
       "ticker": "601985.SS",
       "name": "中国核电",
       "industry": "公用事业",
-      "last_price": 9.87,
-      "pure_ai_alpha": 0.5992928189294979,
-      "opt_weight_pct": 11.76,
-      "shares": 11900
+      "last_price": 9.83,
+      "pure_ai_alpha": 0.9804730744738365,
+      "opt_weight_pct": 12.0,
+      "shares": 12200
+    },
+    {
+      "ticker": "601166.SS",
+      "name": "兴业银行",
+      "industry": "银行金融",
+      "last_price": 20.0,
+      "pure_ai_alpha": 0.9537485662970173,
+      "opt_weight_pct": 12.0,
+      "shares": 6000
     },
     {
       "ticker": "600028.SS",
       "name": "中国石化",
       "industry": "石油石化",
-      "last_price": 5.82,
-      "pure_ai_alpha": 0.5942280305700232,
-      "opt_weight_pct": 3.24,
-      "shares": 5500
+      "last_price": 5.83,
+      "pure_ai_alpha": 0.6660660180162281,
+      "opt_weight_pct": 12.0,
+      "shares": 20500
+    },
+    {
+      "ticker": "601225.SS",
+      "name": "陕西煤业",
+      "industry": "煤炭能源",
+      "last_price": 27.12,
+      "pure_ai_alpha": 0.537125284462719,
+      "opt_weight_pct": 11.58,
+      "shares": 4200
+    },
+    {
+      "ticker": "601138.SS",
+      "name": "工业富联",
+      "industry": "电子科技",
+      "last_price": 36.18,
+      "pure_ai_alpha": 0.5329857010000738,
+      "opt_weight_pct": 3.42,
+      "shares": 900
+    },
+    {
+      "ticker": "002415.SZ",
+      "name": "海康威视",
+      "industry": "电子科技",
+      "last_price": 35.2,
+      "pure_ai_alpha": 0.5237584307614827,
+      "opt_weight_pct": 2.0,
+      "shares": 500
     },
     {
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "industry": "电力设备",
-      "last_price": 241.58,
-      "pure_ai_alpha": 0.5154523082731317,
+      "last_price": 237.75,
+      "pure_ai_alpha": 0.4857395454093067,
       "opt_weight_pct": 2.0,
       "shares": 100
-    },
-    {
-      "ticker": "600031.SS",
-      "name": "三一重工",
-      "industry": "机械装备",
-      "last_price": 18.51,
-      "pure_ai_alpha": 0.4295647001550372,
-      "opt_weight_pct": 2.0,
-      "shares": 1000
-    },
-    {
-      "ticker": "600690.SS",
-      "name": "海尔智家",
-      "industry": "家用电器",
-      "last_price": 21.44,
-      "pure_ai_alpha": 0.32541503471314404,
-      "opt_weight_pct": 2.0,
-      "shares": 900
     },
     {
       "ticker": "600036.SS",
       "name": "招商银行",
       "industry": "银行金融",
-      "last_price": 43.37,
-      "pure_ai_alpha": 0.11875190560056524,
+      "last_price": 43.1,
+      "pure_ai_alpha": 0.2348695373060564,
       "opt_weight_pct": 2.0,
       "shares": 400
+    },
+    {
+      "ticker": "600031.SS",
+      "name": "三一重工",
+      "industry": "机械装备",
+      "last_price": 18.45,
+      "pure_ai_alpha": 0.2330899805136513,
+      "opt_weight_pct": 2.0,
+      "shares": 1000
     }
   ]
 }
