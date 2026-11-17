@@ -1,73 +1,73 @@
 {
   "initial_capital": 1000000.0,
   "cash": 172478.56,
-  "portfolio_value": 927211.56,
+  "portfolio_value": 929107.56,
   "positions": {
     "600436.SS": {
       "name": "片仔癀",
       "shares": 1000,
       "avg_cost": 128.591,
-      "last_price": 130.4,
-      "market_value": 130400.0
+      "last_price": 130.13,
+      "market_value": 130130.0
     },
     "300750.SZ": {
       "name": "宁德时代",
       "shares": 200,
       "avg_cost": 250.71,
-      "last_price": 241.57,
-      "market_value": 48314.0
+      "last_price": 240.5,
+      "market_value": 48100.0
     },
     "601166.SS": {
       "name": "兴业银行",
       "shares": 6100,
       "avg_cost": 19.728,
-      "last_price": 20.02,
-      "market_value": 122122.0
+      "last_price": 20.11,
+      "market_value": 122671.0
     },
     "000858.SZ": {
       "name": "五粮液",
       "shares": 1400,
       "avg_cost": 74.358,
-      "last_price": 73.1,
-      "market_value": 102340.0
+      "last_price": 73.7,
+      "market_value": 103180.0
     },
     "688981.SS": {
       "name": "中芯国际",
       "shares": 1100,
       "avg_cost": 106.211,
-      "last_price": 106.19,
-      "market_value": 116809.0
+      "last_price": 106.44,
+      "market_value": 117084.0
     },
     "600584.SS": {
       "name": "长电科技",
       "shares": 2200,
       "avg_cost": 51.31,
-      "last_price": 51.3,
-      "market_value": 112860.0
+      "last_price": 50.5,
+      "market_value": 111100.0
     },
     "601985.SS": {
       "name": "中国核电",
       "shares": 6400,
       "avg_cost": 9.882,
-      "last_price": 9.88,
-      "market_value": 63232.0
+      "last_price": 9.91,
+      "market_value": 63424.0
     },
     "601225.SS": {
       "name": "陕西煤业",
       "shares": 2200,
       "avg_cost": 27.546,
-      "last_price": 27.54,
-      "market_value": 60588.0
+      "last_price": 27.7,
+      "market_value": 60940.0
     }
   },
   "benchmark": {
     "ticker": "510300.SS",
     "name": "沪深300 ETF",
     "initial_price": 4.616,
-    "last_price": 4.083,
-    "nav": 0.8845
+    "last_price": 4.054,
+    "nav": 0.8782
   },
-  "account_nav": 0.9272,
+  "account_nav": 0.9291,
   "nav_history": [
     {
       "date": "2026-09-06",
@@ -506,6 +506,15 @@
       "account_nav": 0.9238,
       "bench_nav": 0.8845,
       "alpha": 3.93
+    },
+    {
+      "timestamp": "2026-11-16 00:05:09",
+      "date": "2026-11-16",
+      "cash": 172478.56,
+      "portfolio_value": 929107.56,
+      "account_nav": 0.9291,
+      "bench_nav": 0.8782,
+      "alpha": 5.09
     }
   ],
   "created_at": "2026-09-06 11:12:43.386346"

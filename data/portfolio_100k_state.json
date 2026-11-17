@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 40987.68,
-  "portfolio_value": 79507.68,
-  "account_nav": 0.7951,
+  "portfolio_value": 77977.68,
+  "account_nav": 0.7798,
   "bench_nav": 1.0017,
   "positions": {
     "002463.SZ": {
       "name": "沪电股份",
       "shares": 500,
       "avg_cost": 77.04,
-      "last_price": 77.04,
-      "market_value": 38520.0,
+      "last_price": 73.98,
+      "market_value": 36990.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 77.04
@@ -25,10 +25,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-15 18:15:29",
+  "last_updated": "2026-11-16 00:05:09",
   "benchmark": {
-    "last_price": 4.083,
-    "nav": 0.8845
+    "last_price": 4.054,
+    "nav": 0.8782
   },
   "nav_history": [
     {
@@ -372,6 +372,15 @@
       "account_nav": 0.8239,
       "bench_nav": 0.8845,
       "alpha": -6.06
+    },
+    {
+      "timestamp": "2026-11-16 00:05:09",
+      "date": "2026-11-16",
+      "cash": 40987.68,
+      "portfolio_value": 77977.68,
+      "account_nav": 0.7798,
+      "bench_nav": 0.8782,
+      "alpha": -9.84
     }
   ]
 }
