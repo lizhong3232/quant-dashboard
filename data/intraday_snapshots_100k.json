@@ -2,151 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-20 13:15:16 CST",
-    "time_str": "13:15",
-    "date_str": "2026-10-20",
-    "portfolio_value": 88253.17,
-    "cash": 4391.17,
-    "stock_market_value": 83862.0,
-    "cash_ratio_pct": 4.98,
-    "stock_ratio_pct": 95.02,
-    "account_nav": 0.8825,
-    "bench_nav": 0.9116,
-    "bench_change_pct": -0.75,
-    "alpha_pct": -2.91,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "688111.SS",
-        "name": "金山办公",
-        "shares": 100,
-        "avg_cost": 231.17,
-        "last_price": 231.09,
-        "market_value": 23109.0,
-        "change_pct": -0.33,
-        "pnl": -8.0,
-        "pnl_pct": -0.03,
-        "ofi": 0.095,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 26.18
-      },
-      {
-        "ticker": "002463.SZ",
-        "name": "沪电股份",
-        "shares": 400,
-        "avg_cost": 111.75,
-        "last_price": 111.57,
-        "market_value": 44628.0,
-        "change_pct": -0.16,
-        "pnl": -72.0,
-        "pnl_pct": -0.16,
-        "ofi": -0.004,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 50.57
-      },
-      {
-        "ticker": "688036.SS",
-        "name": "传音控股",
-        "shares": 300,
-        "avg_cost": 50.85,
-        "last_price": 53.75,
-        "market_value": 16125.0,
-        "change_pct": 5.7,
-        "pnl": 870.0,
-        "pnl_pct": 5.7,
-        "ofi": 0.164,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 18.27
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 88253.17,
-      "cash": 4391.17,
-      "stock_market_value": 83862.0,
-      "cash_ratio_pct": 4.98,
-      "stock_ratio_pct": 95.02,
-      "account_nav": 0.8825,
-      "bench_nav": 0.9116,
-      "alpha_pct": -2.91,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "688111.SS",
-          "name": "金山办公",
-          "shares": 100,
-          "avg_cost": 231.17,
-          "last_price": 231.09,
-          "market_value": 23109.0,
-          "change_pct": -0.33,
-          "pnl": -8.0,
-          "pnl_pct": -0.03,
-          "ofi": 0.095,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 26.18
-        },
-        {
-          "ticker": "002463.SZ",
-          "name": "沪电股份",
-          "shares": 400,
-          "avg_cost": 111.75,
-          "last_price": 111.57,
-          "market_value": 44628.0,
-          "change_pct": -0.16,
-          "pnl": -72.0,
-          "pnl_pct": -0.16,
-          "ofi": -0.004,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 50.57
-        },
-        {
-          "ticker": "688036.SS",
-          "name": "传音控股",
-          "shares": 300,
-          "avg_cost": 50.85,
-          "last_price": 53.75,
-          "market_value": 16125.0,
-          "change_pct": 5.7,
-          "pnl": 870.0,
-          "pnl_pct": 5.7,
-          "ofi": 0.164,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 18.27
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，金山办公、沪电股份、传音控股高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 金山办公 (688111.SS) | 沪电股份 (002463.SZ) | 传音控股 (688036.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [
-        {
-          "ticker": "002463.SZ",
-          "name": "沪电股份",
-          "time": "今日研判",
-          "title": "AI 算力高多层 PCB 景气度持续攀升，服务器与交换机订单饱满",
-          "source": "国信证券 / 电子行业",
-          "sentiment": "积极偏多",
-          "score": 0.55,
-          "summary": "沪电股份受益于全球 AI 算力基础设施建设浪潮，高多层 PCB 产品在 GPU 服务器与高速交换机市场份额持续提升，产能利用率维持高位。"
-        }
-      ],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (金山办公 (688111.SS) | 沪电股份 (002463.SZ) | 传音控股 (688036.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-20 13:30:16 CST",
     "time_str": "13:30",
     "date_str": "2026-10-20",
@@ -31579,6 +31434,112 @@
           "ofi": -0.085,
           "flow_status": "主动砸盘出货",
           "weight_pct": 23.18
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，景嘉微、海光信息高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 景嘉微 (300474.SZ) | 海光信息 (688041.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (景嘉微 (300474.SZ) | 海光信息 (688041.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-17 10:30:14 CST",
+    "time_str": "10:30",
+    "date_str": "2026-11-17",
+    "portfolio_value": 79184.76,
+    "cash": 17476.76,
+    "stock_market_value": 61708.0,
+    "cash_ratio_pct": 22.07,
+    "stock_ratio_pct": 77.93,
+    "account_nav": 0.7918,
+    "bench_nav": 0.8737,
+    "bench_change_pct": -0.52,
+    "alpha_pct": -8.19,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "300474.SZ",
+        "name": "景嘉微",
+        "shares": 900,
+        "avg_cost": 47.99,
+        "last_price": 48.32,
+        "market_value": 43488.0,
+        "change_pct": 0.88,
+        "pnl": 297.0,
+        "pnl_pct": 0.69,
+        "ofi": 0.041,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 54.92
+      },
+      {
+        "ticker": "688041.SS",
+        "name": "海光信息",
+        "shares": 100,
+        "avg_cost": 183.11,
+        "last_price": 182.2,
+        "market_value": 18220.0,
+        "change_pct": -4.11,
+        "pnl": -91.0,
+        "pnl_pct": -0.5,
+        "ofi": -0.073,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 23.01
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 79184.76,
+      "cash": 17476.76,
+      "stock_market_value": 61708.0,
+      "cash_ratio_pct": 22.07,
+      "stock_ratio_pct": 77.93,
+      "account_nav": 0.7918,
+      "bench_nav": 0.8737,
+      "alpha_pct": -8.19,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "300474.SZ",
+          "name": "景嘉微",
+          "shares": 900,
+          "avg_cost": 47.99,
+          "last_price": 48.32,
+          "market_value": 43488.0,
+          "change_pct": 0.88,
+          "pnl": 297.0,
+          "pnl_pct": 0.69,
+          "ofi": 0.041,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 54.92
+        },
+        {
+          "ticker": "688041.SS",
+          "name": "海光信息",
+          "shares": 100,
+          "avg_cost": 183.11,
+          "last_price": 182.2,
+          "market_value": 18220.0,
+          "change_pct": -4.11,
+          "pnl": -91.0,
+          "pnl_pct": -0.5,
+          "ofi": -0.073,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 23.01
         }
       ]
     },

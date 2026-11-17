@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-11-16 18:15:16",
+  "audit_time": "2026-11-16 18:30:17",
   "total_news_scanned": 100,
   "relevant_events_found": 15,
   "black_swan_count": 0,
@@ -24,18 +24,18 @@
         "行业资讯/宏观动态"
       ]
     },
-    "000333.SZ": {
-      "ticker": "000333.SZ",
-      "name": "美的集团",
+    "600690.SS": {
+      "ticker": "600690.SS",
+      "name": "海尔智家",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     },
-    "600690.SS": {
-      "ticker": "600690.SS",
-      "name": "海尔智家",
+    "000333.SZ": {
+      "ticker": "000333.SZ",
+      "name": "美的集团",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -50,18 +50,21 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "600028.SS": {
-      "ticker": "600028.SS",
-      "name": "中国石化",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-17 10:23:07",
+      "text": "【兆易创新：定制化存储相关业务在端侧AI等领域取得突破】兆易创新(603986)在2026年第三季度业绩说明会上表示，公司定制化存储相关业务有序推进，已取得不错的进展，在端侧AI等多个领域均有重点客户和项目突破，今年该业务有望为公司贡献一定体量的收入，2027年将实现营收的较快增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-17 10:09:26",
       "text": "【曾毓群、李彦宏、王兴兴、王传福、雷军、何超琼、董明珠、李东生、周群飞等，今天齐聚深圳】11月17日，2026年亚太经合组织（APEC）工商领导人峰会在深圳前海国际会议中心开幕。 从主办方公布的详细议程看，曾毓群、李彦宏、王兴兴、王传福、雷军、何超琼、董明珠、李东生、周群飞等中国企业家将参与专题研讨；外企方面，Visa、万事达卡等企业的全球首席执行官，以及花旗、谷歌、波音等企业高管将出席。比亚迪、中兴、优必选等深圳企业也将在“家门口”登台发声。（21财经）",
@@ -211,12 +214,12 @@
       "text": "【家电板块反复活跃 长虹美菱2连板】家电板块反复活跃，长虹美菱2连板，小熊电器触及涨停，华帝股份、海尔智家、北鼎股份、美的集团跟涨。",
       "analysis": {
         "matched_tickers": [
-          "000333.SZ",
-          "600690.SS"
+          "600690.SS",
+          "000333.SZ"
         ],
         "matched_names": [
-          "海尔智家",
-          "美的集团"
+          "美的集团",
+          "海尔智家"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -249,22 +252,6 @@
         ],
         "matched_names": [
           "中芯国际"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-17 09:27:39",
-      "text": "【中国石化等在广西投资成立易消盾科技公司】企查查APP显示，近日，中石化易消盾科技（广西）有限公司成立，经营范围包含安全系统监控服务；安全技术防范系统设计施工服务；工程和技术研究和试验发展；供应链管理服务等。企查查股权穿透显示，该公司由中国石化旗下中国石化销售股份有限公司等共同持股。",
-      "analysis": {
-        "matched_tickers": [
-          "600028.SS"
-        ],
-        "matched_names": [
-          "中国石化"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
