@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-17 22:30:23",
+  "audit_time": "2026-11-17 22:45:21",
   "total_news_scanned": 100,
-  "relevant_events_found": 18,
+  "relevant_events_found": 19,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -10,13 +10,97 @@
       "ticker": "002463.SZ",
       "name": "沪电股份",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-18 14:44:18",
+      "text": "匈牙利财政部长卡尔曼表示，中期来看，特别税在企业税收总额中的占比预计将下降。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 14:43:42",
+      "text": "【惠誉：商业化进展是未来12个月全球AI产业链关键观察指标】11月18日，惠誉评级亚太区企业评级高级董事黄筱婷表示，全球AI产业链最大的信用风险是商业化和变现速度低于资本投入速度。过去两年AI基础设施投资快速扩张，但模型服务市场竞争明显加剧，开源模型能力提升和价格下降正在削弱前沿模型的定价能力。如果收入增长无法匹配持续扩大的资本开支，市场对于AI投资回报的信心可能受到挑战。黄筱婷称，未来12个月最值得关注的指标仍是AI商业化进展。若AI应用能够持续创造收入和现金流，将有助于支撑当前投资规模；反之，如果市场开始质疑投资回报率，则可能影响融资意愿，并进一步向整个AI产业链传导信用压力。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 14:43:18",
+      "text": "【即将打破2007年纪录 5%的10年期美债已“高烧”27天】在通胀粘性与美联储升息预期的双重夹击下，美国10年期国债收益率站在5%关口之上的时间，正逼近近二十年来的最长纪录。根据一项业内统计，作为全球融资成本的风向标，10年期美债收益率今年迄今已有多达27个交易日收于5%上方，距2007年创下的29天历史纪录仅有一步之遥。过去一周，美债收益率的上行主要受到超预期的美国10月通胀数据驱动，这迫使美联储决策层重新评估紧缩力度，并考虑采取较此前预期更为激进的收紧步伐。周二，尽管股市下跌促使投资者转向避险资产，但该基准收益率依然位于5.10%附近高位震荡交投。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 14:39:26",
+      "text": "【TrendForce 预测：NAND 价格 2027Q2 有望下跌，通用 DRAM 价格仍维持上行】研调机构 TrendForce 当地时间今日在韩国首尔举行的活动上发布了对 2027 年存储半导体市场的展望。该机构认为，随着新的 NAND 产能逐步开出，闪存价格有望从明年第 2 季度开始下行；另一方面，由于新增产能有限、HBM 挤压供给，通用 DRAM 价格在 2027 年底前不会下降。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 14:39:01",
+      "text": "【惠誉：AI基础设施投资仍在扩大 商业化与投资回报待验证】11月18日，惠誉评级亚太区信用评论与研究高级董事胡旸瑞表示，中美AI产业正在形成各具特点的发展路径，竞争重点也由模型能力逐步延伸至算力、部署效率、应用生态和商业化能力。胡旸瑞称，商业化能力更多取决于企业能否将AI嵌入现有客户关系和业务场景。拥有客户基础、专有数据和分发渠道的综合型平台，通常具有更多价值捕获路径。中国大型互联网平台可以通过云服务、广告、内容和企业服务等多种业务实现AI商业化。不过，应用、收入、利润和现金流的改善并不同步，商业回报仍有待进一步观察。他还表示，AI基础设施投资仍在扩大，相关需求保持强劲，但需求增长本身并不能保证投资回报。AI基础设施的瓶颈正从先进计算芯片扩展至存储器、网络和电力等环节。（证券时报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 14:34:16",
+      "text": "【11月18日：“农产品批发价格200指数”比昨天上升0.38个点】据农业农村部监测，11月18日“农产品批发价格200指数”为111.69，比昨天上升0.38个点，“菜篮子”产品批发价格指数为111.28，比昨天上升0.45个点。截至今日14:00时，全国农产品批发市场猪肉平均价格为14.84元/公斤，比昨天上升1.0%；牛肉74.33元/公斤，比昨天上升0.6%；羊肉67.64元/公斤，比昨天上升0.2%；鸡蛋9.47元/公斤，与昨天持平；白条鸡16.97元/公斤，比昨天下降0.1%。重点监测的28种蔬菜平均价格为4.11元/公斤，比昨天上升0.7%；重点监测的6种水果平均价格为6.68元/公斤，比昨天上升0.9%。鲫鱼18.92元/公斤，比昨天下降0.5%；鲤鱼13.85元/公斤，比昨天下降0.1%；白鲢鱼10.24元/公斤，与昨天持平；大带鱼41.85元/公斤，比昨天上升1.0%。今日，国内鲜活农产品批发市场重点监测的46个品种中，与昨天相比价格升幅前五名的是黄瓜、西瓜、西葫芦、茄子和芹菜，幅度分别为4.3%、3.6%、2.5%、2.4%和2.2%；价格降幅前五名的是南瓜、冬瓜、香蕉、莴笋和鸭梨，幅度分别为3.7%、2.2%、2.0%、1.7%和1.6%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 14:32:46",
+      "text": "【中际旭创订单能见度延伸至2028年 高速光模块与下一代技术双线推进】记者从中际旭创获悉，公司凭借高端产品迭代、规模化交付及全球产能协同优势，实现业绩快速增长，订单能见度进一步延伸至2028年。在下一代产品方面，中际旭创持续推进3.2T光模块研发，并布局NPO、XPO、CPO、OCS等技术路线，面向AI数据中心Scale-out、Scale-up等场景拓展光互连解决方案。据了解，NPO、XPO等产品需求有望于2027年下半年逐步释放，为后续业务增长提供新的动力。（上证报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-18 14:25:16",
       "text": "凯投宏观：未来几个月如果风险资产出现更深幅度的回调，美国国债收益率很可能随之大幅下降。",
@@ -111,94 +195,6 @@
         "sentiment_score": 0.95,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:15:37",
-      "text": "【金价跌破3800美元/盎司 无明确利空触发】周三金价下跌没有明确的触发因素，油价走低和收益率下降本应构成支撑性背景。这意味着金价跌破每盎司3800美元看起来像是潜在的恐慌性抛售。这引发了市场担忧，即市场情绪正在瓦解，更多投资者确信他们需要平仓并退到场外观望，以迎接新的一年。今日金价跌幅超过1.5%，进一步巩固了贵金属的悲观前景，加剧了过去几年该板块涨势已见顶的观点。这增加了仍持有这些收益的投资者止损离场的风险，尤其是在人工智能交易走弱引发各类跨资产痛苦的背景下。没有任何常见利空因素出现来解释金价的这一下跌。各国央行和ETF投资者的需求并未消失。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:14:46",
-      "text": "【浑水做空英伟达 质疑公司前高管与超微前高管有关联】美东时间周二，知名做空机构浑水（Muddy Waters）对外披露，已经建立英伟达空头头寸。浑水在做空报告并未直接抛出财务造假结论，而是围绕一桩GPU违规转卖案件，对英伟达、超微电脑两家企业前高管之间是否存在人际关联提出疑问，进一步放大市场对于英伟达出口合规链条的担忧。浑水在这份报告中，主要聚焦于两位核心人物：英伟达前高管阿贾伊・K・普里（Ajay K. Puri）和超微电脑前首席增长官Cenly Chen。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "财务与内控危机",
-        "sentiment_score": -1.0,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:10:19",
-      "text": "【主力资金：大消费板块净流出超73亿】截至目前，今日主力资金净流出53.49亿；净流入TMT、芯片概念、IDC概念（数据中心）等板块，其中TMT板块净流入123.71亿；净流出大消费、纳入富时罗素、标普道琼斯中国等板块，其中大消费板块净流出73.62亿。\n  \n个股方面，沪电股份净买入10.88亿元位居首位，寒武纪、华工科技、华虹宏力主力资金净流入居前；紫金矿业净卖出8.23亿元位居首位，九阳股份、有研新材、洛阳钼业净流出额居前。",
-      "analysis": {
-        "matched_tickers": [
-          "002463.SZ"
-        ],
-        "matched_names": [
-          "沪电股份"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:09:54",
-      "text": "法国巴黎银行：目标是在2025-2030年期间，使意大利国民劳动银行的年收入增长率超过3%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:05:55",
-      "text": "法国巴黎银行称其正进入更具盈利性增长的新阶段。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:00:38",
-      "text": "【艾芬达子公司浙江云芯获北美头部机器人企业订单】近日，艾芬达(301575)控股子公司浙江云芯机器人，与北美头部机器人整机企业正式达成精密结构件供应合作，首批订单已排入产线。这标志着公司正式切入北美机器人供应链体系，也是中国精密制造在人形机器人核心零部件领域收获的又一关键认可。此次合作的结构件将用于该北美企业新一代人形机器人项目，涉及多个关节部位的关键承力部件。首批订单交付后，双方将根据装机验证结果推进后续批次放量。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 13:49:14",
-      "text": "【TrendForce：预计DRAM Q4价格增长10%至15% 明年HBM4每Gb价格或翻番】全球IT市场研究和咨询公司TrendForce于今日在首尔Oakwood Premier Coex Center举办了“2026韩国路演”活动，并就存储芯片市场前景发表了观点。其预测，今年第四季度通用DRAM的平均售价将环比增长10%至15%。随后，预计明年将逐步上涨，第一季度增长5%至10%，第二季度增长3%至8%，第三季度增长0%至5%，第四季度增长0%至5%。HBM价格也同步上涨，预计明年HBM4每Gb的价格将同比增长超过100%，从今年的2.05美元以上上涨至明年的3-5.5美元。下一代产品HBM4E的价格预计超过5美元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
       }
     }
   ]
