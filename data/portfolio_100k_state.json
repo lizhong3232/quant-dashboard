@@ -2,30 +2,40 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 17476.76,
-  "portfolio_value": 79668.76,
-  "account_nav": 0.7967,
+  "cash": 6098.48,
+  "portfolio_value": 80092.48,
+  "account_nav": 0.8009,
   "bench_nav": 1.0017,
   "positions": {
     "300474.SZ": {
       "name": "景嘉微",
       "shares": 900,
       "avg_cost": 47.99,
-      "last_price": 48.82,
-      "market_value": 43938.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
-      "highest": 47.99
+      "last_price": 48.52,
+      "market_value": 43668.0,
+      "pnl": 477.0,
+      "pnl_pct": 1.1,
+      "highest": 48.52
     },
     "688041.SS": {
       "name": "海光信息",
       "shares": 100,
       "avg_cost": 183.11,
-      "last_price": 182.54,
-      "market_value": 18254.0,
+      "last_price": 189.5,
+      "market_value": 18950.0,
+      "pnl": 639.0,
+      "pnl_pct": 3.49,
+      "highest": 189.5
+    },
+    "688981.SS": {
+      "name": "中芯国际",
+      "shares": 100,
+      "avg_cost": 113.76,
+      "last_price": 113.76,
+      "market_value": 11376.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
-      "highest": 183.11
+      "highest": 113.76
     }
   },
   "rules": {
@@ -35,7 +45,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-17 00:05:12",
+  "last_updated": "2026-11-17 18:11:01",
   "benchmark": {
     "last_price": 4.042,
     "nav": 0.8756
