@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-17 23:15:17",
+  "audit_time": "2026-11-17 23:30:21",
   "total_news_scanned": 100,
-  "relevant_events_found": 10,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -14,18 +14,81 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "002594.SZ": {
-      "ticker": "002594.SZ",
-      "name": "比亚迪",
-      "avg_sentiment": 0.4,
-      "news_count": 1,
-      "latest_events": [
-        "温和经营利好"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-18 15:29:40",
+      "text": "【众信旅游：春节产品报名人数同比增长276%】众信旅游11月18日披露数据，截至目前，2027年春节旅游产品预售报名占比达30%，长线热门目的地报名占比超50%；长线出境游、冰雪体验游、小团度假游三大产品线热度同步走高。春节产品报名人数同比增长276%，订单量同比增长174%，产品丰富度提升47%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:29:30",
+      "text": "【业内：第三批摊余成本法封闭债基已陆续拿到批文】从业内获悉，第三批封闭式摊余成本法债基已在近日陆续拿到批文。该批基金是在10月9日集体获证监会接收申请的，合计16只。目前，前两批（首批15只，第二批13只）获批发行基金已陆续开始发行，从募集效率来看，已有9只提前结束募集，但也有产品暂未开始发行。业内人士表示，目前市场利率水平偏低，产品募集难度依然不小，叠加近期债市出现的风险，相关产品的发行受到一定影响。不过，业内人士指出，从产品策略和主配资产来看，摊余成本法封闭债基仍比一些信用债基金的投资性价比高。（每经）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "技术与产品批件",
+        "sentiment_score": 0.75,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:26:11",
+      "text": "【乘联分会：11月1-15日全国乘用车市场新能源车零售44.7万辆，同比下降13%】乘联分会公布数据显示，11月1-15日，全国乘用车市场新能源车零售44.7万辆，同比去年11月同期下降13%，较上月同期增长7%，今年以来累计零售931.6万辆，同比下降13%；11月1-15日，全国乘用车厂商新能源批发59.2万辆，同比去年11月同期增长3%，较上月同期增长18%，今年以来累计批发1,381.5万辆，同比增长9%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:24:16",
+      "text": "【乘联分会：11月1-15日全国乘用车市场零售61.1万辆 同比去年11月同期下降25%】乘联分会数据显示，11月1-15日，全国乘用车市场零售61.1万辆，同比去年11月同期下降25%，较上月同期下降6%，今年以来累计零售1,558.9万辆，同比下降22%；11月1-15日，全国乘用车厂商批发72.2万辆，同比去年11月同期下降23%，较上月同期增长11%，今年以来累计批发2,309.2万辆，同比下降7%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:21:29",
+      "text": "【外交部：欢迎亚太工商界共享中国式现代化机遇】11月18日，外交部发言人郭嘉昆主持例行记者会。有记者问，2026年亚太经合组织工商领导人峰会今天在深圳举行，多国领导人和工商界人士与会。发言人能否进一步介绍有关情况？郭嘉昆表示，今天上午，习近平主席在深圳出席2026年亚太经合组织工商领导人峰会开幕式并发表主旨演讲，就携手建设亚太共同体、促进亚太共同繁荣提出4点建议。习近平主席指出，中国经济保持向新向优向好发展态势，展现出强大韧性和活力。中国“十五五”规划既是自身的发展蓝图，也为亚太乃至全球经济增长提供机遇清单。中国将为全球工商界提供超大规模的开放市场、前景广阔的发展空间、互促共进的合作环境，欢迎亚太工商界继续积极参与中国改革开放和现代化建设，共享中国式现代化机遇。（央视新闻）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:15:16",
+      "text": "10月访日本的外国游客同比增长0.4%，达391万人次。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-18 15:13:47",
       "text": "印尼央行：10月贷款增长13.21%。",
@@ -100,58 +163,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:49:41",
-      "text": "【前10个月深圳对APEC其他经济体进出口增长超四成】据海关统计，前10个月，深圳对APEC其他成员经济体进出口3.65万亿元，同比增长42.1%，规模创历史同期新高。其中，进口1.75万亿元，增长66.4%；出口1.9万亿元，增长25.3%，进、出口贸易发展更加均衡。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:47:50",
-      "text": "【上汽乘用车年内销量破百万，1-10月同比大增43.8%】据官方消息，截至11月初，上汽乘用车2026年累计销量正式突破100万辆，创下历史新高。乘联分会数据显示，1-10月，上汽乘用车狭义乘用车批发销量99.14万辆，同比增长43.8%。在此之前，已有四家企业跨过百万销量关口：同期，比亚迪汽车销量达355.84万辆，吉利汽车达253.26万辆，奇瑞汽车达241.03万辆，长安汽车达109.47万辆。随着11月初销量达标，上汽乘用车成为今年第五家实现狭义乘用车年销破百万的自主乘用车厂商。（21财经）",
-      "analysis": {
-        "matched_tickers": [
-          "002594.SZ"
-        ],
-        "matched_names": [
-          "比亚迪"
-        ],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:47:10",
-      "text": "【摩根士丹利：英伟达Q3业绩“基本符合预期”】摩根士丹利首席投资官兼美股首席策略师Michael Wilson表示，英伟达Q3业绩“基本符合预期”，业绩指引仍“相当积极”，人工智能仍是“值得投资的领域”。目前尚未看到超大规模云计算企业及部分新兴云计算服务商支出放缓，预计未来也不会出现放缓。不过他补充说，相关投资可能无法继续保持市场六个月前预期的增长速度。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 14:44:18",
-      "text": "匈牙利财政部长卡尔曼表示，中期来看，特别税在企业税收总额中的占比预计将下降。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
