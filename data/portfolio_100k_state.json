@@ -3,16 +3,16 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 17476.76,
-  "portfolio_value": 78978.76,
-  "account_nav": 0.7898,
+  "portfolio_value": 79668.76,
+  "account_nav": 0.7967,
   "bench_nav": 1.0017,
   "positions": {
     "300474.SZ": {
       "name": "景嘉微",
       "shares": 900,
       "avg_cost": 47.99,
-      "last_price": 47.99,
-      "market_value": 43191.0,
+      "last_price": 48.82,
+      "market_value": 43938.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 47.99
@@ -21,8 +21,8 @@
       "name": "海光信息",
       "shares": 100,
       "avg_cost": 183.11,
-      "last_price": 183.11,
-      "market_value": 18311.0,
+      "last_price": 182.54,
+      "market_value": 18254.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
       "highest": 183.11
@@ -35,10 +35,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-16 18:11:10",
+  "last_updated": "2026-11-17 00:05:12",
   "benchmark": {
-    "last_price": 4.054,
-    "nav": 0.8782
+    "last_price": 4.042,
+    "nav": 0.8756
   },
   "nav_history": [
     {
@@ -391,6 +391,15 @@
       "account_nav": 0.7798,
       "bench_nav": 0.8782,
       "alpha": -9.84
+    },
+    {
+      "timestamp": "2026-11-17 00:05:12",
+      "date": "2026-11-17",
+      "cash": 17476.76,
+      "portfolio_value": 79668.76,
+      "account_nav": 0.7967,
+      "bench_nav": 0.8756,
+      "alpha": -7.89
     }
   ]
 }
