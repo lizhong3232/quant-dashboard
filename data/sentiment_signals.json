@@ -1,14 +1,14 @@
 {
-  "audit_time": "2026-11-17 23:30:21",
+  "audit_time": "2026-11-17 23:45:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 14,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "002463.SZ": {
-      "ticker": "002463.SZ",
-      "name": "沪电股份",
+    "300750.SZ": {
+      "ticker": "300750.SZ",
+      "name": "宁德时代",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -17,6 +17,94 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-18 15:39:57",
+      "text": "印尼央行高级副行长：外汇对冲折扣也将通过在印尼央行 VASTRA 系统下注册的合作银行提供。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:39:52",
+      "text": "【明年一季度12英寸轻惨硅片能否达到满产状态？立昂微回应】有投资者向立昂微（605358.SH）提问，近期业界有消息称，环球晶圆2027年12英寸长协硅片价格较2026年涨幅约在30%—35%之间。11月18日，公司回答表示，公司硅片产品系列和规格众多，受供需关系影响，2026年第二季度和第三季度公司硅片综合销售均价环比上升，毛利率也在逐季改善。就公司12英寸硅片而言，2026年1-9月公司12英寸硅片销量同比增长40.77%，毛利率为-1.50%，上年同期为-35.95%，负毛利率大幅收窄34.45个百分点。公司12英寸轻掺硅片预计2027上半年可达到满产状态。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:39:03",
+      "text": "【小摩：维持智谱“增持”评级 目标价1200港元】摩根大通发布研报指出，智谱在生成式人工智能领域持续稳步推进，尽管市场对该股的情绪有所转弱，但公司基本面稳健，商业化进展符合预期，加上中国的AI应用仍处于早期阶段。综合考量，该行认为市场当前对公司表现过于悲观，维持智谱“增持”评级，目标价1200港元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:37:44",
+      "text": "印度尼西亚央行高级副行长：未来利率决定将根据通胀、国家经济增长数据来决定。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:34:31",
+      "text": "晨星公司分析师布莱恩·科莱洛：英伟达的股价从基本面来看仍被低估。人工智能领域仍面临严重的算力短缺，这对英伟达的增长前景是利好。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:33:49",
+      "text": "浦项制铁将从2026年至2028年向宁德时代供应锂。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ"
+        ],
+        "matched_names": [
+          "宁德时代"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-18 15:33:36",
+      "text": "【生益电子：股东东莞科创投资集团增持计划实施完毕，累计增持0.19%股份】生益电子公告，公司持股5%以上股东东莞市国弘投资有限公司的一致行动人东莞科技创新投资集团有限公司此前计划自2026年11月9日起6个月内，以自有资金通过集中竞价方式增持公司股票，增持金额不低于5000万元（含），不高于1亿元（含）。2026年11月17日公司收到告知函，东莞科创投资集团已完成本次增持计划，累计增持公司股份162.27万股，占公司总股本的0.19%，累计增持金额为9996.1万元，本次增持计划已在增持期限内实施完毕。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-18 15:29:40",
       "text": "【众信旅游：春节产品报名人数同比增长276%】众信旅游11月18日披露数据，截至目前，2027年春节旅游产品预售报名占比达30%，长线热门目的地报名占比超50%；长线出境游、冰雪体验游、小团度假游三大产品线热度同步走高。春节产品报名人数同比增长276%，订单量同比增长174%，产品丰富度提升47%。",
@@ -99,70 +187,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:07:03",
-      "text": "【广合科技：下游算力客户因为缺芯缺存储，确实存在部分料号拉货延迟的情况】有投资者向广合科技（001389.SZ）提问，近期公司股价大幅回调，想请教两个问题：1、当前广州、黄石、泰国三大基地整体产能稼动率情况，国内工厂是否维持满产？高端AI服务器PCB在手订单饱满度如何？是否存在订单下滑、客户推迟提货的情况？2、公司外销占比较高，泰国产线主要面向北美算力客户，请问海外地缘、出口政策、北美客户资本开支波动，对公司订单、交付、毛利率带来哪些实质性影响？11月18日，公司回答表示，公司在手订单充足，目前各个生产基地稼动率均较高。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:06:31",
-      "text": "印尼央行行长：国内经济增长保持良好。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:03:29",
-      "text": "【伯恩斯坦维持北方华创、中微公司、拓荆科技跑赢大盘评级】在一份名为《Global Semiconductor Equipment: No downward revision in sight yet》的全球半导体设备研报当中，华尔街投行伯恩斯坦维持北方华创、中微公司、拓荆科技跑赢大盘评级。报告认为，零部件短缺带来的交付延迟、阶段性业绩波动会在未来 1‑2 个季度逐步缓解，下游终端持续旺盛的需求将支撑国内设备厂商订单，近期股价回调提供较佳布局时点，预计 2027 年国内设备企业迎来盈利修复，存在业绩上修的可能性。内部排序为北方华创>中微公司>拓荆科技。北方华创产品矩阵最为完备，覆盖刻蚀、沉积、热处理、清洗，客户覆盖逻辑、DRAM、NAND，成熟与先进逻辑扩产浪潮中受益程度最高;中微公司以干法刻蚀见长，同时拓展沉积设备，技术实力得到行业广泛认可;拓荆科技聚焦薄膜沉积，同时布局先进混合键合封装设备，产品创新能力突出。该行同时提到市场对 NAND 资本开支存在担忧，但判断 NAND 扩产不会放缓，中微、拓荆在 2027 年一季度有望迎来业绩反弹。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:02:32",
-      "text": "瑞典央行赫尔姆：生产者层面的广泛价格上涨以及企业的提价计划表明，未来一段时间消费者价格的上涨速度将高于正常水平。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "产品景气提价",
-        "sentiment_score": 0.7,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:00:59",
-      "text": "【A股收评：创业板指探底回升涨0.85%，算力硬件股局部回暖】A股三大指数今日集体上涨，截至收盘，上证指数涨0.09%，深证成指涨0.2%，创业板指涨0.85%，北证50跌1.14%，科创50指数涨2.19%。全市场成交额13800亿元，较上日缩量875亿元，全市场超4100只个股下跌。板块题材上，算力租赁、元件、通信服务、CPO、英伟达概念板块涨幅居前；影视院线、贵金属、游戏、医疗服务、CRO概念板块跌幅居前。盘面上，元件板块震荡走高，深南电路、沪电股份涨停，生益电子一度20cm涨停，南亚新材、兴森科技、景旺电子涨幅居前。算力租赁板块表现强势，宏景科技、青云科技、旋极信息、润建股份、中贝通信、利通电子等十余股涨停，协创数据、行云科技、奥雅股份涨幅居前。CPO板块午后走高，武汉凡谷、胜科纳米等股涨停，天孚通信、太辰光、宇特光电涨幅居前。影视院线板块延续调整，文投控股、横店影视、慈文传媒、金逸影视跌停，华智数媒、奥飞娱乐、欢瑞世纪跌幅居前。贵金属板块集体下挫，中金黄金、山金国际、紫金矿业领跌板块。",
-      "analysis": {
-        "matched_tickers": [
-          "002463.SZ"
-        ],
-        "matched_names": [
-          "沪电股份"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
