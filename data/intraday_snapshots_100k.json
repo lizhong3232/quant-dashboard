@@ -2,151 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-27 10:00:12 CST",
-    "time_str": "10:00",
-    "date_str": "2026-10-27",
-    "portfolio_value": 91358.68,
-    "cash": 19805.68,
-    "stock_market_value": 71553.0,
-    "cash_ratio_pct": 21.68,
-    "stock_ratio_pct": 78.32,
-    "account_nav": 0.9136,
-    "bench_nav": 0.9029,
-    "bench_change_pct": -0.26,
-    "alpha_pct": 1.07,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "688111.SS",
-        "name": "金山办公",
-        "shares": 100,
-        "avg_cost": 231.17,
-        "last_price": 251.84,
-        "market_value": 25184.0,
-        "change_pct": -0.29,
-        "pnl": 2067.0,
-        "pnl_pct": 8.94,
-        "ofi": 0.112,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 27.57
-      },
-      {
-        "ticker": "688036.SS",
-        "name": "传音控股",
-        "shares": 300,
-        "avg_cost": 50.85,
-        "last_price": 56.41,
-        "market_value": 16923.0,
-        "change_pct": -0.32,
-        "pnl": 1668.0,
-        "pnl_pct": 10.93,
-        "ofi": 0.081,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 18.52
-      },
-      {
-        "ticker": "688017.SS",
-        "name": "绿的谐波",
-        "shares": 100,
-        "avg_cost": 252.0,
-        "last_price": 294.46,
-        "market_value": 29446.0,
-        "change_pct": 0.5,
-        "pnl": 4246.0,
-        "pnl_pct": 16.85,
-        "ofi": -0.021,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 32.23
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 91358.68,
-      "cash": 19805.68,
-      "stock_market_value": 71553.0,
-      "cash_ratio_pct": 21.68,
-      "stock_ratio_pct": 78.32,
-      "account_nav": 0.9136,
-      "bench_nav": 0.9029,
-      "alpha_pct": 1.07,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "688111.SS",
-          "name": "金山办公",
-          "shares": 100,
-          "avg_cost": 231.17,
-          "last_price": 251.84,
-          "market_value": 25184.0,
-          "change_pct": -0.29,
-          "pnl": 2067.0,
-          "pnl_pct": 8.94,
-          "ofi": 0.112,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 27.57
-        },
-        {
-          "ticker": "688036.SS",
-          "name": "传音控股",
-          "shares": 300,
-          "avg_cost": 50.85,
-          "last_price": 56.41,
-          "market_value": 16923.0,
-          "change_pct": -0.32,
-          "pnl": 1668.0,
-          "pnl_pct": 10.93,
-          "ofi": 0.081,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 18.52
-        },
-        {
-          "ticker": "688017.SS",
-          "name": "绿的谐波",
-          "shares": 100,
-          "avg_cost": 252.0,
-          "last_price": 294.46,
-          "market_value": 29446.0,
-          "change_pct": 0.5,
-          "pnl": 4246.0,
-          "pnl_pct": 16.85,
-          "ofi": -0.021,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 32.23
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，金山办公、传音控股、绿的谐波高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 金山办公 (688111.SS) | 传音控股 (688036.SS) | 绿的谐波 (688017.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [
-        {
-          "ticker": "688017.SS",
-          "name": "绿的谐波",
-          "time": "今日研判",
-          "title": "人形机器人谐波减速器核心龙头，特斯拉 Optimus 量产预期驱动订单放量",
-          "source": "华安证券 / 机器人产业链快报",
-          "sentiment": "积极偏多",
-          "score": 0.6,
-          "summary": "绿的谐波是国产谐波减速器绝对龙头，深度绑定人形机器人与工业协作机器人赛道；特斯拉 Optimus Gen-3 量产爬坡带动上游核心零部件放量，公司在精度、寿命与量产一致性上具备国际竞争力。"
-        }
-      ],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (金山办公 (688111.SS) | 传音控股 (688036.SS) | 绿的谐波 (688017.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-27 10:15:12 CST",
     "time_str": "10:15",
     "date_str": "2026-10-27",
@@ -30767,6 +30622,123 @@
           "sentiment": "中性资讯",
           "score": 0.0,
           "summary": "【半导体概念港股走强 华虹宏力一度涨超6%】半导体概念港股逆市走高。截至发稿，华虹宏力（01347.HK）涨4.84%，中芯国际（00981.HK）涨3.66%，爱芯元智（00600.HK）涨3.10%，壁仞科技（06082.HK）涨2.68%，云英谷科技（03310.HK）涨2.04%。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (中芯国际 (688981.SS) | 软通动力 (301236.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-19 10:45:14 CST",
+    "time_str": "10:45",
+    "date_str": "2026-11-19",
+    "portfolio_value": 75534.24,
+    "cash": 20506.24,
+    "stock_market_value": 55028.0,
+    "cash_ratio_pct": 27.15,
+    "stock_ratio_pct": 72.85,
+    "account_nav": 0.7553,
+    "bench_nav": 0.8722,
+    "bench_change_pct": -0.79,
+    "alpha_pct": -11.69,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "688981.SS",
+        "name": "中芯国际",
+        "shares": 100,
+        "avg_cost": 113.76,
+        "last_price": 120.11,
+        "market_value": 12011.0,
+        "change_pct": 4.35,
+        "pnl": 635.0,
+        "pnl_pct": 5.58,
+        "ofi": 0.151,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 15.9
+      },
+      {
+        "ticker": "301236.SZ",
+        "name": "软通动力",
+        "shares": 1300,
+        "avg_cost": 33.43,
+        "last_price": 33.09,
+        "market_value": 43017.0,
+        "change_pct": -5.35,
+        "pnl": -442.0,
+        "pnl_pct": -1.02,
+        "ofi": -0.188,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 56.95
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 75534.24,
+      "cash": 20506.24,
+      "stock_market_value": 55028.0,
+      "cash_ratio_pct": 27.15,
+      "stock_ratio_pct": 72.85,
+      "account_nav": 0.7553,
+      "bench_nav": 0.8722,
+      "alpha_pct": -11.69,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "shares": 100,
+          "avg_cost": 113.76,
+          "last_price": 120.11,
+          "market_value": 12011.0,
+          "change_pct": 4.35,
+          "pnl": 635.0,
+          "pnl_pct": 5.58,
+          "ofi": 0.151,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 15.9
+        },
+        {
+          "ticker": "301236.SZ",
+          "name": "软通动力",
+          "shares": 1300,
+          "avg_cost": 33.43,
+          "last_price": 33.09,
+          "market_value": 43017.0,
+          "change_pct": -5.35,
+          "pnl": -442.0,
+          "pnl_pct": -1.02,
+          "ofi": -0.188,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 56.95
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，中芯国际、软通动力高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 中芯国际 (688981.SS) | 软通动力 (301236.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "time": "10:40:11",
+          "title": "【主力资金：紫金矿业净卖出超4亿】截至目前，今日主力资金净流出203.25亿；净流入集成电路制造、IGBT概念、国家大基...",
+          "source": "7x24 财经直播 / 财联社",
+          "sentiment": "中性资讯",
+          "score": 0.0,
+          "summary": "【主力资金：紫金矿业净卖出超4亿】截至目前，今日主力资金净流出203.25亿；净流入集成电路制造、IGBT概念、国家大基金持股等板块，其中集成电路制造板块净流入13.39亿；净流出转融券标的、融资融券、深股通等板块，其中转融券标的板块净流出195.74亿。\n  \n个股方面，中芯国际净买入6.48亿元位居首位，襄阳轴承、华虹宏力、新易盛主力资金净流入居前；紫金矿业净卖出4.68亿元位居首位，华胜天成、华东重机、海光信息净流出额居前。"
         }
       ],
       "nlp_score": 0.62,

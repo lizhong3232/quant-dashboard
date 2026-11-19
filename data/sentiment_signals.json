@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-18 18:30:19",
+  "audit_time": "2026-11-18 18:45:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 6,
+  "relevant_events_found": 7,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,46 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-19 10:43:21",
+      "text": "【国内纯碱厂家总库存144.01万吨 较周一增加0.49万吨】截止2026年11月19日，国内纯碱厂家总库存144.01万吨，较周一增加0.49万吨，涨幅0.34%。其中，轻质纯碱78.49万吨，环比下降0.36万吨，重质纯碱65.52万吨，环比增加0.85万吨。较上周四增加2.65万吨，涨幅1.87%。其中，轻质纯碱78.49万吨，环比下降0.52万吨，重质纯碱65.52万吨，环比增加3.17万吨。去年同期库存量为164.44万吨，同比下降20.43万吨，跌幅12.42%。 (隆众资讯)",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-19 10:42:58",
+      "text": "日本央行行长植田和男表示，全球人工智能需求强劲正推动日本出口和资本支出增长，并带动广泛商品价格上升。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-19 10:40:11",
+      "text": "【主力资金：紫金矿业净卖出超4亿】截至目前，今日主力资金净流出203.25亿；净流入集成电路制造、IGBT概念、国家大基金持股等板块，其中集成电路制造板块净流入13.39亿；净流出转融券标的、融资融券、深股通等板块，其中转融券标的板块净流出195.74亿。\n  \n个股方面，中芯国际净买入6.48亿元位居首位，襄阳轴承、华虹宏力、新易盛主力资金净流入居前；紫金矿业净卖出4.68亿元位居首位，华胜天成、华东重机、海光信息净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "688981.SS"
+        ],
+        "matched_names": [
+          "中芯国际"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
     {
       "timestamp": "2026-11-19 10:18:04",
       "text": "【习近平：携手搭建亚太共同体的“四梁八柱”】11月19日上午，国家主席习近平在深圳主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话，强调亚太各方要携手搭建亚太共同体的“四梁八柱”。习近平指出，中国是亚太经济合作的倡导者、推动者、先行者。中方愿同各方一道，集思广益、汇聚合力，携手搭建亚太共同体的“四梁八柱”。一是强化经贸支柱。推动区域经贸协定对接，围绕亚太自贸区加强政策对话，提高各方参与高水平经贸安排的能力。二是升级联通支柱。巩固“硬联通”，完善基础设施网络；增强“软联通”，促进政策和监管协调；密切“心联通”，促进人文交流和民众相知相亲。三是打造创新支柱。加强数字基础设施建设，完善区域数据治理和协同合作，打造开放创新生态，促进人工智能广泛应用，推动产业转型升级、向新发展。四是夯实发展支柱。推动区域能源和粮食安全合作，深化跨境腐败治理，加大自然资源合理利用和保护，实现经济可持续增长。",
@@ -63,34 +103,6 @@
         "sentiment_score": 0.75,
         "is_black_swan": false,
         "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-19 09:35:45",
-      "text": "【半导体概念港股走强 华虹宏力一度涨超6%】半导体概念港股逆市走高。截至发稿，华虹宏力（01347.HK）涨4.84%，中芯国际（00981.HK）涨3.66%，爱芯元智（00600.HK）涨3.10%，壁仞科技（06082.HK）涨2.68%，云英谷科技（03310.HK）涨2.04%。",
-      "analysis": {
-        "matched_tickers": [
-          "688981.SS"
-        ],
-        "matched_names": [
-          "中芯国际"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-19 09:34:23",
-      "text": "日本央行行长植田和男：GDP中消费支出的下降符合预期。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
