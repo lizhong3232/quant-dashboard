@@ -2,151 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-27 09:30:11 CST",
-    "time_str": "09:30",
-    "date_str": "2026-10-27",
-    "portfolio_value": 90334.68,
-    "cash": 19805.68,
-    "stock_market_value": 70529.0,
-    "cash_ratio_pct": 21.92,
-    "stock_ratio_pct": 78.08,
-    "account_nav": 0.9033,
-    "bench_nav": 0.9058,
-    "bench_change_pct": 0.05,
-    "alpha_pct": -0.25,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "688111.SS",
-        "name": "金山办公",
-        "shares": 100,
-        "avg_cost": 231.17,
-        "last_price": 250.25,
-        "market_value": 25025.0,
-        "change_pct": -0.92,
-        "pnl": 1908.0,
-        "pnl_pct": 8.25,
-        "ofi": -0.684,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 27.7
-      },
-      {
-        "ticker": "688036.SS",
-        "name": "传音控股",
-        "shares": 300,
-        "avg_cost": 50.85,
-        "last_price": 56.68,
-        "market_value": 17004.0,
-        "change_pct": 0.16,
-        "pnl": 1749.0,
-        "pnl_pct": 11.47,
-        "ofi": 0.697,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 18.82
-      },
-      {
-        "ticker": "688017.SS",
-        "name": "绿的谐波",
-        "shares": 100,
-        "avg_cost": 252.0,
-        "last_price": 285.0,
-        "market_value": 28500.0,
-        "change_pct": -2.73,
-        "pnl": 3300.0,
-        "pnl_pct": 13.1,
-        "ofi": 0.166,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 31.55
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 90334.68,
-      "cash": 19805.68,
-      "stock_market_value": 70529.0,
-      "cash_ratio_pct": 21.92,
-      "stock_ratio_pct": 78.08,
-      "account_nav": 0.9033,
-      "bench_nav": 0.9058,
-      "alpha_pct": -0.25,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "688111.SS",
-          "name": "金山办公",
-          "shares": 100,
-          "avg_cost": 231.17,
-          "last_price": 250.25,
-          "market_value": 25025.0,
-          "change_pct": -0.92,
-          "pnl": 1908.0,
-          "pnl_pct": 8.25,
-          "ofi": -0.684,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 27.7
-        },
-        {
-          "ticker": "688036.SS",
-          "name": "传音控股",
-          "shares": 300,
-          "avg_cost": 50.85,
-          "last_price": 56.68,
-          "market_value": 17004.0,
-          "change_pct": 0.16,
-          "pnl": 1749.0,
-          "pnl_pct": 11.47,
-          "ofi": 0.697,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 18.82
-        },
-        {
-          "ticker": "688017.SS",
-          "name": "绿的谐波",
-          "shares": 100,
-          "avg_cost": 252.0,
-          "last_price": 285.0,
-          "market_value": 28500.0,
-          "change_pct": -2.73,
-          "pnl": 3300.0,
-          "pnl_pct": 13.1,
-          "ofi": 0.166,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 31.55
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，金山办公、传音控股、绿的谐波高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 金山办公 (688111.SS) | 传音控股 (688036.SS) | 绿的谐波 (688017.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [
-        {
-          "ticker": "688017.SS",
-          "name": "绿的谐波",
-          "time": "今日研判",
-          "title": "人形机器人谐波减速器核心龙头，特斯拉 Optimus 量产预期驱动订单放量",
-          "source": "华安证券 / 机器人产业链快报",
-          "sentiment": "积极偏多",
-          "score": 0.6,
-          "summary": "绿的谐波是国产谐波减速器绝对龙头，深度绑定人形机器人与工业协作机器人赛道；特斯拉 Optimus Gen-3 量产爬坡带动上游核心零部件放量，公司在精度、寿命与量产一致性上具备国际竞争力。"
-        }
-      ],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (金山办公 (688111.SS) | 传音控股 (688036.SS) | 绿的谐波 (688017.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-27 09:45:12 CST",
     "time_str": "09:45",
     "date_str": "2026-10-27",
@@ -30834,6 +30689,123 @@
       "control_status": "ALPHA_DOMINANCE_HOLD",
       "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
       "decision_rationale": "当前龙头持仓 (景嘉微 (300474.SZ) | 海光信息 (688041.SS) | 中芯国际 (688981.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-19 10:15:15 CST",
+    "time_str": "10:15",
+    "date_str": "2026-11-19",
+    "portfolio_value": 75803.24,
+    "cash": 20506.24,
+    "stock_market_value": 55297.0,
+    "cash_ratio_pct": 27.05,
+    "stock_ratio_pct": 72.95,
+    "account_nav": 0.758,
+    "bench_nav": 0.8711,
+    "bench_change_pct": -0.91,
+    "alpha_pct": -11.31,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "688981.SS",
+        "name": "中芯国际",
+        "shares": 100,
+        "avg_cost": 113.76,
+        "last_price": 119.29,
+        "market_value": 11929.0,
+        "change_pct": 3.64,
+        "pnl": 553.0,
+        "pnl_pct": 4.86,
+        "ofi": 0.095,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 15.74
+      },
+      {
+        "ticker": "301236.SZ",
+        "name": "软通动力",
+        "shares": 1300,
+        "avg_cost": 33.43,
+        "last_price": 33.36,
+        "market_value": 43368.0,
+        "change_pct": -4.58,
+        "pnl": -91.0,
+        "pnl_pct": -0.21,
+        "ofi": -0.171,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 57.21
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 75803.24,
+      "cash": 20506.24,
+      "stock_market_value": 55297.0,
+      "cash_ratio_pct": 27.05,
+      "stock_ratio_pct": 72.95,
+      "account_nav": 0.758,
+      "bench_nav": 0.8711,
+      "alpha_pct": -11.31,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "shares": 100,
+          "avg_cost": 113.76,
+          "last_price": 119.29,
+          "market_value": 11929.0,
+          "change_pct": 3.64,
+          "pnl": 553.0,
+          "pnl_pct": 4.86,
+          "ofi": 0.095,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 15.74
+        },
+        {
+          "ticker": "301236.SZ",
+          "name": "软通动力",
+          "shares": 1300,
+          "avg_cost": 33.43,
+          "last_price": 33.36,
+          "market_value": 43368.0,
+          "change_pct": -4.58,
+          "pnl": -91.0,
+          "pnl_pct": -0.21,
+          "ofi": -0.171,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 57.21
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，中芯国际、软通动力高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 中芯国际 (688981.SS) | 软通动力 (301236.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "time": "09:35:45",
+          "title": "【半导体概念港股走强 华虹宏力一度涨超6%】半导体概念港股逆市走高。截至发稿，华虹宏力（01347.HK）涨4.84%，...",
+          "source": "7x24 财经直播 / 财联社",
+          "sentiment": "中性资讯",
+          "score": 0.0,
+          "summary": "【半导体概念港股走强 华虹宏力一度涨超6%】半导体概念港股逆市走高。截至发稿，华虹宏力（01347.HK）涨4.84%，中芯国际（00981.HK）涨3.66%，爱芯元智（00600.HK）涨3.10%，壁仞科技（06082.HK）涨2.68%，云英谷科技（03310.HK）涨2.04%。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (中芯国际 (688981.SS) | 软通动力 (301236.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
     }
   }
 ]
