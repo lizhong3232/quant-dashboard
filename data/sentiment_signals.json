@@ -1,22 +1,24 @@
 {
-  "audit_time": "2026-11-18 19:30:18",
+  "audit_time": "2026-11-18 19:45:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 13,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
-  "stock_sentiment_summary": {
-    "688981.SS": {
-      "ticker": "688981.SS",
-      "name": "中芯国际",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
-    }
-  },
+  "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-19 11:32:02",
+      "text": "【里昂：降腾讯目标价至650港元，重申“高度确信跑赢大市”评级】里昂发表研报指，受国际游戏表现疲弱及AI投资增加所拖累，腾讯第三季业绩低于预期。总收入同比增长7.5%，经调整EBIT同比跌6.2%，低于该行预期4.5%。国内游戏及广告收入维持健康增长，云业务收入同比增速加快至35%，WorkBuddy年度经常性收入(ARR)达5亿美元。该行预期，腾讯的资本开支将维持高位，惟料增幅将会放缓，自由现金流预计于第四季重返正数。该行将公司今明两年经调整净利润预测分别下调3%及5%，目标价由685港元降至650港元，重申“高度确信跑赢大市”评级。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-19 11:16:17",
       "text": "【欢聚集团第三季度总营收同比增长15.6%】11月19日，欢聚集团发布2026年第三季度财报，总营收达6.246亿美元，同比增长15.6%，环比增长5.7%。在非美国通用会计准则下，第三季度集团经营利润4660万美元，同比增长14.6%，EBITDA达5570万美元，同比增长10.1%。",
@@ -123,58 +125,6 @@
         "sentiment_score": -0.95,
         "is_black_swan": true,
         "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-19 10:45:47",
-      "text": "【疫苗板块大幅调整，*ST未名跌停】疫苗板块大幅调整，*ST未名跌停，金河生物、百克生物、金迪克、利德曼、海欣股份、*ST康乐等跟跌。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-19 10:43:21",
-      "text": "【国内纯碱厂家总库存144.01万吨 较周一增加0.49万吨】截止2026年11月19日，国内纯碱厂家总库存144.01万吨，较周一增加0.49万吨，涨幅0.34%。其中，轻质纯碱78.49万吨，环比下降0.36万吨，重质纯碱65.52万吨，环比增加0.85万吨。较上周四增加2.65万吨，涨幅1.87%。其中，轻质纯碱78.49万吨，环比下降0.52万吨，重质纯碱65.52万吨，环比增加3.17万吨。去年同期库存量为164.44万吨，同比下降20.43万吨，跌幅12.42%。 (隆众资讯)",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-19 10:42:58",
-      "text": "日本央行行长植田和男表示，全球人工智能需求强劲正推动日本出口和资本支出增长，并带动广泛商品价格上升。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-19 10:40:11",
-      "text": "【主力资金：紫金矿业净卖出超4亿】截至目前，今日主力资金净流出203.25亿；净流入集成电路制造、IGBT概念、国家大基金持股等板块，其中集成电路制造板块净流入13.39亿；净流出转融券标的、融资融券、深股通等板块，其中转融券标的板块净流出195.74亿。\n  \n个股方面，中芯国际净买入6.48亿元位居首位，襄阳轴承、华虹宏力、新易盛主力资金净流入居前；紫金矿业净卖出4.68亿元位居首位，华胜天成、华东重机、海光信息净流出额居前。",
-      "analysis": {
-        "matched_tickers": [
-          "688981.SS"
-        ],
-        "matched_names": [
-          "中芯国际"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
