@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-18 19:15:17",
+  "audit_time": "2026-11-18 19:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 11,
+  "relevant_events_found": 13,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,30 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-19 11:16:17",
+      "text": "【欢聚集团第三季度总营收同比增长15.6%】11月19日，欢聚集团发布2026年第三季度财报，总营收达6.246亿美元，同比增长15.6%，环比增长5.7%。在非美国通用会计准则下，第三季度集团经营利润4660万美元，同比增长14.6%，EBITDA达5570万美元，同比增长10.1%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-19 11:15:58",
+      "text": "【梁建章：旅行不可能被AI或者机器人替代，中国入境游的增长潜力非常大】11月19日，携程集团联合创始人、董事局主席梁建章在携程集团全球合作伙伴峰会上表示，在智能时代，旅游业将是一个长期增长的行业。“在智能时代，旅游业更是具有其特殊的作用。”梁建章表示，只有不容易被自动化的、精神需求行业会得到增长，因为它的价格是稳定的，甚至上升的。而旅游业是唯一一个重资产的、提供精神体验的行业。“旅行是个‘重’的产业，它不可能被AI或者机器人替代，因为需要把一个人从远方运到这里。”梁建章判断，旅游占比会越来越上升。梁建章表示，目前中国在全球的目的地里面排到第九位，但出境旅游往往都是排在其他国家的第一第二位，所以入境游的增长潜力非常大。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-19 11:08:10",
       "text": "日本央行行长植田和男：随着我们缩减购债规模，日本央行持有的日本国债可能会稳步下降。",
