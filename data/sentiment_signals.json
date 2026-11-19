@@ -1,12 +1,36 @@
 {
-  "audit_time": "2026-11-18 20:15:19",
+  "audit_time": "2026-11-18 20:30:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 9,
+  "relevant_events_found": 10,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {},
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-19 12:29:31",
+      "text": "【魏少军教授：2026年中国芯片行业销售预计实现1.58万亿元】中国半导体行业协会集成电路设计分会主任魏少军教授在“2026集成电路发展论坛（北京）暨三十二届集成电路设计业展览会”（ICCAD-Expo 2026）上发布报告称，2026年中国芯片行业销售预计实现1.58万亿元，同比增长约89%。另外，进入芯片产业销售前十名城市的最低门槛从上年度171.6亿元拔高到366亿元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-19 12:25:14",
+      "text": "【习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话 】11月19日上午，国家主席习近平在深圳国际交流中心主持亚太经合组织第三十三次领导人非正式会议，并发表题为《建设亚太共同体，续写“亚太奇迹”新篇章》的重要讲话。 11月的深圳，微风送爽，鲜花盛开。 习近平热情迎接与会的各经济体领导人、代表及国际组织负责人，同他们亲切握手并集体合影，随后主持会议。 习近平指出，30多年前，亚太经合组织应运而生，开启了建设亚太共同体的壮阔历程。30多年来，亚太地区面貌日新月异，创造了经济快速发展的“亚太奇迹”。面对新的机遇和挑战，亚太合作必须适应新形势、迈出新步伐、开创新局面，推动建设和衷共济、开放融通、开拓创新、包容发展的亚太共同体。 一要坚持和衷共济，拉紧共同利益纽带，携手应对困难和挑战，持续培育共同体意识。二要坚持开放融通，稳步推进经济一体化进程，构建开放而不排他、融合而不分割的合作格局，倡导自由开放的贸易和投资，为亚太经济增长开拓更广阔空间。三要坚持开拓创新，鼓励科技交流合作，促进创新成果转化，营造开放、公平、公正、非歧视的合作环境，推动机制理念创新和结构性改革，不断释放亚太经济的活力和潜力。四要坚持包容发展，让发展成果普惠共享，增加民众获得感，照顾各方舒适度，为实现亚太共同体目标积累有利条件。（新华社）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-19 12:11:39",
       "text": "Needham 首次覆盖ANTHROPIC，给予买入评级，目标价150美元。",
@@ -101,18 +125,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-19 11:08:10",
-      "text": "日本央行行长植田和男：随着我们缩减购债规模，日本央行持有的日本国债可能会稳步下降。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和业绩承压",
-        "sentiment_score": -0.4,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
