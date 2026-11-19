@@ -1,14 +1,14 @@
 {
-  "audit_time": "2026-11-17 23:45:18",
+  "audit_time": "2026-11-18 18:00:18",
   "total_news_scanned": 100,
-  "relevant_events_found": 14,
+  "relevant_events_found": 3,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
-    "300750.SZ": {
-      "ticker": "300750.SZ",
-      "name": "宁德时代",
+    "688981.SS": {
+      "ticker": "688981.SS",
+      "name": "中芯国际",
       "avg_sentiment": 0.0,
       "news_count": 1,
       "latest_events": [
@@ -18,74 +18,14 @@
   },
   "recent_analyzed_news": [
     {
-      "timestamp": "2026-11-18 15:39:57",
-      "text": "印尼央行高级副行长：外汇对冲折扣也将通过在印尼央行 VASTRA 系统下注册的合作银行提供。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:39:52",
-      "text": "【明年一季度12英寸轻惨硅片能否达到满产状态？立昂微回应】有投资者向立昂微（605358.SH）提问，近期业界有消息称，环球晶圆2027年12英寸长协硅片价格较2026年涨幅约在30%—35%之间。11月18日，公司回答表示，公司硅片产品系列和规格众多，受供需关系影响，2026年第二季度和第三季度公司硅片综合销售均价环比上升，毛利率也在逐季改善。就公司12英寸硅片而言，2026年1-9月公司12英寸硅片销量同比增长40.77%，毛利率为-1.50%，上年同期为-35.95%，负毛利率大幅收窄34.45个百分点。公司12英寸轻掺硅片预计2027上半年可达到满产状态。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:39:03",
-      "text": "【小摩：维持智谱“增持”评级 目标价1200港元】摩根大通发布研报指出，智谱在生成式人工智能领域持续稳步推进，尽管市场对该股的情绪有所转弱，但公司基本面稳健，商业化进展符合预期，加上中国的AI应用仍处于早期阶段。综合考量，该行认为市场当前对公司表现过于悲观，维持智谱“增持”评级，目标价1200港元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:37:44",
-      "text": "印度尼西亚央行高级副行长：未来利率决定将根据通胀、国家经济增长数据来决定。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:34:31",
-      "text": "晨星公司分析师布莱恩·科莱洛：英伟达的股价从基本面来看仍被低估。人工智能领域仍面临严重的算力短缺，这对英伟达的增长前景是利好。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:33:49",
-      "text": "浦项制铁将从2026年至2028年向宁德时代供应锂。",
+      "timestamp": "2026-11-19 09:35:45",
+      "text": "【半导体概念港股走强 华虹宏力一度涨超6%】半导体概念港股逆市走高。截至发稿，华虹宏力（01347.HK）涨4.84%，中芯国际（00981.HK）涨3.66%，爱芯元智（00600.HK）涨3.10%，壁仞科技（06082.HK）涨2.68%，云英谷科技（03310.HK）涨2.04%。",
       "analysis": {
         "matched_tickers": [
-          "300750.SZ"
+          "688981.SS"
         ],
         "matched_names": [
-          "宁德时代"
+          "中芯国际"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -94,99 +34,27 @@
       }
     },
     {
-      "timestamp": "2026-11-18 15:33:36",
-      "text": "【生益电子：股东东莞科创投资集团增持计划实施完毕，累计增持0.19%股份】生益电子公告，公司持股5%以上股东东莞市国弘投资有限公司的一致行动人东莞科技创新投资集团有限公司此前计划自2026年11月9日起6个月内，以自有资金通过集中竞价方式增持公司股票，增持金额不低于5000万元（含），不高于1亿元（含）。2026年11月17日公司收到告知函，东莞科创投资集团已完成本次增持计划，累计增持公司股份162.27万股，占公司总股本的0.19%，累计增持金额为9996.1万元，本次增持计划已在增持期限内实施完毕。",
+      "timestamp": "2026-11-19 09:34:23",
+      "text": "日本央行行长植田和男：GDP中消费支出的下降符合预期。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
         "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
+        "action_signal": "TRIM_RISK"
       }
     },
     {
-      "timestamp": "2026-11-18 15:29:40",
-      "text": "【众信旅游：春节产品报名人数同比增长276%】众信旅游11月18日披露数据，截至目前，2027年春节旅游产品预售报名占比达30%，长线热门目的地报名占比超50%；长线出境游、冰雪体验游、小团度假游三大产品线热度同步走高。春节产品报名人数同比增长276%，订单量同比增长174%，产品丰富度提升47%。",
+      "timestamp": "2026-11-19 09:32:02",
+      "text": "【机械设备板块盘初走弱，林州重机跌停】机械设备板块盘初走弱，林州重机跌停，冰山冷热、哈空调、泰嘉股份、雪人集团、ST新元、华东数控等跟跌。",
       "analysis": {
         "matched_tickers": [],
         "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:29:30",
-      "text": "【业内：第三批摊余成本法封闭债基已陆续拿到批文】从业内获悉，第三批封闭式摊余成本法债基已在近日陆续拿到批文。该批基金是在10月9日集体获证监会接收申请的，合计16只。目前，前两批（首批15只，第二批13只）获批发行基金已陆续开始发行，从募集效率来看，已有9只提前结束募集，但也有产品暂未开始发行。业内人士表示，目前市场利率水平偏低，产品募集难度依然不小，叠加近期债市出现的风险，相关产品的发行受到一定影响。不过，业内人士指出，从产品策略和主配资产来看，摊余成本法封闭债基仍比一些信用债基金的投资性价比高。（每经）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "技术与产品批件",
-        "sentiment_score": 0.75,
-        "is_black_swan": false,
-        "action_signal": "STRONG_ACCUMULATE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:26:11",
-      "text": "【乘联分会：11月1-15日全国乘用车市场新能源车零售44.7万辆，同比下降13%】乘联分会公布数据显示，11月1-15日，全国乘用车市场新能源车零售44.7万辆，同比去年11月同期下降13%，较上月同期增长7%，今年以来累计零售931.6万辆，同比下降13%；11月1-15日，全国乘用车厂商新能源批发59.2万辆，同比去年11月同期增长3%，较上月同期增长18%，今年以来累计批发1,381.5万辆，同比增长9%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:24:16",
-      "text": "【乘联分会：11月1-15日全国乘用车市场零售61.1万辆 同比去年11月同期下降25%】乘联分会数据显示，11月1-15日，全国乘用车市场零售61.1万辆，同比去年11月同期下降25%，较上月同期下降6%，今年以来累计零售1,558.9万辆，同比下降22%；11月1-15日，全国乘用车厂商批发72.2万辆，同比去年11月同期下降23%，较上月同期增长11%，今年以来累计批发2,309.2万辆，同比下降7%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:21:29",
-      "text": "【外交部：欢迎亚太工商界共享中国式现代化机遇】11月18日，外交部发言人郭嘉昆主持例行记者会。有记者问，2026年亚太经合组织工商领导人峰会今天在深圳举行，多国领导人和工商界人士与会。发言人能否进一步介绍有关情况？郭嘉昆表示，今天上午，习近平主席在深圳出席2026年亚太经合组织工商领导人峰会开幕式并发表主旨演讲，就携手建设亚太共同体、促进亚太共同繁荣提出4点建议。习近平主席指出，中国经济保持向新向优向好发展态势，展现出强大韧性和活力。中国“十五五”规划既是自身的发展蓝图，也为亚太乃至全球经济增长提供机遇清单。中国将为全球工商界提供超大规模的开放市场、前景广阔的发展空间、互促共进的合作环境，欢迎亚太工商界继续积极参与中国改革开放和现代化建设，共享中国式现代化机遇。（央视新闻）",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:15:16",
-      "text": "10月访日本的外国游客同比增长0.4%，达391万人次。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-18 15:13:47",
-      "text": "印尼央行：10月贷款增长13.21%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
