@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-18 18:45:18",
+  "audit_time": "2026-11-18 19:00:17",
   "total_news_scanned": 100,
-  "relevant_events_found": 7,
+  "relevant_events_found": 12,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,66 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-19 10:58:33",
+      "text": "【机构：手游《明日方舟》累计海外收入超10亿美元】11月19日，Sensor Tower发布2026年10月中国手游海外市场收入及下载量排行榜。榜单显示，10月，《Gossip Harbor》、《明日方舟》、《鸣潮》位列中国手游海外收入增长榜前三，其中《Gossip Harbor》海外收入再创新高，自今年2月以来连续9个月蝉联中国手游出海收入榜冠军。根据Sensor Tower数据，自2020年海外上线以来，《明日方舟》累计海外收入突破10亿美元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-19 10:56:08",
+      "text": "日本央行行长植田和男：中小企业工资也在增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-19 10:53:02",
+      "text": "【目标设定每年20万台整机产能，与津冀协同布局产业链 北京机器人产业有望开启新一轮增长空间】北京近日明确提出建设国际一流的具身智能机器人技术策源地和产业创新高地，找准产业新发力点，布局基础模型能力提升、每年20万台的整机产能等重点任务。北京具身智能机器人产业，也有望开启新一轮增长空间。《行动方案》提出，在京津冀地区统筹布局零部件和配套环节产能建设，实现研发与制造协同的创新闭环。未来，京津冀配套率将超过60%。（北京日报）",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-19 10:51:34",
+      "text": "【钢铁板块震荡走弱，*ST八钢触及跌停】钢铁板块震荡走弱，*ST八钢触及跌停，金洲管道、杭钢股份、武进不锈、大中矿业、广东明珠、盛德鑫泰等跟跌。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-19 10:45:47",
+      "text": "【疫苗板块大幅调整，*ST未名跌停】疫苗板块大幅调整，*ST未名跌停，金河生物、百克生物、金迪克、利德曼、海欣股份、*ST康乐等跟跌。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "退市警示",
+        "sentiment_score": -0.95,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
     {
       "timestamp": "2026-11-19 10:43:21",
       "text": "【国内纯碱厂家总库存144.01万吨 较周一增加0.49万吨】截止2026年11月19日，国内纯碱厂家总库存144.01万吨，较周一增加0.49万吨，涨幅0.34%。其中，轻质纯碱78.49万吨，环比下降0.36万吨，重质纯碱65.52万吨，环比增加0.85万吨。较上周四增加2.65万吨，涨幅1.87%。其中，轻质纯碱78.49万吨，环比下降0.52万吨，重质纯碱65.52万吨，环比增加3.17万吨。去年同期库存量为164.44万吨，同比下降20.43万吨，跌幅12.42%。 (隆众资讯)",
