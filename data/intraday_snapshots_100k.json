@@ -2,112 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-28 09:30:11 CST",
-    "time_str": "09:30",
-    "date_str": "2026-10-28",
-    "portfolio_value": 88331.88,
-    "cash": 18879.88,
-    "stock_market_value": 69452.0,
-    "cash_ratio_pct": 21.37,
-    "stock_ratio_pct": 78.63,
-    "account_nav": 0.8833,
-    "bench_nav": 0.8982,
-    "bench_change_pct": 0.56,
-    "alpha_pct": -1.49,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "688111.SS",
-        "name": "金山办公",
-        "shares": 100,
-        "avg_cost": 231.17,
-        "last_price": 240.8,
-        "market_value": 24080.0,
-        "change_pct": -1.51,
-        "pnl": 963.0,
-        "pnl_pct": 4.17,
-        "ofi": 0.435,
-        "flow_status": "强势主动扫货",
-        "weight_pct": 27.26
-      },
-      {
-        "ticker": "688223.SS",
-        "name": "晶科能源",
-        "shares": 11400,
-        "avg_cost": 3.94,
-        "last_price": 3.98,
-        "market_value": 45372.0,
-        "change_pct": 1.02,
-        "pnl": 456.0,
-        "pnl_pct": 1.02,
-        "ofi": -0.024,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 51.37
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 88331.88,
-      "cash": 18879.88,
-      "stock_market_value": 69452.0,
-      "cash_ratio_pct": 21.37,
-      "stock_ratio_pct": 78.63,
-      "account_nav": 0.8833,
-      "bench_nav": 0.8982,
-      "alpha_pct": -1.49,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "688111.SS",
-          "name": "金山办公",
-          "shares": 100,
-          "avg_cost": 231.17,
-          "last_price": 240.8,
-          "market_value": 24080.0,
-          "change_pct": -1.51,
-          "pnl": 963.0,
-          "pnl_pct": 4.17,
-          "ofi": 0.435,
-          "flow_status": "强势主动扫货",
-          "weight_pct": 27.26
-        },
-        {
-          "ticker": "688223.SS",
-          "name": "晶科能源",
-          "shares": 11400,
-          "avg_cost": 3.94,
-          "last_price": 3.98,
-          "market_value": 45372.0,
-          "change_pct": 1.02,
-          "pnl": 456.0,
-          "pnl_pct": 1.02,
-          "ofi": -0.024,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 51.37
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，金山办公、晶科能源高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 金山办公 (688111.SS) | 晶科能源 (688223.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (金山办公 (688111.SS) | 晶科能源 (688223.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-28 09:45:12 CST",
     "time_str": "09:45",
     "date_str": "2026-10-28",
@@ -30308,6 +30202,127 @@
           "ofi": 0.056,
           "flow_status": "强势主动扫货",
           "weight_pct": 55.81
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，中芯国际、软通动力高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 中芯国际 (688981.SS) | 软通动力 (301236.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "time": "今日研判",
+          "title": "先进制程与自主可控扩产预期升温，盘中多空博弈主力资金分化",
+          "source": "财联社 / 盘中异动分析",
+          "sentiment": "中性分化",
+          "score": -0.1,
+          "summary": "中芯国际产能利用率保持高位，先进封装与自主算力芯片代工需求旺盛，但短期受宏观流动性扰动出现局部订单流获利抛压。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (中芯国际 (688981.SS) | 软通动力 (301236.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-20 14:15:14 CST",
+    "time_str": "14:15",
+    "date_str": "2026-11-20",
+    "portfolio_value": 74221.24,
+    "cash": 20506.24,
+    "stock_market_value": 53715.0,
+    "cash_ratio_pct": 27.63,
+    "stock_ratio_pct": 72.37,
+    "account_nav": 0.7422,
+    "bench_nav": 0.8637,
+    "bench_change_pct": -1.8,
+    "alpha_pct": -12.15,
+    "warnings_count": 1,
+    "warnings": [
+      "[🚨硬性止损预警] 软通动力 (301236.SZ) 浮亏 -4.55% 跌破 -2.8% 止损保护红线！"
+    ],
+    "positions": [
+      {
+        "ticker": "688981.SS",
+        "name": "中芯国际",
+        "shares": 100,
+        "avg_cost": 113.76,
+        "last_price": 122.32,
+        "market_value": 12232.0,
+        "change_pct": 0.06,
+        "pnl": 856.0,
+        "pnl_pct": 7.52,
+        "ofi": 0.053,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 16.48
+      },
+      {
+        "ticker": "301236.SZ",
+        "name": "软通动力",
+        "shares": 1300,
+        "avg_cost": 33.43,
+        "last_price": 31.91,
+        "market_value": 41483.0,
+        "change_pct": -3.24,
+        "pnl": -1976.0,
+        "pnl_pct": -4.55,
+        "ofi": 0.06,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 55.89
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 74221.24,
+      "cash": 20506.24,
+      "stock_market_value": 53715.0,
+      "cash_ratio_pct": 27.63,
+      "stock_ratio_pct": 72.37,
+      "account_nav": 0.7422,
+      "bench_nav": 0.8637,
+      "alpha_pct": -12.15,
+      "warnings_count": 1,
+      "warnings": [
+        "[🚨硬性止损预警] 软通动力 (301236.SZ) 浮亏 -4.55% 跌破 -2.8% 止损保护红线！"
+      ],
+      "positions": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "shares": 100,
+          "avg_cost": 113.76,
+          "last_price": 122.32,
+          "market_value": 12232.0,
+          "change_pct": 0.06,
+          "pnl": 856.0,
+          "pnl_pct": 7.52,
+          "ofi": 0.053,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 16.48
+        },
+        {
+          "ticker": "301236.SZ",
+          "name": "软通动力",
+          "shares": 1300,
+          "avg_cost": 33.43,
+          "last_price": 31.91,
+          "market_value": 41483.0,
+          "change_pct": -3.24,
+          "pnl": -1976.0,
+          "pnl_pct": -4.55,
+          "ofi": 0.06,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 55.89
         }
       ]
     },
