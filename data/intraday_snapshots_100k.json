@@ -2,112 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-28 14:15:12 CST",
-    "time_str": "14:15",
-    "date_str": "2026-10-28",
-    "portfolio_value": 85724.88,
-    "cash": 18879.88,
-    "stock_market_value": 66845.0,
-    "cash_ratio_pct": 22.02,
-    "stock_ratio_pct": 77.98,
-    "account_nav": 0.8572,
-    "bench_nav": 0.8986,
-    "bench_change_pct": 0.61,
-    "alpha_pct": -4.14,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "688111.SS",
-        "name": "金山办公",
-        "shares": 100,
-        "avg_cost": 231.17,
-        "last_price": 226.13,
-        "market_value": 22613.0,
-        "change_pct": -7.51,
-        "pnl": -504.0,
-        "pnl_pct": -2.18,
-        "ofi": -0.081,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 26.38
-      },
-      {
-        "ticker": "688223.SS",
-        "name": "晶科能源",
-        "shares": 11400,
-        "avg_cost": 3.94,
-        "last_price": 3.88,
-        "market_value": 44232.0,
-        "change_pct": -1.52,
-        "pnl": -684.0,
-        "pnl_pct": -1.52,
-        "ofi": -0.085,
-        "flow_status": "主动砸盘出货",
-        "weight_pct": 51.6
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 85724.88,
-      "cash": 18879.88,
-      "stock_market_value": 66845.0,
-      "cash_ratio_pct": 22.02,
-      "stock_ratio_pct": 77.98,
-      "account_nav": 0.8572,
-      "bench_nav": 0.8986,
-      "alpha_pct": -4.14,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "688111.SS",
-          "name": "金山办公",
-          "shares": 100,
-          "avg_cost": 231.17,
-          "last_price": 226.13,
-          "market_value": 22613.0,
-          "change_pct": -7.51,
-          "pnl": -504.0,
-          "pnl_pct": -2.18,
-          "ofi": -0.081,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 26.38
-        },
-        {
-          "ticker": "688223.SS",
-          "name": "晶科能源",
-          "shares": 11400,
-          "avg_cost": 3.94,
-          "last_price": 3.88,
-          "market_value": 44232.0,
-          "change_pct": -1.52,
-          "pnl": -684.0,
-          "pnl_pct": -1.52,
-          "ofi": -0.085,
-          "flow_status": "主动砸盘出货",
-          "weight_pct": 51.6
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，金山办公、晶科能源高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 金山办公 (688111.SS) | 晶科能源 (688223.SS) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (金山办公 (688111.SS) | 晶科能源 (688223.SS)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-28 14:30:12 CST",
     "time_str": "14:30",
     "date_str": "2026-10-28",
@@ -30602,6 +30496,171 @@
       "macro_score": 0.58,
       "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 中芯国际 (688981.SS) | 天孚通信 (300394.SZ) | 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
       "holding_news": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "time": "今日研判",
+          "title": "先进制程与自主可控扩产预期升温，盘中多空博弈主力资金分化",
+          "source": "财联社 / 盘中异动分析",
+          "sentiment": "中性分化",
+          "score": -0.1,
+          "summary": "中芯国际产能利用率保持高位，先进封装与自主算力芯片代工需求旺盛，但短期受宏观流动性扰动出现局部订单流获利抛压。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (中芯国际 (688981.SS) | 天孚通信 (300394.SZ) | 新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-24 11:45:11 CST",
+    "time_str": "11:45",
+    "date_str": "2026-11-24",
+    "portfolio_value": 74464.96,
+    "cash": 5488.96,
+    "stock_market_value": 68976.0,
+    "cash_ratio_pct": 7.37,
+    "stock_ratio_pct": 92.63,
+    "account_nav": 0.7446,
+    "bench_nav": 0.8776,
+    "bench_change_pct": 0.7,
+    "alpha_pct": -13.3,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "688981.SS",
+        "name": "中芯国际",
+        "shares": 100,
+        "avg_cost": 113.76,
+        "last_price": 126.38,
+        "market_value": 12638.0,
+        "change_pct": 3.93,
+        "pnl": 1262.0,
+        "pnl_pct": 11.09,
+        "ofi": 0.035,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 16.97
+      },
+      {
+        "ticker": "300394.SZ",
+        "name": "天孚通信",
+        "shares": 300,
+        "avg_cost": 128.36,
+        "last_price": 125.21,
+        "market_value": 37563.0,
+        "change_pct": 7.66,
+        "pnl": -945.0,
+        "pnl_pct": -2.45,
+        "ofi": 0.025,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 50.44
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 190.17,
+        "last_price": 187.75,
+        "market_value": 18775.0,
+        "change_pct": 3.52,
+        "pnl": -242.0,
+        "pnl_pct": -1.27,
+        "ofi": -0.102,
+        "flow_status": "主动砸盘出货",
+        "weight_pct": 25.21
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 74464.96,
+      "cash": 5488.96,
+      "stock_market_value": 68976.0,
+      "cash_ratio_pct": 7.37,
+      "stock_ratio_pct": 92.63,
+      "account_nav": 0.7446,
+      "bench_nav": 0.8776,
+      "alpha_pct": -13.3,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "shares": 100,
+          "avg_cost": 113.76,
+          "last_price": 126.38,
+          "market_value": 12638.0,
+          "change_pct": 3.93,
+          "pnl": 1262.0,
+          "pnl_pct": 11.09,
+          "ofi": 0.035,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 16.97
+        },
+        {
+          "ticker": "300394.SZ",
+          "name": "天孚通信",
+          "shares": 300,
+          "avg_cost": 128.36,
+          "last_price": 125.21,
+          "market_value": 37563.0,
+          "change_pct": 7.66,
+          "pnl": -945.0,
+          "pnl_pct": -2.45,
+          "ofi": 0.025,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 50.44
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 190.17,
+          "last_price": 187.75,
+          "market_value": 18775.0,
+          "change_pct": 3.52,
+          "pnl": -242.0,
+          "pnl_pct": -1.27,
+          "ofi": -0.102,
+          "flow_status": "主动砸盘出货",
+          "weight_pct": 25.21
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，中芯国际、天孚通信、新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 中芯国际 (688981.SS) | 天孚通信 (300394.SZ) | 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
+        {
+          "ticker": "300394.SZ",
+          "name": "天孚通信",
+          "time": "11:31:21",
+          "title": "【午评：创业板指冲高回落半日涨1.9%，消费电子、人形机器人板块表现活跃】A股三大指数早盘集体上涨，截至午盘，上证指数涨...",
+          "source": "7x24 财经直播 / 财联社",
+          "sentiment": "中性资讯",
+          "score": 0.0,
+          "summary": "【午评：创业板指冲高回落半日涨1.9%，消费电子、人形机器人板块表现活跃】A股三大指数早盘集体上涨，截至午盘，上证指数涨0.47%，深证成指涨0.92%，创业板指涨1.9%，北证50涨1.83%，科创50指数涨2.72%。全市场成交额11302亿元，较上日放量2077亿元，全市场超3100只个股上涨。板块题材上，消费电子、减速器、能源金属、半导体、人形机器人板块涨幅居前；贵金属、煤炭开采加工、证券、工业金属、银行板块跌幅居前。盘面上，消费电子板块表现活跃，奥尼电子、共达电声、科森科技、工业富联触及涨停，博硕科技、天键股份、朗特智能涨幅居前。人形机器人板块延续涨势，安培龙、方正电机、宁波东力、福达股份、福莱新材、柯力传感等多股触及涨停，恒工精密、上纬新材、瑞迪智驱涨幅居前。CPO板块高开回落，天孚通信、宇特光电、罗博特科涨幅居前。贵金属板块高开低走，赤峰黄金、西部黄金、中金黄金跌幅居前。煤炭开采加工板块亦走势低迷，电投能源、山西焦化、美锦能源跌幅居前。"
+        },
         {
           "ticker": "688981.SS",
           "name": "中芯国际",
