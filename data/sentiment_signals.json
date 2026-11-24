@@ -1,7 +1,7 @@
 {
-  "audit_time": "2026-11-23 20:34:05",
+  "audit_time": "2026-11-23 20:45:20",
   "total_news_scanned": 100,
-  "relevant_events_found": 20,
+  "relevant_events_found": 18,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
@@ -17,6 +17,42 @@
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-24 12:44:38",
+      "text": "【盛松成：本轮美元走强的驱动因素及其对中国的影响】中国首席经济学家论坛研究院院长盛松成发文称，本轮美元走强有两点值得关注。一是美元相对于其他主要货币的利差优势并未明显扩大，传统利差理论框架难以充分解释近期美元的强势表现；二是美元汇率的驱动因素正在趋向复杂。美国实际利率变化、AI价值重估引发的全球风险偏好下降，以及中期选举后美国政治格局变化带来的政策不确定性，共同构成了影响近期美元走势的重要变量。这些新变化不仅关系到本轮美元强势能否持续，也对全球金融市场产生显著影响，值得我国关注。本轮美元上涨表明，当实际利率走高、全球风险偏好下降时，即使名义利差没有显著变化，美元也可能走强。对中国而言，应对外部美元及全球金融市场波动，需要继续坚持货币政策自主性，同时加强对跨境资本流动和重点市场波动的监测，丰富政策工具储备并灵活运用，维护金融稳定。随着中国产业结构持续升级、对外开放不断扩大，国内金融市场与全球金融周期的联系将更加紧密，外部冲击的传导渠道也将更加多元，需要提前完善政策工具和风险应对机制。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
+    {
+      "timestamp": "2026-11-24 12:39:11",
+      "text": "【贝莱德：预计2027年通胀降温，市场押注美联储加息过度】包括Wei Li在内的贝莱德投资研究所（BII）策略师在一份报告中写道：“我们认为，即便市场目前对美联储加息的定价高于我们的预期，整体通胀仍将在2027年降温。”该机构偏好短中期美国国债。目前市场正定价美联储将在12月加息，并预期2027年可能还会加息多达两次。“我们认为后者的预期过高了。”随着油价、关税影响以及与人工智能相关的价格压力缓解，预计明年整体通胀将降温，同时经济增长也将放缓。“这将使美联储的紧缩力度低于市场预期。”贝莱德投资研究所的策略师表示，能源冲击对美国通胀的影响已经见顶。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-24 12:36:51",
+      "text": "【日本东京核心区二手公寓价格2013年以来首次下跌】在利率上升和库存过剩的背景下，东京市中心二手公寓价格出现降温迹象，13年多来首次出现同比下跌。房地产研究机构东京Kantei周二发布的数据显示，10月份，包括房价最高的港区和千代田区在内的东京六大核心区，70平方米（约753平方英尺）二手公寓的平均价格下跌1.1%，降至1.752亿日元（约合110万美元）。这是自2013年3月以来的首次同比下滑。东京Kantei高级研究员Masayuki Takahashi表示：“既然价格已经走低，市场必然要经历一段调整期。”他预计价格将持续下跌至明年春季左右。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和业绩承压",
+        "sentiment_score": -0.4,
+        "is_black_swan": false,
+        "action_signal": "TRIM_RISK"
+      }
+    },
     {
       "timestamp": "2026-11-24 12:32:42",
       "text": "中国央行在香港发行 200 亿元人民币3个月期央票，中标利率 1.32%。中国央行在香港发行 300 亿元人民币1年期央票，中标利率 1.41%。",
@@ -163,42 +199,6 @@
         "sentiment_score": 0.0,
         "is_black_swan": false,
         "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-24 11:24:49",
-      "text": "【大摩：小鹏短期估值更具吸引力，目标价70港元】摩根士丹利发表研报指，小鹏集团近期股价回落，令短期估值更具吸引力，该行相信其股价有约70%至80%机率，将于未来15日上升。该行指出，供应可见度改善，有助支持小鹏11月及12月每月产能达6万辆以上的目标，并带动明年持续高增长。该行维持公司“增持”评级，续予目标价70港元。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-24 11:22:27",
-      "text": "大华银行将新加坡2026年GDP增长预期从5.7%上调至6.1%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-24 10:57:25",
-      "text": "【远控类僵尸网络家族Cling新变种大范围传播，国家互联网应急中心发布风险提示】近期，国家互联网应急中心（CNCERT）监测发现，僵尸网络家族Cling的新变种正在大范围传播，主要针对Linux服务器及IoT设备。该木马采用创新性的通信机制，隐匿能力极强：其控制端隐匿于公共STUN服务之中，指令嵌入STUN事务标识（Transaction ID）字段，使控制流量隐藏于海量正常STUN交互之中，传统监测手段难以有效察觉。2026年11月09日至11月20日期间，CNCERT监测发现该僵尸网络感染的日上线肉鸡数最高达到2730台，累计已有5600台设备受其感染。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "退市警示",
-        "sentiment_score": -0.95,
-        "is_black_swan": true,
-        "action_signal": "EMERGENCY_LIQUIDATE"
       }
     }
   ]
