@@ -2,30 +2,40 @@
   "account_id": "WHALE-100K-AGGRESSIVE",
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
-  "cash": 20506.24,
-  "portfolio_value": 74227.24,
-  "account_nav": 0.7423,
+  "cash": 5488.96,
+  "portfolio_value": 75619.96,
+  "account_nav": 0.7562,
   "bench_nav": 1.0017,
   "positions": {
     "688981.SS": {
       "name": "中芯国际",
       "shares": 100,
       "avg_cost": 113.76,
-      "last_price": 121.6,
-      "market_value": 12160.0,
-      "pnl": 304.0,
-      "pnl_pct": 2.67,
-      "highest": 116.8
+      "last_price": 126.06,
+      "market_value": 12606.0,
+      "pnl": 1230.0,
+      "pnl_pct": 10.81,
+      "highest": 126.06
     },
-    "301236.SZ": {
-      "name": "软通动力",
-      "shares": 1300,
-      "avg_cost": 33.43,
-      "last_price": 31.97,
-      "market_value": 41561.0,
+    "300394.SZ": {
+      "name": "天孚通信",
+      "shares": 300,
+      "avg_cost": 128.36,
+      "last_price": 128.36,
+      "market_value": 38508.0,
       "pnl": 0.0,
       "pnl_pct": 0.0,
-      "highest": 33.43
+      "highest": 128.36
+    },
+    "300502.SZ": {
+      "name": "新易盛",
+      "shares": 100,
+      "avg_cost": 190.17,
+      "last_price": 190.17,
+      "market_value": 19017.0,
+      "pnl": 0.0,
+      "pnl_pct": 0.0,
+      "highest": 190.17
     }
   },
   "rules": {
@@ -35,7 +45,7 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-23 00:05:10",
+  "last_updated": "2026-11-23 18:16:41",
   "benchmark": {
     "last_price": 4.023,
     "nav": 0.8715
