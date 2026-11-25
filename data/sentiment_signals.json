@@ -1,16 +1,25 @@
 {
-  "audit_time": "2026-11-24 22:15:21",
+  "audit_time": "2026-11-24 22:30:38",
   "total_news_scanned": 100,
-  "relevant_events_found": 12,
+  "relevant_events_found": 16,
   "black_swan_count": 0,
   "black_swan_alerts": [],
   "positive_catalysts": [],
   "stock_sentiment_summary": {
+    "601138.SS": {
+      "ticker": "601138.SS",
+      "name": "工业富联",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
     "300750.SZ": {
       "ticker": "300750.SZ",
       "name": "宁德时代",
       "avg_sentiment": 0.0,
-      "news_count": 2,
+      "news_count": 1,
       "latest_events": [
         "行业资讯/宏观动态"
       ]
@@ -23,31 +32,94 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
-    },
-    "601138.SS": {
-      "ticker": "601138.SS",
-      "name": "工业富联",
-      "avg_sentiment": 0.0,
-      "news_count": 1,
-      "latest_events": [
-        "行业资讯/宏观动态"
-      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-25 14:30:12",
+      "text": "高途科技教育第三季度净营收18.7亿元人民币，同比增长18%。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-25 14:22:37",
+      "text": "【机构：部分CSP需求下修影响价格展望，2027年存储器产值增速放缓】根据TrendForce集邦咨询最新存储器产业研究，由于部分云端服务供应商（CSP）下修2027年存储器订单，预计NAND Flash产业在供给续增的情况下，将进入价格下行循环，全年产值因此较先前预估下调至约4,193亿美元。DRAM市场尽管得以延续供不应求态势，但价格涨幅将逐季收敛，2027年产值预估下修至1.15万亿美元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "产品景气提价",
+        "sentiment_score": 0.7,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-25 14:20:08",
+      "text": "【韩国科学技术部长谈黄仁勋复职：回归快于预期，韩方GPU供应合作已落地】韩国科学技术部长裴庆勋也英伟达首席执行官黄仁勋复职一事作出表态。他称，原本预料黄仁勋会回归，但这次重新履职 “速度远超预期”。裴庆勋表示：“我们并不太担心，因为双方已经在工作层面敲定了如何深化图形处理器供应方面的合作。”",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "重大业绩预增",
+        "sentiment_score": 0.95,
+        "is_black_swan": false,
+        "action_signal": "STRONG_ACCUMULATE"
+      }
+    },
+    {
+      "timestamp": "2026-11-25 14:18:25",
+      "text": "【大和：重申农夫山泉“买入”评级，视为中国食品饮料板块首选】大和发表研报指，农夫山泉在无糖茶的护城河及增长前景可支撑有关估值溢价，重申“买入”评级，视其为中国食品饮料板块首选。该行指，中国瓶装水市场约393亿美元，占整体软饮料市场约35%，规模约为减糖即饮茶的3倍。随着健康趋势及茶文化口味延续，该行认为中国无糖茶增长跑道仍然漫长，农夫山泉在该领域市占约90%，护城河稳固并持续引领增长。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-25 14:17:06",
+      "text": "摩根大通将雷诺评级从增持下调至中性，并将目标价从45欧元下调至35欧元。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-25 14:16:29",
+      "text": "【斗鱼及创始人陈少杰被执行1.9亿】天眼查法律诉讼信息显示，近日，斗鱼关联公司武汉斗鱼网络科技有限公司、创始人陈少杰新增1则被执行人信息，执行标的1.9亿余元人民币，执行法院为都江堰市人民法院。该公司成立于2015年5月，法定代表人为高杰，注册资本约2234万元人民币，经营范围包括计算机、网络科技领域内的技术开发、技术转让、技术咨询、技术服务等，由陈少杰、林芝利创信息技术有限公司、武汉超赛商务信息咨询合伙企业（有限合伙）等共同持股。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "流动性与债务违约",
+        "sentiment_score": -0.9,
+        "is_black_swan": true,
+        "action_signal": "EMERGENCY_LIQUIDATE"
+      }
+    },
     {
       "timestamp": "2026-11-25 14:10:03",
       "text": "【主力资金：转融券标的板块净流出超305亿】截至目前，今日主力资金净流出319.74亿；净流入中药、新零售、抗流感等板块，其中中药板块净流入13.58亿；净流出转融券标的、融资融券、芯片概念等板块，其中转融券标的板块净流出305.64亿。\n  \n个股方面，天孚通信净买入10.04亿元位居首位，青山纸业、京东方Ａ、贵州茅台主力资金净流入居前；长鑫科技净卖出11.27亿元位居首位，宁德时代、工业富联、兆易创新净流出额居前。",
       "analysis": {
         "matched_tickers": [
+          "601138.SS",
           "300750.SZ",
-          "600519.SS",
-          "601138.SS"
+          "600519.SS"
         ],
         "matched_names": [
+          "贵州茅台",
           "工业富联",
-          "宁德时代",
-          "贵州茅台"
+          "宁德时代"
         ],
         "event_category": "行业资讯/宏观动态",
         "sentiment_score": 0.0,
@@ -149,46 +221,6 @@
         "sentiment_score": 0.4,
         "is_black_swan": false,
         "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-25 13:48:04",
-      "text": "沙特9月商品出口增长14.2%。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-25 13:32:36",
-      "text": "【宁德时代跌超6%创19个月新低 A+H股总市值跌破1万亿】电池龙头宁德时代午后扩大跌幅至6%，股价较5月7日历史高点回撤超54%，刷新19个月以来新低，A+H股总市值跌破1万亿。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
-      }
-    },
-    {
-      "timestamp": "2026-11-25 13:29:01",
-      "text": "马来西亚通信监管机构：在对谷歌的两起诉讼中分别寻求3亿林吉特的赔偿。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
       }
     }
   ]
