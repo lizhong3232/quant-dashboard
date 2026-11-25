@@ -1,5 +1,5 @@
 {
-  "audit_time": "2026-11-24 22:00:26",
+  "audit_time": "2026-11-24 22:15:21",
   "total_news_scanned": 100,
   "relevant_events_found": 12,
   "black_swan_count": 0,
@@ -14,9 +14,83 @@
       "latest_events": [
         "行业资讯/宏观动态"
       ]
+    },
+    "600519.SS": {
+      "ticker": "600519.SS",
+      "name": "贵州茅台",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
+    },
+    "601138.SS": {
+      "ticker": "601138.SS",
+      "name": "工业富联",
+      "avg_sentiment": 0.0,
+      "news_count": 1,
+      "latest_events": [
+        "行业资讯/宏观动态"
+      ]
     }
   },
   "recent_analyzed_news": [
+    {
+      "timestamp": "2026-11-25 14:10:03",
+      "text": "【主力资金：转融券标的板块净流出超305亿】截至目前，今日主力资金净流出319.74亿；净流入中药、新零售、抗流感等板块，其中中药板块净流入13.58亿；净流出转融券标的、融资融券、芯片概念等板块，其中转融券标的板块净流出305.64亿。\n  \n个股方面，天孚通信净买入10.04亿元位居首位，青山纸业、京东方Ａ、贵州茅台主力资金净流入居前；长鑫科技净卖出11.27亿元位居首位，宁德时代、工业富联、兆易创新净流出额居前。",
+      "analysis": {
+        "matched_tickers": [
+          "300750.SZ",
+          "600519.SS",
+          "601138.SS"
+        ],
+        "matched_names": [
+          "工业富联",
+          "宁德时代",
+          "贵州茅台"
+        ],
+        "event_category": "行业资讯/宏观动态",
+        "sentiment_score": 0.0,
+        "is_black_swan": false,
+        "action_signal": "NEUTRAL"
+      }
+    },
+    {
+      "timestamp": "2026-11-25 14:08:55",
+      "text": "【大摩：维持哔哩哔哩-W美股目标价21美元 评级“增持”】摩根士丹利发布研报称，维持哔哩哔哩-W(09626)美股(BILI.US)“增持”评级及21美元目标价。公司第三季度电话会议显示流量增长仍然健康，管理层预计全年经调整经营利润约为28亿元人民币，并对2027年游戏收入实现双位数增长有信心。尽管市占率持续提升，宏观环境仍是广告业务最大的不确定因素。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-25 14:08:13",
+      "text": "【瑞银：全球AI投资料2027年增至1.4万亿美元 建议分散回报来源增强组合韧性】瑞银财富管理投资总监办公室发表《2027年度展望》报告。报告指出，2027年总体环境依然有利。全球通胀预计将放缓，但各国进展可能不一。与此同时，债务问题应保持可控。人工智能投资也有望继续增长，预计2027年全球AI投资将由2026年的1万亿美元上升至1.4万亿美元，2028年进一步增加至1.5万亿美元。另一方面，政府政策对经济走势的影响日益加大，AI产能集中于少数大型企业，投资者愈发注重投入能否取得相应的回报，而且地缘政治仍不时引发市场波动。在此背景下，投资者不应仅寄望于市场本身的韧性，而应分散回报来源，增强投资组合的韧性。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
+    {
+      "timestamp": "2026-11-25 14:04:19",
+      "text": "【美国钢铁价格达到四年来新高 亚洲钢铁无视关税大量涌入美国】由于数据中心建设需求大量的钢铁，美国国内钢铁价格已经达到四年来的最高水平，这也迫使买家转向来自亚洲的钢铁供应。本周，美国最大的钢铁生产商纽柯公司将热轧卷板的出厂价格上调至每短吨1330美元，延续了自夏季以来每周上涨的趋势，而一年前热轧钢的报价还不到900美元。但美国国内钢铁供应已逼近极限，富国银行分析师Timna Tanners表示，美国市场目前对钢材的需求非常庞大，当地钢厂无法向买家提供足够的钢材，因此他们正在缩减2027年的供应协议。这也让进口钢铁重新成为市场热点。此前，美国政府征收的50%钢铁关税大幅削减了外国钢铁对美国的进口，但在出现供应短缺之后，进口钢铁税后价格仍比美国钢铁更优。据美国钢铁协会汇编的数据显示，截至10月份，韩国扁钢进口量较2025年同期增长了68%。10月份自越南的钢铁进口申请量较9月份最终进口量翻了一番多，达到21.3万净吨，使其成为当月第四大海外供应国。",
+      "analysis": {
+        "matched_tickers": [],
+        "matched_names": [],
+        "event_category": "温和经营利好",
+        "sentiment_score": 0.4,
+        "is_black_swan": false,
+        "action_signal": "MILD_POSITIVE"
+      }
+    },
     {
       "timestamp": "2026-11-25 14:00:09",
       "text": "日本10月机床订单终值同比增长42.5%。",
@@ -115,58 +189,6 @@
         "sentiment_score": -0.35,
         "is_black_swan": false,
         "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-25 13:28:24",
-      "text": "马来西亚通信监管机构：相关诉讼指控谷歌旗下YouTube“未能对有害网络内容采取充分行动”。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-25 13:27:06",
-      "text": "马来西亚通信监管机构：对谷歌提起两起诉讼。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "涉诉法律风险",
-        "sentiment_score": -0.35,
-        "is_black_swan": false,
-        "action_signal": "TRIM_RISK"
-      }
-    },
-    {
-      "timestamp": "2026-11-25 13:05:18",
-      "text": "【力推“科技主权”：欧盟酝酿500亿欧元巨资破局AI与算力短板】据《金融时报》报道，欧盟正计划设立一项规模达 500 亿欧元的科技基金，旨在缩小创新差距。该计划由欧盟委员会牵头（包括负责科技主权、安全与民主的执行副主席亨娜·维尔库宁），核心目标是建立欧洲的“科技主权”，防止高增长的本土初创企业因缺乏后期融资而外流至海外。 尽管欧洲拥有大量早期创业者，但由于 27 个成员国监管碎片化以及后期风险投资匮乏，近 30% 的欧洲独角兽企业最终选择迁往海外。该基金旨在提供大规模成长期资本，帮助欧洲企业成长为全球领军者。资金将重点投向欧洲目前落后于竞争对手的关键领域，尤其是人工智能（包括 AI “超级工厂”与算力基础设施）、量子计算、半导体、清洁技术以及生物技术。",
-      "analysis": {
-        "matched_tickers": [],
-        "matched_names": [],
-        "event_category": "温和经营利好",
-        "sentiment_score": 0.4,
-        "is_black_swan": false,
-        "action_signal": "MILD_POSITIVE"
-      }
-    },
-    {
-      "timestamp": "2026-11-25 13:00:32",
-      "text": "【宁德时代盘中跌超5%】A股宁德时代盘中跌超5%，现报215.80元。",
-      "analysis": {
-        "matched_tickers": [
-          "300750.SZ"
-        ],
-        "matched_names": [
-          "宁德时代"
-        ],
-        "event_category": "行业资讯/宏观动态",
-        "sentiment_score": 0.0,
-        "is_black_swan": false,
-        "action_signal": "NEUTRAL"
       }
     }
   ]
