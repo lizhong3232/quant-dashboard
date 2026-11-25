@@ -3,38 +3,38 @@
   "account_name": "10万元小微基金·20%高弹性复利账户",
   "initial_capital": 100000.0,
   "cash": 5488.96,
-  "portfolio_value": 75619.96,
-  "account_nav": 0.7562,
+  "portfolio_value": 77396.96,
+  "account_nav": 0.774,
   "bench_nav": 1.0017,
   "positions": {
     "688981.SS": {
       "name": "中芯国际",
       "shares": 100,
       "avg_cost": 113.76,
-      "last_price": 126.06,
-      "market_value": 12606.0,
-      "pnl": 1230.0,
-      "pnl_pct": 10.81,
+      "last_price": 124.19,
+      "market_value": 12419.0,
+      "pnl": 1043.0,
+      "pnl_pct": 9.17,
       "highest": 126.06
     },
     "300394.SZ": {
       "name": "天孚通信",
       "shares": 300,
       "avg_cost": 128.36,
-      "last_price": 128.36,
-      "market_value": 38508.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
-      "highest": 128.36
+      "last_price": 136.2,
+      "market_value": 40860.0,
+      "pnl": 2352.0,
+      "pnl_pct": 6.11,
+      "highest": 136.2
     },
     "300502.SZ": {
       "name": "新易盛",
       "shares": 100,
       "avg_cost": 190.17,
-      "last_price": 190.17,
-      "market_value": 19017.0,
-      "pnl": 0.0,
-      "pnl_pct": 0.0,
+      "last_price": 186.29,
+      "market_value": 18629.0,
+      "pnl": -388.0,
+      "pnl_pct": -2.04,
       "highest": 190.17
     }
   },
@@ -45,10 +45,10 @@
     "capital_universe": "ChiNext + STAR Market + High-Beta Tech (20% Limit)"
   },
   "created_at": "2026-09-06 23:47:52",
-  "last_updated": "2026-11-23 18:16:41",
+  "last_updated": "2026-11-24 18:11:04",
   "benchmark": {
-    "last_price": 4.023,
-    "nav": 0.8715
+    "last_price": 4.033,
+    "nav": 0.8737
   },
   "nav_history": [
     {
@@ -446,6 +446,15 @@
       "account_nav": 0.7423,
       "bench_nav": 0.8715,
       "alpha": -12.92
+    },
+    {
+      "timestamp": "2026-11-24 00:05:23",
+      "date": "2026-11-24",
+      "cash": 5488.96,
+      "portfolio_value": 72611.96,
+      "account_nav": 0.7261,
+      "bench_nav": 0.8737,
+      "alpha": -14.76
     }
   ]
 }

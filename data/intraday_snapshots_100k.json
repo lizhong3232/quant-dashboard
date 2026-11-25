@@ -2,112 +2,6 @@
   {
     "account_id": "WHALE-100K-AGGRESSIVE",
     "account_name": "10万元小微基金·20%高弹性主升浪账户",
-    "timestamp": "2026-10-29 11:15:12 CST",
-    "time_str": "11:15",
-    "date_str": "2026-10-29",
-    "portfolio_value": 85439.52,
-    "cash": 7469.52,
-    "stock_market_value": 77970.0,
-    "cash_ratio_pct": 8.74,
-    "stock_ratio_pct": 91.26,
-    "account_nav": 0.8544,
-    "bench_nav": 0.8902,
-    "bench_change_pct": -1.04,
-    "alpha_pct": -3.58,
-    "warnings_count": 0,
-    "warnings": [],
-    "positions": [
-      {
-        "ticker": "688223.SS",
-        "name": "晶科能源",
-        "shares": 11400,
-        "avg_cost": 3.94,
-        "last_price": 3.86,
-        "market_value": 44004.0,
-        "change_pct": -0.52,
-        "pnl": -912.0,
-        "pnl_pct": -2.03,
-        "ofi": -0.026,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 51.5
-      },
-      {
-        "ticker": "300124.SZ",
-        "name": "汇川技术",
-        "shares": 600,
-        "avg_cost": 56.16,
-        "last_price": 56.61,
-        "market_value": 33966.0,
-        "change_pct": 0.8,
-        "pnl": 270.0,
-        "pnl_pct": 0.8,
-        "ofi": 0.034,
-        "flow_status": "买卖力量均衡",
-        "weight_pct": 39.75
-      }
-    ],
-    "quant_data": {
-      "portfolio_value": 85439.52,
-      "cash": 7469.52,
-      "stock_market_value": 77970.0,
-      "cash_ratio_pct": 8.74,
-      "stock_ratio_pct": 91.26,
-      "account_nav": 0.8544,
-      "bench_nav": 0.8902,
-      "alpha_pct": -3.58,
-      "warnings_count": 0,
-      "warnings": [],
-      "positions": [
-        {
-          "ticker": "688223.SS",
-          "name": "晶科能源",
-          "shares": 11400,
-          "avg_cost": 3.94,
-          "last_price": 3.86,
-          "market_value": 44004.0,
-          "change_pct": -0.52,
-          "pnl": -912.0,
-          "pnl_pct": -2.03,
-          "ofi": -0.026,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 51.5
-        },
-        {
-          "ticker": "300124.SZ",
-          "name": "汇川技术",
-          "shares": 600,
-          "avg_cost": 56.16,
-          "last_price": 56.61,
-          "market_value": 33966.0,
-          "change_pct": 0.8,
-          "pnl": 270.0,
-          "pnl_pct": 0.8,
-          "ofi": 0.034,
-          "flow_status": "买卖力量均衡",
-          "weight_pct": 39.75
-        }
-      ]
-    },
-    "text_intel": {
-      "macro_headline": "硬核算力与20%弹性板块放量进攻，晶科能源、汇川技术高景气逻辑持续验证",
-      "macro_sentiment_tag": "积极看多 (High Momentum)",
-      "macro_score": 0.58,
-      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 晶科能源 (688223.SS) | 汇川技术 (300124.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
-      "holding_news": [],
-      "nlp_score": 0.62,
-      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
-    },
-    "control_record": {
-      "has_trades": false,
-      "trades": [],
-      "control_status": "ALPHA_DOMINANCE_HOLD",
-      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
-      "decision_rationale": "当前龙头持仓 (晶科能源 (688223.SS) | 汇川技术 (300124.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
-    }
-  },
-  {
-    "account_id": "WHALE-100K-AGGRESSIVE",
-    "account_name": "10万元小微基金·20%高弹性主升浪账户",
     "timestamp": "2026-10-29 11:30:12 CST",
     "time_str": "11:30",
     "date_str": "2026-10-29",
@@ -31276,6 +31170,161 @@
           "score": 0.0,
           "summary": "【工业富联获资金净流入22.93亿元】Choice数据显示，11月24日，资金净流入额排名前十的个股依次是工业富联、中际旭创、寒武纪、东山精密、阳光电源、胜宏科技、天孚通信、沪电股份、源杰科技、华虹宏力。其中，工业富联获资金净流入22.93亿元。"
         },
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "time": "今日研判",
+          "title": "先进制程与自主可控扩产预期升温，盘中多空博弈主力资金分化",
+          "source": "财联社 / 盘中异动分析",
+          "sentiment": "中性分化",
+          "score": -0.1,
+          "summary": "中芯国际产能利用率保持高位，先进封装与自主算力芯片代工需求旺盛，但短期受宏观流动性扰动出现局部订单流获利抛压。"
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "time": "今日研判",
+          "title": "海外头部云厂商全面提速 800G/1.6T 光模块采购，LPO 与 CPO 方案商业化提速",
+          "source": "中信建投 / 光通信快报",
+          "sentiment": "强劲看多",
+          "score": 0.72,
+          "summary": "新易盛作为全球头部光模块出海先锋，高毛利 800G 光模块良率持续攀升，1.6T 样品送样认证进展顺利，海外营收占比稳步提升。"
+        }
+      ],
+      "nlp_score": 0.62,
+      "black_swan_status": "0 项违规触发，龙头持仓经营态势强劲"
+    },
+    "control_record": {
+      "has_trades": false,
+      "trades": [],
+      "control_status": "ALPHA_DOMINANCE_HOLD",
+      "decision_badge": "🔒 坚决锁仓吃主升浪 (KEEP_HOLDING)",
+      "decision_rationale": "当前龙头持仓 (中芯国际 (688981.SS) | 天孚通信 (300394.SZ) | 新易盛 (300502.SZ)) 稳居第一梯队；外部最强候选未超越现有持仓 15% 门限；且硬性止损 (-2.8%) 与移动止盈 (3.5%) 均未触及，AI 坚决锁仓保护主升浪利润。"
+    }
+  },
+  {
+    "account_id": "WHALE-100K-AGGRESSIVE",
+    "account_name": "10万元小微基金·20%高弹性主升浪账户",
+    "timestamp": "2026-11-25 10:15:14 CST",
+    "time_str": "10:15",
+    "date_str": "2026-11-25",
+    "portfolio_value": 77266.96,
+    "cash": 5488.96,
+    "stock_market_value": 71778.0,
+    "cash_ratio_pct": 7.1,
+    "stock_ratio_pct": 92.9,
+    "account_nav": 0.7727,
+    "bench_nav": 0.8679,
+    "bench_change_pct": -0.67,
+    "alpha_pct": -9.52,
+    "warnings_count": 0,
+    "warnings": [],
+    "positions": [
+      {
+        "ticker": "688981.SS",
+        "name": "中芯国际",
+        "shares": 100,
+        "avg_cost": 113.76,
+        "last_price": 124.96,
+        "market_value": 12496.0,
+        "change_pct": -1.23,
+        "pnl": 1120.0,
+        "pnl_pct": 9.85,
+        "ofi": -0.017,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 16.17
+      },
+      {
+        "ticker": "300394.SZ",
+        "name": "天孚通信",
+        "shares": 300,
+        "avg_cost": 128.36,
+        "last_price": 135.67,
+        "market_value": 40701.0,
+        "change_pct": 11.6,
+        "pnl": 2193.0,
+        "pnl_pct": 5.69,
+        "ofi": 0.165,
+        "flow_status": "强势主动扫货",
+        "weight_pct": 52.68
+      },
+      {
+        "ticker": "300502.SZ",
+        "name": "新易盛",
+        "shares": 100,
+        "avg_cost": 190.17,
+        "last_price": 185.81,
+        "market_value": 18581.0,
+        "change_pct": 3.22,
+        "pnl": -436.0,
+        "pnl_pct": -2.29,
+        "ofi": 0.044,
+        "flow_status": "买卖力量均衡",
+        "weight_pct": 24.05
+      }
+    ],
+    "quant_data": {
+      "portfolio_value": 77266.96,
+      "cash": 5488.96,
+      "stock_market_value": 71778.0,
+      "cash_ratio_pct": 7.1,
+      "stock_ratio_pct": 92.9,
+      "account_nav": 0.7727,
+      "bench_nav": 0.8679,
+      "alpha_pct": -9.52,
+      "warnings_count": 0,
+      "warnings": [],
+      "positions": [
+        {
+          "ticker": "688981.SS",
+          "name": "中芯国际",
+          "shares": 100,
+          "avg_cost": 113.76,
+          "last_price": 124.96,
+          "market_value": 12496.0,
+          "change_pct": -1.23,
+          "pnl": 1120.0,
+          "pnl_pct": 9.85,
+          "ofi": -0.017,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 16.17
+        },
+        {
+          "ticker": "300394.SZ",
+          "name": "天孚通信",
+          "shares": 300,
+          "avg_cost": 128.36,
+          "last_price": 135.67,
+          "market_value": 40701.0,
+          "change_pct": 11.6,
+          "pnl": 2193.0,
+          "pnl_pct": 5.69,
+          "ofi": 0.165,
+          "flow_status": "强势主动扫货",
+          "weight_pct": 52.68
+        },
+        {
+          "ticker": "300502.SZ",
+          "name": "新易盛",
+          "shares": 100,
+          "avg_cost": 190.17,
+          "last_price": 185.81,
+          "market_value": 18581.0,
+          "change_pct": 3.22,
+          "pnl": -436.0,
+          "pnl_pct": -2.29,
+          "ofi": 0.044,
+          "flow_status": "买卖力量均衡",
+          "weight_pct": 24.05
+        }
+      ]
+    },
+    "text_intel": {
+      "macro_headline": "硬核算力与20%弹性板块放量进攻，中芯国际、天孚通信、新易盛高景气逻辑持续验证",
+      "macro_sentiment_tag": "积极看多 (High Momentum)",
+      "macro_score": 0.58,
+      "macro_summary": "创业板 300 与科创板 688 标的动量加速度明显提升，当前双龙头持仓 中芯国际 (688981.SS) | 天孚通信 (300394.SZ) | 新易盛 (300502.SZ) 高景气逻辑持续验证，全天维持高弹性主升浪进攻形态。",
+      "holding_news": [
         {
           "ticker": "688981.SS",
           "name": "中芯国际",
